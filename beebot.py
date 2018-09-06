@@ -68,7 +68,8 @@ async def on_member_remove(m):
 @bot.event
 async def on_message_delete(m):
     global LAST_DELETE
-    LAST_DELETE = m
+    if not "@everyone" in m.content and not "@here" in m.content:
+        LAST_DELETE = m
 
 
 @bot.event
@@ -117,7 +118,7 @@ async def on_message(message):
 
             await c.send(content=message)
 
-        if com in ["expose"]:
+        if com in ["expose", "gottem"]:
             global LAST_DELETE
             if LAST_DELETE != None:
                 await c.send(content=str(LAST_DELETE.author)+": "+LAST_DELETE.content)
@@ -238,7 +239,7 @@ async def on_message(message):
                 chatbot.train(CONVERSATION[channel.id])
                 del CONVERSATION[channel.id]
 
-        elif random.randint(1,20) == 10 and m.content != "" and m.content != None and not message.mentions and not m.author.bot:
+        elif random.randint(1,30) == 10 and m.content != "" and m.content != None and not message.mentions and not m.author.bot:
             response = chatbot.get_response(m.content)
             if len(str(response)) > 500:
                 return
