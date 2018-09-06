@@ -1,0 +1,563 @@
+[2018-08-01 13:00:17.793] Starting up round ID 1818.
+[2018-08-01 13:00:17.793] -------------------------
+[2018-08-01 13:00:19.998] Initialized Database subsystem within 0 seconds!
+[2018-08-01 13:00:19.998] Initialized Blackbox subsystem within 0 seconds!
+[2018-08-01 13:00:19.998] Initialized Server Tasks subsystem within 0 seconds!
+[2018-08-01 13:00:20.000] Initialized Input subsystem within 0.1 seconds!
+[2018-08-01 13:00:20.052] Initialized Research subsystem within 0 seconds!
+[2018-08-01 13:00:20.057] Initialized Events subsystem within 0 seconds!
+[2018-08-01 13:00:20.063] Initialized Jobs subsystem within 0 seconds!
+[2018-08-01 13:00:20.064] Initialized Quirks subsystem within 0 seconds!
+[2018-08-01 13:00:20.073] Initialized Ticker subsystem within 0 seconds!
+[2018-08-01 13:00:20.074] Loading Box Station...
+[2018-08-01 13:00:26.592] Loaded Station in 6.5s!
+[2018-08-01 13:00:32.611] Loaded Lavaland in 5.3s!
+[2018-08-01 13:00:37.762] Ruin loader finished with 0 left to spend.
+[2018-08-01 13:00:39.755] Ruin loader finished with 0 left to spend.
+[2018-08-01 13:00:51.070] Initialized Mapping subsystem within 31 seconds!
+[2018-08-01 13:00:51.071] Initialized Networks subsystem within 0 seconds!
+[2018-08-01 13:01:40.985] Initialized Atoms subsystem within 49.9 seconds!
+[2018-08-01 13:01:41.009] Initialized Language subsystem within 0.1 seconds!
+[2018-08-01 13:01:41.416] Initialized Machines subsystem within 0.4 seconds!
+[2018-08-01 13:01:41.469] Initialized Circuit subsystem within 0 seconds!
+[2018-08-01 13:01:41.471] Initialized Disease subsystem within 0 seconds!
+[2018-08-01 13:01:41.471] Initialized Medals subsystem within 0 seconds!
+[2018-08-01 13:01:41.471] Initialized Night Shift subsystem within 0 seconds!
+[2018-08-01 13:01:41.471] Initialized Parallax subsystem within 0 seconds!
+[2018-08-01 13:01:41.601] Initialized Traumas subsystem within 0.2 seconds!
+[2018-08-01 13:01:41.602] Initialized Weather subsystem within 0 seconds!
+[2018-08-01 13:03:00.853] ## WARNING: There are 4 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+[2018-08-01 13:03:02.340] ## WARNING: HEY! LISTEN! 1 second were wasted processing 4 turf(s) (connected to 21718 other turfs) with atmos differences at round start.
+[2018-08-01 13:03:02.839] Initialized Atmospherics subsystem within 81.2 seconds!
+[2018-08-01 13:03:02.859] Initialized Minimap subsystem within 0 seconds!
+[2018-08-01 13:03:05.155] Initialized Assets subsystem within 2.3 seconds!
+[2018-08-01 13:03:11.482] Initialized Icon Smoothing subsystem within 6.3 seconds!
+[2018-08-01 13:03:12.861] Initialized Overlay subsystem within 1.4 seconds!
+[2018-08-01 13:03:12.861] Initialized XKeyScore subsystem within 0 seconds!
+[2018-08-01 13:03:12.862] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-08-01 13:03:26.901] Initialized Lighting subsystem within 14.1 seconds!
+[2018-08-01 13:03:29.756] Initialized Shuttle subsystem within 2.8 seconds!
+[2018-08-01 13:03:29.795] Initialized Squeak subsystem within 0 seconds!
+[2018-08-01 13:03:29.796] Initialized Pathfinder subsystem within 0 seconds!
+[2018-08-01 13:03:29.854] Loaded 24 engraved messages on map Box Station
+[2018-08-01 13:03:29.886] Initialized Persistence subsystem within 0.1 seconds!
+[2018-08-01 13:03:29.886] Initializations complete within 189.9 seconds!
+[2018-08-01 13:04:38.189] Game start took 1.9s
+[2018-08-01 13:15:37.091] runtime error: The shard taking damage after deletion
+[2018-08-01 13:15:37.091] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:15:37.091]   source file: unsorted.dm,1243
+[2018-08-01 13:15:37.091]   usr: 0
+[2018-08-01 13:15:37.091]   src: the shard (/obj/item/shard)
+[2018-08-01 13:15:37.091]   src.loc: the plating (100,192,2) (/turf/open/floor/plating)
+[2018-08-01 13:15:37.091]   call stack:
+[2018-08-01 13:15:37.091] the shard (/obj/item/shard): stack trace("The shard taking damage after ...")
+[2018-08-01 13:15:37.091] the shard (/obj/item/shard): take damage(51, "brute", "bomb", 0, null, 0)
+[2018-08-01 13:15:37.091] the shard (/obj/item/shard): ex act(3, null)
+[2018-08-01 13:15:37.091] the plating (100,192,2) (/turf/open/floor/plating): Entered(the shard (/obj/item/shard), null)
+[2018-08-01 13:15:37.091] the plating (100,192,2) (/turf/open/floor/plating): Entered(the shard (/obj/item/shard), null)
+[2018-08-01 13:15:37.091] the shard (/obj/item/shard): doMove(the plating (100,192,2) (/turf/open/floor/plating))
+[2018-08-01 13:15:37.091] the shard (/obj/item/shard): doMove(the plating (100,192,2) (/turf/open/floor/plating))
+[2018-08-01 13:15:37.091] the shard (/obj/item/shard): forceMove(the plating (100,192,2) (/turf/open/floor/plating))
+[2018-08-01 13:15:37.091] the reinforced window (/obj/structure/window/reinforced/fulltile): deconstruct(0)
+[2018-08-01 13:15:37.091] the reinforced window (/obj/structure/window/reinforced/fulltile): obj destruction("bomb")
+[2018-08-01 13:15:37.091] the reinforced window (/obj/structure/window/reinforced/fulltile): take damage(31.5, "brute", "bomb", 0, null, 0)
+[2018-08-01 13:15:37.091] the reinforced window (/obj/structure/window/reinforced/fulltile): take damage(42, "brute", "bomb", 0)
+[2018-08-01 13:15:37.091] the reinforced window (/obj/structure/window/reinforced/fulltile): ex act(3, null)
+[2018-08-01 13:15:37.091] the plating (100,192,2) (/turf/open/floor/plating): contents explosion(3, null)
+[2018-08-01 13:15:37.091] the plating (100,192,2) (/turf/open/floor/plating): ex act(3, null)
+[2018-08-01 13:15:37.091] the plating (100,192,2) (/turf/open/floor/plating): ex act(3, null)
+[2018-08-01 13:15:37.091] /datum/explosion (/datum/explosion): New(the plating (100,192,2) (/turf/open/floor/plating), -1, 0, 2, 3, 0, 0, 2, 0, 0)
+[2018-08-01 13:15:37.091] 
+[2018-08-01 13:15:37.092] runtime error: The shard taking damage after deletion
+[2018-08-01 13:15:37.092] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:15:37.092]   source file: unsorted.dm,1243
+[2018-08-01 13:15:37.092]   usr: 0
+[2018-08-01 13:15:37.092]   src: the shard (/obj/item/shard)
+[2018-08-01 13:15:37.092]   src.loc: the plating (100,192,2) (/turf/open/floor/plating)
+[2018-08-01 13:15:37.092]   call stack:
+[2018-08-01 13:15:37.092] the shard (/obj/item/shard): stack trace("The shard taking damage after ...")
+[2018-08-01 13:15:37.092] the shard (/obj/item/shard): take damage(65, "brute", "bomb", 0, null, 0)
+[2018-08-01 13:15:37.092] the shard (/obj/item/shard): ex act(3, null)
+[2018-08-01 13:15:37.092] the plating (100,192,2) (/turf/open/floor/plating): Entered(the shard (/obj/item/shard), null)
+[2018-08-01 13:15:37.092] the plating (100,192,2) (/turf/open/floor/plating): Entered(the shard (/obj/item/shard), null)
+[2018-08-01 13:15:37.092] the shard (/obj/item/shard): doMove(the plating (100,192,2) (/turf/open/floor/plating))
+[2018-08-01 13:15:37.092] the shard (/obj/item/shard): doMove(the plating (100,192,2) (/turf/open/floor/plating))
+[2018-08-01 13:15:37.092] the shard (/obj/item/shard): forceMove(the plating (100,192,2) (/turf/open/floor/plating))
+[2018-08-01 13:15:37.092] the reinforced window (/obj/structure/window/reinforced/fulltile): deconstruct(0)
+[2018-08-01 13:15:37.092] the reinforced window (/obj/structure/window/reinforced/fulltile): obj destruction("bomb")
+[2018-08-01 13:15:37.092] the reinforced window (/obj/structure/window/reinforced/fulltile): take damage(31.5, "brute", "bomb", 0, null, 0)
+[2018-08-01 13:15:37.092] the reinforced window (/obj/structure/window/reinforced/fulltile): take damage(42, "brute", "bomb", 0)
+[2018-08-01 13:15:37.092] the reinforced window (/obj/structure/window/reinforced/fulltile): ex act(3, null)
+[2018-08-01 13:15:37.092] the plating (100,192,2) (/turf/open/floor/plating): contents explosion(3, null)
+[2018-08-01 13:15:37.092] the plating (100,192,2) (/turf/open/floor/plating): ex act(3, null)
+[2018-08-01 13:15:37.092] the plating (100,192,2) (/turf/open/floor/plating): ex act(3, null)
+[2018-08-01 13:15:37.092] /datum/explosion (/datum/explosion): New(the plating (100,192,2) (/turf/open/floor/plating), -1, 0, 2, 3, 0, 0, 2, 0, 0)
+[2018-08-01 13:15:37.092] 
+[2018-08-01 13:18:02.640] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.640] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.640]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.640]   usr: null
+[2018-08-01 13:18:02.640]   src: the floor (44,150,8) (/turf/open/floor/plasteel)
+[2018-08-01 13:18:02.640]   call stack:
+[2018-08-01 13:18:02.640] the floor (44,150,8) (/turf/open/floor/plasteel): archive()
+[2018-08-01 13:18:02.640] the floor (44,149,8) (/turf/open/floor/plasteel): process cell(1540)
+[2018-08-01 13:18:02.640] Atmospherics (/datum/controller/subsystem/air): process active turfs(1)
+[2018-08-01 13:18:02.640] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-08-01 13:18:02.640] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-08-01 13:18:02.640] Master (/datum/controller/master): RunQueue()
+[2018-08-01 13:18:02.640] Master (/datum/controller/master): Loop()
+[2018-08-01 13:18:02.640] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-01 13:18:02.640] 
+[2018-08-01 13:18:02.641] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.641] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.641]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.641]   usr: null
+[2018-08-01 13:18:02.641]   src: /datum/gas_mixture/turf (/datum/gas_mixture/turf)
+[2018-08-01 13:18:02.641]   call stack:
+[2018-08-01 13:18:02.641] /datum/gas_mixture/turf (/datum/gas_mixture/turf): compare(null)
+[2018-08-01 13:18:02.641] the floor (44,149,8) (/turf/open/floor/plasteel): process cell(1540)
+[2018-08-01 13:18:02.641] Atmospherics (/datum/controller/subsystem/air): process active turfs(1)
+[2018-08-01 13:18:02.641] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-08-01 13:18:02.641] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-08-01 13:18:02.641] Master (/datum/controller/master): RunQueue()
+[2018-08-01 13:18:02.641] Master (/datum/controller/master): Loop()
+[2018-08-01 13:18:02.641] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-01 13:18:02.641] 
+[2018-08-01 13:18:02.646] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.646] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.646]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.646]   usr: null
+[2018-08-01 13:18:02.646]   src: space (84,190,8) (/turf/open/space)
+[2018-08-01 13:18:02.646]   call stack:
+[2018-08-01 13:18:02.646] space (84,190,8) (/turf/open/space): archive()
+[2018-08-01 13:18:02.646] space (85,190,8) (/turf/open/space/basic): process cell(1540)
+[2018-08-01 13:18:02.646] Atmospherics (/datum/controller/subsystem/air): process active turfs(1)
+[2018-08-01 13:18:02.646] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-08-01 13:18:02.646] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-08-01 13:18:02.646] Master (/datum/controller/master): RunQueue()
+[2018-08-01 13:18:02.646] Master (/datum/controller/master): Loop()
+[2018-08-01 13:18:02.646] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-01 13:18:02.646] 
+[2018-08-01 13:18:02.646] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.646] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.646]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.646] 
+[2018-08-01 13:18:02.646] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.646] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.646]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.646] 
+[2018-08-01 13:18:02.647] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.647] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.647]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.647] 
+[2018-08-01 13:18:02.647] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.647] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.647]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.647] 
+[2018-08-01 13:18:02.648] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.648] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.648]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.648] 
+[2018-08-01 13:18:02.721] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.721] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.721]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.721] 
+[2018-08-01 13:18:02.721] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.721] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.721]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.721] 
+[2018-08-01 13:18:02.722] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.722] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.722]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.722] 
+[2018-08-01 13:18:02.722] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.722] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.722]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.722] 
+[2018-08-01 13:18:02.722] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.722] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.722]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.722] 
+[2018-08-01 13:18:02.723] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.723] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.723]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.723] 
+[2018-08-01 13:18:02.723] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.723] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.723]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.723] 
+[2018-08-01 13:18:02.723] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.723] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.723]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.723] 
+[2018-08-01 13:18:02.724] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.724] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.724]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.724] 
+[2018-08-01 13:18:02.724] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.724] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.724]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.724] 
+[2018-08-01 13:18:02.725] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.725] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.725]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.725] 
+[2018-08-01 13:18:02.725] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.725] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.725]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.725] 
+[2018-08-01 13:18:02.726] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.726] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.726]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.726] 
+[2018-08-01 13:18:02.726] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.726] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.726]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.726] 
+[2018-08-01 13:18:02.726] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.726] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.726]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.726] 
+[2018-08-01 13:18:02.727] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.727] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.727]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.727] 
+[2018-08-01 13:18:02.727] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.728] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.728]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.728] 
+[2018-08-01 13:18:02.728] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.728] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.728]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.728] 
+[2018-08-01 13:18:02.728] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:02.728] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:02.728]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:02.728] 
+[2018-08-01 13:18:02.729] runtime error: Cannot read null.gases
+[2018-08-01 13:18:02.729] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:02.729]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:02.729] 
+[2018-08-01 13:18:04.351] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:04.351] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:04.351]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:04.351] 
+[2018-08-01 13:18:04.351] runtime error: Cannot read null.gases
+[2018-08-01 13:18:04.351] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:04.351]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:04.351] 
+[2018-08-01 13:18:04.352] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:04.352] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:04.352]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:04.352] 
+[2018-08-01 13:18:04.352] runtime error: Cannot read null.gases
+[2018-08-01 13:18:04.352] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:04.352]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:04.352] 
+[2018-08-01 13:18:04.352] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:04.352] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:04.352]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:04.352] 
+[2018-08-01 13:18:04.353] runtime error: Cannot read null.gases
+[2018-08-01 13:18:04.353] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:04.353]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:04.353] 
+[2018-08-01 13:18:04.353] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:04.353] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:04.353]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:04.353] 
+[2018-08-01 13:18:04.354] runtime error: Cannot read null.gases
+[2018-08-01 13:18:04.354] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:04.354]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:04.354] 
+[2018-08-01 13:18:04.354] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:04.354] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:04.354]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:04.354] 
+[2018-08-01 13:18:04.354] runtime error: Cannot read null.gases
+[2018-08-01 13:18:04.354] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:04.354]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:04.354] 
+[2018-08-01 13:18:04.355] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:04.355] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:04.355]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:04.355] 
+[2018-08-01 13:18:04.355] runtime error: Cannot read null.gases
+[2018-08-01 13:18:04.355] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:04.355]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:04.355] 
+[2018-08-01 13:18:06.013] runtime error: Cannot execute null.archive().
+[2018-08-01 13:18:06.013] proc name: archive (/turf/open/archive)
+[2018-08-01 13:18:06.013]   source file: LINDA_turf_tile.dm,91
+[2018-08-01 13:18:06.013] 
+[2018-08-01 13:18:06.014] runtime error: Cannot read null.gases
+[2018-08-01 13:18:06.014] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-01 13:18:06.014]   source file: gas_mixture.dm,384
+[2018-08-01 13:18:06.014] 
+[2018-08-01 13:22:25.003] ### VarEdit by Re1Taz/(Jack Gray): /obj/item/card/id/captains_spare name=captain's spare ID => Jack Gray's ID Card (MiniStation Captain)
+[2018-08-01 13:32:29.610] ## WARNING: couldn't find shuttle with id:  in code/controllers/subsystem/shuttle.dm at line 159 src: Shuttle usr: Adamantine Dacite.
+[2018-08-01 13:55:25.326] runtime error: Cannot execute null.start().
+[2018-08-01 13:55:25.326] proc name: take damage (/obj/machinery/porta_turret/take_damage)
+[2018-08-01 13:55:25.326]   source file: portable_turret.dm,328
+[2018-08-01 13:55:25.326] 
+[2018-08-01 13:55:33.131] runtime error: The shard taking damage after deletion
+[2018-08-01 13:55:33.131] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:55:33.131]   source file: unsorted.dm,1243
+[2018-08-01 13:55:33.131] 
+[2018-08-01 13:55:33.132] runtime error: The shard taking damage after deletion
+[2018-08-01 13:55:33.132] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:55:33.132]   source file: unsorted.dm,1243
+[2018-08-01 13:55:33.132] 
+[2018-08-01 13:55:35.240] runtime error: The shard taking damage after deletion
+[2018-08-01 13:55:35.240] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:55:35.240]   source file: unsorted.dm,1243
+[2018-08-01 13:55:35.240] 
+[2018-08-01 13:55:35.240] runtime error: The shard taking damage after deletion
+[2018-08-01 13:55:35.240] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:55:35.240]   source file: unsorted.dm,1243
+[2018-08-01 13:55:35.240] 
+[2018-08-01 13:55:43.179] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:55:43.179] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:55:43.179]   source file: unsorted.dm,1240
+[2018-08-01 13:55:43.179] 
+[2018-08-01 13:55:43.179] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:55:43.179] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:55:43.179]   source file: unsorted.dm,1240
+[2018-08-01 13:55:43.179] 
+[2018-08-01 13:55:52.408] runtime error: The research director's console taking damage after deletion
+[2018-08-01 13:55:52.408] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:55:52.408]   source file: unsorted.dm,1243
+[2018-08-01 13:55:52.408] 
+[2018-08-01 13:55:54.727] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:55:54.727] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:55:54.727]   source file: unsorted.dm,1240
+[2018-08-01 13:55:54.727] 
+[2018-08-01 13:56:01.897] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:01.897] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:01.897]   source file: unsorted.dm,1240
+[2018-08-01 13:56:01.897] 
+[2018-08-01 13:56:02.519] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:02.519] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:02.519]   source file: unsorted.dm,1240
+[2018-08-01 13:56:02.519] 
+[2018-08-01 13:56:06.098] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:06.098] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:06.098]   source file: unsorted.dm,1240
+[2018-08-01 13:56:06.098] 
+[2018-08-01 13:56:06.722] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:06.722] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:06.722]   source file: unsorted.dm,1240
+[2018-08-01 13:56:06.722] 
+[2018-08-01 13:56:06.731] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:06.731] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:06.731]   source file: unsorted.dm,1240
+[2018-08-01 13:56:06.731] 
+[2018-08-01 13:56:07.511] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:07.511] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:07.511]   source file: unsorted.dm,1240
+[2018-08-01 13:56:07.511] 
+[2018-08-01 13:56:08.013] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:08.014] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:08.014]   source file: unsorted.dm,1240
+[2018-08-01 13:56:08.014] 
+[2018-08-01 13:56:10.203] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:10.203] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:10.203]   source file: unsorted.dm,1240
+[2018-08-01 13:56:10.203] 
+[2018-08-01 13:56:10.747] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:10.747] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:10.747]   source file: unsorted.dm,1240
+[2018-08-01 13:56:10.747] 
+[2018-08-01 13:56:12.640] runtime error: The cigarette taking damage after deletion
+[2018-08-01 13:56:12.640] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:56:12.640]   source file: unsorted.dm,1243
+[2018-08-01 13:56:12.640] 
+[2018-08-01 13:56:12.640] runtime error: The cigarette taking damage after deletion
+[2018-08-01 13:56:12.640] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:56:12.640]   source file: unsorted.dm,1243
+[2018-08-01 13:56:12.640] 
+[2018-08-01 13:56:14.335] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:14.335] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:14.335]   source file: unsorted.dm,1240
+[2018-08-01 13:56:14.335] 
+[2018-08-01 13:56:14.479] runtime error: The cigarette taking damage after deletion
+[2018-08-01 13:56:14.479] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:56:14.479]   source file: unsorted.dm,1243
+[2018-08-01 13:56:14.479] 
+[2018-08-01 13:56:14.480] runtime error: The cigarette taking damage after deletion
+[2018-08-01 13:56:14.480] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:56:14.480]   source file: unsorted.dm,1243
+[2018-08-01 13:56:14.480] 
+[2018-08-01 13:56:14.481] runtime error: The cigarette taking damage after deletion
+[2018-08-01 13:56:14.481] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:56:14.481]   source file: unsorted.dm,1243
+[2018-08-01 13:56:14.481] 
+[2018-08-01 13:56:18.413] runtime error: The turret taking damage after deletion
+[2018-08-01 13:56:18.413] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:56:18.413]   source file: unsorted.dm,1243
+[2018-08-01 13:56:18.413] 
+[2018-08-01 13:56:18.514] runtime error: Cannot execute null.start().
+[2018-08-01 13:56:18.514] proc name: take damage (/obj/machinery/porta_turret/take_damage)
+[2018-08-01 13:56:18.514]   source file: portable_turret.dm,328
+[2018-08-01 13:56:18.514] 
+[2018-08-01 13:56:18.916] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:18.916] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:18.916]   source file: unsorted.dm,1240
+[2018-08-01 13:56:18.916] 
+[2018-08-01 13:56:18.916] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:18.917] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:18.917]   source file: unsorted.dm,1240
+[2018-08-01 13:56:18.917] 
+[2018-08-01 13:56:19.938] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:19.938] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:19.938]   source file: unsorted.dm,1240
+[2018-08-01 13:56:19.938] 
+[2018-08-01 13:56:19.938] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:19.938] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:19.938]   source file: unsorted.dm,1240
+[2018-08-01 13:56:19.938] 
+[2018-08-01 13:56:20.429] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:20.429] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:20.429]   source file: unsorted.dm,1240
+[2018-08-01 13:56:20.429] 
+[2018-08-01 13:56:24.402] runtime error: The cable piece taking damage after deletion
+[2018-08-01 13:56:24.402] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:56:24.402]   source file: unsorted.dm,1243
+[2018-08-01 13:56:24.402] 
+[2018-08-01 13:56:30.864] runtime error: The cable piece taking damage after deletion
+[2018-08-01 13:56:30.864] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:56:30.864]   source file: unsorted.dm,1243
+[2018-08-01 13:56:30.864] 
+[2018-08-01 13:56:46.998] runtime error: The gas flow meter taking damage after deletion
+[2018-08-01 13:56:46.998] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:56:46.998]   source file: unsorted.dm,1243
+[2018-08-01 13:56:46.998] 
+[2018-08-01 13:56:48.144] runtime error: The cable piece taking damage after deletion
+[2018-08-01 13:56:48.144] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:56:48.144]   source file: unsorted.dm,1243
+[2018-08-01 13:56:48.144] 
+[2018-08-01 13:56:56.547] runtime error: The turret taking damage after deletion
+[2018-08-01 13:56:56.547] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:56:56.547]   source file: unsorted.dm,1243
+[2018-08-01 13:56:56.547] 
+[2018-08-01 13:56:56.741] runtime error: The turret taking damage after deletion
+[2018-08-01 13:56:56.741] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-01 13:56:56.741]   source file: unsorted.dm,1243
+[2018-08-01 13:56:56.742] 
+[2018-08-01 13:56:57.241] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:57.242] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:57.242]   source file: unsorted.dm,1240
+[2018-08-01 13:56:57.242] 
+[2018-08-01 13:56:57.242] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:57.242] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:57.242]   source file: unsorted.dm,1240
+[2018-08-01 13:56:57.242] 
+[2018-08-01 13:56:57.242] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:57.242] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:57.242]   source file: unsorted.dm,1240
+[2018-08-01 13:56:57.242] 
+[2018-08-01 13:56:57.545] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:57.545] proc name: stack trace (/proc/stack_trace)
+[2018-08-01 13:56:57.545]   source file: unsorted.dm,1240
+[2018-08-01 13:56:57.545] 
+[2018-08-01 13:56:57.754] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:57.754] Warning: further proc crash messages are being suppressed to prevent overload...
+[2018-08-01 13:56:57.754] 
+[2018-08-01 13:56:57.754] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:57.754] 
+[2018-08-01 13:56:58.046] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:58.046] 
+[2018-08-01 13:56:58.046] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:58.046] 
+[2018-08-01 13:56:58.047] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:58.047] 
+[2018-08-01 13:56:58.047] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:58.047] 
+[2018-08-01 13:56:59.490] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:59.490] 
+[2018-08-01 13:56:59.491] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-01 13:56:59.491] 
+[2018-08-01 13:57:01.267] runtime error: The cable piece taking damage after deletion
+[2018-08-01 13:57:01.268] 
+[2018-08-01 13:57:06.279] runtime error: The cable piece taking damage after deletion
+[2018-08-01 13:57:06.280] 
+[2018-08-01 13:57:07.976] runtime error: The gas flow meter taking damage after deletion
+[2018-08-01 13:57:07.976] 
+[2018-08-01 14:03:45.034] runtime error: Ghostize was called on a virtual reality mob
+[2018-08-01 14:03:45.034] 
+[2018-08-01 14:08:44.703] runtime error: list index out of bounds
+[2018-08-01 14:08:44.703] 
+[2018-08-01 14:10:34.039] runtime error: Cannot create objects of type null.
+[2018-08-01 14:10:34.039] 
+[2018-08-01 14:12:35.903] ## WARNING: couldn't find dock with id: pod_away in code/controllers/subsystem/shuttle.dm at line 165 src: Shuttle usr: .
+[2018-08-01 14:12:35.904] runtime error: Cannot execute null.get docked().
+[2018-08-01 14:12:35.904] 
+[2018-08-01 14:12:35.904] ## WARNING: couldn't find dock with id: pod_away in code/controllers/subsystem/shuttle.dm at line 165 src: Shuttle usr: .
+[2018-08-01 14:12:35.904] runtime error: Cannot execute null.get docked().
+[2018-08-01 14:12:35.905] 
+[2018-08-01 14:16:37.785] Saved 24 engraved messages on map Box Station
+[2018-08-01 14:18:14.070] Shutting down Persistence subsystem...
+[2018-08-01 14:18:14.071] Shutting down Pathfinder subsystem...
+[2018-08-01 14:18:14.071] Shutting down Squeak subsystem...
+[2018-08-01 14:18:14.071] Shutting down Shuttle subsystem...
+[2018-08-01 14:18:14.071] Shutting down Lighting subsystem...
+[2018-08-01 14:18:14.071] Shutting down XKeyScore subsystem...
+[2018-08-01 14:18:14.071] Shutting down Sticky Ban subsystem...
+[2018-08-01 14:18:14.071] Shutting down Overlay subsystem...
+[2018-08-01 14:18:14.114] Shutting down Icon Smoothing subsystem...
+[2018-08-01 14:18:14.114] Shutting down Assets subsystem...
+[2018-08-01 14:18:14.114] Shutting down Minimap subsystem...
+[2018-08-01 14:18:14.114] Shutting down Atmospherics subsystem...
+[2018-08-01 14:18:14.114] Shutting down Wet floors subsystem...
+[2018-08-01 14:18:14.114] Shutting down Weather subsystem...
+[2018-08-01 14:18:14.114] Shutting down Vote subsystem...
+[2018-08-01 14:18:14.114] Shutting down Traumas subsystem...
+[2018-08-01 14:18:14.114] Shutting down Title Screen subsystem...
+[2018-08-01 14:18:14.115] Shutting down Time Tracking subsystem...
+[2018-08-01 14:18:14.115] Shutting down Throwing subsystem...
+[2018-08-01 14:18:14.115] Shutting down tgui subsystem...
+[2018-08-01 14:18:14.115] Shutting down Sun subsystem...
+[2018-08-01 14:18:14.116] Shutting down Space Drift subsystem...
+[2018-08-01 14:18:14.116] Shutting down Religion subsystem...
+[2018-08-01 14:18:14.116] Shutting down Radio subsystem...
+[2018-08-01 14:18:14.116] Shutting down Radiation subsystem...
+[2018-08-01 14:18:14.116] Shutting down Projectiles subsystem...
+[2018-08-01 14:18:14.116] Shutting down Processing subsystem...
+[2018-08-01 14:18:14.116] Shutting down Ping subsystem...
+[2018-08-01 14:18:14.117] Shutting down Parallax subsystem...
+[2018-08-01 14:18:14.117] Shutting down pAI subsystem...
+[2018-08-01 14:18:14.117] Shutting down Orbits subsystem...
+[2018-08-01 14:18:14.117] Shutting down Objects subsystem...
+[2018-08-01 14:18:14.117] Shutting down NPC Pool subsystem...
+[2018-08-01 14:18:14.117] Shutting down Night Shift subsystem...
+[2018-08-01 14:18:14.117] Shutting down Mood subsystem...
+[2018-08-01 14:18:14.117] Shutting down Mobs subsystem...
+[2018-08-01 14:18:14.117] Shutting down Medals subsystem...
+[2018-08-01 14:18:14.117] Shutting down Idling NPC Pool subsystem...
+[2018-08-01 14:18:14.117] Shutting down Fire Burning subsystem...
+[2018-08-01 14:18:14.118] Shutting down Fields subsystem...
+[2018-08-01 14:18:14.118] Shutting down Fast Processing subsystem...
+[2018-08-01 14:18:14.118] Shutting down Disease subsystem...
+[2018-08-01 14:18:14.118] Shutting down Datum Component System subsystem...
+[2018-08-01 14:18:14.118] Shutting down Communications subsystem...
+[2018-08-01 14:18:14.118] Shutting down Augury subsystem...
+[2018-08-01 14:18:14.118] Shutting down Acid subsystem...
+[2018-08-01 14:18:14.118] Shutting down Timer subsystem...
+[2018-08-01 14:18:14.118] Shutting down Circuit subsystem...
+[2018-08-01 14:18:14.118] Shutting down Machines subsystem...
+[2018-08-01 14:18:14.119] Shutting down Language subsystem...
+[2018-08-01 14:18:14.119] Shutting down Atoms subsystem...
+[2018-08-01 14:18:14.119] Shutting down Networks subsystem...
+[2018-08-01 14:18:14.119] Shutting down Mapping subsystem...
+[2018-08-01 14:18:14.120] Shutting down Ticker subsystem...
+[2018-08-01 14:18:14.349] Shutting down Quirks subsystem...
+[2018-08-01 14:18:14.349] Shutting down Jobs subsystem...
+[2018-08-01 14:18:14.349] Shutting down Events subsystem...
+[2018-08-01 14:18:14.349] Shutting down Research subsystem...
+[2018-08-01 14:18:14.349] Shutting down Input subsystem...
+[2018-08-01 14:18:14.350] Shutting down Server Tasks subsystem...
+[2018-08-01 14:18:14.350] Shutting down Blackbox subsystem...
+[2018-08-01 14:18:14.630] Shutting down Database subsystem...
+[2018-08-01 14:18:14.668] Shutting down Garbage subsystem...
+[2018-08-01 14:18:14.904] Shutdown complete
+[2018-08-01 14:18:14.905] World rebooted at 14:18:14

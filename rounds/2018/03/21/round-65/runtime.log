@@ -1,0 +1,264 @@
+
+
+Starting up round ID 65. 16:33:10
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 6.1s!
+Loaded Lavaland in 4.8s!
+Loaded Reebe in 4.1s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 22.2 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 40.1 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 3 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 3 turf(s) (connected to 19417 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 14 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 5.4 seconds!
+Initialized Overlay subsystem within 22.7 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Lighting subsystem within 13.8 seconds!
+Initialized Shuttle subsystem within 22 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Loaded 0 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 141.6 seconds!
+Game start took 1.6s
+runtime error: 
+[16:46:46]Cannot read null.parents
+[16:46:46]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[16:46:46]  source file: components_base.dm,91
+[16:46:46]  usr: Nikolas Hoover (/mob/living/carbon/human)
+[16:46:46]  src: the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible)
+[16:46:46]  usr.loc: the reinforced floor (186,98,2) (/turf/open/floor/engine)
+[16:46:46]  src.loc: the reinforced floor (187,97,2) (/turf/open/floor/engine)
+[16:46:46]  call stack:
+[16:46:46]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): returnPipenet(the pipe (/obj/machinery/atmospherics/pipe/simple/general/visible))
+[16:46:46]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): addMember(the pipe (/obj/machinery/atmospherics/pipe/simple/general/visible))
+[16:46:46]the pipe (/obj/machinery/atmospherics/pipe/simple/general/visible): on construction(null, 2)
+[16:46:46]the pipe fitting (/obj/item/pipe/binary/bendable): wrench act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[16:46:46]the pipe fitting (/obj/item/pipe/binary/bendable): tool act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[16:46:46]the wrench (/obj/item/wrench): tool attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable))
+[16:46:46]the wrench (/obj/item/wrench): melee attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=11;left=1;scr...")
+[16:46:46]Nikolas Hoover (/mob/living/carbon/human): ClickOn(the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=11;left=1;scr...")
+[16:46:46]the pipe fitting (/obj/item/pipe/binary/bendable): Click(the reinforced floor (187,98,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=16;icon-y=11;left=1;scr...")
+runtime error: 
+[16:46:46]Cannot execute null.addMember().
+[16:46:46]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[16:46:46]  source file: datum_pipeline.dm,130
+[16:46:46]  usr: Nikolas Hoover (/mob/living/carbon/human)
+[16:46:46]  src: the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible)
+[16:46:46]  usr.loc: the reinforced floor (186,98,2) (/turf/open/floor/engine)
+[16:46:46]  src.loc: the reinforced floor (187,97,2) (/turf/open/floor/engine)
+[16:46:46]  call stack:
+[16:46:46]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): addMember(the pipe (/obj/machinery/atmospherics/pipe/simple/general/visible))
+[16:46:46]the pipe (/obj/machinery/atmospherics/pipe/simple/general/visible): on construction(null, 2)
+[16:46:46]the pipe fitting (/obj/item/pipe/binary/bendable): wrench act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[16:46:46]the pipe fitting (/obj/item/pipe/binary/bendable): tool act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[16:46:46]the wrench (/obj/item/wrench): tool attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable))
+[16:46:46]the wrench (/obj/item/wrench): melee attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=11;left=1;scr...")
+[16:46:46]Nikolas Hoover (/mob/living/carbon/human): ClickOn(the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=11;left=1;scr...")
+[16:46:46]the pipe fitting (/obj/item/pipe/binary/bendable): Click(the reinforced floor (187,98,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=16;icon-y=11;left=1;scr...")
+runtime error: 
+[16:46:46]Cannot read null.parents
+[16:46:46]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[16:46:46]  source file: components_base.dm,91
+[16:46:46]  usr: Nikolas Hoover (/mob/living/carbon/human)
+[16:46:46]  src: the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer)
+[16:46:46]  usr.loc: the reinforced floor (186,98,2) (/turf/open/floor/engine)
+[16:46:46]  src.loc: the reinforced floor (188,98,2) (/turf/open/floor/engine)
+[16:46:46]  call stack:
+[16:46:46]the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer): returnPipenet(the pipe (/obj/machinery/atmospherics/pipe/simple/general/visible))
+[16:46:46]the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer): addMember(the pipe (/obj/machinery/atmospherics/pipe/simple/general/visible))
+[16:46:46]the pipe (/obj/machinery/atmospherics/pipe/simple/general/visible): on construction(null, 2)
+[16:46:46]the pipe fitting (/obj/item/pipe/binary/bendable): wrench act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[16:46:46]the pipe fitting (/obj/item/pipe/binary/bendable): tool act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[16:46:46]the wrench (/obj/item/wrench): tool attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable))
+[16:46:46]the wrench (/obj/item/wrench): melee attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=11;left=1;scr...")
+[16:46:46]Nikolas Hoover (/mob/living/carbon/human): ClickOn(the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=11;left=1;scr...")
+[16:46:46]the pipe fitting (/obj/item/pipe/binary/bendable): Click(the reinforced floor (187,98,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=16;icon-y=11;left=1;scr...")
+runtime error: 
+[16:46:46]Cannot execute null.addMember().
+[16:46:46]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[16:46:46]  source file: datum_pipeline.dm,130
+[16:46:46]  usr: Nikolas Hoover (/mob/living/carbon/human)
+[16:46:46]  src: the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer)
+[16:46:46]  usr.loc: the reinforced floor (186,98,2) (/turf/open/floor/engine)
+[16:46:46]  src.loc: the reinforced floor (188,98,2) (/turf/open/floor/engine)
+[16:46:46]  call stack:
+[16:46:46]the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer): addMember(the pipe (/obj/machinery/atmospherics/pipe/simple/general/visible))
+[16:46:46]the pipe (/obj/machinery/atmospherics/pipe/simple/general/visible): on construction(null, 2)
+[16:46:46]the pipe fitting (/obj/item/pipe/binary/bendable): wrench act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[16:46:46]the pipe fitting (/obj/item/pipe/binary/bendable): tool act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[16:46:46]the wrench (/obj/item/wrench): tool attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable))
+[16:46:46]the wrench (/obj/item/wrench): melee attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=11;left=1;scr...")
+[16:46:46]Nikolas Hoover (/mob/living/carbon/human): ClickOn(the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=11;left=1;scr...")
+[16:46:46]the pipe fitting (/obj/item/pipe/binary/bendable): Click(the reinforced floor (187,98,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=16;icon-y=11;left=1;scr...")
+runtime error: 
+[16:58:44]Cannot read null.revivecost
+[16:58:44]proc name: update power (/obj/item/defibrillator/proc/update_power)
+[16:58:44]  source file: defib.dm,50
+[16:58:44]  usr: null
+[16:58:44]  src: the defibrillator (/obj/item/defibrillator/loaded)
+[16:58:44]  src.loc: null
+[16:58:44]  call stack:
+[16:58:44]the defibrillator (/obj/item/defibrillator/loaded): update power()
+[16:58:44]the defibrillator (/obj/item/defibrillator/loaded): update icon()
+[16:58:44]the defibrillator (/obj/item/defibrillator/loaded): Destroy(0)
+[16:58:44]qdel(the defibrillator (/obj/item/defibrillator/loaded), 0)
+[16:58:44]the defibrillator (/obj/item/defibrillator/loaded): ex act(1, null)
+[16:58:44]the medical doctor\'s locker (/obj/structure/closet/secure_closet/medical3): contents explosion(1, null)
+[16:58:44]the medical doctor\'s locker (/obj/structure/closet/secure_closet/medical3): ex act(1, null)
+[16:58:44]the medical doctor\'s locker (/obj/structure/closet/secure_closet/medical3): ex act(1, null)
+[16:58:44]the floor (145,110,2) (/turf/open/floor/plasteel/white): contents explosion(1, null)
+[16:58:44]the floor (145,110,2) (/turf/open/floor/plasteel/white): ex act(1, null)
+[16:58:44]the floor (145,110,2) (/turf/open/floor/plasteel/white): ex act(1, null)
+[16:58:44]/datum/explosion (/datum/explosion): New(space (144,110,2) (/turf/open/space), 5, 10, 20, 20, 1, 0, 0, 0, 0)
+runtime error: 
+[16:58:49]Cannot execute null.is cut().
+[16:58:49]proc name: has power (/mob/living/simple_animal/bot/mulebot/proc/has_power)
+[16:58:49]  source file: mulebot.dm,308
+[16:58:49]  usr: null
+[16:58:49]  src: the MULEbot (#1) (/mob/living/simple_animal/bot/mulebot)
+[16:58:49]  src.loc: null
+[16:58:49]  call stack:
+[16:58:49]the MULEbot (#1) (/mob/living/simple_animal/bot/mulebot): has power()
+[16:58:49]the MULEbot (#1) (/mob/living/simple_animal/bot/mulebot): handle automated action()
+[16:58:49]NPC Pool (/datum/controller/subsystem/npcpool): fire(1)
+[16:58:49]NPC Pool (/datum/controller/subsystem/npcpool): ignite(1)
+[16:58:49]Master (/datum/controller/master): RunQueue()
+[16:58:49]Master (/datum/controller/master): Loop()
+[16:58:49]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[16:59:00]addtimer called with a callback assigned to a qdeleted object
+[16:59:00]proc name: stack trace (/proc/stack_trace)
+[16:59:00]  source file: unsorted.dm,1254
+[16:59:00]  usr: (src)
+[16:59:00]  src: null
+[16:59:00]  call stack:
+[16:59:00]stack trace("addtimer called with a callbac...")
+[16:59:00]addtimer(/datum/callback (/datum/callback), 20, 0)
+[16:59:00]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[16:59:00]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[16:59:00]addtimer called with a callback assigned to a qdeleted object
+[16:59:00]proc name: stack trace (/proc/stack_trace)
+[16:59:00]  source file: unsorted.dm,1254
+[16:59:00]  usr: 0
+[16:59:00]  src: null
+[16:59:00]  call stack:
+[16:59:00]stack trace("addtimer called with a callbac...")
+[16:59:00]addtimer(/datum/callback (/datum/callback), 20, 0)
+[16:59:00]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[16:59:00]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[16:59:00]addtimer called with a callback assigned to a qdeleted object
+[16:59:00]proc name: stack trace (/proc/stack_trace)
+[16:59:00]  source file: unsorted.dm,1254
+[16:59:00]  usr: 0
+[16:59:00]  src: null
+[16:59:00]  call stack:
+[16:59:00]stack trace("addtimer called with a callbac...")
+[16:59:00]addtimer(/datum/callback (/datum/callback), 20, 0)
+[16:59:00]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[16:59:00]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[16:59:03]Cannot execute null.CanPass().
+[16:59:03]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[16:59:03]  source file: reagent_containers.dm,83
+[16:59:03]  usr: null
+[16:59:03]  src: the cup (/obj/item/reagent_containers/food/drinks/britcup)
+[16:59:03]  src.loc: null
+[16:59:03]  call stack:
+[16:59:03]the cup (/obj/item/reagent_containers/food/drinks/britcup): bartender check(null)
+[16:59:03]the cup (/obj/item/reagent_containers/food/drinks/britcup): smash(null, null, 1)
+[16:59:03]the cup (/obj/item/reagent_containers/food/drinks/britcup): throw impact(null, /datum/thrownthing (/datum/thrownthing))
+[16:59:03]/datum/thrownthing (/datum/thrownthing): finalize(0, null)
+[16:59:03]/datum/thrownthing (/datum/thrownthing): tick()
+[16:59:03]Throwing (/datum/controller/subsystem/throwing): fire(1)
+[16:59:03]Throwing (/datum/controller/subsystem/throwing): ignite(1)
+[16:59:03]Master (/datum/controller/master): RunQueue()
+[16:59:03]Master (/datum/controller/master): Loop()
+[16:59:03]Master (/datum/controller/master): StartProcessing(0)
+Saved 0 engraved messages on map Box Station
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 17:13:25

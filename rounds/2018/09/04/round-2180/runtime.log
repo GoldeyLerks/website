@@ -1,0 +1,426 @@
+[2018-09-04 23:55:31.871] Starting up round ID 2180.
+[2018-09-04 23:55:31.871] -------------------------
+[2018-09-04 23:55:32.951] Initialized Database subsystem within 0 seconds!
+[2018-09-04 23:55:32.952] Initialized Blackbox subsystem within 0 seconds!
+[2018-09-04 23:55:32.952] Initialized Server Tasks subsystem within 0 seconds!
+[2018-09-04 23:55:32.953] Initialized Input subsystem within 0 seconds!
+[2018-09-04 23:55:33.004] Initialized Research subsystem within 0.1 seconds!
+[2018-09-04 23:55:33.013] Initialized Events subsystem within 0 seconds!
+[2018-09-04 23:55:33.018] Initialized Jobs subsystem within 0 seconds!
+[2018-09-04 23:55:33.020] Initialized Quirks subsystem within 0 seconds!
+[2018-09-04 23:55:33.029] Initialized Ticker subsystem within 0 seconds!
+[2018-09-04 23:55:33.030] Loading Box Station...
+[2018-09-04 23:55:38.346] Loaded Station in 5.3s!
+[2018-09-04 23:55:40.610] Loaded Lavaland in 2.1s!
+[2018-09-04 23:55:48.828] Ruin loader finished with 0 left to spend.
+[2018-09-04 23:55:49.917] Ruin loader finished with 0 left to spend.
+[2018-09-04 23:55:51.435] Initialized Mapping subsystem within 18.4 seconds!
+[2018-09-04 23:55:51.438] Initialized Networks subsystem within 0 seconds!
+[2018-09-04 23:56:41.041] Initialized Atoms subsystem within 49.6 seconds!
+[2018-09-04 23:56:41.060] Initialized Language subsystem within 0 seconds!
+[2018-09-04 23:56:41.462] Initialized Machines subsystem within 0.4 seconds!
+[2018-09-04 23:56:41.515] Initialized Circuit subsystem within 0.1 seconds!
+[2018-09-04 23:56:41.517] Initialized Disease subsystem within 0 seconds!
+[2018-09-04 23:56:41.517] Initialized Medals subsystem within 0 seconds!
+[2018-09-04 23:56:41.517] Initialized Night Shift subsystem within 0 seconds!
+[2018-09-04 23:56:41.517] Initialized Parallax subsystem within 0 seconds!
+[2018-09-04 23:56:41.662] Initialized Traumas subsystem within 0.1 seconds!
+[2018-09-04 23:56:41.663] Initialized Weather subsystem within 0 seconds!
+[2018-09-04 23:56:49.091] Initialized Atmospherics subsystem within 7.4 seconds!
+[2018-09-04 23:56:49.109] Initialized Minimap subsystem within 0.1 seconds!
+[2018-09-04 23:56:51.347] Initialized Assets subsystem within 2.2 seconds!
+[2018-09-04 23:56:59.589] Initialized Icon Smoothing subsystem within 8.2 seconds!
+[2018-09-04 23:57:01.532] Initialized Overlay subsystem within 2 seconds!
+[2018-09-04 23:57:01.532] Initialized XKeyScore subsystem within 0 seconds!
+[2018-09-04 23:57:01.537] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-09-04 23:57:21.733] Initialized Lighting subsystem within 20.2 seconds!
+[2018-09-04 23:57:28.817] Initialized Shuttle subsystem within 7.1 seconds!
+[2018-09-04 23:57:28.854] Initialized Squeak subsystem within 0 seconds!
+[2018-09-04 23:57:28.856] Initialized Pathfinder subsystem within 0 seconds!
+[2018-09-04 23:57:28.910] Loaded 22 engraved messages on map Box Station
+[2018-09-04 23:57:28.950] Initialized Persistence subsystem within 0.1 seconds!
+[2018-09-04 23:57:28.952] Initializations complete within 116 seconds!
+[2018-09-05 00:27:25.570] Game start took 0.3s
+[2018-09-05 00:56:19.893] runtime error: Cannot read null.air
+[2018-09-05 00:56:19.893] proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[2018-09-05 00:56:19.893]   source file: pipes.dm,60
+[2018-09-05 00:56:19.893]   usr: null
+[2018-09-05 00:56:19.893]   src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[2018-09-05 00:56:19.893]   src.loc: null
+[2018-09-05 00:56:19.893]   call stack:
+[2018-09-05 00:56:19.893] the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): return air()
+[2018-09-05 00:56:19.893] the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[2018-09-05 00:56:19.893] Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[2018-09-05 00:56:19.893] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-09-05 00:56:19.893] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-05 00:56:19.893] Master (/datum/controller/master): RunQueue()
+[2018-09-05 00:56:19.893] Master (/datum/controller/master): Loop()
+[2018-09-05 00:56:19.893] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-05 00:56:19.893] 
+[2018-09-05 00:56:19.894] runtime error: Cannot read null.temperature
+[2018-09-05 00:56:19.894] proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[2018-09-05 00:56:19.894]   source file: he_pipes.dm,37
+[2018-09-05 00:56:19.894]   usr: null
+[2018-09-05 00:56:19.894]   src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[2018-09-05 00:56:19.894]   src.loc: null
+[2018-09-05 00:56:19.894]   call stack:
+[2018-09-05 00:56:19.894] the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[2018-09-05 00:56:19.894] Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[2018-09-05 00:56:19.894] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-09-05 00:56:19.894] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-05 00:56:19.894] Master (/datum/controller/master): RunQueue()
+[2018-09-05 00:56:19.894] Master (/datum/controller/master): Loop()
+[2018-09-05 00:56:19.895] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-05 00:56:19.895] 
+[2018-09-05 03:06:39.544] runtime error: undefined variable /turf/open/floor/holofloor/var/key
+[2018-09-05 03:06:39.544] proc name: add hiddenprint (/datum/component/forensics/proc/add_hiddenprint)
+[2018-09-05 03:06:39.544]   source file: forensics.dm,126
+[2018-09-05 03:06:39.544]   usr: Helps-The-Station (/mob/living/carbon/human)
+[2018-09-05 03:06:39.544]   src: /datum/component/forensics (/datum/component/forensics)
+[2018-09-05 03:06:39.544]   usr.loc: the floor (145,151,2) (/turf/open/floor/holofloor)
+[2018-09-05 03:06:39.544]   call stack:
+[2018-09-05 03:06:39.544] /datum/component/forensics (/datum/component/forensics): add hiddenprint(the floor (145,151,2) (/turf/open/floor/holofloor))
+[2018-09-05 03:06:39.544] /datum/component/forensics (/datum/component/forensics): add fingerprint(the floor (145,151,2) (/turf/open/floor/holofloor), 0)
+[2018-09-05 03:06:39.544] the syndicate minibomb (/obj/item/grenade/syndieminibomb): add fingerprint(the floor (145,151,2) (/turf/open/floor/holofloor), 0)
+[2018-09-05 03:06:39.544] the syndicate minibomb (/obj/item/grenade/syndieminibomb): preprime(the floor (145,151,2) (/turf/open/floor/holofloor), null, 0, 60)
+[2018-09-05 03:06:39.544] the banana peel (/obj/item/grown/bananapeel/bombanana): Initialize(0)
+[2018-09-05 03:06:39.544] Atoms (/datum/controller/subsystem/atoms): InitAtom(the banana peel (/obj/item/grown/bananapeel/bombanana), /list (/list))
+[2018-09-05 03:06:39.544] the banana peel (/obj/item/grown/bananapeel/bombanana): New(0)
+[2018-09-05 03:06:39.544] greentea98\'s admin datum (Cou... (/datum/admins): Topic("src=%5B0x21000b3c%5D%3Badmin_t...", /list (/list))
+[2018-09-05 03:06:39.544] GreenTea98 (/client): Topic("src=%5B0x21000b3c%5D%3Badmin_t...", /list (/list), greentea98\'s admin datum (Cou... (/datum/admins))
+[2018-09-05 03:06:39.544] GreenTea98 (/client): Topic("src=%5B0x21000b3c%5D%3Badmin_t...", /list (/list), greentea98\'s admin datum (Cou... (/datum/admins))
+[2018-09-05 03:06:39.544] 
+[2018-09-05 03:06:44.587] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:06:44.587] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:06:44.587]   source file: unsorted.dm,1161
+[2018-09-05 03:06:44.587]   usr: Helps-The-Station (/mob/living/carbon/human)
+[2018-09-05 03:06:44.587]   src: null
+[2018-09-05 03:06:44.587]   usr.loc: the floor (146,151,2) (/turf/open/floor/holofloor)
+[2018-09-05 03:06:44.587]   call stack:
+[2018-09-05 03:06:44.587] stack trace("addtimer called with a callbac...")
+[2018-09-05 03:06:44.587] addtimer(/datum/callback (/datum/callback), 0, 1)
+[2018-09-05 03:06:44.587] /datum/component/decal/blood (/datum/component/decal/blood): apply(null)
+[2018-09-05 03:06:44.587] /datum/component/decal/blood (/datum/component/decal/blood): Initialize(null, null, null, 2, null, 3.2, null)
+[2018-09-05 03:06:44.587] /datum/component/decal/blood (/datum/component/decal/blood): Initialize(null, null, null, 2, null, 3.2)
+[2018-09-05 03:06:44.587] /datum/component/decal/blood (/datum/component/decal/blood): New(the right arm (/obj/item/bodypart/r_arm))
+[2018-09-05 03:06:44.587] the right arm (/obj/item/bodypart/r_arm): AddComponent(the right arm (/obj/item/bodypart/r_arm))
+[2018-09-05 03:06:44.587] the right arm (/obj/item/bodypart/r_arm): LoadComponent(/datum/component/decal/blood (/datum/component/decal/blood))
+[2018-09-05 03:06:44.587] /datum/component/forensics (/datum/component/forensics): check blood()
+[2018-09-05 03:06:44.587] /datum/component/forensics (/datum/component/forensics): Initialize(null, null, /list (/list), null)
+[2018-09-05 03:06:44.587] /datum/component/forensics (/datum/component/forensics): New(the right arm (/obj/item/bodypart/r_arm), null, null, /list (/list))
+[2018-09-05 03:06:44.587] the right arm (/obj/item/bodypart/r_arm): AddComponent(the right arm (/obj/item/bodypart/r_arm), null, null, /list (/list))
+[2018-09-05 03:06:44.587] the right arm (/obj/item/bodypart/r_arm): add blood DNA(/list (/list))
+[2018-09-05 03:06:44.587] the right arm (/obj/item/bodypart/r_arm): add mob blood(Helps-The-Station (/mob/living/carbon/human))
+[2018-09-05 03:06:44.587] the right arm (/obj/item/bodypart/r_arm): dismember("brute")
+[2018-09-05 03:06:44.588] Helps-The-Station (/mob/living/carbon/human): ex act(2, null, null)
+[2018-09-05 03:06:44.588] the floor (146,151,2) (/turf/open/floor/holofloor): contents explosion(2, null)
+[2018-09-05 03:06:44.588] the floor (146,151,2) (/turf/open/floor/holofloor): ex act(2, null)
+[2018-09-05 03:06:44.588] the floor (146,151,2) (/turf/open/floor/holofloor): ex act(2, null)
+[2018-09-05 03:06:44.588] /datum/explosion (/datum/explosion): New(space (145,151,2) (/turf/open/space), 1, 2, 4, 1, 1, 0, 2, 0, 0)
+[2018-09-05 03:06:44.588] 
+[2018-09-05 03:07:58.436] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:07:58.437] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:07:58.437]   source file: unsorted.dm,1161
+[2018-09-05 03:07:58.437]   usr: (src)
+[2018-09-05 03:07:58.437]   src: null
+[2018-09-05 03:07:58.437]   call stack:
+[2018-09-05 03:07:58.437] stack trace("addtimer called with a callbac...")
+[2018-09-05 03:07:58.437] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-05 03:07:58.437] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-05 03:07:58.437] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-05 03:07:58.437] 
+[2018-09-05 03:07:58.437] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:07:58.437] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:07:58.437]   source file: unsorted.dm,1161
+[2018-09-05 03:07:58.437]   usr: (src)
+[2018-09-05 03:07:58.437]   src: null
+[2018-09-05 03:07:58.437]   call stack:
+[2018-09-05 03:07:58.437] stack trace("addtimer called with a callbac...")
+[2018-09-05 03:07:58.437] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-05 03:07:58.437] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-05 03:07:58.437] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-05 03:07:58.437] 
+[2018-09-05 03:12:56.093] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:12:56.094] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:12:56.094]   source file: unsorted.dm,1161
+[2018-09-05 03:12:56.094]   usr: Helps-The-Station (/mob/living/carbon/human)
+[2018-09-05 03:12:56.094]   src: null
+[2018-09-05 03:12:56.094]   usr.loc: the floor (133,156,2) (/turf/open/floor/plasteel/neutral/side)
+[2018-09-05 03:12:56.094]   call stack:
+[2018-09-05 03:12:56.094] stack trace("addtimer called with a callbac...")
+[2018-09-05 03:12:56.094] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-05 03:12:56.094] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-05 03:12:56.094] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-05 03:12:56.094] 
+[2018-09-05 03:12:56.592] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:12:56.593] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:12:56.593]   source file: unsorted.dm,1161
+[2018-09-05 03:12:56.593]   usr: Helps-The-Station (/mob/living/carbon/human)
+[2018-09-05 03:12:56.593]   src: null
+[2018-09-05 03:12:56.593]   usr.loc: the floor (133,156,2) (/turf/open/floor/plasteel/neutral/side)
+[2018-09-05 03:12:56.593]   call stack:
+[2018-09-05 03:12:56.593] stack trace("addtimer called with a callbac...")
+[2018-09-05 03:12:56.593] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-05 03:12:56.593] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-05 03:12:56.593] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-05 03:12:56.593] 
+[2018-09-05 03:13:30.817] runtime error: Cannot read null.body_part
+[2018-09-05 03:13:30.817] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-09-05 03:13:30.817]   source file: human_defense.dm,30
+[2018-09-05 03:13:30.817]   usr: Helps-The-Station (/mob/living/carbon/human)
+[2018-09-05 03:13:30.817]   src: Carson Ryals (/mob/living/carbon/human)
+[2018-09-05 03:13:30.817]   usr.loc: the floor (140,155,2) (/turf/open/floor/plasteel/red/side)
+[2018-09-05 03:13:30.817]   src.loc: the holodeck projector floor (145,155,2) (/turf/open/floor/holofloor/plating)
+[2018-09-05 03:13:30.817]   call stack:
+[2018-09-05 03:13:30.817] Carson Ryals (/mob/living/carbon/human): checkarmor(null, "energy")
+[2018-09-05 03:13:30.817] Carson Ryals (/mob/living/carbon/human): getarmor("l_arm", "energy")
+[2018-09-05 03:13:30.817] Carson Ryals (/mob/living/carbon/human): run armor check("l_arm", "energy", "", "", 0, null)
+[2018-09-05 03:13:30.817] Carson Ryals (/mob/living/carbon/human): bullet act(the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan), "l_arm")
+[2018-09-05 03:13:30.817] Carson Ryals (/mob/living/carbon/human): bullet act(the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan), "l_arm")
+[2018-09-05 03:13:30.817] the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan): Bump(Carson Ryals (/mob/living/carbon/human))
+[2018-09-05 03:13:30.817] the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan): Bump(Carson Ryals (/mob/living/carbon/human))
+[2018-09-05 03:13:30.817] the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan): pixel move(1, 1)
+[2018-09-05 03:13:30.817] the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan): process hitscan()
+[2018-09-05 03:13:30.817] the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan): fire(91.7788, null)
+[2018-09-05 03:13:30.817] the particle acceleration lens (/obj/item/ammo_casing/energy/beam_rifle/hitscan): throw proj(Carson Ryals (/mob/living/carbon/human), the holodeck projector floor (145,155,2) (/turf/open/floor/holofloor/plating), Helps-The-Station (/mob/living/carbon/human), "icon-x=18;icon-y=16;screen-loc...", 0)
+[2018-09-05 03:13:30.817] the particle acceleration lens (/obj/item/ammo_casing/energy/beam_rifle/hitscan): fire casing(Carson Ryals (/mob/living/carbon/human), Helps-The-Station (/mob/living/carbon/human), "icon-x=18;icon-y=16;screen-loc...", 0, null, "", 0)
+[2018-09-05 03:13:30.817] the particle acceleration rifl... (/obj/item/gun/energy/beam_rifle/debug): process fire(Carson Ryals (/mob/living/carbon/human), Helps-The-Station (/mob/living/carbon/human), 1, "icon-x=18;icon-y=16;screen-loc...", "", 0)
+[2018-09-05 03:13:30.817] the particle acceleration rifl... (/obj/item/gun/energy/beam_rifle/debug): process fire(Carson Ryals (/mob/living/carbon/human), Helps-The-Station (/mob/living/carbon/human), 1, "icon-x=18;icon-y=16;screen-loc...", "", 0)
+[2018-09-05 03:13:30.817] the particle acceleration rifl... (/obj/item/gun/energy/beam_rifle/debug): afterattack(Carson Ryals (/mob/living/carbon/human), Helps-The-Station (/mob/living/carbon/human), 0, "icon-x=18;icon-y=16;screen-loc...", 1)
+[2018-09-05 03:13:30.817] the particle acceleration rifl... (/obj/item/gun/energy/beam_rifle/debug): afterattack(Carson Ryals (/mob/living/carbon/human), Helps-The-Station (/mob/living/carbon/human), 0, "icon-x=18;icon-y=16;screen-loc...", 1)
+[2018-09-05 03:13:30.817] the particle acceleration rifl... (/obj/item/gun/energy/beam_rifle/debug): onMouseUp(Carson Ryals (/mob/living/carbon/human), the holodeck projector floor (145,155,2) (/turf/open/floor/holofloor/plating), "icon-x=18;icon-y=16;left=1;scr...", Helps-The-Station (/mob/living/carbon/human))
+[2018-09-05 03:13:30.817] GreenTea98 (/client): MouseUp(Carson Ryals (/mob/living/carbon/human), the holodeck projector floor (145,155,2) (/turf/open/floor/holofloor/plating), "mapwindow.map", "icon-x=18;icon-y=16;left=1;scr...")
+[2018-09-05 03:13:30.817] 
+[2018-09-05 03:13:32.322] runtime error: Cannot read null.body_part
+[2018-09-05 03:13:32.322] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-09-05 03:13:32.322]   source file: human_defense.dm,30
+[2018-09-05 03:13:32.322]   usr: Helps-The-Station (/mob/living/carbon/human)
+[2018-09-05 03:13:32.322]   src: Carson Ryals (/mob/living/carbon/human)
+[2018-09-05 03:13:32.322]   usr.loc: the floor (140,155,2) (/turf/open/floor/plasteel/red/side)
+[2018-09-05 03:13:32.322]   src.loc: the holodeck projector floor (145,155,2) (/turf/open/floor/holofloor/plating)
+[2018-09-05 03:13:32.322]   call stack:
+[2018-09-05 03:13:32.322] Carson Ryals (/mob/living/carbon/human): checkarmor(null, "energy")
+[2018-09-05 03:13:32.322] Carson Ryals (/mob/living/carbon/human): getarmor("l_arm", "energy")
+[2018-09-05 03:13:32.322] Carson Ryals (/mob/living/carbon/human): run armor check("l_arm", "energy", "", "", 0, null)
+[2018-09-05 03:13:32.322] Carson Ryals (/mob/living/carbon/human): bullet act(the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan), "l_arm")
+[2018-09-05 03:13:32.322] Carson Ryals (/mob/living/carbon/human): bullet act(the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan), "l_arm")
+[2018-09-05 03:13:32.322] the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan): Bump(Carson Ryals (/mob/living/carbon/human))
+[2018-09-05 03:13:32.322] the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan): Bump(Carson Ryals (/mob/living/carbon/human))
+[2018-09-05 03:13:32.322] the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan): pixel move(1, 1)
+[2018-09-05 03:13:32.322] the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan): process hitscan()
+[2018-09-05 03:13:32.322] the particle beam (/obj/item/projectile/beam/beam_rifle/hitscan): fire(91.7788, null)
+[2018-09-05 03:13:32.322] the particle acceleration lens (/obj/item/ammo_casing/energy/beam_rifle/hitscan): throw proj(Carson Ryals (/mob/living/carbon/human), the holodeck projector floor (145,155,2) (/turf/open/floor/holofloor/plating), Helps-The-Station (/mob/living/carbon/human), "icon-x=18;icon-y=16;screen-loc...", 0)
+[2018-09-05 03:13:32.322] the particle acceleration lens (/obj/item/ammo_casing/energy/beam_rifle/hitscan): fire casing(Carson Ryals (/mob/living/carbon/human), Helps-The-Station (/mob/living/carbon/human), "icon-x=18;icon-y=16;screen-loc...", 0, null, "", 0)
+[2018-09-05 03:13:32.322] the particle acceleration rifl... (/obj/item/gun/energy/beam_rifle/debug): process fire(Carson Ryals (/mob/living/carbon/human), Helps-The-Station (/mob/living/carbon/human), 1, "icon-x=18;icon-y=16;screen-loc...", "", 0)
+[2018-09-05 03:13:32.322] the particle acceleration rifl... (/obj/item/gun/energy/beam_rifle/debug): process fire(Carson Ryals (/mob/living/carbon/human), Helps-The-Station (/mob/living/carbon/human), 1, "icon-x=18;icon-y=16;screen-loc...", "", 0)
+[2018-09-05 03:13:32.322] the particle acceleration rifl... (/obj/item/gun/energy/beam_rifle/debug): afterattack(Carson Ryals (/mob/living/carbon/human), Helps-The-Station (/mob/living/carbon/human), 0, "icon-x=18;icon-y=16;screen-loc...", 1)
+[2018-09-05 03:13:32.322] the particle acceleration rifl... (/obj/item/gun/energy/beam_rifle/debug): afterattack(Carson Ryals (/mob/living/carbon/human), Helps-The-Station (/mob/living/carbon/human), 0, "icon-x=18;icon-y=16;screen-loc...", 1)
+[2018-09-05 03:13:32.322] the particle acceleration rifl... (/obj/item/gun/energy/beam_rifle/debug): onMouseUp(Carson Ryals (/mob/living/carbon/human), the holodeck projector floor (145,155,2) (/turf/open/floor/holofloor/plating), "icon-x=18;icon-y=16;left=1;scr...", Helps-The-Station (/mob/living/carbon/human))
+[2018-09-05 03:13:32.322] GreenTea98 (/client): MouseUp(Carson Ryals (/mob/living/carbon/human), the holodeck projector floor (145,155,2) (/turf/open/floor/holofloor/plating), "mapwindow.map", "icon-x=18;icon-y=16;left=1;scr...")
+[2018-09-05 03:13:32.322] 
+[2018-09-05 03:14:19.263] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:14:19.263] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:14:19.263]   source file: unsorted.dm,1161
+[2018-09-05 03:14:19.263]   usr: 0
+[2018-09-05 03:14:19.263]   src: null
+[2018-09-05 03:14:19.263]   call stack:
+[2018-09-05 03:14:19.263] stack trace("addtimer called with a callbac...")
+[2018-09-05 03:14:19.263] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-05 03:14:19.263] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-05 03:14:19.263] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-05 03:14:19.263] 
+[2018-09-05 03:14:19.672] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:14:19.672] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:14:19.672]   source file: unsorted.dm,1161
+[2018-09-05 03:14:19.672]   usr: 0
+[2018-09-05 03:14:19.672]   src: null
+[2018-09-05 03:14:19.672]   call stack:
+[2018-09-05 03:14:19.672] stack trace("addtimer called with a callbac...")
+[2018-09-05 03:14:19.672] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-05 03:14:19.672] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-05 03:14:19.672] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-05 03:14:19.672] 
+[2018-09-05 03:14:19.765] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:14:19.766] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:14:19.766]   source file: unsorted.dm,1161
+[2018-09-05 03:14:19.766]   usr: 0
+[2018-09-05 03:14:19.766]   src: null
+[2018-09-05 03:14:19.766]   call stack:
+[2018-09-05 03:14:19.766] stack trace("addtimer called with a callbac...")
+[2018-09-05 03:14:19.766] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-05 03:14:19.766] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-05 03:14:19.766] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-05 03:14:19.766] 
+[2018-09-05 03:22:47.584] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:22:47.584] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:22:47.584]   source file: unsorted.dm,1161
+[2018-09-05 03:22:47.584]   usr: Hana Robusto (/mob/living/carbon/human)
+[2018-09-05 03:22:47.584]   src: null
+[2018-09-05 03:22:47.584]   usr.loc: the holodeck projector floor (143,158,2) (/turf/open/floor/holofloor/plating)
+[2018-09-05 03:22:47.584]   call stack:
+[2018-09-05 03:22:47.584] stack trace("addtimer called with a callbac...")
+[2018-09-05 03:22:47.584] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-05 03:22:47.584] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-05 03:22:47.584] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-05 03:22:47.584] 
+[2018-09-05 03:22:48.083] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:22:48.083] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:22:48.083]   source file: unsorted.dm,1161
+[2018-09-05 03:22:48.083]   usr: Hana Robusto (/mob/living/carbon/human)
+[2018-09-05 03:22:48.083]   src: null
+[2018-09-05 03:22:48.083]   usr.loc: the holodeck projector floor (143,158,2) (/turf/open/floor/holofloor/plating)
+[2018-09-05 03:22:48.083]   call stack:
+[2018-09-05 03:22:48.083] stack trace("addtimer called with a callbac...")
+[2018-09-05 03:22:48.083] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-05 03:22:48.083] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-05 03:22:48.083] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-05 03:22:48.083] 
+[2018-09-05 03:23:24.703] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:23:24.703] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:23:24.703]   source file: unsorted.dm,1161
+[2018-09-05 03:23:24.703]   usr: 0
+[2018-09-05 03:23:24.703]   src: null
+[2018-09-05 03:23:24.703]   call stack:
+[2018-09-05 03:23:24.703] stack trace("addtimer called with a callbac...")
+[2018-09-05 03:23:24.703] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-05 03:23:24.703] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-05 03:23:24.703] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-05 03:23:24.703] 
+[2018-09-05 03:23:24.853] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:23:24.853] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:23:24.853]   source file: unsorted.dm,1161
+[2018-09-05 03:23:24.853]   usr: 0
+[2018-09-05 03:23:24.853]   src: null
+[2018-09-05 03:23:24.853]   call stack:
+[2018-09-05 03:23:24.853] stack trace("addtimer called with a callbac...")
+[2018-09-05 03:23:24.853] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-05 03:23:24.853] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-05 03:23:24.853] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-05 03:23:24.853] 
+[2018-09-05 03:23:25.352] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:23:25.352] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:23:25.352]   source file: unsorted.dm,1161
+[2018-09-05 03:23:25.352] 
+[2018-09-05 03:23:25.552] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:23:25.552] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:23:25.552]   source file: unsorted.dm,1161
+[2018-09-05 03:23:25.552] 
+[2018-09-05 03:23:25.603] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:23:25.603] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:23:25.603]   source file: unsorted.dm,1161
+[2018-09-05 03:23:25.603] 
+[2018-09-05 03:23:26.102] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:23:26.103] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:23:26.103]   source file: unsorted.dm,1161
+[2018-09-05 03:23:26.103] 
+[2018-09-05 03:29:40.937] runtime error: undefined proc or verb /mob/dead/observer/has trait().
+[2018-09-05 03:29:40.937] 
+[2018-09-05 03:29:40.937] proc name: process fire (/obj/item/gun/proc/process_fire)
+[2018-09-05 03:29:40.937]   source file: gun.dm,259
+[2018-09-05 03:29:40.937] 
+[2018-09-05 03:34:20.328] runtime error: Cannot read null.x
+[2018-09-05 03:34:20.328] proc name: getline (/proc/getline)
+[2018-09-05 03:34:20.328]   source file: unsorted.dm,148
+[2018-09-05 03:34:20.328] 
+[2018-09-05 03:34:48.404] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:34:48.404] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:34:48.404]   source file: unsorted.dm,1161
+[2018-09-05 03:34:48.404] 
+[2018-09-05 03:34:48.404] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:34:48.404] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:34:48.404]   source file: unsorted.dm,1161
+[2018-09-05 03:34:48.404] 
+[2018-09-05 03:34:48.454] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:34:48.454] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:34:48.454]   source file: unsorted.dm,1161
+[2018-09-05 03:34:48.454] 
+[2018-09-05 03:34:48.455] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:34:48.455] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:34:48.455]   source file: unsorted.dm,1161
+[2018-09-05 03:34:48.455] 
+[2018-09-05 03:34:48.954] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:34:48.954] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:34:48.954]   source file: unsorted.dm,1161
+[2018-09-05 03:34:48.954] 
+[2018-09-05 03:34:48.955] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:34:48.955] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:34:48.955]   source file: unsorted.dm,1161
+[2018-09-05 03:34:48.955] 
+[2018-09-05 03:34:49.459] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:34:49.459] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:34:49.459]   source file: unsorted.dm,1161
+[2018-09-05 03:34:49.459] 
+[2018-09-05 03:34:49.814] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:34:49.814] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:34:49.814]   source file: unsorted.dm,1161
+[2018-09-05 03:34:49.814] 
+[2018-09-05 03:34:49.814] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 03:34:49.814] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 03:34:49.814]   source file: unsorted.dm,1161
+[2018-09-05 03:34:49.814] 
+[2018-09-05 03:45:34.357] Shutting down Persistence subsystem...
+[2018-09-05 03:45:34.357] Shutting down Pathfinder subsystem...
+[2018-09-05 03:45:34.357] Shutting down Squeak subsystem...
+[2018-09-05 03:45:34.357] Shutting down Shuttle subsystem...
+[2018-09-05 03:45:34.358] Shutting down Lighting subsystem...
+[2018-09-05 03:45:34.358] Shutting down XKeyScore subsystem...
+[2018-09-05 03:45:34.358] Shutting down Sticky Ban subsystem...
+[2018-09-05 03:45:34.358] Shutting down Overlay subsystem...
+[2018-09-05 03:45:34.419] Shutting down Icon Smoothing subsystem...
+[2018-09-05 03:45:34.419] Shutting down Assets subsystem...
+[2018-09-05 03:45:34.420] Shutting down Minimap subsystem...
+[2018-09-05 03:45:34.420] Shutting down Atmospherics subsystem...
+[2018-09-05 03:45:34.420] Shutting down Wet floors subsystem...
+[2018-09-05 03:45:34.420] Shutting down Weather subsystem...
+[2018-09-05 03:45:34.420] Shutting down Vote subsystem...
+[2018-09-05 03:45:34.420] Shutting down Traumas subsystem...
+[2018-09-05 03:45:34.420] Shutting down Title Screen subsystem...
+[2018-09-05 03:45:34.421] Shutting down Time Tracking subsystem...
+[2018-09-05 03:45:34.421] Shutting down Throwing subsystem...
+[2018-09-05 03:45:34.421] Shutting down tgui subsystem...
+[2018-09-05 03:45:34.421] Shutting down Sun subsystem...
+[2018-09-05 03:45:34.421] Shutting down Space Drift subsystem...
+[2018-09-05 03:45:34.421] Shutting down Religion subsystem...
+[2018-09-05 03:45:34.421] Shutting down Radio subsystem...
+[2018-09-05 03:45:34.421] Shutting down Radiation subsystem...
+[2018-09-05 03:45:34.422] Shutting down Projectiles subsystem...
+[2018-09-05 03:45:34.422] Shutting down Processing subsystem...
+[2018-09-05 03:45:34.422] Shutting down Ping subsystem...
+[2018-09-05 03:45:34.422] Shutting down Parallax subsystem...
+[2018-09-05 03:45:34.422] Shutting down pAI subsystem...
+[2018-09-05 03:45:34.422] Shutting down Orbits subsystem...
+[2018-09-05 03:45:34.422] Shutting down Objects subsystem...
+[2018-09-05 03:45:34.422] Shutting down NPC Pool subsystem...
+[2018-09-05 03:45:34.423] Shutting down Night Shift subsystem...
+[2018-09-05 03:45:34.423] Shutting down Nanites subsystem...
+[2018-09-05 03:45:34.423] Shutting down Mood subsystem...
+[2018-09-05 03:45:34.423] Shutting down Mobs subsystem...
+[2018-09-05 03:45:34.423] Shutting down Medals subsystem...
+[2018-09-05 03:45:34.423] Shutting down Idling NPC Pool subsystem...
+[2018-09-05 03:45:34.423] Shutting down Fire Burning subsystem...
+[2018-09-05 03:45:34.423] Shutting down Fields subsystem...
+[2018-09-05 03:45:34.423] Shutting down Fast Processing subsystem...
+[2018-09-05 03:45:34.424] Shutting down Disease subsystem...
+[2018-09-05 03:45:34.424] Shutting down Datum Component System subsystem...
+[2018-09-05 03:45:34.424] Shutting down Communications subsystem...
+[2018-09-05 03:45:34.424] Shutting down Augury subsystem...
+[2018-09-05 03:45:34.424] Shutting down Acid subsystem...
+[2018-09-05 03:45:34.424] Shutting down Timer subsystem...
+[2018-09-05 03:45:34.424] Shutting down Circuit subsystem...
+[2018-09-05 03:45:34.424] Shutting down Machines subsystem...
+[2018-09-05 03:45:34.425] Shutting down Language subsystem...
+[2018-09-05 03:45:34.425] Shutting down Atoms subsystem...
+[2018-09-05 03:45:34.425] Shutting down Networks subsystem...
+[2018-09-05 03:45:34.425] Shutting down Mapping subsystem...
+[2018-09-05 03:45:34.425] Shutting down Ticker subsystem...
+[2018-09-05 03:45:34.697] Shutting down Quirks subsystem...
+[2018-09-05 03:45:34.698] Shutting down Jobs subsystem...
+[2018-09-05 03:45:34.698] Shutting down Events subsystem...
+[2018-09-05 03:45:34.698] Shutting down Research subsystem...
+[2018-09-05 03:45:34.698] Shutting down Input subsystem...
+[2018-09-05 03:45:34.698] Shutting down Server Tasks subsystem...
+[2018-09-05 03:45:34.698] Shutting down Blackbox subsystem...
+[2018-09-05 03:45:35.008] Shutting down Database subsystem...
+[2018-09-05 03:45:35.046] Shutting down Garbage subsystem...
+[2018-09-05 03:45:35.114] Shutdown complete
+[2018-09-05 03:45:35.115] World rebooted at 03:45:35

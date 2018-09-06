@@ -1,0 +1,264 @@
+
+
+Starting up round ID 13. 19:20:18
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 5.9s!
+Loaded Lavaland in 5.8s!
+Loaded Reebe in 5.1s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 25.3 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[19:21:21]Cannot execute null.copy from().
+[19:21:21]proc name: Assimilate Air (/turf/open/proc/Assimilate_Air)
+[19:21:21]  source file: ChangeTurf.dm,263
+[19:21:21]  usr: null
+[19:21:21]  src: the asteroid sand (130,47,9) (/turf/open/floor/plating/asteroid/airless/cave)
+[19:21:21]  call stack:
+[19:21:21]the asteroid sand (130,47,9) (/turf/open/floor/plating/asteroid/airless/cave): Assimilate Air()
+[19:21:21]the asteroid sand (130,47,9) (/turf/open/floor/plating/asteroid/airless/cave): AfterChange(0)
+[19:21:21]the asteroid sand (130,47,9) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[19:21:21]the asteroid sand (130,47,9) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[19:21:21]the asteroid sand (130,47,9) (/turf/open/floor/plating/asteroid/airless/cave): Initialize(1)
+[19:21:21]Atoms (/datum/controller/subsystem/atoms): InitAtom(the asteroid sand (130,47,9) (/turf/open/floor/plating/asteroid/airless/cave), /list (/list))
+[19:21:21]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[19:21:21]Atoms (/datum/controller/subsystem/atoms): Initialize(840452)
+[19:21:21]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 40.5 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Weather subsystem within 0 seconds!
+runtime error: 
+[19:21:37]Cannot execute null.compare().
+[19:21:37]proc name: Initalize Atmos (/turf/open/Initalize_Atmos)
+[19:21:37]  source file: open.dm,137
+[19:21:37]  usr: null
+[19:21:37]  src: the asteroid sand (130,47,9) (/turf/open/floor/plating/asteroid/airless/cave)
+[19:21:37]  call stack:
+[19:21:37]the asteroid sand (130,47,9) (/turf/open/floor/plating/asteroid/airless/cave): Initalize Atmos(1)
+[19:21:37]Atmospherics (/datum/controller/subsystem/air): setup allturfs()
+[19:21:37]Atmospherics (/datum/controller/subsystem/air): Initialize(840862)
+[19:21:37]Master (/datum/controller/master): Initialize(10, 0)
+## WARNING: There are 12 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 12 turf(s) (connected to 19964 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 14.5 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 5.3 seconds!
+Initialized Overlay subsystem within 15.2 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Lighting subsystem within 11.8 seconds!
+Initialized Shuttle subsystem within 22 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Loaded 0 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 135.9 seconds!
+Game start took 1.5s
+runtime error: 
+[03:16:33]list index out of bounds
+[03:16:33]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[03:16:33]  source file: aurora_caelus.dm,39
+[03:16:33]  usr: null
+[03:16:33]  src: /datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus)
+[03:16:33]  call stack:
+[03:16:33]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): tick()
+[03:16:33]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): process()
+[03:16:33]Events (/datum/controller/subsystem/events): fire(0)
+[03:16:33]Events (/datum/controller/subsystem/events): ignite(0)
+[03:16:33]Master (/datum/controller/master): RunQueue()
+[03:16:33]Master (/datum/controller/master): Loop()
+[03:16:33]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[13:22:54]Cannot read null.air
+[13:22:54]proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[13:22:54]  source file: pipes.dm,60
+[13:22:54]  usr: null
+[13:22:54]  src: the junction (/obj/machinery/atmospherics/pipe/heat_exchanging/junction)
+[13:22:54]  src.loc: null
+[13:22:54]  call stack:
+[13:22:54]the junction (/obj/machinery/atmospherics/pipe/heat_exchanging/junction): return air()
+[13:22:54]the junction (/obj/machinery/atmospherics/pipe/heat_exchanging/junction): process atmos(0.5)
+[13:22:54]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[13:22:54]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[13:22:54]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[13:22:54]Master (/datum/controller/master): RunQueue()
+[13:22:54]Master (/datum/controller/master): Loop()
+[13:22:54]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[13:22:54]Cannot read null.temperature
+[13:22:54]proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[13:22:54]  source file: he_pipes.dm,42
+[13:22:54]  usr: null
+[13:22:54]  src: the junction (/obj/machinery/atmospherics/pipe/heat_exchanging/junction)
+[13:22:54]  src.loc: null
+[13:22:54]  call stack:
+[13:22:54]the junction (/obj/machinery/atmospherics/pipe/heat_exchanging/junction): process atmos(0.5)
+[13:22:54]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[13:22:54]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[13:22:54]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[13:22:54]Master (/datum/controller/master): RunQueue()
+[13:22:54]Master (/datum/controller/master): Loop()
+[13:22:54]Master (/datum/controller/master): StartProcessing(0)
+## WARNING: shuttle "arrivals" could not enter transit space. Docked at arrivals_stationary. Transit dock 43. in code/modules/shuttle/shuttle.dm at line 422 src: the arrivals shuttle usr: .
+runtime error: 
+[16:51:56]Cannot create objects of type null.
+[16:51:56]proc name: add event (/datum/component/mood/proc/add_event)
+[16:51:56]  source file: mood.dm,91
+[16:51:56]  usr: Braeden Lloyd (/mob/dead/observer)
+[16:51:56]  src: /datum/component/mood (/datum/component/mood)
+[16:51:56]  usr.loc: the floor (122,74,2) (/turf/open/floor/plasteel)
+[16:51:56]  call stack:
+[16:51:56]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[16:51:56]the right leg (/obj/item/bodypart/r_leg): drop limb(1)
+[16:51:56]the right leg (/obj/item/bodypart/r_leg): drop limb(1)
+[16:51:56]Isaiah Mckendrick (/mob/living/carbon/human): Digitigrade Leg Swap(0)
+[16:51:56]Ash Walker (/datum/species/lizard/ashwalker): on species gain(Isaiah Mckendrick (/mob/living/carbon/human), Human (/datum/species/human))
+[16:51:56]Isaiah Mckendrick (/mob/living/carbon/human): set species(/datum/species/lizard/ashwalke... (/datum/species/lizard/ashwalker), 1)
+[16:51:56]Isaiah Mckendrick (/mob/living/carbon/human): set species(/datum/species/lizard/ashwalke... (/datum/species/lizard/ashwalker), 1)
+[16:51:56]the ash walker egg (/obj/effect/mob_spawn/human/ash_walker): equip(Isaiah Mckendrick (/mob/living/carbon/human))
+[16:51:56]the ash walker egg (/obj/effect/mob_spawn/human/ash_walker): create("supe22", null)
+[16:51:56]the ash walker egg (/obj/effect/mob_spawn/human/ash_walker): attack ghost(Braeden Lloyd (/mob/dead/observer))
+[16:51:56]/datum/spawners_menu (/datum/spawners_menu): ui act("spawn", /list (/list), /datum/tgui (/datum/tgui), /datum/ui_state/observer_state (/datum/ui_state/observer_state))
+[16:51:56]/datum/tgui (/datum/tgui): Topic("src=%5B0x2102e5e7%5D&action=sp...", /list (/list))
+[16:51:56]Supe22 (/client): Topic("src=%5B0x2102e5e7%5D&action=sp...", /list (/list), /datum/tgui (/datum/tgui))
+[16:51:56]Supe22 (/client): Topic("src=%5B0x2102e5e7%5D&action=sp...", /list (/list), /datum/tgui (/datum/tgui))
+runtime error: 
+[16:51:56]Cannot create objects of type null.
+[16:51:56]proc name: add event (/datum/component/mood/proc/add_event)
+[16:51:56]  source file: mood.dm,91
+[16:51:56]  usr: Braeden Lloyd (/mob/dead/observer)
+[16:51:56]  src: /datum/component/mood (/datum/component/mood)
+[16:51:56]  usr.loc: the floor (122,74,2) (/turf/open/floor/plasteel)
+[16:51:56]  call stack:
+[16:51:56]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[16:51:56]the left leg (/obj/item/bodypart/l_leg): drop limb(1)
+[16:51:56]the left leg (/obj/item/bodypart/l_leg): drop limb(1)
+[16:51:56]Isaiah Mckendrick (/mob/living/carbon/human): Digitigrade Leg Swap(0)
+[16:51:56]Ash Walker (/datum/species/lizard/ashwalker): on species gain(Isaiah Mckendrick (/mob/living/carbon/human), Human (/datum/species/human))
+[16:51:56]Isaiah Mckendrick (/mob/living/carbon/human): set species(/datum/species/lizard/ashwalke... (/datum/species/lizard/ashwalker), 1)
+[16:51:56]Isaiah Mckendrick (/mob/living/carbon/human): set species(/datum/species/lizard/ashwalke... (/datum/species/lizard/ashwalker), 1)
+[16:51:56]the ash walker egg (/obj/effect/mob_spawn/human/ash_walker): equip(Isaiah Mckendrick (/mob/living/carbon/human))
+[16:51:56]the ash walker egg (/obj/effect/mob_spawn/human/ash_walker): create("supe22", null)
+[16:51:56]the ash walker egg (/obj/effect/mob_spawn/human/ash_walker): attack ghost(Braeden Lloyd (/mob/dead/observer))
+[16:51:56]/datum/spawners_menu (/datum/spawners_menu): ui act("spawn", /list (/list), /datum/tgui (/datum/tgui), /datum/ui_state/observer_state (/datum/ui_state/observer_state))
+[16:51:56]/datum/tgui (/datum/tgui): Topic("src=%5B0x2102e5e7%5D&action=sp...", /list (/list))
+[16:51:56]Supe22 (/client): Topic("src=%5B0x2102e5e7%5D&action=sp...", /list (/list), /datum/tgui (/datum/tgui))
+[16:51:56]Supe22 (/client): Topic("src=%5B0x2102e5e7%5D&action=sp...", /list (/list), /datum/tgui (/datum/tgui))
+runtime error: 
+[16:55:07]Cannot create objects of type null.
+[16:55:07]proc name: add event (/datum/component/mood/proc/add_event)
+[16:55:07]  source file: mood.dm,91
+[16:55:07]  usr: Skaleel-Dar (/mob/living/carbon/human)
+[16:55:07]  src: /datum/component/mood (/datum/component/mood)
+[16:55:07]  usr.loc: the volcanic floor (99,143,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[16:55:07]  call stack:
+[16:55:07]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[16:55:07]Nicolas Bell\'s head (/obj/item/bodypart/head): drop limb(null)
+[16:55:07]Nicolas Bell\'s head (/obj/item/bodypart/head): drop limb(null)
+[16:55:07]Nicolas Bell\'s head (/obj/item/bodypart/head): dismember("brute")
+[16:55:07]Human (/datum/species/human): spec attacked by(the spear (Wielded) (/obj/item/twohanded/spear), Skaleel-Dar (/mob/living/carbon/human), Nicolas Bell\'s head (/obj/item/bodypart/head), "help", Unknown (/mob/living/carbon/human))
+[16:55:07]Unknown (/mob/living/carbon/human): attacked by(the spear (Wielded) (/obj/item/twohanded/spear), Skaleel-Dar (/mob/living/carbon/human))
+[16:55:07]the spear (Wielded) (/obj/item/twohanded/spear): attack(Unknown (/mob/living/carbon/human), Skaleel-Dar (/mob/living/carbon/human))
+[16:55:07]Unknown (/mob/living/carbon/human): attackby(the spear (Wielded) (/obj/item/twohanded/spear), Skaleel-Dar (/mob/living/carbon/human), "icon-x=17;icon-y=20;left=1;scr...")
+[16:55:07]Unknown (/mob/living/carbon/human): attackby(the spear (Wielded) (/obj/item/twohanded/spear), Skaleel-Dar (/mob/living/carbon/human), "icon-x=17;icon-y=20;left=1;scr...")
+[16:55:07]the spear (Wielded) (/obj/item/twohanded/spear): melee attack chain(Skaleel-Dar (/mob/living/carbon/human), Unknown (/mob/living/carbon/human), "icon-x=17;icon-y=20;left=1;scr...")
+[16:55:07]Skaleel-Dar (/mob/living/carbon/human): ClickOn(Unknown (/mob/living/carbon/human), "icon-x=17;icon-y=20;left=1;scr...")
+[16:55:07]Unknown (/mob/living/carbon/human): Click(the volcanic floor (98,142,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), "mapwindow.map", "icon-x=17;icon-y=20;left=1;scr...")
+runtime error: 
+[16:55:13]Cannot create objects of type null.
+[16:55:13]proc name: add event (/datum/component/mood/proc/add_event)
+[16:55:13]  source file: mood.dm,91
+[16:55:13]  usr: Skaleel-Dar (/mob/living/carbon/human)
+[16:55:13]  src: /datum/component/mood (/datum/component/mood)
+[16:55:13]  usr.loc: the volcanic floor (99,143,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[16:55:13]  call stack:
+[16:55:13]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[16:55:13]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[16:55:13]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[16:55:13]the right leg (/obj/item/bodypart/r_leg): dismember("brute")
+[16:55:13]Human (/datum/species/human): spec attacked by(the spear (Wielded) (/obj/item/twohanded/spear), Skaleel-Dar (/mob/living/carbon/human), the right leg (/obj/item/bodypart/r_leg), "help", Unknown (/mob/living/carbon/human))
+[16:55:13]Unknown (/mob/living/carbon/human): attacked by(the spear (Wielded) (/obj/item/twohanded/spear), Skaleel-Dar (/mob/living/carbon/human))
+[16:55:13]the spear (Wielded) (/obj/item/twohanded/spear): attack(Unknown (/mob/living/carbon/human), Skaleel-Dar (/mob/living/carbon/human))
+[16:55:13]Unknown (/mob/living/carbon/human): attackby(the spear (Wielded) (/obj/item/twohanded/spear), Skaleel-Dar (/mob/living/carbon/human), "icon-x=15;icon-y=17;left=1;scr...")
+[16:55:13]Unknown (/mob/living/carbon/human): attackby(the spear (Wielded) (/obj/item/twohanded/spear), Skaleel-Dar (/mob/living/carbon/human), "icon-x=15;icon-y=17;left=1;scr...")
+[16:55:13]the spear (Wielded) (/obj/item/twohanded/spear): melee attack chain(Skaleel-Dar (/mob/living/carbon/human), Unknown (/mob/living/carbon/human), "icon-x=15;icon-y=17;left=1;scr...")
+[16:55:13]Skaleel-Dar (/mob/living/carbon/human): ClickOn(Unknown (/mob/living/carbon/human), "icon-x=15;icon-y=17;left=1;scr...")
+[16:55:13]Unknown (/mob/living/carbon/human): Click(the volcanic floor (98,142,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), "mapwindow.map", "icon-x=15;icon-y=17;left=1;scr...")
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 22:25:36

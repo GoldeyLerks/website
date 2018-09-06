@@ -1,0 +1,335 @@
+[2018-07-03 22:36:16.189] Starting up round ID 1415.
+[2018-07-03 22:36:16.190] -------------------------
+[2018-07-03 22:36:18.832] Initialized Database subsystem within 0 seconds!
+[2018-07-03 22:36:18.833] Initialized Blackbox subsystem within 0 seconds!
+[2018-07-03 22:36:18.833] Initialized Server Tasks subsystem within 0 seconds!
+[2018-07-03 22:36:18.833] Initialized Input subsystem within 0 seconds!
+[2018-07-03 22:36:18.863] Initialized Research subsystem within 0 seconds!
+[2018-07-03 22:36:18.867] Initialized Events subsystem within 0 seconds!
+[2018-07-03 22:36:18.871] Initialized Jobs subsystem within 0 seconds!
+[2018-07-03 22:36:18.871] Initialized Quirks subsystem within 0 seconds!
+[2018-07-03 22:36:18.882] Initialized Ticker subsystem within 0 seconds!
+[2018-07-03 22:36:18.883] Loading Box Station...
+[2018-07-03 22:36:24.279] Loaded Station in 5.4s!
+[2018-07-03 22:36:29.914] Loaded Lavaland in 5.3s!
+[2018-07-03 22:36:33.017] Ruin loader finished with 0 left to spend.
+[2018-07-03 22:36:35.311] Ruin loader finished with 0 left to spend.
+[2018-07-03 22:36:44.093] Initialized Mapping subsystem within 25.2 seconds!
+[2018-07-03 22:36:44.094] Initialized Networks subsystem within 0 seconds!
+[2018-07-03 22:37:20.796] Initialized Atoms subsystem within 36.7 seconds!
+[2018-07-03 22:37:20.812] Initialized Language subsystem within 0.1 seconds!
+[2018-07-03 22:37:21.143] Initialized Machines subsystem within 0.3 seconds!
+[2018-07-03 22:37:21.419] Initialized Circuit subsystem within 0.1 seconds!
+[2018-07-03 22:37:21.420] Initialized Disease subsystem within 0 seconds!
+[2018-07-03 22:37:21.421] Initialized Medals subsystem within 0 seconds!
+[2018-07-03 22:37:21.421] Initialized Night Shift subsystem within 0 seconds!
+[2018-07-03 22:37:21.421] Initialized Parallax subsystem within 0 seconds!
+[2018-07-03 22:37:21.546] Initialized Traumas subsystem within 0.1 seconds!
+[2018-07-03 22:37:21.547] Initialized Weather subsystem within 0 seconds!
+[2018-07-03 22:38:38.741] Initialized Atmospherics subsystem within 77.2 seconds!
+[2018-07-03 22:38:38.757] Initialized Minimap subsystem within 0 seconds!
+[2018-07-03 22:38:40.585] Initialized Assets subsystem within 1.8 seconds!
+[2018-07-03 22:38:46.359] Initialized Icon Smoothing subsystem within 5.8 seconds!
+[2018-07-03 22:38:47.574] Initialized Overlay subsystem within 1.2 seconds!
+[2018-07-03 22:38:47.574] Initialized XKeyScore subsystem within 0 seconds!
+[2018-07-03 22:38:47.583] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-07-03 22:38:58.548] Initialized Lighting subsystem within 11 seconds!
+[2018-07-03 22:39:01.793] Initialized Shuttle subsystem within 3.2 seconds!
+[2018-07-03 22:39:01.828] Initialized Squeak subsystem within 0.1 seconds!
+[2018-07-03 22:39:01.829] Initialized Pathfinder subsystem within 0 seconds!
+[2018-07-03 22:39:01.902] Loaded 123 engraved messages on map Box Station
+[2018-07-03 22:39:01.930] Initialized Persistence subsystem within 0.1 seconds!
+[2018-07-03 22:39:01.931] Initializations complete within 163.1 seconds!
+[2018-07-03 22:40:15.260] Game start took 2.1s
+[2018-07-03 22:52:42.926] runtime error: The emergency space suit taking damage after deletion
+[2018-07-03 22:52:42.926] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-03 22:52:42.926]   source file: unsorted.dm,1243
+[2018-07-03 22:52:42.926]   usr: null
+[2018-07-03 22:52:42.926]   src: the emergency space suit (/obj/item/clothing/suit/space/orange)
+[2018-07-03 22:52:42.926]   src.loc: null
+[2018-07-03 22:52:42.926]   call stack:
+[2018-07-03 22:52:42.926] the emergency space suit (/obj/item/clothing/suit/space/orange): stack trace("The emergency space suit takin...")
+[2018-07-03 22:52:42.926] the emergency space suit (/obj/item/clothing/suit/space/orange): take damage(19.9, "fire", "fire", 0, null, 0)
+[2018-07-03 22:52:42.926] Human (/datum/species/human): handle fire(Unknown (/mob/living/carbon/human), 0)
+[2018-07-03 22:52:42.926] Unknown (/mob/living/carbon/human): handle fire()
+[2018-07-03 22:52:42.926] Unknown (/mob/living/carbon/human): Life(2, 370)
+[2018-07-03 22:52:42.926] Unknown (/mob/living/carbon/human): Life(2, 370)
+[2018-07-03 22:52:42.926] Unknown (/mob/living/carbon/human): Life(2, 370)
+[2018-07-03 22:52:42.926] Mobs (/datum/controller/subsystem/mobs): fire(0)
+[2018-07-03 22:52:42.926] Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[2018-07-03 22:52:42.926] Master (/datum/controller/master): RunQueue()
+[2018-07-03 22:52:42.926] Master (/datum/controller/master): Loop()
+[2018-07-03 22:52:42.926] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-03 22:52:42.926] 
+[2018-07-03 22:52:50.926] runtime error: The prison jumpsuit taking damage after deletion
+[2018-07-03 22:52:50.926] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-03 22:52:50.926]   source file: unsorted.dm,1243
+[2018-07-03 22:52:50.926]   usr: null
+[2018-07-03 22:52:50.926]   src: the prison jumpsuit (/obj/item/clothing/under/rank/prisoner)
+[2018-07-03 22:52:50.926]   src.loc: null
+[2018-07-03 22:52:50.926]   call stack:
+[2018-07-03 22:52:50.926] the prison jumpsuit (/obj/item/clothing/under/rank/prisoner): stack trace("The prison jumpsuit taking dam...")
+[2018-07-03 22:52:50.926] the prison jumpsuit (/obj/item/clothing/under/rank/prisoner): take damage(19.9, "fire", "fire", 0, null, 0)
+[2018-07-03 22:52:50.926] Human (/datum/species/human): handle fire(Unknown (/mob/living/carbon/human), 0)
+[2018-07-03 22:52:50.926] Unknown (/mob/living/carbon/human): handle fire()
+[2018-07-03 22:52:50.926] Unknown (/mob/living/carbon/human): Life(2, 374)
+[2018-07-03 22:52:50.926] Unknown (/mob/living/carbon/human): Life(2, 374)
+[2018-07-03 22:52:50.926] Unknown (/mob/living/carbon/human): Life(2, 374)
+[2018-07-03 22:52:50.926] Mobs (/datum/controller/subsystem/mobs): fire(0)
+[2018-07-03 22:52:50.926] Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[2018-07-03 22:52:50.926] Master (/datum/controller/master): RunQueue()
+[2018-07-03 22:52:50.926] Master (/datum/controller/master): Loop()
+[2018-07-03 22:52:50.926] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-03 22:52:50.926] 
+[2018-07-03 23:19:08.073] runtime error: Cannot modify null.dir.
+[2018-07-03 23:19:08.073] proc name: open (/obj/structure/bodycontainer/proc/open)
+[2018-07-03 23:19:08.073]   source file: morgue.dm,126
+[2018-07-03 23:19:08.073]   usr: null
+[2018-07-03 23:19:08.073]   src: the crematorium (/obj/structure/bodycontainer/crematorium)
+[2018-07-03 23:19:08.073]   src.loc: space (174,145,2) (/turf/open/space)
+[2018-07-03 23:19:08.073]   call stack:
+[2018-07-03 23:19:08.073] the crematorium (/obj/structure/bodycontainer/crematorium): open()
+[2018-07-03 23:19:08.073] the crematorium (/obj/structure/bodycontainer/crematorium): Destroy(0)
+[2018-07-03 23:19:08.073] the crematorium (/obj/structure/bodycontainer/crematorium): Destroy(0)
+[2018-07-03 23:19:08.073] qdel(the crematorium (/obj/structure/bodycontainer/crematorium), 0)
+[2018-07-03 23:19:08.073] the crematorium (/obj/structure/bodycontainer/crematorium): ex act(1, null)
+[2018-07-03 23:19:08.073] space (174,145,2) (/turf/open/space): contents explosion(1, null)
+[2018-07-03 23:19:08.073] space (174,145,2) (/turf/open/space): ex act(1, null)
+[2018-07-03 23:19:08.073] 
+[2018-07-03 23:19:18.124] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-03 23:19:18.124] proc name: stack trace (/proc/stack_trace)
+[2018-07-03 23:19:18.124]   source file: unsorted.dm,1240
+[2018-07-03 23:19:18.124]   usr: 0
+[2018-07-03 23:19:18.124]   src: null
+[2018-07-03 23:19:18.124]   call stack:
+[2018-07-03 23:19:18.124] stack trace("addtimer called with a callbac...")
+[2018-07-03 23:19:18.124] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-03 23:19:18.124] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-03 23:19:18.124] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-03 23:19:18.124] 
+[2018-07-03 23:19:18.574] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-03 23:19:18.574] proc name: stack trace (/proc/stack_trace)
+[2018-07-03 23:19:18.574]   source file: unsorted.dm,1240
+[2018-07-03 23:19:18.574]   usr: (src)
+[2018-07-03 23:19:18.574]   src: null
+[2018-07-03 23:19:18.574]   call stack:
+[2018-07-03 23:19:18.574] stack trace("addtimer called with a callbac...")
+[2018-07-03 23:19:18.574] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-03 23:19:18.574] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-03 23:19:18.574] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-03 23:19:18.574] 
+[2018-07-03 23:19:18.624] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-03 23:19:18.624] proc name: stack trace (/proc/stack_trace)
+[2018-07-03 23:19:18.624]   source file: unsorted.dm,1240
+[2018-07-03 23:19:18.624]   usr: 0
+[2018-07-03 23:19:18.624]   src: null
+[2018-07-03 23:19:18.624]   call stack:
+[2018-07-03 23:19:18.624] stack trace("addtimer called with a callbac...")
+[2018-07-03 23:19:18.624] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-03 23:19:18.624] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-03 23:19:18.624] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-03 23:19:18.624] 
+[2018-07-03 23:19:19.074] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-03 23:19:19.074] proc name: stack trace (/proc/stack_trace)
+[2018-07-03 23:19:19.074]   source file: unsorted.dm,1240
+[2018-07-03 23:19:19.074]   usr: (src)
+[2018-07-03 23:19:19.074]   src: null
+[2018-07-03 23:19:19.074]   call stack:
+[2018-07-03 23:19:19.074] stack trace("addtimer called with a callbac...")
+[2018-07-03 23:19:19.074] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-03 23:19:19.074] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-03 23:19:19.074] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-03 23:19:19.074] 
+[2018-07-03 23:27:58.356] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-03 23:27:58.356] proc name: stack trace (/proc/stack_trace)
+[2018-07-03 23:27:58.356]   source file: unsorted.dm,1240
+[2018-07-03 23:27:58.356]   usr: (src)
+[2018-07-03 23:27:58.356]   src: null
+[2018-07-03 23:27:58.356]   call stack:
+[2018-07-03 23:27:58.356] stack trace("addtimer called with a callbac...")
+[2018-07-03 23:27:58.356] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-03 23:27:58.356] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-03 23:27:58.356] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-03 23:27:58.356] 
+[2018-07-03 23:27:58.356] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-03 23:27:58.356] proc name: stack trace (/proc/stack_trace)
+[2018-07-03 23:27:58.356]   source file: unsorted.dm,1240
+[2018-07-03 23:27:58.356]   usr: (src)
+[2018-07-03 23:27:58.356]   src: null
+[2018-07-03 23:27:58.356]   call stack:
+[2018-07-03 23:27:58.356] stack trace("addtimer called with a callbac...")
+[2018-07-03 23:27:58.356] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-03 23:27:58.356] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-03 23:27:58.356] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-03 23:27:58.357] 
+[2018-07-03 23:27:58.876] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-03 23:27:58.876] proc name: stack trace (/proc/stack_trace)
+[2018-07-03 23:27:58.876]   source file: unsorted.dm,1240
+[2018-07-03 23:27:58.876]   usr: (src)
+[2018-07-03 23:27:58.876]   src: null
+[2018-07-03 23:27:58.876]   call stack:
+[2018-07-03 23:27:58.876] stack trace("addtimer called with a callbac...")
+[2018-07-03 23:27:58.876] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-03 23:27:58.876] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-03 23:27:58.876] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-03 23:27:58.876] 
+[2018-07-03 23:27:58.877] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-03 23:27:58.877] proc name: stack trace (/proc/stack_trace)
+[2018-07-03 23:27:58.877]   source file: unsorted.dm,1240
+[2018-07-03 23:27:58.877]   usr: (src)
+[2018-07-03 23:27:58.877]   src: null
+[2018-07-03 23:27:58.877]   call stack:
+[2018-07-03 23:27:58.877] stack trace("addtimer called with a callbac...")
+[2018-07-03 23:27:58.877] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-03 23:27:58.877] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-03 23:27:58.877] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-03 23:27:58.877] 
+[2018-07-03 23:27:58.877] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-03 23:27:58.877] proc name: stack trace (/proc/stack_trace)
+[2018-07-03 23:27:58.877]   source file: unsorted.dm,1240
+[2018-07-03 23:27:58.877]   usr: (src)
+[2018-07-03 23:27:58.877]   src: null
+[2018-07-03 23:27:58.877]   call stack:
+[2018-07-03 23:27:58.877] stack trace("addtimer called with a callbac...")
+[2018-07-03 23:27:58.877] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-03 23:27:58.877] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-03 23:27:58.877] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-03 23:27:58.877] 
+[2018-07-03 23:28:01.311] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-03 23:28:01.311] proc name: stack trace (/proc/stack_trace)
+[2018-07-03 23:28:01.311]   source file: unsorted.dm,1240
+[2018-07-03 23:28:01.311]   usr: 0
+[2018-07-03 23:28:01.311]   src: null
+[2018-07-03 23:28:01.311]   call stack:
+[2018-07-03 23:28:01.311] stack trace("addtimer called with a callbac...")
+[2018-07-03 23:28:01.311] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-03 23:28:01.311] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-03 23:28:01.311] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-03 23:28:01.311] 
+[2018-07-03 23:28:02.308] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-03 23:28:02.308] proc name: stack trace (/proc/stack_trace)
+[2018-07-03 23:28:02.308]   source file: unsorted.dm,1240
+[2018-07-03 23:28:02.308]   usr: 0
+[2018-07-03 23:28:02.308]   src: null
+[2018-07-03 23:28:02.308]   call stack:
+[2018-07-03 23:28:02.308] stack trace("addtimer called with a callbac...")
+[2018-07-03 23:28:02.308] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-03 23:28:02.308] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-03 23:28:02.308] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-03 23:28:02.308] 
+[2018-07-03 23:40:25.883] runtime error: Cannot execute null.hitby().
+[2018-07-03 23:40:25.883] proc name: throw impact (/atom/movable/proc/throw_impact)
+[2018-07-03 23:40:25.883]   source file: atoms_movable.dm,401
+[2018-07-03 23:40:25.883]   usr: null
+[2018-07-03 23:40:25.883]   src: Casimir Cressman (/mob/living/carbon/human)
+[2018-07-03 23:40:25.883]   src.loc: null
+[2018-07-03 23:40:25.883]   call stack:
+[2018-07-03 23:40:25.883] Casimir Cressman (/mob/living/carbon/human): throw impact(null, /datum/thrownthing (/datum/thrownthing))
+[2018-07-03 23:40:25.883] Casimir Cressman (/mob/living/carbon/human): throw impact(null, /datum/thrownthing (/datum/thrownthing))
+[2018-07-03 23:40:25.883] /datum/thrownthing (/datum/thrownthing): finalize(0, null)
+[2018-07-03 23:40:25.883] /datum/thrownthing (/datum/thrownthing): tick()
+[2018-07-03 23:40:25.883] Throwing (/datum/controller/subsystem/throwing): fire(0)
+[2018-07-03 23:40:25.883] Throwing (/datum/controller/subsystem/throwing): ignite(0)
+[2018-07-03 23:40:25.883] Master (/datum/controller/master): RunQueue()
+[2018-07-03 23:40:25.883] Master (/datum/controller/master): Loop()
+[2018-07-03 23:40:25.883] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-03 23:40:25.883] 
+[2018-07-03 23:40:25.884] runtime error: Cannot read null.density
+[2018-07-03 23:40:25.884] proc name: throw impact (/mob/living/carbon/throw_impact)
+[2018-07-03 23:40:25.884]   source file: carbon.dm,102
+[2018-07-03 23:40:25.884]   usr: null
+[2018-07-03 23:40:25.884]   src: Casimir Cressman (/mob/living/carbon/human)
+[2018-07-03 23:40:25.884]   src.loc: null
+[2018-07-03 23:40:25.884]   call stack:
+[2018-07-03 23:40:25.884] Casimir Cressman (/mob/living/carbon/human): throw impact(null, /datum/thrownthing (/datum/thrownthing))
+[2018-07-03 23:40:25.884] /datum/thrownthing (/datum/thrownthing): finalize(0, null)
+[2018-07-03 23:40:25.884] /datum/thrownthing (/datum/thrownthing): tick()
+[2018-07-03 23:40:25.884] Throwing (/datum/controller/subsystem/throwing): fire(0)
+[2018-07-03 23:40:25.884] Throwing (/datum/controller/subsystem/throwing): ignite(0)
+[2018-07-03 23:40:25.884] Master (/datum/controller/master): RunQueue()
+[2018-07-03 23:40:25.884] Master (/datum/controller/master): Loop()
+[2018-07-03 23:40:25.884] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-03 23:40:25.884] 
+[2018-07-03 23:40:26.919] runtime error: Cannot read null.dna
+[2018-07-03 23:40:26.919] proc name: remove (/datum/quirk/deviant_tastes/remove)
+[2018-07-03 23:40:26.919]   source file: neutral.dm,65
+[2018-07-03 23:40:26.919]   usr: null
+[2018-07-03 23:40:26.919]   src: Deviant Tastes (/datum/quirk/deviant_tastes)
+[2018-07-03 23:40:26.919]   call stack:
+[2018-07-03 23:40:26.919] Deviant Tastes (/datum/quirk/deviant_tastes): remove()
+[2018-07-03 23:40:26.919] Deviant Tastes (/datum/quirk/deviant_tastes): Destroy(0)
+[2018-07-03 23:40:26.919] qdel(Deviant Tastes (/datum/quirk/deviant_tastes), 0)
+[2018-07-03 23:40:26.919] Deviant Tastes (/datum/quirk/deviant_tastes): process(10)
+[2018-07-03 23:40:26.919] Quirks (/datum/controller/subsystem/processing/quirks): fire(0)
+[2018-07-03 23:40:26.919] Quirks (/datum/controller/subsystem/processing/quirks): ignite(0)
+[2018-07-03 23:40:26.919] Master (/datum/controller/master): RunQueue()
+[2018-07-03 23:40:26.919] Master (/datum/controller/master): Loop()
+[2018-07-03 23:40:26.919] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-03 23:40:26.919] 
+[2018-07-04 00:02:31.015] Saved 123 engraved messages on map Box Station
+[2018-07-04 00:04:07.099] Shutting down Persistence subsystem...
+[2018-07-04 00:04:07.100] Shutting down Pathfinder subsystem...
+[2018-07-04 00:04:07.100] Shutting down Squeak subsystem...
+[2018-07-04 00:04:07.100] Shutting down Shuttle subsystem...
+[2018-07-04 00:04:07.100] Shutting down Lighting subsystem...
+[2018-07-04 00:04:07.100] Shutting down XKeyScore subsystem...
+[2018-07-04 00:04:07.100] Shutting down Sticky Ban subsystem...
+[2018-07-04 00:04:07.100] Shutting down Overlay subsystem...
+[2018-07-04 00:04:07.133] Shutting down Icon Smoothing subsystem...
+[2018-07-04 00:04:07.133] Shutting down Assets subsystem...
+[2018-07-04 00:04:07.133] Shutting down Minimap subsystem...
+[2018-07-04 00:04:07.133] Shutting down Atmospherics subsystem...
+[2018-07-04 00:04:07.133] Shutting down Wet floors subsystem...
+[2018-07-04 00:04:07.133] Shutting down Weather subsystem...
+[2018-07-04 00:04:07.133] Shutting down Vote subsystem...
+[2018-07-04 00:04:07.133] Shutting down Traumas subsystem...
+[2018-07-04 00:04:07.133] Shutting down Title Screen subsystem...
+[2018-07-04 00:04:07.134] Shutting down Time Tracking subsystem...
+[2018-07-04 00:04:07.134] Shutting down Throwing subsystem...
+[2018-07-04 00:04:07.134] Shutting down tgui subsystem...
+[2018-07-04 00:04:07.134] Shutting down Sun subsystem...
+[2018-07-04 00:04:07.134] Shutting down Space Drift subsystem...
+[2018-07-04 00:04:07.134] Shutting down Religion subsystem...
+[2018-07-04 00:04:07.134] Shutting down Radio subsystem...
+[2018-07-04 00:04:07.134] Shutting down Radiation subsystem...
+[2018-07-04 00:04:07.134] Shutting down Projectiles subsystem...
+[2018-07-04 00:04:07.134] Shutting down Processing subsystem...
+[2018-07-04 00:04:07.134] Shutting down Ping subsystem...
+[2018-07-04 00:04:07.134] Shutting down Parallax subsystem...
+[2018-07-04 00:04:07.134] Shutting down pAI subsystem...
+[2018-07-04 00:04:07.134] Shutting down Orbits subsystem...
+[2018-07-04 00:04:07.134] Shutting down Objects subsystem...
+[2018-07-04 00:04:07.134] Shutting down NPC Pool subsystem...
+[2018-07-04 00:04:07.135] Shutting down Night Shift subsystem...
+[2018-07-04 00:04:07.135] Shutting down Mood subsystem...
+[2018-07-04 00:04:07.135] Shutting down Mobs subsystem...
+[2018-07-04 00:04:07.135] Shutting down Medals subsystem...
+[2018-07-04 00:04:07.135] Shutting down Idling NPC Pool subsystem...
+[2018-07-04 00:04:07.135] Shutting down Flightpack Movement subsystem...
+[2018-07-04 00:04:07.135] Shutting down Fire Burning subsystem...
+[2018-07-04 00:04:07.135] Shutting down Fields subsystem...
+[2018-07-04 00:04:07.135] Shutting down Fast Processing subsystem...
+[2018-07-04 00:04:07.135] Shutting down Disease subsystem...
+[2018-07-04 00:04:07.135] Shutting down Datum Component System subsystem...
+[2018-07-04 00:04:07.135] Shutting down Communications subsystem...
+[2018-07-04 00:04:07.135] Shutting down Augury subsystem...
+[2018-07-04 00:04:07.135] Shutting down Acid subsystem...
+[2018-07-04 00:04:07.135] Shutting down Timer subsystem...
+[2018-07-04 00:04:07.135] Shutting down Circuit subsystem...
+[2018-07-04 00:04:07.135] Shutting down Machines subsystem...
+[2018-07-04 00:04:07.135] Shutting down Language subsystem...
+[2018-07-04 00:04:07.135] Shutting down Atoms subsystem...
+[2018-07-04 00:04:07.135] Shutting down Networks subsystem...
+[2018-07-04 00:04:07.135] Shutting down Mapping subsystem...
+[2018-07-04 00:04:07.135] Shutting down Ticker subsystem...
+[2018-07-04 00:04:07.256] Shutting down Quirks subsystem...
+[2018-07-04 00:04:07.256] Shutting down Jobs subsystem...
+[2018-07-04 00:04:07.256] Shutting down Events subsystem...
+[2018-07-04 00:04:07.256] Shutting down Research subsystem...
+[2018-07-04 00:04:07.256] Shutting down Input subsystem...
+[2018-07-04 00:04:07.256] Shutting down Server Tasks subsystem...
+[2018-07-04 00:04:07.256] Shutting down Blackbox subsystem...
+[2018-07-04 00:04:07.331] Shutting down Database subsystem...
+[2018-07-04 00:04:07.366] Shutting down Garbage subsystem...
+[2018-07-04 00:04:07.440] Shutdown complete
+[2018-07-04 00:04:07.441] World rebooted at 00:04:07

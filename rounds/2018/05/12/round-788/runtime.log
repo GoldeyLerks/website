@@ -1,0 +1,514 @@
+
+
+Starting up round ID 788. 09:43:06
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0.1 seconds!
+Loading Box Station...
+Loaded Station in 5.4s!
+Loaded Lavaland in 4.9s!
+Loaded Reebe in 4.3s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 21.6 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[09:43:36]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[09:43:36]proc name: stack trace (/datum/proc/stack_trace)
+[09:43:36]  source file: unsorted.dm,1257
+[09:43:36]  usr: null
+[09:43:36]  src: Vacant Office APC (/obj/machinery/power/apc)
+[09:43:36]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[09:43:36]  call stack:
+[09:43:36]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[09:43:36]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[09:43:36]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[09:43:36]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[09:43:36]Atoms (/datum/controller/subsystem/atoms): Initialize(350095)
+[09:43:36]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 41 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.4 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 8 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 8 turf(s) (connected to 18141 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 14.1 seconds!
+Initialized Minimap subsystem within 0.3 seconds!
+Initialized Assets subsystem within 0.9 seconds!
+Initialized Icon Smoothing subsystem within 6 seconds!
+Initialized Overlay subsystem within 20.6 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 12.5 seconds!
+Initialized Shuttle subsystem within 23.9 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 118 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 141.7 seconds!
+Game start took 2s
+runtime error: 
+[10:17:22]list index out of bounds
+[10:17:22]proc name: Initialize (/obj/machinery/conveyor/Initialize)
+[10:17:22]  source file: conveyor2.dm,56
+[10:17:22]  usr: Wack Grandpap (/mob/living/carbon/human)
+[10:17:22]  src: the conveyor belt (/obj/machinery/conveyor)
+[10:17:22]  usr.loc: the floor (64,140,2) (/turf/open/floor/plasteel)
+[10:17:22]  src.loc: the floor (64,141,2) (/turf/open/floor/plasteel)
+[10:17:22]  call stack:
+[10:17:22]the conveyor belt (/obj/machinery/conveyor): Initialize(0, 2, 0.0171611)
+[10:17:22]Atoms (/datum/controller/subsystem/atoms): InitAtom(the conveyor belt (/obj/machinery/conveyor), /list (/list))
+[10:17:22]the conveyor belt (/obj/machinery/conveyor): New(0, 2, 0.0171611)
+[10:17:22]the conveyor belt assembly (/obj/item/conveyor_construct): afterattack(the floor (64,141,2) (/turf/open/floor/plasteel), Wack Grandpap (/mob/living/carbon/human), 1, "icon-x=15;icon-y=11;left=1;scr...")
+[10:17:22]the conveyor belt assembly (/obj/item/conveyor_construct): melee attack chain(Wack Grandpap (/mob/living/carbon/human), the floor (64,141,2) (/turf/open/floor/plasteel), "icon-x=15;icon-y=11;left=1;scr...")
+[10:17:22]Wack Grandpap (/mob/living/carbon/human): ClickOn(the floor (64,141,2) (/turf/open/floor/plasteel), "icon-x=15;icon-y=11;left=1;scr...")
+[10:17:22]the floor (64,141,2) (/turf/open/floor/plasteel): Click(the floor (64,141,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=15;icon-y=11;left=1;scr...")
+runtime error: 
+[10:17:39]list index out of bounds
+[10:17:39]proc name: Initialize (/obj/machinery/conveyor/Initialize)
+[10:17:39]  source file: conveyor2.dm,56
+[10:17:39]  usr: Wack Grandpap (/mob/living/carbon/human)
+[10:17:39]  src: the conveyor belt (/obj/machinery/conveyor)
+[10:17:39]  usr.loc: the floor (63,140,2) (/turf/open/floor/plasteel)
+[10:17:39]  src.loc: the floor (64,140,2) (/turf/open/floor/plasteel)
+[10:17:39]  call stack:
+[10:17:39]the conveyor belt (/obj/machinery/conveyor): Initialize(0, 8, 0.0171611)
+[10:17:39]Atoms (/datum/controller/subsystem/atoms): InitAtom(the conveyor belt (/obj/machinery/conveyor), /list (/list))
+[10:17:39]the conveyor belt (/obj/machinery/conveyor): New(0, 8, 0.0171611)
+[10:17:39]the conveyor belt assembly (/obj/item/conveyor_construct): afterattack(the floor (64,140,2) (/turf/open/floor/plasteel), Wack Grandpap (/mob/living/carbon/human), 1, "icon-x=11;icon-y=26;left=1;scr...")
+[10:17:39]the conveyor belt assembly (/obj/item/conveyor_construct): melee attack chain(Wack Grandpap (/mob/living/carbon/human), the floor (64,140,2) (/turf/open/floor/plasteel), "icon-x=11;icon-y=26;left=1;scr...")
+[10:17:39]Wack Grandpap (/mob/living/carbon/human): ClickOn(the floor (64,140,2) (/turf/open/floor/plasteel), "icon-x=11;icon-y=26;left=1;scr...")
+[10:17:39]the floor (64,140,2) (/turf/open/floor/plasteel): Click(the floor (64,140,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=11;icon-y=26;left=1;scr...")
+runtime error: 
+[10:17:44]list index out of bounds
+[10:17:44]proc name: Initialize (/obj/machinery/conveyor/Initialize)
+[10:17:44]  source file: conveyor2.dm,56
+[10:17:44]  usr: Wack Grandpap (/mob/living/carbon/human)
+[10:17:44]  src: the conveyor belt (/obj/machinery/conveyor)
+[10:17:44]  usr.loc: the floor (63,142,2) (/turf/open/floor/plasteel)
+[10:17:44]  src.loc: the floor (64,142,2) (/turf/open/floor/plasteel)
+[10:17:44]  call stack:
+[10:17:44]the conveyor belt (/obj/machinery/conveyor): Initialize(0, 8, 0.0171611)
+[10:17:44]Atoms (/datum/controller/subsystem/atoms): InitAtom(the conveyor belt (/obj/machinery/conveyor), /list (/list))
+[10:17:44]the conveyor belt (/obj/machinery/conveyor): New(0, 8, 0.0171611)
+[10:17:44]the conveyor belt assembly (/obj/item/conveyor_construct): afterattack(the floor (64,142,2) (/turf/open/floor/plasteel), Wack Grandpap (/mob/living/carbon/human), 1, "icon-x=15;icon-y=16;left=1;scr...")
+[10:17:44]the conveyor belt assembly (/obj/item/conveyor_construct): melee attack chain(Wack Grandpap (/mob/living/carbon/human), the floor (64,142,2) (/turf/open/floor/plasteel), "icon-x=15;icon-y=16;left=1;scr...")
+[10:17:44]Wack Grandpap (/mob/living/carbon/human): ClickOn(the floor (64,142,2) (/turf/open/floor/plasteel), "icon-x=15;icon-y=16;left=1;scr...")
+[10:17:44]the floor (64,142,2) (/turf/open/floor/plasteel): Click(the floor (64,142,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=15;icon-y=16;left=1;scr...")
+runtime error: 
+[10:17:49]list index out of bounds
+[10:17:49]proc name: Initialize (/obj/machinery/conveyor/Initialize)
+[10:17:49]  source file: conveyor2.dm,56
+[10:17:49]  usr: Wack Grandpap (/mob/living/carbon/human)
+[10:17:49]  src: the conveyor belt (/obj/machinery/conveyor)
+[10:17:49]  usr.loc: the floor (64,142,2) (/turf/open/floor/plasteel)
+[10:17:49]  src.loc: the floor (63,142,2) (/turf/open/floor/plasteel)
+[10:17:49]  call stack:
+[10:17:49]the conveyor belt (/obj/machinery/conveyor): Initialize(0, 4, 0.0171611)
+[10:17:49]Atoms (/datum/controller/subsystem/atoms): InitAtom(the conveyor belt (/obj/machinery/conveyor), /list (/list))
+[10:17:49]the conveyor belt (/obj/machinery/conveyor): New(0, 4, 0.0171611)
+[10:17:49]the conveyor belt assembly (/obj/item/conveyor_construct): afterattack(the floor (63,142,2) (/turf/open/floor/plasteel), Wack Grandpap (/mob/living/carbon/human), 1, "icon-x=14;icon-y=6;left=1;scre...")
+[10:17:49]the conveyor belt assembly (/obj/item/conveyor_construct): melee attack chain(Wack Grandpap (/mob/living/carbon/human), the floor (63,142,2) (/turf/open/floor/plasteel), "icon-x=14;icon-y=6;left=1;scre...")
+[10:17:49]Wack Grandpap (/mob/living/carbon/human): ClickOn(the floor (63,142,2) (/turf/open/floor/plasteel), "icon-x=14;icon-y=6;left=1;scre...")
+[10:17:49]the floor (63,142,2) (/turf/open/floor/plasteel): Click(the floor (63,142,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=14;icon-y=6;left=1;scre...")
+runtime error: 
+[10:17:53]list index out of bounds
+[10:17:53]proc name: Initialize (/obj/machinery/conveyor/Initialize)
+[10:17:53]  source file: conveyor2.dm,56
+[10:17:53]  usr: Wack Grandpap (/mob/living/carbon/human)
+[10:17:53]  src: the conveyor belt (/obj/machinery/conveyor)
+[10:17:53]  usr.loc: the floor (64,140,2) (/turf/open/floor/plasteel)
+[10:17:53]  src.loc: the floor (63,141,2) (/turf/open/floor/plasteel)
+[10:17:53]  call stack:
+[10:17:53]the conveyor belt (/obj/machinery/conveyor): Initialize(0, 6, 0.0171611)
+[10:17:53]Atoms (/datum/controller/subsystem/atoms): InitAtom(the conveyor belt (/obj/machinery/conveyor), /list (/list))
+[10:17:53]the conveyor belt (/obj/machinery/conveyor): New(0, 6, 0.0171611)
+[10:17:53]the conveyor belt assembly (/obj/item/conveyor_construct): afterattack(the floor (63,141,2) (/turf/open/floor/plasteel), Wack Grandpap (/mob/living/carbon/human), 1, "icon-x=31;icon-y=9;left=1;scre...")
+[10:17:53]the conveyor belt assembly (/obj/item/conveyor_construct): melee attack chain(Wack Grandpap (/mob/living/carbon/human), the floor (63,141,2) (/turf/open/floor/plasteel), "icon-x=31;icon-y=9;left=1;scre...")
+[10:17:53]Wack Grandpap (/mob/living/carbon/human): ClickOn(the floor (63,141,2) (/turf/open/floor/plasteel), "icon-x=31;icon-y=9;left=1;scre...")
+[10:17:53]the floor (63,141,2) (/turf/open/floor/plasteel): Click(the floor (63,141,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=31;icon-y=9;left=1;scre...")
+runtime error: 
+[10:17:57]list index out of bounds
+[10:17:57]proc name: Initialize (/obj/machinery/conveyor/Initialize)
+[10:17:57]  source file: conveyor2.dm,56
+[10:17:57]  usr: Wack Grandpap (/mob/living/carbon/human)
+[10:17:57]  src: the conveyor belt (/obj/machinery/conveyor)
+[10:17:57]  usr.loc: the floor (64,141,2) (/turf/open/floor/plasteel)
+[10:17:57]  src.loc: the floor (63,140,2) (/turf/open/floor/plasteel)
+[10:17:57]  call stack:
+[10:17:57]the conveyor belt (/obj/machinery/conveyor): Initialize(0, 5, 0.0171611)
+[10:17:57]Atoms (/datum/controller/subsystem/atoms): InitAtom(the conveyor belt (/obj/machinery/conveyor), /list (/list))
+[10:17:57]the conveyor belt (/obj/machinery/conveyor): New(0, 5, 0.0171611)
+[10:17:57]the conveyor belt assembly (/obj/item/conveyor_construct): afterattack(the floor (63,140,2) (/turf/open/floor/plasteel), Wack Grandpap (/mob/living/carbon/human), 1, "icon-x=12;icon-y=19;left=1;scr...")
+[10:17:57]the conveyor belt assembly (/obj/item/conveyor_construct): melee attack chain(Wack Grandpap (/mob/living/carbon/human), the floor (63,140,2) (/turf/open/floor/plasteel), "icon-x=12;icon-y=19;left=1;scr...")
+[10:17:57]Wack Grandpap (/mob/living/carbon/human): ClickOn(the floor (63,140,2) (/turf/open/floor/plasteel), "icon-x=12;icon-y=19;left=1;scr...")
+[10:17:57]the floor (63,140,2) (/turf/open/floor/plasteel): Click(the floor (63,140,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=12;icon-y=19;left=1;scr...")
+runtime error: 
+[10:18:09]list index out of bounds
+[10:18:09]proc name: Initialize (/obj/machinery/conveyor_switch/Initialize)
+[10:18:09]  source file: conveyor2.dm,231
+[10:18:09]  usr: Wack Grandpap (/mob/living/carbon/human)
+[10:18:09]  src: the conveyor switch (/obj/machinery/conveyor_switch)
+[10:18:09]  usr.loc: the plating (64,138,2) (/turf/open/floor/plating)
+[10:18:09]  src.loc: the plating (64,138,2) (/turf/open/floor/plating)
+[10:18:09]  call stack:
+[10:18:09]the conveyor switch (/obj/machinery/conveyor_switch): Initialize(0, 0.0171611)
+[10:18:09]Atoms (/datum/controller/subsystem/atoms): InitAtom(the conveyor switch (/obj/machinery/conveyor_switch), /list (/list))
+[10:18:09]the conveyor switch (/obj/machinery/conveyor_switch): New(0, 0.0171611)
+[10:18:09]the conveyor switch assembly (/obj/item/conveyor_switch_construct): afterattack(the plating (64,138,2) (/turf/open/floor/plating), Wack Grandpap (/mob/living/carbon/human), 1, "icon-x=26;icon-y=25;left=1;scr...")
+[10:18:09]the conveyor switch assembly (/obj/item/conveyor_switch_construct): melee attack chain(Wack Grandpap (/mob/living/carbon/human), the plating (64,138,2) (/turf/open/floor/plating), "icon-x=26;icon-y=25;left=1;scr...")
+[10:18:09]Wack Grandpap (/mob/living/carbon/human): ClickOn(the plating (64,138,2) (/turf/open/floor/plating), "icon-x=26;icon-y=25;left=1;scr...")
+[10:18:09]the plating (64,138,2) (/turf/open/floor/plating): Click(the plating (64,138,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=26;icon-y=25;left=1;scr...")
+runtime error: 
+[10:18:09]list index out of bounds
+[10:18:09]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:18:09]  source file: conveyor2.dm,265
+[10:18:09]  usr: null
+[10:18:09]  src: the conveyor switch (/obj/machinery/conveyor_switch)
+[10:18:09]  src.loc: the plating (64,138,2) (/turf/open/floor/plating)
+[10:18:09]  call stack:
+[10:18:09]the conveyor switch (/obj/machinery/conveyor_switch): process(2)
+[10:18:09]Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[10:18:09]Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[10:18:09]Master (/datum/controller/master): RunQueue()
+[10:18:09]Master (/datum/controller/master): Loop()
+[10:18:09]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[10:18:11]list index out of bounds
+[10:18:11]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:18:11]  source file: conveyor2.dm,294
+[10:18:11]  usr: Wack Grandpap (/mob/living/carbon/human)
+[10:18:11]  src: the conveyor switch (/obj/machinery/conveyor_switch)
+[10:18:11]  usr.loc: the plating (64,137,2) (/turf/open/floor/plating)
+[10:18:11]  src.loc: the plating (64,138,2) (/turf/open/floor/plating)
+[10:18:11]  call stack:
+[10:18:11]the conveyor switch (/obj/machinery/conveyor_switch): attack hand(Wack Grandpap (/mob/living/carbon/human))
+[10:18:11]Wack Grandpap (/mob/living/carbon/human): UnarmedAttack(the conveyor switch (/obj/machinery/conveyor_switch), 1)
+[10:18:11]Wack Grandpap (/mob/living/carbon/human): ClickOn(the conveyor switch (/obj/machinery/conveyor_switch), "icon-x=16;icon-y=14;left=1;scr...")
+[10:18:11]the conveyor switch (/obj/machinery/conveyor_switch): Click(the plating (64,138,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=16;icon-y=14;left=1;scr...")
+runtime error: 
+[10:18:11]list index out of bounds
+[10:18:11]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:18:11]  source file: conveyor2.dm,265
+[10:18:11]  usr: null
+[10:18:11]  src: the conveyor switch (/obj/machinery/conveyor_switch)
+[10:18:11]  src.loc: the plating (64,138,2) (/turf/open/floor/plating)
+[10:18:11]  call stack:
+[10:18:11]the conveyor switch (/obj/machinery/conveyor_switch): process(2)
+[10:18:11]Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[10:18:11]Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[10:18:11]Master (/datum/controller/master): RunQueue()
+[10:18:11]Master (/datum/controller/master): Loop()
+[10:18:11]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[10:18:12]list index out of bounds
+[10:18:12]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:18:12]  source file: conveyor2.dm,294
+[10:18:12]  usr: Wack Grandpap (/mob/living/carbon/human)
+[10:18:12]  src: the conveyor switch (/obj/machinery/conveyor_switch)
+[10:18:12]  usr.loc: the plating (64,137,2) (/turf/open/floor/plating)
+[10:18:12]  src.loc: the plating (64,138,2) (/turf/open/floor/plating)
+[10:18:12]  call stack:
+[10:18:12]the conveyor switch (/obj/machinery/conveyor_switch): attack hand(Wack Grandpap (/mob/living/carbon/human))
+[10:18:12]Wack Grandpap (/mob/living/carbon/human): UnarmedAttack(the conveyor switch (/obj/machinery/conveyor_switch), 1)
+[10:18:12]Wack Grandpap (/mob/living/carbon/human): ClickOn(the conveyor switch (/obj/machinery/conveyor_switch), "icon-x=17;icon-y=10;left=1;scr...")
+[10:18:12]the conveyor switch (/obj/machinery/conveyor_switch): Click(the plating (64,138,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=17;icon-y=10;left=1;scr...")
+runtime error: 
+[10:18:13]list index out of bounds
+[10:18:13]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:18:13]  source file: conveyor2.dm,265
+[10:18:13]  usr: null
+[10:18:13]  src: the conveyor switch (/obj/machinery/conveyor_switch)
+[10:18:13]  src.loc: the plating (64,138,2) (/turf/open/floor/plating)
+[10:18:13]  call stack:
+[10:18:13]the conveyor switch (/obj/machinery/conveyor_switch): process(2)
+[10:18:13]Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[10:18:13]Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[10:18:13]Master (/datum/controller/master): RunQueue()
+[10:18:13]Master (/datum/controller/master): Loop()
+[10:18:13]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[10:18:13]list index out of bounds
+[10:18:13]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:18:13]  source file: conveyor2.dm,294
+[10:18:13]  usr: Wack Grandpap (/mob/living/carbon/human)
+[10:18:13]  src: the conveyor switch (/obj/machinery/conveyor_switch)
+[10:18:13]  usr.loc: the plating (64,137,2) (/turf/open/floor/plating)
+[10:18:13]  src.loc: the plating (64,138,2) (/turf/open/floor/plating)
+[10:18:13]  call stack:
+[10:18:13]the conveyor switch (/obj/machinery/conveyor_switch): attack hand(Wack Grandpap (/mob/living/carbon/human))
+[10:18:13]Wack Grandpap (/mob/living/carbon/human): UnarmedAttack(the conveyor switch (/obj/machinery/conveyor_switch), 1)
+[10:18:13]Wack Grandpap (/mob/living/carbon/human): ClickOn(the conveyor switch (/obj/machinery/conveyor_switch), "icon-x=16;icon-y=10;left=1;scr...")
+[10:18:13]the conveyor switch (/obj/machinery/conveyor_switch): Click(the plating (64,138,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=16;icon-y=10;left=1;scr...")
+runtime error: 
+[10:18:13]list index out of bounds
+[10:18:13]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:18:13]  source file: conveyor2.dm,265
+[10:18:13]  usr: null
+[10:18:13]  src: the conveyor switch (/obj/machinery/conveyor_switch)
+[10:18:13]  src.loc: the plating (64,138,2) (/turf/open/floor/plating)
+[10:18:13]  call stack:
+[10:18:13]the conveyor switch (/obj/machinery/conveyor_switch): process(2)
+[10:18:13]Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[10:18:13]Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[10:18:13]Master (/datum/controller/master): RunQueue()
+[10:18:13]Master (/datum/controller/master): Loop()
+[10:18:13]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[10:18:14]list index out of bounds
+[10:18:14]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:18:14]  source file: conveyor2.dm,294
+[10:18:14]  usr: Wack Grandpap (/mob/living/carbon/human)
+[10:18:14]  src: the conveyor switch (/obj/machinery/conveyor_switch)
+[10:18:14]  usr.loc: the plating (64,137,2) (/turf/open/floor/plating)
+[10:18:14]  src.loc: the plating (64,138,2) (/turf/open/floor/plating)
+[10:18:14]  call stack:
+[10:18:14]the conveyor switch (/obj/machinery/conveyor_switch): attack hand(Wack Grandpap (/mob/living/carbon/human))
+[10:18:14]Wack Grandpap (/mob/living/carbon/human): UnarmedAttack(the conveyor switch (/obj/machinery/conveyor_switch), 1)
+[10:18:14]Wack Grandpap (/mob/living/carbon/human): ClickOn(the conveyor switch (/obj/machinery/conveyor_switch), "icon-x=16;icon-y=10;left=1;scr...")
+[10:18:14]the conveyor switch (/obj/machinery/conveyor_switch): Click(the plating (64,138,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=16;icon-y=10;left=1;scr...")
+runtime error: 
+[10:18:14]list index out of bounds
+[10:18:14]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:18:14]  source file: conveyor2.dm,265
+[10:18:14]  usr: null
+[10:18:14]  src: the conveyor switch (/obj/machinery/conveyor_switch)
+[10:18:14]  src.loc: the plating (64,138,2) (/turf/open/floor/plating)
+[10:18:14]  call stack:
+[10:18:14]the conveyor switch (/obj/machinery/conveyor_switch): process(2)
+[10:18:14]Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[10:18:14]Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[10:18:14]Master (/datum/controller/master): RunQueue()
+[10:18:14]Master (/datum/controller/master): Loop()
+[10:18:14]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[10:18:15]list index out of bounds
+[10:18:15]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:18:15]  source file: conveyor2.dm,294
+[10:18:15]  usr: Wack Grandpap (/mob/living/carbon/human)
+[10:18:15]  src: the conveyor switch (/obj/machinery/conveyor_switch)
+[10:18:15]  usr.loc: the plating (64,137,2) (/turf/open/floor/plating)
+[10:18:15]  src.loc: the plating (64,138,2) (/turf/open/floor/plating)
+[10:18:15]  call stack:
+[10:18:15]the conveyor switch (/obj/machinery/conveyor_switch): attack hand(Wack Grandpap (/mob/living/carbon/human))
+[10:18:15]Wack Grandpap (/mob/living/carbon/human): UnarmedAttack(the conveyor switch (/obj/machinery/conveyor_switch), 1)
+[10:18:15]Wack Grandpap (/mob/living/carbon/human): ClickOn(the conveyor switch (/obj/machinery/conveyor_switch), "icon-x=18;icon-y=11;left=1;scr...")
+[10:18:15]the conveyor switch (/obj/machinery/conveyor_switch): Click(the plating (64,138,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=18;icon-y=11;left=1;scr...")
+runtime error: 
+[10:18:15]list index out of bounds
+[10:18:15]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:18:15]  source file: conveyor2.dm,265
+runtime error: 
+[10:18:16]list index out of bounds
+[10:18:16]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:18:16]  source file: conveyor2.dm,294
+runtime error: 
+[10:18:16]list index out of bounds
+[10:18:16]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:18:16]  source file: conveyor2.dm,265
+runtime error: 
+[10:18:16]list index out of bounds
+[10:18:16]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:18:16]  source file: conveyor2.dm,294
+runtime error: 
+[10:18:16]list index out of bounds
+[10:18:16]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:18:16]  source file: conveyor2.dm,265
+runtime error: 
+[10:18:16]list index out of bounds
+[10:18:16]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:18:16]  source file: conveyor2.dm,294
+runtime error: 
+[10:18:16]list index out of bounds
+[10:18:16]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:18:16]  source file: conveyor2.dm,265
+runtime error: 
+[10:18:16]list index out of bounds
+[10:18:16]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:18:16]  source file: conveyor2.dm,294
+runtime error: 
+[10:18:16]list index out of bounds
+[10:18:16]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:18:16]  source file: conveyor2.dm,265
+runtime error: 
+[10:18:17]list index out of bounds
+[10:18:17]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:18:17]  source file: conveyor2.dm,294
+runtime error: 
+[10:18:17]list index out of bounds
+[10:18:17]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:18:17]  source file: conveyor2.dm,265
+runtime error: 
+[10:18:26]list index out of bounds
+[10:18:26]proc name: Destroy (/obj/machinery/conveyor_switch/Destroy)
+[10:18:26]  source file: conveyor2.dm,234
+runtime error: 
+[10:19:02]list index out of bounds
+[10:19:02]proc name: Destroy (/obj/machinery/conveyor/Destroy)
+[10:19:02]  source file: conveyor2.dm,59
+runtime error: 
+[10:19:03]list index out of bounds
+[10:19:03]proc name: Destroy (/obj/machinery/conveyor/Destroy)
+[10:19:03]  source file: conveyor2.dm,59
+runtime error: 
+[10:19:03]list index out of bounds
+[10:19:03]proc name: Destroy (/obj/machinery/conveyor/Destroy)
+[10:19:03]  source file: conveyor2.dm,59
+runtime error: 
+[10:19:04]list index out of bounds
+[10:19:04]proc name: Destroy (/obj/machinery/conveyor/Destroy)
+[10:19:04]  source file: conveyor2.dm,59
+runtime error: 
+[10:19:09]list index out of bounds
+[10:19:09]proc name: Destroy (/obj/machinery/conveyor/Destroy)
+[10:19:09]  source file: conveyor2.dm,59
+runtime error: 
+[10:19:10]list index out of bounds
+[10:19:10]proc name: Destroy (/obj/machinery/conveyor/Destroy)
+[10:19:10]  source file: conveyor2.dm,59
+runtime error: 
+[10:19:18]list index out of bounds
+[10:19:18]proc name: Initialize (/obj/machinery/conveyor_switch/Initialize)
+[10:19:18]  source file: conveyor2.dm,231
+runtime error: 
+[10:19:18]list index out of bounds
+[10:19:18]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:19:18]  source file: conveyor2.dm,265
+runtime error: 
+[10:19:20]list index out of bounds
+[10:19:20]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:19:20]  source file: conveyor2.dm,294
+runtime error: 
+[10:19:20]list index out of bounds
+[10:19:20]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:19:20]  source file: conveyor2.dm,265
+runtime error: 
+[10:19:39]list index out of bounds
+[10:19:39]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:19:39]  source file: conveyor2.dm,294
+runtime error: 
+[10:19:39]list index out of bounds
+[10:19:39]proc name: process (/obj/machinery/conveyor_switch/process)
+[10:19:39]  source file: conveyor2.dm,265
+runtime error: 
+[10:19:43]list index out of bounds
+[10:19:43]proc name: Destroy (/obj/machinery/conveyor_switch/Destroy)
+[10:19:43]  source file: conveyor2.dm,234
+runtime error: 
+[10:19:44]list index out of bounds
+[10:19:44]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:19:44]  source file: conveyor2.dm,294
+runtime error: 
+[10:19:46]list index out of bounds
+[10:19:46]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:19:46]  source file: conveyor2.dm,294
+runtime error: 
+[10:19:47]list index out of bounds
+[10:19:47]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:19:47]  source file: conveyor2.dm,294
+runtime error: 
+[10:19:47]list index out of bounds
+[10:19:47]proc name: attack hand (/obj/machinery/conveyor_switch/attack_hand)
+[10:19:47]  source file: conveyor2.dm,294
+runtime error: 
+[10:48:04]nothing to animate
+[10:48:04]proc name: shake camera (/proc/shake_camera)
+[10:48:04]  source file: mob_helpers.dm,270
+runtime error: 
+[11:11:07]nothing to animate
+[11:11:07]proc name: shake camera (/proc/shake_camera)
+[11:11:07]  source file: mob_helpers.dm,270
+runtime error: 
+[11:18:32]list index out of bounds
+[11:18:32]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[11:18:32]  source file: aurora_caelus.dm,39
+Saved 118 engraved messages on map Box Station
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 11:25:44

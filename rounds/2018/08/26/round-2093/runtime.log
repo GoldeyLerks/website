@@ -1,0 +1,1341 @@
+[2018-08-26 23:22:44.800] Starting up round ID 2093.
+[2018-08-26 23:22:44.800] -------------------------
+[2018-08-26 23:22:45.870] Initialized Database subsystem within 0 seconds!
+[2018-08-26 23:22:45.870] Initialized Blackbox subsystem within 0 seconds!
+[2018-08-26 23:22:45.871] Initialized Server Tasks subsystem within 0 seconds!
+[2018-08-26 23:22:45.871] Initialized Input subsystem within 0 seconds!
+[2018-08-26 23:22:45.905] Initialized Research subsystem within 0.1 seconds!
+[2018-08-26 23:22:45.909] Initialized Events subsystem within 0 seconds!
+[2018-08-26 23:22:45.912] Initialized Jobs subsystem within 0 seconds!
+[2018-08-26 23:22:45.913] Initialized Quirks subsystem within 0 seconds!
+[2018-08-26 23:22:45.922] Initialized Ticker subsystem within 0 seconds!
+[2018-08-26 23:22:45.922] Loading Box Station...
+[2018-08-26 23:22:50.136] Loaded Station in 4.2s!
+[2018-08-26 23:22:54.783] Loaded Lavaland in 4.4s!
+[2018-08-26 23:23:10.172] Ruin loader finished with 0 left to spend.
+[2018-08-26 23:23:16.911] Ruin loader finished with 0 left to spend.
+[2018-08-26 23:23:18.369] Initialized Mapping subsystem within 32.4 seconds!
+[2018-08-26 23:23:18.720] Initialized Networks subsystem within 0 seconds!
+[2018-08-26 23:24:13.121] Initialized Atoms subsystem within 54.4 seconds!
+[2018-08-26 23:24:13.160] Initialized Language subsystem within 0 seconds!
+[2018-08-26 23:24:13.619] Initialized Machines subsystem within 0.5 seconds!
+[2018-08-26 23:24:13.681] Initialized Circuit subsystem within 0 seconds!
+[2018-08-26 23:24:13.683] Initialized Disease subsystem within 0 seconds!
+[2018-08-26 23:24:13.683] Initialized Medals subsystem within 0 seconds!
+[2018-08-26 23:24:13.684] Initialized Night Shift subsystem within 0 seconds!
+[2018-08-26 23:24:13.684] Initialized Parallax subsystem within 0 seconds!
+[2018-08-26 23:24:13.849] Initialized Traumas subsystem within 0.2 seconds!
+[2018-08-26 23:24:13.850] Initialized Weather subsystem within 0 seconds!
+[2018-08-26 23:24:22.623] Initialized Atmospherics subsystem within 8.8 seconds!
+[2018-08-26 23:24:22.641] Initialized Minimap subsystem within 0 seconds!
+[2018-08-26 23:24:24.837] Initialized Assets subsystem within 2.2 seconds!
+[2018-08-26 23:24:33.856] Initialized Icon Smoothing subsystem within 8.7 seconds!
+[2018-08-26 23:24:35.968] Initialized Overlay subsystem within 2.1 seconds!
+[2018-08-26 23:24:35.969] Initialized XKeyScore subsystem within 0 seconds!
+[2018-08-26 23:24:35.970] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-08-26 23:24:55.386] Initialized Lighting subsystem within 19.4 seconds!
+[2018-08-26 23:25:00.411] Initialized Shuttle subsystem within 5.1 seconds!
+[2018-08-26 23:25:00.450] Initialized Squeak subsystem within 0 seconds!
+[2018-08-26 23:25:00.452] Initialized Pathfinder subsystem within 0 seconds!
+[2018-08-26 23:25:00.512] Loaded 21 engraved messages on map Box Station
+[2018-08-26 23:25:00.554] Initialized Persistence subsystem within 0.1 seconds!
+[2018-08-26 23:25:00.558] Initializations complete within 134.7 seconds!
+[2018-08-26 23:26:23.339] Game start took 1.9s
+[2018-08-26 23:52:23.172] runtime error: Cannot read null.body_part
+[2018-08-26 23:52:23.172] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-08-26 23:52:23.172]   source file: human_defense.dm,30
+[2018-08-26 23:52:23.172]   usr: null
+[2018-08-26 23:52:23.172]   src: Unknown (/mob/living/carbon/human)
+[2018-08-26 23:52:23.172]   src.loc: the volcanic floor (57,133,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[2018-08-26 23:52:23.172]   call stack:
+[2018-08-26 23:52:23.172] Unknown (/mob/living/carbon/human): checkarmor(null, "bullet")
+[2018-08-26 23:52:23.172] Unknown (/mob/living/carbon/human): getarmor("chest", "bullet")
+[2018-08-26 23:52:23.172] Unknown (/mob/living/carbon/human): run armor check("chest", "bullet", "", "", 0, null)
+[2018-08-26 23:52:23.172] Unknown (/mob/living/carbon/human): bullet act(the plasma blast (/obj/item/projectile/plasma/adv), "chest")
+[2018-08-26 23:52:23.172] Unknown (/mob/living/carbon/human): bullet act(the plasma blast (/obj/item/projectile/plasma/adv), "chest")
+[2018-08-26 23:52:23.172] the plasma blast (/obj/item/projectile/plasma/adv): Bump(Unknown (/mob/living/carbon/human))
+[2018-08-26 23:52:23.172] the plasma blast (/obj/item/projectile/plasma/adv): pixel move(1, 0)
+[2018-08-26 23:52:23.172] the plasma blast (/obj/item/projectile/plasma/adv): process(1)
+[2018-08-26 23:52:23.172] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-08-26 23:52:23.172] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-08-26 23:52:23.172] Master (/datum/controller/master): RunQueue()
+[2018-08-26 23:52:23.172] Master (/datum/controller/master): Loop()
+[2018-08-26 23:52:23.172] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-26 23:52:23.172] 
+[2018-08-26 23:52:25.820] runtime error: Cannot read null.body_part
+[2018-08-26 23:52:25.820] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-08-26 23:52:25.820]   source file: human_defense.dm,30
+[2018-08-26 23:52:25.820]   usr: null
+[2018-08-26 23:52:25.820]   src: Unknown (/mob/living/carbon/human)
+[2018-08-26 23:52:25.820]   src.loc: the volcanic floor (57,133,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[2018-08-26 23:52:25.820]   call stack:
+[2018-08-26 23:52:25.820] Unknown (/mob/living/carbon/human): checkarmor(null, "bomb")
+[2018-08-26 23:52:25.820] Unknown (/mob/living/carbon/human): getarmor("chest", "bomb")
+[2018-08-26 23:52:25.820] Unknown (/mob/living/carbon/human): run armor check("chest", "bomb", "", "", 0, null)
+[2018-08-26 23:52:25.820] Unknown (/mob/living/carbon/human): bullet act(the kinetic explosion (/obj/item/projectile/kinetic), "chest")
+[2018-08-26 23:52:25.820] Unknown (/mob/living/carbon/human): bullet act(the kinetic explosion (/obj/item/projectile/kinetic), "chest")
+[2018-08-26 23:52:25.820] the kinetic explosion (/obj/item/projectile/kinetic): Bump(Unknown (/mob/living/carbon/human))
+[2018-08-26 23:52:25.820] the kinetic explosion (/obj/item/projectile/kinetic): pixel move(1, 0)
+[2018-08-26 23:52:25.820] the kinetic explosion (/obj/item/projectile/kinetic): process(1)
+[2018-08-26 23:52:25.820] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-08-26 23:52:25.820] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-08-26 23:52:25.820] Master (/datum/controller/master): RunQueue()
+[2018-08-26 23:52:25.820] Master (/datum/controller/master): Loop()
+[2018-08-26 23:52:25.820] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-26 23:52:25.820] 
+[2018-08-26 23:59:22.471] runtime error: Ghostize was called on a virtual reality mob
+[2018-08-26 23:59:22.471] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-26 23:59:22.471]   source file: unsorted.dm,1169
+[2018-08-26 23:59:22.471]   usr: Dallas Cowper (/mob/living/carbon/human)
+[2018-08-26 23:59:22.471]   src: Andrea Focell (/mob/living/carbon/human/virtual_reality)
+[2018-08-26 23:59:22.471]   usr.loc: the floor (140,151,2) (/turf/open/floor/plasteel/green/side)
+[2018-08-26 23:59:22.471]   src.loc: the floor (57,222,13) (/turf/open/floor/plasteel)
+[2018-08-26 23:59:22.471]   call stack:
+[2018-08-26 23:59:22.471] Andrea Focell (/mob/living/carbon/human/virtual_reality): stack trace("Ghostize was called on a virtu...")
+[2018-08-26 23:59:22.471] Andrea Focell (/mob/living/carbon/human/virtual_reality): ghostize()
+[2018-08-26 23:59:22.471] Andrea Focell (/mob/living/carbon/human/virtual_reality): Destroy(0)
+[2018-08-26 23:59:22.471] Andrea Focell (/mob/living/carbon/human/virtual_reality): Destroy(0)
+[2018-08-26 23:59:22.471] Andrea Focell (/mob/living/carbon/human/virtual_reality): Destroy(0)
+[2018-08-26 23:59:22.471] Andrea Focell (/mob/living/carbon/human/virtual_reality): Destroy(0)
+[2018-08-26 23:59:22.471] Andrea Focell (/mob/living/carbon/human/virtual_reality): Destroy(0)
+[2018-08-26 23:59:22.471] Andrea Focell (/mob/living/carbon/human/virtual_reality): Destroy(0)
+[2018-08-26 23:59:22.471] qdel(Andrea Focell (/mob/living/carbon/human/virtual_reality), 0)
+[2018-08-26 23:59:22.471] the virtual reality sleeper (/obj/machinery/vr_sleeper): cleanup vr human()
+[2018-08-26 23:59:22.471] the virtual reality sleeper (/obj/machinery/vr_sleeper): ui act("delete_avatar", /list (/list), /datum/tgui (/datum/tgui), /datum/ui_state/default (/datum/ui_state/default))
+[2018-08-26 23:59:22.471] /datum/tgui (/datum/tgui): Topic("src=%5B0x210b1ff9%5D&action=de...", /list (/list))
+[2018-08-26 23:59:22.471] JaxonMaxx (/client): Topic("src=%5B0x210b1ff9%5D&action=de...", /list (/list), /datum/tgui (/datum/tgui))
+[2018-08-26 23:59:22.471] JaxonMaxx (/client): Topic("src=%5B0x210b1ff9%5D&action=de...", /list (/list), /datum/tgui (/datum/tgui))
+[2018-08-26 23:59:22.471] 
+[2018-08-27 00:02:50.153] ## WARNING: couldn't find shuttle with id: syndie_cargo in code/controllers/subsystem/shuttle.dm at line 159 src: Shuttle usr: Caden Todd.
+[2018-08-27 00:04:38.559] ## DEBUG: Explosion(143,71,5)(d1,h2,l5): Took 0 seconds.
+[2018-08-27 00:04:58.036] runtime error: Ghostize was called on a virtual reality mob
+[2018-08-27 00:04:58.036] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-27 00:04:58.036]   source file: unsorted.dm,1169
+[2018-08-27 00:04:58.036]   usr: Dallas Cowper (/mob/living/carbon/human)
+[2018-08-27 00:04:58.036]   src: Dallas Cowper (/mob/living/carbon/human/virtual_reality)
+[2018-08-27 00:04:58.036]   usr.loc: the virtual reality sleeper (/obj/machinery/vr_sleeper)
+[2018-08-27 00:04:58.036]   src.loc: the snow (58,75,13) (/turf/open/floor/plating/asteroid/snow)
+[2018-08-27 00:04:58.036]   call stack:
+[2018-08-27 00:04:58.036] Dallas Cowper (/mob/living/carbon/human/virtual_reality): stack trace("Ghostize was called on a virtu...")
+[2018-08-27 00:04:58.036] Dallas Cowper (/mob/living/carbon/human/virtual_reality): ghostize()
+[2018-08-27 00:04:58.036] Dallas Cowper (/mob/living/carbon/human/virtual_reality): Destroy(0)
+[2018-08-27 00:04:58.036] Dallas Cowper (/mob/living/carbon/human/virtual_reality): Destroy(0)
+[2018-08-27 00:04:58.036] Dallas Cowper (/mob/living/carbon/human/virtual_reality): Destroy(0)
+[2018-08-27 00:04:58.036] Dallas Cowper (/mob/living/carbon/human/virtual_reality): Destroy(0)
+[2018-08-27 00:04:58.036] Dallas Cowper (/mob/living/carbon/human/virtual_reality): Destroy(0)
+[2018-08-27 00:04:58.036] Dallas Cowper (/mob/living/carbon/human/virtual_reality): Destroy(0)
+[2018-08-27 00:04:58.036] qdel(Dallas Cowper (/mob/living/carbon/human/virtual_reality), 0)
+[2018-08-27 00:04:58.036] the virtual reality sleeper (/obj/machinery/vr_sleeper): cleanup vr human()
+[2018-08-27 00:04:58.036] the virtual reality sleeper (/obj/machinery/vr_sleeper): ui act("delete_avatar", /list (/list), /datum/tgui (/datum/tgui), /datum/ui_state/default (/datum/ui_state/default))
+[2018-08-27 00:04:58.036] /datum/tgui (/datum/tgui): Topic("src=%5B0x210b02d1%5D&action=de...", /list (/list))
+[2018-08-27 00:04:58.036] JaxonMaxx (/client): Topic("src=%5B0x210b02d1%5D&action=de...", /list (/list), /datum/tgui (/datum/tgui))
+[2018-08-27 00:04:58.036] JaxonMaxx (/client): Topic("src=%5B0x210b02d1%5D&action=de...", /list (/list), /datum/tgui (/datum/tgui))
+[2018-08-27 00:04:58.036] 
+[2018-08-27 00:05:44.595] ### VarEdit by Qwertyquerty/(Julia Luna): /datum/controller/subsystem/parallax planet_y_offset=134 => 100
+[2018-08-27 00:07:27.388] runtime error: Undefined variable /datum/controller/subsystem/parallax/var/type
+[2018-08-27 00:07:27.388] 
+[2018-08-27 00:07:27.388] proc name: vv edit var (/datum/proc/vv_edit_var)
+[2018-08-27 00:07:27.388]   source file: datumvars.dm,14
+[2018-08-27 00:07:27.388]   usr: Julia Luna (/mob/dead/observer)
+[2018-08-27 00:07:27.388]   src: Parallax (/datum/controller/subsystem/parallax)
+[2018-08-27 00:07:27.388]   usr.loc: space (45,169,2) (/turf/open/space/basic)
+[2018-08-27 00:07:27.388]   call stack:
+[2018-08-27 00:07:27.388] Parallax (/datum/controller/subsystem/parallax): vv edit var("type", /datum/sprite_accessory/unders... (/datum/sprite_accessory/undershirt/bluejersey))
+[2018-08-27 00:07:27.388] Parallax (/datum/controller/subsystem/parallax): vv edit var("type", /datum/sprite_accessory/unders... (/datum/sprite_accessory/undershirt/bluejersey))
+[2018-08-27 00:07:27.388] Qwertyquerty (/client): modify variables(Parallax (/datum/controller/subsystem/parallax), "type", 1)
+[2018-08-27 00:07:27.388] Qwertyquerty (/client): view var Topic("_src_=vars;admin_token=3365374...", /list (/list), null)
+[2018-08-27 00:07:27.388] Qwertyquerty (/client): Topic("_src_=vars;admin_token=3365374...", /list (/list), null)
+[2018-08-27 00:07:27.388] Qwertyquerty (/client): Topic("_src_=vars;admin_token=3365374...", /list (/list))
+[2018-08-27 00:07:27.388] 
+[2018-08-27 00:07:27.389] ### VarEdit by Qwertyquerty/(Julia Luna): /datum/controller/subsystem/parallax type=/datum/controller/subsystem/parallax => /datum/sprite_accessory/undershirt/bluejersey
+[2018-08-27 00:08:01.258] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-27 00:08:01.258] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-27 00:08:01.258]   source file: unsorted.dm,1169
+[2018-08-27 00:08:01.258]   usr: (src)
+[2018-08-27 00:08:01.258]   src: Kaydence Baxter (/mob/living/carbon/human)
+[2018-08-27 00:08:01.258]   src.loc: the floor (155,156,5) (/turf/open/floor/plasteel)
+[2018-08-27 00:08:01.258]   call stack:
+[2018-08-27 00:08:01.258] Kaydence Baxter (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-27 00:08:01.258] Kaydence Baxter (/mob/living/carbon/human): log message("(LOCAL): I got killed by focel...", 1536, null, 1)
+[2018-08-27 00:08:01.258] Kaydence Baxter (/mob/living/carbon/human): log message("(LOCAL): I got killed by focel...", 1536, null, 1)
+[2018-08-27 00:08:01.258] Juicy_Chicken (/client): LOOC("I got killed by focell. :(")
+[2018-08-27 00:08:01.258] 
+[2018-08-27 00:10:27.114] runtime error: Cannot read null.state
+[2018-08-27 00:10:27.114] proc name: CheckQueue (/datum/controller/master/proc/CheckQueue)
+[2018-08-27 00:10:27.114]   source file: master.dm,402
+[2018-08-27 00:10:27.114]   usr: null
+[2018-08-27 00:10:27.114]   src: Master (/datum/controller/master)
+[2018-08-27 00:10:27.114]   call stack:
+[2018-08-27 00:10:27.114] Master (/datum/controller/master): CheckQueue(/list (/list))
+[2018-08-27 00:10:27.114] Master (/datum/controller/master): Loop()
+[2018-08-27 00:10:27.114] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-27 00:10:27.114] 
+[2018-08-27 00:10:27.114] MC: SoftReset called, resetting MC queue state.
+[2018-08-27 00:10:27.114] MC: SoftReset: Found bad entry in subsystem list, ''
+[2018-08-27 00:10:27.114] MC: SoftReset: Finished.
+[2018-08-27 00:10:28.293] runtime error: undefined proc or verb /datum/pipeline/process cell().
+[2018-08-27 00:10:28.293] 
+[2018-08-27 00:10:28.293] proc name: process active turfs (/datum/controller/subsystem/air/proc/process_active_turfs)
+[2018-08-27 00:10:28.293]   source file: air.dm,221
+[2018-08-27 00:10:28.293]   usr: null
+[2018-08-27 00:10:28.293]   src: Atmospherics (/datum/controller/subsystem/air)
+[2018-08-27 00:10:28.293]   call stack:
+[2018-08-27 00:10:28.293] Atmospherics (/datum/controller/subsystem/air): process active turfs(1)
+[2018-08-27 00:10:28.293] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-08-27 00:10:28.293] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-08-27 00:10:28.293] Master (/datum/controller/master): RunQueue()
+[2018-08-27 00:10:28.293] Master (/datum/controller/master): Loop()
+[2018-08-27 00:10:28.293] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-27 00:10:28.293] 
+[2018-08-27 00:10:31.067] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:31.067] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:31.067]   source file: parallax.dm,207
+[2018-08-27 00:10:31.067]   usr: Kaydence Baxter (/mob/living/carbon/human)
+[2018-08-27 00:10:31.067]   src: /datum/hud/human (/datum/hud/human)
+[2018-08-27 00:10:31.067]   usr.loc: the floor (137,131,5) (/turf/open/floor/plasteel/vault)
+[2018-08-27 00:10:31.067]   call stack:
+[2018-08-27 00:10:31.067] /datum/hud/human (/datum/hud/human): update parallax()
+[2018-08-27 00:10:31.067] Kaydence Baxter (/mob/living/carbon/human): update parallax contents()
+[2018-08-27 00:10:31.067] Kaydence Baxter (/mob/living/carbon/human): Moved(the floor (138,131,5) (/turf/open/floor/plasteel/vault), 8, 0)
+[2018-08-27 00:10:31.067] Kaydence Baxter (/mob/living/carbon/human): Moved(the floor (138,131,5) (/turf/open/floor/plasteel/vault), 8)
+[2018-08-27 00:10:31.067] Kaydence Baxter (/mob/living/carbon/human): Moved(the floor (138,131,5) (/turf/open/floor/plasteel/vault), 8)
+[2018-08-27 00:10:31.067] Kaydence Baxter (/mob/living/carbon/human): Move(the floor (137,131,5) (/turf/open/floor/plasteel/vault), 8)
+[2018-08-27 00:10:31.067] Kaydence Baxter (/mob/living/carbon/human): Move(the floor (137,131,5) (/turf/open/floor/plasteel/vault), 8)
+[2018-08-27 00:10:31.067] Kaydence Baxter (/mob/living/carbon/human): Move(the floor (137,131,5) (/turf/open/floor/plasteel/vault), 8)
+[2018-08-27 00:10:31.067] Kaydence Baxter (/mob/living/carbon/human): Move(the floor (137,131,5) (/turf/open/floor/plasteel/vault), 8)
+[2018-08-27 00:10:31.067] Juicy_Chicken (/client): Move(the floor (137,131,5) (/turf/open/floor/plasteel/vault), 8)
+[2018-08-27 00:10:31.067] Kaydence Baxter (/mob/living/carbon/human): keyLoop(Juicy_Chicken (/client))
+[2018-08-27 00:10:31.067] Juicy_Chicken (/client): keyLoop()
+[2018-08-27 00:10:31.067] Input (/datum/controller/subsystem/input): fire(0)
+[2018-08-27 00:10:31.067] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-08-27 00:10:31.067] Master (/datum/controller/master): RunQueue()
+[2018-08-27 00:10:31.067] Master (/datum/controller/master): Loop()
+[2018-08-27 00:10:31.067] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-27 00:10:31.067] 
+[2018-08-27 00:10:31.417] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:31.417] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:31.417]   source file: parallax.dm,207
+[2018-08-27 00:10:31.417]   usr: Kaydence Baxter (/mob/living/carbon/human)
+[2018-08-27 00:10:31.417]   src: /datum/hud/human (/datum/hud/human)
+[2018-08-27 00:10:31.417]   usr.loc: the floor (138,131,5) (/turf/open/floor/plasteel/vault)
+[2018-08-27 00:10:31.417]   call stack:
+[2018-08-27 00:10:31.417] /datum/hud/human (/datum/hud/human): update parallax()
+[2018-08-27 00:10:31.417] Kaydence Baxter (/mob/living/carbon/human): update parallax contents()
+[2018-08-27 00:10:31.417] Kaydence Baxter (/mob/living/carbon/human): Moved(the floor (137,131,5) (/turf/open/floor/plasteel/vault), 4, 0)
+[2018-08-27 00:10:31.417] Kaydence Baxter (/mob/living/carbon/human): Moved(the floor (137,131,5) (/turf/open/floor/plasteel/vault), 4)
+[2018-08-27 00:10:31.417] Kaydence Baxter (/mob/living/carbon/human): Moved(the floor (137,131,5) (/turf/open/floor/plasteel/vault), 4)
+[2018-08-27 00:10:31.417] Kaydence Baxter (/mob/living/carbon/human): Move(the floor (138,131,5) (/turf/open/floor/plasteel/vault), 4)
+[2018-08-27 00:10:31.417] Kaydence Baxter (/mob/living/carbon/human): Move(the floor (138,131,5) (/turf/open/floor/plasteel/vault), 4)
+[2018-08-27 00:10:31.417] Kaydence Baxter (/mob/living/carbon/human): Move(the floor (138,131,5) (/turf/open/floor/plasteel/vault), 4)
+[2018-08-27 00:10:31.417] Kaydence Baxter (/mob/living/carbon/human): Move(the floor (138,131,5) (/turf/open/floor/plasteel/vault), 4)
+[2018-08-27 00:10:31.417] Juicy_Chicken (/client): Move(the floor (138,131,5) (/turf/open/floor/plasteel/vault), 4)
+[2018-08-27 00:10:31.417] Kaydence Baxter (/mob/living/carbon/human): keyLoop(Juicy_Chicken (/client))
+[2018-08-27 00:10:31.417] Juicy_Chicken (/client): keyLoop()
+[2018-08-27 00:10:31.417] Input (/datum/controller/subsystem/input): fire(0)
+[2018-08-27 00:10:31.417] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-08-27 00:10:31.417] Master (/datum/controller/master): RunQueue()
+[2018-08-27 00:10:31.417] Master (/datum/controller/master): Loop()
+[2018-08-27 00:10:31.417] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-27 00:10:31.417] 
+[2018-08-27 00:10:34.237] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.238] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.238]   source file: parallax.dm,207
+[2018-08-27 00:10:34.238]   usr: null
+[2018-08-27 00:10:34.238]   src: /datum/hud/ai (/datum/hud/ai)
+[2018-08-27 00:10:34.238]   call stack:
+[2018-08-27 00:10:34.238] /datum/hud/ai (/datum/hud/ai): update parallax()
+[2018-08-27 00:10:34.238] God (AI Eye) (/mob/camera/aiEye): update parallax contents()
+[2018-08-27 00:10:34.238] God (AI Eye) (/mob/camera/aiEye): setLoc(the floor (144,110,2) (/turf/open/floor/plasteel/white), 0)
+[2018-08-27 00:10:34.238] CthulhuOnIce (/client): AIMove(the wall (149,32,2) (/turf/closed/wall), 8, God (/mob/living/silicon/ai))
+[2018-08-27 00:10:34.238] CthulhuOnIce (/client): Move(the wall (149,32,2) (/turf/closed/wall), 8)
+[2018-08-27 00:10:34.238] God (/mob/living/silicon/ai): keyLoop(CthulhuOnIce (/client))
+[2018-08-27 00:10:34.238] CthulhuOnIce (/client): keyLoop()
+[2018-08-27 00:10:34.238] Input (/datum/controller/subsystem/input): fire(0)
+[2018-08-27 00:10:34.238] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-08-27 00:10:34.238] Master (/datum/controller/master): RunQueue()
+[2018-08-27 00:10:34.238] Master (/datum/controller/master): Loop()
+[2018-08-27 00:10:34.238] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-27 00:10:34.238] 
+[2018-08-27 00:10:34.324] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.324] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.324]   source file: parallax.dm,207
+[2018-08-27 00:10:34.324]   usr: null
+[2018-08-27 00:10:34.324]   src: /datum/hud/ai (/datum/hud/ai)
+[2018-08-27 00:10:34.324]   call stack:
+[2018-08-27 00:10:34.324] /datum/hud/ai (/datum/hud/ai): update parallax()
+[2018-08-27 00:10:34.324] God (AI Eye) (/mob/camera/aiEye): update parallax contents()
+[2018-08-27 00:10:34.324] God (AI Eye) (/mob/camera/aiEye): setLoc(the floor (143,110,2) (/turf/open/floor/plasteel/white), 0)
+[2018-08-27 00:10:34.324] CthulhuOnIce (/client): AIMove(the wall (149,32,2) (/turf/closed/wall), 8, God (/mob/living/silicon/ai))
+[2018-08-27 00:10:34.324] CthulhuOnIce (/client): Move(the wall (149,32,2) (/turf/closed/wall), 8)
+[2018-08-27 00:10:34.324] God (/mob/living/silicon/ai): keyLoop(CthulhuOnIce (/client))
+[2018-08-27 00:10:34.324] CthulhuOnIce (/client): keyLoop()
+[2018-08-27 00:10:34.324] Input (/datum/controller/subsystem/input): fire(0)
+[2018-08-27 00:10:34.324] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-08-27 00:10:34.324] Master (/datum/controller/master): RunQueue()
+[2018-08-27 00:10:34.324] Master (/datum/controller/master): Loop()
+[2018-08-27 00:10:34.324] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-27 00:10:34.324] 
+[2018-08-27 00:10:34.338] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.339] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.339]   source file: parallax.dm,207
+[2018-08-27 00:10:34.339]   usr: null
+[2018-08-27 00:10:34.339]   src: /datum/hud/ai (/datum/hud/ai)
+[2018-08-27 00:10:34.339]   call stack:
+[2018-08-27 00:10:34.339] /datum/hud/ai (/datum/hud/ai): update parallax()
+[2018-08-27 00:10:34.339] God (AI Eye) (/mob/camera/aiEye): update parallax contents()
+[2018-08-27 00:10:34.339] God (AI Eye) (/mob/camera/aiEye): setLoc(the floor (142,110,2) (/turf/open/floor/plasteel/white), 0)
+[2018-08-27 00:10:34.339] CthulhuOnIce (/client): AIMove(the wall (149,32,2) (/turf/closed/wall), 8, God (/mob/living/silicon/ai))
+[2018-08-27 00:10:34.339] CthulhuOnIce (/client): Move(the wall (149,32,2) (/turf/closed/wall), 8)
+[2018-08-27 00:10:34.339] God (/mob/living/silicon/ai): keyLoop(CthulhuOnIce (/client))
+[2018-08-27 00:10:34.339] CthulhuOnIce (/client): keyLoop()
+[2018-08-27 00:10:34.339] Input (/datum/controller/subsystem/input): fire(0)
+[2018-08-27 00:10:34.339] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-08-27 00:10:34.339] Master (/datum/controller/master): RunQueue()
+[2018-08-27 00:10:34.339] Master (/datum/controller/master): Loop()
+[2018-08-27 00:10:34.339] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-27 00:10:34.339] 
+[2018-08-27 00:10:34.388] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.388] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.388]   source file: parallax.dm,207
+[2018-08-27 00:10:34.388]   usr: null
+[2018-08-27 00:10:34.388]   src: /datum/hud/ai (/datum/hud/ai)
+[2018-08-27 00:10:34.388]   call stack:
+[2018-08-27 00:10:34.388] /datum/hud/ai (/datum/hud/ai): update parallax()
+[2018-08-27 00:10:34.388] God (AI Eye) (/mob/camera/aiEye): update parallax contents()
+[2018-08-27 00:10:34.388] God (AI Eye) (/mob/camera/aiEye): setLoc(the plating (141,110,2) (/turf/open/floor/plating), 0)
+[2018-08-27 00:10:34.388] CthulhuOnIce (/client): AIMove(the wall (149,32,2) (/turf/closed/wall), 8, God (/mob/living/silicon/ai))
+[2018-08-27 00:10:34.388] CthulhuOnIce (/client): Move(the wall (149,32,2) (/turf/closed/wall), 8)
+[2018-08-27 00:10:34.388] God (/mob/living/silicon/ai): keyLoop(CthulhuOnIce (/client))
+[2018-08-27 00:10:34.388] CthulhuOnIce (/client): keyLoop()
+[2018-08-27 00:10:34.388] Input (/datum/controller/subsystem/input): fire(0)
+[2018-08-27 00:10:34.388] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-08-27 00:10:34.388] Master (/datum/controller/master): RunQueue()
+[2018-08-27 00:10:34.388] Master (/datum/controller/master): Loop()
+[2018-08-27 00:10:34.388] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-27 00:10:34.388] 
+[2018-08-27 00:10:34.438] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.438] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.438]   source file: parallax.dm,207
+[2018-08-27 00:10:34.438]   usr: null
+[2018-08-27 00:10:34.438]   src: /datum/hud/ai (/datum/hud/ai)
+[2018-08-27 00:10:34.438]   call stack:
+[2018-08-27 00:10:34.438] /datum/hud/ai (/datum/hud/ai): update parallax()
+[2018-08-27 00:10:34.438] God (AI Eye) (/mob/camera/aiEye): update parallax contents()
+[2018-08-27 00:10:34.438] God (AI Eye) (/mob/camera/aiEye): setLoc(the floor (140,110,2) (/turf/open/floor/plasteel/whiteblue/corner), 0)
+[2018-08-27 00:10:34.438] CthulhuOnIce (/client): AIMove(the wall (149,32,2) (/turf/closed/wall), 8, God (/mob/living/silicon/ai))
+[2018-08-27 00:10:34.438] CthulhuOnIce (/client): Move(the wall (149,32,2) (/turf/closed/wall), 8)
+[2018-08-27 00:10:34.438] God (/mob/living/silicon/ai): keyLoop(CthulhuOnIce (/client))
+[2018-08-27 00:10:34.438] CthulhuOnIce (/client): keyLoop()
+[2018-08-27 00:10:34.438] Input (/datum/controller/subsystem/input): fire(0)
+[2018-08-27 00:10:34.438] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-08-27 00:10:34.438] Master (/datum/controller/master): RunQueue()
+[2018-08-27 00:10:34.438] Master (/datum/controller/master): Loop()
+[2018-08-27 00:10:34.438] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-27 00:10:34.438] 
+[2018-08-27 00:10:34.488] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.488] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.488]   source file: parallax.dm,207
+[2018-08-27 00:10:34.488]   usr: null
+[2018-08-27 00:10:34.488]   src: /datum/hud/ai (/datum/hud/ai)
+[2018-08-27 00:10:34.488]   call stack:
+[2018-08-27 00:10:34.488] /datum/hud/ai (/datum/hud/ai): update parallax()
+[2018-08-27 00:10:34.488] God (AI Eye) (/mob/camera/aiEye): update parallax contents()
+[2018-08-27 00:10:34.488] God (AI Eye) (/mob/camera/aiEye): setLoc(the floor (139,110,2) (/turf/open/floor/plasteel/white), 0)
+[2018-08-27 00:10:34.488] CthulhuOnIce (/client): AIMove(the wall (149,32,2) (/turf/closed/wall), 8, God (/mob/living/silicon/ai))
+[2018-08-27 00:10:34.488] CthulhuOnIce (/client): Move(the wall (149,32,2) (/turf/closed/wall), 8)
+[2018-08-27 00:10:34.488] God (/mob/living/silicon/ai): keyLoop(CthulhuOnIce (/client))
+[2018-08-27 00:10:34.488] CthulhuOnIce (/client): keyLoop()
+[2018-08-27 00:10:34.488] Input (/datum/controller/subsystem/input): fire(0)
+[2018-08-27 00:10:34.488] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-08-27 00:10:34.488] Master (/datum/controller/master): RunQueue()
+[2018-08-27 00:10:34.488] Master (/datum/controller/master): Loop()
+[2018-08-27 00:10:34.488] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-27 00:10:34.488] 
+[2018-08-27 00:10:34.537] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.537] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.537]   source file: parallax.dm,207
+[2018-08-27 00:10:34.537]   usr: null
+[2018-08-27 00:10:34.537]   src: /datum/hud/ai (/datum/hud/ai)
+[2018-08-27 00:10:34.537]   call stack:
+[2018-08-27 00:10:34.537] /datum/hud/ai (/datum/hud/ai): update parallax()
+[2018-08-27 00:10:34.537] God (AI Eye) (/mob/camera/aiEye): update parallax contents()
+[2018-08-27 00:10:34.537] God (AI Eye) (/mob/camera/aiEye): setLoc(the plating (138,111,2) (/turf/open/floor/plating), 0)
+[2018-08-27 00:10:34.537] CthulhuOnIce (/client): AIMove(the floor (149,33,2) (/turf/open/floor/circuit), 9, God (/mob/living/silicon/ai))
+[2018-08-27 00:10:34.538] CthulhuOnIce (/client): Move(the floor (149,33,2) (/turf/open/floor/circuit), 9)
+[2018-08-27 00:10:34.538] God (/mob/living/silicon/ai): keyLoop(CthulhuOnIce (/client))
+[2018-08-27 00:10:34.538] CthulhuOnIce (/client): keyLoop()
+[2018-08-27 00:10:34.538] Input (/datum/controller/subsystem/input): fire(0)
+[2018-08-27 00:10:34.538] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-08-27 00:10:34.538] Master (/datum/controller/master): RunQueue()
+[2018-08-27 00:10:34.538] Master (/datum/controller/master): Loop()
+[2018-08-27 00:10:34.538] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-27 00:10:34.538] 
+[2018-08-27 00:10:34.587] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.587] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.587]   source file: parallax.dm,207
+[2018-08-27 00:10:34.587] 
+[2018-08-27 00:10:34.636] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.636] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.636]   source file: parallax.dm,207
+[2018-08-27 00:10:34.636] 
+[2018-08-27 00:10:34.687] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.687] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.687]   source file: parallax.dm,207
+[2018-08-27 00:10:34.687] 
+[2018-08-27 00:10:34.737] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.737] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.737]   source file: parallax.dm,207
+[2018-08-27 00:10:34.737] 
+[2018-08-27 00:10:34.786] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.787] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.787]   source file: parallax.dm,207
+[2018-08-27 00:10:34.787] 
+[2018-08-27 00:10:34.837] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.837] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.837]   source file: parallax.dm,207
+[2018-08-27 00:10:34.837] 
+[2018-08-27 00:10:34.886] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.886] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.886]   source file: parallax.dm,207
+[2018-08-27 00:10:34.887] 
+[2018-08-27 00:10:34.887] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.887] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.887]   source file: parallax.dm,207
+[2018-08-27 00:10:34.887] 
+[2018-08-27 00:10:34.937] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.937] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.937]   source file: parallax.dm,207
+[2018-08-27 00:10:34.937] 
+[2018-08-27 00:10:34.987] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.987] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.987]   source file: parallax.dm,207
+[2018-08-27 00:10:34.987] 
+[2018-08-27 00:10:34.988] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:34.988] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:34.988]   source file: parallax.dm,207
+[2018-08-27 00:10:34.988] 
+[2018-08-27 00:10:35.037] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.037] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.037]   source file: parallax.dm,207
+[2018-08-27 00:10:35.037] 
+[2018-08-27 00:10:35.087] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.087] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.087]   source file: parallax.dm,207
+[2018-08-27 00:10:35.087] 
+[2018-08-27 00:10:35.088] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.088] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.088]   source file: parallax.dm,207
+[2018-08-27 00:10:35.088] 
+[2018-08-27 00:10:35.137] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.137] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.137]   source file: parallax.dm,207
+[2018-08-27 00:10:35.137] 
+[2018-08-27 00:10:35.187] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.187] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.187]   source file: parallax.dm,207
+[2018-08-27 00:10:35.187] 
+[2018-08-27 00:10:35.188] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.188] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.188]   source file: parallax.dm,207
+[2018-08-27 00:10:35.188] 
+[2018-08-27 00:10:35.237] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.237] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.237]   source file: parallax.dm,207
+[2018-08-27 00:10:35.237] 
+[2018-08-27 00:10:35.287] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.287] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.287]   source file: parallax.dm,207
+[2018-08-27 00:10:35.287] 
+[2018-08-27 00:10:35.336] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.337] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.337]   source file: parallax.dm,207
+[2018-08-27 00:10:35.337] 
+[2018-08-27 00:10:35.387] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.387] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.387]   source file: parallax.dm,207
+[2018-08-27 00:10:35.387] 
+[2018-08-27 00:10:35.437] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.437] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.437]   source file: parallax.dm,207
+[2018-08-27 00:10:35.437] 
+[2018-08-27 00:10:35.486] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.486] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.486]   source file: parallax.dm,207
+[2018-08-27 00:10:35.486] 
+[2018-08-27 00:10:35.536] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.536] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.536]   source file: parallax.dm,207
+[2018-08-27 00:10:35.536] 
+[2018-08-27 00:10:35.601] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.601] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.601]   source file: parallax.dm,207
+[2018-08-27 00:10:35.601] 
+[2018-08-27 00:10:35.636] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.636] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.637]   source file: parallax.dm,207
+[2018-08-27 00:10:35.637] 
+[2018-08-27 00:10:35.687] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.687] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.687]   source file: parallax.dm,207
+[2018-08-27 00:10:35.687] 
+[2018-08-27 00:10:35.737] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.737] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.737]   source file: parallax.dm,207
+[2018-08-27 00:10:35.737] 
+[2018-08-27 00:10:35.787] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.787] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.787]   source file: parallax.dm,207
+[2018-08-27 00:10:35.787] 
+[2018-08-27 00:10:35.836] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.836] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.836]   source file: parallax.dm,207
+[2018-08-27 00:10:35.836] 
+[2018-08-27 00:10:35.887] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.887] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.887]   source file: parallax.dm,207
+[2018-08-27 00:10:35.887] 
+[2018-08-27 00:10:35.936] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.937] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.937]   source file: parallax.dm,207
+[2018-08-27 00:10:35.937] 
+[2018-08-27 00:10:35.993] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:35.993] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:35.993]   source file: parallax.dm,207
+[2018-08-27 00:10:35.993] 
+[2018-08-27 00:10:36.037] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:36.037] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:36.037]   source file: parallax.dm,207
+[2018-08-27 00:10:36.037] 
+[2018-08-27 00:10:36.087] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:36.087] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:36.087]   source file: parallax.dm,207
+[2018-08-27 00:10:36.087] 
+[2018-08-27 00:10:36.337] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:36.337] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:36.337]   source file: parallax.dm,207
+[2018-08-27 00:10:36.337] 
+[2018-08-27 00:10:36.387] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:36.387] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:36.387]   source file: parallax.dm,207
+[2018-08-27 00:10:36.387] 
+[2018-08-27 00:10:36.437] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:36.437] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:36.437]   source file: parallax.dm,207
+[2018-08-27 00:10:36.437] 
+[2018-08-27 00:10:36.487] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:36.487] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:36.487]   source file: parallax.dm,207
+[2018-08-27 00:10:36.487] 
+[2018-08-27 00:10:36.536] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:36.536] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:36.536]   source file: parallax.dm,207
+[2018-08-27 00:10:36.536] 
+[2018-08-27 00:10:36.587] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:36.587] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:36.587]   source file: parallax.dm,207
+[2018-08-27 00:10:36.587] 
+[2018-08-27 00:10:36.637] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:10:36.637] proc name: update parallax (/datum/hud/proc/update_parallax)
+[2018-08-27 00:10:36.637]   source file: parallax.dm,207
+[2018-08-27 00:10:36.637] 
+[2018-08-27 00:11:33.754] ## WARNING: couldn't find shuttle with id: syndie_cargo in code/controllers/subsystem/shuttle.dm at line 159 src: Shuttle usr: Kaydence Baxter.
+[2018-08-27 00:13:04.924] ## WARNING: couldn't find shuttle with id: syndie_cargo in code/controllers/subsystem/shuttle.dm at line 159 src: Shuttle usr: Caden Todd.
+[2018-08-27 00:20:41.286] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:41.286] 
+[2018-08-27 00:20:41.287] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:41.287] 
+[2018-08-27 00:20:41.536] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:41.536] 
+[2018-08-27 00:20:41.637] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:41.637] 
+[2018-08-27 00:20:41.939] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:41.939] 
+[2018-08-27 00:20:41.939] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:41.939] 
+[2018-08-27 00:20:42.621] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:42.621] 
+[2018-08-27 00:20:42.622] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:42.622] 
+[2018-08-27 00:20:42.623] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:42.623] 
+[2018-08-27 00:20:42.624] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:42.624] 
+[2018-08-27 00:20:42.721] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:42.721] 
+[2018-08-27 00:20:42.722] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:42.722] 
+[2018-08-27 00:20:42.821] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:42.822] 
+[2018-08-27 00:20:42.823] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:42.823] 
+[2018-08-27 00:20:42.824] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:42.824] 
+[2018-08-27 00:20:42.921] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:42.921] 
+[2018-08-27 00:20:43.321] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:43.321] 
+[2018-08-27 00:20:43.371] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:43.371] 
+[2018-08-27 00:20:43.421] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:43.421] 
+[2018-08-27 00:20:43.521] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:43.521] 
+[2018-08-27 00:20:43.622] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:43.622] 
+[2018-08-27 00:20:43.721] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:43.721] 
+[2018-08-27 00:20:43.772] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:43.772] 
+[2018-08-27 00:20:43.821] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:43.821] 
+[2018-08-27 00:20:44.072] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:44.072] 
+[2018-08-27 00:20:44.172] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:44.172] 
+[2018-08-27 00:20:44.272] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:44.272] 
+[2018-08-27 00:20:44.371] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:44.371] 
+[2018-08-27 00:20:44.471] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:44.471] 
+[2018-08-27 00:20:44.571] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:44.571] 
+[2018-08-27 00:20:44.621] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:44.621] 
+[2018-08-27 00:20:44.822] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:44.822] 
+[2018-08-27 00:20:45.422] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:45.422] 
+[2018-08-27 00:20:45.772] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:45.772] 
+[2018-08-27 00:20:45.773] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:45.773] 
+[2018-08-27 00:20:45.922] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:45.922] 
+[2018-08-27 00:20:46.072] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:46.072] 
+[2018-08-27 00:20:46.176] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:46.176] 
+[2018-08-27 00:20:46.176] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:46.176] 
+[2018-08-27 00:20:46.272] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:46.272] 
+[2018-08-27 00:20:46.323] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:46.323] 
+[2018-08-27 00:20:46.772] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:46.772] 
+[2018-08-27 00:20:46.872] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:46.872] 
+[2018-08-27 00:20:47.122] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:47.122] 
+[2018-08-27 00:20:47.123] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:47.123] 
+[2018-08-27 00:20:47.322] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:47.322] 
+[2018-08-27 00:20:47.422] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:47.422] 
+[2018-08-27 00:20:48.022] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:48.022] 
+[2018-08-27 00:20:48.072] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:48.072] 
+[2018-08-27 00:20:48.122] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:48.123] 
+[2018-08-27 00:20:48.222] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:20:48.222] 
+[2018-08-27 00:21:04.850] runtime error: Cannot execute null.log message().
+[2018-08-27 00:21:04.850] 
+[2018-08-27 00:21:04.898] runtime error: Cannot execute null.log message().
+[2018-08-27 00:21:04.898] 
+[2018-08-27 00:30:53.502] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:53.502] 
+[2018-08-27 00:30:53.920] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:53.920] 
+[2018-08-27 00:30:54.119] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:54.119] 
+[2018-08-27 00:30:54.120] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:54.120] 
+[2018-08-27 00:30:54.320] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:54.320] 
+[2018-08-27 00:30:54.419] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:54.419] 
+[2018-08-27 00:30:54.569] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:54.569] 
+[2018-08-27 00:30:54.669] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:54.669] 
+[2018-08-27 00:30:54.720] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:54.720] 
+[2018-08-27 00:30:54.769] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:54.769] 
+[2018-08-27 00:30:54.869] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:54.869] 
+[2018-08-27 00:30:55.120] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:55.120] 
+[2018-08-27 00:30:55.219] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:55.219] 
+[2018-08-27 00:30:55.520] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:55.520] 
+[2018-08-27 00:30:55.521] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:55.521] 
+[2018-08-27 00:30:55.569] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:55.569] 
+[2018-08-27 00:30:55.619] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:55.619] 
+[2018-08-27 00:30:56.422] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:56.422] 
+[2018-08-27 00:30:56.472] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:56.472] 
+[2018-08-27 00:30:56.721] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:56.721] 
+[2018-08-27 00:30:56.821] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:56.821] 
+[2018-08-27 00:30:56.922] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:56.922] 
+[2018-08-27 00:30:57.121] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:57.121] 
+[2018-08-27 00:30:57.371] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:57.371] 
+[2018-08-27 00:30:57.521] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:57.521] 
+[2018-08-27 00:30:57.921] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:57.921] 
+[2018-08-27 00:30:58.321] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:58.321] 
+[2018-08-27 00:30:58.521] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:58.521] 
+[2018-08-27 00:30:58.621] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:58.621] 
+[2018-08-27 00:30:58.721] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:58.721] 
+[2018-08-27 00:30:58.822] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:58.822] 
+[2018-08-27 00:30:58.922] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:58.922] 
+[2018-08-27 00:30:59.021] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:59.021] 
+[2018-08-27 00:30:59.121] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:59.121] 
+[2018-08-27 00:30:59.222] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:59.222] 
+[2018-08-27 00:30:59.422] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:59.422] 
+[2018-08-27 00:30:59.521] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:59.521] 
+[2018-08-27 00:30:59.621] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:59.621] 
+[2018-08-27 00:30:59.721] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:59.721] 
+[2018-08-27 00:30:59.821] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:59.821] 
+[2018-08-27 00:30:59.921] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:30:59.921] 
+[2018-08-27 00:31:00.022] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:31:00.022] 
+[2018-08-27 00:31:00.121] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:31:00.121] 
+[2018-08-27 00:31:00.221] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:31:00.221] 
+[2018-08-27 00:31:00.322] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:31:00.322] 
+[2018-08-27 00:31:00.423] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:31:00.423] 
+[2018-08-27 00:31:00.522] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:31:00.522] 
+[2018-08-27 00:31:00.621] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:31:00.621] 
+[2018-08-27 00:31:00.721] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:31:00.721] 
+[2018-08-27 00:31:00.971] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:31:00.971] 
+[2018-08-27 00:31:01.121] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:31:01.121] 
+[2018-08-27 00:40:48.940] ## WARNING: couldn't find shuttle with id: syndie_cargo in code/controllers/subsystem/shuttle.dm at line 159 src: Shuttle usr: Caden Todd.
+[2018-08-27 00:41:05.820] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:05.820] 
+[2018-08-27 00:41:05.870] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:05.870] 
+[2018-08-27 00:41:05.920] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:05.920] 
+[2018-08-27 00:41:05.921] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:05.921] 
+[2018-08-27 00:41:06.070] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.070] 
+[2018-08-27 00:41:06.071] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.071] 
+[2018-08-27 00:41:06.071] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.071] 
+[2018-08-27 00:41:06.170] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.170] 
+[2018-08-27 00:41:06.271] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.271] 
+[2018-08-27 00:41:06.272] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.272] 
+[2018-08-27 00:41:06.323] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.323] 
+[2018-08-27 00:41:06.371] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.371] 
+[2018-08-27 00:41:06.372] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.372] 
+[2018-08-27 00:41:06.420] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.420] 
+[2018-08-27 00:41:06.422] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.422] 
+[2018-08-27 00:41:06.470] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.470] 
+[2018-08-27 00:41:06.570] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.570] 
+[2018-08-27 00:41:06.771] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.771] 
+[2018-08-27 00:41:06.921] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.921] 
+[2018-08-27 00:41:06.971] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:06.971] 
+[2018-08-27 00:41:07.070] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:07.070] 
+[2018-08-27 00:41:07.071] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:07.071] 
+[2018-08-27 00:41:07.217] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:07.217] 
+[2018-08-27 00:41:07.371] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:07.371] 
+[2018-08-27 00:41:07.471] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:07.471] 
+[2018-08-27 00:41:07.520] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:07.520] 
+[2018-08-27 00:41:07.671] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:07.671] 
+[2018-08-27 00:41:07.820] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:07.821] 
+[2018-08-27 00:41:07.971] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:07.971] 
+[2018-08-27 00:41:08.070] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:08.071] 
+[2018-08-27 00:41:08.120] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:08.120] 
+[2018-08-27 00:41:08.121] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:08.121] 
+[2018-08-27 00:41:08.170] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:08.170] 
+[2018-08-27 00:41:08.620] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:08.620] 
+[2018-08-27 00:41:08.621] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:08.621] 
+[2018-08-27 00:41:08.720] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:08.720] 
+[2018-08-27 00:41:08.871] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:08.871] 
+[2018-08-27 00:41:09.021] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:09.021] 
+[2018-08-27 00:41:09.172] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:09.172] 
+[2018-08-27 00:41:09.321] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:09.321] 
+[2018-08-27 00:41:09.421] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:09.421] 
+[2018-08-27 00:41:09.471] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:09.471] 
+[2018-08-27 00:41:09.521] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:09.521] 
+[2018-08-27 00:41:09.620] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:09.620] 
+[2018-08-27 00:41:09.621] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:09.621] 
+[2018-08-27 00:41:09.771] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:09.771] 
+[2018-08-27 00:41:09.870] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:09.870] 
+[2018-08-27 00:41:09.920] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:09.920] 
+[2018-08-27 00:41:09.971] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:09.971] 
+[2018-08-27 00:41:10.073] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:10.073] 
+[2018-08-27 00:41:10.223] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:41:10.223] 
+[2018-08-27 00:45:00.850] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-27 00:45:00.850] 
+[2018-08-27 00:46:03.386] runtime error: list index out of bounds
+[2018-08-27 00:46:03.386] 
+[2018-08-27 00:46:03.489] runtime error: list index out of bounds
+[2018-08-27 00:46:03.489] 
+[2018-08-27 00:49:41.900] runtime error: undefined proc or verb /client/log talk().
+[2018-08-27 00:49:41.900] 
+[2018-08-27 00:49:41.900] 
+[2018-08-27 00:51:23.646] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:23.646] 
+[2018-08-27 00:51:23.846] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:23.846] 
+[2018-08-27 00:51:24.246] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:24.246] 
+[2018-08-27 00:51:24.995] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:24.995] 
+[2018-08-27 00:51:25.195] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:25.195] 
+[2018-08-27 00:51:25.395] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:25.395] 
+[2018-08-27 00:51:25.396] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:25.396] 
+[2018-08-27 00:51:26.296] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:26.296] 
+[2018-08-27 00:51:26.346] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:26.346] 
+[2018-08-27 00:51:26.546] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:26.546] 
+[2018-08-27 00:51:26.745] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:26.745] 
+[2018-08-27 00:51:26.946] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:26.946] 
+[2018-08-27 00:51:27.146] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:27.146] 
+[2018-08-27 00:51:27.346] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:27.346] 
+[2018-08-27 00:51:27.546] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:27.546] 
+[2018-08-27 00:51:27.745] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:27.746] 
+[2018-08-27 00:51:27.946] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:27.946] 
+[2018-08-27 00:51:28.146] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:28.146] 
+[2018-08-27 00:51:28.346] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:28.346] 
+[2018-08-27 00:51:28.545] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:28.546] 
+[2018-08-27 00:51:28.746] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:28.746] 
+[2018-08-27 00:51:28.946] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:28.946] 
+[2018-08-27 00:51:29.146] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:29.146] 
+[2018-08-27 00:51:29.345] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:29.346] 
+[2018-08-27 00:51:30.046] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:30.046] 
+[2018-08-27 00:51:30.096] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:30.096] 
+[2018-08-27 00:51:30.296] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:30.296] 
+[2018-08-27 00:51:30.496] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:30.496] 
+[2018-08-27 00:51:30.497] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:30.497] 
+[2018-08-27 00:51:30.896] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:30.896] 
+[2018-08-27 00:51:31.096] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:31.096] 
+[2018-08-27 00:51:31.295] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:31.296] 
+[2018-08-27 00:51:31.496] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:31.496] 
+[2018-08-27 00:51:31.696] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:31.696] 
+[2018-08-27 00:51:31.895] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:31.895] 
+[2018-08-27 00:51:32.095] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:32.095] 
+[2018-08-27 00:51:32.295] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:32.295] 
+[2018-08-27 00:51:32.496] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:32.496] 
+[2018-08-27 00:51:32.696] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:32.696] 
+[2018-08-27 00:51:32.896] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:32.896] 
+[2018-08-27 00:51:33.096] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:33.096] 
+[2018-08-27 00:51:33.296] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:33.296] 
+[2018-08-27 00:51:33.297] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:33.297] 
+[2018-08-27 00:51:33.845] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:33.845] 
+[2018-08-27 00:51:33.846] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:33.846] 
+[2018-08-27 00:51:33.995] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:33.995] 
+[2018-08-27 00:51:34.045] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:34.045] 
+[2018-08-27 00:51:34.095] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:34.095] 
+[2018-08-27 00:51:34.096] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:34.096] 
+[2018-08-27 00:51:34.145] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:34.145] 
+[2018-08-27 00:51:34.295] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 00:51:34.295] 
+[2018-08-27 00:54:24.768] ## WARNING: couldn't find shuttle with id: syndie_cargo in code/controllers/subsystem/shuttle.dm at line 159 src: Shuttle usr: Caden Todd.
+[2018-08-27 00:59:55.786] ## WARNING: couldn't find shuttle with id: syndie_cargo in code/controllers/subsystem/shuttle.dm at line 159 src: Shuttle usr: Lillian Sulyard.
+[2018-08-27 01:01:37.258] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:37.258] 
+[2018-08-27 01:01:38.008] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.008] 
+[2018-08-27 01:01:38.058] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.058] 
+[2018-08-27 01:01:38.107] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.108] 
+[2018-08-27 01:01:38.157] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.157] 
+[2018-08-27 01:01:38.208] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.208] 
+[2018-08-27 01:01:38.257] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.257] 
+[2018-08-27 01:01:38.307] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.307] 
+[2018-08-27 01:01:38.357] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.357] 
+[2018-08-27 01:01:38.408] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.408] 
+[2018-08-27 01:01:38.558] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.558] 
+[2018-08-27 01:01:38.608] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.608] 
+[2018-08-27 01:01:38.658] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.658] 
+[2018-08-27 01:01:38.708] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.708] 
+[2018-08-27 01:01:38.757] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.757] 
+[2018-08-27 01:01:38.807] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.808] 
+[2018-08-27 01:01:38.858] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:38.858] 
+[2018-08-27 01:01:39.257] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:39.257] 
+[2018-08-27 01:01:39.308] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:39.308] 
+[2018-08-27 01:01:39.358] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:39.358] 
+[2018-08-27 01:01:39.408] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:39.408] 
+[2018-08-27 01:01:39.458] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:39.458] 
+[2018-08-27 01:01:39.508] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:39.508] 
+[2018-08-27 01:01:39.558] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:39.558] 
+[2018-08-27 01:01:39.608] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:39.608] 
+[2018-08-27 01:01:39.657] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:39.658] 
+[2018-08-27 01:01:39.708] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:39.708] 
+[2018-08-27 01:01:39.758] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:39.758] 
+[2018-08-27 01:01:39.807] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:39.808] 
+[2018-08-27 01:01:40.208] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:40.209] 
+[2018-08-27 01:01:40.258] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:40.258] 
+[2018-08-27 01:01:40.308] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:40.308] 
+[2018-08-27 01:01:40.358] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:40.358] 
+[2018-08-27 01:01:40.407] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:40.407] 
+[2018-08-27 01:01:40.458] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:40.459] 
+[2018-08-27 01:01:40.508] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:40.508] 
+[2018-08-27 01:01:40.559] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:40.559] 
+[2018-08-27 01:01:40.608] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:40.608] 
+[2018-08-27 01:01:40.658] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:40.658] 
+[2018-08-27 01:01:40.709] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:40.709] 
+[2018-08-27 01:01:40.758] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:01:40.758] 
+[2018-08-27 01:02:01.609] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:02:01.609] 
+[2018-08-27 01:02:01.659] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:02:01.659] 
+[2018-08-27 01:02:01.709] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:02:01.709] 
+[2018-08-27 01:02:01.759] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:02:01.759] 
+[2018-08-27 01:02:01.810] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:02:01.810] 
+[2018-08-27 01:02:01.859] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:02:01.859] 
+[2018-08-27 01:02:02.359] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:02:02.359] 
+[2018-08-27 01:02:02.410] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:02:02.410] 
+[2018-08-27 01:02:02.459] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:02:02.459] 
+[2018-08-27 01:02:02.509] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:02:02.509] 
+[2018-08-27 01:09:06.960] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:06.960] 
+[2018-08-27 01:09:08.494] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:08.494] 
+[2018-08-27 01:09:12.510] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:12.510] 
+[2018-08-27 01:09:14.489] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:14.489] 
+[2018-08-27 01:09:16.601] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:16.602] 
+[2018-08-27 01:09:18.701] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:18.701] 
+[2018-08-27 01:09:20.795] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:20.796] 
+[2018-08-27 01:09:22.743] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:22.743] 
+[2018-08-27 01:09:24.693] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:24.693] 
+[2018-08-27 01:09:26.798] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:26.798] 
+[2018-08-27 01:09:28.749] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:28.749] 
+[2018-08-27 01:09:30.695] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:30.695] 
+[2018-08-27 01:09:32.794] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:32.794] 
+[2018-08-27 01:09:34.834] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:34.834] 
+[2018-08-27 01:09:36.781] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:36.781] 
+[2018-08-27 01:09:38.932] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:38.932] 
+[2018-08-27 01:09:40.885] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:40.885] 
+[2018-08-27 01:09:42.832] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:42.832] 
+[2018-08-27 01:09:44.931] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:44.931] 
+[2018-08-27 01:09:46.882] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:46.882] 
+[2018-08-27 01:09:49.270] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:49.270] 
+[2018-08-27 01:09:51.371] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:51.371] 
+[2018-08-27 01:09:53.370] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:53.370] 
+[2018-08-27 01:09:55.270] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:55.270] 
+[2018-08-27 01:09:57.371] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:57.371] 
+[2018-08-27 01:09:59.269] runtime error: Cannot execute null.log message().
+[2018-08-27 01:09:59.270] 
+[2018-08-27 01:10:01.220] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:01.220] 
+[2018-08-27 01:10:03.283] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:03.283] 
+[2018-08-27 01:10:05.334] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:05.334] 
+[2018-08-27 01:10:07.223] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:07.223] 
+[2018-08-27 01:10:09.377] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:09.377] 
+[2018-08-27 01:10:11.303] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:11.303] 
+[2018-08-27 01:10:13.244] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:13.244] 
+[2018-08-27 01:10:15.384] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:15.384] 
+[2018-08-27 01:10:17.307] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:17.307] 
+[2018-08-27 01:10:19.253] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:19.253] 
+[2018-08-27 01:10:21.334] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:21.334] 
+[2018-08-27 01:10:23.333] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:23.333] 
+[2018-08-27 01:10:25.334] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:25.334] 
+[2018-08-27 01:10:27.333] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:27.333] 
+[2018-08-27 01:10:29.333] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:29.333] 
+[2018-08-27 01:10:31.345] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:31.345] 
+[2018-08-27 01:10:33.404] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:33.404] 
+[2018-08-27 01:10:35.406] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:35.406] 
+[2018-08-27 01:10:37.457] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:37.457] 
+[2018-08-27 01:10:39.454] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:39.454] 
+[2018-08-27 01:10:41.404] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:41.404] 
+[2018-08-27 01:10:43.404] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:43.404] 
+[2018-08-27 01:10:45.403] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:45.403] 
+[2018-08-27 01:10:47.404] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:47.404] 
+[2018-08-27 01:10:49.699] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:49.699] 
+[2018-08-27 01:10:51.646] runtime error: Cannot execute null.log message().
+[2018-08-27 01:10:51.646] 
+[2018-08-27 01:13:48.376] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:13:48.376] 
+[2018-08-27 01:13:48.426] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:13:48.426] 
+[2018-08-27 01:13:48.477] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:13:48.477] 
+[2018-08-27 01:13:48.526] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:13:48.526] 
+[2018-08-27 01:13:48.576] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:13:48.576] 
+[2018-08-27 01:13:48.626] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:13:48.626] 
+[2018-08-27 01:13:48.676] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:13:48.676] 
+[2018-08-27 01:13:48.726] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:13:48.726] 
+[2018-08-27 01:13:48.777] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:13:48.777] 
+[2018-08-27 01:13:48.826] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:13:48.826] 
+[2018-08-27 01:13:48.877] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:13:48.877] 
+[2018-08-27 01:13:48.927] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:13:48.927] 
+[2018-08-27 01:14:03.677] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:03.677] 
+[2018-08-27 01:14:03.727] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:03.727] 
+[2018-08-27 01:14:03.777] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:03.777] 
+[2018-08-27 01:14:03.828] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:03.828] 
+[2018-08-27 01:14:04.427] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:04.427] 
+[2018-08-27 01:14:04.477] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:04.477] 
+[2018-08-27 01:14:04.526] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:04.527] 
+[2018-08-27 01:14:04.576] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:04.576] 
+[2018-08-27 01:14:04.626] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:04.626] 
+[2018-08-27 01:14:12.282] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.282] 
+[2018-08-27 01:14:12.333] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.333] 
+[2018-08-27 01:14:12.383] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.383] 
+[2018-08-27 01:14:12.433] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.433] 
+[2018-08-27 01:14:12.483] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.483] 
+[2018-08-27 01:14:12.532] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.532] 
+[2018-08-27 01:14:12.583] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.583] 
+[2018-08-27 01:14:12.633] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.633] 
+[2018-08-27 01:14:12.683] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.683] 
+[2018-08-27 01:14:12.733] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.733] 
+[2018-08-27 01:14:12.783] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.783] 
+[2018-08-27 01:14:12.833] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.833] 
+[2018-08-27 01:14:12.883] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.883] 
+[2018-08-27 01:14:12.933] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.933] 
+[2018-08-27 01:14:12.983] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:12.983] 
+[2018-08-27 01:14:13.033] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.033] 
+[2018-08-27 01:14:13.083] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.083] 
+[2018-08-27 01:14:13.133] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.133] 
+[2018-08-27 01:14:13.183] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.183] 
+[2018-08-27 01:14:13.233] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.233] 
+[2018-08-27 01:14:13.533] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.533] 
+[2018-08-27 01:14:13.583] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.583] 
+[2018-08-27 01:14:13.633] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.633] 
+[2018-08-27 01:14:13.683] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.683] 
+[2018-08-27 01:14:13.732] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.732] 
+[2018-08-27 01:14:13.783] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.783] 
+[2018-08-27 01:14:13.833] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.833] 
+[2018-08-27 01:14:13.883] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.883] 
+[2018-08-27 01:14:13.932] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.933] 
+[2018-08-27 01:14:13.983] runtime error: Cannot read null.planet_x_offset
+[2018-08-27 01:14:13.983] 
+[2018-08-27 01:14:41.169] Saved 21 engraved messages on map Box Station
+[2018-08-27 01:16:13.473] ## DEBUG: Explosion(196,89,1)(d-1,h0,l2): Took 0 seconds.
+[2018-08-27 01:16:17.565] Shutting down Persistence subsystem...
+[2018-08-27 01:16:17.565] Shutting down Pathfinder subsystem...
+[2018-08-27 01:16:17.565] Shutting down Squeak subsystem...
+[2018-08-27 01:16:17.565] Shutting down Shuttle subsystem...
+[2018-08-27 01:16:17.565] Shutting down Lighting subsystem...
+[2018-08-27 01:16:17.565] Shutting down XKeyScore subsystem...
+[2018-08-27 01:16:17.565] Shutting down Sticky Ban subsystem...
+[2018-08-27 01:16:17.565] Shutting down Overlay subsystem...
+[2018-08-27 01:16:17.597] Shutting down Icon Smoothing subsystem...
+[2018-08-27 01:16:17.597] Shutting down Assets subsystem...
+[2018-08-27 01:16:17.597] Shutting down Minimap subsystem...
+[2018-08-27 01:16:17.597] Shutting down Atmospherics subsystem...
+[2018-08-27 01:16:17.598] Shutting down Wet floors subsystem...
+[2018-08-27 01:16:17.598] Shutting down Weather subsystem...
+[2018-08-27 01:16:17.598] Shutting down Vote subsystem...
+[2018-08-27 01:16:17.598] Shutting down Traumas subsystem...
+[2018-08-27 01:16:17.598] Shutting down Title Screen subsystem...
+[2018-08-27 01:16:17.599] Shutting down Time Tracking subsystem...
+[2018-08-27 01:16:17.599] Shutting down Throwing subsystem...
+[2018-08-27 01:16:17.599] Shutting down tgui subsystem...
+[2018-08-27 01:16:17.599] Shutting down Sun subsystem...
+[2018-08-27 01:16:17.599] Shutting down Space Drift subsystem...
+[2018-08-27 01:16:17.599] Shutting down Religion subsystem...
+[2018-08-27 01:16:17.599] Shutting down Radio subsystem...
+[2018-08-27 01:16:17.599] Shutting down Radiation subsystem...
+[2018-08-27 01:16:17.599] Shutting down Projectiles subsystem...
+[2018-08-27 01:16:17.600] Shutting down Processing subsystem...
+[2018-08-27 01:16:17.600] Shutting down Ping subsystem...
+[2018-08-27 01:16:17.600] Shutting down pAI subsystem...
+[2018-08-27 01:16:17.600] Shutting down Orbits subsystem...
+[2018-08-27 01:16:17.600] Shutting down Objects subsystem...
+[2018-08-27 01:16:17.600] Shutting down NPC Pool subsystem...
+[2018-08-27 01:16:17.600] Shutting down Night Shift subsystem...
+[2018-08-27 01:16:17.600] Shutting down Nanites subsystem...
+[2018-08-27 01:16:17.600] Shutting down Mood subsystem...
+[2018-08-27 01:16:17.600] Shutting down Mobs subsystem...
+[2018-08-27 01:16:17.600] Shutting down Medals subsystem...
+[2018-08-27 01:16:17.601] Shutting down Idling NPC Pool subsystem...
+[2018-08-27 01:16:17.601] Shutting down Fire Burning subsystem...
+[2018-08-27 01:16:17.601] Shutting down Fields subsystem...
+[2018-08-27 01:16:17.601] Shutting down Fast Processing subsystem...
+[2018-08-27 01:16:17.601] Shutting down Disease subsystem...
+[2018-08-27 01:16:17.601] Shutting down Datum Component System subsystem...
+[2018-08-27 01:16:17.601] Shutting down Communications subsystem...
+[2018-08-27 01:16:17.601] Shutting down Augury subsystem...
+[2018-08-27 01:16:17.601] Shutting down Acid subsystem...
+[2018-08-27 01:16:17.601] Shutting down Timer subsystem...
+[2018-08-27 01:16:17.602] Shutting down Circuit subsystem...
+[2018-08-27 01:16:17.602] Shutting down Machines subsystem...
+[2018-08-27 01:16:17.602] Shutting down Language subsystem...
+[2018-08-27 01:16:17.602] Shutting down Atoms subsystem...
+[2018-08-27 01:16:17.602] Shutting down Networks subsystem...
+[2018-08-27 01:16:17.602] Shutting down Mapping subsystem...
+[2018-08-27 01:16:17.603] Shutting down Ticker subsystem...
+[2018-08-27 01:16:17.883] Shutting down Quirks subsystem...
+[2018-08-27 01:16:17.884] Shutting down Jobs subsystem...
+[2018-08-27 01:16:17.884] Shutting down Events subsystem...
+[2018-08-27 01:16:17.884] Shutting down Research subsystem...
+[2018-08-27 01:16:17.884] Shutting down Input subsystem...
+[2018-08-27 01:16:17.884] Shutting down Server Tasks subsystem...
+[2018-08-27 01:16:17.884] Shutting down Blackbox subsystem...
+[2018-08-27 01:16:18.151] Shutting down Database subsystem...
+[2018-08-27 01:16:18.192] Shutting down Garbage subsystem...
+[2018-08-27 01:16:18.268] Shutdown complete
+[2018-08-27 01:16:18.268] World rebooted at 01:16:18

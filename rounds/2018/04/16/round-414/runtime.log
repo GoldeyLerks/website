@@ -1,0 +1,580 @@
+
+
+Starting up round ID 414. 13:31:11
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 5.2s!
+Loaded Lavaland in 4.3s!
+Loaded Reebe in 3.9s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 20.5 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 38.7 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.2 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 6 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 0.9 seconds were wasted processing 6 turf(s) (connected to 19085 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 12.5 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.9 seconds!
+Initialized Icon Smoothing subsystem within 5.2 seconds!
+Initialized Overlay subsystem within 22.3 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 11.2 seconds!
+Initialized Shuttle subsystem within 19.4 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 5 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 131.4 seconds!
+Game start took 3.5s
+runtime error: 
+[13:43:59]Undefined variable /obj/item/card/id/var/owner
+
+[13:43:59]proc name: post equip (/datum/outfit/servant_of_ratvar/post_equip)
+[13:43:59]  source file: clock_cult.dm,287
+[13:43:59]  usr: Rainbow Blitz (/mob/living/carbon/human)
+[13:43:59]  src: Servant of Ratvar (/datum/outfit/servant_of_ratvar)
+[13:43:59]  usr.loc: the floor (160,135,2) (/turf/open/floor/plasteel)
+[13:43:59]  call stack:
+[13:43:59]Servant of Ratvar (/datum/outfit/servant_of_ratvar): post equip(Rainbow Blitz (/mob/living/carbon/human), 0)
+[13:43:59]Servant of Ratvar (/datum/outfit/servant_of_ratvar): equip(Rainbow Blitz (/mob/living/carbon/human), 0)
+[13:43:59]Rainbow Blitz (/mob/living/carbon/human): equipOutfit(/datum/outfit/servant_of_ratva... (/datum/outfit/servant_of_ratvar), 0)
+[13:43:59]traitor (/datum/game_mode/traitor): equip servant(Rainbow Blitz (/mob/living/carbon/human))
+[13:43:59]Clock Cultist (/datum/antagonist/clockcult/silent): admin give slab(Rainbow Blitz (/mob/living/carbon/human))
+[13:43:59]/datum/callback (/datum/callback): Invoke(Rainbow Blitz (/mob/living/carbon/human))
+[13:43:59]Clock Cultist (/datum/antagonist/clockcult/silent): Topic("src=\[0x21071374];command=Give...", /list (/list))
+[13:43:59]GimmesumsuccPls (/client): Topic("src=\[0x21071374];command=Give...", /list (/list), Clock Cultist (/datum/antagonist/clockcult/silent))
+[13:43:59]GimmesumsuccPls (/client): Topic("src=\[0x21071374];command=Give...", /list (/list), Clock Cultist (/datum/antagonist/clockcult/silent))
+runtime error: 
+[13:47:36]nothing to animate
+[13:47:36]proc name: shake camera (/proc/shake_camera)
+[13:47:36]  source file: mob_helpers.dm,270
+[13:47:36]  usr: (src)
+[13:47:36]  src: null
+[13:47:36]  call stack:
+[13:47:36]shake camera(Tolly Edwards (/mob/living/carbon/human), 0.75, 1)
+[13:47:36]Tolly Edwards (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[13:47:36]Tolly Edwards (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[13:47:36]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[13:47:36]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[13:47:36]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[13:47:36]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[13:47:36]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[13:47:36]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[13:47:36]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[13:48:41]addtimer called with a callback assigned to a qdeleted object
+[13:48:41]proc name: stack trace (/proc/stack_trace)
+[13:48:41]  source file: unsorted.dm,1254
+[13:48:41]  usr: (src)
+[13:48:41]  src: null
+[13:48:41]  call stack:
+[13:48:41]stack trace("addtimer called with a callbac...")
+[13:48:41]addtimer(/datum/callback (/datum/callback), 20, 0)
+[13:48:41]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[13:48:41]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[13:48:41]addtimer called with a callback assigned to a qdeleted object
+[13:48:41]proc name: stack trace (/proc/stack_trace)
+[13:48:41]  source file: unsorted.dm,1254
+[13:48:41]  usr: (src)
+[13:48:41]  src: null
+[13:48:41]  call stack:
+[13:48:41]stack trace("addtimer called with a callbac...")
+[13:48:41]addtimer(/datum/callback (/datum/callback), 20, 0)
+[13:48:41]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[13:48:41]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[13:52:59]addtimer called with a callback assigned to a qdeleted object
+[13:52:59]proc name: stack trace (/proc/stack_trace)
+[13:52:59]  source file: unsorted.dm,1254
+[13:52:59]  usr: (src)
+[13:52:59]  src: null
+[13:52:59]  call stack:
+[13:52:59]stack trace("addtimer called with a callbac...")
+[13:52:59]addtimer(/datum/callback (/datum/callback), 20, 0)
+[13:52:59]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[13:52:59]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[13:52:59]addtimer called with a callback assigned to a qdeleted object
+[13:52:59]proc name: stack trace (/proc/stack_trace)
+[13:52:59]  source file: unsorted.dm,1254
+[13:52:59]  usr: (src)
+[13:52:59]  src: null
+[13:52:59]  call stack:
+[13:52:59]stack trace("addtimer called with a callbac...")
+[13:52:59]addtimer(/datum/callback (/datum/callback), 20, 0)
+[13:52:59]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[13:52:59]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[13:55:49]addtimer called with a callback assigned to a qdeleted object
+[13:55:49]proc name: stack trace (/proc/stack_trace)
+[13:55:49]  source file: unsorted.dm,1254
+[13:55:49]  usr: (src)
+[13:55:49]  src: null
+[13:55:49]  call stack:
+[13:55:49]stack trace("addtimer called with a callbac...")
+[13:55:49]addtimer(/datum/callback (/datum/callback), 20, 0)
+[13:55:49]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[13:55:49]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[13:55:50]addtimer called with a callback assigned to a qdeleted object
+[13:55:50]proc name: stack trace (/proc/stack_trace)
+[13:55:50]  source file: unsorted.dm,1254
+[13:55:50]  usr: (src)
+[13:55:50]  src: null
+[13:55:50]  call stack:
+[13:55:50]stack trace("addtimer called with a callbac...")
+[13:55:50]addtimer(/datum/callback (/datum/callback), 20, 0)
+[13:55:50]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[13:55:50]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[14:00:11]list index out of bounds
+[14:00:11]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[14:00:11]  source file: aurora_caelus.dm,39
+[14:00:11]  usr: null
+[14:00:11]  src: /datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus)
+[14:00:11]  call stack:
+[14:00:11]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): tick()
+[14:00:11]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): process()
+[14:00:11]Events (/datum/controller/subsystem/events): fire(0)
+[14:00:11]Events (/datum/controller/subsystem/events): ignite(0)
+[14:00:11]Master (/datum/controller/master): RunQueue()
+[14:00:11]Master (/datum/controller/master): Loop()
+[14:00:11]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[14:10:28]addtimer called with a callback assigned to a qdeleted object
+[14:10:28]proc name: stack trace (/proc/stack_trace)
+[14:10:28]  source file: unsorted.dm,1254
+[14:10:28]  usr: Build-the-bots (/mob/living/carbon/human)
+[14:10:28]  src: null
+[14:10:28]  usr.loc: the APLU \"Ripley\" (/obj/mecha/working/ripley)
+[14:10:28]  call stack:
+[14:10:28]stack trace("addtimer called with a callbac...")
+[14:10:28]addtimer(/datum/callback (/datum/callback), 20, 0)
+[14:10:28]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[14:10:28]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[14:10:29]addtimer called with a callback assigned to a qdeleted object
+[14:10:29]proc name: stack trace (/proc/stack_trace)
+[14:10:29]  source file: unsorted.dm,1254
+[14:10:29]  usr: Build-the-bots (/mob/living/carbon/human)
+[14:10:29]  src: null
+[14:10:29]  usr.loc: the APLU \"Ripley\" (/obj/mecha/working/ripley)
+[14:10:29]  call stack:
+[14:10:29]stack trace("addtimer called with a callbac...")
+[14:10:29]addtimer(/datum/callback (/datum/callback), 20, 0)
+[14:10:29]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[14:10:29]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[14:11:10]addtimer called with a callback assigned to a qdeleted object
+[14:11:10]proc name: stack trace (/proc/stack_trace)
+[14:11:10]  source file: unsorted.dm,1254
+[14:11:10]  usr: Build-the-bots (/mob/living/carbon/human)
+[14:11:10]  src: null
+[14:11:10]  usr.loc: the APLU \"Ripley\" (/obj/mecha/working/ripley)
+[14:11:10]  call stack:
+[14:11:10]stack trace("addtimer called with a callbac...")
+[14:11:10]addtimer(/datum/callback (/datum/callback), 20, 0)
+[14:11:10]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[14:11:10]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[14:11:10]addtimer called with a callback assigned to a qdeleted object
+[14:11:10]proc name: stack trace (/proc/stack_trace)
+[14:11:10]  source file: unsorted.dm,1254
+[14:11:10]  usr: Build-the-bots (/mob/living/carbon/human)
+[14:11:10]  src: null
+[14:11:10]  usr.loc: the APLU \"Ripley\" (/obj/mecha/working/ripley)
+[14:11:10]  call stack:
+[14:11:10]stack trace("addtimer called with a callbac...")
+[14:11:10]addtimer(/datum/callback (/datum/callback), 20, 0)
+[14:11:10]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[14:11:10]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[14:11:19]nothing to animate
+[14:11:19]proc name: shake camera (/proc/shake_camera)
+[14:11:19]  source file: mob_helpers.dm,270
+[14:11:19]  usr: (src)
+[14:11:19]  src: null
+[14:11:19]  call stack:
+[14:11:19]shake camera(Ziahri Suraheok (/mob/living/carbon/human), 0.75, 1)
+[14:11:19]Ziahri Suraheok (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[14:11:19]Ziahri Suraheok (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[14:11:19]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[14:11:19]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[14:11:19]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[14:11:19]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[14:11:19]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[14:11:19]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[14:11:19]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[14:12:18]addtimer called with a callback assigned to a qdeleted object
+[14:12:18]proc name: stack trace (/proc/stack_trace)
+[14:12:18]  source file: unsorted.dm,1254
+[14:12:18]  usr: Build-the-bots (/mob/living/carbon/human)
+[14:12:18]  src: null
+[14:12:18]  usr.loc: the APLU \"Ripley\" (/obj/mecha/working/ripley)
+[14:12:18]  call stack:
+[14:12:18]stack trace("addtimer called with a callbac...")
+[14:12:18]addtimer(/datum/callback (/datum/callback), 20, 0)
+[14:12:18]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[14:12:18]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[14:16:01]nothing to animate
+[14:16:01]proc name: shake camera (/proc/shake_camera)
+[14:16:01]  source file: mob_helpers.dm,270
+[14:16:01]  usr: (src)
+[14:16:01]  src: null
+[14:16:01]  call stack:
+[14:16:01]shake camera(Ziahri Suraheok (/mob/living/carbon/human), 0.75, 1)
+[14:16:01]Ziahri Suraheok (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[14:16:01]Ziahri Suraheok (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[14:16:01]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[14:16:01]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[14:16:01]the mining shuttle (/obj/docking_port/mobile): check()
+[14:16:01]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[14:16:01]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[14:18:59]nothing to animate
+[14:18:59]proc name: shake camera (/proc/shake_camera)
+[14:18:59]  source file: mob_helpers.dm,270
+[14:18:59]  usr: (src)
+[14:18:59]  src: null
+[14:18:59]  call stack:
+[14:18:59]shake camera(Ziahri Suraheok (/mob/living/carbon/human), 0.75, 1)
+[14:18:59]Ziahri Suraheok (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[14:18:59]Ziahri Suraheok (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[14:18:59]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the mining shuttle bay (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[14:18:59]the mining shuttle (/obj/docking_port/mobile): initiate docking(the mining shuttle bay (/obj/docking_port/stationary), 1, 0)
+[14:18:59]the mining shuttle (/obj/docking_port/mobile): check()
+[14:18:59]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[14:18:59]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[14:24:18]nothing to animate
+[14:24:18]proc name: shake camera (/proc/shake_camera)
+[14:24:18]  source file: mob_helpers.dm,270
+[14:24:18]  usr: (src)
+[14:24:18]  src: null
+[14:24:18]  call stack:
+[14:24:18]shake camera(Jhonson Lutherfield (/mob/living/carbon/human), 0.75, 1)
+[14:24:18]Jhonson Lutherfield (/mob/living/carbon/human): afterShuttleMove(space (21,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[14:24:18]Jhonson Lutherfield (/mob/living/carbon/human): afterShuttleMove(space (21,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[14:24:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[14:24:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[14:24:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[14:24:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[14:24:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[14:24:18]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[14:24:18]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[14:29:17]Cannot read null.loc
+[14:29:17]proc name: update parallax (/datum/hud/proc/update_parallax)
+[14:29:17]  source file: parallax.dm,170
+[14:29:17]  usr: Build-the-bots (/mob/living/brain)
+[14:29:17]  src: /datum/hud (/datum/hud)
+[14:29:17]  usr.loc: Build-the-bots\'s brain (/obj/item/organ/brain)
+[14:29:17]  call stack:
+[14:29:17]/datum/hud (/datum/hud): update parallax()
+[14:29:17]/datum/hud (/datum/hud): update parallax pref(Build-the-bots (/mob/living/brain))
+[14:29:17]/datum/hud (/datum/hud): show hud(1, null)
+[14:29:17]Build-the-bots (/mob/living/brain): Login()
+[14:29:17]Build-the-bots (/mob/living/brain): Login()
+[14:29:17]Build-the-bots (/datum/mind): transfer to(Build-the-bots (/mob/living/brain), 0)
+[14:29:17]Build-the-bots\'s brain (/obj/item/organ/brain): transfer identity(Build-the-bots (/mob/living/carbon/human))
+[14:29:17]Build-the-bots\'s brain (/obj/item/organ/brain): Remove(Build-the-bots (/mob/living/carbon/human), 0, 0)
+[14:29:17]Build-the-bots\'s brain (/obj/item/organ/brain): transfer to limb(Build-the-bots\'s head (/obj/item/bodypart/head), Build-the-bots (/mob/living/carbon/human))
+[14:29:17]Build-the-bots\'s head (/obj/item/bodypart/head): drop limb(null)
+[14:29:17]...
+[14:29:17]Build-the-bots (/mob/living/carbon/human): bullet act(the instagib laser (/obj/item/projectile/beam/instakill/blue), "chest")
+[14:29:17]Build-the-bots (/mob/living/carbon/human): bullet act(the instagib laser (/obj/item/projectile/beam/instakill/blue), "chest")
+[14:29:17]the instagib laser (/obj/item/projectile/beam/instakill/blue): Collide(Build-the-bots (/mob/living/carbon/human))
+[14:29:17]the floor (171,136,2) (/turf/open/floor/wood): Enter(the instagib laser (/obj/item/projectile/beam/instakill/blue), the carpet (170,136,2) (/turf/open/floor/carpet))
+[14:29:17]the instagib laser (/obj/item/projectile/beam/instakill/blue): Move(the floor (171,136,2) (/turf/open/floor/wood), 4)
+[14:29:17]the instagib laser (/obj/item/projectile/beam/instakill/blue): pixel move(2, 1, 0)
+[14:29:17]Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[14:29:17]Master (/datum/controller/master): RunQueue()
+[14:29:17]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[14:29:17]Cannot read null.species
+[14:29:17]proc name: remove (/datum/trait/deviant_tastes/remove)
+[14:29:17]  source file: neutral.dm,31
+runtime error: 
+[14:35:55]nothing to animate
+[14:35:55]proc name: shake camera (/proc/shake_camera)
+[14:35:55]  source file: mob_helpers.dm,270
+runtime error: 
+[14:37:07]nothing to animate
+[14:37:07]proc name: shake camera (/proc/shake_camera)
+[14:37:07]  source file: mob_helpers.dm,270
+runtime error: 
+[14:38:47]nothing to animate
+[14:38:47]proc name: shake camera (/proc/shake_camera)
+[14:38:47]  source file: mob_helpers.dm,270
+runtime error: 
+[14:45:37]addtimer called with a callback assigned to a qdeleted object
+[14:45:37]proc name: stack trace (/proc/stack_trace)
+[14:45:37]  source file: unsorted.dm,1254
+runtime error: 
+[14:49:05]undefined proc or verb /turf/closed/wall/high pressure movements().
+
+[14:49:05]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[14:49:05]  source file: air.dm,205
+runtime error: 
+[14:51:56]nothing to animate
+[14:51:56]proc name: shake camera (/proc/shake_camera)
+[14:51:56]  source file: mob_helpers.dm,270
+runtime error: 
+[14:52:41]nothing to animate
+[14:52:41]proc name: shake camera (/proc/shake_camera)
+[14:52:41]  source file: mob_helpers.dm,270
+runtime error: 
+[14:59:32]nothing to animate
+[14:59:32]proc name: shake camera (/proc/shake_camera)
+[14:59:32]  source file: mob_helpers.dm,270
+runtime error: 
+[15:00:28]addtimer called with a callback assigned to a qdeleted object
+[15:00:28]proc name: stack trace (/proc/stack_trace)
+[15:00:28]  source file: unsorted.dm,1254
+runtime error: 
+[15:00:29]addtimer called with a callback assigned to a qdeleted object
+[15:00:29]proc name: stack trace (/proc/stack_trace)
+[15:00:29]  source file: unsorted.dm,1254
+runtime error: 
+[15:01:49]nothing to animate
+[15:01:49]proc name: shake camera (/proc/shake_camera)
+[15:01:49]  source file: mob_helpers.dm,270
+runtime error: 
+[15:04:34]undefined proc or verb /list/getRating().
+
+[15:04:34]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:04:34]  source file: human_defense.dm,31
+runtime error: 
+[15:04:35]undefined proc or verb /list/getRating().
+
+[15:04:35]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:04:35]  source file: human_defense.dm,31
+runtime error: 
+[15:04:38]undefined proc or verb /list/getRating().
+
+[15:04:38]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:04:38]  source file: human_defense.dm,31
+runtime error: 
+[15:04:38]undefined proc or verb /list/getRating().
+
+[15:04:38]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:04:38]  source file: human_defense.dm,31
+runtime error: 
+[15:04:53]undefined proc or verb /list/getRating().
+
+[15:04:53]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:04:53]  source file: human_defense.dm,31
+runtime error: 
+[15:04:53]undefined proc or verb /list/getRating().
+
+[15:04:53]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:04:53]  source file: human_defense.dm,31
+runtime error: 
+[15:04:54]undefined proc or verb /list/getRating().
+
+[15:04:54]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:04:54]  source file: human_defense.dm,31
+runtime error: 
+[15:04:55]undefined proc or verb /list/getRating().
+
+[15:04:55]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:04:55]  source file: human_defense.dm,31
+runtime error: 
+[15:05:00]undefined proc or verb /list/getRating().
+
+[15:05:00]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:05:00]  source file: human_defense.dm,31
+runtime error: 
+[15:05:00]undefined proc or verb /list/getRating().
+
+[15:05:00]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:05:00]  source file: human_defense.dm,31
+runtime error: 
+[15:05:05]undefined proc or verb /list/getRating().
+
+[15:05:05]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:05:05]  source file: human_defense.dm,31
+runtime error: 
+[15:05:06]undefined proc or verb /list/getRating().
+
+[15:05:06]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:05:06]  source file: human_defense.dm,31
+runtime error: 
+[15:05:36]type mismatch: cannot compare the clockwork helmet (/obj/item/clothing/head/helmet/clockwork) to 0
+[15:05:36]proc name: addtimer (/proc/addtimer)
+[15:05:36]  source file: timer.dm,454
+runtime error: 
+[15:07:07]undefined proc or verb /list/getRating().
+
+[15:07:07]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:07:07]  source file: human_defense.dm,31
+runtime error: 
+[15:07:07]undefined proc or verb /list/getRating().
+
+[15:07:07]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:07:07]  source file: human_defense.dm,31
+runtime error: 
+[15:07:36]undefined proc or verb /list/getRating().
+
+[15:07:36]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:07:36]  source file: human_defense.dm,31
+runtime error: 
+[15:08:12]undefined proc or verb /list/getRating().
+
+[15:08:12]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:08:12]  source file: human_defense.dm,31
+runtime error: 
+[15:08:16]undefined proc or verb /list/getRating().
+
+[15:08:16]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:08:16]  source file: human_defense.dm,31
+runtime error: 
+[15:08:17]undefined proc or verb /list/getRating().
+
+[15:08:17]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:08:17]  source file: human_defense.dm,31
+runtime error: 
+[15:08:37]undefined proc or verb /list/getRating().
+
+[15:08:37]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:08:37]  source file: human_defense.dm,31
+runtime error: 
+[15:08:37]undefined proc or verb /list/getRating().
+
+[15:08:37]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:08:37]  source file: human_defense.dm,31
+runtime error: 
+[15:08:38]undefined proc or verb /list/getRating().
+
+[15:08:38]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:08:38]  source file: human_defense.dm,31
+runtime error: 
+[15:08:39]undefined proc or verb /list/getRating().
+
+[15:08:39]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:08:39]  source file: human_defense.dm,31
+runtime error: 
+[15:08:40]undefined proc or verb /list/getRating().
+
+[15:08:40]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:08:40]  source file: human_defense.dm,31
+runtime error: 
+[15:08:41]undefined proc or verb /list/getRating().
+
+[15:08:41]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:08:41]  source file: human_defense.dm,31
+runtime error: 
+[15:08:42]undefined proc or verb /list/getRating().
+
+[15:08:42]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:08:42]  source file: human_defense.dm,31
+runtime error: 
+[15:08:44]undefined proc or verb /list/getRating().
+
+[15:08:44]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:08:44]  source file: human_defense.dm,31
+runtime error: 
+[15:08:45]undefined proc or verb /list/getRating().
+
+[15:08:45]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:08:45]  source file: human_defense.dm,31
+runtime error: 
+[15:08:55]undefined proc or verb /list/getRating().
+
+[15:08:55]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[15:08:55]  source file: human_defense.dm,31
+[2018-04-16 15:21:36] Client: LuigiBoiBY triggered JS error: Error: Permission denied | url: http://127.0.0.1:63568/tmp10836/browserOutput.js | line: 908 | column: 6 | error: Error: Permission denied | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee)
+[2018-04-16 15:29:16] Client: Robbie_Rotten triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49978/tmp1452/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-16 15:29:16] Client: Robbie_Rotten triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49978/tmp1452/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-16 15:29:16] Client: Robbie_Rotten triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49978/tmp1452/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-16 15:29:16] Client: Robbie_Rotten triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49978/tmp1452/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-16 15:29:16] Client: Robbie_Rotten triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49978/tmp1452/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+Saved 5 engraved messages on map Box Station
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 15:31:54

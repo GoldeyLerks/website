@@ -1,0 +1,586 @@
+[2018-07-15 16:55:50.741] Starting up round ID 1565.
+[2018-07-15 16:55:50.741] -------------------------
+[2018-07-15 16:55:55.377] Initialized Database subsystem within 0 seconds!
+[2018-07-15 16:55:55.377] Initialized Blackbox subsystem within 0 seconds!
+[2018-07-15 16:55:55.377] Initialized Server Tasks subsystem within 0 seconds!
+[2018-07-15 16:55:55.378] Initialized Input subsystem within 0 seconds!
+[2018-07-15 16:55:55.412] Initialized Research subsystem within 0.1 seconds!
+[2018-07-15 16:55:55.417] Initialized Events subsystem within 0 seconds!
+[2018-07-15 16:55:55.421] Initialized Jobs subsystem within 0 seconds!
+[2018-07-15 16:55:55.422] Initialized Quirks subsystem within 0 seconds!
+[2018-07-15 16:55:55.434] Initialized Ticker subsystem within 0 seconds!
+[2018-07-15 16:55:55.435] Loading Box Station...
+[2018-07-15 16:56:04.676] Loaded Station in 9.2s!
+[2018-07-15 16:56:10.395] Loaded Lavaland in 5.1s!
+[2018-07-15 16:56:25.999] Ruin loader finished with 0 left to spend.
+[2018-07-15 16:56:28.226] Ruin loader finished with 0 left to spend.
+[2018-07-15 16:56:38.264] Initialized Mapping subsystem within 42.8 seconds!
+[2018-07-15 16:56:38.266] Initialized Networks subsystem within 0 seconds!
+[2018-07-15 16:57:27.265] Initialized Atoms subsystem within 49 seconds!
+[2018-07-15 16:57:27.284] Initialized Language subsystem within 0 seconds!
+[2018-07-15 16:57:27.658] Initialized Machines subsystem within 0.4 seconds!
+[2018-07-15 16:57:27.708] Initialized Circuit subsystem within 0.1 seconds!
+[2018-07-15 16:57:27.710] Initialized Disease subsystem within 0 seconds!
+[2018-07-15 16:57:27.710] Initialized Medals subsystem within 0 seconds!
+[2018-07-15 16:57:27.711] Initialized Night Shift subsystem within 0 seconds!
+[2018-07-15 16:57:27.711] Initialized Parallax subsystem within 0 seconds!
+[2018-07-15 16:57:27.839] Initialized Traumas subsystem within 0.1 seconds!
+[2018-07-15 16:57:27.840] Initialized Weather subsystem within 0 seconds!
+[2018-07-15 16:58:49.715] Initialized Atmospherics subsystem within 81.9 seconds!
+[2018-07-15 16:58:49.744] Initialized Minimap subsystem within 0 seconds!
+[2018-07-15 16:58:51.612] Initialized Assets subsystem within 1.9 seconds!
+[2018-07-15 16:58:59.927] Initialized Icon Smoothing subsystem within 8.3 seconds!
+[2018-07-15 16:59:01.817] Initialized Overlay subsystem within 1.9 seconds!
+[2018-07-15 16:59:01.819] Initialized XKeyScore subsystem within 0 seconds!
+[2018-07-15 16:59:01.826] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-07-15 16:59:18.084] Initialized Lighting subsystem within 16.2 seconds!
+[2018-07-15 16:59:20.396] Initialized Shuttle subsystem within 2.3 seconds!
+[2018-07-15 16:59:20.429] Initialized Squeak subsystem within 0.1 seconds!
+[2018-07-15 16:59:20.431] Initialized Pathfinder subsystem within 0 seconds!
+[2018-07-15 16:59:20.479] Loaded 9 engraved messages on map Box Station
+[2018-07-15 16:59:20.504] Initialized Persistence subsystem within 0.1 seconds!
+[2018-07-15 16:59:20.505] Initializations complete within 205.2 seconds!
+[2018-07-15 17:00:29.816] Game start took 2.6s
+[2018-07-15 17:50:21.590] runtime error: The grille taking damage after deletion
+[2018-07-15 17:50:21.590] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-15 17:50:21.590]   source file: unsorted.dm,1243
+[2018-07-15 17:50:21.590]   usr: null
+[2018-07-15 17:50:21.590]   src: the grille (/obj/structure/grille)
+[2018-07-15 17:50:21.590]   src.loc: null
+[2018-07-15 17:50:21.590]   call stack:
+[2018-07-15 17:50:21.590] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-07-15 17:50:21.590] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null, 0)
+[2018-07-15 17:50:21.590] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null)
+[2018-07-15 17:50:21.590] the grille (/obj/structure/grille): attack animal(the space carp (/mob/living/simple_animal/hostile/carp))
+[2018-07-15 17:50:21.590] the space carp (/mob/living/simple_animal/hostile/carp): DestroyObjectsInDirection(4)
+[2018-07-15 17:50:21.590] the space carp (/mob/living/simple_animal/hostile/carp): DestroyPathToTarget()
+[2018-07-15 17:50:21.590] the space carp (/mob/living/simple_animal/hostile/carp): handle automated action()
+[2018-07-15 17:50:21.591] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-07-15 17:50:21.591] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-07-15 17:50:21.591] Master (/datum/controller/master): RunQueue()
+[2018-07-15 17:50:21.591] Master (/datum/controller/master): Loop()
+[2018-07-15 17:50:21.591] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-15 17:50:21.591] 
+[2018-07-15 17:50:23.726] runtime error: The grille taking damage after deletion
+[2018-07-15 17:50:23.726] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-15 17:50:23.726]   source file: unsorted.dm,1243
+[2018-07-15 17:50:23.726]   usr: null
+[2018-07-15 17:50:23.726]   src: the grille (/obj/structure/grille)
+[2018-07-15 17:50:23.726]   src.loc: null
+[2018-07-15 17:50:23.726]   call stack:
+[2018-07-15 17:50:23.726] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-07-15 17:50:23.726] the grille (/obj/structure/grille): take damage(5, "brute", "melee", 1, null, 0)
+[2018-07-15 17:50:23.727] the grille (/obj/structure/grille): take damage(5, "brute", "melee", 1, null)
+[2018-07-15 17:50:23.727] the grille (/obj/structure/grille): attack animal(the space carp (/mob/living/simple_animal/hostile/carp))
+[2018-07-15 17:50:23.727] the space carp (/mob/living/simple_animal/hostile/carp): DestroyObjectsInDirection(4)
+[2018-07-15 17:50:23.727] the space carp (/mob/living/simple_animal/hostile/carp): DestroyPathToTarget()
+[2018-07-15 17:50:23.727] the space carp (/mob/living/simple_animal/hostile/carp): handle automated action()
+[2018-07-15 17:50:23.727] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-07-15 17:50:23.727] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-07-15 17:50:23.727] Master (/datum/controller/master): RunQueue()
+[2018-07-15 17:50:23.727] Master (/datum/controller/master): Loop()
+[2018-07-15 17:50:23.727] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-15 17:50:23.727] 
+[2018-07-15 17:55:00.970] runtime error: The grille taking damage after deletion
+[2018-07-15 17:55:00.970] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-15 17:55:00.970]   source file: unsorted.dm,1243
+[2018-07-15 17:55:00.970]   usr: null
+[2018-07-15 17:55:00.970]   src: the grille (/obj/structure/grille)
+[2018-07-15 17:55:00.970]   src.loc: null
+[2018-07-15 17:55:00.970]   call stack:
+[2018-07-15 17:55:00.970] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-07-15 17:55:00.970] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null, 0)
+[2018-07-15 17:55:00.970] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null)
+[2018-07-15 17:55:00.970] the grille (/obj/structure/grille): attack animal(the space carp (/mob/living/simple_animal/hostile/carp))
+[2018-07-15 17:55:00.970] the space carp (/mob/living/simple_animal/hostile/carp): DestroyObjectsInDirection(1)
+[2018-07-15 17:55:00.970] the space carp (/mob/living/simple_animal/hostile/carp): DestroyPathToTarget()
+[2018-07-15 17:55:00.970] the space carp (/mob/living/simple_animal/hostile/carp): handle automated action()
+[2018-07-15 17:55:00.970] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-07-15 17:55:00.970] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-07-15 17:55:00.970] Master (/datum/controller/master): RunQueue()
+[2018-07-15 17:55:00.970] Master (/datum/controller/master): Loop()
+[2018-07-15 17:55:00.970] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-15 17:55:00.970] 
+[2018-07-15 17:55:06.527] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.527] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.527]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.527]   usr: Super Cool Robro 9000 (/mob/living/silicon/robot)
+[2018-07-15 17:55:06.527]   src: the sleeper (/obj/machinery/sleeper)
+[2018-07-15 17:55:06.527]   usr.loc: the floor (140,112,2) (/turf/open/floor/plasteel/white/side)
+[2018-07-15 17:55:06.527]   src.loc: the floor (141,112,2) (/turf/open/floor/plasteel)
+[2018-07-15 17:55:06.527]   call stack:
+[2018-07-15 17:55:06.527] the sleeper (/obj/machinery/sleeper): chem allowed("epinephrine")
+[2018-07-15 17:55:06.527] the sleeper (/obj/machinery/sleeper): ui data(Super Cool Robro 9000 (/mob/living/silicon/robot))
+[2018-07-15 17:55:06.527] tgui (/datum/controller/subsystem/tgui): try update ui(Super Cool Robro 9000 (/mob/living/silicon/robot), the sleeper (/obj/machinery/sleeper), "main", /datum/tgui (/datum/tgui), 0)
+[2018-07-15 17:55:06.527] the sleeper (/obj/machinery/sleeper): ui interact(Super Cool Robro 9000 (/mob/living/silicon/robot), "main", null, 0, null, /datum/ui_state/notcontained_s... (/datum/ui_state/notcontained_state))
+[2018-07-15 17:55:06.527] the sleeper (/obj/machinery/sleeper): updateUsrDialog()
+[2018-07-15 17:55:06.527] the sleeper (/obj/machinery/sleeper): close machine(Babbe (/mob/living/simple_animal/pet/penguin/baby))
+[2018-07-15 17:55:06.527] the sleeper (/obj/machinery/sleeper): close machine(null)
+[2018-07-15 17:55:06.527] the sleeper (/obj/machinery/sleeper): ui act("door", /list (/list), /datum/tgui (/datum/tgui), /datum/ui_state/notcontained_s... (/datum/ui_state/notcontained_state))
+[2018-07-15 17:55:06.527] /datum/tgui (/datum/tgui): Topic("src=%5B0x21093cd2%5D&action=do...", /list (/list))
+[2018-07-15 17:55:06.527] Davidththird (/client): Topic("src=%5B0x21093cd2%5D&action=do...", /list (/list), /datum/tgui (/datum/tgui))
+[2018-07-15 17:55:06.527] Davidththird (/client): Topic("src=%5B0x21093cd2%5D&action=do...", /list (/list), /datum/tgui (/datum/tgui))
+[2018-07-15 17:55:06.527] 
+[2018-07-15 17:55:06.528] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.528] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.528]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.528]   usr: Super Cool Robro 9000 (/mob/living/silicon/robot)
+[2018-07-15 17:55:06.528]   src: the sleeper (/obj/machinery/sleeper)
+[2018-07-15 17:55:06.528]   usr.loc: the floor (140,112,2) (/turf/open/floor/plasteel/white/side)
+[2018-07-15 17:55:06.528]   src.loc: the floor (141,112,2) (/turf/open/floor/plasteel)
+[2018-07-15 17:55:06.528]   call stack:
+[2018-07-15 17:55:06.528] the sleeper (/obj/machinery/sleeper): chem allowed("morphine")
+[2018-07-15 17:55:06.528] the sleeper (/obj/machinery/sleeper): ui data(Super Cool Robro 9000 (/mob/living/silicon/robot))
+[2018-07-15 17:55:06.528] tgui (/datum/controller/subsystem/tgui): try update ui(Super Cool Robro 9000 (/mob/living/silicon/robot), the sleeper (/obj/machinery/sleeper), "main", /datum/tgui (/datum/tgui), 0)
+[2018-07-15 17:55:06.528] the sleeper (/obj/machinery/sleeper): ui interact(Super Cool Robro 9000 (/mob/living/silicon/robot), "main", null, 0, null, /datum/ui_state/notcontained_s... (/datum/ui_state/notcontained_state))
+[2018-07-15 17:55:06.528] the sleeper (/obj/machinery/sleeper): updateUsrDialog()
+[2018-07-15 17:55:06.528] the sleeper (/obj/machinery/sleeper): close machine(Babbe (/mob/living/simple_animal/pet/penguin/baby))
+[2018-07-15 17:55:06.528] the sleeper (/obj/machinery/sleeper): close machine(null)
+[2018-07-15 17:55:06.528] the sleeper (/obj/machinery/sleeper): ui act("door", /list (/list), /datum/tgui (/datum/tgui), /datum/ui_state/notcontained_s... (/datum/ui_state/notcontained_state))
+[2018-07-15 17:55:06.528] /datum/tgui (/datum/tgui): Topic("src=%5B0x21093cd2%5D&action=do...", /list (/list))
+[2018-07-15 17:55:06.528] Davidththird (/client): Topic("src=%5B0x21093cd2%5D&action=do...", /list (/list), /datum/tgui (/datum/tgui))
+[2018-07-15 17:55:06.528] Davidththird (/client): Topic("src=%5B0x21093cd2%5D&action=do...", /list (/list), /datum/tgui (/datum/tgui))
+[2018-07-15 17:55:06.528] 
+[2018-07-15 17:55:06.528] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.528] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.528]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.528] 
+[2018-07-15 17:55:06.529] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.529] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.529]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.529] 
+[2018-07-15 17:55:06.529] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.529] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.529]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.529] 
+[2018-07-15 17:55:06.529] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.529] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.529]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.529] 
+[2018-07-15 17:55:06.530] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.530] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.530]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.530] 
+[2018-07-15 17:55:06.530] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.530] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.530]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.530] 
+[2018-07-15 17:55:06.530] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.530] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.530]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.530] 
+[2018-07-15 17:55:06.531] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.531] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.531]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.531] 
+[2018-07-15 17:55:06.531] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.531] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.531]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.531] 
+[2018-07-15 17:55:06.531] runtime error: Cannot read null.reagent_list
+[2018-07-15 17:55:06.531] proc name: ui data (/obj/machinery/sleeper/ui_data)
+[2018-07-15 17:55:06.531]   source file: Sleeper.dm,150
+[2018-07-15 17:55:06.531] 
+[2018-07-15 17:55:06.532] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.532] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.532]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.532] 
+[2018-07-15 17:55:06.532] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.532] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.532]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.532] 
+[2018-07-15 17:55:06.533] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.533] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.533]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.533] 
+[2018-07-15 17:55:06.533] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.533] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.533]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.533] 
+[2018-07-15 17:55:06.533] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.533] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.533]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.533] 
+[2018-07-15 17:55:06.533] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.533] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.534]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.534] 
+[2018-07-15 17:55:06.534] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.534] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.534]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.534] 
+[2018-07-15 17:55:06.534] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.534] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.534]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.534] 
+[2018-07-15 17:55:06.534] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.534] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.534]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.534] 
+[2018-07-15 17:55:06.535] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.535] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.535]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.535] 
+[2018-07-15 17:55:06.535] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.535] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.535]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.535] 
+[2018-07-15 17:55:06.535] runtime error: Cannot read null.reagent_list
+[2018-07-15 17:55:06.535] proc name: ui data (/obj/machinery/sleeper/ui_data)
+[2018-07-15 17:55:06.535]   source file: Sleeper.dm,150
+[2018-07-15 17:55:06.535] 
+[2018-07-15 17:55:06.941] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.941] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.941]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.941] 
+[2018-07-15 17:55:06.942] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.942] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.942]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.942] 
+[2018-07-15 17:55:06.942] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.942] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.942]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.942] 
+[2018-07-15 17:55:06.942] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.942] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.942]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.942] 
+[2018-07-15 17:55:06.942] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.942] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.942]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.942] 
+[2018-07-15 17:55:06.942] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.942] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.942]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.942] 
+[2018-07-15 17:55:06.943] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.943] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.943]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.943] 
+[2018-07-15 17:55:06.943] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.943] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.943]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.943] 
+[2018-07-15 17:55:06.943] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.943] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.943]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.943] 
+[2018-07-15 17:55:06.943] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.943] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.943]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.943] 
+[2018-07-15 17:55:06.944] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:06.944] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:06.944]   source file: Sleeper.dm,193
+[2018-07-15 17:55:06.944] 
+[2018-07-15 17:55:06.944] runtime error: Cannot read null.reagent_list
+[2018-07-15 17:55:06.944] proc name: ui data (/obj/machinery/sleeper/ui_data)
+[2018-07-15 17:55:06.944]   source file: Sleeper.dm,150
+[2018-07-15 17:55:06.944] 
+[2018-07-15 17:55:07.840] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:07.840] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:07.840]   source file: Sleeper.dm,193
+[2018-07-15 17:55:07.840] 
+[2018-07-15 17:55:07.841] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:07.841] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:07.841]   source file: Sleeper.dm,193
+[2018-07-15 17:55:07.841] 
+[2018-07-15 17:55:07.841] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:07.841] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:07.841]   source file: Sleeper.dm,193
+[2018-07-15 17:55:07.841] 
+[2018-07-15 17:55:07.841] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:07.841] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:07.841]   source file: Sleeper.dm,193
+[2018-07-15 17:55:07.841] 
+[2018-07-15 17:55:07.841] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:07.841] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:07.841]   source file: Sleeper.dm,193
+[2018-07-15 17:55:07.841] 
+[2018-07-15 17:55:07.842] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:07.842] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:07.842]   source file: Sleeper.dm,193
+[2018-07-15 17:55:07.842] 
+[2018-07-15 17:55:07.842] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:07.842] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:07.842]   source file: Sleeper.dm,193
+[2018-07-15 17:55:07.842] 
+[2018-07-15 17:55:07.842] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:07.842] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:07.842]   source file: Sleeper.dm,193
+[2018-07-15 17:55:07.842] 
+[2018-07-15 17:55:07.842] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:07.842] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:07.842]   source file: Sleeper.dm,193
+[2018-07-15 17:55:07.842] 
+[2018-07-15 17:55:07.843] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:07.843] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:07.843]   source file: Sleeper.dm,193
+[2018-07-15 17:55:07.843] 
+[2018-07-15 17:55:07.843] runtime error: Cannot execute null.get reagent amount().
+[2018-07-15 17:55:07.843] proc name: chem allowed (/obj/machinery/sleeper/proc/chem_allowed)
+[2018-07-15 17:55:07.843]   source file: Sleeper.dm,193
+[2018-07-15 17:55:07.843] 
+[2018-07-15 17:55:07.843] runtime error: Cannot read null.reagent_list
+[2018-07-15 17:55:07.843] proc name: ui data (/obj/machinery/sleeper/ui_data)
+[2018-07-15 17:55:07.843]   source file: Sleeper.dm,150
+[2018-07-15 17:55:07.843] 
+[2018-07-15 18:08:26.465] runtime error: bad arg name 'force'
+[2018-07-15 18:08:26.465] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:08:26.465] 
+[2018-07-15 18:08:26.962] runtime error: bad arg name 'force'
+[2018-07-15 18:08:26.962] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:08:26.962] 
+[2018-07-15 18:09:20.969] runtime error: bad arg name 'force'
+[2018-07-15 18:09:20.969] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:20.969] 
+[2018-07-15 18:09:21.022] runtime error: bad arg name 'force'
+[2018-07-15 18:09:21.022] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:21.022] 
+[2018-07-15 18:09:21.069] runtime error: bad arg name 'force'
+[2018-07-15 18:09:21.069] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:21.069] 
+[2018-07-15 18:09:21.119] runtime error: bad arg name 'force'
+[2018-07-15 18:09:21.119] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:21.119] 
+[2018-07-15 18:09:21.169] runtime error: bad arg name 'force'
+[2018-07-15 18:09:21.169] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:21.169] 
+[2018-07-15 18:09:21.219] runtime error: bad arg name 'force'
+[2018-07-15 18:09:21.219] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:21.219] 
+[2018-07-15 18:09:21.269] runtime error: bad arg name 'force'
+[2018-07-15 18:09:21.269] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:21.269] 
+[2018-07-15 18:09:21.319] runtime error: bad arg name 'force'
+[2018-07-15 18:09:21.319] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:21.319] 
+[2018-07-15 18:09:21.369] runtime error: bad arg name 'force'
+[2018-07-15 18:09:21.369] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:21.369] 
+[2018-07-15 18:09:21.419] runtime error: bad arg name 'force'
+[2018-07-15 18:09:21.419] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:21.419] 
+[2018-07-15 18:09:21.919] runtime error: bad arg name 'force'
+[2018-07-15 18:09:21.919] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:21.919] 
+[2018-07-15 18:09:21.969] runtime error: bad arg name 'force'
+[2018-07-15 18:09:21.969] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:21.969] 
+[2018-07-15 18:09:22.021] runtime error: bad arg name 'force'
+[2018-07-15 18:09:22.021] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:22.021] 
+[2018-07-15 18:09:22.072] runtime error: bad arg name 'force'
+[2018-07-15 18:09:22.072] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:22.072] 
+[2018-07-15 18:09:22.119] runtime error: bad arg name 'force'
+[2018-07-15 18:09:22.120] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:22.120] 
+[2018-07-15 18:09:22.169] runtime error: bad arg name 'force'
+[2018-07-15 18:09:22.169] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:22.169] 
+[2018-07-15 18:09:22.219] runtime error: bad arg name 'force'
+[2018-07-15 18:09:22.219] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:22.219] 
+[2018-07-15 18:09:22.269] runtime error: bad arg name 'force'
+[2018-07-15 18:09:22.269] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:22.269] 
+[2018-07-15 18:09:22.319] runtime error: bad arg name 'force'
+[2018-07-15 18:09:22.319] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:22.319] 
+[2018-07-15 18:09:23.269] runtime error: bad arg name 'force'
+[2018-07-15 18:09:23.269] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:23.269] 
+[2018-07-15 18:09:23.869] runtime error: bad arg name 'force'
+[2018-07-15 18:09:23.869] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:23.869] 
+[2018-07-15 18:09:23.919] runtime error: bad arg name 'force'
+[2018-07-15 18:09:23.919] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:23.919] 
+[2018-07-15 18:09:37.855] runtime error: bad arg name 'force'
+[2018-07-15 18:09:37.855] proc name: dust (/mob/living/silicon/robot/dust)
+[2018-07-15 18:09:37.855] 
+[2018-07-15 18:26:12.184] runtime error: Cannot execute null.checkLandingSpot().
+[2018-07-15 18:26:12.184] proc name: setLoc (/mob/camera/aiEye/remote/shuttle_docker/setLoc)
+[2018-07-15 18:26:12.184]   source file: navigation_computer.dm,259
+[2018-07-15 18:26:12.184] 
+[2018-07-15 18:36:09.066] runtime error: The grille taking damage after deletion
+[2018-07-15 18:36:09.066] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-15 18:36:09.066]   source file: unsorted.dm,1243
+[2018-07-15 18:36:09.066] 
+[2018-07-15 18:38:24.516] ### MAP WARNING, the external airlock at Pirate Shuttle (239, 177, 2) failed to find a valid airlock to cyclelink with!
+[2018-07-15 18:38:24.871] ### MAP WARNING, the external airlock at Pirate Shuttle (221, 177, 2) failed to find a valid airlock to cyclelink with!
+[2018-07-15 18:52:07.499] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 18:52:07.499] proc name: stack trace (/proc/stack_trace)
+[2018-07-15 18:52:07.499]   source file: unsorted.dm,1240
+[2018-07-15 18:52:07.499] 
+[2018-07-15 19:02:05.417] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:02:05.417] proc name: stack trace (/proc/stack_trace)
+[2018-07-15 19:02:05.417]   source file: unsorted.dm,1240
+[2018-07-15 19:02:05.417] 
+[2018-07-15 19:09:45.745] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:09:45.745] proc name: stack trace (/proc/stack_trace)
+[2018-07-15 19:09:45.745]   source file: unsorted.dm,1240
+[2018-07-15 19:09:45.745] 
+[2018-07-15 19:09:48.741] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:09:48.741] proc name: stack trace (/proc/stack_trace)
+[2018-07-15 19:09:48.741]   source file: unsorted.dm,1240
+[2018-07-15 19:09:48.741] 
+[2018-07-15 19:09:51.158] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:09:51.158] proc name: stack trace (/proc/stack_trace)
+[2018-07-15 19:09:51.158]   source file: unsorted.dm,1240
+[2018-07-15 19:09:51.158] 
+[2018-07-15 19:09:51.158] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:09:51.158] proc name: stack trace (/proc/stack_trace)
+[2018-07-15 19:09:51.158]   source file: unsorted.dm,1240
+[2018-07-15 19:09:51.158] 
+[2018-07-15 19:09:51.159] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:09:51.159] proc name: stack trace (/proc/stack_trace)
+[2018-07-15 19:09:51.159]   source file: unsorted.dm,1240
+[2018-07-15 19:09:51.159] 
+[2018-07-15 19:09:51.680] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:09:51.680] Warning: further proc crash messages are being suppressed to prevent overload...
+[2018-07-15 19:09:51.680] 
+[2018-07-15 19:09:51.680] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:09:51.681] 
+[2018-07-15 19:09:52.075] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:09:52.075] 
+[2018-07-15 19:09:52.606] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:09:52.606] 
+[2018-07-15 19:09:53.487] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:09:53.487] 
+[2018-07-15 19:09:54.010] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:09:54.010] 
+[2018-07-15 19:09:54.276] runtime error: The box of beakers taking damage after deletion
+[2018-07-15 19:09:54.276] 
+[2018-07-15 19:09:54.329] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:09:54.329] 
+[2018-07-15 19:09:55.518] runtime error: No valid destination passed into forceMove
+[2018-07-15 19:09:55.518] 
+[2018-07-15 19:09:55.519] runtime error: No valid destination passed into forceMove
+[2018-07-15 19:09:55.519] 
+[2018-07-15 19:09:55.519] runtime error: No valid destination passed into forceMove
+[2018-07-15 19:09:55.519] 
+[2018-07-15 19:09:55.519] runtime error: No valid destination passed into forceMove
+[2018-07-15 19:09:55.519] 
+[2018-07-15 19:09:55.519] runtime error: No valid destination passed into forceMove
+[2018-07-15 19:09:55.519] 
+[2018-07-15 19:09:55.520] runtime error: No valid destination passed into forceMove
+[2018-07-15 19:09:55.520] 
+[2018-07-15 19:09:55.520] runtime error: No valid destination passed into forceMove
+[2018-07-15 19:09:55.520] 
+[2018-07-15 19:09:55.520] runtime error: No valid destination passed into forceMove
+[2018-07-15 19:09:55.520] 
+[2018-07-15 19:09:55.520] runtime error: No valid destination passed into forceMove
+[2018-07-15 19:09:55.520] 
+[2018-07-15 19:10:00.330] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:00.330] 
+[2018-07-15 19:10:00.854] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:00.854] 
+[2018-07-15 19:10:01.399] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:01.399] 
+[2018-07-15 19:10:03.485] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:03.485] 
+[2018-07-15 19:10:03.485] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:03.485] 
+[2018-07-15 19:10:05.153] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:05.154] 
+[2018-07-15 19:10:05.739] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:05.739] 
+[2018-07-15 19:10:05.915] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:05.915] 
+[2018-07-15 19:10:05.916] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:05.916] 
+[2018-07-15 19:10:06.320] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:06.320] 
+[2018-07-15 19:10:06.320] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:06.320] 
+[2018-07-15 19:10:06.783] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:06.783] 
+[2018-07-15 19:10:07.311] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:07.311] 
+[2018-07-15 19:10:07.481] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:07.481] 
+[2018-07-15 19:10:07.482] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:07.482] 
+[2018-07-15 19:10:07.862] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:07.862] 
+[2018-07-15 19:10:07.863] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:07.863] 
+[2018-07-15 19:10:10.480] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:10.481] 
+[2018-07-15 19:10:11.359] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:11.359] 
+[2018-07-15 19:10:11.360] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-15 19:10:11.360] 
+[2018-07-15 19:14:28.594] ### MAP WARNING, the external airlock at Pirate Shuttle (189, 73, 12) failed to find a valid airlock to cyclelink with!
+[2018-07-15 19:14:28.596] ### MAP WARNING, the external airlock at Pirate Shuttle (207, 73, 12) failed to find a valid airlock to cyclelink with!
+[2018-07-15 19:16:33.298] Saved 9 engraved messages on map Box Station
+[2018-07-15 19:16:37.966] runtime error: Cannot execute null.is cut().
+[2018-07-15 19:16:37.966] 
+[2018-07-15 19:18:08.579] Shutting down Persistence subsystem...
+[2018-07-15 19:18:08.579] Shutting down Pathfinder subsystem...
+[2018-07-15 19:18:08.579] Shutting down Squeak subsystem...
+[2018-07-15 19:18:08.580] Shutting down Shuttle subsystem...
+[2018-07-15 19:18:08.580] Shutting down Lighting subsystem...
+[2018-07-15 19:18:08.580] Shutting down XKeyScore subsystem...
+[2018-07-15 19:18:08.580] Shutting down Sticky Ban subsystem...
+[2018-07-15 19:18:08.580] Shutting down Overlay subsystem...
+[2018-07-15 19:18:08.624] Shutting down Icon Smoothing subsystem...
+[2018-07-15 19:18:08.625] Shutting down Assets subsystem...
+[2018-07-15 19:18:08.625] Shutting down Minimap subsystem...
+[2018-07-15 19:18:08.625] Shutting down Atmospherics subsystem...
+[2018-07-15 19:18:08.625] Shutting down Wet floors subsystem...
+[2018-07-15 19:18:08.625] Shutting down Weather subsystem...
+[2018-07-15 19:18:08.625] Shutting down Vote subsystem...
+[2018-07-15 19:18:08.625] Shutting down Traumas subsystem...
+[2018-07-15 19:18:08.625] Shutting down Title Screen subsystem...
+[2018-07-15 19:18:08.626] Shutting down Time Tracking subsystem...
+[2018-07-15 19:18:08.626] Shutting down Throwing subsystem...
+[2018-07-15 19:18:08.626] Shutting down tgui subsystem...
+[2018-07-15 19:18:08.626] Shutting down Sun subsystem...
+[2018-07-15 19:18:08.626] Shutting down Space Drift subsystem...
+[2018-07-15 19:18:08.626] Shutting down Religion subsystem...
+[2018-07-15 19:18:08.626] Shutting down Radio subsystem...
+[2018-07-15 19:18:08.626] Shutting down Radiation subsystem...
+[2018-07-15 19:18:08.626] Shutting down Projectiles subsystem...
+[2018-07-15 19:18:08.626] Shutting down Processing subsystem...
+[2018-07-15 19:18:08.626] Shutting down Ping subsystem...
+[2018-07-15 19:18:08.626] Shutting down Parallax subsystem...
+[2018-07-15 19:18:08.626] Shutting down pAI subsystem...
+[2018-07-15 19:18:08.626] Shutting down Orbits subsystem...
+[2018-07-15 19:18:08.626] Shutting down Objects subsystem...
+[2018-07-15 19:18:08.626] Shutting down NPC Pool subsystem...
+[2018-07-15 19:18:08.626] Shutting down Night Shift subsystem...
+[2018-07-15 19:18:08.626] Shutting down Mood subsystem...
+[2018-07-15 19:18:08.627] Shutting down Mobs subsystem...
+[2018-07-15 19:18:08.627] Shutting down Medals subsystem...
+[2018-07-15 19:18:08.627] Shutting down Idling NPC Pool subsystem...
+[2018-07-15 19:18:08.627] Shutting down Flightpack Movement subsystem...
+[2018-07-15 19:18:08.627] Shutting down Fire Burning subsystem...
+[2018-07-15 19:18:08.627] Shutting down Fields subsystem...
+[2018-07-15 19:18:08.627] Shutting down Fast Processing subsystem...
+[2018-07-15 19:18:08.627] Shutting down Disease subsystem...
+[2018-07-15 19:18:08.627] Shutting down Datum Component System subsystem...
+[2018-07-15 19:18:08.627] Shutting down Communications subsystem...
+[2018-07-15 19:18:08.627] Shutting down Augury subsystem...
+[2018-07-15 19:18:08.627] Shutting down Acid subsystem...
+[2018-07-15 19:18:08.627] Shutting down Timer subsystem...
+[2018-07-15 19:18:08.627] Shutting down Circuit subsystem...
+[2018-07-15 19:18:08.627] Shutting down Machines subsystem...
+[2018-07-15 19:18:08.627] Shutting down Language subsystem...
+[2018-07-15 19:18:08.627] Shutting down Atoms subsystem...
+[2018-07-15 19:18:08.628] Shutting down Networks subsystem...
+[2018-07-15 19:18:08.628] Shutting down Mapping subsystem...
+[2018-07-15 19:18:08.628] Shutting down Ticker subsystem...
+[2018-07-15 19:18:08.746] Shutting down Quirks subsystem...
+[2018-07-15 19:18:08.746] Shutting down Jobs subsystem...
+[2018-07-15 19:18:08.746] Shutting down Events subsystem...
+[2018-07-15 19:18:08.746] Shutting down Research subsystem...
+[2018-07-15 19:18:08.746] Shutting down Input subsystem...
+[2018-07-15 19:18:08.746] Shutting down Server Tasks subsystem...
+[2018-07-15 19:18:08.747] Shutting down Blackbox subsystem...
+[2018-07-15 19:18:08.863] Shutting down Database subsystem...
+[2018-07-15 19:18:08.900] Shutting down Garbage subsystem...
+[2018-07-15 19:18:09.008] Shutdown complete
+[2018-07-15 19:18:09.008] World rebooted at 19:18:09

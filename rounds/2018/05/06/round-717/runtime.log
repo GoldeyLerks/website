@@ -1,0 +1,1244 @@
+
+
+Starting up round ID 717. 16:00:29
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 14.7s!
+Loaded Lavaland in 6.8s!
+Loaded Reebe in 6.5s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 35.6 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 51.8 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 1 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 0 seconds were wasted processing 1 turf(s) (connected to 7 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 18.1 seconds!
+Initialized Minimap subsystem within 0.3 seconds!
+Initialized Assets subsystem within 0.9 seconds!
+Initialized Icon Smoothing subsystem within 7.5 seconds!
+Initialized Overlay subsystem within 23.5 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 17.4 seconds!
+Initialized Shuttle subsystem within 25.4 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 105 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 181.4 seconds!
+runtime error: 
+[16:03:37]Cannot read null.species
+[16:03:37]proc name: attach limb (/obj/item/bodypart/proc/attach_limb)
+[16:03:37]  source file: dismemberment.dm,278
+[16:03:37]  usr: null
+[16:03:37]  src: the surplus prosthetic right a... (/obj/item/bodypart/r_arm/robot/surplus)
+[16:03:37]  src.loc: null
+[16:03:37]  call stack:
+[16:03:37]the surplus prosthetic right a... (/obj/item/bodypart/r_arm/robot/surplus): attach limb( (/mob/living/carbon/human), null)
+[16:03:37]the surplus prosthetic right a... (/obj/item/bodypart/r_arm/robot/surplus): replace limb( (/mob/living/carbon/human), null)
+[16:03:37]Prosthetic Limb (/datum/trait/prosthetic_limb): on spawn()
+[16:03:37]Prosthetic Limb (/datum/trait/prosthetic_limb): New( (/mob/living/carbon/human), 1)
+[16:03:37] (/mob/living/carbon/human): add trait datum("Prosthetic Limb", 1)
+[16:03:37]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), HaggisShuu (/client), 1)
+[16:03:37]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[16:03:37]Ticker (/datum/controller/subsystem/ticker): setup()
+[16:03:37]Ticker (/datum/controller/subsystem/ticker): fire()
+[16:03:37]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[16:03:37]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+runtime error: 
+[16:03:37]addtimer called with a callback assigned to a qdeleted object
+[16:03:37]proc name: stack trace (/proc/stack_trace)
+[16:03:37]  source file: unsorted.dm,1254
+[16:03:37]  usr: (src)
+[16:03:37]  src: null
+[16:03:37]  call stack:
+[16:03:37]stack trace("addtimer called with a callbac...")
+[16:03:37]addtimer(/datum/callback (/datum/callback), 10, 4)
+[16:03:37] (/mob/living/carbon/human): clear fullscreen("nearsighted", 10)
+[16:03:37] (/mob/living/carbon/human): equip to slot(the prescription glasses (/obj/item/clothing/glasses/regular), 8)
+[16:03:37]Nearsighted (/datum/trait/nearsighted): on spawn()
+[16:03:37]Nearsighted (/datum/trait/nearsighted): New( (/mob/living/carbon/human), 1)
+[16:03:37] (/mob/living/carbon/human): add trait datum("Nearsighted", 1)
+[16:03:37]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), HaggisShuu (/client), 1)
+[16:03:37]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[16:03:37]Ticker (/datum/controller/subsystem/ticker): setup()
+[16:03:37]Ticker (/datum/controller/subsystem/ticker): fire()
+[16:03:37]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[16:03:37]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+Game start took 23.4s
+runtime error: 
+[16:04:26]nothing to animate
+[16:04:26]proc name: shake camera (/proc/shake_camera)
+[16:04:26]  source file: mob_helpers.dm,270
+[16:04:26]  usr: (src)
+[16:04:26]  src: null
+[16:04:26]  call stack:
+[16:04:26]shake camera(Aleksey Karansinov (/mob/living/carbon/human), 0.75, 1)
+[16:04:26]Aleksey Karansinov (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:04:26]Aleksey Karansinov (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:04:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[16:04:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[16:04:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[16:04:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:04:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:04:26]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[16:04:26]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[16:04:26]nothing to animate
+[16:04:26]proc name: shake camera (/proc/shake_camera)
+[16:04:26]  source file: mob_helpers.dm,270
+[16:04:26]  usr: (src)
+[16:04:26]  src: null
+[16:04:26]  call stack:
+[16:04:26]shake camera(Dennis Ida (/mob/living/carbon/human), 0.75, 1)
+[16:04:26]Dennis Ida (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:04:26]Dennis Ida (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:04:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[16:04:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[16:04:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[16:04:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:04:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:04:26]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[16:04:26]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[16:05:24]nothing to animate
+[16:05:24]proc name: shake camera (/proc/shake_camera)
+[16:05:24]  source file: mob_helpers.dm,270
+[16:05:24]  usr: (src)
+[16:05:24]  src: null
+[16:05:24]  call stack:
+[16:05:24]shake camera(Lina Bright (/mob/living/carbon/human), 0.75, 1)
+[16:05:24]Lina Bright (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:05:24]Lina Bright (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:05:24]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[16:05:24]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[16:05:24]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[16:05:24]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:05:24]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:05:24]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[16:05:24]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[16:06:29]nothing to animate
+[16:06:29]proc name: shake camera (/proc/shake_camera)
+[16:06:29]  source file: mob_helpers.dm,270
+[16:06:29]  usr: (src)
+[16:06:29]  src: null
+[16:06:29]  call stack:
+[16:06:29]shake camera(Arthur Wolfe (/mob/living/carbon/human), 0.75, 1)
+[16:06:29]Arthur Wolfe (/mob/living/carbon/human): afterShuttleMove(space (27,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:06:29]Arthur Wolfe (/mob/living/carbon/human): afterShuttleMove(space (27,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:06:29]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[16:06:29]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[16:06:29]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[16:06:29]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:06:29]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:06:29]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[16:06:29]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[16:07:02]nothing to animate
+[16:07:02]proc name: shake camera (/proc/shake_camera)
+[16:07:02]  source file: mob_helpers.dm,270
+[16:07:02]  usr: (src)
+[16:07:02]  src: null
+[16:07:02]  call stack:
+[16:07:02]shake camera(Aleksey Karansinov (/mob/living/carbon/human), 0.75, 1)
+[16:07:02]Aleksey Karansinov (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[16:07:02]Aleksey Karansinov (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[16:07:02]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[16:07:02]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[16:07:02]the mining shuttle (/obj/docking_port/mobile): check()
+[16:07:02]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[16:07:02]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (133,216,2) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (133,217,2) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle interior airlock at Abandoned Ship (126,230,2) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (88,30,13) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (87,30,13) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle interior airlock at Abandoned Ship (74,23,13) failed to find a valid airlock to cyclelink with!
+runtime error: 
+[16:11:22]nothing to animate
+[16:11:22]proc name: shake camera (/proc/shake_camera)
+[16:11:22]  source file: mob_helpers.dm,270
+[16:11:22]  usr: (src)
+[16:11:22]  src: null
+[16:11:22]  call stack:
+[16:11:22]shake camera(Motya Zhenya (/mob/living/carbon/human), 0.75, 1)
+[16:11:22]Motya Zhenya (/mob/living/carbon/human): afterShuttleMove(space (17,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:11:22]Motya Zhenya (/mob/living/carbon/human): afterShuttleMove(space (17,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:11:22]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[16:11:22]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[16:11:22]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[16:11:22]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:11:22]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:11:22]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[16:11:22]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[16:13:56]nothing to animate
+[16:13:56]proc name: shake camera (/proc/shake_camera)
+[16:13:56]  source file: mob_helpers.dm,270
+[16:13:56]  usr: (src)
+[16:13:56]  src: null
+[16:13:56]  call stack:
+[16:13:56]shake camera(Fixes-The-Station (/mob/living/carbon/human), 0.75, 1)
+[16:13:56]Fixes-The-Station (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:13:56]Fixes-The-Station (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:13:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[16:13:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[16:13:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[16:13:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:13:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:13:56]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[16:13:56]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (36,165,2) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (37,165,2) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle interior airlock at Abandoned Ship (50,172,2) failed to find a valid airlock to cyclelink with!
+[2018-05-06 16:24:44] Client: ShawnTates triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52120/tmp5144/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:24:44] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+[2018-05-06 16:24:44] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:24:44] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:24:44] Client: ShawnTates triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52120/tmp5144/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:24:44] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:24:44] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:24:44] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+runtime error: 
+[16:29:19]A ref was requested of an object with DF_USE_TAG set but no tag: Alien Queen
+[16:29:19]proc name: stack trace (/proc/stack_trace)
+[16:29:19]  source file: unsorted.dm,1254
+[16:29:19]  usr: Alien Queen (/mob/dead/observer)
+[16:29:19]  src: null
+[16:29:19]  usr.loc: the volcanic floor (146,166,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[16:29:19]  call stack:
+[16:29:19]stack trace("A ref was requested of an obje...")
+[16:29:19]REF(Alien Queen (/mob/living/carbon/alien/humanoid/royal/queen))
+[16:29:19]Xenomorph (/datum/antagonist/xeno): antag listing name()
+[16:29:19]Xenomorph (/datum/antagonist/xeno): antag listing entry()
+[16:29:19]Aliens (/datum/team/xeno): antag listing entry()
+[16:29:19]gimmesumsuccpls\'s admin datum... (/datum/admins): build antag listing()
+[16:29:19]gimmesumsuccpls\'s admin datum... (/datum/admins): check antagonists()
+[16:29:19]gimmesumsuccpls\'s admin datum... (/datum/admins): Topic("_src_=holder;admin_token=07874...", /list (/list))
+[16:29:19]GimmesumsuccPls (/client): Topic("_src_=holder;admin_token=07874...", /list (/list), gimmesumsuccpls\'s admin datum... (/datum/admins))
+[16:29:19]GimmesumsuccPls (/client): Topic("_src_=holder;admin_token=07874...", /list (/list))
+runtime error: 
+[16:29:53]Cannot read null.body_part
+[16:29:53]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[16:29:53]  source file: human_defense.dm,30
+[16:29:53]  usr: Arthur Wolfe (/mob/living/carbon/human)
+[16:29:53]  src: Sandra Parker (/mob/living/carbon/human)
+[16:29:53]  usr.loc: the floor (82,118,2) (/turf/open/floor/plasteel)
+[16:29:53]  src.loc: the floor (83,118,2) (/turf/open/floor/plasteel)
+[16:29:53]  call stack:
+[16:29:53]Sandra Parker (/mob/living/carbon/human): checkarmor(null, "melee")
+[16:29:53]Sandra Parker (/mob/living/carbon/human): getarmor("chest", "melee")
+[16:29:53]Sandra Parker (/mob/living/carbon/human): run armor check("chest", "melee", "Your armor has protected your ...", "Your armor has softened hit to...", 0, null)
+[16:29:53]Sandra Parker (/mob/living/carbon/human): hitby(the cargo cap (/obj/item/clothing/head/soft), 0, 0, 0)
+[16:29:53]Sandra Parker (/mob/living/carbon/human): hitby(the cargo cap (/obj/item/clothing/head/soft), 0, 0, 0)
+[16:29:53]Sandra Parker (/mob/living/carbon/human): hitby(the cargo cap (/obj/item/clothing/head/soft), 0, 0, 0)
+[16:29:53]the cargo cap (/obj/item/clothing/head/soft): throw impact(Sandra Parker (/mob/living/carbon/human), /datum/thrownthing (/datum/thrownthing))
+[16:29:53]/datum/thrownthing (/datum/thrownthing): finalize(1, Sandra Parker (/mob/living/carbon/human))
+[16:29:53]/datum/thrownthing (/datum/thrownthing): hit atom(Sandra Parker (/mob/living/carbon/human))
+[16:29:53]the cargo cap (/obj/item/clothing/head/soft): Collide(Sandra Parker (/mob/living/carbon/human))
+[16:29:53]the floor (83,118,2) (/turf/open/floor/plasteel): Enter(the cargo cap (/obj/item/clothing/head/soft), the floor (82,118,2) (/turf/open/floor/plasteel))
+[16:29:53]the cargo cap (/obj/item/clothing/head/soft): Move(the floor (83,118,2) (/turf/open/floor/plasteel), 4)
+[16:29:53]/datum/thrownthing (/datum/thrownthing): tick()
+[16:29:53]the cargo cap (/obj/item/clothing/head/soft): throw at(the floor (83,118,2) (/turf/open/floor/plasteel), 7, 2, Arthur Wolfe (/mob/living/carbon/human), 1, 0, /datum/callback (/datum/callback))
+[16:29:53]the cargo cap (/obj/item/clothing/head/soft): throw at(the floor (83,118,2) (/turf/open/floor/plasteel), 7, 2, Arthur Wolfe (/mob/living/carbon/human), 1, 0, /datum/callback (/datum/callback))
+[16:29:53]the cargo cap (/obj/item/clothing/head/soft): throw at(the floor (83,118,2) (/turf/open/floor/plasteel), 7, 2, Arthur Wolfe (/mob/living/carbon/human), 1, 0, /datum/callback (/datum/callback))
+[16:29:53]the cargo cap (/obj/item/clothing/head/soft): throw at(the floor (83,118,2) (/turf/open/floor/plasteel), 7, 2, Arthur Wolfe (/mob/living/carbon/human), 1, 0, null)
+[16:29:53]Arthur Wolfe (/mob/living/carbon/human): throw item(the floor (83,118,2) (/turf/open/floor/plasteel))
+[16:29:53]Arthur Wolfe (/mob/living/carbon/human): ClickOn(the floor (83,118,2) (/turf/open/floor/plasteel), "icon-x=27;icon-y=21;left=1;scr...")
+[16:29:53]the floor (83,118,2) (/turf/open/floor/plasteel): Click(the floor (83,118,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=27;icon-y=21;left=1;scr...")
+[2018-05-06 16:30:43] Client: ShawnTates triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52120/tmp5144/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:30:43] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+[2018-05-06 16:30:43] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:30:43] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:30:43] Client: ShawnTates triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52120/tmp5144/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:30:43] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:30:43] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:30:43] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+UAH: _src_=vars;admin_token=67107900910091041632380352610594204;makemonkey=[mob_527]
+runtime error: 
+[16:31:29]addtimer called with a callback assigned to a qdeleted object
+[16:31:29]proc name: stack trace (/proc/stack_trace)
+[16:31:29]  source file: unsorted.dm,1254
+[16:31:29]  usr: Wicker Atmos (/mob/dead/observer)
+[16:31:29]  src: null
+[16:31:29]  usr.loc: the carpet (56,132,2) (/turf/open/floor/carpet)
+[16:31:29]  call stack:
+[16:31:29]stack trace("addtimer called with a callbac...")
+[16:31:29]addtimer(/datum/callback (/datum/callback), 10, 4)
+[16:31:29]Rebecca Thomson (/mob/living/carbon/human/species/zombie/infectious): clear fullscreen("blind", 10)
+[16:31:29]Rebecca Thomson (/mob/living/carbon/human/species/zombie/infectious): adjust blindness(-1)
+[16:31:29]Rebecca Thomson (/mob/living/carbon/human/species/zombie/infectious): cure blind("eyes_covered")
+[16:31:29]Rebecca Thomson (/mob/living/carbon/human/species/zombie/infectious): update tint()
+[16:31:29]the eyes (/obj/item/organ/eyes): Insert(Rebecca Thomson (/mob/living/carbon/human/species/zombie/infectious), 0, 0)
+[16:31:29]Human (/datum/species/human): regenerate organs(Rebecca Thomson (/mob/living/carbon/human/species/zombie/infectious), Infectious Zombie (/datum/species/zombie/infectious), 1)
+[16:31:29]Human (/datum/species/human): on species gain(Rebecca Thomson (/mob/living/carbon/human/species/zombie/infectious), Infectious Zombie (/datum/species/zombie/infectious))
+[16:31:29]Human (/datum/species/human): on species gain(Rebecca Thomson (/mob/living/carbon/human/species/zombie/infectious), Infectious Zombie (/datum/species/zombie/infectious))
+[16:31:29]...
+[16:31:29]the festering ooze (/obj/item/organ/zombie_infection): Destroy(0)
+[16:31:29]the festering ooze (/obj/item/organ/zombie_infection): Destroy(0)
+[16:31:29]qdel(the festering ooze (/obj/item/organ/zombie_infection), 0)
+[16:31:29]Rebecca Thomson (/mob/living/carbon/human/species/zombie/infectious): Destroy(0)
+[16:31:29]Rebecca Thomson (/mob/living/carbon/human/species/zombie/infectious): Destroy(0)
+[16:31:29]qdel(Rebecca Thomson (/mob/living/carbon/human/species/zombie/infectious), 0)
+[16:31:29]Rebecca Thomson (/mob/living/carbon/human/species/zombie/infectious): monkeyize(67)
+[16:31:29]Wicker0 (/client): view var Topic("_src_=vars;admin_token=6710790...", /list (/list), null)
+[16:31:29]Wicker0 (/client): Topic("_src_=vars;admin_token=6710790...", /list (/list))
+[2018-05-06 16:34:08] Client: ShawnTates triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52120/tmp5144/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:34:08] Client: GreenTea98 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:57267/tmp7692/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:34:08] Client: 2cwldys triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58305/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; LCTE)
+[2018-05-06 16:34:08] Client: AsciiSquid triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:54834/tmp9148/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; Tablet PC 2.0)
+[2018-05-06 16:34:08] Client: Lord_kk triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53665/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E)
+[2018-05-06 16:34:08] Client: Raddog triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50491/tmp12416/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:34:08] Client: 2cwldys triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58305/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; LCTE)
+[2018-05-06 16:34:08] Client: HaggisShuu triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50177/tmp2584/browserOutput.js | line: 116 | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; byond_5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+[2018-05-06 16:34:08] Client: Florin1111 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49990/tmp2112/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:34:08] Client: Florin1111 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49990/tmp2112/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:34:08] Client: XXReCterXx triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:54282/tmp9204/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-05-06 16:34:08] Client: XXReCterXx triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:54282/tmp9204/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-05-06 16:34:08] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:34:08] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:34:08] Client: Bigprincebob15 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52218/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; McAfee; Tablet PC 2.0; ASU2JS)
+[2018-05-06 16:34:59] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+[2018-05-06 16:34:59] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:34:59] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+runtime error: 
+[16:35:35]addtimer called with a callback assigned to a qdeleted object
+[16:35:35]proc name: stack trace (/proc/stack_trace)
+[16:35:35]  source file: unsorted.dm,1254
+[16:35:35]  usr: Lina Bright (/mob/living/carbon/human)
+[16:35:35]  src: null
+[16:35:35]  usr.loc: the floor (106,113,2) (/turf/open/floor/plasteel/blue/side)
+[16:35:35]  call stack:
+[16:35:35]stack trace("addtimer called with a callbac...")
+[16:35:35]addtimer(/datum/callback (/datum/callback), 20, 0)
+[16:35:35]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[16:35:35]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-05-06 16:35:50] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+[2018-05-06 16:35:50] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:35:50] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:36:41] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:36:41] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+[2018-05-06 16:36:41] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+runtime error: 
+[16:37:35]addtimer called with a callback assigned to a qdeleted object
+[16:37:35]proc name: stack trace (/proc/stack_trace)
+[16:37:35]  source file: unsorted.dm,1254
+[16:37:35]  usr: Lina Bright (/mob/living/carbon/human)
+[16:37:35]  src: null
+[16:37:35]  usr.loc: the floor (179,101,2) (/turf/open/floor/plasteel/white/side)
+[16:37:35]  call stack:
+[16:37:35]stack trace("addtimer called with a callbac...")
+[16:37:35]addtimer(/datum/callback (/datum/callback), 20, 0)
+[16:37:35]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[16:37:35]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-05-06 16:37:32] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+runtime error: 
+[16:37:38]Cannot read null.prefs
+[16:37:38]proc name: change mob type (/mob/proc/change_mob_type)
+[16:37:38]  source file: mob_transformation_simple.dm,50
+[16:37:38]  usr: (src)
+[16:37:38]  src: Revenant (604) (/mob/dead/observer)
+[16:37:38]  src.loc: null
+[16:37:38]  call stack:
+[16:37:38]Revenant (604) (/mob/dead/observer): change mob type(/mob/living/carbon/human (/mob/living/carbon/human), null, null, 1)
+[16:37:38]gimmesumsuccpls\'s admin datum... (/datum/admins): Topic("_src_=holder;admin_token=50238...", /list (/list))
+[16:37:38]GimmesumsuccPls (/client): Topic("_src_=holder;admin_token=50238...", /list (/list), gimmesumsuccpls\'s admin datum... (/datum/admins))
+[16:37:38]GimmesumsuccPls (/client): Topic("_src_=holder;admin_token=50238...", /list (/list))
+[2018-05-06 16:37:32] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:37:32] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+[2018-05-06 16:37:32] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+runtime error: 
+[16:39:36]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:36]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:37]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:37]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:38]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:38]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:39]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:39]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:40]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:40]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:41]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:41]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:42]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:43]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:43]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:44]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:44]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:45]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:45]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:46]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:46]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:47]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:47]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:48]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:48]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:49]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:49]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:50]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:50]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:51]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:51]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:52]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:53]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:53]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:54]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:55]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:55]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:56]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:56]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:57]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:57]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:58]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:58]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:59]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:39:59]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:40:00]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:40:00]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:40:01]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:40:01]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:40:02]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:40:02]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:42:11]bad index
+[16:42:11]proc name: Spawn object-mob (/datum/admins/proc/spawn_objasmob)
+[16:42:11]  source file: spawnobjasmob.dm,34
+[16:42:11]  usr: Wicker Atmos (/mob/living/carbon/human)
+[16:42:11]  src: Wicker0 (/client)
+[16:42:11]  usr.loc: the floor (98,117,2) (/turf/open/floor/plasteel)
+[16:42:11]  call stack:
+[16:42:11]Wicker0 (/client): Spawn object-mob("gun")
+runtime error: 
+[16:42:30]addtimer called with a callback assigned to a qdeleted object
+[16:42:30]proc name: stack trace (/proc/stack_trace)
+[16:42:30]  source file: unsorted.dm,1254
+[16:42:30]  usr: Unknown (/mob/living/carbon/human)
+[16:42:30]  src: null
+[16:42:30]  usr.loc: the floor (50,151,2) (/turf/open/floor/plasteel/arrival)
+[16:42:30]  call stack:
+[16:42:30]stack trace("addtimer called with a callbac...")
+[16:42:30]addtimer(/datum/callback (/datum/callback), 20, 0)
+[16:42:30]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[16:42:30]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[16:42:44]addtimer called with a callback assigned to a qdeleted object
+[16:42:44]proc name: stack trace (/proc/stack_trace)
+[16:42:44]  source file: unsorted.dm,1254
+runtime error: 
+[16:42:44]addtimer called with a callback assigned to a qdeleted object
+[16:42:44]proc name: stack trace (/proc/stack_trace)
+[16:42:44]  source file: unsorted.dm,1254
+runtime error: 
+[16:42:56]addtimer called with a callback assigned to a qdeleted object
+[16:42:56]proc name: stack trace (/proc/stack_trace)
+[16:42:56]  source file: unsorted.dm,1254
+runtime error: 
+[16:42:57]addtimer called with a callback assigned to a qdeleted object
+[16:42:57]proc name: stack trace (/proc/stack_trace)
+[16:42:57]  source file: unsorted.dm,1254
+[2018-05-06 16:45:13] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:57579/tmp2896/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:45:13] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:45:13] Client: ShawnTates triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52120/tmp5144/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:45:13] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+[2018-05-06 16:45:13] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:45:13] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:57579/tmp2896/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:45:13] Client: ShawnTates triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52120/tmp5144/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:45:13] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:45:13] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+[2018-05-06 16:45:13] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:45:13] Client: ShawnTates triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52120/tmp5144/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:45:13] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+[2018-05-06 16:45:13] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:45:13] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:45:13] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:57579/tmp2896/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:45:13] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:45:13] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:45:13] Client: ShawnTates triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52120/tmp5144/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:46:04] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+runtime error: 
+[16:46:58]addtimer called with a callback assigned to a qdeleted object
+[16:46:58]proc name: stack trace (/proc/stack_trace)
+[16:46:58]  source file: unsorted.dm,1254
+runtime error: 
+[16:46:58]addtimer called with a callback assigned to a qdeleted object
+[16:46:58]proc name: stack trace (/proc/stack_trace)
+[16:46:58]  source file: unsorted.dm,1254
+[2018-05-06 16:46:56] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58162/tmp1352/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:46:56] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58162/tmp1352/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:46:56] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58162/tmp1352/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+runtime error: 
+[16:47:35]Cannot execute null.has antag datum().
+[16:47:35]proc name: spec attacked by (/datum/species/proc/spec_attacked_by)
+[16:47:35]  source file: species.dm,1383
+runtime error: 
+[16:47:38]Cannot execute null.has antag datum().
+[16:47:38]proc name: spec attacked by (/datum/species/proc/spec_attacked_by)
+[16:47:38]  source file: species.dm,1383
+[2018-05-06 16:47:47] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58162/tmp1352/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:47:47] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58162/tmp1352/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:47:47] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58162/tmp1352/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:47:47] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58162/tmp1352/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:47:47] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51277/tmp8972/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+runtime error: 
+[16:48:20]Cannot execute null.has antag datum().
+[16:48:20]proc name: spec attacked by (/datum/species/proc/spec_attacked_by)
+[16:48:20]  source file: species.dm,1383
+[2018-05-06 16:48:38] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58292/tmp10556/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:48:38] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58292/tmp10556/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-06 16:48:38] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58292/tmp10556/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+runtime error: 
+[16:49:16]Cannot execute null.has antag datum().
+[16:49:16]proc name: spec attacked by (/datum/species/proc/spec_attacked_by)
+[16:49:16]  source file: species.dm,1383
+runtime error: 
+[16:49:17]Cannot execute null.has antag datum().
+[16:49:17]proc name: spec attacked by (/datum/species/proc/spec_attacked_by)
+[16:49:17]  source file: species.dm,1383
+runtime error: 
+[16:50:35]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:36]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:36]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:37]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:38]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:38]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:39]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:39]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:40]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:40]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:41]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:42]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:43]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:44]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:45]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:45]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:46]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:47]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:48]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:48]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:49]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:49]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:50]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:50]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:51]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:51]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:52]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:53]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:53]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:54]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:55]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:55]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:56]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:57]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:57]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:58]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:58]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:50:59]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:00]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:01]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:01]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:02]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:03]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:03]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:04]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:04]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:05]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:07]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:08]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:08]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:09]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[16:51:10]Cannot execute null.has antag datum().
+[16:51:10]proc name: spec attacked by (/datum/species/proc/spec_attacked_by)
+[16:51:10]  source file: species.dm,1383
+runtime error: 
+[16:51:11]Cannot execute null.has antag datum().
+[16:51:11]proc name: spec attacked by (/datum/species/proc/spec_attacked_by)
+[16:51:11]  source file: species.dm,1383
+runtime error: 
+[16:51:12]Cannot execute null.has antag datum().
+[16:51:12]proc name: spec attacked by (/datum/species/proc/spec_attacked_by)
+[16:51:12]  source file: species.dm,1383
+[2018-05-06 16:52:03] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+[2018-05-06 16:52:03] Client: ShawnTates triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52120/tmp5144/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:52:03] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51525/tmp10888/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:52:03] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+runtime error: 
+[16:52:21]addtimer called with a callback assigned to a qdeleted object
+[16:52:21]proc name: stack trace (/proc/stack_trace)
+[16:52:21]  source file: unsorted.dm,1254
+runtime error: 
+[16:52:21]addtimer called with a callback assigned to a qdeleted object
+[16:52:21]proc name: stack trace (/proc/stack_trace)
+[16:52:21]  source file: unsorted.dm,1254
+runtime error: 
+[16:53:47]addtimer called with a callback assigned to a qdeleted object
+[16:53:47]proc name: stack trace (/proc/stack_trace)
+[16:53:47]  source file: unsorted.dm,1254
+### VarEdit by Wicker0/(Wicker Atmos): /obj/effect/countdown/supermatter explosion_block=0 => 1
+runtime error: 
+[16:54:35]nothing to animate
+[16:54:35]proc name: shake camera (/proc/shake_camera)
+[16:54:35]  source file: mob_helpers.dm,270
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (88,30,13) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (87,30,13) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle interior airlock at Abandoned Ship (74,23,13) failed to find a valid airlock to cyclelink with!
+[2018-05-06 16:54:36] Client: ShawnTates triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52120/tmp5144/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:54:36] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51525/tmp10888/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:54:36] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+runtime error: 
+[16:55:07]Cannot execute null.react().
+[16:55:07]proc name: process atmos (/obj/machinery/portable_atmospherics/process_atmos)
+[16:55:07]  source file: portable_atmospherics.dm,38
+runtime error: 
+[16:55:07]Cannot read null.airs
+[16:55:07]proc name: process atmos (/obj/machinery/portable_atmospherics/pump/process_atmos)
+[16:55:07]  source file: pump.dm,44
+[2018-05-06 16:55:28] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+runtime error: 
+[16:55:15]Cannot execute null.has antag datum().
+[16:55:15]proc name: spec attacked by (/datum/species/proc/spec_attacked_by)
+[16:55:15]  source file: species.dm,1383
+runtime error: 
+[16:55:18]Cannot execute null.has antag datum().
+[16:55:18]proc name: spec attacked by (/datum/species/proc/spec_attacked_by)
+[16:55:18]  source file: species.dm,1383
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:20]list index out of bounds
+[16:55:20]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[16:55:20]  source file: components_base.dm,75
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:23]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:25]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:28]Cannot execute null.is cut().
+runtime error: 
+[16:55:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[16:55:40]Cannot read null.air
+runtime error: 
+[16:55:40]Cannot read null.air
+runtime error: 
+[16:55:40]Cannot read null.air
+runtime error: 
+[16:55:40]Cannot read null.air
+runtime error: 
+[16:55:41]Cannot read null.air
+runtime error: 
+[16:55:41]Cannot read null.air
+runtime error: 
+[16:55:41]Cannot read null.air
+runtime error: 
+[16:55:41]Cannot read null.air
+runtime error: 
+[16:55:42]Cannot read null.air
+runtime error: 
+[16:55:42]Cannot read null.air
+runtime error: 
+[16:55:42]Cannot read null.air
+runtime error: 
+[16:55:42]Cannot read null.air
+runtime error: 
+[16:55:43]Cannot read null.air
+runtime error: 
+[16:55:43]Cannot read null.air
+runtime error: 
+[16:55:43]Cannot read null.air
+runtime error: 
+[16:55:43]Cannot read null.air
+runtime error: 
+[16:55:44]Cannot read null.air
+runtime error: 
+[16:55:44]Cannot read null.air
+runtime error: 
+[16:55:44]Cannot read null.air
+runtime error: 
+[16:55:44]Cannot read null.air
+runtime error: 
+[16:55:45]Cannot read null.air
+runtime error: 
+[16:55:45]Cannot read null.air
+runtime error: 
+[16:55:45]Cannot read null.air
+runtime error: 
+[16:55:45]Cannot read null.air
+runtime error: 
+[16:55:46]Cannot read null.air
+runtime error: 
+[16:55:46]Cannot read null.air
+runtime error: 
+[16:55:46]Cannot read null.air
+runtime error: 
+[16:55:46]Cannot read null.air
+runtime error: 
+[16:55:46]Cannot read null.air
+runtime error: 
+[16:55:46]Cannot read null.air
+runtime error: 
+[16:55:46]Cannot read null.air
+runtime error: 
+[16:55:46]Cannot read null.air
+runtime error: 
+[16:55:48]Cannot read null.air
+runtime error: 
+[16:55:48]Cannot read null.air
+runtime error: 
+[16:55:48]Cannot read null.air
+runtime error: 
+[16:55:48]Cannot read null.air
+runtime error: 
+[16:55:49]Cannot read null.air
+runtime error: 
+[16:55:49]Cannot read null.air
+runtime error: 
+[16:55:49]Cannot read null.air
+runtime error: 
+[16:55:49]Cannot read null.air
+runtime error: 
+[16:55:49]Cannot read null.air
+runtime error: 
+[16:55:49]Cannot read null.air
+runtime error: 
+[16:55:49]Cannot read null.air
+runtime error: 
+[16:55:49]Cannot read null.air
+runtime error: 
+[16:55:50]Cannot read null.air
+runtime error: 
+[16:55:50]Cannot read null.air
+runtime error: 
+[16:55:50]Cannot read null.air
+runtime error: 
+[16:55:50]Cannot read null.air
+runtime error: 
+[16:55:51]Cannot read null.air
+runtime error: 
+[16:55:51]Cannot read null.air
+runtime error: 
+[16:55:51]Cannot read null.air
+runtime error: 
+[16:55:59]Cannot execute null.is cut().
+runtime error: 
+[16:56:09]Cannot execute null.has antag datum().
+[2018-05-06 16:56:19] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51525/tmp10888/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-05-06 16:56:19] Client: ShawnTates triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52120/tmp5144/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-05-06 16:56:19] Client: GimmesumsuccPls triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53446/tmp9188/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E)
+[2018-05-06 16:56:19] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61321/tmp13960/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+runtime error: 
+[16:56:30]Cannot execute null.is cut().
+[2018-05-06 16:56:19] Client: Wicker0 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51525/tmp10888/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+runtime error: 
+[16:56:36]Cannot read null.species
+runtime error: 
+[16:56:36]Cannot read null.species
+runtime error: 
+[16:56:46]nothing to animate
+runtime error: 
+[16:56:46]nothing to animate
+Saved 105 engraved messages on map Box Station
+runtime error: 
+[16:57:01]Cannot execute null.is cut().
+runtime error: 
+[16:57:31]Cannot execute null.is cut().
+runtime error: 
+[16:58:00]No valid destination passed into forceMove
+runtime error: 
+[16:58:00]Cannot execute null.get reagent amount().
+runtime error: 
+[16:58:00]Cannot execute null.add reagent().
+runtime error: 
+[16:58:02]Cannot execute null.is cut().
+runtime error: 
+[16:58:09]No valid destination passed into forceMove
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 16:58:28

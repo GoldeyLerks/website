@@ -1,0 +1,707 @@
+
+
+Starting up round ID 1121. 21:26:01
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading BoxStation...
+runtime error: 
+[21:26:10]Cannot read null.melee
+[21:26:10]proc name: attachArmor (/datum/armor/proc/attachArmor)
+[21:26:10]  source file: armor.dm,59
+[21:26:10]  usr: Mayhem88 (/mob/dead/new_player)
+[21:26:10]  src: /datum/armor (/datum/armor)
+[21:26:10]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[21:26:10]  call stack:
+[21:26:10]/datum/armor (/datum/armor): attachArmor(null)
+[21:26:10]the medal of captaincy (/obj/item/clothing/accessory/medal/gold/captain): attach(the captain\'s jumpsuit (/obj/item/clothing/under/rank/captain), null)
+[21:26:10]the captain\'s jumpsuit (/obj/item/clothing/under/rank/captain): attach accessory(the medal of captaincy (/obj/item/clothing/accessory/medal/gold/captain), null, 1)
+[21:26:10]Captain (/datum/outfit/job/captain): equip(Eva (/mob/living/carbon/human/dummy), 1)
+[21:26:10]Eva (/mob/living/carbon/human/dummy): equipOutfit(/datum/outfit/job/captain (/datum/outfit/job/captain), 1)
+[21:26:10]/datum/job/captain (/datum/job/captain): equip(Eva (/mob/living/carbon/human/dummy), 1, 1)
+[21:26:10]/datum/preferences (/datum/preferences): update preview icon()
+[21:26:10]/datum/preferences (/datum/preferences): ShowChoices(Mayhem88 (/mob/dead/new_player))
+[21:26:10]Mayhem88 (/mob/dead/new_player): Topic("src=\[mob_7];show_preferences=...", /list (/list))
+[21:26:10]Mayhem88 (/client): Topic("src=\[mob_7];show_preferences=...", /list (/list), Mayhem88 (/mob/dead/new_player))
+[21:26:10]Mayhem88 (/client): Topic("src=\[mob_7];show_preferences=...", /list (/list), Mayhem88 (/mob/dead/new_player))
+Loaded Station in 8.8s!
+Loaded Lavaland in 6.1s!
+Loaded Reebe in 5.9s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 37.9 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[21:26:55]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[21:26:55]proc name: stack trace (/datum/proc/stack_trace)
+[21:26:55]  source file: unsorted.dm,1257
+[21:26:55]  usr: null
+[21:26:55]  src: Vacant Office APC (/obj/machinery/power/apc)
+[21:26:55]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[21:26:55]  call stack:
+[21:26:55]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[21:26:55]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[21:26:55]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[21:26:55]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[21:26:55]Atoms (/datum/controller/subsystem/atoms): Initialize(772073)
+[21:26:55]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 51.4 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 28 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 28 turf(s) (connected to 20450 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 16 seconds!
+Failed to find backup file for map BoxStation on zlevel 2.
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 7 seconds!
+Initialized Overlay subsystem within 24.3 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 19.3 seconds!
+Initialized Shuttle subsystem within 25.1 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 0 engraved messages on map BoxStation
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 183 seconds!
+runtime error: 
+[21:30:08]Cannot read null.client
+[21:30:08]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:30:08]  source file: vote.dm,321
+[21:30:08]  usr: null
+[21:30:08]  src: Vote! (/datum/action/vote)
+[21:30:08]  call stack:
+[21:30:08]Vote! (/datum/action/vote): remove from client()
+[21:30:08]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:30:08]Vote (/datum/controller/subsystem/vote): announce result()
+[21:30:08]Vote (/datum/controller/subsystem/vote): result()
+[21:30:08]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:30:08]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:30:08]Master (/datum/controller/master): RunQueue()
+[21:30:08]Master (/datum/controller/master): Loop()
+[21:30:08]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:30:08]Cannot read null.client
+[21:30:08]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:30:08]  source file: vote.dm,321
+[21:30:08]  usr: null
+[21:30:08]  src: Vote! (/datum/action/vote)
+[21:30:08]  call stack:
+[21:30:08]Vote! (/datum/action/vote): remove from client()
+[21:30:08]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:30:08]Vote (/datum/controller/subsystem/vote): announce result()
+[21:30:08]Vote (/datum/controller/subsystem/vote): result()
+[21:30:08]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:30:08]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:30:08]Master (/datum/controller/master): RunQueue()
+[21:30:08]Master (/datum/controller/master): Loop()
+[21:30:08]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:30:08]Cannot read null.client
+[21:30:08]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:30:08]  source file: vote.dm,321
+[21:30:08]  usr: null
+[21:30:08]  src: Vote! (/datum/action/vote)
+[21:30:08]  call stack:
+[21:30:08]Vote! (/datum/action/vote): remove from client()
+[21:30:08]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:30:08]Vote (/datum/controller/subsystem/vote): announce result()
+[21:30:08]Vote (/datum/controller/subsystem/vote): result()
+[21:30:08]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:30:08]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:30:08]Master (/datum/controller/master): RunQueue()
+[21:30:08]Master (/datum/controller/master): Loop()
+[21:30:08]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:30:08]Cannot read null.client
+[21:30:08]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:30:08]  source file: vote.dm,321
+[21:30:08]  usr: null
+[21:30:08]  src: Vote! (/datum/action/vote)
+[21:30:08]  call stack:
+[21:30:08]Vote! (/datum/action/vote): remove from client()
+[21:30:08]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:30:08]Vote (/datum/controller/subsystem/vote): announce result()
+[21:30:08]Vote (/datum/controller/subsystem/vote): result()
+[21:30:08]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:30:08]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:30:08]Master (/datum/controller/master): RunQueue()
+[21:30:08]Master (/datum/controller/master): Loop()
+[21:30:08]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:30:08]Cannot read null.client
+[21:30:08]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:30:08]  source file: vote.dm,321
+[21:30:08]  usr: null
+[21:30:08]  src: Vote! (/datum/action/vote)
+[21:30:08]  call stack:
+[21:30:08]Vote! (/datum/action/vote): remove from client()
+[21:30:08]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:30:08]Vote (/datum/controller/subsystem/vote): announce result()
+[21:30:08]Vote (/datum/controller/subsystem/vote): result()
+[21:30:08]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:30:08]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:30:08]Master (/datum/controller/master): RunQueue()
+[21:30:08]Master (/datum/controller/master): Loop()
+[21:30:08]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:31:21]Cannot read null.client
+[21:31:21]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:31:21]  source file: vote.dm,321
+[21:31:21]  usr: null
+[21:31:21]  src: Vote! (/datum/action/vote)
+[21:31:21]  call stack:
+[21:31:21]Vote! (/datum/action/vote): remove from client()
+[21:31:21]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:31:21]Vote (/datum/controller/subsystem/vote): announce result()
+[21:31:21]Vote (/datum/controller/subsystem/vote): result()
+[21:31:21]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:31:21]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:31:21]Master (/datum/controller/master): RunQueue()
+[21:31:21]Master (/datum/controller/master): Loop()
+[21:31:21]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:31:21]Cannot read null.client
+[21:31:21]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:31:21]  source file: vote.dm,321
+[21:31:21]  usr: null
+[21:31:21]  src: Vote! (/datum/action/vote)
+[21:31:21]  call stack:
+[21:31:21]Vote! (/datum/action/vote): remove from client()
+[21:31:21]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:31:21]Vote (/datum/controller/subsystem/vote): announce result()
+[21:31:21]Vote (/datum/controller/subsystem/vote): result()
+[21:31:21]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:31:21]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:31:21]Master (/datum/controller/master): RunQueue()
+[21:31:21]Master (/datum/controller/master): Loop()
+[21:31:21]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:31:21]Cannot read null.client
+[21:31:21]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:31:21]  source file: vote.dm,321
+[21:31:21]  usr: null
+[21:31:21]  src: Vote! (/datum/action/vote)
+[21:31:21]  call stack:
+[21:31:21]Vote! (/datum/action/vote): remove from client()
+[21:31:21]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:31:21]Vote (/datum/controller/subsystem/vote): announce result()
+[21:31:21]Vote (/datum/controller/subsystem/vote): result()
+[21:31:21]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:31:21]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:31:21]Master (/datum/controller/master): RunQueue()
+[21:31:21]Master (/datum/controller/master): Loop()
+[21:31:21]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:31:21]Cannot read null.client
+[21:31:21]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:31:21]  source file: vote.dm,321
+[21:31:21]  usr: null
+[21:31:21]  src: Vote! (/datum/action/vote)
+[21:31:21]  call stack:
+[21:31:21]Vote! (/datum/action/vote): remove from client()
+[21:31:21]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:31:21]Vote (/datum/controller/subsystem/vote): announce result()
+[21:31:21]Vote (/datum/controller/subsystem/vote): result()
+[21:31:21]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:31:21]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:31:21]Master (/datum/controller/master): RunQueue()
+[21:31:21]Master (/datum/controller/master): Loop()
+[21:31:21]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:31:21]Cannot read null.client
+[21:31:21]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:31:21]  source file: vote.dm,321
+[21:31:21]  usr: null
+[21:31:21]  src: Vote! (/datum/action/vote)
+[21:31:21]  call stack:
+[21:31:21]Vote! (/datum/action/vote): remove from client()
+[21:31:21]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:31:21]Vote (/datum/controller/subsystem/vote): announce result()
+[21:31:21]Vote (/datum/controller/subsystem/vote): result()
+[21:31:21]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:31:21]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:31:21]Master (/datum/controller/master): RunQueue()
+[21:31:21]Master (/datum/controller/master): Loop()
+[21:31:21]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:34:27]Cannot read null.species
+[21:34:27]proc name: add (/datum/trait/deviant_tastes/add)
+[21:34:27]  source file: neutral.dm,24
+[21:34:27]  usr: null
+[21:34:27]  src: Deviant Tastes (/datum/trait/deviant_tastes)
+[21:34:27]  call stack:
+[21:34:27]Deviant Tastes (/datum/trait/deviant_tastes): add()
+[21:34:27]Deviant Tastes (/datum/trait/deviant_tastes): New( (/mob/living/carbon/human), 1)
+[21:34:27] (/mob/living/carbon/human): add trait datum("Deviant Tastes", 1)
+[21:34:27]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), Neapher (/client), 1)
+[21:34:27]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[21:34:27]Ticker (/datum/controller/subsystem/ticker): setup()
+[21:34:27]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[21:34:27]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+Game start took 50.7s
+runtime error: 
+[21:35:20]Cannot read null.species
+[21:35:20]proc name: remove (/datum/trait/deviant_tastes/remove)
+[21:35:20]  source file: neutral.dm,31
+[21:35:20]  usr: null
+[21:35:20]  src: Deviant Tastes (/datum/trait/deviant_tastes)
+[21:35:20]  call stack:
+[21:35:20]Deviant Tastes (/datum/trait/deviant_tastes): remove()
+[21:35:20]Deviant Tastes (/datum/trait/deviant_tastes): Destroy(0)
+[21:35:20]qdel(Deviant Tastes (/datum/trait/deviant_tastes), 0)
+[21:35:20]Deviant Tastes (/datum/trait/deviant_tastes): process(10)
+[21:35:20]Traits (/datum/controller/subsystem/processing/traits): fire(0)
+[21:35:20]Traits (/datum/controller/subsystem/processing/traits): ignite(0)
+[21:35:20]Master (/datum/controller/master): RunQueue()
+[21:35:20]Master (/datum/controller/master): Loop()
+[21:35:20]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:35:34]Cannot execute null.start().
+[21:35:34]proc name: take damage (/obj/machinery/porta_turret/take_damage)
+[21:35:34]  source file: portable_turret.dm,326
+[21:35:34]  usr: 0
+[21:35:34]  src: the turret (/obj/machinery/porta_turret)
+[21:35:34]  src.loc: null
+[21:35:34]  call stack:
+[21:35:34]the turret (/obj/machinery/porta_turret): take damage(13, "fire", "laser", 0, 8, 0)
+[21:35:34]the turret (/obj/machinery/porta_turret): bullet act(the accelerator laser (/obj/item/projectile/beam/laser/accelerator), "chest")
+[21:35:34]the accelerator laser (/obj/item/projectile/beam/laser/accelerator): Collide(the turret (/obj/machinery/porta_turret))
+[21:35:34]the vacuum floor (163,119,14) (/turf/open/floor/engine/vacuum): Enter(the accelerator laser (/obj/item/projectile/beam/laser/accelerator), the vacuum floor (162,119,14) (/turf/open/floor/engine/vacuum))
+[21:35:34]the accelerator laser (/obj/item/projectile/beam/laser/accelerator): Move(the vacuum floor (163,119,14) (/turf/open/floor/engine/vacuum), 4)
+[21:35:34]the accelerator laser (/obj/item/projectile/beam/laser/accelerator): pixel move(1, 1, 0)
+[21:35:34]the accelerator laser (/obj/item/projectile/beam/laser/accelerator): process(1)
+[21:35:34]Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[21:35:34]Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[21:35:34]Master (/datum/controller/master): RunQueue()
+[21:35:34]Master (/datum/controller/master): Loop()
+[21:35:34]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:35:37]nothing to animate
+[21:35:37]proc name: shake camera (/proc/shake_camera)
+[21:35:37]  source file: mob_helpers.dm,270
+[21:35:37]  usr: (src)
+[21:35:37]  src: null
+[21:35:37]  call stack:
+[21:35:37]shake camera(Simon Fenix (/mob/living/carbon/human), 0.75, 1)
+[21:35:37]Simon Fenix (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:35:37]Simon Fenix (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:35:37]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[21:35:37]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[21:35:37]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[21:35:37]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:35:37]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:35:37]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:35:37]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:38:10]nothing to animate
+[21:38:10]proc name: shake camera (/proc/shake_camera)
+[21:38:10]  source file: mob_helpers.dm,270
+[21:38:10]  usr: (src)
+[21:38:10]  src: null
+[21:38:10]  call stack:
+[21:38:10]shake camera(Darius Ewing (/mob/living/carbon/human), 0.75, 1)
+[21:38:10]Darius Ewing (/mob/living/carbon/human): afterShuttleMove(space (25,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:38:10]Darius Ewing (/mob/living/carbon/human): afterShuttleMove(space (25,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:38:10]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[21:38:10]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[21:38:10]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[21:38:10]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:38:10]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:38:10]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:38:10]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:40:47]nothing to animate
+[21:40:47]proc name: shake camera (/proc/shake_camera)
+[21:40:47]  source file: mob_helpers.dm,270
+[21:40:47]  usr: (src)
+[21:40:47]  src: null
+[21:40:47]  call stack:
+[21:40:47]shake camera(Nelly Allen (/mob/living/carbon/human), 0.75, 1)
+[21:40:47]Nelly Allen (/mob/living/carbon/human): afterShuttleMove(space (27,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:40:47]Nelly Allen (/mob/living/carbon/human): afterShuttleMove(space (27,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:40:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[21:40:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[21:40:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[21:40:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:40:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:40:47]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:40:47]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:43:51]nothing to animate
+[21:43:51]proc name: shake camera (/proc/shake_camera)
+[21:43:51]  source file: mob_helpers.dm,270
+runtime error: 
+[21:45:14]Cannot read null.client
+[21:45:14]proc name: open (/datum/tgui/proc/open)
+[21:45:14]  source file: tgui.dm,87
+runtime error: 
+[21:45:28]Cannot read null.client
+[21:45:28]proc name: open (/datum/tgui/proc/open)
+[21:45:28]  source file: tgui.dm,87
+runtime error: 
+[21:46:04]Cannot read null.armor
+[21:46:04]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[21:46:04]  source file: human_defense.dm,32
+runtime error: 
+[21:48:03]list index out of bounds
+[21:48:03]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[21:48:03]  source file: aurora_caelus.dm,39
+runtime error: 
+[21:49:03]nothing to animate
+[21:49:03]proc name: shake camera (/proc/shake_camera)
+[21:49:03]  source file: mob_helpers.dm,270
+runtime error: 
+[21:52:18]Cannot execute null.react().
+[21:52:18]proc name: process atmos (/obj/machinery/portable_atmospherics/process_atmos)
+[21:52:18]  source file: portable_atmospherics.dm,38
+runtime error: 
+[21:52:37]Cannot read null.loc
+[21:52:37]proc name: update parallax (/datum/hud/proc/update_parallax)
+[21:52:37]  source file: parallax.dm,170
+runtime error: 
+[21:54:16]Cannot read null.mind
+[21:54:16]proc name: makeWizard (/datum/admins/proc/makeWizard)
+[21:54:16]  source file: one_click_antag.dm,145
+runtime error: 
+[21:54:26]undefined proc or verb /mob/dead/observer/handle ventcrawl().
+
+[21:54:26]proc name: AltClick (/obj/machinery/atmospherics/AltClick)
+[21:54:26]  source file: atmosmachinery.dm,341
+runtime error: 
+[21:56:46]undefined variable /mob/living/carbon/human/var/len
+[21:56:46]proc name: cast (/obj/effect/proc_holder/spell/targeted/mind_transfer/cast)
+[21:56:46]  source file: mind_transfer.dm,23
+## WARNING: couldn't find shuttle with id:  in code/controllers/subsystem/shuttle.dm at line 209 src: Shuttle usr: Xin Rossweld.
+runtime error: 
+[21:59:40]addtimer called with a callback assigned to a qdeleted object
+[21:59:40]proc name: stack trace (/proc/stack_trace)
+[21:59:40]  source file: unsorted.dm,1254
+runtime error: 
+[21:59:56]undefined variable /mob/living/carbon/human/var/len
+[21:59:56]proc name: cast (/obj/effect/proc_holder/spell/targeted/mind_transfer/cast)
+[21:59:56]  source file: mind_transfer.dm,23
+runtime error: 
+[22:00:42]undefined variable /mob/living/carbon/human/var/len
+[22:00:42]proc name: cast (/obj/effect/proc_holder/spell/targeted/mind_transfer/cast)
+[22:00:42]  source file: mind_transfer.dm,23
+runtime error: 
+[22:01:10]nothing to animate
+[22:01:10]proc name: shake camera (/proc/shake_camera)
+[22:01:10]  source file: mob_helpers.dm,270
+runtime error: 
+[22:01:11]addtimer called with a callback assigned to a qdeleted object
+[22:01:11]proc name: stack trace (/proc/stack_trace)
+[22:01:11]  source file: unsorted.dm,1254
+runtime error: 
+[22:01:12]addtimer called with a callback assigned to a qdeleted object
+[22:01:12]proc name: stack trace (/proc/stack_trace)
+[22:01:12]  source file: unsorted.dm,1254
+runtime error: 
+[22:01:38]Cannot read null.client
+[22:01:38]proc name: open (/datum/tgui/proc/open)
+[22:01:38]  source file: tgui.dm,87
+runtime error: 
+[22:03:31]Cannot read null.armor
+[22:03:31]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[22:03:31]  source file: human_defense.dm,32
+runtime error: 
+[22:03:51]addtimer called with a callback assigned to a qdeleted object
+[22:03:51]proc name: stack trace (/proc/stack_trace)
+[22:03:51]  source file: unsorted.dm,1254
+runtime error: 
+[22:03:51]addtimer called with a callback assigned to a qdeleted object
+[22:03:51]proc name: stack trace (/proc/stack_trace)
+[22:03:51]  source file: unsorted.dm,1254
+runtime error: 
+[22:03:51]addtimer called with a callback assigned to a qdeleted object
+[22:03:51]proc name: stack trace (/proc/stack_trace)
+[22:03:51]  source file: unsorted.dm,1254
+runtime error: 
+[22:03:52]addtimer called with a callback assigned to a qdeleted object
+[22:03:52]proc name: stack trace (/proc/stack_trace)
+[22:03:52]  source file: unsorted.dm,1254
+runtime error: 
+[22:03:52]addtimer called with a callback assigned to a qdeleted object
+[22:03:52]proc name: stack trace (/proc/stack_trace)
+[22:03:52]  source file: unsorted.dm,1254
+runtime error: 
+[22:03:52]addtimer called with a callback assigned to a qdeleted object
+[22:03:52]proc name: stack trace (/proc/stack_trace)
+[22:03:52]  source file: unsorted.dm,1254
+runtime error: 
+[22:03:52]addtimer called with a callback assigned to a qdeleted object
+[22:03:52]proc name: stack trace (/proc/stack_trace)
+[22:03:52]  source file: unsorted.dm,1254
+runtime error: 
+[22:03:52]addtimer called with a callback assigned to a qdeleted object
+[22:03:52]proc name: stack trace (/proc/stack_trace)
+[22:03:52]  source file: unsorted.dm,1254
+runtime error: 
+[22:05:53]addtimer called with a callback assigned to a qdeleted object
+[22:05:53]proc name: stack trace (/proc/stack_trace)
+[22:05:53]  source file: unsorted.dm,1254
+runtime error: 
+[22:05:54]addtimer called with a callback assigned to a qdeleted object
+[22:05:54]proc name: stack trace (/proc/stack_trace)
+[22:05:54]  source file: unsorted.dm,1254
+runtime error: 
+[22:07:07]Cannot read null.armor
+[22:07:07]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[22:07:07]  source file: human_defense.dm,32
+runtime error: 
+[22:09:52]addtimer called with a callback assigned to a qdeleted object
+[22:09:52]proc name: stack trace (/proc/stack_trace)
+[22:09:52]  source file: unsorted.dm,1254
+runtime error: 
+[22:09:53]addtimer called with a callback assigned to a qdeleted object
+[22:09:53]proc name: stack trace (/proc/stack_trace)
+[22:09:53]  source file: unsorted.dm,1254
+runtime error: 
+[22:10:18]/obj/item/clothing/head/mob_holder/drone destroy proc was called multiple times, likely due to a qdel loop in the Destroy logic
+[22:10:18]proc name: qdel (/proc/qdel)
+[22:10:18]  source file: garbage.dm,329
+runtime error: 
+[22:10:18]Cannot execute null.forceMove().
+[22:10:18]proc name: release (/obj/item/clothing/head/mob_holder/proc/release)
+[22:10:18]  source file: inhand_holder.dm,57
+runtime error: 
+[22:12:27]nothing to animate
+[22:12:27]proc name: shake camera (/proc/shake_camera)
+[22:12:27]  source file: mob_helpers.dm,270
+runtime error: 
+[22:16:08]addtimer called with a callback assigned to a qdeleted object
+[22:16:08]proc name: stack trace (/proc/stack_trace)
+[22:16:08]  source file: unsorted.dm,1254
+runtime error: 
+[22:16:34]nothing to animate
+[22:16:34]proc name: shake camera (/proc/shake_camera)
+[22:16:34]  source file: mob_helpers.dm,270
+runtime error: 
+[22:17:10]addtimer called with a callback assigned to a qdeleted object
+[22:17:10]proc name: stack trace (/proc/stack_trace)
+[22:17:10]  source file: unsorted.dm,1254
+runtime error: 
+[22:17:11]addtimer called with a callback assigned to a qdeleted object
+[22:17:11]proc name: stack trace (/proc/stack_trace)
+[22:17:11]  source file: unsorted.dm,1254
+runtime error: 
+[22:19:18]nothing to animate
+[22:19:18]proc name: shake camera (/proc/shake_camera)
+[22:19:18]  source file: mob_helpers.dm,270
+runtime error: 
+[22:19:36]Cannot read null.species
+[22:19:36]proc name: Life (/mob/living/carbon/human/Life)
+[22:19:36]  source file: life.dm,58
+runtime error: 
+[22:19:52]Cannot modify null.moved.
+[22:19:52]proc name: Remove (/datum/action/proc/Remove)
+[22:19:52]  source file: action.dm,79
+runtime error: 
+[22:23:53]A ref was requested of an object with DF_USE_TAG set but no tag: the ÿCleanbot
+[22:23:53]proc name: stack trace (/proc/stack_trace)
+[22:23:53]  source file: unsorted.dm,1254
+runtime error: 
+[22:23:53]A ref was requested of an object with DF_USE_TAG set but no tag: Officer Beepsky
+[22:23:53]proc name: stack trace (/proc/stack_trace)
+[22:23:53]  source file: unsorted.dm,1254
+## WARNING: couldn't find shuttle with id: whiteship in code/controllers/subsystem/shuttle.dm at line 209 src: Shuttle usr: Medical Officer Losey.
+runtime error: 
+[22:29:44]nothing to animate
+[22:29:44]proc name: shake camera (/proc/shake_camera)
+[22:29:44]  source file: mob_helpers.dm,270
+runtime error: 
+[22:29:44]nothing to animate
+[22:29:44]proc name: shake camera (/proc/shake_camera)
+[22:29:44]  source file: mob_helpers.dm,270
+runtime error: 
+[22:29:48]Cannot read null.species
+[22:29:48]proc name: mob negates gravity (/mob/living/carbon/human/mob_negates_gravity)
+[22:29:48]  source file: human_movement.dm,28
+runtime error: 
+[22:29:48]Cannot read null.mutations
+[22:29:48]proc name: Move (/mob/living/carbon/human/Move)
+[22:29:48]  source file: human_movement.dm,32
+runtime error: 
+[22:29:48]Cannot read null.mutations
+[22:29:48]proc name: Move (/mob/living/carbon/human/Move)
+[22:29:48]  source file: human_movement.dm,32
+runtime error: 
+[22:31:06]nothing to animate
+[22:31:06]proc name: shake camera (/proc/shake_camera)
+[22:31:06]  source file: mob_helpers.dm,270
+runtime error: 
+[22:32:04]Cannot execute null.has antag datum().
+[22:32:04]proc name: spec attacked by (/datum/species/proc/spec_attacked_by)
+[22:32:04]  source file: species.dm,1383
+runtime error: 
+[22:32:19]Cannot read null.species
+[22:32:19]proc name: mob negates gravity (/mob/living/carbon/human/mob_negates_gravity)
+[22:32:19]  source file: human_movement.dm,28
+runtime error: 
+[22:32:19]Cannot read null.mutations
+[22:32:19]proc name: Move (/mob/living/carbon/human/Move)
+[22:32:19]  source file: human_movement.dm,32
+runtime error: 
+[22:33:09]Cannot read null.armor
+[22:33:09]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[22:33:09]  source file: human_defense.dm,32
+runtime error: 
+[22:33:48]Cannot read null.armor
+[22:33:48]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[22:33:48]  source file: human_defense.dm,32
+runtime error: 
+[22:35:27]nothing to animate
+[22:35:27]proc name: shake camera (/proc/shake_camera)
+[22:35:27]  source file: mob_helpers.dm,270
+runtime error: 
+[22:35:45]Cannot read null.armor
+[22:35:45]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[22:35:45]  source file: human_defense.dm,32
+runtime error: 
+[22:38:19]Cannot execute null.modifyAllRatings().
+[22:38:19]proc name: modify (/datum/rpg_loot/proc/modify)
+[22:38:19]  source file: rpgloot.dm,112
+runtime error: 
+[22:38:19]Cannot execute null.modifyAllRatings().
+[22:38:19]proc name: modify (/datum/rpg_loot/proc/modify)
+[22:38:19]  source file: rpgloot.dm,112
+runtime error: 
+[22:38:19]Cannot execute null.modifyAllRatings().
+[22:38:19]proc name: modify (/datum/rpg_loot/proc/modify)
+[22:38:19]  source file: rpgloot.dm,112
+runtime error: 
+[22:38:19]Cannot execute null.modifyAllRatings().
+[22:38:19]proc name: modify (/datum/rpg_loot/proc/modify)
+[22:38:19]  source file: rpgloot.dm,112
+runtime error: 
+[22:38:19]Cannot execute null.modifyAllRatings().
+[22:38:19]proc name: modify (/datum/rpg_loot/proc/modify)
+[22:38:19]  source file: rpgloot.dm,112
+runtime error: 
+[22:38:19]Cannot execute null.modifyAllRatings().
+[22:38:19]proc name: modify (/datum/rpg_loot/proc/modify)
+[22:38:19]  source file: rpgloot.dm,112
+runtime error: 
+[22:38:19]Cannot execute null.modifyAllRatings().
+[22:38:19]proc name: modify (/datum/rpg_loot/proc/modify)
+[22:38:19]  source file: rpgloot.dm,112
+runtime error: 
+[22:38:31]Cannot read null.body_part
+[22:38:31]proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[22:38:31]  source file: human_defense.dm,30
+runtime error: 
+[22:39:49]nothing to animate
+[22:39:49]proc name: shake camera (/proc/shake_camera)
+[22:39:49]  source file: mob_helpers.dm,270
+Saved 0 engraved messages on map BoxStation
+runtime error: 
+[22:40:39]Cannot read null.loc
+[22:40:39]proc name: update parallax (/datum/hud/proc/update_parallax)
+[22:40:39]  source file: parallax.dm,170
+runtime error: 
+[22:41:19]A ref was requested of an object with DF_USE_TAG set but no tag: Unknown
+[22:41:19]proc name: stack trace (/proc/stack_trace)
+[22:41:19]  source file: unsorted.dm,1254
+runtime error: 
+[22:41:19]A ref was requested of an object with DF_USE_TAG set but no tag: Funnyboi
+[22:41:19]proc name: stack trace (/proc/stack_trace)
+[22:41:19]  source file: unsorted.dm,1254
+runtime error: 
+[22:41:19]A ref was requested of an object with DF_USE_TAG set but no tag: Ulric Bluetenberger
+[22:41:19]proc name: stack trace (/proc/stack_trace)
+[22:41:19]  source file: unsorted.dm,1254
+runtime error: 
+[22:41:19]A ref was requested of an object with DF_USE_TAG set but no tag: Karenza Biery
+[22:41:19]proc name: stack trace (/proc/stack_trace)
+[22:41:19]  source file: unsorted.dm,1254
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 22:41:28

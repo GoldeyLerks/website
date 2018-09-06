@@ -1,0 +1,883 @@
+
+
+Starting up round ID 962. 14:55:46
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading BeeStation 1...
+Loaded Station in 6s!
+Loaded Lavaland in 7.1s!
+Loaded Reebe in 6.7s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 38 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[14:56:33]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[14:56:33]proc name: stack trace (/datum/proc/stack_trace)
+[14:56:33]  source file: unsorted.dm,1257
+[14:56:33]  usr: null
+[14:56:33]  src: Vacant Office APC (/obj/machinery/power/apc)
+[14:56:33]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[14:56:33]  call stack:
+[14:56:33]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[14:56:33]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[14:56:33]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[14:56:33]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[14:56:33]Atoms (/datum/controller/subsystem/atoms): Initialize(537863)
+[14:56:33]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 44.6 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 4 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 0 seconds were wasted processing 4 turf(s) (connected to 4 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 13.2 seconds!
+Failed to find backup file for map BeeStation 1 on zlevel 2.
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 7 seconds!
+Initialized Overlay subsystem within 16.7 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 17.7 seconds!
+Initialized Shuttle subsystem within 25.3 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 164.3 seconds!
+Game start took 5.8s
+runtime error: 
+[15:09:55]nothing to animate
+[15:09:55]proc name: shake camera (/proc/shake_camera)
+[15:09:55]  source file: mob_helpers.dm,270
+[15:09:55]  usr: (src)
+[15:09:55]  src: null
+[15:09:55]  call stack:
+[15:09:55]shake camera(Hartley Riggle (/mob/living/carbon/human), 0.75, 1)
+[15:09:55]Hartley Riggle (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[15:09:55]Hartley Riggle (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[15:09:55]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[15:09:55]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[15:09:55]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[15:09:55]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[15:09:55]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[15:09:55]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[15:09:55]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[15:10:44]nothing to animate
+[15:10:44]proc name: shake camera (/proc/shake_camera)
+[15:10:44]  source file: mob_helpers.dm,270
+[15:10:44]  usr: (src)
+[15:10:44]  src: null
+[15:10:44]  call stack:
+[15:10:44]shake camera(Jonathon Whirlow (/mob/living/carbon/human), 0.75, 1)
+[15:10:44]Jonathon Whirlow (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[15:10:44]Jonathon Whirlow (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[15:10:44]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[15:10:44]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[15:10:44]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[15:10:44]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[15:10:44]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[15:10:44]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[15:10:44]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[15:13:50]nothing to animate
+[15:13:50]proc name: shake camera (/proc/shake_camera)
+[15:13:50]  source file: mob_helpers.dm,270
+[15:13:50]  usr: (src)
+[15:13:50]  src: null
+[15:13:50]  call stack:
+[15:13:50]shake camera(Beau Richards (/mob/living/carbon/human), 0.75, 1)
+[15:13:50]Beau Richards (/mob/living/carbon/human): afterShuttleMove(space (23,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[15:13:50]Beau Richards (/mob/living/carbon/human): afterShuttleMove(space (23,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[15:13:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[15:13:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[15:13:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[15:13:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[15:13:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[15:13:50]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[15:13:50]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[15:15:12]nothing to animate
+[15:15:12]proc name: shake camera (/proc/shake_camera)
+[15:15:12]  source file: mob_helpers.dm,270
+[15:15:12]  usr: (src)
+[15:15:12]  src: null
+[15:15:12]  call stack:
+[15:15:12]shake camera(Funny Valentine (/mob/living/carbon/human), 0.75, 1)
+[15:15:12]Funny Valentine (/mob/living/carbon/human): afterShuttleMove(space (21,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[15:15:12]Funny Valentine (/mob/living/carbon/human): afterShuttleMove(space (21,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[15:15:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[15:15:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[15:15:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[15:15:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[15:15:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[15:15:12]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[15:15:12]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[15:15:55]nothing to animate
+[15:15:55]proc name: shake camera (/proc/shake_camera)
+[15:15:55]  source file: mob_helpers.dm,270
+[15:15:55]  usr: (src)
+[15:15:55]  src: null
+[15:15:55]  call stack:
+[15:15:55]shake camera(Eva (/mob/living/carbon/human), 0.75, 1)
+[15:15:55]Eva (/mob/living/carbon/human): afterShuttleMove(space (21,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[15:15:55]Eva (/mob/living/carbon/human): afterShuttleMove(space (21,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[15:15:55]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[15:15:55]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[15:15:55]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[15:15:55]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[15:15:55]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[15:15:55]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[15:15:55]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[15:16:19]Cannot read null.client
+[15:16:19]proc name: open (/datum/tgui/proc/open)
+[15:16:19]  source file: tgui.dm,87
+[15:16:19]  usr: Eva (/mob/living/carbon/human)
+[15:16:19]  src: /datum/tgui (/datum/tgui)
+[15:16:19]  usr.loc: the floor (73,140,2) (/turf/open/floor/plasteel)
+[15:16:19]  call stack:
+[15:16:19]/datum/tgui (/datum/tgui): open()
+[15:16:19]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[15:16:19]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Eva (/mob/living/carbon/human))
+[15:16:19]Eva (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=21;icon-y=12;left=1;scr...")
+[15:16:19]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=21;icon-y=12;left=1;scr...")
+runtime error: 
+[15:16:20]Cannot read null.client
+[15:16:20]proc name: open (/datum/tgui/proc/open)
+[15:16:20]  source file: tgui.dm,87
+[15:16:20]  usr: Eva (/mob/living/carbon/human)
+[15:16:20]  src: /datum/tgui (/datum/tgui)
+[15:16:20]  usr.loc: the floor (73,140,2) (/turf/open/floor/plasteel)
+[15:16:20]  call stack:
+[15:16:20]/datum/tgui (/datum/tgui): open()
+[15:16:20]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[15:16:20]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Eva (/mob/living/carbon/human))
+[15:16:20]Eva (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=21;icon-y=12;left=1;scr...")
+[15:16:20]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=21;icon-y=12;left=1;scr...")
+runtime error: 
+[15:16:23]Cannot read null.client
+[15:16:23]proc name: open (/datum/tgui/proc/open)
+[15:16:23]  source file: tgui.dm,87
+[15:16:23]  usr: Eva (/mob/living/carbon/human)
+[15:16:23]  src: /datum/tgui (/datum/tgui)
+[15:16:23]  usr.loc: the floor (77,140,2) (/turf/open/floor/plasteel)
+[15:16:23]  call stack:
+[15:16:23]/datum/tgui (/datum/tgui): open()
+[15:16:23]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[15:16:23]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Eva (/mob/living/carbon/human))
+[15:16:23]Eva (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=13;icon-y=20;left=1;scr...")
+[15:16:23]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=13;icon-y=20;left=1;scr...")
+runtime error: 
+[15:16:24]Cannot read null.client
+[15:16:24]proc name: open (/datum/tgui/proc/open)
+[15:16:24]  source file: tgui.dm,87
+[15:16:24]  usr: Eva (/mob/living/carbon/human)
+[15:16:24]  src: /datum/tgui (/datum/tgui)
+[15:16:24]  usr.loc: the floor (87,140,2) (/turf/open/floor/plasteel)
+[15:16:24]  call stack:
+[15:16:24]/datum/tgui (/datum/tgui): open()
+[15:16:24]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[15:16:24]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Eva (/mob/living/carbon/human))
+[15:16:24]Eva (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=17;icon-y=16;left=1;scr...")
+[15:16:24]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=17;icon-y=16;left=1;scr...")
+runtime error: 
+[15:16:24]Cannot read null.client
+[15:16:24]proc name: open (/datum/tgui/proc/open)
+[15:16:24]  source file: tgui.dm,87
+[15:16:24]  usr: Eva (/mob/living/carbon/human)
+[15:16:24]  src: /datum/tgui (/datum/tgui)
+[15:16:24]  usr.loc: the floor (87,140,2) (/turf/open/floor/plasteel)
+[15:16:24]  call stack:
+[15:16:24]/datum/tgui (/datum/tgui): open()
+[15:16:24]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[15:16:24]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Eva (/mob/living/carbon/human))
+[15:16:24]Eva (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=17;icon-y=16;left=1;scr...")
+[15:16:24]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=17;icon-y=16;left=1;scr...")
+runtime error: 
+[15:16:25]Cannot read null.client
+[15:16:25]proc name: open (/datum/tgui/proc/open)
+[15:16:25]  source file: tgui.dm,87
+[15:16:25]  usr: Eva (/mob/living/carbon/human)
+[15:16:25]  src: /datum/tgui (/datum/tgui)
+[15:16:25]  usr.loc: the floor (87,140,2) (/turf/open/floor/plasteel)
+[15:16:25]  call stack:
+[15:16:25]/datum/tgui (/datum/tgui): open()
+[15:16:25]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[15:16:25]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Eva (/mob/living/carbon/human))
+[15:16:25]Eva (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=17;icon-y=16;left=1;scr...")
+[15:16:25]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=17;icon-y=16;left=1;scr...")
+runtime error: 
+[15:22:40]nothing to animate
+[15:22:40]proc name: shake camera (/proc/shake_camera)
+[15:22:40]  source file: mob_helpers.dm,270
+[15:22:40]  usr: (src)
+[15:22:40]  src: null
+[15:22:40]  call stack:
+[15:22:40]shake camera(Jess Jenkers (/mob/living/carbon/human), 0.75, 1)
+[15:22:40]Jess Jenkers (/mob/living/carbon/human): afterShuttleMove(space (25,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[15:22:40]Jess Jenkers (/mob/living/carbon/human): afterShuttleMove(space (25,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[15:22:40]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[15:22:40]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[15:22:40]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[15:22:40]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[15:22:40]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[15:22:40]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[15:22:40]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+[15:24:53]  usr: null
+[15:24:53]  src: the Head of Personnel\'s Offic... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[15:24:53]  src.loc: the floor (109,119,2) (/turf/open/floor/wood)
+[15:24:53]  call stack:
+[15:24:53]the Head of Personnel\'s Offic... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[15:24:53]/datum/pipeline (/datum/pipeline): Destroy(0)
+[15:24:53]qdel(/datum/pipeline (/datum/pipeline), 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): destroy network()
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible))
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): nullifyNode(1)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): nullifyNode(1)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): Destroy(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): Destroy(0)
+[15:24:53]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible), 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): deconstruct(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): deconstruct(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): obj destruction("bomb")
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): take damage(223, "brute", "bomb", 0, null, 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): ex act(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): contents explosion(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): ex act(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): ex act(2, null)
+[15:24:53]/datum/explosion (/datum/explosion): New(space (113,66,2) (/turf/open/space), 3.5875, 9.175, 11.175, 13.175, 1, 1, 0, 0, 0)
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+[15:24:53]  usr: null
+[15:24:53]  src: the Head of Personnel\'s Offic... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[15:24:53]  src.loc: the floor (105,115,2) (/turf/open/floor/plasteel)
+[15:24:53]  call stack:
+[15:24:53]the Head of Personnel\'s Offic... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[15:24:53]/datum/pipeline (/datum/pipeline): Destroy(0)
+[15:24:53]qdel(/datum/pipeline (/datum/pipeline), 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): destroy network()
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible))
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): nullifyNode(1)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): nullifyNode(1)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): Destroy(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): Destroy(0)
+[15:24:53]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible), 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): deconstruct(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): deconstruct(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): obj destruction("bomb")
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): take damage(223, "brute", "bomb", 0, null, 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): ex act(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): contents explosion(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): ex act(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): ex act(2, null)
+[15:24:53]/datum/explosion (/datum/explosion): New(space (113,66,2) (/turf/open/space), 3.5875, 9.175, 11.175, 13.175, 1, 1, 0, 0, 0)
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+[15:24:53]  usr: null
+[15:24:53]  src: the Heads of Staff Meeting Roo... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[15:24:53]  src.loc: the carpet (102,130,2) (/turf/open/floor/carpet)
+[15:24:53]  call stack:
+[15:24:53]the Heads of Staff Meeting Roo... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[15:24:53]/datum/pipeline (/datum/pipeline): Destroy(0)
+[15:24:53]qdel(/datum/pipeline (/datum/pipeline), 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): destroy network()
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible))
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): nullifyNode(1)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): nullifyNode(1)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): Destroy(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): Destroy(0)
+[15:24:53]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible), 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): deconstruct(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): deconstruct(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): obj destruction("bomb")
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): take damage(223, "brute", "bomb", 0, null, 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): ex act(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): contents explosion(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): ex act(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): ex act(2, null)
+[15:24:53]/datum/explosion (/datum/explosion): New(space (113,66,2) (/turf/open/space), 3.5875, 9.175, 11.175, 13.175, 1, 1, 0, 0, 0)
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+[15:24:53]  usr: null
+[15:24:53]  src: the Bridge vent pump #1 (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[15:24:53]  src.loc: the floor (117,136,2) (/turf/open/floor/plasteel)
+[15:24:53]  call stack:
+[15:24:53]the Bridge vent pump #1 (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[15:24:53]/datum/pipeline (/datum/pipeline): Destroy(0)
+[15:24:53]qdel(/datum/pipeline (/datum/pipeline), 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): destroy network()
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible))
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): nullifyNode(1)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): nullifyNode(1)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): Destroy(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): Destroy(0)
+[15:24:53]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible), 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): deconstruct(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): deconstruct(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): obj destruction("bomb")
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): take damage(223, "brute", "bomb", 0, null, 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): ex act(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): contents explosion(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): ex act(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): ex act(2, null)
+[15:24:53]/datum/explosion (/datum/explosion): New(space (113,66,2) (/turf/open/space), 3.5875, 9.175, 11.175, 13.175, 1, 1, 0, 0, 0)
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+[15:24:53]  usr: null
+[15:24:53]  src: the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[15:24:53]  src.loc: the carpet (123,131,2) (/turf/open/floor/carpet)
+[15:24:53]  call stack:
+[15:24:53]the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[15:24:53]/datum/pipeline (/datum/pipeline): Destroy(0)
+[15:24:53]qdel(/datum/pipeline (/datum/pipeline), 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): destroy network()
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible))
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): nullifyNode(1)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): nullifyNode(1)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): Destroy(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): Destroy(0)
+[15:24:53]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible), 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): deconstruct(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): deconstruct(0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): obj destruction("bomb")
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): take damage(223, "brute", "bomb", 0, null, 0)
+[15:24:53]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible): ex act(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): contents explosion(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): ex act(2, null)
+[15:24:53]the floor (113,61,2) (/turf/open/floor/plasteel/dark): ex act(2, null)
+[15:24:53]/datum/explosion (/datum/explosion): New(space (113,66,2) (/turf/open/space), 3.5875, 9.175, 11.175, 13.175, 1, 1, 0, 0, 0)
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:24:53]list index out of bounds
+[15:24:53]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[15:24:53]  source file: components_base.dm,75
+runtime error: 
+[15:29:09]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[15:29:09]A ref was requested of an object with DF_USE_TAG set but no tag: McNinja
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:55]Cannot execute null.archive().
+runtime error: 
+[15:29:55]Cannot read null.gases
+runtime error: 
+[15:29:55]undefined variable /turf/closed/wall/mineral/titanium/var/air
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:29:56]Cannot execute null.archive().
+runtime error: 
+[15:29:56]Cannot read null.gases
+runtime error: 
+[15:34:06]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[15:37:01]/mob/living/silicon/pai destroy proc was called multiple times, likely due to a qdel loop in the Destroy logic
+runtime error: 
+[15:39:26]nothing to animate
+Saved 0 engraved messages on map BeeStation 1
+runtime error: 
+[15:39:43]Cannot read null.client
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 15:41:06

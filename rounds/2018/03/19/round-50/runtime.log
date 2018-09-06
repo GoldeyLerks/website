@@ -1,0 +1,393 @@
+
+
+Starting up round ID 50. 22:19:01
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 7.8s!
+Loaded Lavaland in 7.5s!
+Loaded Reebe in 5.2s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 27.4 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[22:19:49]Cannot execute null.copy from().
+[22:19:49]proc name: Assimilate Air (/turf/open/proc/Assimilate_Air)
+[22:19:49]  source file: ChangeTurf.dm,263
+[22:19:49]  usr: null
+[22:19:49]  src: the asteroid sand (94,126,3) (/turf/open/floor/plating/asteroid/airless/cave)
+[22:19:49]  call stack:
+[22:19:49]the asteroid sand (94,126,3) (/turf/open/floor/plating/asteroid/airless/cave): Assimilate Air()
+[22:19:49]the asteroid sand (94,126,3) (/turf/open/floor/plating/asteroid/airless/cave): AfterChange(0)
+[22:19:49]the asteroid sand (94,126,3) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[22:19:49]the asteroid sand (94,126,3) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[22:19:49]the asteroid sand (94,126,3) (/turf/open/floor/plating/asteroid/airless/cave): Initialize(1)
+[22:19:49]Atoms (/datum/controller/subsystem/atoms): InitAtom(the asteroid sand (94,126,3) (/turf/open/floor/plating/asteroid/airless/cave), /list (/list))
+[22:19:49]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[22:19:49]Atoms (/datum/controller/subsystem/atoms): Initialize(83702)
+[22:19:49]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 41.4 seconds!
+Initialized Language subsystem within 0.1 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Weather subsystem within 0 seconds!
+runtime error: 
+[22:20:16]Cannot execute null.compare().
+[22:20:16]proc name: Initalize Atmos (/turf/open/Initalize_Atmos)
+[22:20:16]  source file: open.dm,137
+[22:20:16]  usr: null
+[22:20:16]  src: the asteroid sand (94,126,3) (/turf/open/floor/plating/asteroid/airless/cave)
+[22:20:16]  call stack:
+[22:20:16]the asteroid sand (94,126,3) (/turf/open/floor/plating/asteroid/airless/cave): Initalize Atmos(1)
+[22:20:16]Atmospherics (/datum/controller/subsystem/air): setup allturfs()
+[22:20:16]Atmospherics (/datum/controller/subsystem/air): Initialize(84123)
+[22:20:16]Master (/datum/controller/master): Initialize(10, 0)
+## WARNING: There are 5 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 5 turf(s) (connected to 20067 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 13.8 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 5.5 seconds!
+Initialized Overlay subsystem within 19.6 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Lighting subsystem within 11.6 seconds!
+Initialized Shuttle subsystem within 22.5 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Loaded 0 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 143.5 seconds!
+Game start took 5.2s
+runtime error: 
+[22:50:37]list index out of bounds
+[22:50:37]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[22:50:37]  source file: aurora_caelus.dm,39
+[22:50:37]  usr: null
+[22:50:37]  src: /datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus)
+[22:50:37]  call stack:
+[22:50:37]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): tick()
+[22:50:37]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): process()
+[22:50:37]Events (/datum/controller/subsystem/events): fire(0)
+[22:50:37]Events (/datum/controller/subsystem/events): ignite(0)
+[22:50:37]Master (/datum/controller/master): RunQueue()
+[22:50:37]Master (/datum/controller/master): Loop()
+[22:50:37]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[23:08:03]Cannot read null.parents
+[23:08:03]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[23:08:03]  source file: components_base.dm,91
+[23:08:03]  usr: Floella Eggbert (/mob/living/carbon/human)
+[23:08:03]  src: the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer)
+[23:08:03]  usr.loc: the reinforced floor (186,98,2) (/turf/open/floor/engine)
+[23:08:03]  src.loc: the reinforced floor (188,98,2) (/turf/open/floor/engine)
+[23:08:03]  call stack:
+[23:08:03]the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer): returnPipenet(the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible))
+[23:08:03]the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer): addMember(the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible))
+[23:08:03]the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible): on construction(null, 2)
+[23:08:03]the pipe manifold fitting (/obj/item/pipe/trinary): wrench act(Floella Eggbert (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[23:08:03]the pipe manifold fitting (/obj/item/pipe/trinary): tool act(Floella Eggbert (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[23:08:03]the wrench (/obj/item/wrench): tool attack chain(Floella Eggbert (/mob/living/carbon/human), the pipe manifold fitting (/obj/item/pipe/trinary))
+[23:08:03]the wrench (/obj/item/wrench): melee attack chain(Floella Eggbert (/mob/living/carbon/human), the pipe manifold fitting (/obj/item/pipe/trinary), "icon-x=17;icon-y=16;left=1;scr...")
+[23:08:03]Floella Eggbert (/mob/living/carbon/human): ClickOn(the pipe manifold fitting (/obj/item/pipe/trinary), "icon-x=17;icon-y=16;left=1;scr...")
+[23:08:03]the pipe manifold fitting (/obj/item/pipe/trinary): Click(the reinforced floor (187,98,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=17;icon-y=16;left=1;scr...")
+runtime error: 
+[23:08:03]Cannot execute null.addMember().
+[23:08:03]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[23:08:03]  source file: datum_pipeline.dm,130
+[23:08:03]  usr: Floella Eggbert (/mob/living/carbon/human)
+[23:08:03]  src: the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer)
+[23:08:03]  usr.loc: the reinforced floor (186,98,2) (/turf/open/floor/engine)
+[23:08:03]  src.loc: the reinforced floor (188,98,2) (/turf/open/floor/engine)
+[23:08:03]  call stack:
+[23:08:03]the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer): addMember(the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible))
+[23:08:03]the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible): on construction(null, 2)
+[23:08:03]the pipe manifold fitting (/obj/item/pipe/trinary): wrench act(Floella Eggbert (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[23:08:03]the pipe manifold fitting (/obj/item/pipe/trinary): tool act(Floella Eggbert (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[23:08:03]the wrench (/obj/item/wrench): tool attack chain(Floella Eggbert (/mob/living/carbon/human), the pipe manifold fitting (/obj/item/pipe/trinary))
+[23:08:03]the wrench (/obj/item/wrench): melee attack chain(Floella Eggbert (/mob/living/carbon/human), the pipe manifold fitting (/obj/item/pipe/trinary), "icon-x=17;icon-y=16;left=1;scr...")
+[23:08:03]Floella Eggbert (/mob/living/carbon/human): ClickOn(the pipe manifold fitting (/obj/item/pipe/trinary), "icon-x=17;icon-y=16;left=1;scr...")
+[23:08:03]the pipe manifold fitting (/obj/item/pipe/trinary): Click(the reinforced floor (187,98,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=17;icon-y=16;left=1;scr...")
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/general/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (187, 99, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/general/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (187, 97, 2)
+runtime error: 
+[23:08:23]Cannot read null.parents
+[23:08:23]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[23:08:23]  source file: components_base.dm,91
+[23:08:23]  usr: Floella Eggbert (/mob/living/carbon/human)
+[23:08:23]  src: the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer)
+[23:08:23]  usr.loc: the reinforced floor (187,97,2) (/turf/open/floor/engine)
+[23:08:23]  src.loc: the reinforced floor (188,98,2) (/turf/open/floor/engine)
+[23:08:23]  call stack:
+[23:08:23]the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer): returnPipenet(the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible))
+[23:08:23]the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer): addMember(the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible))
+[23:08:23]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): on construction(null, 2)
+[23:08:23]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): on construction(null, 2)
+[23:08:23]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): on construction(null, 2)
+[23:08:23]the connector port fitting (/obj/item/pipe/directional): wrench act(Floella Eggbert (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[23:08:23]the connector port fitting (/obj/item/pipe/directional): tool act(Floella Eggbert (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[23:08:23]the wrench (/obj/item/wrench): tool attack chain(Floella Eggbert (/mob/living/carbon/human), the connector port fitting (/obj/item/pipe/directional))
+[23:08:23]the wrench (/obj/item/wrench): melee attack chain(Floella Eggbert (/mob/living/carbon/human), the connector port fitting (/obj/item/pipe/directional), "icon-x=15;icon-y=11;left=1;scr...")
+[23:08:23]Floella Eggbert (/mob/living/carbon/human): ClickOn(the connector port fitting (/obj/item/pipe/directional), "icon-x=15;icon-y=11;left=1;scr...")
+[23:08:23]the connector port fitting (/obj/item/pipe/directional): Click(the reinforced floor (187,98,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=15;icon-y=11;left=1;scr...")
+runtime error: 
+[23:08:23]Cannot execute null.addMember().
+[23:08:23]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[23:08:23]  source file: datum_pipeline.dm,130
+[23:08:23]  usr: Floella Eggbert (/mob/living/carbon/human)
+[23:08:23]  src: the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer)
+[23:08:23]  usr.loc: the reinforced floor (187,97,2) (/turf/open/floor/engine)
+[23:08:23]  src.loc: the reinforced floor (188,98,2) (/turf/open/floor/engine)
+[23:08:23]  call stack:
+[23:08:23]the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer): addMember(the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible))
+[23:08:23]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): on construction(null, 2)
+[23:08:23]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): on construction(null, 2)
+[23:08:23]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): on construction(null, 2)
+[23:08:23]the connector port fitting (/obj/item/pipe/directional): wrench act(Floella Eggbert (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[23:08:23]the connector port fitting (/obj/item/pipe/directional): tool act(Floella Eggbert (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[23:08:23]the wrench (/obj/item/wrench): tool attack chain(Floella Eggbert (/mob/living/carbon/human), the connector port fitting (/obj/item/pipe/directional))
+[23:08:23]the wrench (/obj/item/wrench): melee attack chain(Floella Eggbert (/mob/living/carbon/human), the connector port fitting (/obj/item/pipe/directional), "icon-x=15;icon-y=11;left=1;scr...")
+[23:08:23]Floella Eggbert (/mob/living/carbon/human): ClickOn(the connector port fitting (/obj/item/pipe/directional), "icon-x=15;icon-y=11;left=1;scr...")
+[23:08:23]the connector port fitting (/obj/item/pipe/directional): Click(the reinforced floor (187,98,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=15;icon-y=11;left=1;scr...")
+runtime error: 
+[23:15:16]Cannot create objects of type null.
+[23:15:16]proc name: add event (/datum/component/mood/proc/add_event)
+[23:15:16]  source file: mood.dm,91
+[23:15:16]  usr: Jack Heckler (/mob/living/carbon/human)
+[23:15:16]  src: /datum/component/mood (/datum/component/mood)
+[23:15:16]  usr.loc: the plating (131,160,2) (/turf/open/floor/plating)
+[23:15:16]  call stack:
+[23:15:16]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[23:15:16]Ladybug Honks\'s head (/obj/item/bodypart/head): drop limb(null)
+[23:15:16]Ladybug Honks\'s head (/obj/item/bodypart/head): drop limb(null)
+[23:15:16]Ladybug Honks\'s head (/obj/item/bodypart/head): dismember("brute")
+[23:15:16]Human (/datum/species/human): spec attacked by(the energy sword (/obj/item/melee/transforming/energy/sword/saber), Jack Heckler (/mob/living/carbon/human), Ladybug Honks\'s head (/obj/item/bodypart/head), "disarm", Ladybug Honks (/mob/living/carbon/human))
+[23:15:16]Ladybug Honks (/mob/living/carbon/human): attacked by(the energy sword (/obj/item/melee/transforming/energy/sword/saber), Jack Heckler (/mob/living/carbon/human))
+[23:15:16]the energy sword (/obj/item/melee/transforming/energy/sword/saber): attack(Ladybug Honks (/mob/living/carbon/human), Jack Heckler (/mob/living/carbon/human))
+[23:15:16]the energy sword (/obj/item/melee/transforming/energy/sword/saber): attack(Ladybug Honks (/mob/living/carbon/human), Jack Heckler (/mob/living/carbon/human))
+[23:15:16]Ladybug Honks (/mob/living/carbon/human): attackby(the energy sword (/obj/item/melee/transforming/energy/sword/saber), Jack Heckler (/mob/living/carbon/human), "icon-x=18;icon-y=25;left=1;scr...")
+[23:15:16]Ladybug Honks (/mob/living/carbon/human): attackby(the energy sword (/obj/item/melee/transforming/energy/sword/saber), Jack Heckler (/mob/living/carbon/human), "icon-x=18;icon-y=25;left=1;scr...")
+[23:15:16]the energy sword (/obj/item/melee/transforming/energy/sword/saber): melee attack chain(Jack Heckler (/mob/living/carbon/human), Ladybug Honks (/mob/living/carbon/human), "icon-x=18;icon-y=25;left=1;scr...")
+[23:15:16]Jack Heckler (/mob/living/carbon/human): ClickOn(Ladybug Honks (/mob/living/carbon/human), "icon-x=18;icon-y=25;left=1;scr...")
+[23:15:16]Ladybug Honks (/mob/living/carbon/human): Click(the plating (132,160,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=18;icon-y=25;left=1;scr...")
+runtime error: 
+[23:24:51]Cannot read null.parents
+[23:24:51]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[23:24:51]  source file: components_base.dm,91
+[23:24:51]  usr: Floella Eggbert (/mob/living/carbon/human)
+[23:24:51]  src: the heater (/obj/machinery/atmospherics/components/unary/thermomachine/heater)
+[23:24:51]  usr.loc: the reinforced floor (187,98,2) (/turf/open/floor/engine)
+[23:24:51]  src.loc: the reinforced floor (188,99,2) (/turf/open/floor/engine)
+[23:24:51]  call stack:
+[23:24:51]the heater (/obj/machinery/atmospherics/components/unary/thermomachine/heater): returnPipenet(the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible))
+[23:24:51]the heater (/obj/machinery/atmospherics/components/unary/thermomachine/heater): addMember(the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible))
+[23:24:51]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): on construction(null, 2)
+[23:24:51]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): on construction(null, 2)
+[23:24:51]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): on construction(null, 2)
+[23:24:51]the connector port fitting (/obj/item/pipe/directional): wrench act(Floella Eggbert (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[23:24:51]the connector port fitting (/obj/item/pipe/directional): tool act(Floella Eggbert (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[23:24:51]the wrench (/obj/item/wrench): tool attack chain(Floella Eggbert (/mob/living/carbon/human), the connector port fitting (/obj/item/pipe/directional))
+[23:24:51]the wrench (/obj/item/wrench): melee attack chain(Floella Eggbert (/mob/living/carbon/human), the connector port fitting (/obj/item/pipe/directional), "icon-x=21;icon-y=18;left=1;scr...")
+[23:24:51]Floella Eggbert (/mob/living/carbon/human): ClickOn(the connector port fitting (/obj/item/pipe/directional), "icon-x=21;icon-y=18;left=1;scr...")
+[23:24:51]the connector port fitting (/obj/item/pipe/directional): Click(the reinforced floor (187,99,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=21;icon-y=18;left=1;scr...")
+runtime error: 
+[23:24:51]Cannot execute null.addMember().
+[23:24:51]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[23:24:51]  source file: datum_pipeline.dm,130
+[23:24:51]  usr: Floella Eggbert (/mob/living/carbon/human)
+[23:24:51]  src: the heater (/obj/machinery/atmospherics/components/unary/thermomachine/heater)
+[23:24:51]  usr.loc: the reinforced floor (187,98,2) (/turf/open/floor/engine)
+[23:24:51]  src.loc: the reinforced floor (188,99,2) (/turf/open/floor/engine)
+[23:24:51]  call stack:
+[23:24:51]the heater (/obj/machinery/atmospherics/components/unary/thermomachine/heater): addMember(the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible))
+[23:24:51]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): on construction(null, 2)
+[23:24:51]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): on construction(null, 2)
+[23:24:51]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): on construction(null, 2)
+[23:24:51]the connector port fitting (/obj/item/pipe/directional): wrench act(Floella Eggbert (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[23:24:51]the connector port fitting (/obj/item/pipe/directional): tool act(Floella Eggbert (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[23:24:51]the wrench (/obj/item/wrench): tool attack chain(Floella Eggbert (/mob/living/carbon/human), the connector port fitting (/obj/item/pipe/directional))
+[23:24:51]the wrench (/obj/item/wrench): melee attack chain(Floella Eggbert (/mob/living/carbon/human), the connector port fitting (/obj/item/pipe/directional), "icon-x=21;icon-y=18;left=1;scr...")
+[23:24:51]Floella Eggbert (/mob/living/carbon/human): ClickOn(the connector port fitting (/obj/item/pipe/directional), "icon-x=21;icon-y=18;left=1;scr...")
+[23:24:51]the connector port fitting (/obj/item/pipe/directional): Click(the reinforced floor (187,99,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=21;icon-y=18;left=1;scr...")
+runtime error: 
+[23:26:13]Cannot read null.parents
+[23:26:13]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[23:26:13]  source file: components_base.dm,91
+[23:26:13]  usr: Guide McTutorial (/mob/living/carbon/human)
+[23:26:13]  src: the connector port (/obj/machinery/atmospherics/components/unary/portables_connector)
+[23:26:13]  usr.loc: the reinforced floor (120,66,2) (/turf/open/floor/engine)
+[23:26:13]  src.loc: the floor (121,65,2) (/turf/open/floor/plasteel/dark)
+[23:26:13]  call stack:
+[23:26:13]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector): returnPipenet(the pipe (/obj/machinery/atmospherics/pipe/simple))
+[23:26:13]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector): addMember(the pipe (/obj/machinery/atmospherics/pipe/simple))
+[23:26:13]the pipe (/obj/machinery/atmospherics/pipe/simple): on construction(null, 2)
+[23:26:13]the pipe fitting (/obj/item/pipe/binary/bendable): wrench act(Guide McTutorial (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[23:26:13]the pipe fitting (/obj/item/pipe/binary/bendable): tool act(Guide McTutorial (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[23:26:13]the wrench (/obj/item/wrench): tool attack chain(Guide McTutorial (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable))
+[23:26:13]the wrench (/obj/item/wrench): melee attack chain(Guide McTutorial (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=16;left=1;scr...")
+[23:26:13]Guide McTutorial (/mob/living/carbon/human): ClickOn(the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=16;left=1;scr...")
+[23:26:13]the pipe fitting (/obj/item/pipe/binary/bendable): Click(the reinforced floor (120,65,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=16;icon-y=16;left=1;scr...")
+runtime error: 
+[23:26:13]Cannot execute null.addMember().
+[23:26:13]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[23:26:13]  source file: datum_pipeline.dm,130
+[23:26:13]  usr: Guide McTutorial (/mob/living/carbon/human)
+[23:26:13]  src: the connector port (/obj/machinery/atmospherics/components/unary/portables_connector)
+[23:26:13]  usr.loc: the reinforced floor (120,66,2) (/turf/open/floor/engine)
+[23:26:13]  src.loc: the floor (121,65,2) (/turf/open/floor/plasteel/dark)
+[23:26:13]  call stack:
+[23:26:13]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector): addMember(the pipe (/obj/machinery/atmospherics/pipe/simple))
+[23:26:13]the pipe (/obj/machinery/atmospherics/pipe/simple): on construction(null, 2)
+[23:26:13]the pipe fitting (/obj/item/pipe/binary/bendable): wrench act(Guide McTutorial (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[23:26:13]the pipe fitting (/obj/item/pipe/binary/bendable): tool act(Guide McTutorial (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[23:26:13]the wrench (/obj/item/wrench): tool attack chain(Guide McTutorial (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable))
+[23:26:13]the wrench (/obj/item/wrench): melee attack chain(Guide McTutorial (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=16;left=1;scr...")
+[23:26:13]Guide McTutorial (/mob/living/carbon/human): ClickOn(the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=16;left=1;scr...")
+[23:26:13]the pipe fitting (/obj/item/pipe/binary/bendable): Click(the reinforced floor (120,65,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=16;icon-y=16;left=1;scr...")
+runtime error: 
+[23:26:13]Cannot read null.parents
+[23:26:13]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[23:26:13]  source file: components_base.dm,91
+[23:26:13]  usr: Guide McTutorial (/mob/living/carbon/human)
+[23:26:13]  src: the gas filter (/obj/machinery/atmospherics/components/trinary/filter)
+[23:26:13]  usr.loc: the reinforced floor (120,66,2) (/turf/open/floor/engine)
+[23:26:13]  src.loc: the reinforced floor (118,65,2) (/turf/open/floor/engine)
+[23:26:13]  call stack:
+[23:26:13]the gas filter (/obj/machinery/atmospherics/components/trinary/filter): returnPipenet(the pipe (/obj/machinery/atmospherics/pipe/simple))
+[23:26:13]the gas filter (/obj/machinery/atmospherics/components/trinary/filter): addMember(the pipe (/obj/machinery/atmospherics/pipe/simple))
+[23:26:13]the pipe (/obj/machinery/atmospherics/pipe/simple): on construction(null, 2)
+[23:26:13]the pipe fitting (/obj/item/pipe/binary/bendable): wrench act(Guide McTutorial (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[23:26:13]the pipe fitting (/obj/item/pipe/binary/bendable): tool act(Guide McTutorial (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[23:26:13]the wrench (/obj/item/wrench): tool attack chain(Guide McTutorial (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable))
+[23:26:13]the wrench (/obj/item/wrench): melee attack chain(Guide McTutorial (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=17;left=1;scr...")
+[23:26:13]Guide McTutorial (/mob/living/carbon/human): ClickOn(the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=17;left=1;scr...")
+[23:26:13]the pipe fitting (/obj/item/pipe/binary/bendable): Click(the reinforced floor (119,65,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=16;icon-y=17;left=1;scr...")
+runtime error: 
+[23:26:13]Cannot execute null.addMember().
+[23:26:13]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[23:26:13]  source file: datum_pipeline.dm,130
+[23:26:13]  usr: Guide McTutorial (/mob/living/carbon/human)
+[23:26:13]  src: the gas filter (/obj/machinery/atmospherics/components/trinary/filter)
+[23:26:13]  usr.loc: the reinforced floor (120,66,2) (/turf/open/floor/engine)
+[23:26:13]  src.loc: the reinforced floor (118,65,2) (/turf/open/floor/engine)
+[23:26:13]  call stack:
+[23:26:13]the gas filter (/obj/machinery/atmospherics/components/trinary/filter): addMember(the pipe (/obj/machinery/atmospherics/pipe/simple))
+[23:26:13]the pipe (/obj/machinery/atmospherics/pipe/simple): on construction(null, 2)
+[23:26:13]the pipe fitting (/obj/item/pipe/binary/bendable): wrench act(Guide McTutorial (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[23:26:13]the pipe fitting (/obj/item/pipe/binary/bendable): tool act(Guide McTutorial (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[23:26:13]the wrench (/obj/item/wrench): tool attack chain(Guide McTutorial (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable))
+[23:26:13]the wrench (/obj/item/wrench): melee attack chain(Guide McTutorial (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=17;left=1;scr...")
+[23:26:13]Guide McTutorial (/mob/living/carbon/human): ClickOn(the pipe fitting (/obj/item/pipe/binary/bendable), "icon-x=16;icon-y=17;left=1;scr...")
+[23:26:13]the pipe fitting (/obj/item/pipe/binary/bendable): Click(the reinforced floor (119,65,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=16;icon-y=17;left=1;scr...")
+runtime error: 
+[23:36:58]Cannot create objects of type null.
+[23:36:58]proc name: add event (/datum/component/mood/proc/add_event)
+[23:36:58]  source file: mood.dm,91
+[23:36:58]  usr: null
+[23:36:58]  src: /datum/component/mood (/datum/component/mood)
+[23:36:58]  call stack:
+[23:36:58]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[23:36:58]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[23:36:58]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[23:36:58]the left arm (/obj/item/bodypart/l_arm): dismember("brute")
+[23:36:58]Floella Eggbert (/mob/living/carbon/human): ex act(3, null, null)
+[23:36:58]the floor (184,94,2) (/turf/open/floor/plasteel): contents explosion(3, null)
+[23:36:58]the floor (184,94,2) (/turf/open/floor/plasteel): ex act(3, null)
+[23:36:58]the floor (184,94,2) (/turf/open/floor/plasteel): ex act(3, null)
+[23:36:58]/datum/explosion (/datum/explosion): New(space (185,92,2) (/turf/open/space), 0, 1, 5, 0, 1, 0, 5, 0, 0)
+runtime error: 
+[23:36:59]addtimer called with a callback assigned to a qdeleted object
+[23:36:59]proc name: stack trace (/proc/stack_trace)
+[23:36:59]  source file: unsorted.dm,1254
+[23:36:59]  usr: (src)
+[23:36:59]  src: null
+[23:36:59]  call stack:
+[23:36:59]stack trace("addtimer called with a callbac...")
+[23:36:59]addtimer(/datum/callback (/datum/callback), 20, 0)
+[23:36:59]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[23:36:59]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[23:36:59]addtimer called with a callback assigned to a qdeleted object
+[23:36:59]proc name: stack trace (/proc/stack_trace)
+[23:36:59]  source file: unsorted.dm,1254
+[23:36:59]  usr: (src)
+[23:36:59]  src: null
+[23:36:59]  call stack:
+[23:36:59]stack trace("addtimer called with a callbac...")
+[23:36:59]addtimer(/datum/callback (/datum/callback), 20, 0)
+[23:36:59]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[23:36:59]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+Saved 0 engraved messages on map Box Station
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 00:01:34

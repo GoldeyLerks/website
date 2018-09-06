@@ -1,0 +1,351 @@
+[2018-08-28 14:27:25.460] Starting up round ID 2107.
+[2018-08-28 14:27:25.460] -------------------------
+[2018-08-28 14:27:26.938] Initialized Database subsystem within 0 seconds!
+[2018-08-28 14:27:26.938] Initialized Blackbox subsystem within 0 seconds!
+[2018-08-28 14:27:26.938] Initialized Server Tasks subsystem within 0 seconds!
+[2018-08-28 14:27:26.939] Initialized Input subsystem within 0 seconds!
+[2018-08-28 14:27:26.974] Initialized Research subsystem within 0 seconds!
+[2018-08-28 14:27:26.979] Initialized Events subsystem within 0 seconds!
+[2018-08-28 14:27:26.982] Initialized Jobs subsystem within 0 seconds!
+[2018-08-28 14:27:26.983] Initialized Quirks subsystem within 0 seconds!
+[2018-08-28 14:27:26.991] Initialized Ticker subsystem within 0 seconds!
+[2018-08-28 14:27:26.991] Loading Box Station...
+[2018-08-28 14:27:33.395] Loaded Station in 6.4s!
+[2018-08-28 14:27:38.939] Loaded Lavaland in 5.3s!
+[2018-08-28 14:27:50.110] Ruin loader finished with 0 left to spend.
+[2018-08-28 14:27:51.739] Ruin loader finished with 0 left to spend.
+[2018-08-28 14:27:53.256] Initialized Mapping subsystem within 26.3 seconds!
+[2018-08-28 14:27:53.267] Initialized Networks subsystem within 0 seconds!
+[2018-08-28 14:28:50.668] Initialized Atoms subsystem within 57.4 seconds!
+[2018-08-28 14:28:50.706] Initialized Language subsystem within 0.1 seconds!
+[2018-08-28 14:28:51.156] Initialized Machines subsystem within 0.4 seconds!
+[2018-08-28 14:28:51.214] Initialized Circuit subsystem within 0.1 seconds!
+[2018-08-28 14:28:51.216] Initialized Disease subsystem within 0 seconds!
+[2018-08-28 14:28:51.216] Initialized Medals subsystem within 0 seconds!
+[2018-08-28 14:28:51.217] Initialized Night Shift subsystem within 0 seconds!
+[2018-08-28 14:28:51.217] Initialized Parallax subsystem within 0 seconds!
+[2018-08-28 14:28:51.362] Initialized Traumas subsystem within 0.1 seconds!
+[2018-08-28 14:28:51.363] Initialized Weather subsystem within 0 seconds!
+[2018-08-28 14:29:00.438] Initialized Atmospherics subsystem within 9.1 seconds!
+[2018-08-28 14:29:00.456] Initialized Minimap subsystem within 0 seconds!
+[2018-08-28 14:29:03.217] Initialized Assets subsystem within 2.8 seconds!
+[2018-08-28 14:29:13.158] Initialized Icon Smoothing subsystem within 9.5 seconds!
+[2018-08-28 14:29:15.311] Initialized Overlay subsystem within 2.2 seconds!
+[2018-08-28 14:29:15.311] Initialized XKeyScore subsystem within 0 seconds!
+[2018-08-28 14:29:15.313] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-08-28 14:29:35.579] Initialized Lighting subsystem within 20.2 seconds!
+[2018-08-28 14:29:40.529] Initialized Shuttle subsystem within 5 seconds!
+[2018-08-28 14:29:40.568] Initialized Squeak subsystem within 0 seconds!
+[2018-08-28 14:29:40.570] Initialized Pathfinder subsystem within 0 seconds!
+[2018-08-28 14:29:40.624] Loaded 20 engraved messages on map Box Station
+[2018-08-28 14:29:40.660] Initialized Persistence subsystem within 0.1 seconds!
+[2018-08-28 14:29:40.661] Initializations complete within 133.7 seconds!
+[2018-08-28 14:31:02.517] Game start took 2.2s
+[2018-08-28 15:23:43.211] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-28 15:23:43.211] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-28 15:23:43.211]   source file: unsorted.dm,1169
+[2018-08-28 15:23:43.211]   usr: (src)
+[2018-08-28 15:23:43.211]   src: Lara Black (/mob/living/carbon/human)
+[2018-08-28 15:23:43.211]   src.loc: the floor (96,117,2) (/turf/open/floor/plasteel/brown/corner)
+[2018-08-28 15:23:43.211]   call stack:
+[2018-08-28 15:23:43.211] Lara Black (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-28 15:23:43.211] Lara Black (/mob/living/carbon/human): log message("(LOCAL): we will probably get ...", 1536, null, 1)
+[2018-08-28 15:23:43.211] Lara Black (/mob/living/carbon/human): log message("(LOCAL): we will probably get ...", 1536, null, 1)
+[2018-08-28 15:23:43.211] Bilary (/client): LOOC("we will probably get bwoinked ...")
+[2018-08-28 15:23:43.211] 
+[2018-08-28 15:30:24.338] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-28 15:30:24.338] proc name: stack trace (/proc/stack_trace)
+[2018-08-28 15:30:24.338]   source file: unsorted.dm,1166
+[2018-08-28 15:30:24.338]   usr: 0
+[2018-08-28 15:30:24.338]   src: null
+[2018-08-28 15:30:24.338]   call stack:
+[2018-08-28 15:30:24.338] stack trace("addtimer called with a callbac...")
+[2018-08-28 15:30:24.338] addtimer(/datum/callback (/datum/callback), 0, 1)
+[2018-08-28 15:30:24.338] /datum/component/decal/blood (/datum/component/decal/blood): apply(null)
+[2018-08-28 15:30:24.338] /datum/component/decal/blood (/datum/component/decal/blood): Initialize(null, null, null, 2, null, 3.2, null)
+[2018-08-28 15:30:24.338] /datum/component/decal/blood (/datum/component/decal/blood): Initialize(null, null, null, 2, null, 3.2)
+[2018-08-28 15:30:24.338] /datum/component/decal/blood (/datum/component/decal/blood): New(the right arm (/obj/item/bodypart/r_arm))
+[2018-08-28 15:30:24.338] the right arm (/obj/item/bodypart/r_arm): AddComponent(the right arm (/obj/item/bodypart/r_arm))
+[2018-08-28 15:30:24.338] the right arm (/obj/item/bodypart/r_arm): LoadComponent(/datum/component/decal/blood (/datum/component/decal/blood))
+[2018-08-28 15:30:24.338] /datum/component/forensics (/datum/component/forensics): check blood()
+[2018-08-28 15:30:24.338] /datum/component/forensics (/datum/component/forensics): Initialize(null, null, /list (/list), null)
+[2018-08-28 15:30:24.338] /datum/component/forensics (/datum/component/forensics): New(the right arm (/obj/item/bodypart/r_arm), null, null, /list (/list))
+[2018-08-28 15:30:24.338] the right arm (/obj/item/bodypart/r_arm): AddComponent(the right arm (/obj/item/bodypart/r_arm), null, null, /list (/list))
+[2018-08-28 15:30:24.338] the right arm (/obj/item/bodypart/r_arm): add blood DNA(/list (/list))
+[2018-08-28 15:30:24.338] the right arm (/obj/item/bodypart/r_arm): add mob blood(Eats The Mice (/mob/living/carbon/human))
+[2018-08-28 15:30:24.338] the right arm (/obj/item/bodypart/r_arm): dismember("brute")
+[2018-08-28 15:30:24.338] Eats The Mice (/mob/living/carbon/human): ex act(2, null, null)
+[2018-08-28 15:30:24.338] the volcanic floor (158,14,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface): contents explosion(2, null)
+[2018-08-28 15:30:24.338] the volcanic floor (158,14,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface): ex act(2, null)
+[2018-08-28 15:30:24.338] /datum/explosion (/datum/explosion): New(the volcanic floor (159,14,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), 1, 2, 5, 1, 0, 0, 0, 0, 0)
+[2018-08-28 15:30:24.338] 
+[2018-08-28 16:01:09.552] runtime error: Cannot read null.body_part
+[2018-08-28 16:01:09.552] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-08-28 16:01:09.552]   source file: human_defense.dm,30
+[2018-08-28 16:01:09.552]   usr: 0
+[2018-08-28 16:01:09.552]   src: Eats The Mice (/mob/living/carbon/human)
+[2018-08-28 16:01:09.552]   src.loc: the floor (87,119,2) (/turf/open/floor/plasteel)
+[2018-08-28 16:01:09.552]   call stack:
+[2018-08-28 16:01:09.552] Eats The Mice (/mob/living/carbon/human): checkarmor(null, "melee")
+[2018-08-28 16:01:09.552] Eats The Mice (/mob/living/carbon/human): getarmor("r_arm", "melee")
+[2018-08-28 16:01:09.552] Eats The Mice (/mob/living/carbon/human): run armor check("r_arm", "melee", "Your armor has protected your ...", "Your armor has softened hit to...", 0, null)
+[2018-08-28 16:01:09.552] Eats The Mice (/mob/living/carbon/human): hitby(the flashlight (/obj/item/flashlight), 0, 0, 0)
+[2018-08-28 16:01:09.552] Eats The Mice (/mob/living/carbon/human): hitby(the flashlight (/obj/item/flashlight), 0, 0, 0)
+[2018-08-28 16:01:09.552] Eats The Mice (/mob/living/carbon/human): hitby(the flashlight (/obj/item/flashlight), 0, 0, 0)
+[2018-08-28 16:01:09.552] the flashlight (/obj/item/flashlight): throw impact(Eats The Mice (/mob/living/carbon/human), /datum/thrownthing (/datum/thrownthing))
+[2018-08-28 16:01:09.552] /datum/thrownthing (/datum/thrownthing): finalize(1, Eats The Mice (/mob/living/carbon/human))
+[2018-08-28 16:01:09.552] /datum/thrownthing (/datum/thrownthing): hit atom(Eats The Mice (/mob/living/carbon/human))
+[2018-08-28 16:01:09.552] the flashlight (/obj/item/flashlight): Bump(Eats The Mice (/mob/living/carbon/human))
+[2018-08-28 16:01:09.552] ...
+[2018-08-28 16:01:09.552] the flashlight (/obj/item/flashlight): Move(the floor (87,119,2) (/turf/open/floor/plasteel), 4)
+[2018-08-28 16:01:09.552] the flashlight (/obj/item/flashlight): Move(the floor (87,119,2) (/turf/open/floor/plasteel), 5)
+[2018-08-28 16:01:09.552] /datum/thrownthing (/datum/thrownthing): tick()
+[2018-08-28 16:01:09.552] the flashlight (/obj/item/flashlight): throw at(the floor (88,120,2) (/turf/open/floor/plasteel), 7, 2, Mr Fluffles (/mob/living/carbon/human), 1, 0, /datum/callback (/datum/callback))
+[2018-08-28 16:01:09.552] the flashlight (/obj/item/flashlight): throw at(the floor (88,120,2) (/turf/open/floor/plasteel), 7, 2, Mr Fluffles (/mob/living/carbon/human), 1, 0, /datum/callback (/datum/callback))
+[2018-08-28 16:01:09.552] the flashlight (/obj/item/flashlight): throw at(the floor (88,120,2) (/turf/open/floor/plasteel), 7, 2, Mr Fluffles (/mob/living/carbon/human), 1, 0, /datum/callback (/datum/callback))
+[2018-08-28 16:01:09.552] the flashlight (/obj/item/flashlight): throw at(the floor (88,120,2) (/turf/open/floor/plasteel), 7, 2, Mr Fluffles (/mob/living/carbon/human), 1, 0, null)
+[2018-08-28 16:01:09.552] Mr Fluffles (/mob/living/carbon/human): throw item(the floor (88,120,2) (/turf/open/floor/plasteel))
+[2018-08-28 16:01:09.552] the floor (88,120,2) (/turf/open/floor/plasteel): Click(the floor (88,120,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=14;icon-y=14;left=1;scr...")
+[2018-08-28 16:01:09.552] Juicy_Chicken (/client): Click(the floor (88,120,2) (/turf/open/floor/plasteel), the floor (88,120,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=14;icon-y=14;left=1;scr...")
+[2018-08-28 16:01:09.552] 
+[2018-08-28 16:01:27.513] runtime error: bad arg name 'log_globally'
+[2018-08-28 16:01:27.513] proc name: log message (/obj/mecha/log_message)
+[2018-08-28 16:01:27.513]   usr: Shaheed Muslim (/mob/living/carbon/human)
+[2018-08-28 16:01:27.513]   src: ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand)
+[2018-08-28 16:01:27.513]   usr.loc: the floor (171,121,2) (/turf/open/floor/plasteel/white)
+[2018-08-28 16:01:27.513]   src.loc: the floor (171,122,2) (/turf/open/floor/plasteel/white)
+[2018-08-28 16:01:27.513]   call stack:
+[2018-08-28 16:01:27.513] ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand): log message("has been attacked by Dominatiu...", 1, "orange", null)
+[2018-08-28 16:01:27.513] log combat(Shaheed Muslim (/mob/living/carbon/human), ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand), "attacked", the welding tool (/obj/item/weldingtool), null)
+[2018-08-28 16:01:27.513] ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand): attacked by(the welding tool (/obj/item/weldingtool), Shaheed Muslim (/mob/living/carbon/human))
+[2018-08-28 16:01:27.513] ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand): attacked by(the welding tool (/obj/item/weldingtool), Shaheed Muslim (/mob/living/carbon/human))
+[2018-08-28 16:01:27.513] the welding tool (/obj/item/weldingtool): attack obj(ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand), Shaheed Muslim (/mob/living/carbon/human))
+[2018-08-28 16:01:27.513] ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand): attackby(the welding tool (/obj/item/weldingtool), Shaheed Muslim (/mob/living/carbon/human), "icon-x=5;icon-y=19;left=1;scre...")
+[2018-08-28 16:01:27.513] ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand): attackby(the welding tool (/obj/item/weldingtool), Shaheed Muslim (/mob/living/carbon/human), "icon-x=5;icon-y=19;left=1;scre...")
+[2018-08-28 16:01:27.513] the welding tool (/obj/item/weldingtool): melee attack chain(Shaheed Muslim (/mob/living/carbon/human), ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand), "icon-x=5;icon-y=19;left=1;scre...")
+[2018-08-28 16:01:27.513] Shaheed Muslim (/mob/living/carbon/human): ClickOn(ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand), "icon-x=5;icon-y=19;left=1;scre...")
+[2018-08-28 16:01:27.513] ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand): Click(the floor (171,122,2) (/turf/open/floor/plasteel/white), "mapwindow.map", "icon-x=5;icon-y=19;left=1;scre...")
+[2018-08-28 16:01:27.513] Dominatium (/client): Click(ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand), the floor (171,122,2) (/turf/open/floor/plasteel/white), "mapwindow.map", "icon-x=5;icon-y=19;left=1;scre...")
+[2018-08-28 16:01:27.513] 
+[2018-08-28 16:37:11.859] runtime error: bad arg name 'log_globally'
+[2018-08-28 16:37:11.859] proc name: log message (/obj/mecha/log_message)
+[2018-08-28 16:37:11.859]   usr: Shaheed Muslim (/mob/living/carbon/human)
+[2018-08-28 16:37:11.859]   src: ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand)
+[2018-08-28 16:37:11.859]   usr.loc: the floor (168,123,2) (/turf/open/floor/circuit)
+[2018-08-28 16:37:11.859]   src.loc: the mech bay recharge station (169,124,2) (/turf/open/floor/mech_bay_recharge_floor)
+[2018-08-28 16:37:11.859]   call stack:
+[2018-08-28 16:37:11.859] ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand): log message("has been attacked by Dominatiu...", 1, "orange", null)
+[2018-08-28 16:37:11.859] log combat(Shaheed Muslim (/mob/living/carbon/human), ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand), "attacked", the wirecutters (/obj/item/wirecutters), null)
+[2018-08-28 16:37:11.859] ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand): attacked by(the wirecutters (/obj/item/wirecutters), Shaheed Muslim (/mob/living/carbon/human))
+[2018-08-28 16:37:11.859] ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand): attacked by(the wirecutters (/obj/item/wirecutters), Shaheed Muslim (/mob/living/carbon/human))
+[2018-08-28 16:37:11.859] the wirecutters (/obj/item/wirecutters): attack obj(ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand), Shaheed Muslim (/mob/living/carbon/human))
+[2018-08-28 16:37:11.859] ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand): attackby(the wirecutters (/obj/item/wirecutters), Shaheed Muslim (/mob/living/carbon/human), "icon-x=12;icon-y=14;left=1;scr...")
+[2018-08-28 16:37:11.859] ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand): attackby(the wirecutters (/obj/item/wirecutters), Shaheed Muslim (/mob/living/carbon/human), "icon-x=12;icon-y=14;left=1;scr...")
+[2018-08-28 16:37:11.859] the wirecutters (/obj/item/wirecutters): melee attack chain(Shaheed Muslim (/mob/living/carbon/human), ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand), "icon-x=12;icon-y=14;left=1;scr...")
+[2018-08-28 16:37:11.859] Shaheed Muslim (/mob/living/carbon/human): ClickOn(ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand), "icon-x=12;icon-y=14;left=1;scr...")
+[2018-08-28 16:37:11.859] ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand): Click(the mech bay recharge station (169,124,2) (/turf/open/floor/mech_bay_recharge_floor), "mapwindow.map", "icon-x=12;icon-y=14;left=1;scr...")
+[2018-08-28 16:37:11.859] Dominatium (/client): Click(ANTI-R.O.B.U.S.T (/obj/mecha/combat/durand), the mech bay recharge station (169,124,2) (/turf/open/floor/mech_bay_recharge_floor), "mapwindow.map", "icon-x=12;icon-y=14;left=1;scr...")
+[2018-08-28 16:37:11.859] 
+[2018-08-28 16:38:28.315] runtime error: undefined variable /obj/item/grown/sunflower/var/tastes
+[2018-08-28 16:38:28.315] proc name: prepare result (/obj/item/seeds/proc/prepare_result)
+[2018-08-28 16:38:28.315]   source file: seeds.dm,171
+[2018-08-28 16:38:28.315]   usr: Eats The Mice (/mob/living/carbon/human)
+[2018-08-28 16:38:28.315]   src: the pack of sunflower seeds (/obj/item/seeds/sunflower)
+[2018-08-28 16:38:28.315]   usr.loc: the floor (162,134,2) (/turf/open/floor/plasteel/green/side)
+[2018-08-28 16:38:28.315]   src.loc: null
+[2018-08-28 16:38:28.315]   call stack:
+[2018-08-28 16:38:28.315] the pack of sunflower seeds (/obj/item/seeds/sunflower): prepare result(the sunflower (/obj/item/grown/sunflower))
+[2018-08-28 16:38:28.315] the sunflower (/obj/item/grown/sunflower): Initialize(0, the pack of sunflower seeds (/obj/item/seeds/sunflower))
+[2018-08-28 16:38:28.315] Atoms (/datum/controller/subsystem/atoms): InitAtom(the sunflower (/obj/item/grown/sunflower), /list (/list))
+[2018-08-28 16:38:28.315] the sunflower (/obj/item/grown/sunflower): New(0, the pack of sunflower seeds (/obj/item/seeds/sunflower))
+[2018-08-28 16:38:28.315] the pack of sunflower seeds (/obj/item/seeds/sunflower): harvest(Eats The Mice (/mob/living/carbon/human))
+[2018-08-28 16:38:28.315] the hydroponics tray (/obj/machinery/hydroponics/constructable): attack hand(Eats The Mice (/mob/living/carbon/human))
+[2018-08-28 16:38:28.315] Eats The Mice (/mob/living/carbon/human): UnarmedAttack(the hydroponics tray (/obj/machinery/hydroponics/constructable), 1)
+[2018-08-28 16:38:28.315] Eats The Mice (/mob/living/carbon/human): ClickOn(the hydroponics tray (/obj/machinery/hydroponics/constructable), "icon-x=14;icon-y=10;left=1;scr...")
+[2018-08-28 16:38:28.315] the hydroponics tray (/obj/machinery/hydroponics/constructable): Click(the floor (163,134,2) (/turf/open/floor/plasteel/dark), "mapwindow.map", "icon-x=14;icon-y=10;left=1;scr...")
+[2018-08-28 16:38:28.315] Mr.Cheese1 (/client): Click(the hydroponics tray (/obj/machinery/hydroponics/constructable), the floor (163,134,2) (/turf/open/floor/plasteel/dark), "mapwindow.map", "icon-x=14;icon-y=10;left=1;scr...")
+[2018-08-28 16:38:28.315] 
+[2018-08-28 16:38:28.316] runtime error: undefined variable /obj/item/grown/sunflower/var/tastes
+[2018-08-28 16:38:28.316] proc name: prepare result (/obj/item/seeds/proc/prepare_result)
+[2018-08-28 16:38:28.316]   source file: seeds.dm,171
+[2018-08-28 16:38:28.316]   usr: Eats The Mice (/mob/living/carbon/human)
+[2018-08-28 16:38:28.316]   src: the pack of sunflower seeds (/obj/item/seeds/sunflower)
+[2018-08-28 16:38:28.316]   usr.loc: the floor (162,134,2) (/turf/open/floor/plasteel/green/side)
+[2018-08-28 16:38:28.316]   src.loc: null
+[2018-08-28 16:38:28.316]   call stack:
+[2018-08-28 16:38:28.316] the pack of sunflower seeds (/obj/item/seeds/sunflower): prepare result(the sunflower (/obj/item/grown/sunflower))
+[2018-08-28 16:38:28.316] the sunflower (/obj/item/grown/sunflower): Initialize(0, the pack of sunflower seeds (/obj/item/seeds/sunflower))
+[2018-08-28 16:38:28.316] Atoms (/datum/controller/subsystem/atoms): InitAtom(the sunflower (/obj/item/grown/sunflower), /list (/list))
+[2018-08-28 16:38:28.316] the sunflower (/obj/item/grown/sunflower): New(0, the pack of sunflower seeds (/obj/item/seeds/sunflower))
+[2018-08-28 16:38:28.316] the pack of sunflower seeds (/obj/item/seeds/sunflower): harvest(Eats The Mice (/mob/living/carbon/human))
+[2018-08-28 16:38:28.316] the hydroponics tray (/obj/machinery/hydroponics/constructable): attack hand(Eats The Mice (/mob/living/carbon/human))
+[2018-08-28 16:38:28.316] Eats The Mice (/mob/living/carbon/human): UnarmedAttack(the hydroponics tray (/obj/machinery/hydroponics/constructable), 1)
+[2018-08-28 16:38:28.316] Eats The Mice (/mob/living/carbon/human): ClickOn(the hydroponics tray (/obj/machinery/hydroponics/constructable), "icon-x=14;icon-y=10;left=1;scr...")
+[2018-08-28 16:38:28.316] the hydroponics tray (/obj/machinery/hydroponics/constructable): Click(the floor (163,134,2) (/turf/open/floor/plasteel/dark), "mapwindow.map", "icon-x=14;icon-y=10;left=1;scr...")
+[2018-08-28 16:38:28.316] Mr.Cheese1 (/client): Click(the hydroponics tray (/obj/machinery/hydroponics/constructable), the floor (163,134,2) (/turf/open/floor/plasteel/dark), "mapwindow.map", "icon-x=14;icon-y=10;left=1;scr...")
+[2018-08-28 16:38:28.316] 
+[2018-08-28 16:38:28.317] runtime error: undefined variable /obj/item/grown/sunflower/var/tastes
+[2018-08-28 16:38:28.317] proc name: prepare result (/obj/item/seeds/proc/prepare_result)
+[2018-08-28 16:38:28.317]   source file: seeds.dm,171
+[2018-08-28 16:38:28.317]   usr: Eats The Mice (/mob/living/carbon/human)
+[2018-08-28 16:38:28.317]   src: the pack of sunflower seeds (/obj/item/seeds/sunflower)
+[2018-08-28 16:38:28.317]   usr.loc: the floor (162,134,2) (/turf/open/floor/plasteel/green/side)
+[2018-08-28 16:38:28.317]   src.loc: null
+[2018-08-28 16:38:28.317]   call stack:
+[2018-08-28 16:38:28.317] the pack of sunflower seeds (/obj/item/seeds/sunflower): prepare result(the sunflower (/obj/item/grown/sunflower))
+[2018-08-28 16:38:28.317] the sunflower (/obj/item/grown/sunflower): Initialize(0, the pack of sunflower seeds (/obj/item/seeds/sunflower))
+[2018-08-28 16:38:28.317] Atoms (/datum/controller/subsystem/atoms): InitAtom(the sunflower (/obj/item/grown/sunflower), /list (/list))
+[2018-08-28 16:38:28.317] the sunflower (/obj/item/grown/sunflower): New(0, the pack of sunflower seeds (/obj/item/seeds/sunflower))
+[2018-08-28 16:38:28.317] the pack of sunflower seeds (/obj/item/seeds/sunflower): harvest(Eats The Mice (/mob/living/carbon/human))
+[2018-08-28 16:38:28.317] the hydroponics tray (/obj/machinery/hydroponics/constructable): attack hand(Eats The Mice (/mob/living/carbon/human))
+[2018-08-28 16:38:28.317] Eats The Mice (/mob/living/carbon/human): UnarmedAttack(the hydroponics tray (/obj/machinery/hydroponics/constructable), 1)
+[2018-08-28 16:38:28.317] Eats The Mice (/mob/living/carbon/human): ClickOn(the hydroponics tray (/obj/machinery/hydroponics/constructable), "icon-x=14;icon-y=10;left=1;scr...")
+[2018-08-28 16:38:28.317] the hydroponics tray (/obj/machinery/hydroponics/constructable): Click(the floor (163,134,2) (/turf/open/floor/plasteel/dark), "mapwindow.map", "icon-x=14;icon-y=10;left=1;scr...")
+[2018-08-28 16:38:28.317] Mr.Cheese1 (/client): Click(the hydroponics tray (/obj/machinery/hydroponics/constructable), the floor (163,134,2) (/turf/open/floor/plasteel/dark), "mapwindow.map", "icon-x=14;icon-y=10;left=1;scr...")
+[2018-08-28 16:38:28.317] 
+[2018-08-28 16:49:17.479] [2018-08-28 16:49:29] Client: Manmail triggered JS error: Error: Der zu entschlüsselnde URI hat keine gültige Verschlüsselung. | url: http://127.0.0.1:50181/tmp8916/browserOutput.js | line: 161 | column: 2 | error: URIError: Der zu entschlüsselnde URI hat keine gültige Verschlüsselung. | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.2)
+[2018-08-28 16:49:17.535] [2018-08-28 16:49:29] Client: Juicy_Chicken triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:62277/tmp11632/browserOutput.js | line: 161 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Creative AutoUpdate v1.41.07)
+[2018-08-28 17:41:13.153] [2018-08-28 17:41:32] Client: GreenTea98 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50581/tmp8248/browserOutput.js | line: 161 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-08-28 17:41:13.155] [2018-08-28 17:41:32] Client: Mr.Cheese1 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51611/tmp7328/browserOutput.js | line: 161 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-08-28 17:41:13.165] [2018-08-28 17:41:32] Client: Jesslynbrooke triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53935/tmp14636/browserOutput.js | line: 161 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-08-28 17:41:13.256] [2018-08-28 17:41:32] Client: Manmail triggered JS error: Error: Der zu entschlüsselnde URI hat keine gültige Verschlüsselung. | url: http://127.0.0.1:50181/tmp8916/browserOutput.js | line: 161 | column: 2 | error: URIError: Der zu entschlüsselnde URI hat keine gültige Verschlüsselung. | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.2)
+[2018-08-28 17:41:13.257] [2018-08-28 17:41:32] Client: Manmail triggered JS error: Error: Der zu entschlüsselnde URI hat keine gültige Verschlüsselung. | url: http://127.0.0.1:50181/tmp8916/browserOutput.js | line: 161 | column: 2 | error: URIError: Der zu entschlüsselnde URI hat keine gültige Verschlüsselung. | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.2)
+[2018-08-28 17:41:13.257] [2018-08-28 17:41:32] Client: Smarrazzo triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49772/tmp3740/browserOutput.js | line: 161 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+[2018-08-28 17:41:13.257] [2018-08-28 17:41:32] Client: AstronautCat triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:65529/tmp9868/browserOutput.js | line: 161 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-08-28 17:41:13.258] [2018-08-28 17:41:32] Client: Bilary triggered JS error: Error: Der zu entschlüsselnde URI hat keine gültige Verschlüsselung. | url: http://127.0.0.1:59993/tmp11648/browserOutput.js | line: 161 | column: 2 | error: URIError: Der zu entschlüsselnde URI hat keine gültige Verschlüsselung. | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; LCTE)
+[2018-08-28 17:41:13.324] [2018-08-28 17:41:32] Client: Dominatium triggered JS error: Error: Обнаружена недопустимая кодировка при попытке декодирования URI | url: http://127.0.0.1:54462/tmp3148/browserOutput.js | line: 161 | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+[2018-08-28 17:41:13.369] [2018-08-28 17:41:32] Client: Overhappy Engineer triggered JS error: Error: La codifica utilizzata per l'URI da decodificare non è corretta | url: http://127.0.0.1:60714/tmp6756/browserOutput.js | line: 161 | column: 2 | error: URIError: La codifica utilizzata per l'URI da decodificare non è corretta | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-08-28 17:42:41.738] runtime error: undefined proc or verb /turf/open/floor/plating/dismantle wall().
+[2018-08-28 17:42:41.738] 
+[2018-08-28 17:42:41.738] proc name: attackby (/turf/closed/wall/mineral/wood/attackby)
+[2018-08-28 17:42:41.738]   source file: mineral_walls.dm,142
+[2018-08-28 17:42:41.738]   usr: Eats The Mice (/mob/living/carbon/human)
+[2018-08-28 17:42:41.739]   src: the plating (193,89,5) (/turf/open/floor/plating)
+[2018-08-28 17:42:41.739]   usr.loc: the floor (193,88,5) (/turf/open/floor/wood)
+[2018-08-28 17:42:41.739]   call stack:
+[2018-08-28 17:42:41.739] the plating (193,89,5) (/turf/open/floor/plating): attackby(the spear (/obj/item/twohanded/spear), Eats The Mice (/mob/living/carbon/human), "icon-x=18;icon-y=-14;left=1;sc...")
+[2018-08-28 17:42:41.739] the spear (/obj/item/twohanded/spear): melee attack chain(Eats The Mice (/mob/living/carbon/human), the plating (193,89,5) (/turf/open/floor/plating), "icon-x=18;icon-y=-14;left=1;sc...")
+[2018-08-28 17:42:41.739] Eats The Mice (/mob/living/carbon/human): ClickOn(the plating (193,89,5) (/turf/open/floor/plating), "icon-x=18;icon-y=-14;left=1;sc...")
+[2018-08-28 17:42:41.739] the plating (193,89,5) (/turf/open/floor/plating): Click(the plating (193,89,5) (/turf/open/floor/plating), "mapwindow.map", "icon-x=18;icon-y=-14;left=1;sc...")
+[2018-08-28 17:42:41.739] 
+[2018-08-28 17:45:28.485] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-28 17:45:28.485] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-28 17:45:28.485]   source file: unsorted.dm,1169
+[2018-08-28 17:45:28.485]   usr: (src)
+[2018-08-28 17:45:28.485]   src: Ivy (as Eats The Mice) (/mob/living/carbon/human)
+[2018-08-28 17:45:28.485]   src.loc: the floor (77,117,2) (/turf/open/floor/plasteel)
+[2018-08-28 17:45:28.485]   call stack:
+[2018-08-28 17:45:28.485] Ivy (as Eats The Mice) (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-28 17:45:28.485] Ivy (as Eats The Mice) (/mob/living/carbon/human): log message("(LOCAL): green i want antag no...", 1536, null, 1)
+[2018-08-28 17:45:28.485] Ivy (as Eats The Mice) (/mob/living/carbon/human): log message("(LOCAL): green i want antag no...", 1536, null, 1)
+[2018-08-28 17:45:28.485] Bilary (/client): LOOC("green i want antag now")
+[2018-08-28 17:45:28.485] 
+[2018-08-28 17:49:23.210] [2018-08-28 17:49:13] Client: Jesslynbrooke triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53935/tmp14636/browserOutput.js | line: 161 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-08-28 17:49:23.314] [2018-08-28 17:49:13] Client: Bilary triggered JS error: Error: Der zu entschlüsselnde URI hat keine gültige Verschlüsselung. | url: http://127.0.0.1:59993/tmp11648/browserOutput.js | line: 161 | column: 2 | error: URIError: Der zu entschlüsselnde URI hat keine gültige Verschlüsselung. | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; LCTE)
+[2018-08-28 17:54:53.777] runtime error: Cannot execute null.log message().
+[2018-08-28 17:54:53.777] proc name: log combat (/proc/log_combat)
+[2018-08-28 17:54:53.777]   source file: atoms.dm,671
+[2018-08-28 17:54:53.777]   usr: Wesley Snipes (/mob/living/carbon/human)
+[2018-08-28 17:54:53.777]   src: null
+[2018-08-28 17:54:53.777]   usr.loc: the floor (184,108,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-08-28 17:54:53.777]   call stack:
+[2018-08-28 17:54:53.777] log combat(Wesley Snipes (/mob/living/carbon/human), null, "carded", the intelliCard- Tidy (/obj/item/aicard), null)
+[2018-08-28 17:54:53.777] the intelliCard- Tidy (/obj/item/aicard): afterattack(the AI system integrity restor... (/obj/machinery/computer/aifixer), Wesley Snipes (/mob/living/carbon/human), 1, "icon-x=23;icon-y=20;left=1;scr...")
+[2018-08-28 17:54:53.777] the intelliCard- Tidy (/obj/item/aicard): melee attack chain(Wesley Snipes (/mob/living/carbon/human), the AI system integrity restor... (/obj/machinery/computer/aifixer), "icon-x=23;icon-y=20;left=1;scr...")
+[2018-08-28 17:54:53.777] Wesley Snipes (/mob/living/carbon/human): ClickOn(the AI system integrity restor... (/obj/machinery/computer/aifixer), "icon-x=23;icon-y=20;left=1;scr...")
+[2018-08-28 17:54:53.777] the AI system integrity restor... (/obj/machinery/computer/aifixer): Click(the floor (185,109,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=23;icon-y=20;left=1;scr...")
+[2018-08-28 17:54:53.777] Smarrazzo (/client): Click(the AI system integrity restor... (/obj/machinery/computer/aifixer), the floor (185,109,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=23;icon-y=20;left=1;scr...")
+[2018-08-28 17:54:53.777] 
+[2018-08-28 17:54:55.699] runtime error: Cannot execute null.log message().
+[2018-08-28 17:54:55.699] proc name: log combat (/proc/log_combat)
+[2018-08-28 17:54:55.699]   source file: atoms.dm,671
+[2018-08-28 17:54:55.699]   usr: Wesley Snipes (/mob/living/carbon/human)
+[2018-08-28 17:54:55.699]   src: null
+[2018-08-28 17:54:55.699]   usr.loc: the floor (184,108,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-08-28 17:54:55.699]   call stack:
+[2018-08-28 17:54:55.699] log combat(Wesley Snipes (/mob/living/carbon/human), null, "carded", the intelliCard- Tidy (/obj/item/aicard), null)
+[2018-08-28 17:54:55.699] the intelliCard- Tidy (/obj/item/aicard): afterattack(the AI system integrity restor... (/obj/machinery/computer/aifixer), Wesley Snipes (/mob/living/carbon/human), 1, "icon-x=23;icon-y=20;left=1;scr...")
+[2018-08-28 17:54:55.699] the intelliCard- Tidy (/obj/item/aicard): melee attack chain(Wesley Snipes (/mob/living/carbon/human), the AI system integrity restor... (/obj/machinery/computer/aifixer), "icon-x=23;icon-y=20;left=1;scr...")
+[2018-08-28 17:54:55.699] Wesley Snipes (/mob/living/carbon/human): ClickOn(the AI system integrity restor... (/obj/machinery/computer/aifixer), "icon-x=23;icon-y=20;left=1;scr...")
+[2018-08-28 17:54:55.699] the AI system integrity restor... (/obj/machinery/computer/aifixer): Click(the floor (185,109,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=23;icon-y=20;left=1;scr...")
+[2018-08-28 17:54:55.699] Smarrazzo (/client): Click(the AI system integrity restor... (/obj/machinery/computer/aifixer), the floor (185,109,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=23;icon-y=20;left=1;scr...")
+[2018-08-28 17:54:55.699] 
+[2018-08-28 18:04:46.955] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-28 18:04:46.955] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-28 18:04:46.955]   source file: unsorted.dm,1169
+[2018-08-28 18:04:46.955]   usr: (src)
+[2018-08-28 18:04:46.955]   src: Wesley Snipes (/mob/living/carbon/human)
+[2018-08-28 18:04:46.955]   src.loc: the shuttle floor (82,171,12) (/turf/open/floor/mineral/titanium/blue)
+[2018-08-28 18:04:46.955]   call stack:
+[2018-08-28 18:04:46.955] Wesley Snipes (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-28 18:04:46.955] Wesley Snipes (/mob/living/carbon/human): log message("(LOCAL): amd ugly design ?", 1536, null, 1)
+[2018-08-28 18:04:46.955] Wesley Snipes (/mob/living/carbon/human): log message("(LOCAL): amd ugly design ?", 1536, null, 1)
+[2018-08-28 18:04:46.955] Smarrazzo (/client): LOOC("amd ugly design ?")
+[2018-08-28 18:04:46.955] 
+[2018-08-28 18:05:13.003] Saved 20 engraved messages on map Box Station
+[2018-08-28 18:06:48.357] Shutting down Persistence subsystem...
+[2018-08-28 18:06:48.358] Shutting down Pathfinder subsystem...
+[2018-08-28 18:06:48.358] Shutting down Squeak subsystem...
+[2018-08-28 18:06:48.358] Shutting down Shuttle subsystem...
+[2018-08-28 18:06:48.358] Shutting down Lighting subsystem...
+[2018-08-28 18:06:48.358] Shutting down XKeyScore subsystem...
+[2018-08-28 18:06:48.358] Shutting down Sticky Ban subsystem...
+[2018-08-28 18:06:48.358] Shutting down Overlay subsystem...
+[2018-08-28 18:06:48.410] Shutting down Icon Smoothing subsystem...
+[2018-08-28 18:06:48.410] Shutting down Assets subsystem...
+[2018-08-28 18:06:48.410] Shutting down Minimap subsystem...
+[2018-08-28 18:06:48.410] Shutting down Atmospherics subsystem...
+[2018-08-28 18:06:48.410] Shutting down Wet floors subsystem...
+[2018-08-28 18:06:48.410] Shutting down Weather subsystem...
+[2018-08-28 18:06:48.410] Shutting down Vote subsystem...
+[2018-08-28 18:06:48.411] Shutting down Traumas subsystem...
+[2018-08-28 18:06:48.411] Shutting down Title Screen subsystem...
+[2018-08-28 18:06:48.412] Shutting down Time Tracking subsystem...
+[2018-08-28 18:06:48.412] Shutting down Throwing subsystem...
+[2018-08-28 18:06:48.412] Shutting down tgui subsystem...
+[2018-08-28 18:06:48.412] Shutting down Sun subsystem...
+[2018-08-28 18:06:48.412] Shutting down Space Drift subsystem...
+[2018-08-28 18:06:48.412] Shutting down Religion subsystem...
+[2018-08-28 18:06:48.412] Shutting down Radio subsystem...
+[2018-08-28 18:06:48.412] Shutting down Radiation subsystem...
+[2018-08-28 18:06:48.412] Shutting down Projectiles subsystem...
+[2018-08-28 18:06:48.412] Shutting down Processing subsystem...
+[2018-08-28 18:06:48.412] Shutting down Ping subsystem...
+[2018-08-28 18:06:48.412] Shutting down Parallax subsystem...
+[2018-08-28 18:06:48.412] Shutting down pAI subsystem...
+[2018-08-28 18:06:48.412] Shutting down Orbits subsystem...
+[2018-08-28 18:06:48.413] Shutting down Objects subsystem...
+[2018-08-28 18:06:48.413] Shutting down NPC Pool subsystem...
+[2018-08-28 18:06:48.413] Shutting down Night Shift subsystem...
+[2018-08-28 18:06:48.413] Shutting down Nanites subsystem...
+[2018-08-28 18:06:48.413] Shutting down Mood subsystem...
+[2018-08-28 18:06:48.413] Shutting down Mobs subsystem...
+[2018-08-28 18:06:48.413] Shutting down Medals subsystem...
+[2018-08-28 18:06:48.413] Shutting down Idling NPC Pool subsystem...
+[2018-08-28 18:06:48.413] Shutting down Fire Burning subsystem...
+[2018-08-28 18:06:48.413] Shutting down Fields subsystem...
+[2018-08-28 18:06:48.413] Shutting down Fast Processing subsystem...
+[2018-08-28 18:06:48.413] Shutting down Disease subsystem...
+[2018-08-28 18:06:48.413] Shutting down Datum Component System subsystem...
+[2018-08-28 18:06:48.413] Shutting down Communications subsystem...
+[2018-08-28 18:06:48.413] Shutting down Augury subsystem...
+[2018-08-28 18:06:48.413] Shutting down Acid subsystem...
+[2018-08-28 18:06:48.413] Shutting down Timer subsystem...
+[2018-08-28 18:06:48.413] Shutting down Circuit subsystem...
+[2018-08-28 18:06:48.413] Shutting down Machines subsystem...
+[2018-08-28 18:06:48.414] Shutting down Language subsystem...
+[2018-08-28 18:06:48.414] Shutting down Atoms subsystem...
+[2018-08-28 18:06:48.414] Shutting down Networks subsystem...
+[2018-08-28 18:06:48.414] Shutting down Mapping subsystem...
+[2018-08-28 18:06:48.414] Shutting down Ticker subsystem...
+[2018-08-28 18:06:48.687] Shutting down Quirks subsystem...
+[2018-08-28 18:06:48.687] Shutting down Jobs subsystem...
+[2018-08-28 18:06:48.687] Shutting down Events subsystem...
+[2018-08-28 18:06:48.687] Shutting down Research subsystem...
+[2018-08-28 18:06:48.687] Shutting down Input subsystem...
+[2018-08-28 18:06:48.687] Shutting down Server Tasks subsystem...
+[2018-08-28 18:06:48.687] Shutting down Blackbox subsystem...
+[2018-08-28 18:06:48.963] Shutting down Database subsystem...
+[2018-08-28 18:06:49.002] Shutting down Garbage subsystem...
+[2018-08-28 18:06:49.108] Shutdown complete
+[2018-08-28 18:06:49.108] World rebooted at 18:06:49

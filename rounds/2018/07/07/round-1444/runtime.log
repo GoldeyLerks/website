@@ -1,0 +1,231 @@
+[2018-07-07 02:17:45.342] Starting up round ID 1444.
+[2018-07-07 02:17:45.342] -------------------------
+[2018-07-07 02:17:48.932] Initialized Database subsystem within 0 seconds!
+[2018-07-07 02:17:48.933] Initialized Blackbox subsystem within 0 seconds!
+[2018-07-07 02:17:48.933] Initialized Server Tasks subsystem within 0 seconds!
+[2018-07-07 02:17:48.934] Initialized Input subsystem within 0 seconds!
+[2018-07-07 02:17:48.973] Initialized Research subsystem within 0 seconds!
+[2018-07-07 02:17:48.978] Initialized Events subsystem within 0 seconds!
+[2018-07-07 02:17:48.982] Initialized Jobs subsystem within 0 seconds!
+[2018-07-07 02:17:48.983] Initialized Quirks subsystem within 0 seconds!
+[2018-07-07 02:17:48.990] Initialized Ticker subsystem within 0 seconds!
+[2018-07-07 02:17:48.990] Loading Box Station...
+[2018-07-07 02:17:54.695] Loaded Station in 5.7s!
+[2018-07-07 02:18:00.797] Loaded Lavaland in 5.5s!
+[2018-07-07 02:18:06.698] Ruin loader finished with 0 left to spend.
+[2018-07-07 02:18:09.215] Ruin loader finished with 0 left to spend.
+[2018-07-07 02:18:19.096] Initialized Mapping subsystem within 30.1 seconds!
+[2018-07-07 02:18:19.097] Initialized Networks subsystem within 0 seconds!
+[2018-07-07 02:19:01.662] Initialized Atoms subsystem within 42.6 seconds!
+[2018-07-07 02:19:01.680] Initialized Language subsystem within 0 seconds!
+[2018-07-07 02:19:02.103] Initialized Machines subsystem within 0.5 seconds!
+[2018-07-07 02:19:02.186] Initialized Circuit subsystem within 0 seconds!
+[2018-07-07 02:19:02.188] Initialized Disease subsystem within 0 seconds!
+[2018-07-07 02:19:02.188] Initialized Medals subsystem within 0 seconds!
+[2018-07-07 02:19:02.189] Initialized Night Shift subsystem within 0 seconds!
+[2018-07-07 02:19:02.189] Initialized Parallax subsystem within 0 seconds!
+[2018-07-07 02:19:02.333] Initialized Traumas subsystem within 0.2 seconds!
+[2018-07-07 02:19:02.334] Initialized Weather subsystem within 0 seconds!
+[2018-07-07 02:20:23.215] Initialized Atmospherics subsystem within 80.9 seconds!
+[2018-07-07 02:20:23.232] Initialized Minimap subsystem within 0 seconds!
+[2018-07-07 02:20:25.415] Initialized Assets subsystem within 2.2 seconds!
+[2018-07-07 02:20:31.780] Initialized Icon Smoothing subsystem within 6.3 seconds!
+[2018-07-07 02:20:33.256] Initialized Overlay subsystem within 1.5 seconds!
+[2018-07-07 02:20:33.256] Initialized XKeyScore subsystem within 0 seconds!
+[2018-07-07 02:20:33.262] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-07-07 02:20:45.791] Initialized Lighting subsystem within 12.5 seconds!
+[2018-07-07 02:20:48.883] Initialized Shuttle subsystem within 3.1 seconds!
+[2018-07-07 02:20:48.919] Initialized Squeak subsystem within 0.1 seconds!
+[2018-07-07 02:20:48.920] Initialized Pathfinder subsystem within 0 seconds!
+[2018-07-07 02:20:48.967] Loaded 6 engraved messages on map Box Station
+[2018-07-07 02:20:49.019] Initialized Persistence subsystem within 0.1 seconds!
+[2018-07-07 02:20:49.019] Initializations complete within 180.1 seconds!
+[2018-07-07 02:22:00.239] Game start took 2.1s
+[2018-07-07 02:26:20.007] runtime error: The grille taking damage after deletion
+[2018-07-07 02:26:20.007] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 02:26:20.007]   source file: unsorted.dm,1243
+[2018-07-07 02:26:20.007]   usr: null
+[2018-07-07 02:26:20.007]   src: the grille (/obj/structure/grille)
+[2018-07-07 02:26:20.007]   src.loc: null
+[2018-07-07 02:26:20.007]   call stack:
+[2018-07-07 02:26:20.007] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-07-07 02:26:20.007] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null, 0)
+[2018-07-07 02:26:20.007] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null)
+[2018-07-07 02:26:20.007] the grille (/obj/structure/grille): attack animal(the space carp (/mob/living/simple_animal/hostile/carp))
+[2018-07-07 02:26:20.008] the space carp (/mob/living/simple_animal/hostile/carp): DestroyObjectsInDirection(4)
+[2018-07-07 02:26:20.008] the space carp (/mob/living/simple_animal/hostile/carp): DestroyPathToTarget()
+[2018-07-07 02:26:20.008] the space carp (/mob/living/simple_animal/hostile/carp): handle automated action()
+[2018-07-07 02:26:20.008] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-07-07 02:26:20.008] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-07-07 02:26:20.008] Master (/datum/controller/master): RunQueue()
+[2018-07-07 02:26:20.008] Master (/datum/controller/master): Loop()
+[2018-07-07 02:26:20.008] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-07 02:26:20.008] 
+[2018-07-07 02:26:46.323] runtime error: The grille taking damage after deletion
+[2018-07-07 02:26:46.323] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 02:26:46.323]   source file: unsorted.dm,1243
+[2018-07-07 02:26:46.323]   usr: the space carp (/mob/living/simple_animal/hostile/carp)
+[2018-07-07 02:26:46.323]   src: the grille (/obj/structure/grille)
+[2018-07-07 02:26:46.323]   usr.loc: the floor (141,126,2) (/turf/open/floor/plasteel/white)
+[2018-07-07 02:26:46.323]   src.loc: null
+[2018-07-07 02:26:46.323]   call stack:
+[2018-07-07 02:26:46.323] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-07-07 02:26:46.323] the grille (/obj/structure/grille): take damage(8, "brute", "melee", 1, null, 0)
+[2018-07-07 02:26:46.323] the grille (/obj/structure/grille): take damage(8, "brute", "melee", 1, null)
+[2018-07-07 02:26:46.323] the grille (/obj/structure/grille): attack animal(the space carp (/mob/living/simple_animal/hostile/carp))
+[2018-07-07 02:26:46.323] the space carp (/mob/living/simple_animal/hostile/carp): AttackingTarget()
+[2018-07-07 02:26:46.323] the space carp (/mob/living/simple_animal/hostile/carp): AttackingTarget()
+[2018-07-07 02:26:46.323] the space carp (/mob/living/simple_animal/hostile/carp): UnarmedAttack(the grille (/obj/structure/grille), 1)
+[2018-07-07 02:26:46.323] the space carp (/mob/living/simple_animal/hostile/carp): ClickOn(the grille (/obj/structure/grille), "icon-x=23;icon-y=13;left=1;scr...")
+[2018-07-07 02:26:46.323] the grille (/obj/structure/grille): Click(the plating (141,127,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=23;icon-y=13;left=1;scr...")
+[2018-07-07 02:26:46.323] Disguiser (/client): Click(the grille (/obj/structure/grille), the plating (141,127,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=23;icon-y=13;left=1;scr...")
+[2018-07-07 02:26:46.323] 
+[2018-07-07 02:26:48.034] runtime error: The grille taking damage after deletion
+[2018-07-07 02:26:48.034] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 02:26:48.034]   source file: unsorted.dm,1243
+[2018-07-07 02:26:48.034]   usr: null
+[2018-07-07 02:26:48.034]   src: the grille (/obj/structure/grille)
+[2018-07-07 02:26:48.034]   src.loc: null
+[2018-07-07 02:26:48.034]   call stack:
+[2018-07-07 02:26:48.034] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-07-07 02:26:48.034] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null, 0)
+[2018-07-07 02:26:48.034] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null)
+[2018-07-07 02:26:48.034] the grille (/obj/structure/grille): attack animal(the space carp (/mob/living/simple_animal/hostile/carp))
+[2018-07-07 02:26:48.034] the space carp (/mob/living/simple_animal/hostile/carp): DestroyObjectsInDirection(1)
+[2018-07-07 02:26:48.034] the space carp (/mob/living/simple_animal/hostile/carp): DestroyPathToTarget()
+[2018-07-07 02:26:48.034] the space carp (/mob/living/simple_animal/hostile/carp): handle automated action()
+[2018-07-07 02:26:48.034] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-07-07 02:26:48.034] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-07-07 02:26:48.034] Master (/datum/controller/master): RunQueue()
+[2018-07-07 02:26:48.034] Master (/datum/controller/master): Loop()
+[2018-07-07 02:26:48.034] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-07 02:26:48.034] 
+[2018-07-07 02:27:20.751] runtime error: The grille taking damage after deletion
+[2018-07-07 02:27:20.751] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 02:27:20.751]   source file: unsorted.dm,1243
+[2018-07-07 02:27:20.751]   usr: the space carp (/mob/living/simple_animal/hostile/carp)
+[2018-07-07 02:27:20.751]   src: the grille (/obj/structure/grille)
+[2018-07-07 02:27:20.751]   usr.loc: the floor (157,110,2) (/turf/open/floor/plasteel/barber)
+[2018-07-07 02:27:20.751]   src.loc: null
+[2018-07-07 02:27:20.751]   call stack:
+[2018-07-07 02:27:20.751] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-07-07 02:27:20.751] the grille (/obj/structure/grille): take damage(5, "brute", "melee", 1, null, 0)
+[2018-07-07 02:27:20.751] the grille (/obj/structure/grille): take damage(5, "brute", "melee", 1, null)
+[2018-07-07 02:27:20.751] the grille (/obj/structure/grille): attack animal(the space carp (/mob/living/simple_animal/hostile/carp))
+[2018-07-07 02:27:20.751] the space carp (/mob/living/simple_animal/hostile/carp): AttackingTarget()
+[2018-07-07 02:27:20.751] the space carp (/mob/living/simple_animal/hostile/carp): AttackingTarget()
+[2018-07-07 02:27:20.752] the space carp (/mob/living/simple_animal/hostile/carp): UnarmedAttack(the grille (/obj/structure/grille), 1)
+[2018-07-07 02:27:20.752] the space carp (/mob/living/simple_animal/hostile/carp): ClickOn(the grille (/obj/structure/grille), "icon-x=23;icon-y=1;left=1;scre...")
+[2018-07-07 02:27:20.752] the grille (/obj/structure/grille): Click(the plating (156,110,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=23;icon-y=1;left=1;scre...")
+[2018-07-07 02:27:20.752] Disguiser (/client): Click(the grille (/obj/structure/grille), the plating (156,110,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=23;icon-y=1;left=1;scre...")
+[2018-07-07 02:27:20.752] 
+[2018-07-07 02:27:21.656] runtime error: The grille taking damage after deletion
+[2018-07-07 02:27:21.656] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 02:27:21.656]   source file: unsorted.dm,1243
+[2018-07-07 02:27:21.656]   usr: the space carp (/mob/living/simple_animal/hostile/carp)
+[2018-07-07 02:27:21.656]   src: the grille (/obj/structure/grille/broken)
+[2018-07-07 02:27:21.656]   usr.loc: the floor (157,110,2) (/turf/open/floor/plasteel/barber)
+[2018-07-07 02:27:21.656]   src.loc: null
+[2018-07-07 02:27:21.656]   call stack:
+[2018-07-07 02:27:21.656] the grille (/obj/structure/grille/broken): stack trace("The grille taking damage after...")
+[2018-07-07 02:27:21.656] the grille (/obj/structure/grille/broken): take damage(6, "brute", "melee", 1, null, 0)
+[2018-07-07 02:27:21.656] the grille (/obj/structure/grille/broken): take damage(6, "brute", "melee", 1, null)
+[2018-07-07 02:27:21.656] the grille (/obj/structure/grille/broken): attack animal(the space carp (/mob/living/simple_animal/hostile/carp))
+[2018-07-07 02:27:21.656] the space carp (/mob/living/simple_animal/hostile/carp): AttackingTarget()
+[2018-07-07 02:27:21.656] the space carp (/mob/living/simple_animal/hostile/carp): AttackingTarget()
+[2018-07-07 02:27:21.656] the space carp (/mob/living/simple_animal/hostile/carp): UnarmedAttack(the grille (/obj/structure/grille/broken), 1)
+[2018-07-07 02:27:21.656] the space carp (/mob/living/simple_animal/hostile/carp): ClickOn(the grille (/obj/structure/grille/broken), "icon-x=23;icon-y=5;left=1;scre...")
+[2018-07-07 02:27:21.656] the grille (/obj/structure/grille/broken): Click(the plating (156,110,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=23;icon-y=5;left=1;scre...")
+[2018-07-07 02:27:21.656] Disguiser (/client): Click(the grille (/obj/structure/grille/broken), the plating (156,110,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=23;icon-y=5;left=1;scre...")
+[2018-07-07 02:27:21.656] 
+[2018-07-07 02:27:22.873] runtime error: The grille taking damage after deletion
+[2018-07-07 02:27:22.873] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 02:27:22.873]   source file: unsorted.dm,1243
+[2018-07-07 02:27:22.873] 
+[2018-07-07 02:27:28.385] runtime error: The grille taking damage after deletion
+[2018-07-07 02:27:28.386] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 02:27:28.386]   source file: unsorted.dm,1243
+[2018-07-07 02:27:28.386] 
+[2018-07-07 02:29:11.470] runtime error: The grille taking damage after deletion
+[2018-07-07 02:29:11.470] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 02:29:11.470]   source file: unsorted.dm,1243
+[2018-07-07 02:29:11.470] 
+[2018-07-07 02:40:18.893] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 02:40:18.894] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 02:40:18.894]   source file: unsorted.dm,1240
+[2018-07-07 02:40:18.894] 
+[2018-07-07 02:44:15.242] runtime error: The grille taking damage after deletion
+[2018-07-07 02:44:15.242] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 02:44:15.242]   source file: unsorted.dm,1243
+[2018-07-07 02:44:15.242] 
+[2018-07-07 02:49:42.680] runtime error: The grille taking damage after deletion
+[2018-07-07 02:49:42.681] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 02:49:42.681]   source file: unsorted.dm,1243
+[2018-07-07 02:49:42.681] 
+[2018-07-07 03:01:11.736] Saved 6 engraved messages on map Box Station
+[2018-07-07 03:02:46.704] Shutting down Persistence subsystem...
+[2018-07-07 03:02:46.705] Shutting down Pathfinder subsystem...
+[2018-07-07 03:02:46.705] Shutting down Squeak subsystem...
+[2018-07-07 03:02:46.705] Shutting down Shuttle subsystem...
+[2018-07-07 03:02:46.705] Shutting down Lighting subsystem...
+[2018-07-07 03:02:46.705] Shutting down XKeyScore subsystem...
+[2018-07-07 03:02:46.705] Shutting down Sticky Ban subsystem...
+[2018-07-07 03:02:46.705] Shutting down Overlay subsystem...
+[2018-07-07 03:02:46.736] Shutting down Icon Smoothing subsystem...
+[2018-07-07 03:02:46.736] Shutting down Assets subsystem...
+[2018-07-07 03:02:46.737] Shutting down Minimap subsystem...
+[2018-07-07 03:02:46.737] Shutting down Atmospherics subsystem...
+[2018-07-07 03:02:46.737] Shutting down Wet floors subsystem...
+[2018-07-07 03:02:46.737] Shutting down Weather subsystem...
+[2018-07-07 03:02:46.737] Shutting down Vote subsystem...
+[2018-07-07 03:02:46.737] Shutting down Traumas subsystem...
+[2018-07-07 03:02:46.737] Shutting down Title Screen subsystem...
+[2018-07-07 03:02:46.737] Shutting down Time Tracking subsystem...
+[2018-07-07 03:02:46.737] Shutting down Throwing subsystem...
+[2018-07-07 03:02:46.737] Shutting down tgui subsystem...
+[2018-07-07 03:02:46.737] Shutting down Sun subsystem...
+[2018-07-07 03:02:46.737] Shutting down Space Drift subsystem...
+[2018-07-07 03:02:46.737] Shutting down Religion subsystem...
+[2018-07-07 03:02:46.737] Shutting down Radio subsystem...
+[2018-07-07 03:02:46.737] Shutting down Radiation subsystem...
+[2018-07-07 03:02:46.737] Shutting down Projectiles subsystem...
+[2018-07-07 03:02:46.738] Shutting down Processing subsystem...
+[2018-07-07 03:02:46.738] Shutting down Ping subsystem...
+[2018-07-07 03:02:46.738] Shutting down Parallax subsystem...
+[2018-07-07 03:02:46.738] Shutting down pAI subsystem...
+[2018-07-07 03:02:46.738] Shutting down Orbits subsystem...
+[2018-07-07 03:02:46.738] Shutting down Objects subsystem...
+[2018-07-07 03:02:46.738] Shutting down NPC Pool subsystem...
+[2018-07-07 03:02:46.738] Shutting down Night Shift subsystem...
+[2018-07-07 03:02:46.738] Shutting down Mood subsystem...
+[2018-07-07 03:02:46.738] Shutting down Mobs subsystem...
+[2018-07-07 03:02:46.738] Shutting down Medals subsystem...
+[2018-07-07 03:02:46.738] Shutting down Idling NPC Pool subsystem...
+[2018-07-07 03:02:46.738] Shutting down Flightpack Movement subsystem...
+[2018-07-07 03:02:46.738] Shutting down Fire Burning subsystem...
+[2018-07-07 03:02:46.738] Shutting down Fields subsystem...
+[2018-07-07 03:02:46.738] Shutting down Fast Processing subsystem...
+[2018-07-07 03:02:46.738] Shutting down Disease subsystem...
+[2018-07-07 03:02:46.738] Shutting down Datum Component System subsystem...
+[2018-07-07 03:02:46.738] Shutting down Communications subsystem...
+[2018-07-07 03:02:46.738] Shutting down Augury subsystem...
+[2018-07-07 03:02:46.738] Shutting down Acid subsystem...
+[2018-07-07 03:02:46.738] Shutting down Timer subsystem...
+[2018-07-07 03:02:46.738] Shutting down Circuit subsystem...
+[2018-07-07 03:02:46.738] Shutting down Machines subsystem...
+[2018-07-07 03:02:46.738] Shutting down Language subsystem...
+[2018-07-07 03:02:46.738] Shutting down Atoms subsystem...
+[2018-07-07 03:02:46.739] Shutting down Networks subsystem...
+[2018-07-07 03:02:46.739] Shutting down Mapping subsystem...
+[2018-07-07 03:02:46.739] Shutting down Ticker subsystem...
+[2018-07-07 03:02:46.858] Shutting down Quirks subsystem...
+[2018-07-07 03:02:46.858] Shutting down Jobs subsystem...
+[2018-07-07 03:02:46.858] Shutting down Events subsystem...
+[2018-07-07 03:02:46.858] Shutting down Research subsystem...
+[2018-07-07 03:02:46.858] Shutting down Input subsystem...
+[2018-07-07 03:02:46.858] Shutting down Server Tasks subsystem...
+[2018-07-07 03:02:46.858] Shutting down Blackbox subsystem...
+[2018-07-07 03:02:46.931] Shutting down Database subsystem...
+[2018-07-07 03:02:46.968] Shutting down Garbage subsystem...
+[2018-07-07 03:02:47.003] Shutdown complete
+[2018-07-07 03:02:47.003] World rebooted at 03:02:47

@@ -1,0 +1,336 @@
+[2018-08-20 02:11:00.537] Starting up round ID 2008.
+[2018-08-20 02:11:00.537] -------------------------
+[2018-08-20 02:11:02.034] Initialized Database subsystem within 0 seconds!
+[2018-08-20 02:11:02.034] Initialized Blackbox subsystem within 0 seconds!
+[2018-08-20 02:11:02.034] Initialized Server Tasks subsystem within 0 seconds!
+[2018-08-20 02:11:02.035] Initialized Input subsystem within 0 seconds!
+[2018-08-20 02:11:02.071] Initialized Research subsystem within 0 seconds!
+[2018-08-20 02:11:02.075] Initialized Events subsystem within 0 seconds!
+[2018-08-20 02:11:02.079] Initialized Jobs subsystem within 0 seconds!
+[2018-08-20 02:11:02.080] Initialized Quirks subsystem within 0 seconds!
+[2018-08-20 02:11:02.091] Initialized Ticker subsystem within 0 seconds!
+[2018-08-20 02:11:02.091] Loading Box Station...
+[2018-08-20 02:11:08.130] Loaded Station in 6.1s!
+[2018-08-20 02:11:14.102] Loaded Lavaland in 5.3s!
+[2018-08-20 02:11:16.662] Ruin loader finished with 0 left to spend.
+[2018-08-20 02:11:19.081] Ruin loader finished with 0 left to spend.
+[2018-08-20 02:11:29.272] Initialized Mapping subsystem within 27.2 seconds!
+[2018-08-20 02:11:29.273] Initialized Networks subsystem within 0 seconds!
+[2018-08-20 02:12:19.344] Initialized Atoms subsystem within 50.1 seconds!
+[2018-08-20 02:12:19.361] Initialized Language subsystem within 0 seconds!
+[2018-08-20 02:12:19.802] Initialized Machines subsystem within 0.5 seconds!
+[2018-08-20 02:12:19.856] Initialized Circuit subsystem within 0 seconds!
+[2018-08-20 02:12:19.858] Initialized Disease subsystem within 0 seconds!
+[2018-08-20 02:12:19.858] Initialized Medals subsystem within 0 seconds!
+[2018-08-20 02:12:19.858] Initialized Night Shift subsystem within 0 seconds!
+[2018-08-20 02:12:19.858] Initialized Parallax subsystem within 0 seconds!
+[2018-08-20 02:12:19.988] Initialized Traumas subsystem within 0.1 seconds!
+[2018-08-20 02:12:19.989] Initialized Weather subsystem within 0 seconds!
+[2018-08-20 02:13:37.553] ## WARNING: There are 1 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+[2018-08-20 02:13:37.559] ## WARNING: HEY! LISTEN! 0 seconds were wasted processing 1 turf(s) (connected to 2 other turfs) with atmos differences at round start.
+[2018-08-20 02:13:38.059] Initialized Atmospherics subsystem within 78.1 seconds!
+[2018-08-20 02:13:38.085] Initialized Minimap subsystem within 0 seconds!
+[2018-08-20 02:13:40.204] Initialized Assets subsystem within 2.2 seconds!
+[2018-08-20 02:13:46.464] Initialized Icon Smoothing subsystem within 6.2 seconds!
+[2018-08-20 02:13:48.004] Initialized Overlay subsystem within 1.6 seconds!
+[2018-08-20 02:13:48.005] Initialized XKeyScore subsystem within 0 seconds!
+[2018-08-20 02:13:48.006] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-08-20 02:14:02.111] Initialized Lighting subsystem within 14.1 seconds!
+[2018-08-20 02:14:05.160] Initialized Shuttle subsystem within 3 seconds!
+[2018-08-20 02:14:05.197] Initialized Squeak subsystem within 0 seconds!
+[2018-08-20 02:14:05.199] Initialized Pathfinder subsystem within 0 seconds!
+[2018-08-20 02:14:05.251] Loaded 22 engraved messages on map Box Station
+[2018-08-20 02:14:05.292] Initialized Persistence subsystem within 0.1 seconds!
+[2018-08-20 02:14:05.293] Initializations complete within 183.2 seconds!
+[2018-08-20 02:15:14.356] Game start took 1s
+[2018-08-20 02:15:24.828] runtime error: Cannot modify null.icon_state.
+[2018-08-20 02:15:24.828] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 02:15:24.828]   source file: mood.dm,122
+[2018-08-20 02:15:24.828]   usr: Jess Jenkers (/mob/living/carbon/human)
+[2018-08-20 02:15:24.829]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-20 02:15:24.829]   usr.loc: the floor (158,110,2) (/turf/open/floor/plasteel/barber)
+[2018-08-20 02:15:24.829]   call stack:
+[2018-08-20 02:15:24.829] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-20 02:15:24.829] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-20 02:15:24.829] /datum/component/mood (/datum/component/mood): add event("antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused), null)
+[2018-08-20 02:15:24.829] /datum/callback (/datum/callback): Invoke("antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused))
+[2018-08-20 02:15:24.829] world: PushUsr(Jess Jenkers (/mob/living/carbon/human), /datum/callback (/datum/callback), "antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused))
+[2018-08-20 02:15:24.829] /datum/callback (/datum/callback): InvokeAsync("antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused))
+[2018-08-20 02:15:24.829] Jess Jenkers (/mob/living/carbon/human):  SendSignal("add_mood", /list (/list))
+[2018-08-20 02:15:24.829] Traitor (/datum/antagonist/traitor): give antag moodies()
+[2018-08-20 02:15:24.829] Traitor (/datum/antagonist/traitor): on gain()
+[2018-08-20 02:15:24.829] Traitor (/datum/antagonist/traitor): on gain()
+[2018-08-20 02:15:24.829] Jess Jenkers (/datum/mind): add antag datum(Traitor (/datum/antagonist/traitor), null)
+[2018-08-20 02:15:24.829] /datum/callback (/datum/callback): InvokeAsync()
+[2018-08-20 02:15:24.829] Timer (/datum/controller/subsystem/timer): fire(0)
+[2018-08-20 02:15:24.829] Timer (/datum/controller/subsystem/timer): ignite(0)
+[2018-08-20 02:15:24.829] Master (/datum/controller/master): RunQueue()
+[2018-08-20 02:15:24.829] Master (/datum/controller/master): Loop()
+[2018-08-20 02:15:24.829] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-20 02:15:24.829] 
+[2018-08-20 02:39:40.291] runtime error: Cannot modify null.icon_state.
+[2018-08-20 02:39:40.291] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 02:39:40.291]   source file: mood.dm,122
+[2018-08-20 02:39:40.291]   usr: null
+[2018-08-20 02:39:40.292]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-20 02:39:40.292]   call stack:
+[2018-08-20 02:39:40.292] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-20 02:39:40.292] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-20 02:39:40.292] /datum/component/mood (/datum/component/mood): add event("nutrition", /datum/mood_event/nutrition/hu... (/datum/mood_event/nutrition/hungry), null)
+[2018-08-20 02:39:40.292] /datum/component/mood (/datum/component/mood): HandleNutrition(Tyron Jamal (as Captain) (/mob/living/carbon/human))
+[2018-08-20 02:39:40.292] /datum/component/mood (/datum/component/mood): process(10)
+[2018-08-20 02:39:40.292] Mood (/datum/controller/subsystem/processing/mood): fire(0)
+[2018-08-20 02:39:40.292] Mood (/datum/controller/subsystem/processing/mood): ignite(0)
+[2018-08-20 02:39:40.292] Master (/datum/controller/master): RunQueue()
+[2018-08-20 02:39:40.292] Master (/datum/controller/master): Loop()
+[2018-08-20 02:39:40.292] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-20 02:39:40.292] 
+[2018-08-20 02:51:05.572] runtime error: bad arg name 'log_globally'
+[2018-08-20 02:51:05.573] proc name: log message (/obj/mecha/log_message)
+[2018-08-20 02:51:05.573]   usr: null
+[2018-08-20 02:51:05.573]   src: Tyron&#39;s cool mech (/obj/mecha/working/ripley)
+[2018-08-20 02:51:05.573]   src.loc: the volcanic floor (115,44,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[2018-08-20 02:51:05.573]   call stack:
+[2018-08-20 02:51:05.573] Tyron&#39;s cool mech (/obj/mecha/working/ripley): log message("has been attacked by *no key*/...", 1, "orange", null)
+[2018-08-20 02:51:05.573] log combat(the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random), Tyron&#39;s cool mech (/obj/mecha/working/ripley), "attacked", null, null)
+[2018-08-20 02:51:05.573] Tyron&#39;s cool mech (/obj/mecha/working/ripley): attack animal(the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random))
+[2018-08-20 02:51:05.573] the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random): AttackingTarget()
+[2018-08-20 02:51:05.573] the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random): MeleeAction(1)
+[2018-08-20 02:51:05.573] the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random): MoveToTarget(/list (/list))
+[2018-08-20 02:51:05.573] the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random): handle automated action()
+[2018-08-20 02:51:05.573] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-08-20 02:51:05.573] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-08-20 02:51:05.573] Master (/datum/controller/master): RunQueue()
+[2018-08-20 02:51:05.573] Master (/datum/controller/master): Loop()
+[2018-08-20 02:51:05.573] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-20 02:51:05.573] 
+[2018-08-20 02:51:07.571] runtime error: bad arg name 'log_globally'
+[2018-08-20 02:51:07.571] proc name: log message (/obj/mecha/log_message)
+[2018-08-20 02:51:07.571]   usr: null
+[2018-08-20 02:51:07.571]   src: Tyron&#39;s cool mech (/obj/mecha/working/ripley)
+[2018-08-20 02:51:07.571]   src.loc: the volcanic floor (115,44,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[2018-08-20 02:51:07.571]   call stack:
+[2018-08-20 02:51:07.571] Tyron&#39;s cool mech (/obj/mecha/working/ripley): log message("has been attacked by *no key*/...", 1, "orange", null)
+[2018-08-20 02:51:07.571] log combat(the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random), Tyron&#39;s cool mech (/obj/mecha/working/ripley), "attacked", null, null)
+[2018-08-20 02:51:07.571] Tyron&#39;s cool mech (/obj/mecha/working/ripley): attack animal(the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random))
+[2018-08-20 02:51:07.571] the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random): AttackingTarget()
+[2018-08-20 02:51:07.571] the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random): MeleeAction(1)
+[2018-08-20 02:51:07.571] the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random): MoveToTarget(/list (/list))
+[2018-08-20 02:51:07.571] the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random): handle automated action()
+[2018-08-20 02:51:07.571] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-08-20 02:51:07.571] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-08-20 02:51:07.571] Master (/datum/controller/master): RunQueue()
+[2018-08-20 02:51:07.571] Master (/datum/controller/master): Loop()
+[2018-08-20 02:51:07.571] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-20 02:51:07.571] 
+[2018-08-20 02:51:09.570] runtime error: bad arg name 'log_globally'
+[2018-08-20 02:51:09.570] proc name: log message (/obj/mecha/log_message)
+[2018-08-20 02:51:09.570]   usr: null
+[2018-08-20 02:51:09.570]   src: Tyron&#39;s cool mech (/obj/mecha/working/ripley)
+[2018-08-20 02:51:09.570]   src.loc: the volcanic floor (115,44,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[2018-08-20 02:51:09.570]   call stack:
+[2018-08-20 02:51:09.570] Tyron&#39;s cool mech (/obj/mecha/working/ripley): log message("has been attacked by *no key*/...", 1, "orange", null)
+[2018-08-20 02:51:09.570] log combat(the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random), Tyron&#39;s cool mech (/obj/mecha/working/ripley), "attacked", null, null)
+[2018-08-20 02:51:09.570] Tyron&#39;s cool mech (/obj/mecha/working/ripley): attack animal(the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random))
+[2018-08-20 02:51:09.570] the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random): AttackingTarget()
+[2018-08-20 02:51:09.570] the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random): MeleeAction(1)
+[2018-08-20 02:51:09.570] the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random): MoveToTarget(/list (/list))
+[2018-08-20 02:51:09.570] the watcher (/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random): handle automated action()
+[2018-08-20 02:51:09.571] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-08-20 02:51:09.571] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-08-20 02:51:09.571] Master (/datum/controller/master): RunQueue()
+[2018-08-20 02:51:09.571] Master (/datum/controller/master): Loop()
+[2018-08-20 02:51:09.571] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-20 02:51:09.571] 
+[2018-08-20 02:51:11.575] runtime error: bad arg name 'log_globally'
+[2018-08-20 02:51:11.575] proc name: log message (/obj/mecha/log_message)
+[2018-08-20 02:51:11.575] 
+[2018-08-20 02:51:13.570] runtime error: bad arg name 'log_globally'
+[2018-08-20 02:51:13.570] proc name: log message (/obj/mecha/log_message)
+[2018-08-20 02:51:13.570] 
+[2018-08-20 02:51:15.569] runtime error: bad arg name 'log_globally'
+[2018-08-20 02:51:15.569] proc name: log message (/obj/mecha/log_message)
+[2018-08-20 02:51:15.569] 
+[2018-08-20 02:54:52.459] runtime error: Cannot modify null.icon_state.
+[2018-08-20 02:54:52.459] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 02:54:52.459]   source file: mood.dm,122
+[2018-08-20 02:54:52.459] 
+[2018-08-20 02:56:00.479] runtime error: Cannot modify null.icon_state.
+[2018-08-20 02:56:00.479] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 02:56:00.479]   source file: mood.dm,122
+[2018-08-20 02:56:00.479] 
+[2018-08-20 02:57:18.445] runtime error: bad arg name 'log_globally'
+[2018-08-20 02:57:18.446] proc name: log message (/obj/mecha/log_message)
+[2018-08-20 02:57:18.446] 
+[2018-08-20 02:57:20.446] runtime error: bad arg name 'log_globally'
+[2018-08-20 02:57:20.446] proc name: log message (/obj/mecha/log_message)
+[2018-08-20 02:57:20.446] 
+[2018-08-20 02:59:10.445] runtime error: bad arg name 'log_globally'
+[2018-08-20 02:59:10.445] proc name: log message (/obj/mecha/log_message)
+[2018-08-20 02:59:10.445] 
+[2018-08-20 03:03:49.072] runtime error: Cannot modify null.icon_state.
+[2018-08-20 03:03:49.072] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 03:03:49.072]   source file: mood.dm,122
+[2018-08-20 03:03:49.072] 
+[2018-08-20 03:04:15.071] runtime error: Cannot modify null.icon_state.
+[2018-08-20 03:04:15.071] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 03:04:15.071]   source file: mood.dm,122
+[2018-08-20 03:04:15.071] 
+[2018-08-20 03:11:40.508] runtime error: Cannot modify null.icon_state.
+[2018-08-20 03:11:40.508] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 03:11:40.508]   source file: mood.dm,122
+[2018-08-20 03:11:40.508] 
+[2018-08-20 03:11:40.509] runtime error: Cannot modify null.icon_state.
+[2018-08-20 03:11:40.509] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 03:11:40.509]   source file: mood.dm,122
+[2018-08-20 03:11:40.509] 
+[2018-08-20 03:26:55.629] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-20 03:26:55.629] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-20 03:26:55.629]   source file: unsorted.dm,1169
+[2018-08-20 03:26:55.629] 
+[2018-08-20 03:27:20.685] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-20 03:27:20.685] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-20 03:27:20.685]   source file: unsorted.dm,1169
+[2018-08-20 03:27:20.685] 
+[2018-08-20 03:28:05.725] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-20 03:28:05.725] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-20 03:28:05.725]   source file: unsorted.dm,1169
+[2018-08-20 03:28:05.725] 
+[2018-08-20 03:28:59.744] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-20 03:28:59.744] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-20 03:28:59.744]   source file: unsorted.dm,1169
+[2018-08-20 03:28:59.744] 
+[2018-08-20 03:29:52.479] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-20 03:29:52.479] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-20 03:29:52.479]   source file: unsorted.dm,1169
+[2018-08-20 03:29:52.479] 
+[2018-08-20 03:30:18.041] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-20 03:30:18.041] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-20 03:30:18.041]   source file: unsorted.dm,1169
+[2018-08-20 03:30:18.041] 
+[2018-08-20 03:30:48.804] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-20 03:30:48.804] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-20 03:30:48.804]   source file: unsorted.dm,1169
+[2018-08-20 03:30:48.804] 
+[2018-08-20 03:36:39.589] runtime error: Cannot modify null.icon_state.
+[2018-08-20 03:36:39.589] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 03:36:39.589]   source file: mood.dm,122
+[2018-08-20 03:36:39.589] 
+[2018-08-20 03:42:59.985] runtime error: Cannot modify null.icon_state.
+[2018-08-20 03:42:59.985] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 03:42:59.985]   source file: mood.dm,122
+[2018-08-20 03:42:59.985] 
+[2018-08-20 03:51:14.578] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-20 03:51:14.578] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-20 03:51:14.578]   source file: unsorted.dm,1169
+[2018-08-20 03:51:14.578] 
+[2018-08-20 03:51:45.753] runtime error: Cannot modify null.icon_state.
+[2018-08-20 03:51:45.753] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 03:51:45.753]   source file: mood.dm,122
+[2018-08-20 03:51:45.753] 
+[2018-08-20 03:53:40.295] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-20 03:53:40.295] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-20 03:53:40.295]   source file: unsorted.dm,1169
+[2018-08-20 03:53:40.295] 
+[2018-08-20 03:53:51.339] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-20 03:53:51.339] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-20 03:53:51.339]   source file: unsorted.dm,1169
+[2018-08-20 03:53:51.339] 
+[2018-08-20 03:54:05.488] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-20 03:54:05.488] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-20 03:54:05.488]   source file: unsorted.dm,1169
+[2018-08-20 03:54:05.488] 
+[2018-08-20 03:54:07.461] runtime error: Cannot modify null.icon_state.
+[2018-08-20 03:54:07.461] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 03:54:07.461]   source file: mood.dm,122
+[2018-08-20 03:54:07.461] 
+[2018-08-20 03:54:39.460] runtime error: Cannot modify null.icon_state.
+[2018-08-20 03:54:39.460] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 03:54:39.460]   source file: mood.dm,122
+[2018-08-20 03:54:39.460] 
+[2018-08-20 04:01:19.763] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-20 04:01:19.763] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-20 04:01:19.763]   source file: unsorted.dm,1169
+[2018-08-20 04:01:19.763] 
+[2018-08-20 04:02:26.969] runtime error: Cannot modify null.icon_state.
+[2018-08-20 04:02:26.969] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 04:02:26.969]   source file: mood.dm,122
+[2018-08-20 04:02:26.969] 
+[2018-08-20 04:03:06.061] runtime error: Cannot modify null.icon_state.
+[2018-08-20 04:03:06.061] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 04:03:06.061]   source file: mood.dm,122
+[2018-08-20 04:03:06.061] 
+[2018-08-20 04:03:28.064] runtime error: Cannot modify null.icon_state.
+[2018-08-20 04:03:28.064] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 04:03:28.064]   source file: mood.dm,122
+[2018-08-20 04:03:28.064] 
+[2018-08-20 04:13:28.939] runtime error: Cannot modify null.icon_state.
+[2018-08-20 04:13:28.939] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-20 04:13:28.939]   source file: mood.dm,122
+[2018-08-20 04:13:28.939] 
+[2018-08-20 04:18:00.113] Saved 22 engraved messages on map Box Station
+[2018-08-20 04:19:35.313] Shutting down Persistence subsystem...
+[2018-08-20 04:19:35.313] Shutting down Pathfinder subsystem...
+[2018-08-20 04:19:35.313] Shutting down Squeak subsystem...
+[2018-08-20 04:19:35.313] Shutting down Shuttle subsystem...
+[2018-08-20 04:19:35.313] Shutting down Lighting subsystem...
+[2018-08-20 04:19:35.313] Shutting down XKeyScore subsystem...
+[2018-08-20 04:19:35.313] Shutting down Sticky Ban subsystem...
+[2018-08-20 04:19:35.313] Shutting down Overlay subsystem...
+[2018-08-20 04:19:35.349] Shutting down Icon Smoothing subsystem...
+[2018-08-20 04:19:35.349] Shutting down Assets subsystem...
+[2018-08-20 04:19:35.349] Shutting down Minimap subsystem...
+[2018-08-20 04:19:35.349] Shutting down Atmospherics subsystem...
+[2018-08-20 04:19:35.349] Shutting down Wet floors subsystem...
+[2018-08-20 04:19:35.349] Shutting down Weather subsystem...
+[2018-08-20 04:19:35.349] Shutting down Vote subsystem...
+[2018-08-20 04:19:35.349] Shutting down Traumas subsystem...
+[2018-08-20 04:19:35.349] Shutting down Title Screen subsystem...
+[2018-08-20 04:19:35.350] Shutting down Time Tracking subsystem...
+[2018-08-20 04:19:35.350] Shutting down Throwing subsystem...
+[2018-08-20 04:19:35.350] Shutting down tgui subsystem...
+[2018-08-20 04:19:35.350] Shutting down Sun subsystem...
+[2018-08-20 04:19:35.350] Shutting down Space Drift subsystem...
+[2018-08-20 04:19:35.350] Shutting down Religion subsystem...
+[2018-08-20 04:19:35.350] Shutting down Radio subsystem...
+[2018-08-20 04:19:35.350] Shutting down Radiation subsystem...
+[2018-08-20 04:19:35.350] Shutting down Projectiles subsystem...
+[2018-08-20 04:19:35.350] Shutting down Processing subsystem...
+[2018-08-20 04:19:35.350] Shutting down Ping subsystem...
+[2018-08-20 04:19:35.351] Shutting down Parallax subsystem...
+[2018-08-20 04:19:35.351] Shutting down pAI subsystem...
+[2018-08-20 04:19:35.351] Shutting down Orbits subsystem...
+[2018-08-20 04:19:35.351] Shutting down Objects subsystem...
+[2018-08-20 04:19:35.351] Shutting down NPC Pool subsystem...
+[2018-08-20 04:19:35.351] Shutting down Night Shift subsystem...
+[2018-08-20 04:19:35.351] Shutting down Mood subsystem...
+[2018-08-20 04:19:35.351] Shutting down Mobs subsystem...
+[2018-08-20 04:19:35.351] Shutting down Medals subsystem...
+[2018-08-20 04:19:35.351] Shutting down Idling NPC Pool subsystem...
+[2018-08-20 04:19:35.351] Shutting down Fire Burning subsystem...
+[2018-08-20 04:19:35.351] Shutting down Fields subsystem...
+[2018-08-20 04:19:35.351] Shutting down Fast Processing subsystem...
+[2018-08-20 04:19:35.351] Shutting down Disease subsystem...
+[2018-08-20 04:19:35.351] Shutting down Datum Component System subsystem...
+[2018-08-20 04:19:35.351] Shutting down Communications subsystem...
+[2018-08-20 04:19:35.351] Shutting down Augury subsystem...
+[2018-08-20 04:19:35.352] Shutting down Acid subsystem...
+[2018-08-20 04:19:35.352] Shutting down Timer subsystem...
+[2018-08-20 04:19:35.352] Shutting down Circuit subsystem...
+[2018-08-20 04:19:35.352] Shutting down Machines subsystem...
+[2018-08-20 04:19:35.352] Shutting down Language subsystem...
+[2018-08-20 04:19:35.352] Shutting down Atoms subsystem...
+[2018-08-20 04:19:35.352] Shutting down Networks subsystem...
+[2018-08-20 04:19:35.353] Shutting down Mapping subsystem...
+[2018-08-20 04:19:35.353] Shutting down Ticker subsystem...
+[2018-08-20 04:19:35.609] Shutting down Quirks subsystem...
+[2018-08-20 04:19:35.610] Shutting down Jobs subsystem...
+[2018-08-20 04:19:35.610] Shutting down Events subsystem...
+[2018-08-20 04:19:35.610] Shutting down Research subsystem...
+[2018-08-20 04:19:35.610] Shutting down Input subsystem...
+[2018-08-20 04:19:35.610] Shutting down Server Tasks subsystem...
+[2018-08-20 04:19:35.610] Shutting down Blackbox subsystem...
+[2018-08-20 04:19:35.879] Shutting down Database subsystem...
+[2018-08-20 04:19:35.918] Shutting down Garbage subsystem...
+[2018-08-20 04:19:35.969] Shutdown complete
+[2018-08-20 04:19:35.969] World rebooted at 04:19:35

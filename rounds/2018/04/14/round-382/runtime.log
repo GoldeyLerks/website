@@ -1,0 +1,343 @@
+
+
+Starting up round ID 382. 09:45:14
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 7s!
+Loaded Lavaland in 5s!
+Loaded Reebe in 3.9s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 24.5 seconds!
+Initialized Networks subsystem within 0.1 seconds!
+Initialized Atoms subsystem within 41.7 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 6 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 0.2 seconds were wasted processing 6 turf(s) (connected to 5575 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 12.6 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.9 seconds!
+Initialized Icon Smoothing subsystem within 5.2 seconds!
+Initialized Overlay subsystem within 20.5 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 12.2 seconds!
+Initialized Shuttle subsystem within 19.6 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 2 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 138.2 seconds!
+Game start took 10.1s
+runtime error: 
+[10:09:58]nothing to animate
+[10:09:58]proc name: shake camera (/proc/shake_camera)
+[10:09:58]  source file: mob_helpers.dm,270
+[10:09:58]  usr: (src)
+[10:09:58]  src: null
+[10:09:58]  call stack:
+[10:09:58]shake camera(Stephen Harrow (/mob/living/carbon/human), 0.75, 1)
+[10:09:58]Stephen Harrow (/mob/living/carbon/human): afterShuttleMove(space (18,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[10:09:58]Stephen Harrow (/mob/living/carbon/human): afterShuttleMove(space (18,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[10:09:58]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[10:09:58]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[10:09:58]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[10:09:58]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[10:09:58]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[10:09:58]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[10:09:58]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[10:10:39]Cannot read null.species
+[10:10:39]proc name: death (/mob/living/carbon/human/death)
+[10:10:39]  source file: death.dm,37
+[10:10:39]  usr: (src)
+[10:10:39]  src: Unknown (/mob/living/carbon/human)
+[10:10:39]  src.loc: null
+[10:10:39]  call stack:
+[10:10:39]Unknown (/mob/living/carbon/human): death(null)
+[10:10:39]Unknown (/mob/living/carbon/human): update stat()
+[10:10:39]Unknown (/mob/living/carbon/human): updatehealth()
+[10:10:39]Unknown (/mob/living/carbon/human): adjustOxyLoss(200, 1, 0)
+[10:10:39]Unknown (/mob/living/carbon/human): suicide()
+runtime error: 
+[10:16:53]Cannot read null.species
+[10:16:53]proc name: death (/mob/living/carbon/human/death)
+[10:16:53]  source file: death.dm,37
+[10:16:53]  usr: (src)
+[10:16:53]  src: Unknown (/mob/living/carbon/human)
+[10:16:53]  src.loc: null
+[10:16:53]  call stack:
+[10:16:53]Unknown (/mob/living/carbon/human): death(null)
+[10:16:53]Unknown (/mob/living/carbon/human): update stat()
+[10:16:53]Unknown (/mob/living/carbon/human): updatehealth()
+[10:16:53]Unknown (/mob/living/carbon/human): adjustOxyLoss(200, 1, 0)
+[10:16:53]Unknown (/mob/living/carbon/human): suicide()
+runtime error: 
+[10:17:53]addtimer called with a callback assigned to a qdeleted object
+[10:17:53]proc name: stack trace (/proc/stack_trace)
+[10:17:53]  source file: unsorted.dm,1254
+[10:17:53]  usr: 0
+[10:17:53]  src: null
+[10:17:53]  call stack:
+[10:17:53]stack trace("addtimer called with a callbac...")
+[10:17:53]addtimer(/datum/callback (/datum/callback), 20, 0)
+[10:17:53]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[10:17:53]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[10:17:53]addtimer called with a callback assigned to a qdeleted object
+[10:17:53]proc name: stack trace (/proc/stack_trace)
+[10:17:53]  source file: unsorted.dm,1254
+[10:17:53]  usr: 0
+[10:17:53]  src: null
+[10:17:53]  call stack:
+[10:17:53]stack trace("addtimer called with a callbac...")
+[10:17:53]addtimer(/datum/callback (/datum/callback), 20, 0)
+[10:17:53]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[10:17:53]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[10:18:27]undefined proc or verb /turf/closed/wall/r_wall/high pressure movements().
+
+[10:18:27]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[10:18:27]  source file: air.dm,205
+[10:18:27]  usr: null
+[10:18:27]  src: Atmospherics (/datum/controller/subsystem/air)
+[10:18:27]  call stack:
+[10:18:27]Atmospherics (/datum/controller/subsystem/air): process high pressure delta(0)
+[10:18:27]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[10:18:27]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[10:18:27]Master (/datum/controller/master): RunQueue()
+[10:18:27]Master (/datum/controller/master): Loop()
+[10:18:27]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[10:18:34]undefined proc or verb /turf/closed/wall/r_wall/high pressure movements().
+
+[10:18:34]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[10:18:34]  source file: air.dm,205
+[10:18:34]  usr: null
+[10:18:34]  src: Atmospherics (/datum/controller/subsystem/air)
+[10:18:34]  call stack:
+[10:18:34]Atmospherics (/datum/controller/subsystem/air): process high pressure delta(1)
+[10:18:34]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[10:18:34]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[10:18:34]Master (/datum/controller/master): RunQueue()
+[10:18:34]Master (/datum/controller/master): Loop()
+[10:18:34]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[10:20:42]list index out of bounds
+[10:20:42]proc name: try infect (/datum/disease/advance/try_infect)
+[10:20:42]  source file: advance.dm,67
+[10:20:42]  usr: Yakazuki Shimada (/mob/dead/observer)
+[10:20:42]  src: Second Sight (/datum/disease/advance/hallucigen)
+[10:20:42]  usr.loc: the floor (140,119,2) (/turf/open/floor/plasteel/white)
+[10:20:42]  call stack:
+[10:20:42]Second Sight (/datum/disease/advance/hallucigen): try infect(Edwin Saylor (/mob/living/carbon/human), 0)
+[10:20:42]Edwin Saylor (/mob/living/carbon/human): ForceContractDisease(Second Sight (/datum/disease/advance/hallucigen), 0, 1)
+[10:20:42]GimmesumsuccPls (/client): Give Disease(Edwin Saylor (/mob/living/carbon/human))
+[10:20:42]GimmesumsuccPls (/client): view var Topic("_src_=vars;admin_token=9412107...", /list (/list), null)
+[10:20:42]GimmesumsuccPls (/client): Topic("_src_=vars;admin_token=9412107...", /list (/list), null)
+[10:20:42]GimmesumsuccPls (/client): Topic("_src_=vars;admin_token=9412107...", /list (/list))
+runtime error: 
+[10:21:15]Cannot read null.species
+[10:21:15]proc name: handle environment (/mob/living/carbon/human/handle_environment)
+[10:21:15]  source file: life.dm,136
+[10:21:15]  usr: null
+[10:21:15]  src: Edwin Saylor (/mob/living/carbon/human)
+[10:21:15]  src.loc: null
+[10:21:15]  call stack:
+[10:21:15]Edwin Saylor (/mob/living/carbon/human): handle environment(/datum/gas_mixture/turf (/datum/gas_mixture/turf))
+[10:21:15]Edwin Saylor (/mob/living/carbon/human): Life(2, 940)
+[10:21:15]Edwin Saylor (/mob/living/carbon/human): Life(2, 940)
+[10:21:15]Edwin Saylor (/mob/living/carbon/human): Life(2, 940)
+[10:21:15]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[10:21:15]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[10:21:15]Master (/datum/controller/master): RunQueue()
+[10:21:15]Master (/datum/controller/master): Loop()
+[10:21:15]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[10:21:15]Cannot read null.species
+[10:21:15]proc name: mob negates gravity (/mob/living/carbon/human/mob_negates_gravity)
+[10:21:15]  source file: human_movement.dm,28
+[10:21:15]  usr: null
+[10:21:15]  src: Edwin Saylor (/mob/living/carbon/human)
+[10:21:15]  src.loc: null
+[10:21:15]  call stack:
+[10:21:15]Edwin Saylor (/mob/living/carbon/human): mob negates gravity()
+[10:21:15]Edwin Saylor (/mob/living/carbon/human): mob has gravity()
+[10:21:15]Edwin Saylor (/mob/living/carbon/human): Life(2, 940)
+[10:21:15]Edwin Saylor (/mob/living/carbon/human): Life(2, 940)
+[10:21:15]Edwin Saylor (/mob/living/carbon/human): Life(2, 940)
+[10:21:15]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[10:21:15]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[10:21:15]Master (/datum/controller/master): RunQueue()
+[10:21:15]Master (/datum/controller/master): Loop()
+[10:21:15]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[10:21:15]Cannot read null.mutations
+[10:21:15]proc name: handle active genes (/mob/living/carbon/human/proc/handle_active_genes)
+[10:21:15]  source file: life.dm,325
+[10:21:15]  usr: null
+[10:21:15]  src: Edwin Saylor (/mob/living/carbon/human)
+[10:21:15]  src.loc: null
+[10:21:15]  call stack:
+[10:21:15]Edwin Saylor (/mob/living/carbon/human): handle active genes()
+[10:21:15]Edwin Saylor (/mob/living/carbon/human): Life(2, 940)
+[10:21:15]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[10:21:15]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[10:21:15]Master (/datum/controller/master): RunQueue()
+[10:21:15]Master (/datum/controller/master): Loop()
+[10:21:15]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[10:21:15]Cannot read null.species
+[10:21:15]proc name: Life (/mob/living/carbon/human/Life)
+[10:21:15]  source file: life.dm,58
+[10:21:15]  usr: null
+[10:21:15]  src: Unknown (/mob/living/carbon/human)
+[10:21:15]  src.loc: null
+[10:21:15]  call stack:
+[10:21:15]Unknown (/mob/living/carbon/human): Life(2, 940)
+[10:21:15]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[10:21:15]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[10:21:15]Master (/datum/controller/master): RunQueue()
+[10:21:15]Master (/datum/controller/master): Loop()
+[10:21:15]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[10:22:35]addtimer called with a callback assigned to a qdeleted object
+[10:22:35]proc name: stack trace (/proc/stack_trace)
+[10:22:35]  source file: unsorted.dm,1254
+[10:22:35]  usr: (src)
+[10:22:35]  src: null
+[10:22:35]  call stack:
+[10:22:35]stack trace("addtimer called with a callbac...")
+[10:22:35]addtimer(/datum/callback (/datum/callback), 60, 0)
+[10:22:35]the turret (/obj/machinery/porta_turret/syndicate): take damage(66, "brute", "bomb", 0)
+[10:22:35]the turret (/obj/machinery/porta_turret/syndicate): ex act(3, null)
+[10:22:35]space (236,29,2) (/turf/open/space): contents explosion(3, null)
+[10:22:35]space (236,29,2) (/turf/open/space): ex act(3, null, aggressive spreading (/datum/spacevine_mutation/aggressive_spread))
+[10:22:35]aggressive spreading (/datum/spacevine_mutation/aggressive_spread): on spread(the space vines (/obj/structure/spacevine), space (236,29,2) (/turf/open/space))
+[10:22:35]the space vines (/obj/structure/spacevine): spread()
+[10:22:35]/datum/spacevine_controller (/datum/spacevine_controller): process(20)
+[10:22:35]Objects (/datum/controller/subsystem/obj): fire(0)
+[10:22:35]Objects (/datum/controller/subsystem/obj): ignite(0)
+[10:22:35]Master (/datum/controller/master): RunQueue()
+[10:22:35]Master (/datum/controller/master): Loop()
+[10:22:35]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[10:26:32]Cannot read null.client
+[10:26:32]proc name: open (/datum/tgui/proc/open)
+[10:26:32]  source file: tgui.dm,87
+[10:26:32]  usr: Unknown (/mob/living/carbon/human)
+[10:26:32]  src: /datum/tgui (/datum/tgui)
+[10:26:32]  usr.loc: the floor (115,176,2) (/turf/open/floor/plasteel/showroomfloor)
+[10:26:32]  call stack:
+[10:26:32]/datum/tgui (/datum/tgui): open()
+[10:26:32]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[10:26:32]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Unknown (/mob/living/carbon/human))
+[10:26:32]Unknown (/mob/living/carbon/human): Activate Held Object()
+[10:26:32]Unknown (/mob/living/carbon/human): key down("Z", Omeed (/client))
+[10:26:32]Unknown (/mob/living/carbon/human): key down("Z", Omeed (/client))
+[10:26:32]Unknown (/mob/living/carbon/human): key down("Z", Omeed (/client))
+[10:26:32]Unknown (/mob/living/carbon/human): key down("Z", Omeed (/client))
+[10:26:32]Omeed (/client): keyDown("Z")
+runtime error: 
+[10:26:36]Cannot execute null.start().
+[10:26:36]proc name: take damage (/obj/machinery/porta_turret/take_damage)
+[10:26:36]  source file: portable_turret.dm,326
+[10:26:36]  usr: null
+[10:26:36]  src: the turret (/obj/machinery/porta_turret/syndicate)
+[10:26:36]  src.loc: null
+[10:26:36]  call stack:
+[10:26:36]the turret (/obj/machinery/porta_turret/syndicate): take damage(27, "brute", "bomb", 0)
+[10:26:36]the turret (/obj/machinery/porta_turret/syndicate): ex act(3, null)
+[10:26:36]space (231,28,2) (/turf/open/space): contents explosion(3, null)
+[10:26:36]space (231,28,2) (/turf/open/space): ex act(3, null, aggressive spreading (/datum/spacevine_mutation/aggressive_spread))
+[10:26:36]aggressive spreading (/datum/spacevine_mutation/aggressive_spread): on spread(the space vines (/obj/structure/spacevine), space (231,28,2) (/turf/open/space))
+[10:26:36]the space vines (/obj/structure/spacevine): spread()
+[10:26:36]/datum/spacevine_controller (/datum/spacevine_controller): process(20)
+[10:26:36]Objects (/datum/controller/subsystem/obj): fire(0)
+[10:26:36]Objects (/datum/controller/subsystem/obj): ignite(0)
+[10:26:36]Master (/datum/controller/master): RunQueue()
+[10:26:36]Master (/datum/controller/master): Loop()
+[10:26:36]Master (/datum/controller/master): StartProcessing(0)
+Saved 2 engraved messages on map Box Station
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 10:55:57

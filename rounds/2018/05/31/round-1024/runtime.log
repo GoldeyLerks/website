@@ -1,0 +1,688 @@
+
+
+Starting up round ID 1024. 23:43:20
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading BeeStation 1...
+Loaded Station in 6.4s!
+Loaded Lavaland in 7.1s!
+Loaded Reebe in 6.1s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 29.3 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[23:43:58]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[23:43:58]proc name: stack trace (/datum/proc/stack_trace)
+[23:43:58]  source file: unsorted.dm,1257
+[23:43:58]  usr: null
+[23:43:58]  src: Vacant Office APC (/obj/machinery/power/apc)
+[23:43:58]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[23:43:58]  call stack:
+[23:43:58]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[23:43:58]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[23:43:58]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[23:43:58]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[23:43:58]Atoms (/datum/controller/subsystem/atoms): Initialize(854316)
+[23:43:58]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 46.1 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.4 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 9 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 9 turf(s) (connected to 20581 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 17 seconds!
+Failed to find backup file for map BeeStation 1 on zlevel 2.
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 6.2 seconds!
+Initialized Overlay subsystem within 29.6 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 13.1 seconds!
+Initialized Shuttle subsystem within 24.4 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 1 engraved messages on map BeeStation 1
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 167.6 seconds!
+Game start took 5.5s
+runtime error: 
+[23:48:34]nothing to animate
+[23:48:34]proc name: shake camera (/proc/shake_camera)
+[23:48:34]  source file: mob_helpers.dm,270
+[23:48:34]  usr: (src)
+[23:48:34]  src: null
+[23:48:34]  call stack:
+[23:48:34]shake camera(Rafael Duncan (/mob/living/carbon/human), 0.75, 1)
+[23:48:34]Rafael Duncan (/mob/living/carbon/human): afterShuttleMove(space (18,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[23:48:34]Rafael Duncan (/mob/living/carbon/human): afterShuttleMove(space (18,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[23:48:34]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[23:48:34]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[23:48:34]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[23:48:34]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[23:48:34]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[23:48:34]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[23:48:34]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[23:50:20]nothing to animate
+[23:50:20]proc name: shake camera (/proc/shake_camera)
+[23:50:20]  source file: mob_helpers.dm,270
+[23:50:20]  usr: (src)
+[23:50:20]  src: null
+[23:50:20]  call stack:
+[23:50:20]shake camera(Rupert Arend (/mob/living/carbon/human), 0.75, 1)
+[23:50:20]Rupert Arend (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[23:50:20]Rupert Arend (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[23:50:20]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[23:50:20]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[23:50:20]the mining shuttle (/obj/docking_port/mobile): check()
+[23:50:20]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[23:50:20]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:21:03]nothing to animate
+[00:21:03]proc name: shake camera (/proc/shake_camera)
+[00:21:03]  source file: mob_helpers.dm,270
+[00:21:03]  usr: (src)
+[00:21:03]  src: null
+[00:21:03]  call stack:
+[00:21:03]shake camera(Unknown (/mob/living/carbon/human), 0.75, 1)
+[00:21:03]Unknown (/mob/living/carbon/human): afterShuttleMove(space (51,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[00:21:03]Unknown (/mob/living/carbon/human): afterShuttleMove(space (51,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[00:21:03]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[00:21:03]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[00:21:03]the mining shuttle (/obj/docking_port/mobile): check()
+[00:21:03]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:21:03]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:21:03]nothing to animate
+[00:21:03]proc name: shake camera (/proc/shake_camera)
+[00:21:03]  source file: mob_helpers.dm,270
+[00:21:03]  usr: (src)
+[00:21:03]  src: null
+[00:21:03]  call stack:
+[00:21:03]shake camera(Unknown (/mob/living/carbon/human), 0.75, 1)
+[00:21:03]Unknown (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[00:21:03]Unknown (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[00:21:03]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[00:21:03]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[00:21:03]the mining shuttle (/obj/docking_port/mobile): check()
+[00:21:03]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:21:03]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:28:53]nothing to animate
+[00:28:53]proc name: shake camera (/proc/shake_camera)
+[00:28:53]  source file: mob_helpers.dm,270
+[00:28:53]  usr: (src)
+[00:28:53]  src: null
+[00:28:53]  call stack:
+[00:28:53]shake camera(Bluezinho Albert (/mob/living/carbon/human), 0.75, 1)
+[00:28:53]Bluezinho Albert (/mob/living/carbon/human): afterShuttleMove(space (25,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:28:53]Bluezinho Albert (/mob/living/carbon/human): afterShuttleMove(space (25,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:28:53]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[00:28:53]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[00:28:53]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[00:28:53]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:28:53]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:28:53]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:28:53]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:36:24]nothing to animate
+[00:36:24]proc name: shake camera (/proc/shake_camera)
+[00:36:24]  source file: mob_helpers.dm,270
+[00:36:24]  usr: (src)
+[00:36:24]  src: null
+[00:36:24]  call stack:
+[00:36:24]shake camera(Lpezin Crey Crey (/mob/living/carbon/human), 0.75, 1)
+[00:36:24]Lpezin Crey Crey (/mob/living/carbon/human): afterShuttleMove(space (23,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:36:24]Lpezin Crey Crey (/mob/living/carbon/human): afterShuttleMove(space (23,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:36:24]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[00:36:24]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[00:36:24]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[00:36:24]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:36:24]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:36:24]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:36:24]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:43:05]nothing to animate
+[00:43:05]proc name: shake camera (/proc/shake_camera)
+[00:43:05]  source file: mob_helpers.dm,270
+[00:43:05]  usr: (src)
+[00:43:05]  src: null
+[00:43:05]  call stack:
+[00:43:05]shake camera(Biggie Bongie (/mob/living/carbon/human), 0.75, 1)
+[00:43:05]Biggie Bongie (/mob/living/carbon/human): afterShuttleMove(space (21,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:43:05]Biggie Bongie (/mob/living/carbon/human): afterShuttleMove(space (21,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:43:05]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[00:43:05]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[00:43:05]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[00:43:05]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:43:05]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:43:05]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:43:05]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+[00:55:57]  usr: Biggie Bongie (/mob/living/carbon/human)
+[00:55:57]  src: the Head of Personnel\'s Offic... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[00:55:57]  usr.loc: the plating (177,149,2) (/turf/open/floor/plating)
+[00:55:57]  src.loc: the floor (109,119,2) (/turf/open/floor/wood)
+[00:55:57]  call stack:
+[00:55:57]the Head of Personnel\'s Offic... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[00:55:57]/datum/pipeline (/datum/pipeline): Destroy(0)
+[00:55:57]qdel(/datum/pipeline (/datum/pipeline), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): wrench act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): tool act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[00:55:57]the wrench (/obj/item/wrench): tool attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the wrench (/obj/item/wrench): melee attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]Biggie Bongie (/mob/living/carbon/human): ClickOn(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Click(the plating (177,150,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=15;icon-y=21;left=1;scr...")
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+[00:55:57]  usr: Biggie Bongie (/mob/living/carbon/human)
+[00:55:57]  src: the Head of Personnel\'s Offic... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[00:55:57]  usr.loc: the plating (177,149,2) (/turf/open/floor/plating)
+[00:55:57]  src.loc: the floor (105,115,2) (/turf/open/floor/plasteel)
+[00:55:57]  call stack:
+[00:55:57]the Head of Personnel\'s Offic... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[00:55:57]/datum/pipeline (/datum/pipeline): Destroy(0)
+[00:55:57]qdel(/datum/pipeline (/datum/pipeline), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): wrench act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): tool act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[00:55:57]the wrench (/obj/item/wrench): tool attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the wrench (/obj/item/wrench): melee attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]Biggie Bongie (/mob/living/carbon/human): ClickOn(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Click(the plating (177,150,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=15;icon-y=21;left=1;scr...")
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+[00:55:57]  usr: Biggie Bongie (/mob/living/carbon/human)
+[00:55:57]  src: the Heads of Staff Meeting Roo... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[00:55:57]  usr.loc: the plating (177,149,2) (/turf/open/floor/plating)
+[00:55:57]  src.loc: the carpet (102,130,2) (/turf/open/floor/carpet)
+[00:55:57]  call stack:
+[00:55:57]the Heads of Staff Meeting Roo... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[00:55:57]/datum/pipeline (/datum/pipeline): Destroy(0)
+[00:55:57]qdel(/datum/pipeline (/datum/pipeline), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): wrench act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): tool act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[00:55:57]the wrench (/obj/item/wrench): tool attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the wrench (/obj/item/wrench): melee attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]Biggie Bongie (/mob/living/carbon/human): ClickOn(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Click(the plating (177,150,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=15;icon-y=21;left=1;scr...")
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+[00:55:57]  usr: Biggie Bongie (/mob/living/carbon/human)
+[00:55:57]  src: the Bridge vent pump #1 (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[00:55:57]  usr.loc: the plating (177,149,2) (/turf/open/floor/plating)
+[00:55:57]  src.loc: the floor (117,136,2) (/turf/open/floor/plasteel)
+[00:55:57]  call stack:
+[00:55:57]the Bridge vent pump #1 (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[00:55:57]/datum/pipeline (/datum/pipeline): Destroy(0)
+[00:55:57]qdel(/datum/pipeline (/datum/pipeline), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): wrench act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): tool act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[00:55:57]the wrench (/obj/item/wrench): tool attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the wrench (/obj/item/wrench): melee attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]Biggie Bongie (/mob/living/carbon/human): ClickOn(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Click(the plating (177,150,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=15;icon-y=21;left=1;scr...")
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+[00:55:57]  usr: Biggie Bongie (/mob/living/carbon/human)
+[00:55:57]  src: the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[00:55:57]  usr.loc: the plating (177,149,2) (/turf/open/floor/plating)
+[00:55:57]  src.loc: the carpet (123,131,2) (/turf/open/floor/carpet)
+[00:55:57]  call stack:
+[00:55:57]the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[00:55:57]/datum/pipeline (/datum/pipeline): Destroy(0)
+[00:55:57]qdel(/datum/pipeline (/datum/pipeline), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): wrench act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): tool act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[00:55:57]the wrench (/obj/item/wrench): tool attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the wrench (/obj/item/wrench): melee attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]Biggie Bongie (/mob/living/carbon/human): ClickOn(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Click(the plating (177,150,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=15;icon-y=21;left=1;scr...")
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+[00:55:57]  usr: Biggie Bongie (/mob/living/carbon/human)
+[00:55:57]  src: the AI Upload Chamber vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[00:55:57]  usr.loc: the plating (177,149,2) (/turf/open/floor/plating)
+[00:55:57]  src.loc: the floor (116,128,2) (/turf/open/floor/plasteel/dark)
+[00:55:57]  call stack:
+[00:55:57]the AI Upload Chamber vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[00:55:57]/datum/pipeline (/datum/pipeline): Destroy(0)
+[00:55:57]qdel(/datum/pipeline (/datum/pipeline), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): wrench act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): tool act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[00:55:57]the wrench (/obj/item/wrench): tool attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the wrench (/obj/item/wrench): melee attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]Biggie Bongie (/mob/living/carbon/human): ClickOn(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Click(the plating (177,150,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=15;icon-y=21;left=1;scr...")
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+[00:55:57]  usr: Biggie Bongie (/mob/living/carbon/human)
+[00:55:57]  src: the Gravity Generator Room ven... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[00:55:57]  usr.loc: the plating (177,149,2) (/turf/open/floor/plating)
+[00:55:57]  src.loc: the floor (115,123,2) (/turf/open/floor/plasteel/dark)
+[00:55:57]  call stack:
+[00:55:57]the Gravity Generator Room ven... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[00:55:57]/datum/pipeline (/datum/pipeline): Destroy(0)
+[00:55:57]qdel(/datum/pipeline (/datum/pipeline), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): wrench act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): tool act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[00:55:57]the wrench (/obj/item/wrench): tool attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the wrench (/obj/item/wrench): melee attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]Biggie Bongie (/mob/living/carbon/human): ClickOn(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Click(the plating (177,150,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=15;icon-y=21;left=1;scr...")
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+[00:55:57]  usr: Biggie Bongie (/mob/living/carbon/human)
+[00:55:57]  src: the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[00:55:57]  usr.loc: the plating (177,149,2) (/turf/open/floor/plating)
+[00:55:57]  src.loc: the carpet (122,122,2) (/turf/open/floor/carpet)
+[00:55:57]  call stack:
+[00:55:57]the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[00:55:57]/datum/pipeline (/datum/pipeline): Destroy(0)
+[00:55:57]qdel(/datum/pipeline (/datum/pipeline), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): wrench act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): tool act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[00:55:57]the wrench (/obj/item/wrench): tool attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the wrench (/obj/item/wrench): melee attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]Biggie Bongie (/mob/living/carbon/human): ClickOn(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Click(the plating (177,150,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=15;icon-y=21;left=1;scr...")
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+[00:55:57]  usr: Biggie Bongie (/mob/living/carbon/human)
+[00:55:57]  src: the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[00:55:57]  usr.loc: the plating (177,149,2) (/turf/open/floor/plating)
+[00:55:57]  src.loc: the floor (118,121,2) (/turf/open/floor/plasteel)
+[00:55:57]  call stack:
+[00:55:57]the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[00:55:57]/datum/pipeline (/datum/pipeline): Destroy(0)
+[00:55:57]qdel(/datum/pipeline (/datum/pipeline), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): wrench act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): tool act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[00:55:57]the wrench (/obj/item/wrench): tool attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the wrench (/obj/item/wrench): melee attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]Biggie Bongie (/mob/living/carbon/human): ClickOn(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Click(the plating (177,150,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=15;icon-y=21;left=1;scr...")
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+[00:55:57]  usr: Biggie Bongie (/mob/living/carbon/human)
+[00:55:57]  src: the Gravity Generator Room ven... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[00:55:57]  usr.loc: the plating (177,149,2) (/turf/open/floor/plating)
+[00:55:57]  src.loc: the floor (114,118,2) (/turf/open/floor/plasteel)
+[00:55:57]  call stack:
+[00:55:57]the Gravity Generator Room ven... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[00:55:57]/datum/pipeline (/datum/pipeline): Destroy(0)
+[00:55:57]qdel(/datum/pipeline (/datum/pipeline), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[00:55:57]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(1)
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): wrench act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): tool act(Biggie Bongie (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[00:55:57]the wrench (/obj/item/wrench): tool attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[00:55:57]the wrench (/obj/item/wrench): melee attack chain(Biggie Bongie (/mob/living/carbon/human), the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]Biggie Bongie (/mob/living/carbon/human): ClickOn(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), "icon-x=15;icon-y=21;left=1;scr...")
+[00:55:57]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Click(the plating (177,150,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=15;icon-y=21;left=1;scr...")
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:55:57]list index out of bounds
+[00:55:57]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[00:55:57]  source file: components_base.dm,75
+runtime error: 
+[00:59:58]nothing to animate
+Saved 1 engraved messages on map BeeStation 1
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 01:10:44

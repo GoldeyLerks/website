@@ -1,0 +1,31 @@
+{% from "_formhelpers.html" import render_field %}
+{% extends "layout.html" %}
+{% block title %}Forum{% endblock %}
+{% block active %}forum{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="/static/css/forums.css">
+<link rel="stylesheet" href="/static/css/forms.css">
+<meta property="og:title" content="BeeStation - Forum - {{topic["title"]}}" />
+<meta property="og:description" content="BeeStation is a newbie friendly Space Station 13 server. The server was created in march 2018. We like to put a fun touch to the rounds to make a better experience." />
+{% endblock %}
+
+{% block content %}
+
+
+<div class="post-title"><a href="/forum">Forum</a> / <a href="/forum/{{topic["id"]}}">{{topic["title"]}}</a></div><div style="float: right; padding-right: 30px;" class="post-title">{% if "username" in session %}<a href="/logout">Logout</a>{% else %}<a href="/login">Login</a> or <a href="/signup">Signup</a>{% endif %}</div><br><br>
+
+{{topic["description"]}}<br><br>
+
+{% if "username" in session and topic["id"] != 0 %}
+<a class="form-submit" style="text-align:center;width: 2000px;" href="/forum/{{topic["id"]}}/new">Create Thread</a>
+{% endif %}
+
+{% for post in posts %}
+<div class="small-post" onclick="location.href = '/forum/{{topic["id"]}}/{{post["id"]}}'">
+  <div class="small-post-title">{{post["title"]}} {% if post["pinned"] %}<i class="fas fa-thumbtack"></i>{% endif %}</div><div class="small-post-author">{{post["author"]}}</div>
+  <div class="small-post-stats"><div class="small-post-stat">{{len(post["upvotes"])}} <i class="fas fa-heart"></i></div><div class="small-post-stat">{{reply_count(post["id"])}} <i class="fas fa-comment-alt"></i></div><div class="small-post-stat">{{len(post["views"])}} <i class="fas fa-eye"></i></div><div class="small-post-stat">{{str(rd(dt.datetime.now()-post["ts"])).split(", ")[0]}} <i class="fas fa-clock"></i></div></div>
+</div>
+{% endfor %}
+
+
+{% endblock %}

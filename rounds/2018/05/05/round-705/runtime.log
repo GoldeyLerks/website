@@ -1,0 +1,172 @@
+
+
+Starting up round ID 705. 21:13:16
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 6.2s!
+runtime error: 
+[21:13:29]Cannot read null.melee
+[21:13:29]proc name: attachArmor (/datum/armor/proc/attachArmor)
+[21:13:29]  source file: armor.dm,59
+[21:13:29]  usr: Names Are Hard (/mob/dead/new_player)
+[21:13:29]  src: /datum/armor (/datum/armor)
+[21:13:29]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[21:13:29]  call stack:
+[21:13:29]/datum/armor (/datum/armor): attachArmor(null)
+[21:13:29]the medal of captaincy (/obj/item/clothing/accessory/medal/gold/captain): attach(the captain\'s jumpsuit (/obj/item/clothing/under/rank/captain), null)
+[21:13:29]the captain\'s jumpsuit (/obj/item/clothing/under/rank/captain): attach accessory(the medal of captaincy (/obj/item/clothing/accessory/medal/gold/captain), null, 1)
+[21:13:29]Captain (/datum/outfit/job/captain): equip(Cecilia Brown (/mob/living/carbon/human/dummy), 1)
+[21:13:29]Cecilia Brown (/mob/living/carbon/human/dummy): equipOutfit(/datum/outfit/job/captain (/datum/outfit/job/captain), 1)
+[21:13:29]/datum/job/captain (/datum/job/captain): equip(Cecilia Brown (/mob/living/carbon/human/dummy), 1, 1)
+[21:13:29]/datum/preferences (/datum/preferences): update preview icon()
+[21:13:29]/datum/preferences (/datum/preferences): ShowChoices(Names Are Hard (/mob/dead/new_player))
+[21:13:29]Names Are Hard (/mob/dead/new_player): Topic("src=\[mob_21];show_preferences...", /list (/list))
+[21:13:29]Names Are Hard (/client): Topic("src=\[mob_21];show_preferences...", /list (/list), Names Are Hard (/mob/dead/new_player))
+[21:13:29]Names Are Hard (/client): Topic("src=\[mob_21];show_preferences...", /list (/list), Names Are Hard (/mob/dead/new_player))
+Loaded Lavaland in 6s!
+Loaded Reebe in 4.7s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 24.7 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 46.3 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 26 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 26 turf(s) (connected to 21673 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 17.3 seconds!
+Initialized Minimap subsystem within 0.3 seconds!
+Initialized Assets subsystem within 0.9 seconds!
+Initialized Icon Smoothing subsystem within 7 seconds!
+Initialized Overlay subsystem within 28.4 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0.1 seconds!
+Initialized Lighting subsystem within 15 seconds!
+## WARNING: load_template(): Shuttle Template _maps/shuttles/ferry_fancy.dmm has no	mobile docking port. Aborting import. in code/modules/shuttle/manipulator.dm at line 289 src: the shuttle manipulator usr: .
+runtime error: 
+[21:16:02]Cannot execute null.canDock().
+[21:16:02]proc name: action load (/obj/machinery/shuttle_manipulator/proc/action_load)
+[21:16:02]  source file: manipulator.dm,220
+[21:16:02]  usr: null
+[21:16:02]  src: the shuttle manipulator (/obj/machinery/shuttle_manipulator)
+[21:16:02]  src.loc: the floor (148,76,1) (/turf/open/floor/circuit/green)
+[21:16:02]  call stack:
+[21:16:02]the shuttle manipulator (/obj/machinery/shuttle_manipulator): action load(fancy transport ferry (/datum/map_template/shuttle/ferry/fancy), CentCom Ferry Dock (/obj/docking_port/stationary))
+[21:16:02]CentCom Ferry Dock (/obj/docking_port/stationary): load roundstart()
+[21:16:02]Shuttle (/datum/controller/subsystem/shuttle): initial load()
+[21:16:02]Shuttle (/datum/controller/subsystem/shuttle): Initialize(765422)
+[21:16:02]Master (/datum/controller/master): Initialize(10, 0)
+## WARNING: load_template(): Shuttle Template _maps/shuttles/infiltrator_basic.dmm has no	mobile docking port. Aborting import. in code/modules/shuttle/manipulator.dm at line 289 src: the shuttle manipulator usr: .
+runtime error: 
+[21:16:03]Cannot execute null.canDock().
+[21:16:03]proc name: action load (/obj/machinery/shuttle_manipulator/proc/action_load)
+[21:16:03]  source file: manipulator.dm,220
+[21:16:03]  usr: null
+[21:16:03]  src: the shuttle manipulator (/obj/machinery/shuttle_manipulator)
+[21:16:03]  src.loc: the floor (148,76,1) (/turf/open/floor/circuit/green)
+[21:16:03]  call stack:
+[21:16:03]the shuttle manipulator (/obj/machinery/shuttle_manipulator): action load(basic syndicate infiltrator (/datum/map_template/shuttle/infiltrator/basic), the syndicate recon outpost (/obj/docking_port/stationary))
+[21:16:03]the syndicate recon outpost (/obj/docking_port/stationary): load roundstart()
+[21:16:03]Shuttle (/datum/controller/subsystem/shuttle): initial load()
+[21:16:03]Shuttle (/datum/controller/subsystem/shuttle): Initialize(765422)
+[21:16:03]Master (/datum/controller/master): Initialize(10, 0)
+## WARNING: load_template(): Shuttle Template _maps/shuttles/labour_box.dmm has no	mobile docking port. Aborting import. in code/modules/shuttle/manipulator.dm at line 289 src: the shuttle manipulator usr: .
+runtime error: 
+[21:16:04]Cannot execute null.canDock().
+[21:16:04]proc name: action load (/obj/machinery/shuttle_manipulator/proc/action_load)
+[21:16:04]  source file: manipulator.dm,220
+[21:16:04]  usr: null
+[21:16:04]  src: the shuttle manipulator (/obj/machinery/shuttle_manipulator)
+[21:16:04]  src.loc: the floor (148,76,1) (/turf/open/floor/circuit/green)
+[21:16:04]  call stack:
+[21:16:04]the shuttle manipulator (/obj/machinery/shuttle_manipulator): action load(labour shuttle (Box) (/datum/map_template/shuttle/labour/box), the fore bay 1 (/obj/docking_port/stationary))
+[21:16:04]the fore bay 1 (/obj/docking_port/stationary): load roundstart()
+[21:16:04]Shuttle (/datum/controller/subsystem/shuttle): initial load()
+[21:16:04]Shuttle (/datum/controller/subsystem/shuttle): Initialize(765422)
+[21:16:04]Master (/datum/controller/master): Initialize(10, 0)
+## WARNING: load_template(): Shuttle Template _maps/shuttles/mining_box.dmm has no	mobile docking port. Aborting import. in code/modules/shuttle/manipulator.dm at line 289 src: the shuttle manipulator usr: .
+runtime error: 
+[21:16:04]Cannot execute null.canDock().
+[21:16:04]proc name: action load (/obj/machinery/shuttle_manipulator/proc/action_load)
+[21:16:04]  source file: manipulator.dm,220
+[21:16:04]  usr: null
+[21:16:04]  src: the shuttle manipulator (/obj/machinery/shuttle_manipulator)
+[21:16:04]  src.loc: the floor (148,76,1) (/turf/open/floor/circuit/green)
+[21:16:04]  call stack:
+[21:16:04]the shuttle manipulator (/obj/machinery/shuttle_manipulator): action load(mining shuttle (Box) (/datum/map_template/shuttle/mining/box), the mining shuttle bay (/obj/docking_port/stationary))
+[21:16:04]the mining shuttle bay (/obj/docking_port/stationary): load roundstart()
+[21:16:04]Shuttle (/datum/controller/subsystem/shuttle): initial load()
+[21:16:04]Shuttle (/datum/controller/subsystem/shuttle): Initialize(765422)
+[21:16:04]Master (/datum/controller/master): Initialize(10, 0)
+## WARNING: load_template(): Shuttle Template _maps/shuttles/whiteship_meta.dmm has no	mobile docking port. Aborting import. in code/modules/shuttle/manipulator.dm at line 289 src: the shuttle manipulator usr: .
+runtime error: 
+[21:16:04]Cannot execute null.canDock().
+[21:16:04]proc name: action load (/obj/machinery/shuttle_manipulator/proc/action_load)
+[21:16:04]  source file: manipulator.dm,220
+[21:16:04]  usr: null
+[21:16:04]  src: the shuttle manipulator (/obj/machinery/shuttle_manipulator)
+[21:16:04]  src.loc: the floor (148,76,1) (/turf/open/floor/circuit/green)
+[21:16:04]  call stack:
+[21:16:04]the shuttle manipulator (/obj/machinery/shuttle_manipulator): action load(NT Recovery Whiteship (/datum/map_template/shuttle/whiteship/meta), Deep Space (/obj/docking_port/stationary))
+[21:16:04]Deep Space (/obj/docking_port/stationary): load roundstart()
+[21:16:04]Shuttle (/datum/controller/subsystem/shuttle): initial load()
+[21:16:04]Shuttle (/datum/controller/subsystem/shuttle): Initialize(765422)
+[21:16:04]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Shuttle subsystem within 22.7 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 105 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 163.7 seconds!
+Game start took 12.4s
+runtime error: 
+[21:23:01]Unknown value: start.assembly{{*}}electronic assembly=-=electronic assembly{{*}}components^%^four multiplexer=-=four multiplexer^%^memory chip=-=RedHexData^%^memory chip=-=YellowHexData^%^memory chip=-=GreenHexData^%^memory chip=-=BlueHexData^%^fast ticker=-=fast ticker^%^advanced light=-=advanced light^%^toggle button=-=toggle button^%^addition circuit=-=addition circuit^%^greater_than or equal gate=-=greater_than or equal gate^%^memory chip=-=Reset^%^memory chip=-=GreatMediator^%^tiny photovoltaic cell=-=tiny photovoltaic cell^%^tiny photovoltaic cell=-=tiny photovoltaic cell^%^half-sec delay circuit=-=half-sec delay circuit^%^half-sec delay circuit=-=half-sec delay circuit^%^half-sec delay circuit=-=half-sec delay circuit{{*}}values^%^1i1:+:num:+:5^%^1i2:+:text:+:#FF0000^%^1i3:+:text:+:#FFFF00^%^1i4:+:text:+:#00FF00^%^1i5:+:text:+:#0000FF^%^2i1:+:text:+:#FF0000^%^3i1:+:text:+:#FFFF00^%^4i1:+:text:+:#00FF00^%^5i1:+:text:+:#0000FF^%^6i1:+:num:+:1^%^7i1:+:text:+:#0000FF^%^7i2:+:num:+:100^%^9i1:+:num:+:1^%^9i2:+:num:+:0^%^10i1:+:num:+:5^%^10i2:+:num:+:5^%^11i1:+:num:+:0^%^12i1:+:num:+:1{{*}}wires^%^1i1=-=9o1^%^1i2=-=2o1^%^1i3=-=3o1^%^1i4=-=4o1^%^1i5=-=5o1^%^6i1=-=8o1^%^7i1=-=1o1^%^9i2=-=11o1^%^9i2=-=9o1^%^10i1=-=9o1^%^1o1=-=7i1^%^2o1=-=1i2^%^3o1=-=1i3^%^4o1=-=1i4^%^5o1=-=1i5^%^8o1=-=6i1^%^9o1=-=1i1^%^9o1=-=9i2^%^9o1=-=10i1^%^9o1=-=11o1^%^11o1=-=9i2^%^11o1=-=9o1^%^1a1=-=10a3^%^2a1=-=8a1^%^3a1=-=8a1^%^4a1=-=8a1^%^5a1=-=8a1^%^6a1=-=9a1^%^6a1=-=15a1^%^7a1=-=8a1^%^8a1=-=4a1^%^8a1=-=5a1^%^8a1=-=2a1^%^8a1=-=3a1^%^8a1=-=7a1^%^9a1=-=11a2^%^9a1=-=6a1^%^9a1=-=15a2^%^9a1=-=16a2^%^9a1=-=17a2^%^9a2=-=10a1^%^10a1=-=9a2^%^10a2=-=11a1^%^10a3=-=1a1^%^11a1=-=10a2^%^11a2=-=9a1^%^15a1=-=6a1^%^15a2=-=16a1^%^15a2=-=9a1^%^16a1=-=15a2^%^16a2=-=17a1^%^16a2=-=9a1^%^17a1=-=16a2^%^17a2=-=9a1{{*}}end
+[21:23:01]proc name: validate electronic assembly (/datum/controller/subsystem/processing/circuit/proc/validate_electronic_assembly)
+[21:23:01]  source file: saved_circuits.dm,229
+[21:23:01]  usr: Cecilia Brown (/mob/living/carbon/human)
+[21:23:01]  src: Circuit (/datum/controller/subsystem/processing/circuit)
+[21:23:01]  usr.loc: the floor (191,89,2) (/turf/open/floor/plasteel/white)
+[21:23:01]  call stack:
+[21:23:01]Circuit (/datum/controller/subsystem/processing/circuit): validate electronic assembly("start.assembly{{*}}electronic ...")
+[21:23:01]the integrated circuit printer (/obj/item/device/integrated_circuit_printer): Topic("src=\[0x2005d62];print=load", /list (/list))
+[21:23:01]Names Are Hard (/client): Topic("src=\[0x2005d62];print=load", /list (/list), the integrated circuit printer (/obj/item/device/integrated_circuit_printer))
+[21:23:01]Names Are Hard (/client): Topic("src=\[0x2005d62];print=load", /list (/list), the integrated circuit printer (/obj/item/device/integrated_circuit_printer))
+runtime error: 
+[21:23:11]Unknown value: start.assembly{{*}}electronic assembly=-=electronic assembly{{*}}components^%^four multiplexer=-=four multiplexer^%^memory chip=-=RedHexData^%^memory chip=-=YellowHexData^%^memory chip=-=GreenHexData^%^memory chip=-=BlueHexData^%^fast ticker=-=fast ticker^%^advanced light=-=advanced light^%^toggle button=-=toggle button^%^addition circuit=-=addition circuit^%^greater_than or equal gate=-=greater_than or equal gate^%^memory chip=-=Reset^%^memory chip=-=GreatMediator^%^tiny photovoltaic cell=-=tiny photovoltaic cell^%^tiny photovoltaic cell=-=tiny photovoltaic cell^%^half-sec delay circuit=-=half-sec delay circuit^%^half-sec delay circuit=-=half-sec delay circuit^%^half-sec delay circuit=-=half-sec delay circuit{{*}}values^%^1i1:+:num:+:5^%^1i2:+:text:+:#FF0000^%^1i3:+:text:+:#FFFF00^%^1i4:+:text:+:#00FF00^%^1i5:+:text:+:#0000FF^%^2i1:+:text:+:#FF0000^%^3i1:+:text:+:#FFFF00^%^4i1:+:text:+:#00FF00^%^5i1:+:text:+:#0000FF^%^6i1:+:num:+:1^%^7i1:+:text:+:#0000FF^%^7i2:+:num:+:100^%^9i1:+:num:+:1^%^9i2:+:num:+:0^%^10i1:+:num:+:5^%^10i2:+:num:+:5^%^11i1:+:num:+:0^%^12i1:+:num:+:1{{*}}wires^%^1i1=-=9o1^%^1i2=-=2o1^%^1i3=-=3o1^%^1i4=-=4o1^%^1i5=-=5o1^%^6i1=-=8o1^%^7i1=-=1o1^%^9i2=-=11o1^%^9i2=-=9o1^%^10i1=-=9o1^%^1o1=-=7i1^%^2o1=-=1i2^%^3o1=-=1i3^%^4o1=-=1i4^%^5o1=-=1i5^%^8o1=-=6i1^%^9o1=-=1i1^%^9o1=-=9i2^%^9o1=-=10i1^%^9o1=-=11o1^%^11o1=-=9i2^%^11o1=-=9o1^%^1a1=-=10a3^%^2a1=-=8a1^%^3a1=-=8a1^%^4a1=-=8a1^%^5a1=-=8a1^%^6a1=-=9a1^%^6a1=-=15a1^%^7a1=-=8a1^%^8a1=-=4a1^%^8a1=-=5a1^%^8a1=-=2a1^%^8a1=-=3a1^%^8a1=-=7a1^%^9a1=-=11a2^%^9a1=-=6a1^%^9a1=-=15a2^%^9a1=-=16a2^%^9a1=-=17a2^%^9a2=-=10a1^%^10a1=-=9a2^%^10a2=-=11a1^%^10a3=-=1a1^%^11a1=-=10a2^%^11a2=-=9a1^%^15a1=-=6a1^%^15a2=-=16a1^%^15a2=-=9a1^%^16a1=-=15a2^%^16a2=-=17a1^%^16a2=-=9a1^%^17a1=-=16a2^%^17a2=-=9a1{{*}}end
+[21:23:11]proc name: validate electronic assembly (/datum/controller/subsystem/processing/circuit/proc/validate_electronic_assembly)
+[21:23:11]  source file: saved_circuits.dm,229
+[21:23:11]  usr: Cecilia Brown (/mob/living/carbon/human)
+[21:23:11]  src: Circuit (/datum/controller/subsystem/processing/circuit)
+[21:23:11]  usr.loc: the floor (191,89,2) (/turf/open/floor/plasteel/white)
+[21:23:11]  call stack:
+[21:23:11]Circuit (/datum/controller/subsystem/processing/circuit): validate electronic assembly("start.assembly{{*}}electronic ...")
+[21:23:11]the integrated circuit printer (/obj/item/device/integrated_circuit_printer): Topic("src=\[0x2005d62];print=load", /list (/list))
+[21:23:11]Names Are Hard (/client): Topic("src=\[0x2005d62];print=load", /list (/list), the integrated circuit printer (/obj/item/device/integrated_circuit_printer))
+[21:23:11]Names Are Hard (/client): Topic("src=\[0x2005d62];print=load", /list (/list), the integrated circuit printer (/obj/item/device/integrated_circuit_printer))

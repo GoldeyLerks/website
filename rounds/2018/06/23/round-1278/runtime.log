@@ -1,0 +1,661 @@
+
+
+Starting up round ID 1278. 01:13:41
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading BoxStation...
+Loaded Station in 7.3s!
+Loaded Lavaland in 7.3s!
+Loaded Reebe in 7.3s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 38.1 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[01:14:33]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[01:14:33]proc name: stack trace (/datum/proc/stack_trace)
+[01:14:33]  source file: unsorted.dm,1257
+[01:14:33]  usr: null
+[01:14:33]  src: Vacant Office APC (/obj/machinery/power/apc)
+[01:14:33]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[01:14:33]  call stack:
+[01:14:33]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[01:14:33]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[01:14:33]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[01:14:33]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[01:14:33]Atoms (/datum/controller/subsystem/atoms): Initialize(44648)
+[01:14:33]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 50.2 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 59 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 59 turf(s) (connected to 21839 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 16.1 seconds!
+Failed to find backup file for map BoxStation on zlevel 2.
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 6.1 seconds!
+Initialized Overlay subsystem within 23.6 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0.1 seconds!
+Initialized Lighting subsystem within 13.3 seconds!
+Initialized Shuttle subsystem within 24.6 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 4 engraved messages on map BoxStation
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 174.1 seconds!
+runtime error: 
+[01:17:55]Cannot read null.species
+[01:17:55]proc name: update body (/mob/living/carbon/human/update_body)
+[01:17:55]  source file: update_icons.dm,62
+[01:17:55]  usr: null
+[01:17:55]  src:  (/mob/living/carbon/human)
+[01:17:55]  src.loc: null
+[01:17:55]  call stack:
+[01:17:55] (/mob/living/carbon/human): update body()
+[01:17:55]the surplus prosthetic right l... (/obj/item/bodypart/r_leg/robot/surplus): attach limb( (/mob/living/carbon/human), null)
+[01:17:55]the surplus prosthetic right l... (/obj/item/bodypart/r_leg/robot/surplus): replace limb( (/mob/living/carbon/human), null)
+[01:17:55]Prosthetic Limb (/datum/trait/prosthetic_limb): on spawn()
+[01:17:55]Prosthetic Limb (/datum/trait/prosthetic_limb): New( (/mob/living/carbon/human), 1)
+[01:17:55] (/mob/living/carbon/human): add trait datum("Prosthetic Limb", 1)
+[01:17:55]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), Skyrimlegion (/client), 1)
+[01:17:55]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[01:17:55]Ticker (/datum/controller/subsystem/ticker): setup()
+[01:17:55]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[01:17:55]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+runtime error: 
+[01:17:55]Cannot read null.species
+[01:17:55]proc name: update hair (/mob/living/carbon/human/update_hair)
+[01:17:55]  source file: update_icons.dm,53
+[01:17:55]  usr: null
+[01:17:55]  src:  (/mob/living/carbon/human)
+[01:17:55]  src.loc: null
+[01:17:55]  call stack:
+[01:17:55] (/mob/living/carbon/human): update hair()
+[01:17:55]the surplus prosthetic right l... (/obj/item/bodypart/r_leg/robot/surplus): attach limb( (/mob/living/carbon/human), null)
+[01:17:55]the surplus prosthetic right l... (/obj/item/bodypart/r_leg/robot/surplus): replace limb( (/mob/living/carbon/human), null)
+[01:17:55]Prosthetic Limb (/datum/trait/prosthetic_limb): on spawn()
+[01:17:55]Prosthetic Limb (/datum/trait/prosthetic_limb): New( (/mob/living/carbon/human), 1)
+[01:17:55] (/mob/living/carbon/human): add trait datum("Prosthetic Limb", 1)
+[01:17:55]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), Skyrimlegion (/client), 1)
+[01:17:55]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[01:17:55]Ticker (/datum/controller/subsystem/ticker): setup()
+[01:17:55]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[01:17:55]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+runtime error: 
+[01:17:55]addtimer called with a callback assigned to a qdeleted object
+[01:17:55]proc name: stack trace (/proc/stack_trace)
+[01:17:55]  source file: unsorted.dm,1254
+[01:17:55]  usr: (src)
+[01:17:55]  src: null
+[01:17:55]  call stack:
+[01:17:55]stack trace("addtimer called with a callbac...")
+[01:17:55]addtimer(/datum/callback (/datum/callback), 10, 4)
+[01:17:55] (/mob/living/carbon/human): clear fullscreen("nearsighted", 10)
+[01:17:55] (/mob/living/carbon/human): equip to slot(the prescription glasses (/obj/item/clothing/glasses/regular), 8)
+[01:17:55]Nearsighted (/datum/trait/nearsighted): on spawn()
+[01:17:55]Nearsighted (/datum/trait/nearsighted): New( (/mob/living/carbon/human), 1)
+[01:17:55] (/mob/living/carbon/human): add trait datum("Nearsighted", 1)
+[01:17:55]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), Skyrimlegion (/client), 1)
+[01:17:55]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[01:17:55]Ticker (/datum/controller/subsystem/ticker): setup()
+[01:17:55]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[01:17:55]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+Game start took 13.4s
+runtime error: 
+[01:19:16]nothing to animate
+[01:19:16]proc name: shake camera (/proc/shake_camera)
+[01:19:16]  source file: mob_helpers.dm,270
+[01:19:16]  usr: (src)
+[01:19:16]  src: null
+[01:19:16]  call stack:
+[01:19:16]shake camera(Heidi Fuchs (/mob/living/carbon/human), 0.75, 1)
+[01:19:16]Heidi Fuchs (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[01:19:16]Heidi Fuchs (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[01:19:16]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[01:19:16]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[01:19:16]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[01:19:16]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[01:19:16]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[01:19:16]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[01:19:16]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[01:21:11]nothing to animate
+[01:21:11]proc name: shake camera (/proc/shake_camera)
+[01:21:11]  source file: mob_helpers.dm,270
+[01:21:11]  usr: (src)
+[01:21:11]  src: null
+[01:21:11]  call stack:
+[01:21:11]shake camera(Guy Fieri (/mob/living/carbon/human), 0.75, 1)
+[01:21:11]Guy Fieri (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[01:21:11]Guy Fieri (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[01:21:11]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[01:21:11]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[01:21:11]the mining shuttle (/obj/docking_port/mobile): check()
+[01:21:11]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[01:21:11]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[01:32:51]nothing to animate
+[01:32:51]proc name: shake camera (/proc/shake_camera)
+[01:32:51]  source file: mob_helpers.dm,270
+[01:32:51]  usr: (src)
+[01:32:51]  src: null
+[01:32:51]  call stack:
+[01:32:51]shake camera(Tyron Jamal (/mob/living/carbon/human), 0.75, 1)
+[01:32:51]Tyron Jamal (/mob/living/carbon/human): afterShuttleMove(space (51,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[01:32:51]Tyron Jamal (/mob/living/carbon/human): afterShuttleMove(space (51,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[01:32:51]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[01:32:51]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[01:32:51]the mining shuttle (/obj/docking_port/mobile): check()
+[01:32:51]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[01:32:51]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[01:32:51]nothing to animate
+[01:32:51]proc name: shake camera (/proc/shake_camera)
+[01:32:51]  source file: mob_helpers.dm,270
+[01:32:51]  usr: (src)
+[01:32:51]  src: null
+[01:32:51]  call stack:
+[01:32:51]shake camera(Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human), 0.75, 1)
+[01:32:51]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[01:32:51]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[01:32:51]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[01:32:51]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[01:32:51]the mining shuttle (/obj/docking_port/mobile): check()
+[01:32:51]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[01:32:51]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[01:35:38]nothing to animate
+[01:35:38]proc name: shake camera (/proc/shake_camera)
+[01:35:38]  source file: mob_helpers.dm,270
+[01:35:38]  usr: (src)
+[01:35:38]  src: null
+[01:35:38]  call stack:
+[01:35:38]shake camera(Fay Williamson (/mob/living/carbon/human), 0.75, 1)
+[01:35:38]Fay Williamson (/mob/living/carbon/human): afterShuttleMove(space (18,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[01:35:38]Fay Williamson (/mob/living/carbon/human): afterShuttleMove(space (18,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[01:35:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[01:35:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[01:35:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[01:35:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[01:35:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[01:35:38]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[01:35:38]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[01:36:34]nothing to animate
+[01:36:34]proc name: shake camera (/proc/shake_camera)
+[01:36:34]  source file: mob_helpers.dm,270
+[01:36:34]  usr: (src)
+[01:36:34]  src: null
+[01:36:34]  call stack:
+[01:36:34]shake camera(Tyron Jamal (/mob/living/carbon/human), 0.75, 1)
+[01:36:34]Tyron Jamal (/mob/living/carbon/human): afterShuttleMove(space (51,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[01:36:34]Tyron Jamal (/mob/living/carbon/human): afterShuttleMove(space (51,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[01:36:34]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the mining shuttle bay (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[01:36:34]the mining shuttle (/obj/docking_port/mobile): initiate docking(the mining shuttle bay (/obj/docking_port/stationary), 1, 0)
+[01:36:34]the mining shuttle (/obj/docking_port/mobile): check()
+[01:36:34]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[01:36:34]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[01:43:30]nothing to animate
+[01:43:30]proc name: shake camera (/proc/shake_camera)
+[01:43:30]  source file: mob_helpers.dm,270
+[01:43:30]  usr: (src)
+[01:43:30]  src: null
+[01:43:30]  call stack:
+[01:43:30]shake camera(Fay Williamson (as Captain) (/mob/living/carbon/human), 0.75, 1)
+[01:43:30]Fay Williamson (as Captain) (/mob/living/carbon/human): afterShuttleMove(space (51,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[01:43:30]Fay Williamson (as Captain) (/mob/living/carbon/human): afterShuttleMove(space (51,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[01:43:30]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[01:43:30]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[01:43:30]the mining shuttle (/obj/docking_port/mobile): check()
+[01:43:30]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[01:43:30]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[01:43:30]nothing to animate
+[01:43:30]proc name: shake camera (/proc/shake_camera)
+[01:43:30]  source file: mob_helpers.dm,270
+[01:43:30]  usr: (src)
+[01:43:30]  src: null
+[01:43:30]  call stack:
+[01:43:30]shake camera(Heidi Fuchs (/mob/living/carbon/human), 0.75, 1)
+[01:43:30]Heidi Fuchs (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[01:43:30]Heidi Fuchs (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[01:43:30]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[01:43:30]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[01:43:30]the mining shuttle (/obj/docking_port/mobile): check()
+[01:43:30]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[01:43:30]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[01:50:27]nothing to animate
+[01:50:27]proc name: shake camera (/proc/shake_camera)
+[01:50:27]  source file: mob_helpers.dm,270
+[01:50:27]  usr: (src)
+[01:50:27]  src: null
+[01:50:27]  call stack:
+[01:50:27]shake camera(Jamari Nash (/mob/living/carbon/human), 0.75, 1)
+[01:50:27]Jamari Nash (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[01:50:27]Jamari Nash (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[01:50:27]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[01:50:27]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[01:50:27]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[01:50:27]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[01:50:27]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[01:50:27]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[01:50:27]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[01:54:59]Cannot modify null.moved.
+[01:54:59]proc name: Remove (/datum/action/proc/Remove)
+[01:54:59]  source file: action.dm,79
+[01:54:59]  usr: null
+[01:54:59]  src: Toggle Gunlight (/datum/action/item_action/toggle_gunlight)
+[01:54:59]  call stack:
+[01:54:59]Toggle Gunlight (/datum/action/item_action/toggle_gunlight): Remove(Holly Gardner (/mob/living/carbon/human))
+[01:54:59]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): dropped(Holly Gardner (/mob/living/carbon/human))
+[01:54:59]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): dropped(Holly Gardner (/mob/living/carbon/human))
+[01:54:59]the explorer bag (/obj/item/storage/backpack/explorer): remove from storage(the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator), null)
+[01:54:59]the explorer bag (/obj/item/storage/backpack/explorer): handle atom del(the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator))
+[01:54:59]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): Destroy(0)
+[01:54:59]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): Destroy(0)
+[01:54:59]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): Destroy(0)
+[01:54:59]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): Destroy(0)
+[01:54:59]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): Destroy(0)
+[01:54:59]...
+[01:54:59]Holly Gardner (/mob/living/carbon/human): Destroy(0)
+[01:54:59]Holly Gardner (/mob/living/carbon/human): Destroy(0)
+[01:54:59]Holly Gardner (/mob/living/carbon/human): Destroy(0)
+[01:54:59]Holly Gardner (/mob/living/carbon/human): Destroy(0)
+[01:54:59]qdel(Holly Gardner (/mob/living/carbon/human), 0)
+[01:54:59]the crematorium controller (/obj/item/device/assembly/control/crematorium): activate()
+[01:54:59]the crematorium controller (/obj/item/device/assembly/control/crematorium): pulsed(0)
+[01:54:59]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human): UnarmedAttack(the crematorium igniter (/obj/machinery/button/crematorium), 1)
+[01:54:59]the crematorium igniter (/obj/machinery/button/crematorium): Click(the floor (175,144,2) (/turf/open/floor/plasteel/dark), "mapwindow.map", "icon-x=18;icon-y=19;left=1;scr...")
+runtime error: 
+[02:01:11]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:12]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:12]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:13]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:13]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:14]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:14]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:15]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:15]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:16]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:16]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:17]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:17]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:18]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:18]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:19]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:19]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:20]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:20]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:22]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:22]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:23]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:23]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:24]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:24]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:25]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:25]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:26]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:26]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:27]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:27]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:28]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:29]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:29]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:30]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:30]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:31]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:31]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:33]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:33]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:34]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:34]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:35]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:35]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:36]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:36]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:01:37]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:05:24]Cannot read null.loc
+[02:05:24]proc name: update parallax (/datum/hud/proc/update_parallax)
+[02:05:24]  source file: parallax.dm,170
+[02:05:24]  usr: Baseenar-Chee (/mob/living/brain)
+[02:05:24]  src: /datum/hud (/datum/hud)
+[02:05:24]  usr.loc: Unknown\'s brain (/obj/item/organ/brain)
+[02:05:24]  call stack:
+[02:05:24]/datum/hud (/datum/hud): update parallax()
+[02:05:24]/datum/hud (/datum/hud): update parallax pref(Baseenar-Chee (/mob/living/brain))
+[02:05:24]/datum/hud (/datum/hud): show hud(1, null)
+[02:05:24]Baseenar-Chee (/mob/living/brain): Login()
+[02:05:24]Baseenar-Chee (/mob/living/brain): Login()
+[02:05:24]Baseenar-Chee (/datum/mind): transfer to(Baseenar-Chee (/mob/living/brain), 0)
+[02:05:24]Unknown\'s brain (/obj/item/organ/brain): transfer identity(Unknown (/mob/living/carbon/human))
+[02:05:24]Unknown\'s brain (/obj/item/organ/brain): Remove(Unknown (/mob/living/carbon/human), 0, 0)
+[02:05:24]Unknown\'s brain (/obj/item/organ/brain): transfer to limb(Baseenar-Chee\'s head (/obj/item/bodypart/head), Unknown (/mob/living/carbon/human))
+[02:05:24]Baseenar-Chee\'s head (/obj/item/bodypart/head): drop limb(null)
+[02:05:24]Baseenar-Chee\'s head (/obj/item/bodypart/head): drop limb(null)
+[02:05:24]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[02:05:24]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[02:05:24]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[02:05:24]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): consume()
+[02:05:24]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): Life(2, 1392)
+[02:05:24]Mobs (/datum/controller/subsystem/mobs): fire(1)
+[02:05:24]Mobs (/datum/controller/subsystem/mobs): ignite(1)
+[02:05:24]Master (/datum/controller/master): RunQueue()
+[02:05:24]Master (/datum/controller/master): Loop()
+[02:05:24]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[02:08:12]nothing to animate
+[02:08:12]proc name: shake camera (/proc/shake_camera)
+[02:08:12]  source file: mob_helpers.dm,270
+[02:08:12]  usr: (src)
+[02:08:12]  src: null
+[02:08:12]  call stack:
+[02:08:12]shake camera(Nakuma-Seen (/mob/living/carbon/human), 0.75, 1)
+[02:08:12]Nakuma-Seen (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[02:08:12]Nakuma-Seen (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[02:08:12]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the mining shuttle bay (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[02:08:12]the mining shuttle (/obj/docking_port/mobile): initiate docking(the mining shuttle bay (/obj/docking_port/stationary), 1, 0)
+[02:08:12]the mining shuttle (/obj/docking_port/mobile): check()
+[02:08:12]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[02:08:12]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[02:09:27]Cannot read null.loc
+[02:09:27]proc name: update parallax (/datum/hud/proc/update_parallax)
+[02:09:27]  source file: parallax.dm,170
+[02:09:27]  usr: Bokeeus-Shaleez (/mob/living/brain)
+[02:09:27]  src: /datum/hud (/datum/hud)
+[02:09:27]  usr.loc: Bokeeus-Shaleez\'s brain (/obj/item/organ/brain)
+[02:09:27]  call stack:
+[02:09:27]/datum/hud (/datum/hud): update parallax()
+[02:09:27]/datum/hud (/datum/hud): update parallax pref(Bokeeus-Shaleez (/mob/living/brain))
+[02:09:27]/datum/hud (/datum/hud): show hud(1, null)
+[02:09:27]Bokeeus-Shaleez (/mob/living/brain): Login()
+[02:09:27]Bokeeus-Shaleez (/mob/living/brain): Login()
+[02:09:27]Bokeeus-Shaleez (/datum/mind): transfer to(Bokeeus-Shaleez (/mob/living/brain), 0)
+[02:09:27]Bokeeus-Shaleez\'s brain (/obj/item/organ/brain): transfer identity(Bokeeus-Shaleez (/mob/living/carbon/human))
+[02:09:27]Bokeeus-Shaleez\'s brain (/obj/item/organ/brain): Remove(Bokeeus-Shaleez (/mob/living/carbon/human), 0, 0)
+[02:09:27]Bokeeus-Shaleez\'s brain (/obj/item/organ/brain): transfer to limb(Bokeeus-Shaleez\'s head (/obj/item/bodypart/head), Bokeeus-Shaleez (/mob/living/carbon/human))
+[02:09:27]Bokeeus-Shaleez\'s head (/obj/item/bodypart/head): drop limb(null)
+[02:09:27]Bokeeus-Shaleez\'s head (/obj/item/bodypart/head): drop limb(null)
+[02:09:27]Bokeeus-Shaleez (/mob/living/carbon/human): spread bodyparts(null, null)
+[02:09:27]Bokeeus-Shaleez (/mob/living/carbon/human): gib(null, null, null)
+[02:09:27]Bokeeus-Shaleez (/mob/living/carbon/human): gib(null, null, null)
+[02:09:27]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): consume()
+[02:09:27]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): Life(2, 1507)
+[02:09:27]Mobs (/datum/controller/subsystem/mobs): fire(1)
+[02:09:27]Mobs (/datum/controller/subsystem/mobs): ignite(1)
+[02:09:27]Master (/datum/controller/master): RunQueue()
+[02:09:27]Master (/datum/controller/master): Loop()
+[02:09:27]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[02:11:55]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:11:56]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:11:56]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:11:57]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:11:57]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:11:58]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:11:58]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:11:59]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:11:59]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:00]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:00]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:01]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:01]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:02]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:02]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:03]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:03]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:04]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:04]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:05]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:05]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:06]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:06]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:07]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:07]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:08]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:08]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:09]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:09]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:10]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:10]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:11]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:11]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:12]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:12]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:13]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:14]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:14]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:15]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:15]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:16]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:16]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:17]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:17]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:18]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:18]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:19]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:19]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:20]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:20]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:12:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[02:13:07]nothing to animate
+[02:13:07]proc name: shake camera (/proc/shake_camera)
+[02:13:07]  source file: mob_helpers.dm,270
+[02:13:07]  usr: (src)
+[02:13:07]  src: null
+[02:13:07]  call stack:
+[02:13:07]shake camera(Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human), 0.75, 1)
+[02:13:07]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human): afterShuttleMove(space (90,18,13) (/turf/open/space/transit/north), /list (/list), 1, 1, 2, 90)
+[02:13:07]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human): afterShuttleMove(space (90,18,13) (/turf/open/space/transit/north), /list (/list), 1, 1, 2, 90)
+[02:13:07]the escape pod 1 (/obj/docking_port/mobile/pod): cleanup runway(the recovery ship (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 90, 2, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[02:13:07]the escape pod 1 (/obj/docking_port/mobile/pod): initiate docking(the recovery ship (/obj/docking_port/stationary), 2, 0)
+[02:13:07]the escape pod 1 (/obj/docking_port/mobile/pod): on emergency dock()
+[02:13:07]Box emergency shuttle (/obj/docking_port/mobile/emergency): check()
+[02:13:07]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[02:13:07]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+Saved 4 engraved messages on map BoxStation
+runtime error: 
+[02:14:50]Cannot read null.loc
+[02:14:50]proc name: update parallax (/datum/hud/proc/update_parallax)
+[02:14:50]  source file: parallax.dm,170
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 02:14:58

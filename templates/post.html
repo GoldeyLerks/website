@@ -1,0 +1,123 @@
+{% from "_formhelpers.html" import render_post_field %}
+{% extends "layout.html" %}
+{% block title %}Forum{% endblock %}
+{% block active %}forum{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="/static/css/forums.css">
+<link rel="stylesheet" href="/static/css/forms.css">
+<link rel="stylesheet" href="/static/css/highlight.css">
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+<meta property="og:title" content="BeeStation - Forum - {{topic["title"]}}" />
+<meta property="og:description" content="{{post["post"]["title"]}}" />
+{% endblock %}
+
+{% block content %}
+
+<div class="post-title"><a href="/forum">Forum</a> / <a href="/forum/{{topic["id"]}}">{{topic["title"]}}</a> / <a href="/forum/{{topic["id"]}}/{{post["post"]["id"]}}">{{post["post"]["title"]}}</a></div><div style="float: right; padding-right: 30px;" class="post-title">{% if "username" in session %}<a href="/logout">Logout</a>{% else %}<a href="/login">Login</a> or <a href="/signup">Signup</a>{% endif %}</div><br><br>
+
+{% set user = get_user(post["post"]["authorid"]) %}
+
+<div class="post">
+  <div class="post-user">
+    {% if user["avatar"] == None %}
+      <img class="post-user-avatar" src="https://npengage.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png">
+    {% else %}
+      <img class="post-user-avatar" src="{{user["avatar"]}}">
+    {% endif %}
+    <div class="post-user-username">{{user["username"]}}</div>
+    <div class="post-user-score">Love: {{user["score"]}}</div>
+    <div class="post-user-score">{{str(rd(dt.datetime.now()-post["post"]["ts"])).split(", ")[0]}} <i class="fas fa-clock"></i></div>
+    {% if user["admin"] %}
+    <div class="post-user-score"><i class="fas fa-gavel"></i></div>
+    {% endif %}
+    <a class="post-heart" {% if "username" in session %}href="/heart/{{post["post"]["topic"]}}/{{post["post"]["id"]}}/{{post["post"]["id"]}}"{% endif %}>{{len(post["post"]["upvotes"])}} {% if session["id"] in post["post"]["upvotes"] %}<i class="fas fa-heart"></i>{% else %}<i class="far fa-heart"></i>{% endif %}</a>
+    {% if session["id"] == post["post"]["authorid"] or session["admin"] %}
+    <div class="post-user-score"><a href="/forum/{{post["post"]["topic"]}}/{{post["post"]["id"]}}/{{post["post"]["id"]}}/edit">Edit Post</a></div>
+    <div class="post-user-score"><a href="/forum/{{post["post"]["topic"]}}/{{post["post"]["id"]}}/{{post["post"]["id"]}}/delete">Delete Post</a></div>
+    <div class="post-user-score"><a href="/settings">Edit Profile</a></div>
+    {% endif %}
+    {% if session["admin"] %}
+    {% if post["post"]["pinned"] %}
+    <div class="post-user-score"><a href="/forum/{{post["post"]["topic"]}}/{{post["post"]["id"]}}/{{post["post"]["id"]}}/pin">Unpin Post</a></div>
+    {% else %}
+    <div class="post-user-score"><a href="/forum/{{post["post"]["topic"]}}/{{post["post"]["id"]}}/{{post["post"]["id"]}}/pin">Pin Post</a></div>
+    {% endif %}
+    {% endif %}
+  </div>
+  <div class="post-body">
+    <div class="post-title">{{post["post"]["title"]}}</div>
+    <div class="post-content markdown-body">{{md(post["post"]["content"])|safe}}</div>
+  </div>
+</div>
+
+{% for reply in post["replies"] %}
+
+{% set user = get_user(reply["authorid"]) %}
+
+<div class="post" id="post-{{reply["id"]}}">
+  <div class="post-user">
+    {% if user["avatar"] == None %}
+      <img class="post-user-avatar" src="https://npengage.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png">
+    {% else %}
+      <img class="post-user-avatar" src="{{user["avatar"]}}">
+    {% endif %}
+    <div class="post-user-username">{{user["username"]}}</div>
+    <div class="post-user-score">Love: {{user["score"]}}</div>
+    <div class="post-user-score">{{str(rd(dt.datetime.now()-reply["ts"])).split(", ")[0]}} <i class="fas fa-clock"></i></div>
+    {% if user["admin"] %}
+    <div class="post-user-score"><i class="fas fa-gavel"></i></div>
+    {% endif %}
+    <a class="post-heart" {% if "username" in session %}href="/heart/{{reply["topic"]}}/{{post["post"]["id"]}}/{{reply["id"]}}"{% endif %}>{{len(reply["upvotes"])}} {% if session["id"] in reply["upvotes"] %}<i class="fas fa-heart"></i>{% else %}<i class="far fa-heart"></i>{% endif %}</a>
+    {% if session["id"] == reply["authorid"] or session["admin"] %}
+    <div class="post-user-score"><a href="/forum/{{reply["topic"]}}/{{post["post"]["id"]}}/{{reply["id"]}}/edit">Edit Post</a></div>
+    <div class="post-user-score"><a href="/forum/{{reply["topic"]}}/{{post["post"]["id"]}}/{{reply["id"]}}/delete">Delete Post</a></div>
+    <div class="post-user-score"><a href="/settings">Edit Profile</a></div>
+    {% endif %}
+
+  </div>
+  <div class="post-body">
+    <div class="post-title">{{reply["title"]}}</div>
+    <div class="post-content markdown-body">{{md(reply["content"])|safe}}</div>
+  </div>
+</div>
+
+{% endfor %}
+
+<br><hr><br>
+
+{% if "username" in session %}
+<form class="form-post" method=post>
+
+    {{ render_post_field(form.title) }}
+    {{ render_post_field(form.content) }}
+    {{ render_post_field(form.submit) }}
+
+
+</form>
+{% else %}
+
+<div class="post-title"><a href="/login">Login</a> or <a href="/signup">Signup</a> to reply</div>
+
+{% endif %}
+
+<script>
+$( "img" ).each(function() {
+  if (this.alt !== "") {
+  this.onclick = function () {
+
+    location.href = this.src;
+  }
+  this.style.cursor = "pointer";
+  }
+});
+
+$( "code" ).each(function() {
+  this.classList.add("prettyprint")
+});
+
+document.getElementById("post-"+window.location.hash.substr(1)).scrollIntoView();
+
+
+</script>
+
+{% endblock %}

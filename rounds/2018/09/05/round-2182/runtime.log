@@ -1,0 +1,746 @@
+[2018-09-05 13:18:34.625] Starting up round ID 2182.
+[2018-09-05 13:18:34.626] -------------------------
+[2018-09-05 13:18:36.148] Initialized Database subsystem within 0 seconds!
+[2018-09-05 13:18:36.149] Initialized Blackbox subsystem within 0 seconds!
+[2018-09-05 13:18:36.150] Initialized Server Tasks subsystem within 0 seconds!
+[2018-09-05 13:18:36.151] Initialized Input subsystem within 0 seconds!
+[2018-09-05 13:18:36.206] Initialized Research subsystem within 0.1 seconds!
+[2018-09-05 13:18:36.215] Initialized Events subsystem within 0 seconds!
+[2018-09-05 13:18:36.222] Initialized Jobs subsystem within 0 seconds!
+[2018-09-05 13:18:36.224] Initialized Quirks subsystem within 0 seconds!
+[2018-09-05 13:18:36.232] Initialized Ticker subsystem within 0 seconds!
+[2018-09-05 13:18:36.233] Loading Box Station...
+[2018-09-05 13:18:40.366] Loaded Station in 4.1s!
+[2018-09-05 13:18:42.685] Loaded Lavaland in 2s!
+[2018-09-05 13:18:45.750] Ruin loader finished with 0 left to spend.
+[2018-09-05 13:18:47.367] Ruin loader finished with 0 left to spend.
+[2018-09-05 13:18:48.860] Initialized Mapping subsystem within 12.6 seconds!
+[2018-09-05 13:18:48.862] Initialized Networks subsystem within 0 seconds!
+[2018-09-05 13:19:34.182] Initialized Atoms subsystem within 45.3 seconds!
+[2018-09-05 13:19:34.199] Initialized Language subsystem within 0 seconds!
+[2018-09-05 13:19:34.652] Initialized Machines subsystem within 0.5 seconds!
+[2018-09-05 13:19:34.705] Initialized Circuit subsystem within 0.1 seconds!
+[2018-09-05 13:19:34.707] Initialized Disease subsystem within 0 seconds!
+[2018-09-05 13:19:34.708] Initialized Medals subsystem within 0 seconds!
+[2018-09-05 13:19:34.708] Initialized Night Shift subsystem within 0 seconds!
+[2018-09-05 13:19:34.708] Initialized Parallax subsystem within 0 seconds!
+[2018-09-05 13:19:34.862] Initialized Traumas subsystem within 0.1 seconds!
+[2018-09-05 13:19:34.863] Initialized Weather subsystem within 0 seconds!
+[2018-09-05 13:19:41.248] Initialized Atmospherics subsystem within 6.4 seconds!
+[2018-09-05 13:19:41.267] Initialized Minimap subsystem within 0 seconds!
+[2018-09-05 13:19:43.982] Initialized Assets subsystem within 2.7 seconds!
+[2018-09-05 13:19:50.340] Initialized Icon Smoothing subsystem within 6.4 seconds!
+[2018-09-05 13:19:51.896] Initialized Overlay subsystem within 1.5 seconds!
+[2018-09-05 13:19:51.897] Initialized XKeyScore subsystem within 0 seconds!
+[2018-09-05 13:19:51.900] Initialized Sticky Ban subsystem within 0.1 seconds!
+[2018-09-05 13:20:06.997] Initialized Lighting subsystem within 15 seconds!
+[2018-09-05 13:20:13.173] Initialized Shuttle subsystem within 6.2 seconds!
+[2018-09-05 13:20:13.216] Initialized Squeak subsystem within 0.1 seconds!
+[2018-09-05 13:20:13.217] Initialized Pathfinder subsystem within 0 seconds!
+[2018-09-05 13:20:13.291] Loaded 22 engraved messages on map Box Station
+[2018-09-05 13:20:13.330] Initialized Persistence subsystem within 0.1 seconds!
+[2018-09-05 13:20:13.330] Initializations complete within 97.2 seconds!
+[2018-09-05 13:21:40.050] Game start took 1s
+[2018-09-05 13:43:37.828] runtime error: The grille taking damage after deletion
+[2018-09-05 13:43:37.828] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 13:43:37.828]   source file: unsorted.dm,1164
+[2018-09-05 13:43:37.828]   usr: null
+[2018-09-05 13:43:37.828]   src: the grille (/obj/structure/grille)
+[2018-09-05 13:43:37.828]   src.loc: null
+[2018-09-05 13:43:37.828]   call stack:
+[2018-09-05 13:43:37.828] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-09-05 13:43:37.828] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null, 0)
+[2018-09-05 13:43:37.828] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null)
+[2018-09-05 13:43:37.828] the grille (/obj/structure/grille): attack animal(Nanotrasen Private Security Of... (/mob/living/simple_animal/hostile/retaliate/nanotrasenpeace/ranged))
+[2018-09-05 13:43:37.828] Nanotrasen Private Security Of... (/mob/living/simple_animal/hostile/retaliate/nanotrasenpeace/ranged): DestroyObjectsInDirection(8)
+[2018-09-05 13:43:37.828] Nanotrasen Private Security Of... (/mob/living/simple_animal/hostile/retaliate/nanotrasenpeace/ranged): DestroyPathToTarget()
+[2018-09-05 13:43:37.828] Nanotrasen Private Security Of... (/mob/living/simple_animal/hostile/retaliate/nanotrasenpeace/ranged): handle automated action()
+[2018-09-05 13:43:37.828] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-09-05 13:43:37.828] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-09-05 13:43:37.828] Master (/datum/controller/master): RunQueue()
+[2018-09-05 13:43:37.828] Master (/datum/controller/master): Loop()
+[2018-09-05 13:43:37.828] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-05 13:43:37.828] 
+[2018-09-05 13:47:10.276] runtime error: list index out of bounds
+[2018-09-05 13:47:10.276] proc name: apply damage (/mob/living/carbon/apply_damage)
+[2018-09-05 13:47:10.276]   source file: damage_procs.dm,16
+[2018-09-05 13:47:10.276]   usr: null
+[2018-09-05 13:47:10.276]   src: the monkey (215) (/mob/living/carbon/monkey)
+[2018-09-05 13:47:10.276]   src.loc: null
+[2018-09-05 13:47:10.276]   call stack:
+[2018-09-05 13:47:10.276] the monkey (215) (/mob/living/carbon/monkey): apply damage(20, "fire", "l_arm", 0)
+[2018-09-05 13:47:10.276] the monkey (215) (/mob/living/carbon/monkey): bullet act(the arcane bolt (/obj/item/projectile/magic/arcane_barrage), "l_arm")
+[2018-09-05 13:47:10.276] the monkey (215) (/mob/living/carbon/monkey): bullet act(the arcane bolt (/obj/item/projectile/magic/arcane_barrage), "l_arm")
+[2018-09-05 13:47:10.276] the arcane bolt (/obj/item/projectile/magic/arcane_barrage): Bump(the monkey (215) (/mob/living/carbon/monkey))
+[2018-09-05 13:47:10.276] the arcane bolt (/obj/item/projectile/magic/arcane_barrage): pixel move(1, 0)
+[2018-09-05 13:47:10.276] the arcane bolt (/obj/item/projectile/magic/arcane_barrage): process(1)
+[2018-09-05 13:47:10.276] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(1)
+[2018-09-05 13:47:10.276] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(1)
+[2018-09-05 13:47:10.276] Master (/datum/controller/master): RunQueue()
+[2018-09-05 13:47:10.276] Master (/datum/controller/master): Loop()
+[2018-09-05 13:47:10.276] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-05 13:47:10.276] 
+[2018-09-05 13:47:28.900] runtime error: The grille taking damage after deletion
+[2018-09-05 13:47:28.900] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 13:47:28.900]   source file: unsorted.dm,1164
+[2018-09-05 13:47:28.900]   usr: null
+[2018-09-05 13:47:28.900]   src: the grille (/obj/structure/grille)
+[2018-09-05 13:47:28.900]   src.loc: null
+[2018-09-05 13:47:28.900]   call stack:
+[2018-09-05 13:47:28.900] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-09-05 13:47:28.900] the grille (/obj/structure/grille): take damage(5, "brute", "melee", 1, null, 0)
+[2018-09-05 13:47:28.900] the grille (/obj/structure/grille): take damage(5, "brute", "melee", 1, null)
+[2018-09-05 13:47:28.900] the grille (/obj/structure/grille): attack animal(the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos))
+[2018-09-05 13:47:28.900] the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos): DestroyObjectsInDirection(1)
+[2018-09-05 13:47:28.900] the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos): DestroyPathToTarget()
+[2018-09-05 13:47:28.900] the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos): handle automated action()
+[2018-09-05 13:47:28.900] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-09-05 13:47:28.900] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-09-05 13:47:28.900] Master (/datum/controller/master): RunQueue()
+[2018-09-05 13:47:28.900] Master (/datum/controller/master): Loop()
+[2018-09-05 13:47:28.900] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-05 13:47:28.900] 
+[2018-09-05 13:47:45.197] runtime error: The grille taking damage after deletion
+[2018-09-05 13:47:45.198] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 13:47:45.198]   source file: unsorted.dm,1164
+[2018-09-05 13:47:45.198]   usr: null
+[2018-09-05 13:47:45.198]   src: the grille (/obj/structure/grille)
+[2018-09-05 13:47:45.198]   src.loc: null
+[2018-09-05 13:47:45.198]   call stack:
+[2018-09-05 13:47:45.198] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-09-05 13:47:45.198] the grille (/obj/structure/grille): take damage(10, "brute", "melee", 1, null, 0)
+[2018-09-05 13:47:45.198] the grille (/obj/structure/grille): take damage(10, "brute", "melee", 1, null)
+[2018-09-05 13:47:45.198] the grille (/obj/structure/grille): attack animal(the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos))
+[2018-09-05 13:47:45.198] the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos): DestroyObjectsInDirection(4)
+[2018-09-05 13:47:45.198] the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos): DestroyPathToTarget()
+[2018-09-05 13:47:45.198] the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos): handle automated action()
+[2018-09-05 13:47:45.198] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-09-05 13:47:45.198] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-09-05 13:47:45.198] Master (/datum/controller/master): RunQueue()
+[2018-09-05 13:47:45.198] Master (/datum/controller/master): Loop()
+[2018-09-05 13:47:45.198] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-05 13:47:45.198] 
+[2018-09-05 13:48:13.694] runtime error: Cannot read null.armor
+[2018-09-05 13:48:13.694] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-09-05 13:48:13.694]   source file: human_defense.dm,32
+[2018-09-05 13:48:13.694]   usr: null
+[2018-09-05 13:48:13.694]   src: the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand)
+[2018-09-05 13:48:13.694]   src.loc: null
+[2018-09-05 13:48:13.694]   call stack:
+[2018-09-05 13:48:13.694] the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand): checkarmor(null, "magic")
+[2018-09-05 13:48:13.694] the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand): getarmor("head", "magic")
+[2018-09-05 13:48:13.694] the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand): run armor check("head", "magic", "", "", 100, null)
+[2018-09-05 13:48:13.694] the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand): bullet act(the bolt of change (/obj/item/projectile/magic/change), "head")
+[2018-09-05 13:48:13.694] the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand): bullet act(the bolt of change (/obj/item/projectile/magic/change), "head")
+[2018-09-05 13:48:13.694] the bolt of change (/obj/item/projectile/magic/change): Bump(the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand))
+[2018-09-05 13:48:13.694] the bolt of change (/obj/item/projectile/magic/change): pixel move(1, 0)
+[2018-09-05 13:48:13.694] the bolt of change (/obj/item/projectile/magic/change): process(1)
+[2018-09-05 13:48:13.694] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-09-05 13:48:13.694] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-09-05 13:48:13.694] Master (/datum/controller/master): RunQueue()
+[2018-09-05 13:48:13.694] Master (/datum/controller/master): Loop()
+[2018-09-05 13:48:13.694] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-05 13:48:13.694] 
+[2018-09-05 13:48:13.835] runtime error: Cannot read null.armor
+[2018-09-05 13:48:13.835] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-09-05 13:48:13.835]   source file: human_defense.dm,32
+[2018-09-05 13:48:13.835]   usr: null
+[2018-09-05 13:48:13.835]   src: the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand)
+[2018-09-05 13:48:13.835]   src.loc: null
+[2018-09-05 13:48:13.835]   call stack:
+[2018-09-05 13:48:13.835] the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand): checkarmor(null, "magic")
+[2018-09-05 13:48:13.835] the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand): getarmor("l_arm", "magic")
+[2018-09-05 13:48:13.835] the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand): run armor check("l_arm", "magic", "", "", 100, null)
+[2018-09-05 13:48:13.835] the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand): bullet act(the bolt of door creation (/obj/item/projectile/magic/door), "l_arm")
+[2018-09-05 13:48:13.835] the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand): bullet act(the bolt of door creation (/obj/item/projectile/magic/door), "l_arm")
+[2018-09-05 13:48:13.835] the bolt of door creation (/obj/item/projectile/magic/door): Bump(the purple baby slime (549) (/mob/living/carbon/human/species/golem/sand))
+[2018-09-05 13:48:13.835] the bolt of door creation (/obj/item/projectile/magic/door): pixel move(1, 0)
+[2018-09-05 13:48:13.835] the bolt of door creation (/obj/item/projectile/magic/door): process(1)
+[2018-09-05 13:48:13.835] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-09-05 13:48:13.835] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-09-05 13:48:13.835] Master (/datum/controller/master): RunQueue()
+[2018-09-05 13:48:13.835] Master (/datum/controller/master): Loop()
+[2018-09-05 13:48:13.835] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-05 13:48:13.835] 
+[2018-09-05 13:49:56.438] runtime error: The grille taking damage after deletion
+[2018-09-05 13:49:56.438] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 13:49:56.438]   source file: unsorted.dm,1164
+[2018-09-05 13:49:56.438]   usr: null
+[2018-09-05 13:49:56.438]   src: the grille (/obj/structure/grille)
+[2018-09-05 13:49:56.438]   src.loc: null
+[2018-09-05 13:49:56.438]   call stack:
+[2018-09-05 13:49:56.438] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-09-05 13:49:56.438] the grille (/obj/structure/grille): take damage(5, "brute", "melee", 1, null, 0)
+[2018-09-05 13:49:56.438] the grille (/obj/structure/grille): take damage(5, "brute", "melee", 1, null)
+[2018-09-05 13:49:56.438] the grille (/obj/structure/grille): attack animal(the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos))
+[2018-09-05 13:49:56.438] the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos): DestroyObjectsInDirection(4)
+[2018-09-05 13:49:56.438] the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos): DestroyPathToTarget()
+[2018-09-05 13:49:56.438] the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos): handle automated action()
+[2018-09-05 13:49:56.438] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-09-05 13:49:56.438] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-09-05 13:49:56.438] Master (/datum/controller/master): RunQueue()
+[2018-09-05 13:49:56.438] Master (/datum/controller/master): Loop()
+[2018-09-05 13:49:56.438] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-05 13:49:56.438] 
+[2018-09-05 13:50:21.305] runtime error: Cannot read null.z
+[2018-09-05 13:50:21.305] proc name: toggle ai (/mob/living/simple_animal/proc/toggle_ai)
+[2018-09-05 13:50:21.305]   source file: simple_animal.dm,565
+[2018-09-05 13:50:21.305]   usr: null
+[2018-09-05 13:50:21.305]   src: Syndicate Stormtrooper (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper)
+[2018-09-05 13:50:21.305]   src.loc: null
+[2018-09-05 13:50:21.305]   call stack:
+[2018-09-05 13:50:21.305] Syndicate Stormtrooper (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper): toggle ai(1)
+[2018-09-05 13:50:21.305] Syndicate Stormtrooper (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper): adjustHealth(20, 1, 0)
+[2018-09-05 13:50:21.305] Syndicate Stormtrooper (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper): adjustFireLoss(20, 1, 0)
+[2018-09-05 13:50:21.305] Syndicate Stormtrooper (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper): apply damage(20, "fire", null, 0)
+[2018-09-05 13:50:21.305] Syndicate Stormtrooper (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper): bullet act(the arcane bolt (/obj/item/projectile/magic/arcane_barrage), "r_leg")
+[2018-09-05 13:50:21.305] Syndicate Stormtrooper (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper): bullet act(the arcane bolt (/obj/item/projectile/magic/arcane_barrage), "r_leg")
+[2018-09-05 13:50:21.305] the arcane bolt (/obj/item/projectile/magic/arcane_barrage): Bump(Syndicate Stormtrooper (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper))
+[2018-09-05 13:50:21.305] the arcane bolt (/obj/item/projectile/magic/arcane_barrage): pixel move(1, 0)
+[2018-09-05 13:50:21.305] the arcane bolt (/obj/item/projectile/magic/arcane_barrage): process(1)
+[2018-09-05 13:50:21.305] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(1)
+[2018-09-05 13:50:21.305] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(1)
+[2018-09-05 13:50:21.305] Master (/datum/controller/master): RunQueue()
+[2018-09-05 13:50:21.305] Master (/datum/controller/master): Loop()
+[2018-09-05 13:50:21.305] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-05 13:50:21.305] 
+[2018-09-05 13:50:27.293] runtime error: Cannot execute null.handle fall().
+[2018-09-05 13:50:27.293] proc name: fall (/mob/living/carbon/fall)
+[2018-09-05 13:50:27.293]   source file: carbon.dm,246
+[2018-09-05 13:50:27.293]   usr: null
+[2018-09-05 13:50:27.293]   src: Anahi Coldsmith (/mob/living/carbon/human)
+[2018-09-05 13:50:27.293]   src.loc: null
+[2018-09-05 13:50:27.293]   call stack:
+[2018-09-05 13:50:27.293] Anahi Coldsmith (/mob/living/carbon/human): fall(1)
+[2018-09-05 13:50:27.293] Anahi Coldsmith (/mob/living/carbon/human): update canmove()
+[2018-09-05 13:50:27.293] Anahi Coldsmith (/mob/living/carbon/human): death(1)
+[2018-09-05 13:50:27.293] Anahi Coldsmith (/mob/living/carbon/human): death(1)
+[2018-09-05 13:50:27.293] Anahi Coldsmith (/mob/living/carbon/human): death(1)
+[2018-09-05 13:50:27.293] Syndicate Operative (/obj/effect/mob_spawn/human/corpse/syndicatesoldier): create(null, null)
+[2018-09-05 13:50:27.293] Syndicate Operative (/obj/effect/mob_spawn/human/corpse/syndicatesoldier): Initialize(0)
+[2018-09-05 13:50:27.293] Syndicate Operative (/obj/effect/mob_spawn/human/corpse/syndicatesoldier): Initialize(0)
+[2018-09-05 13:50:27.293] Atoms (/datum/controller/subsystem/atoms): InitAtom(Syndicate Operative (/obj/effect/mob_spawn/human/corpse/syndicatesoldier), /list (/list))
+[2018-09-05 13:50:27.293] Syndicate Operative (/obj/effect/mob_spawn/human/corpse/syndicatesoldier): New(0)
+[2018-09-05 13:50:27.293] ...
+[2018-09-05 13:50:27.293] the bolt of death (/obj/item/projectile/magic/death): on hit(Syndicate Stormtrooper (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper))
+[2018-09-05 13:50:27.293] Syndicate Stormtrooper (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper): bullet act(the bolt of death (/obj/item/projectile/magic/death), "l_arm")
+[2018-09-05 13:50:27.293] Syndicate Stormtrooper (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper): bullet act(the bolt of death (/obj/item/projectile/magic/death), "l_arm")
+[2018-09-05 13:50:27.293] the bolt of death (/obj/item/projectile/magic/death): Bump(Syndicate Stormtrooper (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper))
+[2018-09-05 13:50:27.293] the bolt of death (/obj/item/projectile/magic/death): pixel move(1, 0)
+[2018-09-05 13:50:27.293] the bolt of death (/obj/item/projectile/magic/death): process(1)
+[2018-09-05 13:50:27.293] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-09-05 13:50:27.293] Master (/datum/controller/master): RunQueue()
+[2018-09-05 13:50:27.293] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-05 13:50:27.293] 
+[2018-09-05 14:20:50.457] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:20:50.457] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:20:50.457]   source file: unsorted.dm,1161
+[2018-09-05 14:20:50.457]   usr: 0
+[2018-09-05 14:20:50.457]   src: null
+[2018-09-05 14:20:50.457]   call stack:
+[2018-09-05 14:20:50.457] stack trace("addtimer called with a callbac...")
+[2018-09-05 14:20:50.457] addtimer(/datum/callback (/datum/callback), 2, 0)
+[2018-09-05 14:20:50.457] the viscerator (/mob/living/simple_animal/hostile/viscerator): hitby(the metal rod (/obj/item/stack/rods), 0, 0, 0)
+[2018-09-05 14:20:50.457] the viscerator (/mob/living/simple_animal/hostile/viscerator): hitby(the metal rod (/obj/item/stack/rods), 0, 0, 0)
+[2018-09-05 14:20:50.457] the viscerator (/mob/living/simple_animal/hostile/viscerator): hitby(the metal rod (/obj/item/stack/rods), 0, 0, 0)
+[2018-09-05 14:20:50.457] the metal rod (/obj/item/stack/rods): throw impact(the viscerator (/mob/living/simple_animal/hostile/viscerator), /datum/thrownthing (/datum/thrownthing))
+[2018-09-05 14:20:50.457] /datum/thrownthing (/datum/thrownthing): finalize(1, the viscerator (/mob/living/simple_animal/hostile/viscerator))
+[2018-09-05 14:20:50.457] /datum/thrownthing (/datum/thrownthing): hit atom(the viscerator (/mob/living/simple_animal/hostile/viscerator))
+[2018-09-05 14:20:50.457] the metal rod (/obj/item/stack/rods): Bump(the viscerator (/mob/living/simple_animal/hostile/viscerator))
+[2018-09-05 14:20:50.457] space (80,151,2) (/turf/open/space/basic): Enter(the metal rod (/obj/item/stack/rods), space (81,151,2) (/turf/open/space))
+[2018-09-05 14:20:50.457] the metal rod (/obj/item/stack/rods): Move(space (80,151,2) (/turf/open/space/basic), 8)
+[2018-09-05 14:20:50.457] the metal rod (/obj/item/stack/rods): Move(space (80,151,2) (/turf/open/space/basic), 8)
+[2018-09-05 14:20:50.457] the metal rod (/obj/item/stack/rods): Move(space (80,151,2) (/turf/open/space/basic), 9)
+[2018-09-05 14:20:50.457] /datum/thrownthing (/datum/thrownthing): tick()
+[2018-09-05 14:20:50.457] the metal rod (/obj/item/stack/rods): throw at(space (1,255,2) (/turf/open/space/basic), 156, 4, null, 1, 0, /datum/callback (/datum/callback))
+[2018-09-05 14:20:50.457] the metal rod (/obj/item/stack/rods): throw at(space (1,255,2) (/turf/open/space/basic), 156, 4, null, 1, 0, /datum/callback (/datum/callback))
+[2018-09-05 14:20:50.457] the metal rod (/obj/item/stack/rods): throw at(space (1,255,2) (/turf/open/space/basic), 156, 4, null, 1, 0, /datum/callback (/datum/callback))
+[2018-09-05 14:20:50.457] the metal rod (/obj/item/stack/rods): throw at(space (1,255,2) (/turf/open/space/basic), 156, 4, null, 1, 0, null)
+[2018-09-05 14:20:50.457] /datum/explosion (/datum/explosion): New(space (82,148,2) (/turf/open/space), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+[2018-09-05 14:20:50.457] 
+[2018-09-05 14:20:56.655] runtime error: Cannot read null.species
+[2018-09-05 14:20:56.655] proc name: death (/mob/living/carbon/human/death)
+[2018-09-05 14:20:56.655]   source file: death.dm,37
+[2018-09-05 14:20:56.655]   usr: null
+[2018-09-05 14:20:56.655]   src: Unknown (/mob/living/carbon/human)
+[2018-09-05 14:20:56.655]   src.loc: null
+[2018-09-05 14:20:56.655]   call stack:
+[2018-09-05 14:20:56.655] Unknown (/mob/living/carbon/human): death(null)
+[2018-09-05 14:20:56.655] Unknown (/mob/living/carbon/human): update stat()
+[2018-09-05 14:20:56.655] Unknown (/mob/living/carbon/human): updatehealth()
+[2018-09-05 14:20:56.655] Unknown (/mob/living/carbon/human): take overall damage(0, 0, 0, 1)
+[2018-09-05 14:20:56.655] Unknown (/mob/living/carbon/human): ex act(3, null, null)
+[2018-09-05 14:20:56.655] /datum/explosion (/datum/explosion): New(space (82,153,2) (/turf/open/space), 0, 0, 3, 0, 1, 0, 0, 0, 0)
+[2018-09-05 14:20:56.655] 
+[2018-09-05 14:20:58.828] runtime error: The breath mask taking damage after deletion
+[2018-09-05 14:20:58.828] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:20:58.828]   source file: unsorted.dm,1164
+[2018-09-05 14:20:58.828]   usr: null
+[2018-09-05 14:20:58.828]   src: the breath mask (/obj/item/clothing/mask/breath)
+[2018-09-05 14:20:58.828]   src.loc: null
+[2018-09-05 14:20:58.828]   call stack:
+[2018-09-05 14:20:58.828] the breath mask (/obj/item/clothing/mask/breath): stack trace("The breath mask taking damage ...")
+[2018-09-05 14:20:58.829] the breath mask (/obj/item/clothing/mask/breath): take damage(135, "brute", "bomb", 0, null, 0)
+[2018-09-05 14:20:58.829] the breath mask (/obj/item/clothing/mask/breath): ex act(2, null)
+[2018-09-05 14:20:58.829] the emergency closet (/obj/structure/closet/emcloset): contents explosion(2, null)
+[2018-09-05 14:20:58.829] the emergency closet (/obj/structure/closet/emcloset): ex act(2, null)
+[2018-09-05 14:20:58.829] 
+[2018-09-05 14:20:58.829] runtime error: The emergency welding tool taking damage after deletion
+[2018-09-05 14:20:58.829] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:20:58.829]   source file: unsorted.dm,1164
+[2018-09-05 14:20:58.829]   usr: null
+[2018-09-05 14:20:58.829]   src: the emergency welding tool (/obj/item/weldingtool/mini)
+[2018-09-05 14:20:58.829]   src.loc: null
+[2018-09-05 14:20:58.829]   call stack:
+[2018-09-05 14:20:58.829] the emergency welding tool (/obj/item/weldingtool/mini): stack trace("The emergency welding tool tak...")
+[2018-09-05 14:20:58.829] the emergency welding tool (/obj/item/weldingtool/mini): take damage(222, "brute", "bomb", 0, null, 0)
+[2018-09-05 14:20:58.829] the emergency welding tool (/obj/item/weldingtool/mini): ex act(2, null)
+[2018-09-05 14:20:58.829] the emergency toolbox (/obj/item/storage/toolbox/emergency): contents explosion(2, null)
+[2018-09-05 14:20:58.829] the emergency toolbox (/obj/item/storage/toolbox/emergency): ex act(2, null)
+[2018-09-05 14:20:58.829] 
+[2018-09-05 14:20:58.830] runtime error: The pocket fire extinguisher taking damage after deletion
+[2018-09-05 14:20:58.830] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:20:58.830]   source file: unsorted.dm,1164
+[2018-09-05 14:20:58.830]   usr: null
+[2018-09-05 14:20:58.830]   src: the pocket fire extinguisher (/obj/item/extinguisher/mini)
+[2018-09-05 14:20:58.830]   src.loc: null
+[2018-09-05 14:20:58.830]   call stack:
+[2018-09-05 14:20:58.830] the pocket fire extinguisher (/obj/item/extinguisher/mini): stack trace("The pocket fire extinguisher t...")
+[2018-09-05 14:20:58.830] the pocket fire extinguisher (/obj/item/extinguisher/mini): take damage(141, "brute", "bomb", 0, null, 0)
+[2018-09-05 14:20:58.830] the pocket fire extinguisher (/obj/item/extinguisher/mini): ex act(2, null)
+[2018-09-05 14:20:58.830] the emergency toolbox (/obj/item/storage/toolbox/emergency): contents explosion(2, null)
+[2018-09-05 14:20:58.830] the emergency toolbox (/obj/item/storage/toolbox/emergency): ex act(2, null)
+[2018-09-05 14:20:58.830] 
+[2018-09-05 14:20:58.831] runtime error: The glowstick taking damage after deletion
+[2018-09-05 14:20:58.831] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:20:58.831]   source file: unsorted.dm,1164
+[2018-09-05 14:20:58.831]   usr: null
+[2018-09-05 14:20:58.831]   src: the glowstick (/obj/item/flashlight/glowstick)
+[2018-09-05 14:20:58.831]   src.loc: null
+[2018-09-05 14:20:58.831]   call stack:
+[2018-09-05 14:20:58.831] the glowstick (/obj/item/flashlight/glowstick): stack trace("The glowstick taking damage af...")
+[2018-09-05 14:20:58.831] the glowstick (/obj/item/flashlight/glowstick): take damage(144, "brute", "bomb", 0, null, 0)
+[2018-09-05 14:20:58.831] the glowstick (/obj/item/flashlight/glowstick): ex act(2, null)
+[2018-09-05 14:20:58.831] the emergency toolbox (/obj/item/storage/toolbox/emergency): contents explosion(2, null)
+[2018-09-05 14:20:58.831] the emergency toolbox (/obj/item/storage/toolbox/emergency): ex act(2, null)
+[2018-09-05 14:20:58.831] 
+[2018-09-05 14:20:58.831] runtime error: The station bounced radio taking damage after deletion
+[2018-09-05 14:20:58.831] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:20:58.831]   source file: unsorted.dm,1164
+[2018-09-05 14:20:58.831]   usr: null
+[2018-09-05 14:20:58.831]   src: the station bounced radio (/obj/item/radio/off)
+[2018-09-05 14:20:58.831]   src.loc: null
+[2018-09-05 14:20:58.831]   call stack:
+[2018-09-05 14:20:58.831] the station bounced radio (/obj/item/radio/off): stack trace("The station bounced radio taki...")
+[2018-09-05 14:20:58.831] the station bounced radio (/obj/item/radio/off): take damage(241, "brute", "bomb", 0, null, 0)
+[2018-09-05 14:20:58.831] the station bounced radio (/obj/item/radio/off): ex act(2, null)
+[2018-09-05 14:20:58.831] the emergency toolbox (/obj/item/storage/toolbox/emergency): contents explosion(2, null)
+[2018-09-05 14:20:58.831] the emergency toolbox (/obj/item/storage/toolbox/emergency): ex act(2, null)
+[2018-09-05 14:20:58.831] 
+[2018-09-05 14:20:59.127] runtime error: The light bulb taking damage after deletion
+[2018-09-05 14:20:59.127] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:20:59.127]   source file: unsorted.dm,1164
+[2018-09-05 14:20:59.127]   usr: 0
+[2018-09-05 14:20:59.127]   src: the light bulb (/obj/item/light/bulb)
+[2018-09-05 14:20:59.127]   src.loc: null
+[2018-09-05 14:20:59.127]   call stack:
+[2018-09-05 14:20:59.127] the light bulb (/obj/item/light/bulb): stack trace("The light bulb taking damage a...")
+[2018-09-05 14:20:59.127] the light bulb (/obj/item/light/bulb): take damage(246, "brute", "bomb", 0, null, 0)
+[2018-09-05 14:20:59.127] the light bulb (/obj/item/light/bulb): ex act(2, null)
+[2018-09-05 14:20:59.127] the box of replacement lights (/obj/item/storage/box/lights/mixed): contents explosion(2, null)
+[2018-09-05 14:20:59.127] the box of replacement lights (/obj/item/storage/box/lights/mixed): ex act(2, null)
+[2018-09-05 14:20:59.127] 
+[2018-09-05 14:20:59.127] runtime error: The light bulb taking damage after deletion
+[2018-09-05 14:20:59.127] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:20:59.127]   source file: unsorted.dm,1164
+[2018-09-05 14:20:59.127] 
+[2018-09-05 14:21:20.103] runtime error: The cigarette taking damage after deletion
+[2018-09-05 14:21:20.103] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:21:20.103]   source file: unsorted.dm,1164
+[2018-09-05 14:21:20.103] 
+[2018-09-05 14:21:20.104] runtime error: The evidence bag taking damage after deletion
+[2018-09-05 14:21:20.104] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:21:20.104]   source file: unsorted.dm,1164
+[2018-09-05 14:21:20.104] 
+[2018-09-05 14:21:20.104] runtime error: The evidence bag taking damage after deletion
+[2018-09-05 14:21:20.104] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:21:20.104]   source file: unsorted.dm,1164
+[2018-09-05 14:21:20.104] 
+[2018-09-05 14:21:20.454] runtime error: The evidence bag taking damage after deletion
+[2018-09-05 14:21:20.454] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:21:20.454]   source file: unsorted.dm,1164
+[2018-09-05 14:21:20.454] 
+[2018-09-05 14:21:20.454] runtime error: The evidence bag taking damage after deletion
+[2018-09-05 14:21:20.454] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:21:20.454]   source file: unsorted.dm,1164
+[2018-09-05 14:21:20.454] 
+[2018-09-05 14:21:20.454] runtime error: The evidence bag taking damage after deletion
+[2018-09-05 14:21:20.454] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:21:20.454]   source file: unsorted.dm,1164
+[2018-09-05 14:21:20.454] 
+[2018-09-05 14:21:20.455] runtime error: The evidence bag taking damage after deletion
+[2018-09-05 14:21:20.455] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:21:20.455]   source file: unsorted.dm,1164
+[2018-09-05 14:21:20.455] 
+[2018-09-05 14:21:20.455] runtime error: The evidence bag taking damage after deletion
+[2018-09-05 14:21:20.455] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:21:20.455]   source file: unsorted.dm,1164
+[2018-09-05 14:21:20.455] 
+[2018-09-05 14:21:25.981] Saved 22 engraved messages on map Box Station
+[2018-09-05 14:21:47.540] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:21:47.540] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:21:47.540]   source file: unsorted.dm,1161
+[2018-09-05 14:21:47.540] 
+[2018-09-05 14:21:48.039] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:21:48.039] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:21:48.039]   source file: unsorted.dm,1161
+[2018-09-05 14:21:48.039] 
+[2018-09-05 14:21:48.040] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:21:48.040] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:21:48.040]   source file: unsorted.dm,1161
+[2018-09-05 14:21:48.040] 
+[2018-09-05 14:21:48.041] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:21:48.041] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:21:48.041]   source file: unsorted.dm,1161
+[2018-09-05 14:21:48.041] 
+[2018-09-05 14:21:48.539] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:21:48.540] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:21:48.540]   source file: unsorted.dm,1161
+[2018-09-05 14:21:48.540] 
+[2018-09-05 14:21:49.039] runtime error: The health analyzer taking damage after deletion
+[2018-09-05 14:21:49.039] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:21:49.039]   source file: unsorted.dm,1164
+[2018-09-05 14:21:49.039] 
+[2018-09-05 14:21:49.040] runtime error: The breath mask taking damage after deletion
+[2018-09-05 14:21:49.040] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:21:49.040]   source file: unsorted.dm,1164
+[2018-09-05 14:21:49.040] 
+[2018-09-05 14:21:58.542] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:21:58.543] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:21:58.543]   source file: unsorted.dm,1161
+[2018-09-05 14:21:58.543] 
+[2018-09-05 14:21:58.543] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:21:58.543] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:21:58.543]   source file: unsorted.dm,1161
+[2018-09-05 14:21:58.543] 
+[2018-09-05 14:22:02.894] runtime error: The rubber shot taking damage after deletion
+[2018-09-05 14:22:02.894] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:02.894]   source file: unsorted.dm,1164
+[2018-09-05 14:22:02.894] 
+[2018-09-05 14:22:02.895] runtime error: The rubber shot taking damage after deletion
+[2018-09-05 14:22:02.895] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:02.895]   source file: unsorted.dm,1164
+[2018-09-05 14:22:02.895] 
+[2018-09-05 14:22:02.896] runtime error: The rubber shot taking damage after deletion
+[2018-09-05 14:22:02.896] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:02.896]   source file: unsorted.dm,1164
+[2018-09-05 14:22:02.896] 
+[2018-09-05 14:22:02.896] runtime error: The rubber shot taking damage after deletion
+[2018-09-05 14:22:02.896] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:02.896]   source file: unsorted.dm,1164
+[2018-09-05 14:22:02.896] 
+[2018-09-05 14:22:02.897] runtime error: The rubber shot taking damage after deletion
+[2018-09-05 14:22:02.897] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:02.897]   source file: unsorted.dm,1164
+[2018-09-05 14:22:02.897] 
+[2018-09-05 14:22:02.901] runtime error: The teargas grenade taking damage after deletion
+[2018-09-05 14:22:02.901] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:02.901]   source file: unsorted.dm,1164
+[2018-09-05 14:22:02.901] 
+[2018-09-05 14:22:02.901] runtime error: The teargas grenade taking damage after deletion
+[2018-09-05 14:22:02.901] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:02.901]   source file: unsorted.dm,1164
+[2018-09-05 14:22:02.901] 
+[2018-09-05 14:22:02.902] runtime error: The teargas grenade taking damage after deletion
+[2018-09-05 14:22:02.902] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:02.902]   source file: unsorted.dm,1164
+[2018-09-05 14:22:02.902] 
+[2018-09-05 14:22:02.902] runtime error: The teargas grenade taking damage after deletion
+[2018-09-05 14:22:02.902] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:02.902]   source file: unsorted.dm,1164
+[2018-09-05 14:22:02.902] 
+[2018-09-05 14:22:02.903] runtime error: The teargas grenade taking damage after deletion
+[2018-09-05 14:22:02.903] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:02.903]   source file: unsorted.dm,1164
+[2018-09-05 14:22:02.903] 
+[2018-09-05 14:22:02.903] runtime error: The teargas grenade taking damage after deletion
+[2018-09-05 14:22:02.903] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:02.903]   source file: unsorted.dm,1164
+[2018-09-05 14:22:02.903] 
+[2018-09-05 14:22:12.963] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:22:12.963] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:22:12.963]   source file: unsorted.dm,1161
+[2018-09-05 14:22:12.963] 
+[2018-09-05 14:22:12.964] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:22:12.964] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:22:12.964]   source file: unsorted.dm,1161
+[2018-09-05 14:22:12.964] 
+[2018-09-05 14:22:12.965] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:22:12.965] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:22:12.965]   source file: unsorted.dm,1161
+[2018-09-05 14:22:12.965] 
+[2018-09-05 14:22:13.464] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:22:13.464] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:22:13.464]   source file: unsorted.dm,1161
+[2018-09-05 14:22:13.464] 
+[2018-09-05 14:22:13.978] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:22:13.978] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:22:13.978]   source file: unsorted.dm,1161
+[2018-09-05 14:22:13.978] 
+[2018-09-05 14:22:14.647] runtime error: The pocket fire extinguisher taking damage after deletion
+[2018-09-05 14:22:14.647] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:14.647]   source file: unsorted.dm,1164
+[2018-09-05 14:22:14.647] 
+[2018-09-05 14:22:14.648] runtime error: The station bounced radio taking damage after deletion
+[2018-09-05 14:22:14.648] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:14.648]   source file: unsorted.dm,1164
+[2018-09-05 14:22:14.648] 
+[2018-09-05 14:22:14.651] runtime error: The flashlight taking damage after deletion
+[2018-09-05 14:22:14.651] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:14.651]   source file: unsorted.dm,1164
+[2018-09-05 14:22:14.651] 
+[2018-09-05 14:22:14.652] runtime error: The station bounced radio taking damage after deletion
+[2018-09-05 14:22:14.652] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:14.652]   source file: unsorted.dm,1164
+[2018-09-05 14:22:14.652] 
+[2018-09-05 14:22:14.652] runtime error: The health analyzer taking damage after deletion
+[2018-09-05 14:22:14.652] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:14.652]   source file: unsorted.dm,1164
+[2018-09-05 14:22:14.652] 
+[2018-09-05 14:22:24.491] runtime error: The match taking damage after deletion
+[2018-09-05 14:22:24.491] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:24.491]   source file: unsorted.dm,1164
+[2018-09-05 14:22:24.491] 
+[2018-09-05 14:22:24.491] runtime error: The match taking damage after deletion
+[2018-09-05 14:22:24.491] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:24.491]   source file: unsorted.dm,1164
+[2018-09-05 14:22:24.491] 
+[2018-09-05 14:22:24.494] runtime error: The match taking damage after deletion
+[2018-09-05 14:22:24.494] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:24.494]   source file: unsorted.dm,1164
+[2018-09-05 14:22:24.494] 
+[2018-09-05 14:22:24.494] runtime error: The match taking damage after deletion
+[2018-09-05 14:22:24.494] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:24.494]   source file: unsorted.dm,1164
+[2018-09-05 14:22:24.494] 
+[2018-09-05 14:22:24.495] runtime error: The match taking damage after deletion
+[2018-09-05 14:22:24.495] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:24.495]   source file: unsorted.dm,1164
+[2018-09-05 14:22:24.495] 
+[2018-09-05 14:22:24.495] runtime error: The match taking damage after deletion
+[2018-09-05 14:22:24.495] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:24.495]   source file: unsorted.dm,1164
+[2018-09-05 14:22:24.495] 
+[2018-09-05 14:22:24.495] runtime error: The match taking damage after deletion
+[2018-09-05 14:22:24.495] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:24.495]   source file: unsorted.dm,1164
+[2018-09-05 14:22:24.495] 
+[2018-09-05 14:22:29.341] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:22:29.341] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:22:29.341]   source file: unsorted.dm,1161
+[2018-09-05 14:22:29.341] 
+[2018-09-05 14:22:29.341] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:22:29.341] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:22:29.341]   source file: unsorted.dm,1161
+[2018-09-05 14:22:29.341] 
+[2018-09-05 14:22:35.006] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.006] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.007]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.007] 
+[2018-09-05 14:22:35.007] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.007] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.007]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.007] 
+[2018-09-05 14:22:35.008] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.008] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.008]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.008] 
+[2018-09-05 14:22:35.009] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.009] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.009]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.009] 
+[2018-09-05 14:22:35.009] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.009] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.009]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.009] 
+[2018-09-05 14:22:35.010] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.010] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.010]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.010] 
+[2018-09-05 14:22:35.010] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.010] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.010]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.010] 
+[2018-09-05 14:22:35.011] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.011] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.011]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.011] 
+[2018-09-05 14:22:35.011] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.011] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.011]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.011] 
+[2018-09-05 14:22:35.013] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.013] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.013]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.013] 
+[2018-09-05 14:22:35.014] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.014] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.014]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.014] 
+[2018-09-05 14:22:35.014] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.014] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.014]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.014] 
+[2018-09-05 14:22:35.015] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.015] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.015]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.015] 
+[2018-09-05 14:22:35.015] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.015] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.015]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.015] 
+[2018-09-05 14:22:35.016] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.016] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.016]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.016] 
+[2018-09-05 14:22:35.016] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.016] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.016]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.016] 
+[2018-09-05 14:22:35.017] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.017] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.017]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.017] 
+[2018-09-05 14:22:35.017] runtime error: No valid destination passed into forceMove
+[2018-09-05 14:22:35.017] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-09-05 14:22:35.017]   source file: atoms_movable.dm,365
+[2018-09-05 14:22:35.017] 
+[2018-09-05 14:22:35.551] runtime error: The handcuffs taking damage after deletion
+[2018-09-05 14:22:35.551] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:35.551]   source file: unsorted.dm,1164
+[2018-09-05 14:22:35.551] 
+[2018-09-05 14:22:35.551] runtime error: The flash taking damage after deletion
+[2018-09-05 14:22:35.551] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:35.551]   source file: unsorted.dm,1164
+[2018-09-05 14:22:35.551] 
+[2018-09-05 14:22:35.551] runtime error: The stunbaton taking damage after deletion
+[2018-09-05 14:22:35.551] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:35.552]   source file: unsorted.dm,1164
+[2018-09-05 14:22:35.552] 
+[2018-09-05 14:22:38.996] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:22:38.997] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:22:38.997]   source file: unsorted.dm,1161
+[2018-09-05 14:22:38.997] 
+[2018-09-05 14:22:39.497] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:22:39.497] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:22:39.497]   source file: unsorted.dm,1161
+[2018-09-05 14:22:39.497] 
+[2018-09-05 14:22:39.726] runtime error: Cannot read null.charge
+[2018-09-05 14:22:39.726] proc name: can shoot (/obj/item/gun/energy/can_shoot)
+[2018-09-05 14:22:39.726]   source file: energy.dm,82
+[2018-09-05 14:22:39.726] 
+[2018-09-05 14:22:48.866] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-05 14:22:48.866] proc name: stack trace (/proc/stack_trace)
+[2018-09-05 14:22:48.866]   source file: unsorted.dm,1161
+[2018-09-05 14:22:48.866] 
+[2018-09-05 14:22:53.318] runtime error: Cannot read null.charge
+[2018-09-05 14:22:53.318] proc name: can shoot (/obj/item/gun/energy/can_shoot)
+[2018-09-05 14:22:53.318]   source file: energy.dm,82
+[2018-09-05 14:22:53.318] 
+[2018-09-05 14:22:56.091] runtime error: The cigarette taking damage after deletion
+[2018-09-05 14:22:56.091] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:56.091]   source file: unsorted.dm,1164
+[2018-09-05 14:22:56.091] 
+[2018-09-05 14:22:56.092] runtime error: The cigarette taking damage after deletion
+[2018-09-05 14:22:56.092] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:56.092]   source file: unsorted.dm,1164
+[2018-09-05 14:22:56.092] 
+[2018-09-05 14:22:56.370] runtime error: The cigarette taking damage after deletion
+[2018-09-05 14:22:56.370] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:56.370]   source file: unsorted.dm,1164
+[2018-09-05 14:22:56.370] 
+[2018-09-05 14:22:56.371] runtime error: The cigarette taking damage after deletion
+[2018-09-05 14:22:56.371] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:56.371]   source file: unsorted.dm,1164
+[2018-09-05 14:22:56.371] 
+[2018-09-05 14:22:57.473] runtime error: The robust security award taking damage after deletion
+[2018-09-05 14:22:57.473] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:57.473]   source file: unsorted.dm,1164
+[2018-09-05 14:22:57.473] 
+[2018-09-05 14:22:57.473] runtime error: The implanter (mindshield) taking damage after deletion
+[2018-09-05 14:22:57.473] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-05 14:22:57.473]   source file: unsorted.dm,1164
+[2018-09-05 14:22:57.473] 
+[2018-09-05 14:22:57.473] runtime error: The handcuffs taking damage after deletion
+[2018-09-05 14:22:57.473] Warning: further proc crash messages are being suppressed to prevent overload...
+[2018-09-05 14:22:57.473] 
+[2018-09-05 14:22:57.474] runtime error: The flash taking damage after deletion
+[2018-09-05 14:22:57.474] 
+[2018-09-05 14:23:03.106] runtime error: The silver coin taking damage after deletion
+[2018-09-05 14:23:03.106] 
+[2018-09-05 14:23:04.361] Shutting down Persistence subsystem...
+[2018-09-05 14:23:04.361] Shutting down Pathfinder subsystem...
+[2018-09-05 14:23:04.361] Shutting down Squeak subsystem...
+[2018-09-05 14:23:04.361] Shutting down Shuttle subsystem...
+[2018-09-05 14:23:04.361] Shutting down Lighting subsystem...
+[2018-09-05 14:23:04.362] Shutting down XKeyScore subsystem...
+[2018-09-05 14:23:04.362] Shutting down Sticky Ban subsystem...
+[2018-09-05 14:23:04.362] Shutting down Overlay subsystem...
+[2018-09-05 14:23:04.420] Shutting down Icon Smoothing subsystem...
+[2018-09-05 14:23:04.421] Shutting down Assets subsystem...
+[2018-09-05 14:23:04.421] Shutting down Minimap subsystem...
+[2018-09-05 14:23:04.421] Shutting down Atmospherics subsystem...
+[2018-09-05 14:23:04.421] Shutting down Wet floors subsystem...
+[2018-09-05 14:23:04.421] Shutting down Weather subsystem...
+[2018-09-05 14:23:04.421] Shutting down Vote subsystem...
+[2018-09-05 14:23:04.421] Shutting down Traumas subsystem...
+[2018-09-05 14:23:04.421] Shutting down Title Screen subsystem...
+[2018-09-05 14:23:04.422] Shutting down Time Tracking subsystem...
+[2018-09-05 14:23:04.422] Shutting down Throwing subsystem...
+[2018-09-05 14:23:04.422] Shutting down tgui subsystem...
+[2018-09-05 14:23:04.422] Shutting down Sun subsystem...
+[2018-09-05 14:23:04.422] Shutting down Space Drift subsystem...
+[2018-09-05 14:23:04.423] Shutting down Religion subsystem...
+[2018-09-05 14:23:04.423] Shutting down Radio subsystem...
+[2018-09-05 14:23:04.423] Shutting down Radiation subsystem...
+[2018-09-05 14:23:04.423] Shutting down Projectiles subsystem...
+[2018-09-05 14:23:04.423] Shutting down Processing subsystem...
+[2018-09-05 14:23:04.423] Shutting down Ping subsystem...
+[2018-09-05 14:23:04.423] Shutting down Parallax subsystem...
+[2018-09-05 14:23:04.423] Shutting down pAI subsystem...
+[2018-09-05 14:23:04.423] Shutting down Orbits subsystem...
+[2018-09-05 14:23:04.423] Shutting down Objects subsystem...
+[2018-09-05 14:23:04.424] Shutting down NPC Pool subsystem...
+[2018-09-05 14:23:04.424] Shutting down Night Shift subsystem...
+[2018-09-05 14:23:04.424] Shutting down Nanites subsystem...
+[2018-09-05 14:23:04.424] Shutting down Mood subsystem...
+[2018-09-05 14:23:04.424] Shutting down Mobs subsystem...
+[2018-09-05 14:23:04.424] Shutting down Medals subsystem...
+[2018-09-05 14:23:04.424] Shutting down Idling NPC Pool subsystem...
+[2018-09-05 14:23:04.424] Shutting down Fire Burning subsystem...
+[2018-09-05 14:23:04.424] Shutting down Fields subsystem...
+[2018-09-05 14:23:04.424] Shutting down Fast Processing subsystem...
+[2018-09-05 14:23:04.424] Shutting down Disease subsystem...
+[2018-09-05 14:23:04.425] Shutting down Datum Component System subsystem...
+[2018-09-05 14:23:04.425] Shutting down Communications subsystem...
+[2018-09-05 14:23:04.425] Shutting down Augury subsystem...
+[2018-09-05 14:23:04.425] Shutting down Acid subsystem...
+[2018-09-05 14:23:04.425] Shutting down Timer subsystem...
+[2018-09-05 14:23:04.425] Shutting down Circuit subsystem...
+[2018-09-05 14:23:04.425] Shutting down Machines subsystem...
+[2018-09-05 14:23:04.425] Shutting down Language subsystem...
+[2018-09-05 14:23:04.425] Shutting down Atoms subsystem...
+[2018-09-05 14:23:04.426] Shutting down Networks subsystem...
+[2018-09-05 14:23:04.426] Shutting down Mapping subsystem...
+[2018-09-05 14:23:04.426] Shutting down Ticker subsystem...
+[2018-09-05 14:23:04.699] Shutting down Quirks subsystem...
+[2018-09-05 14:23:04.699] Shutting down Jobs subsystem...
+[2018-09-05 14:23:04.699] Shutting down Events subsystem...
+[2018-09-05 14:23:04.699] Shutting down Research subsystem...
+[2018-09-05 14:23:04.700] Shutting down Input subsystem...
+[2018-09-05 14:23:04.700] Shutting down Server Tasks subsystem...
+[2018-09-05 14:23:04.700] Shutting down Blackbox subsystem...
+[2018-09-05 14:23:05.015] Shutting down Database subsystem...
+[2018-09-05 14:23:05.056] Shutting down Garbage subsystem...
+[2018-09-05 14:23:05.220] Shutdown complete
+[2018-09-05 14:23:05.221] World rebooted at 14:23:05

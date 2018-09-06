@@ -1,0 +1,703 @@
+
+
+Starting up round ID 439. 05:37:08
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 5.4s!
+Loaded Lavaland in 5.2s!
+Loaded Reebe in 3.9s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 22.3 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 39.9 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0.1 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+Initialized Atmospherics subsystem within 11.6 seconds!
+Initialized Minimap subsystem within 0.1 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 5 seconds!
+Initialized Overlay subsystem within 34.6 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 10.9 seconds!
+Initialized Shuttle subsystem within 20.8 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 5 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 146.7 seconds!
+Game start took 2.2s
+runtime error: 
+[05:45:04]Cannot read null.loc
+[05:45:04]proc name: update parallax (/datum/hud/proc/update_parallax)
+[05:45:04]  source file: parallax.dm,170
+[05:45:04]  usr: Jonathon Whirlow (/mob/living/brain)
+[05:45:04]  src: /datum/hud (/datum/hud)
+[05:45:04]  usr.loc: Jonathon Whirlow\'s brain (/obj/item/organ/brain)
+[05:45:04]  call stack:
+[05:45:04]/datum/hud (/datum/hud): update parallax()
+[05:45:04]/datum/hud (/datum/hud): update parallax pref(Jonathon Whirlow (/mob/living/brain))
+[05:45:04]/datum/hud (/datum/hud): show hud(1, null)
+[05:45:04]Jonathon Whirlow (/mob/living/brain): Login()
+[05:45:04]Jonathon Whirlow (/mob/living/brain): Login()
+[05:45:04]Jonathon Whirlow (/datum/mind): transfer to(Jonathon Whirlow (/mob/living/brain), 0)
+[05:45:04]Jonathon Whirlow\'s brain (/obj/item/organ/brain): transfer identity(Jonathon Whirlow (/mob/living/carbon/human))
+[05:45:04]Jonathon Whirlow\'s brain (/obj/item/organ/brain): Remove(Jonathon Whirlow (/mob/living/carbon/human), 0, 0)
+[05:45:04]Jonathon Whirlow\'s brain (/obj/item/organ/brain): transfer to limb(Jonathon Whirlow\'s head (/obj/item/bodypart/head), Jonathon Whirlow (/mob/living/carbon/human))
+[05:45:04]Jonathon Whirlow\'s head (/obj/item/bodypart/head): drop limb(null)
+[05:45:04]Jonathon Whirlow\'s head (/obj/item/bodypart/head): drop limb(null)
+[05:45:04]Jonathon Whirlow (/mob/living/carbon/human): spread bodyparts(null, null)
+[05:45:04]Jonathon Whirlow (/mob/living/carbon/human): gib(null, null, null)
+[05:45:04]Jonathon Whirlow (/mob/living/carbon/human): gib(null, null, null)
+[05:45:04]Jonathon Whirlow (/mob/living/carbon/human): ex act(1, null, null)
+[05:45:04]/datum/explosion (/datum/explosion): New(the floor (106,121,2) (/turf/open/floor/plasteel), 1, 2, 4, 1, 1, 0, 2, 0, 0)
+runtime error: 
+[10:03:51]nothing to animate
+[10:03:51]proc name: shake camera (/proc/shake_camera)
+[10:03:51]  source file: mob_helpers.dm,270
+[10:03:51]  usr: (src)
+[10:03:51]  src: null
+[10:03:51]  call stack:
+[10:03:51]shake camera(Aphomia (/mob/living/carbon/human), 0.75, 1)
+[10:03:51]Aphomia (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[10:03:51]Aphomia (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[10:03:51]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[10:03:51]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[10:03:51]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[10:03:51]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[10:03:51]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[10:03:51]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[10:03:51]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[11:47:16]nothing to animate
+[11:47:16]proc name: shake camera (/proc/shake_camera)
+[11:47:16]  source file: mob_helpers.dm,270
+[11:47:16]  usr: (src)
+[11:47:16]  src: null
+[11:47:16]  call stack:
+[11:47:16]shake camera(Stanly Law (/mob/living/carbon/human), 0.75, 1)
+[11:47:16]Stanly Law (/mob/living/carbon/human): afterShuttleMove(space (25,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[11:47:16]Stanly Law (/mob/living/carbon/human): afterShuttleMove(space (25,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[11:47:16]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[11:47:16]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[11:47:16]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[11:47:16]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[11:47:16]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[11:47:16]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[11:47:16]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[11:51:32]nothing to animate
+[11:51:32]proc name: shake camera (/proc/shake_camera)
+[11:51:32]  source file: mob_helpers.dm,270
+[11:51:32]  usr: (src)
+[11:51:32]  src: null
+[11:51:32]  call stack:
+[11:51:32]shake camera(Mike Schofield (/mob/living/carbon/human), 0.75, 1)
+[11:51:32]Mike Schofield (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[11:51:32]Mike Schofield (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[11:51:32]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[11:51:32]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[11:51:32]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[11:51:32]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[11:51:32]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[11:51:32]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[11:51:32]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[13:12:51]Cannot modify null.fps.
+[13:12:51]proc name: process link (/datum/preferences/proc/process_link)
+[13:12:51]  source file: preferences.dm,1285
+[13:12:51]  usr: Powerengie (/mob/dead/new_player)
+[13:12:51]  src: /datum/preferences (/datum/preferences)
+[13:12:51]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[13:12:51]  call stack:
+[13:12:51]/datum/preferences (/datum/preferences): process link(Powerengie (/mob/dead/new_player), /list (/list))
+[13:12:51]Powerengie (/client): Topic("_src_=prefs;preference=clientf...", /list (/list), null)
+[13:12:51]Powerengie (/client): Topic("_src_=prefs;preference=clientf...", /list (/list))
+runtime error: 
+[13:12:57]Cannot modify null.fps.
+[13:12:57]proc name: process link (/datum/preferences/proc/process_link)
+[13:12:57]  source file: preferences.dm,1285
+[13:12:57]  usr: Powerengie (/mob/dead/new_player)
+[13:12:57]  src: /datum/preferences (/datum/preferences)
+[13:12:57]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[13:12:57]  call stack:
+[13:12:57]/datum/preferences (/datum/preferences): process link(Powerengie (/mob/dead/new_player), /list (/list))
+[13:12:57]Powerengie (/client): Topic("_src_=prefs;preference=clientf...", /list (/list), null)
+[13:12:57]Powerengie (/client): Topic("_src_=prefs;preference=clientf...", /list (/list))
+runtime error: 
+[13:13:03]Cannot modify null.fps.
+[13:13:03]proc name: process link (/datum/preferences/proc/process_link)
+[13:13:03]  source file: preferences.dm,1285
+[13:13:03]  usr: Powerengie (/mob/dead/new_player)
+[13:13:03]  src: /datum/preferences (/datum/preferences)
+[13:13:03]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[13:13:03]  call stack:
+[13:13:03]/datum/preferences (/datum/preferences): process link(Powerengie (/mob/dead/new_player), /list (/list))
+[13:13:03]Powerengie (/client): Topic("_src_=prefs;preference=clientf...", /list (/list), null)
+[13:13:03]Powerengie (/client): Topic("_src_=prefs;preference=clientf...", /list (/list))
+runtime error: 
+[13:13:07]Cannot modify null.fps.
+[13:13:07]proc name: process link (/datum/preferences/proc/process_link)
+[13:13:07]  source file: preferences.dm,1285
+[13:13:07]  usr: Powerengie (/mob/dead/new_player)
+[13:13:07]  src: /datum/preferences (/datum/preferences)
+[13:13:07]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[13:13:07]  call stack:
+[13:13:07]/datum/preferences (/datum/preferences): process link(Powerengie (/mob/dead/new_player), /list (/list))
+[13:13:07]Powerengie (/client): Topic("_src_=prefs;preference=clientf...", /list (/list), null)
+[13:13:07]Powerengie (/client): Topic("_src_=prefs;preference=clientf...", /list (/list))
+runtime error: 
+[13:13:13]Cannot modify null.fps.
+[13:13:13]proc name: process link (/datum/preferences/proc/process_link)
+[13:13:13]  source file: preferences.dm,1285
+[13:13:13]  usr: Powerengie (/mob/dead/new_player)
+[13:13:13]  src: /datum/preferences (/datum/preferences)
+[13:13:13]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[13:13:13]  call stack:
+[13:13:13]/datum/preferences (/datum/preferences): process link(Powerengie (/mob/dead/new_player), /list (/list))
+[13:13:13]Powerengie (/client): Topic("_src_=prefs;preference=clientf...", /list (/list), null)
+[13:13:13]Powerengie (/client): Topic("_src_=prefs;preference=clientf...", /list (/list))
+runtime error: 
+[13:26:43]nothing to animate
+[13:26:43]proc name: shake camera (/proc/shake_camera)
+[13:26:43]  source file: mob_helpers.dm,270
+[13:26:43]  usr: (src)
+[13:26:43]  src: null
+[13:26:43]  call stack:
+[13:26:43]shake camera(Rosemary Barnes (/mob/living/carbon/human), 0.75, 1)
+[13:26:43]Rosemary Barnes (/mob/living/carbon/human): afterShuttleMove(space (25,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[13:26:43]Rosemary Barnes (/mob/living/carbon/human): afterShuttleMove(space (25,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[13:26:43]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[13:26:43]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[13:26:43]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[13:26:43]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[13:26:43]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[13:26:43]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[13:26:43]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[13:43:30]nothing to animate
+[13:43:30]proc name: shake camera (/proc/shake_camera)
+[13:43:30]  source file: mob_helpers.dm,270
+[13:43:30]  usr: (src)
+[13:43:30]  src: null
+[13:43:30]  call stack:
+[13:43:30]shake camera(Stanly Law (/mob/living/carbon/human), 0.75, 1)
+[13:43:30]Stanly Law (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[13:43:30]Stanly Law (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[13:43:30]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[13:43:30]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[13:43:30]the mining shuttle (/obj/docking_port/mobile): check()
+[13:43:30]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[13:43:30]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[14:03:56]nothing to animate
+[14:03:56]proc name: shake camera (/proc/shake_camera)
+[14:03:56]  source file: mob_helpers.dm,270
+[14:03:56]  usr: (src)
+[14:03:56]  src: null
+[14:03:56]  call stack:
+[14:03:56]shake camera(Kintargris (/mob/living/carbon/human), 0.75, 1)
+[14:03:56]Kintargris (/mob/living/carbon/human): afterShuttleMove(space (27,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[14:03:56]Kintargris (/mob/living/carbon/human): afterShuttleMove(space (27,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[14:03:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[14:03:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[14:03:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[14:03:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[14:03:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[14:03:56]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[14:03:56]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[14:05:14]nothing to animate
+[14:05:14]proc name: shake camera (/proc/shake_camera)
+[14:05:14]  source file: mob_helpers.dm,270
+[14:05:14]  usr: (src)
+[14:05:14]  src: null
+[14:05:14]  call stack:
+[14:05:14]shake camera(Kintargris (/mob/living/carbon/human), 0.75, 1)
+[14:05:14]Kintargris (/mob/living/carbon/human): afterShuttleMove(space (27,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[14:05:14]Kintargris (/mob/living/carbon/human): afterShuttleMove(space (27,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[14:05:14]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[14:05:14]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[14:05:14]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[14:05:14]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[14:05:14]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[14:05:14]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[14:05:14]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[14:45:02]Cannot execute null.remove reagent().
+[14:45:02]proc name: on mob life (/datum/reagent/consumable/on_mob_life)
+[14:45:02]  source file: food_reagents.dm,20
+[14:45:02]  usr: null
+[14:45:02]  src: Nutriment (/datum/reagent/consumable/nutriment)
+[14:45:02]  call stack:
+[14:45:02]Nutriment (/datum/reagent/consumable/nutriment): on mob life(Kintargris (/mob/living/carbon/human))
+[14:45:02]Nutriment (/datum/reagent/consumable/nutriment): on mob life(Kintargris (/mob/living/carbon/human))
+[14:45:02]Nutriment (/datum/reagent/consumable/nutriment): on mob life(Kintargris (/mob/living/carbon/human))
+[14:45:02]/datum/reagents (/datum/reagents): metabolize(Kintargris (/mob/living/carbon/human), 1, 0)
+[14:45:02]the insectoid liver (/obj/item/organ/liver/fly): on life()
+[14:45:02]Kintargris (/mob/living/carbon/human): handle organs()
+[14:45:02]Kintargris (/mob/living/carbon/human): Life(2, 4738)
+[14:45:02]Kintargris (/mob/living/carbon/human): Life(2, 4738)
+[14:45:02]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[14:45:02]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[14:45:02]Master (/datum/controller/master): RunQueue()
+[14:45:02]Master (/datum/controller/master): Loop()
+[14:45:02]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[14:45:04]Cannot execute null.remove reagent().
+[14:45:04]proc name: on mob life (/datum/reagent/consumable/on_mob_life)
+[14:45:04]  source file: food_reagents.dm,20
+[14:45:04]  usr: null
+[14:45:04]  src: Nutriment (/datum/reagent/consumable/nutriment)
+[14:45:04]  call stack:
+[14:45:04]Nutriment (/datum/reagent/consumable/nutriment): on mob life(Kintargris (/mob/living/carbon/human))
+[14:45:04]Nutriment (/datum/reagent/consumable/nutriment): on mob life(Kintargris (/mob/living/carbon/human))
+[14:45:04]Nutriment (/datum/reagent/consumable/nutriment): on mob life(Kintargris (/mob/living/carbon/human))
+[14:45:04]/datum/reagents (/datum/reagents): metabolize(Kintargris (/mob/living/carbon/human), 1, 0)
+[14:45:04]the insectoid liver (/obj/item/organ/liver/fly): on life()
+[14:45:04]Kintargris (/mob/living/carbon/human): handle organs()
+[14:45:04]Kintargris (/mob/living/carbon/human): Life(2, 4739)
+[14:45:04]Kintargris (/mob/living/carbon/human): Life(2, 4739)
+[14:45:04]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[14:45:04]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[14:45:04]Master (/datum/controller/master): RunQueue()
+[14:45:04]Master (/datum/controller/master): Loop()
+[14:45:04]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[14:45:18]Cannot execute null.remove reagent().
+[14:45:18]proc name: on mob life (/datum/reagent/consumable/on_mob_life)
+[14:45:18]  source file: food_reagents.dm,20
+[14:45:18]  usr: null
+[14:45:18]  src: Nutriment (/datum/reagent/consumable/nutriment)
+[14:45:18]  call stack:
+[14:45:18]Nutriment (/datum/reagent/consumable/nutriment): on mob life(Kintargris (/mob/living/carbon/human))
+[14:45:18]Nutriment (/datum/reagent/consumable/nutriment): on mob life(Kintargris (/mob/living/carbon/human))
+[14:45:18]Nutriment (/datum/reagent/consumable/nutriment): on mob life(Kintargris (/mob/living/carbon/human))
+[14:45:18]/datum/reagents (/datum/reagents): metabolize(Kintargris (/mob/living/carbon/human), 1, 0)
+[14:45:18]the insectoid liver (/obj/item/organ/liver/fly): on life()
+[14:45:18]Kintargris (/mob/living/carbon/human): handle organs()
+[14:45:18]Kintargris (/mob/living/carbon/human): Life(2, 4746)
+[14:45:18]Kintargris (/mob/living/carbon/human): Life(2, 4746)
+[14:45:18]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[14:45:18]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[14:45:18]Master (/datum/controller/master): RunQueue()
+[14:45:18]Master (/datum/controller/master): Loop()
+[14:45:18]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[14:46:04]Cannot execute null.remove reagent().
+[14:46:04]proc name: on mob life (/datum/reagent/consumable/on_mob_life)
+[14:46:04]  source file: food_reagents.dm,20
+[14:46:04]  usr: null
+[14:46:04]  src: Cola (/datum/reagent/consumable/space_cola)
+[14:46:04]  call stack:
+[14:46:04]Cola (/datum/reagent/consumable/space_cola): on mob life(Kintargris (/mob/living/carbon/human))
+[14:46:04]Cola (/datum/reagent/consumable/space_cola): on mob life(Kintargris (/mob/living/carbon/human))
+[14:46:04]/datum/reagents (/datum/reagents): metabolize(Kintargris (/mob/living/carbon/human), 1, 0)
+[14:46:04]the insectoid liver (/obj/item/organ/liver/fly): on life()
+[14:46:04]Kintargris (/mob/living/carbon/human): handle organs()
+[14:46:04]Kintargris (/mob/living/carbon/human): Life(2, 4769)
+[14:46:04]Kintargris (/mob/living/carbon/human): Life(2, 4769)
+[14:46:04]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[14:46:04]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[14:46:04]Master (/datum/controller/master): RunQueue()
+[14:46:04]Master (/datum/controller/master): Loop()
+[14:46:04]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[14:46:06]Cannot execute null.remove reagent().
+[14:46:06]proc name: on mob life (/datum/reagent/consumable/on_mob_life)
+[14:46:06]  source file: food_reagents.dm,20
+[14:46:06]  usr: null
+[14:46:06]  src: Cola (/datum/reagent/consumable/space_cola)
+[14:46:06]  call stack:
+[14:46:06]Cola (/datum/reagent/consumable/space_cola): on mob life(Kintargris (/mob/living/carbon/human))
+[14:46:06]Cola (/datum/reagent/consumable/space_cola): on mob life(Kintargris (/mob/living/carbon/human))
+[14:46:06]/datum/reagents (/datum/reagents): metabolize(Kintargris (/mob/living/carbon/human), 1, 0)
+[14:46:06]the insectoid liver (/obj/item/organ/liver/fly): on life()
+[14:46:06]Kintargris (/mob/living/carbon/human): handle organs()
+[14:46:06]Kintargris (/mob/living/carbon/human): Life(2, 4770)
+[14:46:06]Kintargris (/mob/living/carbon/human): Life(2, 4770)
+[14:46:06]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[14:46:06]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[14:46:06]Master (/datum/controller/master): RunQueue()
+[14:46:06]Master (/datum/controller/master): Loop()
+[14:46:06]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[14:46:08]Cannot execute null.remove reagent().
+[14:46:08]proc name: on mob life (/datum/reagent/consumable/on_mob_life)
+[14:46:08]  source file: food_reagents.dm,20
+[14:46:08]  usr: null
+[14:46:08]  src: Cola (/datum/reagent/consumable/space_cola)
+[14:46:08]  call stack:
+[14:46:08]Cola (/datum/reagent/consumable/space_cola): on mob life(Kintargris (/mob/living/carbon/human))
+[14:46:08]Cola (/datum/reagent/consumable/space_cola): on mob life(Kintargris (/mob/living/carbon/human))
+[14:46:08]/datum/reagents (/datum/reagents): metabolize(Kintargris (/mob/living/carbon/human), 1, 0)
+[14:46:08]the insectoid liver (/obj/item/organ/liver/fly): on life()
+[14:46:08]Kintargris (/mob/living/carbon/human): handle organs()
+[14:46:08]Kintargris (/mob/living/carbon/human): Life(2, 4771)
+[14:46:08]Kintargris (/mob/living/carbon/human): Life(2, 4771)
+[14:46:08]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[14:46:08]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[14:46:08]Master (/datum/controller/master): RunQueue()
+[14:46:08]Master (/datum/controller/master): Loop()
+[14:46:08]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[14:46:31]nothing to animate
+[14:46:31]proc name: shake camera (/proc/shake_camera)
+[14:46:31]  source file: mob_helpers.dm,270
+runtime error: 
+[15:02:02]nothing to animate
+[15:02:02]proc name: shake camera (/proc/shake_camera)
+[15:02:02]  source file: mob_helpers.dm,270
+runtime error: 
+[15:07:13]Cannot modify null.parallax_animate_timer.
+[15:07:13]proc name: update parallax motionblur (/datum/hud/proc/update_parallax_motionblur)
+[15:07:13]  source file: parallax.dm,149
+runtime error: 
+[15:12:09]Cannot read null.z
+[15:12:09]proc name: toggle ai (/mob/living/simple_animal/proc/toggle_ai)
+[15:12:09]  source file: simple_animal.dm,554
+runtime error: 
+[15:12:09]Cannot read null.z
+[15:12:09]proc name: toggle ai (/mob/living/simple_animal/proc/toggle_ai)
+[15:12:09]  source file: simple_animal.dm,554
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (205,106,2) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (205,105,2) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle interior airlock at Abandoned Ship (212,92,2) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (64,30,13) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (63,30,13) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle interior airlock at Abandoned Ship (50,23,13) failed to find a valid airlock to cyclelink with!
+runtime error: 
+[15:26:17]nothing to animate
+[15:26:17]proc name: shake camera (/proc/shake_camera)
+[15:26:17]  source file: mob_helpers.dm,270
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (205,106,2) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (205,105,2) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle interior airlock at Abandoned Ship (212,92,2) failed to find a valid airlock to cyclelink with!
+runtime error: 
+[15:41:30]list index out of bounds
+[15:41:30]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[15:41:30]  source file: aurora_caelus.dm,39
+runtime error: 
+[15:45:23]Cannot execute null.archive().
+[15:45:23]proc name: archive (/turf/open/archive)
+[15:45:23]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:23]Cannot read null.gases
+[15:45:23]proc name: compare (/datum/gas_mixture/compare)
+[15:45:23]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:23]Cannot execute null.archive().
+[15:45:23]proc name: archive (/turf/open/archive)
+[15:45:23]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:23]Cannot read null.gases
+[15:45:23]proc name: compare (/datum/gas_mixture/compare)
+[15:45:23]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:23]Cannot execute null.archive().
+[15:45:23]proc name: archive (/turf/open/archive)
+[15:45:23]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:23]Cannot read null.gases
+[15:45:23]proc name: compare (/datum/gas_mixture/compare)
+[15:45:23]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:23]Cannot execute null.archive().
+[15:45:23]proc name: archive (/turf/open/archive)
+[15:45:23]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:23]Cannot read null.gases
+[15:45:23]proc name: compare (/datum/gas_mixture/compare)
+[15:45:23]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:23]Cannot execute null.archive().
+[15:45:23]proc name: archive (/turf/open/archive)
+[15:45:23]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:23]Cannot read null.gases
+[15:45:23]proc name: compare (/datum/gas_mixture/compare)
+[15:45:23]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:23]Cannot execute null.archive().
+[15:45:23]proc name: archive (/turf/open/archive)
+[15:45:23]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:23]Cannot read null.gases
+[15:45:23]proc name: compare (/datum/gas_mixture/compare)
+[15:45:23]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:23]Cannot execute null.archive().
+[15:45:23]proc name: archive (/turf/open/archive)
+[15:45:23]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:23]Cannot read null.gases
+[15:45:23]proc name: compare (/datum/gas_mixture/compare)
+[15:45:23]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[15:45:58]proc name: process cell (/turf/open/process_cell)
+[15:45:58]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[15:45:58]proc name: process cell (/turf/open/process_cell)
+[15:45:58]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[15:45:58]proc name: process cell (/turf/open/process_cell)
+[15:45:58]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[15:45:58]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[15:45:58]proc name: process cell (/turf/open/process_cell)
+[15:45:58]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[15:45:58]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[15:45:58]proc name: process cell (/turf/open/process_cell)
+[15:45:58]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[15:45:58]proc name: process cell (/turf/open/process_cell)
+[15:45:58]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[15:45:58]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[15:45:58]proc name: process cell (/turf/open/process_cell)
+[15:45:58]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[15:45:58]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[15:45:58]proc name: process cell (/turf/open/process_cell)
+[15:45:58]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:58]Cannot execute null.archive().
+[15:45:58]proc name: archive (/turf/open/archive)
+[15:45:58]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:58]Cannot read null.gases
+[15:45:58]proc name: compare (/datum/gas_mixture/compare)
+[15:45:58]  source file: gas_mixture.dm,387
+runtime error: 
+[15:45:59]Cannot execute null.archive().
+[15:45:59]proc name: archive (/turf/open/archive)
+[15:45:59]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[15:45:59]Cannot read null.gases
+[15:45:59]proc name: compare (/datum/gas_mixture/compare)
+[15:45:59]  source file: gas_mixture.dm,387
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (64,30,13) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (63,30,13) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle interior airlock at Abandoned Ship (50,23,13) failed to find a valid airlock to cyclelink with!
+runtime error: 
+[15:48:59]Cannot read null.z
+[15:48:59]proc name: toggle ai (/mob/living/simple_animal/proc/toggle_ai)
+[15:48:59]  source file: simple_animal.dm,554
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (204,66,2) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle external airlock at Abandoned Ship (204,65,2) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, the recovery shuttle interior airlock at Abandoned Ship (211,52,2) failed to find a valid airlock to cyclelink with!
+runtime error: 
+[16:29:44]undefined variable /obj/item/grown/novaflower/var/tastes
+[16:29:44]proc name: prepare result (/obj/item/seeds/proc/prepare_result)
+[16:29:44]  source file: seeds.dm,171
+runtime error: 
+[16:30:19]nothing to animate
+[16:30:19]proc name: shake camera (/proc/shake_camera)
+[16:30:19]  source file: mob_helpers.dm,270
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 16:47:20

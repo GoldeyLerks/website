@@ -1,0 +1,412 @@
+[2018-08-31 13:29:08.447] Starting up round ID 2139.
+[2018-08-31 13:29:08.447] -------------------------
+[2018-08-31 13:29:09.900] Initialized Database subsystem within 0 seconds!
+[2018-08-31 13:29:09.900] Initialized Blackbox subsystem within 0 seconds!
+[2018-08-31 13:29:09.900] Initialized Server Tasks subsystem within 0 seconds!
+[2018-08-31 13:29:09.901] Initialized Input subsystem within 0 seconds!
+[2018-08-31 13:29:09.945] Initialized Research subsystem within 0 seconds!
+[2018-08-31 13:29:09.953] Initialized Events subsystem within 0 seconds!
+[2018-08-31 13:29:09.959] Initialized Jobs subsystem within 0 seconds!
+[2018-08-31 13:29:09.961] Initialized Quirks subsystem within 0 seconds!
+[2018-08-31 13:29:09.970] Initialized Ticker subsystem within 0 seconds!
+[2018-08-31 13:29:09.971] Loading Box Station...
+[2018-08-31 13:29:15.632] Loaded Station in 5.7s!
+[2018-08-31 13:29:20.934] Loaded Lavaland in 5s!
+[2018-08-31 13:29:23.272] Ruin loader finished with 0 left to spend.
+[2018-08-31 13:29:25.293] Ruin loader finished with 0 left to spend.
+[2018-08-31 13:29:26.789] Initialized Mapping subsystem within 16.8 seconds!
+[2018-08-31 13:29:26.801] Initialized Networks subsystem within 0.1 seconds!
+[2018-08-31 13:30:14.959] Initialized Atoms subsystem within 48.1 seconds!
+[2018-08-31 13:30:14.985] Initialized Language subsystem within 0 seconds!
+[2018-08-31 13:30:15.391] Initialized Machines subsystem within 0.4 seconds!
+[2018-08-31 13:30:15.453] Initialized Circuit subsystem within 0 seconds!
+[2018-08-31 13:30:15.455] Initialized Disease subsystem within 0 seconds!
+[2018-08-31 13:30:15.456] Initialized Medals subsystem within 0 seconds!
+[2018-08-31 13:30:15.456] Initialized Night Shift subsystem within 0 seconds!
+[2018-08-31 13:30:15.456] Initialized Parallax subsystem within 0 seconds!
+[2018-08-31 13:30:15.603] Initialized Traumas subsystem within 0.2 seconds!
+[2018-08-31 13:30:15.604] Initialized Weather subsystem within 0 seconds!
+[2018-08-31 13:30:21.401] ## WARNING: There are 1 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+[2018-08-31 13:30:21.407] ## WARNING: HEY! LISTEN! 0 seconds were wasted processing 1 turf(s) (connected to 2 other turfs) with atmos differences at round start.
+[2018-08-31 13:30:21.912] Initialized Atmospherics subsystem within 6.3 seconds!
+[2018-08-31 13:30:21.930] Initialized Minimap subsystem within 0 seconds!
+[2018-08-31 13:30:24.308] Initialized Assets subsystem within 2.4 seconds!
+[2018-08-31 13:30:31.155] Initialized Icon Smoothing subsystem within 6.8 seconds!
+[2018-08-31 13:30:32.625] Initialized Overlay subsystem within 1.5 seconds!
+[2018-08-31 13:30:32.625] Initialized XKeyScore subsystem within 0 seconds!
+[2018-08-31 13:30:32.626] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-08-31 13:30:46.163] Initialized Lighting subsystem within 13.5 seconds!
+[2018-08-31 13:30:49.135] Initialized Shuttle subsystem within 3 seconds!
+[2018-08-31 13:30:49.171] Initialized Squeak subsystem within 0 seconds!
+[2018-08-31 13:30:49.173] Initialized Pathfinder subsystem within 0 seconds!
+[2018-08-31 13:30:49.226] Loaded 20 engraved messages on map Box Station
+[2018-08-31 13:30:49.245] Initialized Persistence subsystem within 0.1 seconds!
+[2018-08-31 13:30:49.245] Initializations complete within 99.3 seconds!
+[2018-08-31 13:32:18.698] Game start took 1s
+[2018-08-31 13:53:34.891] ### VarEdit by Arrfur/(Wack Grandpap): /obj/item/lighter lit=0 => 1
+[2018-08-31 13:57:28.581] ### VarEdit by Pandolphina/(Hugo Dickinson): /turf/open/floor/plasteel/vault temperature=293.15 => 40000
+[2018-08-31 13:57:44.576] ### VarEdit by Pandolphina/(Hugo Dickinson): /turf/open/floor/plasteel/vault temperature=40000 => 800000
+[2018-08-31 13:57:53.720] ### VarEdit by Pandolphina/(Hugo Dickinson): /turf/open/floor/plasteel/vault temperature=800000 => 293
+[2018-08-31 13:58:16.267] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=293.15 => 40000
+[2018-08-31 13:58:19.064] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 13:58:19.064] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 13:58:19.064]   source file: unsorted.dm,1166
+[2018-08-31 13:58:19.064]   usr: (src)
+[2018-08-31 13:58:19.064]   src: null
+[2018-08-31 13:58:19.064]   call stack:
+[2018-08-31 13:58:19.064] stack trace("addtimer called with a callbac...")
+[2018-08-31 13:58:19.064] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-08-31 13:58:19.064] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-08-31 13:58:19.064] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-08-31 13:58:19.064] 
+[2018-08-31 13:58:19.065] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 13:58:19.065] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 13:58:19.065]   source file: unsorted.dm,1166
+[2018-08-31 13:58:19.065]   usr: (src)
+[2018-08-31 13:58:19.065]   src: null
+[2018-08-31 13:58:19.065]   call stack:
+[2018-08-31 13:58:19.065] stack trace("addtimer called with a callbac...")
+[2018-08-31 13:58:19.065] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-08-31 13:58:19.065] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-08-31 13:58:19.065] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-08-31 13:58:19.065] 
+[2018-08-31 13:58:19.963] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 13:58:19.963] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 13:58:19.963]   source file: unsorted.dm,1166
+[2018-08-31 13:58:19.963]   usr: (src)
+[2018-08-31 13:58:19.963]   src: null
+[2018-08-31 13:58:19.963]   call stack:
+[2018-08-31 13:58:19.963] stack trace("addtimer called with a callbac...")
+[2018-08-31 13:58:19.963] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-08-31 13:58:19.963] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-08-31 13:58:19.963] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-08-31 13:58:19.963] 
+[2018-08-31 14:09:52.531] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=468.572 => 8e+06
+[2018-08-31 14:14:43.904] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-31 14:14:43.904] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-31 14:14:43.904]   source file: unsorted.dm,1169
+[2018-08-31 14:14:43.904]   usr: (src)
+[2018-08-31 14:14:43.904]   src: Wack Grandpap (/mob/living/carbon/human)
+[2018-08-31 14:14:43.904]   src.loc: the floor (181,101,2) (/turf/open/floor/plasteel/white/side)
+[2018-08-31 14:14:43.904]   call stack:
+[2018-08-31 14:14:43.904] Wack Grandpap (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-31 14:14:43.904] Wack Grandpap (/mob/living/carbon/human): log message("(LOCAL): I cant open it from t...", 1536, null, 1)
+[2018-08-31 14:14:43.904] Wack Grandpap (/mob/living/carbon/human): log message("(LOCAL): I cant open it from t...", 1536, null, 1)
+[2018-08-31 14:14:43.904] Arrfur (/client): LOOC("I cant open it from that side ...")
+[2018-08-31 14:14:43.904] 
+[2018-08-31 14:14:51.938] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-31 14:14:51.938] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-31 14:14:51.938]   source file: unsorted.dm,1169
+[2018-08-31 14:14:51.938]   usr: (src)
+[2018-08-31 14:14:51.938]   src: Wack Grandpap (/mob/living/carbon/human)
+[2018-08-31 14:14:51.938]   src.loc: the floor (181,101,2) (/turf/open/floor/plasteel/white/side)
+[2018-08-31 14:14:51.938]   call stack:
+[2018-08-31 14:14:51.938] Wack Grandpap (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-31 14:14:51.938] Wack Grandpap (/mob/living/carbon/human): log message("(LOCAL): you goofed yourself w...", 1536, null, 1)
+[2018-08-31 14:14:51.938] Wack Grandpap (/mob/living/carbon/human): log message("(LOCAL): you goofed yourself w...", 1536, null, 1)
+[2018-08-31 14:14:51.938] Arrfur (/client): LOOC("you goofed yourself when you t...")
+[2018-08-31 14:14:51.938] 
+[2018-08-31 14:14:56.485] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-31 14:14:56.485] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-31 14:14:56.485]   source file: unsorted.dm,1169
+[2018-08-31 14:14:56.485]   usr: (src)
+[2018-08-31 14:14:56.485]   src: Hugo Dickinson (/mob/living/carbon/human)
+[2018-08-31 14:14:56.485]   src.loc: space (183,102,2) (/turf/open/space)
+[2018-08-31 14:14:56.485]   call stack:
+[2018-08-31 14:14:56.485] Hugo Dickinson (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-31 14:14:56.485] Hugo Dickinson (/mob/living/carbon/human): log message("(LOCAL): Yes you can theres a ...", 1536, null, 1)
+[2018-08-31 14:14:56.485] Hugo Dickinson (/mob/living/carbon/human): log message("(LOCAL): Yes you can theres a ...", 1536, null, 1)
+[2018-08-31 14:14:56.485] Pandolphina (/client): LOOC("Yes you can theres a button to...")
+[2018-08-31 14:14:56.485] 
+[2018-08-31 14:15:05.652] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-31 14:15:05.653] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-31 14:15:05.653]   source file: unsorted.dm,1169
+[2018-08-31 14:15:05.653]   usr: (src)
+[2018-08-31 14:15:05.653]   src: Wack Grandpap (/mob/living/carbon/human)
+[2018-08-31 14:15:05.653]   src.loc: the floor (181,102,2) (/turf/open/floor/plasteel/white/side)
+[2018-08-31 14:15:05.653]   call stack:
+[2018-08-31 14:15:05.653] Wack Grandpap (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-31 14:15:05.653] Wack Grandpap (/mob/living/carbon/human): log message("(LOCAL): Then i&#39;ll be trap...", 1536, null, 1)
+[2018-08-31 14:15:05.653] Wack Grandpap (/mob/living/carbon/human): log message("(LOCAL): Then i&#39;ll be trap...", 1536, null, 1)
+[2018-08-31 14:15:05.653] Arrfur (/client): LOOC("Then i&#39;ll be trapped in no...")
+[2018-08-31 14:15:05.653] 
+[2018-08-31 14:41:56.543] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 14:41:56.543] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 14:41:56.543]   source file: unsorted.dm,1166
+[2018-08-31 14:41:56.543]   usr: (src)
+[2018-08-31 14:41:56.543]   src: null
+[2018-08-31 14:41:56.543]   call stack:
+[2018-08-31 14:41:56.543] stack trace("addtimer called with a callbac...")
+[2018-08-31 14:41:56.543] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-08-31 14:41:56.543] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-08-31 14:41:56.543] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-08-31 14:41:56.543] 
+[2018-08-31 14:41:56.544] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 14:41:56.544] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 14:41:56.544]   source file: unsorted.dm,1166
+[2018-08-31 14:41:56.544]   usr: (src)
+[2018-08-31 14:41:56.544]   src: null
+[2018-08-31 14:41:56.544]   call stack:
+[2018-08-31 14:41:56.544] stack trace("addtimer called with a callbac...")
+[2018-08-31 14:41:56.544] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-08-31 14:41:56.544] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-08-31 14:41:56.544] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-08-31 14:41:56.544] 
+[2018-08-31 14:44:00.105] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=289.261 => 8e+06
+[2018-08-31 14:44:28.033] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=8e+06 => 80000
+[2018-08-31 14:44:42.408] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=80000 => 8e+06
+[2018-08-31 14:44:51.909] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=8e+06 => 8e+09
+[2018-08-31 15:12:49.762] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 15:12:49.762] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 15:12:49.762]   source file: unsorted.dm,1166
+[2018-08-31 15:12:49.762]   usr: Lara Black (/mob/living/carbon/human)
+[2018-08-31 15:12:49.762]   src: null
+[2018-08-31 15:12:49.762]   usr.loc: the floor (96,75,2) (/turf/open/floor/plasteel)
+[2018-08-31 15:12:49.763]   call stack:
+[2018-08-31 15:12:49.763] stack trace("addtimer called with a callbac...")
+[2018-08-31 15:12:49.763] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-08-31 15:12:49.763] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-08-31 15:12:49.763] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-08-31 15:12:49.763] 
+[2018-08-31 15:12:50.262] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 15:12:50.262] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 15:12:50.262]   source file: unsorted.dm,1166
+[2018-08-31 15:12:50.263]   usr: Lara Black (/mob/living/carbon/human)
+[2018-08-31 15:12:50.263]   src: null
+[2018-08-31 15:12:50.263]   usr.loc: the floor (96,75,2) (/turf/open/floor/plasteel)
+[2018-08-31 15:12:50.263]   call stack:
+[2018-08-31 15:12:50.263] stack trace("addtimer called with a callbac...")
+[2018-08-31 15:12:50.263] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-08-31 15:12:50.263] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-08-31 15:12:50.263] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-08-31 15:12:50.263] 
+[2018-08-31 15:46:13.049] runtime error: The grille taking damage after deletion
+[2018-08-31 15:46:13.049] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-31 15:46:13.049]   source file: unsorted.dm,1169
+[2018-08-31 15:46:13.049]   usr: null
+[2018-08-31 15:46:13.049]   src: the grille (/obj/structure/grille)
+[2018-08-31 15:46:13.049]   src.loc: null
+[2018-08-31 15:46:13.049]   call stack:
+[2018-08-31 15:46:13.049] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-08-31 15:46:13.049] the grille (/obj/structure/grille): take damage(6, "brute", "melee", 1, null, 0)
+[2018-08-31 15:46:13.049] the grille (/obj/structure/grille): take damage(6, "brute", "melee", 1, null)
+[2018-08-31 15:46:13.049] the grille (/obj/structure/grille): attack animal(the space carp (/mob/living/simple_animal/hostile/carp))
+[2018-08-31 15:46:13.049] the space carp (/mob/living/simple_animal/hostile/carp): DestroyObjectsInDirection(2)
+[2018-08-31 15:46:13.049] the space carp (/mob/living/simple_animal/hostile/carp): DestroyPathToTarget()
+[2018-08-31 15:46:13.049] the space carp (/mob/living/simple_animal/hostile/carp): handle automated action()
+[2018-08-31 15:46:13.049] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-08-31 15:46:13.050] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-08-31 15:46:13.050] Master (/datum/controller/master): RunQueue()
+[2018-08-31 15:46:13.050] Master (/datum/controller/master): Loop()
+[2018-08-31 15:46:13.050] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-31 15:46:13.050] 
+[2018-08-31 16:15:37.153] runtime error: The grille taking damage after deletion
+[2018-08-31 16:15:37.153] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-31 16:15:37.153]   source file: unsorted.dm,1169
+[2018-08-31 16:15:37.153]   usr: null
+[2018-08-31 16:15:37.153]   src: the grille (/obj/structure/grille)
+[2018-08-31 16:15:37.153]   src.loc: null
+[2018-08-31 16:15:37.153]   call stack:
+[2018-08-31 16:15:37.153] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-08-31 16:15:37.153] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null, 0)
+[2018-08-31 16:15:37.153] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null)
+[2018-08-31 16:15:37.153] the grille (/obj/structure/grille): attack animal(the giant spider (31) (/mob/living/simple_animal/hostile/poison/giant_spider))
+[2018-08-31 16:15:37.153] the giant spider (31) (/mob/living/simple_animal/hostile/poison/giant_spider): DestroyObjectsInDirection(1)
+[2018-08-31 16:15:37.153] the giant spider (31) (/mob/living/simple_animal/hostile/poison/giant_spider): DestroyPathToTarget()
+[2018-08-31 16:15:37.153] the giant spider (31) (/mob/living/simple_animal/hostile/poison/giant_spider): handle automated action()
+[2018-08-31 16:15:37.153] the giant spider (31) (/mob/living/simple_animal/hostile/poison/giant_spider): handle automated action()
+[2018-08-31 16:15:37.153] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-08-31 16:15:37.153] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-08-31 16:15:37.153] Master (/datum/controller/master): RunQueue()
+[2018-08-31 16:15:37.153] Master (/datum/controller/master): Loop()
+[2018-08-31 16:15:37.153] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-31 16:15:37.153] 
+[2018-08-31 16:16:40.487] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-31 16:16:40.487] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-31 16:16:40.487]   source file: unsorted.dm,1169
+[2018-08-31 16:16:40.487]   usr: (src)
+[2018-08-31 16:16:40.487]   src: Lara Black (/mob/living/carbon/human)
+[2018-08-31 16:16:40.487]   src.loc: the floor (80,115,2) (/turf/open/floor/plasteel)
+[2018-08-31 16:16:40.487]   call stack:
+[2018-08-31 16:16:40.487] Lara Black (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-31 16:16:40.487] Lara Black (/mob/living/carbon/human): log message("(LOCAL): THE LAG", 1536, null, 1)
+[2018-08-31 16:16:40.487] Lara Black (/mob/living/carbon/human): log message("(LOCAL): THE LAG", 1536, null, 1)
+[2018-08-31 16:16:40.487] Bilary (/client): LOOC("THE LAG")
+[2018-08-31 16:16:40.487] 
+[2018-08-31 16:16:42.337] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-31 16:16:42.337] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-31 16:16:42.337]   source file: unsorted.dm,1169
+[2018-08-31 16:16:42.337]   usr: (src)
+[2018-08-31 16:16:42.337]   src: Lara Black (/mob/living/carbon/human)
+[2018-08-31 16:16:42.337]   src.loc: the floor (80,115,2) (/turf/open/floor/plasteel)
+[2018-08-31 16:16:42.337]   call stack:
+[2018-08-31 16:16:42.337] Lara Black (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-31 16:16:42.337] Lara Black (/mob/living/carbon/human): log message("(LOCAL): AAAAAAAAAAAAAA", 1536, null, 1)
+[2018-08-31 16:16:42.337] Lara Black (/mob/living/carbon/human): log message("(LOCAL): AAAAAAAAAAAAAA", 1536, null, 1)
+[2018-08-31 16:16:42.337] Bilary (/client): LOOC("AAAAAAAAAAAAAA")
+[2018-08-31 16:16:42.337] 
+[2018-08-31 16:24:43.583] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-31 16:24:43.583] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-31 16:24:43.583]   source file: unsorted.dm,1169
+[2018-08-31 16:24:43.583]   usr: (src)
+[2018-08-31 16:24:43.583]   src: Lara Black (/mob/living/carbon/human)
+[2018-08-31 16:24:43.583]   src.loc: the gold floor (86,116,2) (/turf/open/floor/mineral/gold)
+[2018-08-31 16:24:43.583]   call stack:
+[2018-08-31 16:24:43.583] Lara Black (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-31 16:24:43.583] Lara Black (/mob/living/carbon/human): log message("(LOCAL): hold up i gotta do so...", 1536, null, 1)
+[2018-08-31 16:24:43.583] Lara Black (/mob/living/carbon/human): log message("(LOCAL): hold up i gotta do so...", 1536, null, 1)
+[2018-08-31 16:24:43.583] Bilary (/client): LOOC("hold up i gotta do something")
+[2018-08-31 16:24:43.583] 
+[2018-08-31 16:29:46.863] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-31 16:29:46.863] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-31 16:29:46.863]   source file: unsorted.dm,1169
+[2018-08-31 16:29:46.863]   usr: (src)
+[2018-08-31 16:29:46.863]   src: Hugo Dickinson (/mob/living/carbon/human)
+[2018-08-31 16:29:46.863]   src.loc: the floor (187,117,2) (/turf/open/floor/plasteel/white)
+[2018-08-31 16:29:46.863]   call stack:
+[2018-08-31 16:29:46.863] Hugo Dickinson (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-31 16:29:46.863] Hugo Dickinson (/mob/living/carbon/human): log message("(LOCAL): Just gonna say defib ...", 1536, null, 1)
+[2018-08-31 16:29:46.863] Hugo Dickinson (/mob/living/carbon/human): log message("(LOCAL): Just gonna say defib ...", 1536, null, 1)
+[2018-08-31 16:29:46.863] Pandolphina (/client): LOOC("Just gonna say defib nanites a...")
+[2018-08-31 16:29:46.863] 
+[2018-08-31 16:34:05.820] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-31 16:34:05.820] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-31 16:34:05.820]   source file: unsorted.dm,1169
+[2018-08-31 16:34:05.820] 
+[2018-08-31 16:34:25.429] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-31 16:34:25.429] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-31 16:34:25.429]   source file: unsorted.dm,1169
+[2018-08-31 16:34:25.429] 
+[2018-08-31 16:35:48.686] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=293.15 => 40000
+[2018-08-31 16:36:35.051] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=3753.16 => 800000
+[2018-08-31 16:37:06.200] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=34889.2 => 8e+06
+[2018-08-31 16:37:36.115] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=310365 => 8e+08
+[2018-08-31 16:38:09.270] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=1.93967e+07 => 8e+09
+[2018-08-31 16:38:25.028] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=4.80912e+08 => 8e+10
+[2018-08-31 16:38:49.120] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=2.9757e+09 => 8e+09
+[2018-08-31 16:38:57.664] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=4.47366e+09 => 8e+08
+[2018-08-31 16:39:03.743] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=1.72736e+09 => 8e+09
+[2018-08-31 16:39:12.052] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=8e+09 => 8e+10
+[2018-08-31 16:39:20.650] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=8e+10 => 8e+12
+[2018-08-31 16:39:45.732] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=2.53756e+11 => 8e+13
+[2018-08-31 16:39:58.240] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=5.98005e+12 => 8e+14
+[2018-08-31 16:40:40.982] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=2.01889e+13 => 8e+21
+[2018-08-31 16:40:58.630] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=6.10259e+20 => 8e+22
+[2018-08-31 16:41:18.846] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=2.58916e+22 => 8e+27
+[2018-08-31 16:41:44.504] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=1.00575e+27 => 8e+28
+[2018-08-31 16:42:43.598] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-31 16:42:43.598] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-31 16:42:43.598]   source file: unsorted.dm,1169
+[2018-08-31 16:42:43.598] 
+[2018-08-31 16:45:53.232] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf temperature=3.12695e+26 => inf
+[2018-08-31 16:48:47.691] ### VarEdit by Pandolphina/(Hugo Dickinson): /datum/gas_mixture/turf volume=2500 => 400000
+[2018-08-31 16:52:08.156] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 16:52:08.156] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 16:52:08.156]   source file: unsorted.dm,1166
+[2018-08-31 16:52:08.156] 
+[2018-08-31 16:52:08.254] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 16:52:08.255] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 16:52:08.255]   source file: unsorted.dm,1166
+[2018-08-31 16:52:08.255] 
+[2018-08-31 16:52:09.114] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 16:52:09.114] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 16:52:09.114]   source file: unsorted.dm,1166
+[2018-08-31 16:52:09.114] 
+[2018-08-31 16:52:09.162] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 16:52:09.163] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 16:52:09.163]   source file: unsorted.dm,1166
+[2018-08-31 16:52:09.163] 
+[2018-08-31 16:52:09.164] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 16:52:09.164] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 16:52:09.164]   source file: unsorted.dm,1166
+[2018-08-31 16:52:09.164] 
+[2018-08-31 16:52:09.165] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 16:52:09.165] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 16:52:09.165]   source file: unsorted.dm,1166
+[2018-08-31 16:52:09.165] 
+[2018-08-31 16:52:09.263] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 16:52:09.263] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 16:52:09.263]   source file: unsorted.dm,1166
+[2018-08-31 16:52:09.263] 
+[2018-08-31 16:52:09.586] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 16:52:09.586] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 16:52:09.586]   source file: unsorted.dm,1166
+[2018-08-31 16:52:09.586] 
+[2018-08-31 16:52:09.588] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 16:52:09.589] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 16:52:09.589]   source file: unsorted.dm,1166
+[2018-08-31 16:52:09.589] 
+[2018-08-31 16:52:10.145] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 16:52:10.145] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 16:52:10.145]   source file: unsorted.dm,1166
+[2018-08-31 16:52:10.145] 
+[2018-08-31 16:52:10.195] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-31 16:52:10.195] proc name: stack trace (/proc/stack_trace)
+[2018-08-31 16:52:10.195]   source file: unsorted.dm,1166
+[2018-08-31 16:52:10.195] 
+[2018-08-31 16:58:34.518] Shutting down Persistence subsystem...
+[2018-08-31 16:58:34.518] Shutting down Pathfinder subsystem...
+[2018-08-31 16:58:34.518] Shutting down Squeak subsystem...
+[2018-08-31 16:58:34.518] Shutting down Shuttle subsystem...
+[2018-08-31 16:58:34.518] Shutting down Lighting subsystem...
+[2018-08-31 16:58:34.518] Shutting down XKeyScore subsystem...
+[2018-08-31 16:58:34.518] Shutting down Sticky Ban subsystem...
+[2018-08-31 16:58:34.519] Shutting down Overlay subsystem...
+[2018-08-31 16:58:34.582] Shutting down Icon Smoothing subsystem...
+[2018-08-31 16:58:34.582] Shutting down Assets subsystem...
+[2018-08-31 16:58:34.582] Shutting down Minimap subsystem...
+[2018-08-31 16:58:34.582] Shutting down Atmospherics subsystem...
+[2018-08-31 16:58:34.582] Shutting down Wet floors subsystem...
+[2018-08-31 16:58:34.583] Shutting down Weather subsystem...
+[2018-08-31 16:58:34.583] Shutting down Vote subsystem...
+[2018-08-31 16:58:34.583] Shutting down Traumas subsystem...
+[2018-08-31 16:58:34.583] Shutting down Title Screen subsystem...
+[2018-08-31 16:58:34.584] Shutting down Time Tracking subsystem...
+[2018-08-31 16:58:34.584] Shutting down Throwing subsystem...
+[2018-08-31 16:58:34.584] Shutting down tgui subsystem...
+[2018-08-31 16:58:34.584] Shutting down Sun subsystem...
+[2018-08-31 16:58:34.584] Shutting down Space Drift subsystem...
+[2018-08-31 16:58:34.584] Shutting down Religion subsystem...
+[2018-08-31 16:58:34.584] Shutting down Radio subsystem...
+[2018-08-31 16:58:34.584] Shutting down Radiation subsystem...
+[2018-08-31 16:58:34.584] Shutting down Projectiles subsystem...
+[2018-08-31 16:58:34.584] Shutting down Processing subsystem...
+[2018-08-31 16:58:34.584] Shutting down Ping subsystem...
+[2018-08-31 16:58:34.584] Shutting down Parallax subsystem...
+[2018-08-31 16:58:34.584] Shutting down pAI subsystem...
+[2018-08-31 16:58:34.584] Shutting down Orbits subsystem...
+[2018-08-31 16:58:34.585] Shutting down Objects subsystem...
+[2018-08-31 16:58:34.585] Shutting down NPC Pool subsystem...
+[2018-08-31 16:58:34.585] Shutting down Night Shift subsystem...
+[2018-08-31 16:58:34.585] Shutting down Nanites subsystem...
+[2018-08-31 16:58:34.585] Shutting down Mood subsystem...
+[2018-08-31 16:58:34.585] Shutting down Mobs subsystem...
+[2018-08-31 16:58:34.585] Shutting down Medals subsystem...
+[2018-08-31 16:58:34.585] Shutting down Idling NPC Pool subsystem...
+[2018-08-31 16:58:34.585] Shutting down Fire Burning subsystem...
+[2018-08-31 16:58:34.585] Shutting down Fields subsystem...
+[2018-08-31 16:58:34.585] Shutting down Fast Processing subsystem...
+[2018-08-31 16:58:34.585] Shutting down Disease subsystem...
+[2018-08-31 16:58:34.585] Shutting down Datum Component System subsystem...
+[2018-08-31 16:58:34.585] Shutting down Communications subsystem...
+[2018-08-31 16:58:34.585] Shutting down Augury subsystem...
+[2018-08-31 16:58:34.585] Shutting down Acid subsystem...
+[2018-08-31 16:58:34.585] Shutting down Timer subsystem...
+[2018-08-31 16:58:34.585] Shutting down Circuit subsystem...
+[2018-08-31 16:58:34.585] Shutting down Machines subsystem...
+[2018-08-31 16:58:34.586] Shutting down Language subsystem...
+[2018-08-31 16:58:34.586] Shutting down Atoms subsystem...
+[2018-08-31 16:58:34.586] Shutting down Networks subsystem...
+[2018-08-31 16:58:34.586] Shutting down Mapping subsystem...
+[2018-08-31 16:58:34.586] Shutting down Ticker subsystem...
+[2018-08-31 16:58:34.863] Shutting down Quirks subsystem...
+[2018-08-31 16:58:34.863] Shutting down Jobs subsystem...
+[2018-08-31 16:58:34.863] Shutting down Events subsystem...
+[2018-08-31 16:58:34.863] Shutting down Research subsystem...
+[2018-08-31 16:58:34.863] Shutting down Input subsystem...
+[2018-08-31 16:58:34.863] Shutting down Server Tasks subsystem...
+[2018-08-31 16:58:35.152] Shutting down Blackbox subsystem...
+[2018-08-31 16:58:35.786] Shutting down Database subsystem...
+[2018-08-31 16:58:35.824] Shutting down Garbage subsystem...
+[2018-08-31 16:58:35.896] Shutdown complete
+[2018-08-31 16:58:35.897] World rebooted at 16:58:35

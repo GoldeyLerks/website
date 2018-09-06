@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block title %}Round {{round["id"]}}{% endblock %}
+{% block active %}rounds{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="/static/css/rounds.css">
+<meta property="og:title" content="BeeStation - Round {{round["id"]}}" />
+<meta property="og:description" content="Score: {{ round["integrity"] }}% | Players: {{round["player_count"]}} | Escaped: {{round["escaped_count"]}} | Abandoned: {{round["abandoned_count"]}} | Dead: {{round["death_count"]}}" />
+{% endblock %}
+{% block content %}
+
+<div class="u-round {% if round["crashed"] %}round-crashed{% endif %}">
+  <div class="u-round-header">Round {{ round["id"] }}<span class="u-round-integrity">{% if not round["crashed"] %}Score: {{ round["integrity"] }}%{% else %}Crashed!{% endif %}</span></div>
+{% if not round["crashed"] %}
+  <div class="u-round-stat"><b>Players ({{round["player_count"]}}):</b><br><br>{{ '<br><br>'.join(round["player_names"])|safe }}</div>
+  <div class="u-round-stat"><b>Escaped ({{round["escaped_count"]}}):</b><br><br>{{ '<br><br>'.join(round["escaped_names"])|safe }}</div>
+  <div class="u-round-stat"><b>Abandoned ({{round["abandoned_count"]}}):</b><br><br>{{ '<br><br>'.join(round["abandoned_names"])|safe }}</div>
+  <div class="u-round-stat"><b>Dead ({{round["death_count"]}}):</b><br><br>{{ '<br><br>'.join(round["death_names"])|safe }}</div>
+{% endif %}
+</div>
+
+{% endblock %}

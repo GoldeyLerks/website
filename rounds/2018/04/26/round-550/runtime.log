@@ -1,0 +1,525 @@
+
+
+Starting up round ID 550. 00:05:16
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 6.3s!
+Loaded Lavaland in 6.5s!
+Loaded Reebe in 6.5s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 27.9 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 52.9 seconds!
+Initialized Language subsystem within 0.1 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 10 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 10 turf(s) (connected to 20606 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 16 seconds!
+Initialized Minimap subsystem within 0.4 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 6.5 seconds!
+Initialized Overlay subsystem within 20.6 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 14.7 seconds!
+Initialized Shuttle subsystem within 24.9 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 96 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 165.5 seconds!
+runtime error: 
+[00:09:31]Cannot read null.species
+[00:09:31]proc name: attach limb (/obj/item/bodypart/proc/attach_limb)
+[00:09:31]  source file: dismemberment.dm,278
+[00:09:31]  usr: null
+[00:09:31]  src: the surplus prosthetic left ar... (/obj/item/bodypart/l_arm/robot/surplus)
+[00:09:31]  src.loc: null
+[00:09:31]  call stack:
+[00:09:31]the surplus prosthetic left ar... (/obj/item/bodypart/l_arm/robot/surplus): attach limb( (/mob/living/carbon/human), null)
+[00:09:31]the surplus prosthetic left ar... (/obj/item/bodypart/l_arm/robot/surplus): replace limb( (/mob/living/carbon/human), null)
+[00:09:31]Prosthetic Limb (/datum/trait/prosthetic_limb): on spawn()
+[00:09:31]Prosthetic Limb (/datum/trait/prosthetic_limb): New( (/mob/living/carbon/human), 1)
+[00:09:31] (/mob/living/carbon/human): add trait datum("Prosthetic Limb", 1)
+[00:09:31]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), Braincrab (/client), 1)
+[00:09:31]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[00:09:31]Ticker (/datum/controller/subsystem/ticker): setup()
+[00:09:31]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[00:09:31]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+Game start took 36.7s
+runtime error: 
+[00:10:26]nothing to animate
+[00:10:26]proc name: shake camera (/proc/shake_camera)
+[00:10:26]  source file: mob_helpers.dm,270
+[00:10:26]  usr: (src)
+[00:10:26]  src: null
+[00:10:26]  call stack:
+[00:10:26]shake camera(Catitao (/mob/living/carbon/human), 0.75, 1)
+[00:10:26]Catitao (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:10:26]Catitao (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:10:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[00:10:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[00:10:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[00:10:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:10:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:10:26]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:10:26]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:13:05]nothing to animate
+[00:13:05]proc name: shake camera (/proc/shake_camera)
+[00:13:05]  source file: mob_helpers.dm,270
+[00:13:05]  usr: (src)
+[00:13:05]  src: null
+[00:13:05]  call stack:
+[00:13:05]shake camera(Pepsiman (/mob/living/carbon/human), 0.75, 1)
+[00:13:05]Pepsiman (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:13:05]Pepsiman (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:13:05]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[00:13:05]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[00:13:05]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[00:13:05]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:13:05]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:13:05]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:13:05]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:14:23]nothing to animate
+[00:14:23]proc name: shake camera (/proc/shake_camera)
+[00:14:23]  source file: mob_helpers.dm,270
+[00:14:23]  usr: (src)
+[00:14:23]  src: null
+[00:14:23]  call stack:
+[00:14:23]shake camera(Jesus Kiefer (/mob/living/carbon/human), 0.75, 1)
+[00:14:23]Jesus Kiefer (/mob/living/carbon/human): afterShuttleMove(space (25,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:14:23]Jesus Kiefer (/mob/living/carbon/human): afterShuttleMove(space (25,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:14:23]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[00:14:23]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[00:14:23]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[00:14:23]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:14:23]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:14:23]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:14:23]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:15:21]nothing to animate
+[00:15:21]proc name: shake camera (/proc/shake_camera)
+[00:15:21]  source file: mob_helpers.dm,270
+[00:15:21]  usr: (src)
+[00:15:21]  src: null
+[00:15:21]  call stack:
+[00:15:21]shake camera(Eli Noton (/mob/living/carbon/human), 0.75, 1)
+[00:15:21]Eli Noton (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:15:21]Eli Noton (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:15:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[00:15:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[00:15:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[00:15:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:15:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:15:21]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:15:21]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:15:59]nothing to animate
+[00:15:59]proc name: shake camera (/proc/shake_camera)
+[00:15:59]  source file: mob_helpers.dm,270
+[00:15:59]  usr: (src)
+[00:15:59]  src: null
+[00:15:59]  call stack:
+[00:15:59]shake camera(Eduardo Sheets (/mob/living/carbon/human), 0.75, 1)
+[00:15:59]Eduardo Sheets (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:15:59]Eduardo Sheets (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:15:59]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[00:15:59]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[00:15:59]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[00:15:59]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:15:59]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:15:59]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:15:59]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:19:55]Cannot execute null.react().
+[00:19:55]proc name: process atmos (/obj/machinery/portable_atmospherics/process_atmos)
+[00:19:55]  source file: portable_atmospherics.dm,38
+[00:19:55]  usr: null
+[00:19:55]  src: the o2 canister (/obj/machinery/portable_atmospherics/canister/oxygen)
+[00:19:55]  src.loc: null
+[00:19:55]  call stack:
+[00:19:55]the o2 canister (/obj/machinery/portable_atmospherics/canister/oxygen): process atmos(0.5)
+[00:19:55]the o2 canister (/obj/machinery/portable_atmospherics/canister/oxygen): process atmos(0.5)
+[00:19:55]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[00:19:55]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[00:19:55]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[00:19:55]Master (/datum/controller/master): RunQueue()
+[00:19:55]Master (/datum/controller/master): Loop()
+[00:19:55]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[00:19:55]Cannot read null.airs
+[00:19:55]proc name: process atmos (/obj/machinery/portable_atmospherics/canister/process_atmos)
+[00:19:55]  source file: canister.dm,336
+[00:19:55]  usr: null
+[00:19:55]  src: the o2 canister (/obj/machinery/portable_atmospherics/canister/oxygen)
+[00:19:55]  src.loc: null
+[00:19:55]  call stack:
+[00:19:55]the o2 canister (/obj/machinery/portable_atmospherics/canister/oxygen): process atmos(0.5)
+[00:19:55]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[00:19:55]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[00:19:55]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[00:19:55]Master (/datum/controller/master): RunQueue()
+[00:19:55]Master (/datum/controller/master): Loop()
+[00:19:55]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[00:20:56]nothing to animate
+[00:20:56]proc name: shake camera (/proc/shake_camera)
+[00:20:56]  source file: mob_helpers.dm,270
+[00:20:56]  usr: (src)
+[00:20:56]  src: null
+[00:20:56]  call stack:
+[00:20:56]shake camera(Attack-The-Star (/mob/living/carbon/human), 0.75, 1)
+[00:20:56]Attack-The-Star (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[00:20:56]Attack-The-Star (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[00:20:56]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[00:20:56]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[00:20:56]the mining shuttle (/obj/docking_port/mobile): check()
+[00:20:56]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:20:56]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:23:19]nothing to animate
+[00:23:19]proc name: shake camera (/proc/shake_camera)
+[00:23:19]  source file: mob_helpers.dm,270
+[00:23:19]  usr: (src)
+[00:23:19]  src: null
+[00:23:19]  call stack:
+[00:23:19]shake camera(Caeli Halvaring (/mob/living/carbon/human), 0.75, 1)
+[00:23:19]Caeli Halvaring (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:23:19]Caeli Halvaring (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:23:19]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[00:23:19]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[00:23:19]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[00:23:19]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:23:19]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:23:19]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:23:19]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:25:52]Cannot read null.client
+[00:25:52]proc name: open (/datum/tgui/proc/open)
+[00:25:52]  source file: tgui.dm,87
+[00:25:52]  usr: null
+[00:25:52]  src: /datum/tgui (/datum/tgui)
+[00:25:52]  call stack:
+[00:25:52]/datum/tgui (/datum/tgui): open()
+[00:25:52]the sleeper (/obj/machinery/sleeper): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/notcontained_s... (/datum/ui_state/notcontained_state))
+[00:25:52]the sleeper (/obj/machinery/sleeper): updateUsrDialog()
+[00:25:52]the sleeper (/obj/machinery/sleeper): open machine(1)
+[00:25:52]the sleeper (/obj/machinery/sleeper): open machine()
+[00:25:52]the sleeper (/obj/machinery/sleeper): container resist(Red Axolotl (/mob/living/carbon/human))
+[00:25:52]the sleeper (/obj/machinery/sleeper): relaymove(Red Axolotl (/mob/living/carbon/human), 8)
+[00:25:52]Red Axolotl (/client): Move(the floor (140,115,2) (/turf/open/floor/plasteel/white/side), 8)
+[00:25:52]Red Axolotl (/mob/living/carbon/human): keyLoop(Red Axolotl (/client))
+[00:25:52]Red Axolotl (/client): keyLoop()
+[00:25:52]Input (/datum/controller/subsystem/input): fire(0)
+[00:25:52]Input (/datum/controller/subsystem/input): ignite(0)
+[00:25:52]Master (/datum/controller/master): RunQueue()
+[00:25:52]Master (/datum/controller/master): Loop()
+[00:25:52]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[00:26:50]nothing to animate
+[00:26:50]proc name: shake camera (/proc/shake_camera)
+[00:26:50]  source file: mob_helpers.dm,270
+[00:26:50]  usr: (src)
+[00:26:50]  src: null
+[00:26:50]  call stack:
+[00:26:50]shake camera(Woodrow Tanner (/mob/living/carbon/human), 0.75, 1)
+[00:26:50]Woodrow Tanner (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:26:50]Woodrow Tanner (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:26:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[00:26:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[00:26:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[00:26:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:26:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:26:50]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:26:50]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:27:27]nothing to animate
+[00:27:27]proc name: shake camera (/proc/shake_camera)
+[00:27:27]  source file: mob_helpers.dm,270
+[00:27:27]  usr: (src)
+[00:27:27]  src: null
+[00:27:27]  call stack:
+[00:27:27]shake camera(Attack-The-Star (/mob/living/carbon/human), 0.75, 1)
+[00:27:27]Attack-The-Star (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[00:27:27]Attack-The-Star (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[00:27:27]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the mining shuttle bay (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[00:27:27]the mining shuttle (/obj/docking_port/mobile): initiate docking(the mining shuttle bay (/obj/docking_port/stationary), 1, 0)
+[00:27:27]the mining shuttle (/obj/docking_port/mobile): check()
+[00:27:27]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:27:27]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:27:39]nothing to animate
+[00:27:39]proc name: shake camera (/proc/shake_camera)
+[00:27:39]  source file: mob_helpers.dm,270
+[00:27:39]  usr: (src)
+[00:27:39]  src: null
+[00:27:39]  call stack:
+[00:27:39]shake camera(Mckenzie Patel (/mob/living/carbon/human), 0.75, 1)
+[00:27:39]Mckenzie Patel (/mob/living/carbon/human): afterShuttleMove(space (27,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:27:39]Mckenzie Patel (/mob/living/carbon/human): afterShuttleMove(space (27,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:27:39]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[00:27:39]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[00:27:39]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[00:27:39]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:27:39]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:27:39]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:27:39]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:32:17]Cannot read null.client
+[00:32:17]proc name: open (/datum/tgui/proc/open)
+[00:32:17]  source file: tgui.dm,87
+[00:32:17]  usr: Caeli Halvaring (/mob/living/carbon/human)
+[00:32:17]  src: /datum/tgui (/datum/tgui)
+[00:32:17]  usr.loc: the floor (130,144,2) (/turf/open/floor/plasteel/freezer)
+[00:32:17]  call stack:
+[00:32:17]/datum/tgui (/datum/tgui): open()
+[00:32:17]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[00:32:17]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Caeli Halvaring (/mob/living/carbon/human))
+[00:32:17]Caeli Halvaring (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=17;icon-y=18;left=1;scr...")
+[00:32:17]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=17;icon-y=18;left=1;scr...")
+runtime error: 
+[00:32:39]Cannot read null.client
+[00:32:39]proc name: open (/datum/tgui/proc/open)
+[00:32:39]  source file: tgui.dm,87
+[00:32:39]  usr: Caeli Halvaring (/mob/living/carbon/human)
+[00:32:39]  src: /datum/tgui (/datum/tgui)
+[00:32:39]  usr.loc: the floor (126,148,2) (/turf/open/floor/plasteel/freezer)
+[00:32:39]  call stack:
+[00:32:39]/datum/tgui (/datum/tgui): open()
+[00:32:39]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[00:32:39]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Caeli Halvaring (/mob/living/carbon/human))
+[00:32:39]Caeli Halvaring (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=16;icon-y=21;left=1;scr...")
+[00:32:39]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=16;icon-y=21;left=1;scr...")
+runtime error: 
+[00:32:41]nothing to animate
+[00:32:41]proc name: shake camera (/proc/shake_camera)
+[00:32:41]  source file: mob_helpers.dm,270
+[00:32:41]  usr: (src)
+[00:32:41]  src: null
+[00:32:41]  call stack:
+[00:32:41]shake camera(Min Contour (/mob/living/carbon/human), 0.75, 1)
+[00:32:41]Min Contour (/mob/living/carbon/human): afterShuttleMove(space (25,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:32:41]Min Contour (/mob/living/carbon/human): afterShuttleMove(space (25,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:32:41]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[00:32:41]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[00:32:41]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[00:32:41]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:32:41]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:32:41]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:32:41]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:33:09]Cannot read null.client
+[00:33:09]proc name: open (/datum/tgui/proc/open)
+[00:33:09]  source file: tgui.dm,87
+[00:33:09]  usr: Caeli Halvaring (/mob/living/carbon/human)
+[00:33:09]  src: /datum/tgui (/datum/tgui)
+[00:33:09]  usr.loc: the floor (123,152,2) (/turf/open/floor/plasteel)
+[00:33:09]  call stack:
+[00:33:09]/datum/tgui (/datum/tgui): open()
+[00:33:09]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[00:33:09]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Caeli Halvaring (/mob/living/carbon/human))
+[00:33:09]Caeli Halvaring (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=9;icon-y=27;left=1;scre...")
+[00:33:09]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=9;icon-y=27;left=1;scre...")
+runtime error: 
+[00:35:07]nothing to animate
+[00:35:07]proc name: shake camera (/proc/shake_camera)
+[00:35:07]  source file: mob_helpers.dm,270
+[00:35:07]  usr: (src)
+[00:35:07]  src: null
+[00:35:07]  call stack:
+[00:35:07]shake camera(Guards-The-Goods (/mob/living/carbon/human), 0.75, 1)
+[00:35:07]Guards-The-Goods (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:35:07]Guards-The-Goods (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[00:35:07]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[00:35:07]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[00:35:07]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[00:35:07]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:35:07]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[00:35:07]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[00:35:07]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[00:35:47]nothing to animate
+[00:35:47]proc name: shake camera (/proc/shake_camera)
+[00:35:47]  source file: mob_helpers.dm,270
+runtime error: 
+[00:37:51]Cannot read null.client
+[00:37:51]proc name: open (/datum/tgui/proc/open)
+[00:37:51]  source file: tgui.dm,87
+runtime error: 
+[00:41:48]Cannot execute null.CanPass().
+[00:41:48]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[00:41:48]  source file: reagent_containers.dm,83
+runtime error: 
+[00:42:28]list index out of bounds
+[00:42:28]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[00:42:28]  source file: aurora_caelus.dm,39
+runtime error: 
+[00:47:26]undefined proc or verb /turf/closed/wall/high pressure movements().
+
+[00:47:26]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[00:47:26]  source file: air.dm,205
+runtime error: 
+[00:47:56]nothing to animate
+[00:47:56]proc name: shake camera (/proc/shake_camera)
+[00:47:56]  source file: mob_helpers.dm,270
+runtime error: 
+[00:50:31]nothing to animate
+[00:50:31]proc name: shake camera (/proc/shake_camera)
+[00:50:31]  source file: mob_helpers.dm,270
+runtime error: 
+[00:50:41]Cannot read null.client
+[00:50:41]proc name: open (/datum/tgui/proc/open)
+[00:50:41]  source file: tgui.dm,87
+runtime error: 
+[00:51:02]nothing to animate
+[00:51:02]proc name: shake camera (/proc/shake_camera)
+[00:51:02]  source file: mob_helpers.dm,270
+runtime error: 
+[00:51:33]Cannot read null.loc
+[00:51:33]proc name: update parallax (/datum/hud/proc/update_parallax)
+[00:51:33]  source file: parallax.dm,170
+runtime error: 
+[00:54:46]nothing to animate
+[00:54:46]proc name: shake camera (/proc/shake_camera)
+[00:54:46]  source file: mob_helpers.dm,270
+runtime error: 
+[00:56:04]Cannot read null.client
+[00:56:04]proc name: open (/datum/tgui/proc/open)
+[00:56:04]  source file: tgui.dm,87
+runtime error: 
+[00:57:57]nothing to animate
+[00:57:57]proc name: shake camera (/proc/shake_camera)
+[00:57:57]  source file: mob_helpers.dm,270
+runtime error: 
+[00:58:11]undefined proc or verb /turf/closed/wall/high pressure movements().
+
+[00:58:11]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[00:58:11]  source file: air.dm,205
+runtime error: 
+[00:58:17]undefined proc or verb /turf/closed/wall/high pressure movements().
+
+[00:58:17]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[00:58:17]  source file: air.dm,205
+runtime error: 
+[00:58:29]undefined proc or verb /turf/closed/wall/high pressure movements().
+
+[00:58:29]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[00:58:29]  source file: air.dm,205
+runtime error: 
+[01:02:24]Cannot execute null.is cut().
+[01:02:24]proc name: requiresID (/obj/machinery/door/airlock/requiresID)
+[01:02:24]  source file: airlock.dm,384
+runtime error: 
+[01:02:24]addtimer called with a callback assigned to a qdeleted object
+[01:02:24]proc name: stack trace (/proc/stack_trace)
+[01:02:24]  source file: unsorted.dm,1254
+runtime error: 
+[01:02:24]addtimer called with a callback assigned to a qdeleted object
+[01:02:24]proc name: stack trace (/proc/stack_trace)
+[01:02:24]  source file: unsorted.dm,1254
+runtime error: 
+[01:03:11]undefined proc or verb /turf/closed/wall/high pressure movements().
+
+[01:03:11]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[01:03:11]  source file: air.dm,205
+runtime error: 
+[01:03:25]nothing to animate
+[01:03:25]proc name: shake camera (/proc/shake_camera)
+[01:03:25]  source file: mob_helpers.dm,270
+runtime error: 
+[01:03:25]nothing to animate
+[01:03:25]proc name: shake camera (/proc/shake_camera)
+[01:03:25]  source file: mob_helpers.dm,270
+runtime error: 
+[01:03:27]nothing to animate
+[01:03:27]proc name: shake camera (/proc/shake_camera)
+[01:03:27]  source file: mob_helpers.dm,270
+runtime error: 
+[01:03:27]nothing to animate
+[01:03:27]proc name: shake camera (/proc/shake_camera)
+[01:03:27]  source file: mob_helpers.dm,270
+Saved 96 engraved messages on map Box Station
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 01:05:22

@@ -1,0 +1,801 @@
+
+
+Starting up round ID 410. 04:19:04
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0.1 seconds!
+Loading Box Station...
+Loaded Station in 4.9s!
+Loaded Lavaland in 6.6s!
+Loaded Reebe in 5.1s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 24.4 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 45.3 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 8 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 8 turf(s) (connected to 19968 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 13.3 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 5.9 seconds!
+Initialized Overlay subsystem within 21.4 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 11.6 seconds!
+Initialized Shuttle subsystem within 19.5 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 5 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 143.7 seconds!
+Game start took 11.7s
+runtime error: 
+[04:32:32]Cannot read null.client
+[04:32:32]proc name: open (/datum/tgui/proc/open)
+[04:32:32]  source file: tgui.dm,87
+[04:32:32]  usr: Raj-Wanum (/mob/living/carbon/human)
+[04:32:32]  src: /datum/tgui (/datum/tgui)
+[04:32:32]  usr.loc: the floor (179,129,2) (/turf/open/floor/plasteel)
+[04:32:32]  call stack:
+[04:32:32]/datum/tgui (/datum/tgui): open()
+[04:32:32]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[04:32:32]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Raj-Wanum (/mob/living/carbon/human))
+[04:32:32]Raj-Wanum (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=8;icon-y=20;left=1;scre...")
+[04:32:32]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=8;icon-y=20;left=1;scre...")
+runtime error: 
+[04:36:40]Cannot read null.revivecost
+[04:36:40]proc name: update power (/obj/item/defibrillator/proc/update_power)
+[04:36:40]  source file: defib.dm,50
+[04:36:40]  usr: Keith Nash (/mob/living/carbon/human)
+[04:36:40]  src: the defibrillator (/obj/item/defibrillator/loaded)
+[04:36:40]  usr.loc: the floor (113,136,2) (/turf/open/floor/plasteel)
+[04:36:40]  src.loc: null
+[04:36:40]  call stack:
+[04:36:40]the defibrillator (/obj/item/defibrillator/loaded): update power()
+[04:36:40]the defibrillator (/obj/item/defibrillator/loaded): update icon()
+[04:36:40]the defibrillator (/obj/item/defibrillator/loaded): Destroy(1)
+[04:36:40]qdel(the defibrillator (/obj/item/defibrillator/loaded), 1)
+[04:36:40]the floor (127,142,1) (/turf/open/floor/plasteel/white): empty(/turf/open/space (/turf/open/space), /turf/open/space (/turf/open/space), null, null)
+[04:36:40]Birdboat emergency escape shut... (/obj/docking_port/mobile/emergency): jumpToNullSpace()
+[04:36:40]the shuttle manipulator (/obj/machinery/shuttle_manipulator): action load(Birdboat Station Emergency Shu... (/datum/map_template/shuttle/emergency/birdboat), null)
+[04:36:40]the communications console (/obj/machinery/computer/communications): Topic("src=\[0x2003e4a];operation=buy...", /list (/list))
+[04:36:40]ChemicalPills5379 (/client): Topic("src=\[0x2003e4a];operation=buy...", /list (/list), the communications console (/obj/machinery/computer/communications))
+[04:36:40]ChemicalPills5379 (/client): Topic("src=\[0x2003e4a];operation=buy...", /list (/list), the communications console (/obj/machinery/computer/communications))
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+[04:36:41]  usr: null
+[04:36:41]  src: the floor (126,150,1) (/turf/open/floor/plasteel/white)
+[04:36:41]  call stack:
+[04:36:41]the floor (126,150,1) (/turf/open/floor/plasteel/white): archive()
+[04:36:41]space (127,150,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+[04:36:41]  usr: null
+[04:36:41]  src: /datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space)
+[04:36:41]  call stack:
+[04:36:41]/datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space): compare(null)
+[04:36:41]space (127,150,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+[04:36:41]  usr: null
+[04:36:41]  src: the floor (126,151,1) (/turf/open/floor/plasteel/white)
+[04:36:41]  call stack:
+[04:36:41]the floor (126,151,1) (/turf/open/floor/plasteel/white): archive()
+[04:36:41]space (127,151,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+[04:36:41]  usr: null
+[04:36:41]  src: /datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space)
+[04:36:41]  call stack:
+[04:36:41]/datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space): compare(null)
+[04:36:41]space (127,151,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+[04:36:41]  usr: null
+[04:36:41]  src: the floor (126,152,1) (/turf/open/floor/plasteel/white)
+[04:36:41]  call stack:
+[04:36:41]the floor (126,152,1) (/turf/open/floor/plasteel/white): archive()
+[04:36:41]space (127,152,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+[04:36:41]  usr: null
+[04:36:41]  src: /datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space)
+[04:36:41]  call stack:
+[04:36:41]/datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space): compare(null)
+[04:36:41]space (127,152,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+[04:36:41]  usr: null
+[04:36:41]  src: the floor (126,153,1) (/turf/open/floor/plasteel/white)
+[04:36:41]  call stack:
+[04:36:41]the floor (126,153,1) (/turf/open/floor/plasteel/white): archive()
+[04:36:41]space (127,153,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+[04:36:41]  usr: null
+[04:36:41]  src: /datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space)
+[04:36:41]  call stack:
+[04:36:41]/datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space): compare(null)
+[04:36:41]space (127,153,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+[04:36:41]  usr: null
+[04:36:41]  src: space (127,154,1) (/turf/open/space)
+[04:36:41]  call stack:
+[04:36:41]space (127,154,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+[04:36:41]  usr: null
+[04:36:41]  src: space (126,155,1) (/turf/open/space/basic)
+[04:36:41]  call stack:
+[04:36:41]space (126,155,1) (/turf/open/space/basic): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+[04:36:41]  usr: null
+[04:36:41]  src: space (126,141,1) (/turf/open/space)
+[04:36:41]  call stack:
+[04:36:41]space (126,141,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+[04:36:41]  usr: null
+[04:36:41]  src: space (125,140,1) (/turf/open/space)
+[04:36:41]  call stack:
+[04:36:41]space (125,140,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+[04:36:41]  usr: null
+[04:36:41]  src: the floor (125,142,1) (/turf/open/floor/plasteel/white)
+[04:36:41]  call stack:
+[04:36:41]the floor (125,142,1) (/turf/open/floor/plasteel/white): archive()
+[04:36:41]space (126,142,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+[04:36:41]  usr: null
+[04:36:41]  src: /datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space)
+[04:36:41]  call stack:
+[04:36:41]/datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space): compare(null)
+[04:36:41]space (126,142,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+[04:36:41]  usr: null
+[04:36:41]  src: the floor (125,143,1) (/turf/open/floor/plasteel/white)
+[04:36:41]  call stack:
+[04:36:41]the floor (125,143,1) (/turf/open/floor/plasteel/white): archive()
+[04:36:41]space (126,143,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+[04:36:41]  usr: null
+[04:36:41]  src: /datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space)
+[04:36:41]  call stack:
+[04:36:41]/datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space): compare(null)
+[04:36:41]space (126,143,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+[04:36:41]  usr: null
+[04:36:41]  src: the floor (125,144,1) (/turf/open/floor/plasteel/white)
+[04:36:41]  call stack:
+[04:36:41]the floor (125,144,1) (/turf/open/floor/plasteel/white): archive()
+[04:36:41]space (126,144,1) (/turf/open/space): process cell(1587)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[04:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[04:36:41]Master (/datum/controller/master): RunQueue()
+[04:36:41]Master (/datum/controller/master): Loop()
+[04:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]undefined variable /turf/closed/wall/mineral/titanium/var/air
+[04:36:41]proc name: process cell (/turf/open/process_cell)
+[04:36:41]  source file: LINDA_turf_tile.dm,184
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]proc name: compare (/datum/gas_mixture/compare)
+[04:36:41]  source file: gas_mixture.dm,387
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+[04:36:41]proc name: archive (/turf/open/archive)
+[04:36:41]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[04:36:41]Cannot read null.gases
+[04:36:41]Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+runtime error: 
+[04:36:41]Cannot read null.gases
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+runtime error: 
+[04:36:41]Cannot read null.gases
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+runtime error: 
+[04:36:41]Cannot read null.gases
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+runtime error: 
+[04:36:41]Cannot read null.gases
+runtime error: 
+[04:36:41]Cannot execute null.archive().
+runtime error: 
+[04:36:41]Cannot read null.gases
+runtime error: 
+[04:46:06]nothing to animate
+runtime error: 
+[04:46:48]Cannot read null.species
+runtime error: 
+[04:46:48]Cannot read null.species
+runtime error: 
+[04:46:48]Cannot execute null.return air().
+runtime error: 
+[04:46:48]Cannot read null.species
+runtime error: 
+[04:46:48]Cannot read null.species
+### VarEdit by Screeeopia/(Alexandar Price): /mob/living/carbon/human real_name=Gunner Lauffer => Alexandar Price
+runtime error: 
+[04:54:31]Cannot execute null.copy to().
+runtime error: 
+[04:55:20]Cannot execute null.copy to().
+runtime error: 
+[04:55:20]Cannot execute null.copy to().
+runtime error: 
+[04:55:22]Cannot execute null.copy to().
+runtime error: 
+[04:55:22]Cannot execute null.copy to().
+runtime error: 
+[04:55:42]Cannot execute null.copy to().
+runtime error: 
+[04:55:42]Cannot execute null.copy to().
+runtime error: 
+[04:55:42]Cannot execute null.copy to().
+runtime error: 
+[04:55:44]Cannot execute null.copy to().
+runtime error: 
+[04:55:56]Cannot execute null.copy to().
+runtime error: 
+[04:55:57]Cannot execute null.copy to().
+runtime error: 
+[04:55:58]Cannot execute null.copy to().
+runtime error: 
+[04:56:11]Cannot execute null.copy to().
+runtime error: 
+[04:56:15]Cannot execute null.copy to().
+runtime error: 
+[04:56:16]Cannot execute null.copy to().
+runtime error: 
+[04:56:19]Cannot execute null.copy to().
+runtime error: 
+[04:57:10]Cannot execute null.hitby().
+runtime error: 
+[04:57:10]Cannot read null.density
+runtime error: 
+[04:57:45]Cannot execute null.copy to().
+runtime error: 
+[05:01:55]Cannot execute null.copy to().
+runtime error: 
+[05:09:35]nothing to animate
+runtime error: 
+[05:37:58]nothing to animate
+runtime error: 
+[05:46:00]nothing to animate
+Saved 5 engraved messages on map Box Station
+runtime error: 
+[05:47:20]Cannot read null.loc
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 05:47:38

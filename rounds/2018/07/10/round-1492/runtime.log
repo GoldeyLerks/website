@@ -1,0 +1,386 @@
+[2018-07-10 14:37:47.257] Starting up round ID 1492.
+[2018-07-10 14:37:47.257] -------------------------
+[2018-07-10 14:37:48.313] Initialized Database subsystem within 0 seconds!
+[2018-07-10 14:37:48.314] Initialized Blackbox subsystem within 0 seconds!
+[2018-07-10 14:37:48.314] Initialized Server Tasks subsystem within 0 seconds!
+[2018-07-10 14:37:48.314] Initialized Input subsystem within 0 seconds!
+[2018-07-10 14:37:48.362] Initialized Research subsystem within 0 seconds!
+[2018-07-10 14:37:48.366] Initialized Events subsystem within 0 seconds!
+[2018-07-10 14:37:48.371] Initialized Jobs subsystem within 0 seconds!
+[2018-07-10 14:37:48.371] Initialized Quirks subsystem within 0 seconds!
+[2018-07-10 14:37:48.379] Initialized Ticker subsystem within 0 seconds!
+[2018-07-10 14:37:48.379] Loading Box Station...
+[2018-07-10 14:37:57.660] Loaded Station in 9.3s!
+[2018-07-10 14:38:04.251] Loaded Lavaland in 5.9s!
+[2018-07-10 14:38:09.727] Ruin loader finished with 0 left to spend.
+[2018-07-10 14:38:12.606] Ruin loader finished with 0 left to spend.
+[2018-07-10 14:38:23.773] Initialized Mapping subsystem within 35.4 seconds!
+[2018-07-10 14:38:23.775] Initialized Networks subsystem within 0 seconds!
+[2018-07-10 14:39:08.082] Initialized Atoms subsystem within 44.3 seconds!
+[2018-07-10 14:39:08.154] Initialized Language subsystem within 0 seconds!
+[2018-07-10 14:39:08.520] Initialized Machines subsystem within 0.4 seconds!
+[2018-07-10 14:39:08.570] Initialized Circuit subsystem within 0 seconds!
+[2018-07-10 14:39:08.572] Initialized Disease subsystem within 0 seconds!
+[2018-07-10 14:39:08.572] Initialized Medals subsystem within 0 seconds!
+[2018-07-10 14:39:08.573] Initialized Night Shift subsystem within 0 seconds!
+[2018-07-10 14:39:08.573] Initialized Parallax subsystem within 0 seconds!
+[2018-07-10 14:39:08.699] Initialized Traumas subsystem within 0.1 seconds!
+[2018-07-10 14:39:08.700] Initialized Weather subsystem within 0.1 seconds!
+[2018-07-10 14:40:27.782] ## WARNING: There are 1 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+[2018-07-10 14:40:27.788] ## WARNING: HEY! LISTEN! 0 seconds were wasted processing 1 turf(s) (connected to 2 other turfs) with atmos differences at round start.
+[2018-07-10 14:40:28.294] Initialized Atmospherics subsystem within 79.5 seconds!
+[2018-07-10 14:40:28.310] Initialized Minimap subsystem within 0.1 seconds!
+[2018-07-10 14:40:30.467] Initialized Assets subsystem within 2.1 seconds!
+[2018-07-10 14:40:37.210] Initialized Icon Smoothing subsystem within 6.8 seconds!
+[2018-07-10 14:40:38.586] Initialized Overlay subsystem within 1.3 seconds!
+[2018-07-10 14:40:38.587] Initialized XKeyScore subsystem within 0 seconds!
+[2018-07-10 14:40:38.593] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-07-10 14:40:51.555] Initialized Lighting subsystem within 13 seconds!
+[2018-07-10 14:40:55.324] Initialized Shuttle subsystem within 3.8 seconds!
+[2018-07-10 14:40:55.358] Initialized Squeak subsystem within 0 seconds!
+[2018-07-10 14:40:55.360] Initialized Pathfinder subsystem within 0 seconds!
+[2018-07-10 14:40:55.410] Loaded 8 engraved messages on map Box Station
+[2018-07-10 14:40:55.439] Initialized Persistence subsystem within 0.1 seconds!
+[2018-07-10 14:40:55.439] Initializations complete within 187.1 seconds!
+[2018-07-10 14:42:05.929] Game start took 2.5s
+[2018-07-10 14:56:20.617] runtime error: null.addMember() called by /obj/machinery/atmospherics/components/unary/thermomachine/freezer/on on (105,101,2)
+[2018-07-10 14:56:20.617] proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[2018-07-10 14:56:20.617]   source file: datum_pipeline.dm,133
+[2018-07-10 14:56:20.617]   usr: Does-The-Gimmick (/mob/living/carbon/human)
+[2018-07-10 14:56:20.617]   src: the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on)
+[2018-07-10 14:56:20.617]   usr.loc: the plating (105,100,2) (/turf/open/floor/plating)
+[2018-07-10 14:56:20.617]   src.loc: the plating (105,101,2) (/turf/open/floor/plating)
+[2018-07-10 14:56:20.617]   call stack:
+[2018-07-10 14:56:20.617] the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on): addMember(the pipe (/obj/machinery/atmospherics/pipe/simple))
+[2018-07-10 14:56:20.617] the pipe (/obj/machinery/atmospherics/pipe/simple): on construction(null, 2)
+[2018-07-10 14:56:20.617] the pipe fitting (/obj/item/pipe/binary/bendable): wrench act(Does-The-Gimmick (/mob/living/carbon/human), Rapid Piping Device (RPD) (/obj/item/pipe_dispenser))
+[2018-07-10 14:56:20.617] Rapid Piping Device (RPD) (/obj/item/pipe_dispenser): pre attack(the plating (105,100,2) (/turf/open/floor/plating), Does-The-Gimmick (/mob/living/carbon/human), "icon-x=26;icon-y=25;left=1;scr...")
+[2018-07-10 14:56:20.617] Rapid Piping Device (RPD) (/obj/item/pipe_dispenser): melee attack chain(Does-The-Gimmick (/mob/living/carbon/human), the plating (105,100,2) (/turf/open/floor/plating), "icon-x=26;icon-y=25;left=1;scr...")
+[2018-07-10 14:56:20.617] Does-The-Gimmick (/mob/living/carbon/human): ClickOn(the plating (105,100,2) (/turf/open/floor/plating), "icon-x=26;icon-y=25;left=1;scr...")
+[2018-07-10 14:56:20.617] the plating (105,100,2) (/turf/open/floor/plating): Click(the plating (105,100,2) (/turf/open/floor/plating), "mapwindow.map", "icon-x=26;icon-y=25;left=1;scr...")
+[2018-07-10 14:56:20.617] 
+[2018-07-10 15:42:40.577] runtime error: special list may not be cut
+[2018-07-10 15:42:40.577] proc name: New (/datum/camerachunk/New)
+[2018-07-10 15:42:40.577]   source file: chunk.dm,131
+[2018-07-10 15:42:40.577]   usr: null
+[2018-07-10 15:42:40.577]   src: /datum/camerachunk (/datum/camerachunk)
+[2018-07-10 15:42:40.577]   call stack:
+[2018-07-10 15:42:40.577] /datum/camerachunk (/datum/camerachunk): New(0, 0, 2)
+[2018-07-10 15:42:40.577] Camera Net (/datum/cameranet): getCameraChunk(0, 0, 2)
+[2018-07-10 15:42:40.577] Camera Net (/datum/cameranet): visibility(/list (/list), Enkidienne (/client), /list (/list))
+[2018-07-10 15:42:40.577] System-01 (/mob/living/silicon/ai): camera visibility(System-01 (AI Eye) (/mob/camera/aiEye))
+[2018-07-10 15:42:40.577] System-01 (AI Eye) (/mob/camera/aiEye): setLoc(space (31,16,2) (/turf/open/space/basic))
+[2018-07-10 15:42:40.577] Enkidienne (/client): AIMove(the wall (149,32,2) (/turf/closed/wall), 8, System-01 (/mob/living/silicon/ai))
+[2018-07-10 15:42:40.577] Enkidienne (/client): Move(the wall (149,32,2) (/turf/closed/wall), 8)
+[2018-07-10 15:42:40.577] System-01 (/mob/living/silicon/ai): keyLoop(Enkidienne (/client))
+[2018-07-10 15:42:40.577] Enkidienne (/client): keyLoop()
+[2018-07-10 15:42:40.577] Input (/datum/controller/subsystem/input): fire(0)
+[2018-07-10 15:42:40.577] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-07-10 15:42:40.577] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:42:40.577] Master (/datum/controller/master): Loop()
+[2018-07-10 15:42:40.577] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:42:40.577] 
+[2018-07-10 15:43:59.943] runtime error: cannot read from list
+[2018-07-10 15:43:59.943] proc name: process (/obj/effect/particle_effect/foam/firefighting/process)
+[2018-07-10 15:43:59.943]   source file: effects_foam.dm,43
+[2018-07-10 15:43:59.943]   usr: null
+[2018-07-10 15:43:59.943]   src: the firefighting foam (/obj/effect/particle_effect/foam/firefighting)
+[2018-07-10 15:43:59.943]   src.loc: the reinforced floor (113,68,2) (/turf/open/floor/engine)
+[2018-07-10 15:43:59.943]   call stack:
+[2018-07-10 15:43:59.943] the firefighting foam (/obj/effect/particle_effect/foam/firefighting): process(2)
+[2018-07-10 15:43:59.943] Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[2018-07-10 15:43:59.943] Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[2018-07-10 15:43:59.943] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:43:59.943] Master (/datum/controller/master): Loop()
+[2018-07-10 15:43:59.943] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:43:59.943] 
+[2018-07-10 15:44:00.120] runtime error: cannot read from list
+[2018-07-10 15:44:00.121] proc name: process (/obj/effect/particle_effect/foam/firefighting/process)
+[2018-07-10 15:44:00.121]   source file: effects_foam.dm,43
+[2018-07-10 15:44:00.121]   usr: null
+[2018-07-10 15:44:00.121]   src: the firefighting foam (/obj/effect/particle_effect/foam/firefighting)
+[2018-07-10 15:44:00.121]   src.loc: the reinforced floor (113,68,2) (/turf/open/floor/engine)
+[2018-07-10 15:44:00.121]   call stack:
+[2018-07-10 15:44:00.121] the firefighting foam (/obj/effect/particle_effect/foam/firefighting): process(2)
+[2018-07-10 15:44:00.121] Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[2018-07-10 15:44:00.121] Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[2018-07-10 15:44:00.121] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:44:00.121] Master (/datum/controller/master): Loop()
+[2018-07-10 15:44:00.121] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:44:00.121] 
+[2018-07-10 15:44:00.375] runtime error: cannot read from list
+[2018-07-10 15:44:00.375] proc name: process (/obj/effect/particle_effect/foam/firefighting/process)
+[2018-07-10 15:44:00.375]   source file: effects_foam.dm,43
+[2018-07-10 15:44:00.375]   usr: null
+[2018-07-10 15:44:00.375]   src: the firefighting foam (/obj/effect/particle_effect/foam/firefighting)
+[2018-07-10 15:44:00.375]   src.loc: the reinforced floor (113,68,2) (/turf/open/floor/engine)
+[2018-07-10 15:44:00.375]   call stack:
+[2018-07-10 15:44:00.375] the firefighting foam (/obj/effect/particle_effect/foam/firefighting): process(2)
+[2018-07-10 15:44:00.375] Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[2018-07-10 15:44:00.375] Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[2018-07-10 15:44:00.375] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:44:00.375] Master (/datum/controller/master): Loop()
+[2018-07-10 15:44:00.375] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:44:00.375] 
+[2018-07-10 15:44:00.570] runtime error: cannot read from list
+[2018-07-10 15:44:00.570] proc name: process (/obj/effect/particle_effect/foam/firefighting/process)
+[2018-07-10 15:44:00.570]   source file: effects_foam.dm,43
+[2018-07-10 15:44:00.570]   usr: null
+[2018-07-10 15:44:00.570]   src: the firefighting foam (/obj/effect/particle_effect/foam/firefighting)
+[2018-07-10 15:44:00.570]   src.loc: the reinforced floor (113,68,2) (/turf/open/floor/engine)
+[2018-07-10 15:44:00.570]   call stack:
+[2018-07-10 15:44:00.570] the firefighting foam (/obj/effect/particle_effect/foam/firefighting): process(2)
+[2018-07-10 15:44:00.570] Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[2018-07-10 15:44:00.570] Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[2018-07-10 15:44:00.570] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:44:00.570] Master (/datum/controller/master): Loop()
+[2018-07-10 15:44:00.570] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:44:00.570] 
+[2018-07-10 15:44:00.971] runtime error: cannot read from list
+[2018-07-10 15:44:00.971] proc name: process (/obj/effect/particle_effect/foam/firefighting/process)
+[2018-07-10 15:44:00.971]   source file: effects_foam.dm,43
+[2018-07-10 15:44:00.971]   usr: null
+[2018-07-10 15:44:00.971]   src: the firefighting foam (/obj/effect/particle_effect/foam/firefighting)
+[2018-07-10 15:44:00.971]   src.loc: the reinforced floor (113,68,2) (/turf/open/floor/engine)
+[2018-07-10 15:44:00.971]   call stack:
+[2018-07-10 15:44:00.971] the firefighting foam (/obj/effect/particle_effect/foam/firefighting): process(2)
+[2018-07-10 15:44:00.971] Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[2018-07-10 15:44:00.971] Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[2018-07-10 15:44:00.971] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:44:00.971] Master (/datum/controller/master): Loop()
+[2018-07-10 15:44:00.971] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:44:00.971] 
+[2018-07-10 15:44:01.491] runtime error: cannot read from list
+[2018-07-10 15:44:01.491] proc name: process (/obj/effect/particle_effect/foam/firefighting/process)
+[2018-07-10 15:44:01.491]   source file: effects_foam.dm,43
+[2018-07-10 15:44:01.491]   usr: null
+[2018-07-10 15:44:01.491]   src: the firefighting foam (/obj/effect/particle_effect/foam/firefighting)
+[2018-07-10 15:44:01.491]   src.loc: the reinforced floor (113,68,2) (/turf/open/floor/engine)
+[2018-07-10 15:44:01.491]   call stack:
+[2018-07-10 15:44:01.491] the firefighting foam (/obj/effect/particle_effect/foam/firefighting): process(2)
+[2018-07-10 15:44:01.491] Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[2018-07-10 15:44:01.491] Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[2018-07-10 15:44:01.491] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:44:01.491] Master (/datum/controller/master): Loop()
+[2018-07-10 15:44:01.491] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:44:01.491] 
+[2018-07-10 15:44:01.916] runtime error: cannot read from list
+[2018-07-10 15:44:01.916] proc name: process (/obj/effect/particle_effect/foam/firefighting/process)
+[2018-07-10 15:44:01.916]   source file: effects_foam.dm,43
+[2018-07-10 15:44:01.916]   usr: null
+[2018-07-10 15:44:01.916]   src: the firefighting foam (/obj/effect/particle_effect/foam/firefighting)
+[2018-07-10 15:44:01.916]   src.loc: the reinforced floor (113,68,2) (/turf/open/floor/engine)
+[2018-07-10 15:44:01.916]   call stack:
+[2018-07-10 15:44:01.916] the firefighting foam (/obj/effect/particle_effect/foam/firefighting): process(2)
+[2018-07-10 15:44:01.916] Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[2018-07-10 15:44:01.916] Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[2018-07-10 15:44:01.916] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:44:01.916] Master (/datum/controller/master): Loop()
+[2018-07-10 15:44:01.916] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:44:01.916] 
+[2018-07-10 15:44:09.305] runtime error: cannot read from list
+[2018-07-10 15:44:09.306] proc name: process (/obj/effect/particle_effect/foam/firefighting/process)
+[2018-07-10 15:44:09.306]   source file: effects_foam.dm,43
+[2018-07-10 15:44:09.306]   usr: null
+[2018-07-10 15:44:09.306]   src: the firefighting foam (/obj/effect/particle_effect/foam/firefighting)
+[2018-07-10 15:44:09.306]   src.loc: the reinforced floor (113,68,2) (/turf/open/floor/engine)
+[2018-07-10 15:44:09.306]   call stack:
+[2018-07-10 15:44:09.306] the firefighting foam (/obj/effect/particle_effect/foam/firefighting): process(2)
+[2018-07-10 15:44:09.306] Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[2018-07-10 15:44:09.306] Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[2018-07-10 15:44:09.306] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:44:09.306] Master (/datum/controller/master): Loop()
+[2018-07-10 15:44:09.306] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:44:09.306] 
+[2018-07-10 15:44:10.370] runtime error: cannot read from list
+[2018-07-10 15:44:10.370] proc name: process (/obj/effect/particle_effect/foam/firefighting/process)
+[2018-07-10 15:44:10.370]   source file: effects_foam.dm,43
+[2018-07-10 15:44:10.370]   usr: null
+[2018-07-10 15:44:10.370]   src: the firefighting foam (/obj/effect/particle_effect/foam/firefighting)
+[2018-07-10 15:44:10.370]   src.loc: the reinforced floor (113,68,2) (/turf/open/floor/engine)
+[2018-07-10 15:44:10.370]   call stack:
+[2018-07-10 15:44:10.370] the firefighting foam (/obj/effect/particle_effect/foam/firefighting): process(2)
+[2018-07-10 15:44:10.370] Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[2018-07-10 15:44:10.370] Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[2018-07-10 15:44:10.370] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:44:10.370] Master (/datum/controller/master): Loop()
+[2018-07-10 15:44:10.370] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:44:10.370] 
+[2018-07-10 15:44:11.807] runtime error: cannot read from list
+[2018-07-10 15:44:11.807] proc name: process (/obj/effect/particle_effect/foam/firefighting/process)
+[2018-07-10 15:44:11.807]   source file: effects_foam.dm,43
+[2018-07-10 15:44:11.807]   usr: null
+[2018-07-10 15:44:11.807]   src: the firefighting foam (/obj/effect/particle_effect/foam/firefighting)
+[2018-07-10 15:44:11.807]   src.loc: the reinforced floor (113,68,2) (/turf/open/floor/engine)
+[2018-07-10 15:44:11.807]   call stack:
+[2018-07-10 15:44:11.807] the firefighting foam (/obj/effect/particle_effect/foam/firefighting): process(2)
+[2018-07-10 15:44:11.807] Fast Processing (/datum/controller/subsystem/processing/fastprocess): fire(0)
+[2018-07-10 15:44:11.807] Fast Processing (/datum/controller/subsystem/processing/fastprocess): ignite(0)
+[2018-07-10 15:44:11.807] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:44:11.807] Master (/datum/controller/master): Loop()
+[2018-07-10 15:44:11.807] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:44:11.807] 
+[2018-07-10 15:45:26.154] runtime error: Cannot read null.loc
+[2018-07-10 15:45:26.154] proc name: remove noz (/obj/item/watertank/proc/remove_noz)
+[2018-07-10 15:45:26.154]   source file: watertank.dm,65
+[2018-07-10 15:45:26.154]   usr: Wack Grandpap (/mob/living/carbon/human)
+[2018-07-10 15:45:26.155]   src: the backpack firefighter tank (/obj/item/watertank/atmos)
+[2018-07-10 15:45:26.155]   usr.loc: the reinforced floor (112,66,2) (/turf/open/floor/engine)
+[2018-07-10 15:45:26.155]   src.loc: Wack Grandpap (/mob/living/carbon/human)
+[2018-07-10 15:45:26.155]   call stack:
+[2018-07-10 15:45:26.155] the backpack firefighter tank (/obj/item/watertank/atmos): remove noz()
+[2018-07-10 15:45:26.155] the backpack firefighter tank (/obj/item/watertank/atmos): dropped(Wack Grandpap (/mob/living/carbon/human))
+[2018-07-10 15:45:26.155] the backpack firefighter tank (/obj/item/watertank/atmos): dropped(Wack Grandpap (/mob/living/carbon/human))
+[2018-07-10 15:45:26.155] Wack Grandpap (/mob/living/carbon/human): doUnEquip(the backpack firefighter tank (/obj/item/watertank/atmos), 1, null, 1, 1)
+[2018-07-10 15:45:26.155] Wack Grandpap (/mob/living/carbon/human): doUnEquip(the backpack firefighter tank (/obj/item/watertank/atmos), 1, null, 1, 1)
+[2018-07-10 15:45:26.155] Wack Grandpap (/mob/living/carbon/human): doUnEquip(the backpack firefighter tank (/obj/item/watertank/atmos), 1, null, 1, 1)
+[2018-07-10 15:45:26.155] Wack Grandpap (/mob/living/carbon/human): temporarilyRemoveItemFromInventory(the backpack firefighter tank (/obj/item/watertank/atmos), 1, 1)
+[2018-07-10 15:45:26.155] the backpack firefighter tank (/obj/item/watertank/atmos): Destroy(0)
+[2018-07-10 15:45:26.155] the backpack firefighter tank (/obj/item/watertank/atmos): Destroy(0)
+[2018-07-10 15:45:26.155] qdel(the backpack firefighter tank (/obj/item/watertank/atmos), 0)
+[2018-07-10 15:45:26.155] ...
+[2018-07-10 15:45:26.155] Wack Grandpap (/mob/living/carbon/human): Destroy(0)
+[2018-07-10 15:45:26.155] Wack Grandpap (/mob/living/carbon/human): Destroy(0)
+[2018-07-10 15:45:26.155] Wack Grandpap (/mob/living/carbon/human): Destroy(0)
+[2018-07-10 15:45:26.155] Wack Grandpap (/mob/living/carbon/human): Destroy(0)
+[2018-07-10 15:45:26.155] qdel(Wack Grandpap (/mob/living/carbon/human), 0)
+[2018-07-10 15:45:26.155] /datum/callback (/datum/callback): Invoke()
+[2018-07-10 15:45:26.155] /datum/callback (/datum/callback): InvokeAsync()
+[2018-07-10 15:45:26.155] Timer (/datum/controller/subsystem/timer): ignite(0)
+[2018-07-10 15:45:26.155] Master (/datum/controller/master): Loop()
+[2018-07-10 15:45:26.155] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:45:26.155] 
+[2018-07-10 15:45:26.599] runtime error: Cannot read null.dna
+[2018-07-10 15:45:26.599] proc name: remove (/datum/quirk/deviant_tastes/remove)
+[2018-07-10 15:45:26.599]   source file: neutral.dm,65
+[2018-07-10 15:45:26.599]   usr: null
+[2018-07-10 15:45:26.599]   src: Deviant Tastes (/datum/quirk/deviant_tastes)
+[2018-07-10 15:45:26.599]   call stack:
+[2018-07-10 15:45:26.599] Deviant Tastes (/datum/quirk/deviant_tastes): remove()
+[2018-07-10 15:45:26.599] Deviant Tastes (/datum/quirk/deviant_tastes): Destroy(0)
+[2018-07-10 15:45:26.599] qdel(Deviant Tastes (/datum/quirk/deviant_tastes), 0)
+[2018-07-10 15:45:26.599] Deviant Tastes (/datum/quirk/deviant_tastes): process(10)
+[2018-07-10 15:45:26.599] Quirks (/datum/controller/subsystem/processing/quirks): fire(0)
+[2018-07-10 15:45:26.599] Quirks (/datum/controller/subsystem/processing/quirks): ignite(0)
+[2018-07-10 15:45:26.599] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:45:26.599] Master (/datum/controller/master): Loop()
+[2018-07-10 15:45:26.599] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:45:26.599] 
+[2018-07-10 15:48:06.236] runtime error: Cannot execute null.return pressure().
+[2018-07-10 15:48:06.236] proc name: process atmos (/obj/machinery/atmospherics/components/binary/pump/process_atmos)
+[2018-07-10 15:48:06.236]   source file: pump.dm,76
+[2018-07-10 15:48:06.236]   usr: null
+[2018-07-10 15:48:06.236]   src: Mix Bypass (/obj/machinery/atmospherics/components/binary/pump)
+[2018-07-10 15:48:06.236]   src.loc: null
+[2018-07-10 15:48:06.236]   call stack:
+[2018-07-10 15:48:06.236] Mix Bypass (/obj/machinery/atmospherics/components/binary/pump): process atmos(0.5)
+[2018-07-10 15:48:06.236] Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[2018-07-10 15:48:06.236] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-07-10 15:48:06.236] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-07-10 15:48:06.236] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:48:06.236] Master (/datum/controller/master): Loop()
+[2018-07-10 15:48:06.236] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:48:06.236] 
+[2018-07-10 15:48:06.237] runtime error: Cannot execute null.react().
+[2018-07-10 15:48:06.237] proc name: process atmos (/obj/machinery/portable_atmospherics/process_atmos)
+[2018-07-10 15:48:06.237]   source file: portable_atmospherics.dm,38
+[2018-07-10 15:48:06.237]   usr: null
+[2018-07-10 15:48:06.237]   src: the canister (/obj/machinery/portable_atmospherics/canister)
+[2018-07-10 15:48:06.237]   src.loc: null
+[2018-07-10 15:48:06.237]   call stack:
+[2018-07-10 15:48:06.237] the canister (/obj/machinery/portable_atmospherics/canister): process atmos(0.5)
+[2018-07-10 15:48:06.237] the canister (/obj/machinery/portable_atmospherics/canister): process atmos(0.5)
+[2018-07-10 15:48:06.237] Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[2018-07-10 15:48:06.237] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-07-10 15:48:06.237] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-07-10 15:48:06.237] Master (/datum/controller/master): RunQueue()
+[2018-07-10 15:48:06.237] Master (/datum/controller/master): Loop()
+[2018-07-10 15:48:06.237] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-10 15:48:06.237] 
+[2018-07-10 15:48:06.237] runtime error: Cannot read null.airs
+[2018-07-10 15:48:06.237] proc name: process atmos (/obj/machinery/portable_atmospherics/canister/process_atmos)
+[2018-07-10 15:48:06.237]   source file: canister.dm,336
+[2018-07-10 15:48:06.237] 
+[2018-07-10 15:48:06.238] runtime error: Cannot execute null.total moles().
+[2018-07-10 15:48:06.238] proc name: process atmos (/obj/machinery/atmospherics/components/binary/pump/process_atmos)
+[2018-07-10 15:48:06.238]   source file: pump.dm,83
+[2018-07-10 15:48:06.238] 
+[2018-07-10 15:48:26.926] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-10 15:48:26.926] proc name: stack trace (/proc/stack_trace)
+[2018-07-10 15:48:26.926]   source file: unsorted.dm,1240
+[2018-07-10 15:48:26.926] 
+[2018-07-10 15:48:27.432] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-10 15:48:27.432] proc name: stack trace (/proc/stack_trace)
+[2018-07-10 15:48:27.432]   source file: unsorted.dm,1240
+[2018-07-10 15:48:27.432] 
+[2018-07-10 15:50:55.783] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-10 15:50:55.783] proc name: stack trace (/proc/stack_trace)
+[2018-07-10 15:50:55.783]   source file: unsorted.dm,1240
+[2018-07-10 15:50:55.783] 
+[2018-07-10 16:01:30.168] Saved 8 engraved messages on map Box Station
+[2018-07-10 16:03:05.536] Shutting down Persistence subsystem...
+[2018-07-10 16:03:05.536] Shutting down Pathfinder subsystem...
+[2018-07-10 16:03:05.536] Shutting down Squeak subsystem...
+[2018-07-10 16:03:05.537] Shutting down Shuttle subsystem...
+[2018-07-10 16:03:05.537] Shutting down Lighting subsystem...
+[2018-07-10 16:03:05.537] Shutting down XKeyScore subsystem...
+[2018-07-10 16:03:05.537] Shutting down Sticky Ban subsystem...
+[2018-07-10 16:03:05.537] Shutting down Overlay subsystem...
+[2018-07-10 16:03:05.574] Shutting down Icon Smoothing subsystem...
+[2018-07-10 16:03:05.574] Shutting down Assets subsystem...
+[2018-07-10 16:03:05.574] Shutting down Minimap subsystem...
+[2018-07-10 16:03:05.574] Shutting down Atmospherics subsystem...
+[2018-07-10 16:03:05.574] Shutting down Wet floors subsystem...
+[2018-07-10 16:03:05.574] Shutting down Weather subsystem...
+[2018-07-10 16:03:05.574] Shutting down Vote subsystem...
+[2018-07-10 16:03:05.574] Shutting down Traumas subsystem...
+[2018-07-10 16:03:05.574] Shutting down Title Screen subsystem...
+[2018-07-10 16:03:05.575] Shutting down Time Tracking subsystem...
+[2018-07-10 16:03:05.575] Shutting down Throwing subsystem...
+[2018-07-10 16:03:05.575] Shutting down tgui subsystem...
+[2018-07-10 16:03:05.575] Shutting down Sun subsystem...
+[2018-07-10 16:03:05.575] Shutting down Space Drift subsystem...
+[2018-07-10 16:03:05.575] Shutting down Religion subsystem...
+[2018-07-10 16:03:05.575] Shutting down Radio subsystem...
+[2018-07-10 16:03:05.575] Shutting down Radiation subsystem...
+[2018-07-10 16:03:05.575] Shutting down Projectiles subsystem...
+[2018-07-10 16:03:05.575] Shutting down Processing subsystem...
+[2018-07-10 16:03:05.575] Shutting down Ping subsystem...
+[2018-07-10 16:03:05.575] Shutting down Parallax subsystem...
+[2018-07-10 16:03:05.575] Shutting down pAI subsystem...
+[2018-07-10 16:03:05.575] Shutting down Orbits subsystem...
+[2018-07-10 16:03:05.576] Shutting down Objects subsystem...
+[2018-07-10 16:03:05.576] Shutting down NPC Pool subsystem...
+[2018-07-10 16:03:05.576] Shutting down Night Shift subsystem...
+[2018-07-10 16:03:05.576] Shutting down Mood subsystem...
+[2018-07-10 16:03:05.576] Shutting down Mobs subsystem...
+[2018-07-10 16:03:05.576] Shutting down Medals subsystem...
+[2018-07-10 16:03:05.576] Shutting down Idling NPC Pool subsystem...
+[2018-07-10 16:03:05.576] Shutting down Flightpack Movement subsystem...
+[2018-07-10 16:03:05.576] Shutting down Fire Burning subsystem...
+[2018-07-10 16:03:05.576] Shutting down Fields subsystem...
+[2018-07-10 16:03:05.576] Shutting down Fast Processing subsystem...
+[2018-07-10 16:03:05.576] Shutting down Disease subsystem...
+[2018-07-10 16:03:05.576] Shutting down Datum Component System subsystem...
+[2018-07-10 16:03:05.576] Shutting down Communications subsystem...
+[2018-07-10 16:03:05.576] Shutting down Augury subsystem...
+[2018-07-10 16:03:05.576] Shutting down Acid subsystem...
+[2018-07-10 16:03:05.576] Shutting down Timer subsystem...
+[2018-07-10 16:03:05.576] Shutting down Circuit subsystem...
+[2018-07-10 16:03:05.576] Shutting down Machines subsystem...
+[2018-07-10 16:03:05.576] Shutting down Language subsystem...
+[2018-07-10 16:03:05.576] Shutting down Atoms subsystem...
+[2018-07-10 16:03:05.578] Shutting down Networks subsystem...
+[2018-07-10 16:03:05.578] Shutting down Mapping subsystem...
+[2018-07-10 16:03:05.578] Shutting down Ticker subsystem...
+[2018-07-10 16:03:05.692] Shutting down Quirks subsystem...
+[2018-07-10 16:03:05.692] Shutting down Jobs subsystem...
+[2018-07-10 16:03:05.692] Shutting down Events subsystem...
+[2018-07-10 16:03:05.692] Shutting down Research subsystem...
+[2018-07-10 16:03:05.692] Shutting down Input subsystem...
+[2018-07-10 16:03:05.692] Shutting down Server Tasks subsystem...
+[2018-07-10 16:03:06.499] Shutting down Blackbox subsystem...
+[2018-07-10 16:03:06.572] Shutting down Database subsystem...
+[2018-07-10 16:03:06.607] Shutting down Garbage subsystem...
+[2018-07-10 16:03:06.694] Shutdown complete
+[2018-07-10 16:03:06.695] World rebooted at 16:03:06

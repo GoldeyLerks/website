@@ -1,0 +1,834 @@
+
+
+Starting up round ID 926. 08:50:06
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 5.6s!
+Loaded Lavaland in 5.8s!
+Loaded Reebe in 5.1s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 32.2 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[08:50:47]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[08:50:47]proc name: stack trace (/datum/proc/stack_trace)
+[08:50:47]  source file: unsorted.dm,1257
+[08:50:47]  usr: null
+[08:50:47]  src: Vacant Office APC (/obj/machinery/power/apc)
+[08:50:47]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[08:50:47]  call stack:
+[08:50:47]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[08:50:47]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[08:50:47]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[08:50:47]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[08:50:47]Atoms (/datum/controller/subsystem/atoms): Initialize(318407)
+[08:50:47]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 40.7 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 217 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 217 turf(s) (connected to 21233 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 14.8 seconds!
+Initialized Minimap subsystem within 0.3 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 6 seconds!
+Initialized Overlay subsystem within 14.4 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 12.9 seconds!
+Initialized Shuttle subsystem within 24 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 119 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 146.8 seconds!
+Game start took 2.4s
+runtime error: 
+[08:54:08]nothing to animate
+[08:54:08]proc name: shake camera (/proc/shake_camera)
+[08:54:08]  source file: mob_helpers.dm,270
+[08:54:08]  usr: (src)
+[08:54:08]  src: null
+[08:54:08]  call stack:
+[08:54:08]shake camera(Rachel Hardy (/mob/living/carbon/human), 0.75, 1)
+[08:54:08]Rachel Hardy (/mob/living/carbon/human): afterShuttleMove(space (17,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[08:54:08]Rachel Hardy (/mob/living/carbon/human): afterShuttleMove(space (17,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[08:54:08]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[08:54:08]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[08:54:08]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[08:54:08]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[08:54:08]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[08:54:08]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[08:54:08]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[09:22:29]addtimer called with a callback assigned to a qdeleted object
+[09:22:29]proc name: stack trace (/proc/stack_trace)
+[09:22:29]  source file: unsorted.dm,1254
+[09:22:29]  usr: (src)
+[09:22:29]  src: null
+[09:22:29]  call stack:
+[09:22:29]stack trace("addtimer called with a callbac...")
+[09:22:29]addtimer(/datum/callback (/datum/callback), 20, 0)
+[09:22:29]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[09:22:29]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[09:22:29]addtimer called with a callback assigned to a qdeleted object
+[09:22:29]proc name: stack trace (/proc/stack_trace)
+[09:22:29]  source file: unsorted.dm,1254
+[09:22:29]  usr: (src)
+[09:22:29]  src: null
+[09:22:29]  call stack:
+[09:22:29]stack trace("addtimer called with a callbac...")
+[09:22:29]addtimer(/datum/callback (/datum/callback), 20, 0)
+[09:22:29]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[09:22:29]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the Head of Personnel\'s Offic... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the floor (109,119,2) (/turf/open/floor/wood)
+[09:22:35]  call stack:
+[09:22:35]the Head of Personnel\'s Offic... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the Head of Personnel\'s Offic... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the floor (105,115,2) (/turf/open/floor/plasteel)
+[09:22:35]  call stack:
+[09:22:35]the Head of Personnel\'s Offic... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the Heads of Staff Meeting Roo... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the carpet (102,130,2) (/turf/open/floor/carpet)
+[09:22:35]  call stack:
+[09:22:35]the Heads of Staff Meeting Roo... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the Bridge vent pump #1 (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the floor (117,136,2) (/turf/open/floor/plasteel)
+[09:22:35]  call stack:
+[09:22:35]the Bridge vent pump #1 (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the carpet (123,131,2) (/turf/open/floor/carpet)
+[09:22:35]  call stack:
+[09:22:35]the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the AI Upload Chamber vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the floor (116,128,2) (/turf/open/floor/plasteel/dark)
+[09:22:35]  call stack:
+[09:22:35]the AI Upload Chamber vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the Gravity Generator Room ven... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the floor (115,123,2) (/turf/open/floor/plasteel/dark)
+[09:22:35]  call stack:
+[09:22:35]the Gravity Generator Room ven... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the carpet (122,122,2) (/turf/open/floor/carpet)
+[09:22:35]  call stack:
+[09:22:35]the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the floor (118,121,2) (/turf/open/floor/plasteel)
+[09:22:35]  call stack:
+[09:22:35]the Captain\'s Office vent pum... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the Gravity Generator Room ven... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the floor (114,118,2) (/turf/open/floor/plasteel)
+[09:22:35]  call stack:
+[09:22:35]the Gravity Generator Room ven... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the Gravity Generator Room ven... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the floor (114,116,2) (/turf/open/floor/plasteel)
+[09:22:35]  call stack:
+[09:22:35]the Gravity Generator Room ven... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the Teleporter Room vent pump ... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the floor (125,118,2) (/turf/open/floor/plasteel)
+[09:22:35]  call stack:
+[09:22:35]the Teleporter Room vent pump ... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the Central Primary Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the floor (111,111,2) (/turf/open/floor/plasteel)
+[09:22:35]  call stack:
+[09:22:35]the Central Primary Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+[09:22:35]  usr: null
+[09:22:35]  src: the Aft Primary Hallway vent p... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[09:22:35]  src.loc: the floor (114,103,2) (/turf/open/floor/plasteel)
+[09:22:35]  call stack:
+[09:22:35]the Aft Primary Hallway vent p... (/obj/machinery/atmospherics/components/unary/vent_pump/on): nullifyPipenet(/datum/pipeline (/datum/pipeline))
+[09:22:35]/datum/pipeline (/datum/pipeline): Destroy(0)
+[09:22:35]qdel(/datum/pipeline (/datum/pipeline), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): destroy network()
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): disconnect(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden))
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): nullifyNode(1)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): Destroy(0)
+[09:22:35]qdel(the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden), 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): deconstruct(0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): obj destruction("bomb")
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): take damage(226, "brute", "bomb", 0, null, 0)
+[09:22:35]the scrubbers pipe (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): contents explosion(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]the plating (105,160,2) (/turf/open/floor/plating): ex act(2, null)
+[09:22:35]/datum/explosion (/datum/explosion): New(the plating (116,174,2) (/turf/open/floor/plating), 0, 256, 512, 0, 1, 1, 0, 1, 0)
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:35]list index out of bounds
+[09:22:35]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[09:22:35]  source file: components_base.dm,75
+runtime error: 
+[09:22:36]Cannot execute null.CanPass().
+runtime error: 
+[09:22:45]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:22:56]Component is missing a pipenet! Rebuilding...
+Saved 119 engraved messages on map Box Station
+runtime error: 
+[09:23:04]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:04]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:04]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:11]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:13]Cannot read null.species
+runtime error: 
+[09:23:15]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[09:23:21]Cannot read null.air
+runtime error: 
+[09:23:21]Cannot read null.air
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:21]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[09:23:30]Cannot read null.air
+runtime error: 
+[09:23:30]Cannot read null.air
+runtime error: 
+[09:23:41]Cannot execute null.CanPass().
+runtime error: 
+[09:23:41]Cannot execute null.CanPass().
+runtime error: 
+[09:23:47]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[09:23:47]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[09:23:47]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[09:23:47]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[09:23:48]addtimer called with a callback assigned to a qdeleted object
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 09:24:36

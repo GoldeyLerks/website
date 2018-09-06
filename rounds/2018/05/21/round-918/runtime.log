@@ -1,0 +1,279 @@
+
+
+Starting up round ID 918. 09:20:37
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 5.4s!
+Loaded Lavaland in 5.9s!
+Loaded Reebe in 5.8s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 33.7 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[09:21:19]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[09:21:19]proc name: stack trace (/datum/proc/stack_trace)
+[09:21:19]  source file: unsorted.dm,1257
+[09:21:19]  usr: null
+[09:21:19]  src: Vacant Office APC (/obj/machinery/power/apc)
+[09:21:19]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[09:21:19]  call stack:
+[09:21:19]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[09:21:19]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[09:21:19]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[09:21:19]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[09:21:19]Atoms (/datum/controller/subsystem/atoms): Initialize(336725)
+[09:21:19]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 46.8 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.4 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 27 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 27 turf(s) (connected to 20037 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 15.7 seconds!
+Initialized Minimap subsystem within 0.4 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 7.1 seconds!
+Initialized Overlay subsystem within 31.7 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 16.2 seconds!
+Initialized Shuttle subsystem within 25.4 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 119 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 178.5 seconds!
+Game start took 4.3s
+runtime error: 
+[09:25:13]Cannot execute null.start().
+[09:25:13]proc name: take damage (/obj/machinery/porta_turret/take_damage)
+[09:25:13]  source file: portable_turret.dm,326
+[09:25:13]  usr: 0
+[09:25:13]  src: the turret (/obj/machinery/porta_turret)
+[09:25:13]  src.loc: null
+[09:25:13]  call stack:
+[09:25:13]the turret (/obj/machinery/porta_turret): take damage(13, "fire", "laser", 0, 8, 0)
+[09:25:13]the turret (/obj/machinery/porta_turret): bullet act(the accelerator laser (/obj/item/projectile/beam/laser/accelerator), "chest")
+[09:25:13]the accelerator laser (/obj/item/projectile/beam/laser/accelerator): Collide(the turret (/obj/machinery/porta_turret))
+[09:25:13]the vacuum floor (163,119,14) (/turf/open/floor/engine/vacuum): Enter(the accelerator laser (/obj/item/projectile/beam/laser/accelerator), the vacuum floor (162,119,14) (/turf/open/floor/engine/vacuum))
+[09:25:13]the accelerator laser (/obj/item/projectile/beam/laser/accelerator): Move(the vacuum floor (163,119,14) (/turf/open/floor/engine/vacuum), 4)
+[09:25:13]the accelerator laser (/obj/item/projectile/beam/laser/accelerator): pixel move(1, 1, 0)
+[09:25:13]the accelerator laser (/obj/item/projectile/beam/laser/accelerator): process(1)
+[09:25:13]Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[09:25:13]Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[09:25:13]Master (/datum/controller/master): RunQueue()
+[09:25:13]Master (/datum/controller/master): Loop()
+[09:25:13]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:35:38]nothing to animate
+[09:35:38]proc name: shake camera (/proc/shake_camera)
+[09:35:38]  source file: mob_helpers.dm,270
+[09:35:38]  usr: (src)
+[09:35:38]  src: null
+[09:35:38]  call stack:
+[09:35:38]shake camera(Anjelica Begum (/mob/living/carbon/human), 0.75, 1)
+[09:35:38]Anjelica Begum (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[09:35:38]Anjelica Begum (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[09:35:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[09:35:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[09:35:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[09:35:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[09:35:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[09:35:38]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[09:35:38]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[09:36:08]nothing to animate
+[09:36:08]proc name: shake camera (/proc/shake_camera)
+[09:36:08]  source file: mob_helpers.dm,270
+[09:36:08]  usr: (src)
+[09:36:08]  src: null
+[09:36:08]  call stack:
+[09:36:08]shake camera(Izabella Costello (/mob/living/carbon/human), 0.75, 1)
+[09:36:08]Izabella Costello (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[09:36:08]Izabella Costello (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[09:36:08]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[09:36:08]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[09:36:08]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[09:36:08]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[09:36:08]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[09:36:08]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[09:36:08]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[09:39:09]list index out of bounds
+[09:39:09]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[09:39:09]  source file: aurora_caelus.dm,39
+[09:39:09]  usr: null
+[09:39:09]  src: /datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus)
+[09:39:09]  call stack:
+[09:39:09]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): tick()
+[09:39:09]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): process()
+[09:39:09]Events (/datum/controller/subsystem/events): fire(0)
+[09:39:09]Events (/datum/controller/subsystem/events): ignite(0)
+[09:39:09]Master (/datum/controller/master): RunQueue()
+[09:39:09]Master (/datum/controller/master): Loop()
+[09:39:09]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:40:13]list index out of bounds
+[09:40:13]proc name: fire (/datum/controller/subsystem/lighting/fire)
+[09:40:13]  source file: lighting.dm,36
+[09:40:13]  usr: null
+[09:40:13]  src: Lighting (/datum/controller/subsystem/lighting)
+[09:40:13]  call stack:
+[09:40:13]Lighting (/datum/controller/subsystem/lighting): fire(0, null)
+[09:40:13]Lighting (/datum/controller/subsystem/lighting): ignite(0)
+[09:40:13]Master (/datum/controller/master): RunQueue()
+[09:40:13]Master (/datum/controller/master): Loop()
+[09:40:13]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:43:39]Cannot read null.client
+[09:43:39]proc name: open (/datum/tgui/proc/open)
+[09:43:39]  source file: tgui.dm,87
+[09:43:39]  usr: null
+[09:43:39]  src: /datum/tgui (/datum/tgui)
+[09:43:39]  call stack:
+[09:43:39]/datum/tgui (/datum/tgui): open()
+[09:43:39]the sleeper (/obj/machinery/sleeper): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/notcontained_s... (/datum/ui_state/notcontained_state))
+[09:43:39]the sleeper (/obj/machinery/sleeper): updateUsrDialog()
+[09:43:39]the sleeper (/obj/machinery/sleeper): open machine(1)
+[09:43:39]the sleeper (/obj/machinery/sleeper): open machine()
+[09:43:39]the sleeper (/obj/machinery/sleeper): container resist(Black Dynamite (/mob/living/carbon/human))
+[09:43:39]the sleeper (/obj/machinery/sleeper): relaymove(Black Dynamite (/mob/living/carbon/human), 8)
+[09:43:39]Pudgems (/client): Move(the floor (145,150,2) (/turf/open/floor/holofloor), 8)
+[09:43:39]Black Dynamite (/mob/living/carbon/human): keyLoop(Pudgems (/client))
+[09:43:39]Pudgems (/client): keyLoop()
+[09:43:39]Input (/datum/controller/subsystem/input): fire(0)
+[09:43:39]Input (/datum/controller/subsystem/input): ignite(0)
+[09:43:39]Master (/datum/controller/master): RunQueue()
+[09:43:39]Master (/datum/controller/master): Loop()
+[09:43:39]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:46:53]list index out of bounds
+[09:46:53]proc name: fire (/datum/controller/subsystem/lighting/fire)
+[09:46:53]  source file: lighting.dm,36
+[09:46:53]  usr: null
+[09:46:53]  src: Lighting (/datum/controller/subsystem/lighting)
+[09:46:53]  call stack:
+[09:46:53]Lighting (/datum/controller/subsystem/lighting): fire(0, null)
+[09:46:53]Lighting (/datum/controller/subsystem/lighting): ignite(0)
+[09:46:53]Master (/datum/controller/master): RunQueue()
+[09:46:53]Master (/datum/controller/master): Loop()
+[09:46:53]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:52:50]addtimer called with a callback assigned to a qdeleted object
+[09:52:50]proc name: stack trace (/proc/stack_trace)
+[09:52:50]  source file: unsorted.dm,1254
+[09:52:50]  usr: (src)
+[09:52:50]  src: null
+[09:52:50]  call stack:
+[09:52:50]stack trace("addtimer called with a callbac...")
+[09:52:50]addtimer(/datum/callback (/datum/callback), 20, 0)
+[09:52:50]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[09:52:50]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[09:52:55]A ref was requested of an object with DF_USE_TAG set but no tag: Izabella Costello
+[09:52:55]proc name: stack trace (/proc/stack_trace)
+[09:52:55]  source file: unsorted.dm,1254
+[09:52:55]  usr: The Ass Blaster (/mob/living/simple_animal/shade)
+[09:52:55]  src: null
+[09:52:55]  usr.loc: The Ass Blaster (/obj/item/nullrod/scythe/talking/chainsword)
+[09:52:55]  call stack:
+[09:52:55]stack trace("A ref was requested of an obje...")
+[09:52:55]REF(Izabella Costello (/mob/living/carbon/human))
+[09:52:55]Traitor (/datum/antagonist/traitor/human): antag listing name()
+[09:52:55]Traitor (/datum/antagonist/traitor/human): antag listing entry()
+[09:52:55]kag3rou\'s admin datum (Modera... (/datum/admins): build antag listing()
+[09:52:55]kag3rou\'s admin datum (Modera... (/datum/admins): check antagonists()
+[09:52:55]Kag3rou (/client): Check Antagonists()
+Saved 119 engraved messages on map Box Station
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 09:55:34

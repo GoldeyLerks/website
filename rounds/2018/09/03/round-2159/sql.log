@@ -1,0 +1,479 @@
+[2018-09-03 16:32:01.383] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'bigpenorboi'  OR ip = INET_ATON('91.125.4.217')   OR computerid = '3790176664' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:32:35.900] SQL: MySQL server has gone away | Query used: SELECT job, minutes FROM SS13_role_time WHERE ckey = 'bigpenorboi'
+[2018-09-03 16:32:35.901] SQL: MySQL server has gone away | Query used: SELECT flags FROM SS13_player WHERE ckey='bigpenorboi'
+[2018-09-03 16:32:35.910] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE  Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "bigpenorboi") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "bigpenorboi")
+[2018-09-03 16:32:35.914] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'memo' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL)
+[2018-09-03 16:32:35.916] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE ip = INET_ATON('91.125.4.217') AND ckey != 'bigpenorboi'
+[2018-09-03 16:32:35.916] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE computerid = '3790176664' AND ckey != 'bigpenorboi'
+[2018-09-03 16:32:35.917] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'watchlist entry' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'bigpenorboi'
+[2018-09-03 16:32:35.918] SQL: MySQL server has gone away | Query used: 
+[2018-09-03 16:32:35.918] 				SELECT date, intel, TIMESTAMPDIFF(MINUTE,date,NOW())
+[2018-09-03 16:32:35.918] 				FROM SS13_ipintel
+[2018-09-03 16:32:35.918] 				WHERE
+[2018-09-03 16:32:35.918] 					ip = INET_ATON('91.125.4.217')
+[2018-09-03 16:32:35.918] 					AND ((
+[2018-09-03 16:32:35.918] 							intel < 0.9
+[2018-09-03 16:32:35.918] 							AND
+[2018-09-03 16:32:35.918] 							date + INTERVAL 12 HOUR > NOW()
+[2018-09-03 16:32:35.918] 						) OR (
+[2018-09-03 16:32:35.918] 							intel >= 0.9
+[2018-09-03 16:32:35.918] 							AND
+[2018-09-03 16:32:35.918] 							date + INTERVAL 3 HOUR > NOW()
+[2018-09-03 16:32:35.918] 					))
+[2018-09-03 16:32:35.918] 				
+[2018-09-03 16:32:35.920] SQL: MySQL server has gone away | Query used: SELECT byond_key FROM SS13_player WHERE ckey = 'bigpenorboi'
+[2018-09-03 16:32:35.928] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'message' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'bigpenorboi'
+[2018-09-03 16:33:21.164] SQL: MySQL server has gone away | Query used: SELECT job, reason FROM SS13_ban WHERE ckey = 'bigpenorboi' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:33:34.218] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE  Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "bigpenorboi") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "bigpenorboi")
+[2018-09-03 16:34:48.481] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'bobcat49'  OR ip = INET_ATON('73.210.12.99')   OR computerid = '1126331985' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:35:21.763] SQL: MySQL server has gone away | Query used: UPDATE SS13_round SET start_datetime = Now() WHERE id = 2159
+[2018-09-03 16:35:21.764] SQL: MySQL server has gone away | Query used: UPDATE SS13_round SET game_mode = 'traitor' WHERE id = 2159
+[2018-09-03 16:35:22.517] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_legacy_population (playercount, admincount, time, server_ip, server_port, round_id) VALUES (1, 1, '2018-09-03 16:35:22', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', '2159')
+[2018-09-03 16:35:25.469] SQL: MySQL server has gone away | Query used: SELECT job, minutes FROM SS13_role_time WHERE ckey = 'bobcat49'
+[2018-09-03 16:35:25.469] SQL: MySQL server has gone away | Query used: SELECT flags FROM SS13_player WHERE ckey='bobcat49'
+[2018-09-03 16:35:25.474] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE adminonly = false AND Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "bobcat49") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "bobcat49")
+[2018-09-03 16:35:25.474] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE ip = INET_ATON('73.210.12.99') AND ckey != 'bobcat49'
+[2018-09-03 16:35:25.475] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE computerid = '1126331985' AND ckey != 'bobcat49'
+[2018-09-03 16:35:25.475] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'watchlist entry' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'bobcat49'
+[2018-09-03 16:35:25.476] SQL: MySQL server has gone away | Query used: 
+[2018-09-03 16:35:25.476] 				SELECT date, intel, TIMESTAMPDIFF(MINUTE,date,NOW())
+[2018-09-03 16:35:25.476] 				FROM SS13_ipintel
+[2018-09-03 16:35:25.476] 				WHERE
+[2018-09-03 16:35:25.476] 					ip = INET_ATON('73.210.12.99')
+[2018-09-03 16:35:25.476] 					AND ((
+[2018-09-03 16:35:25.476] 							intel < 0.9
+[2018-09-03 16:35:25.476] 							AND
+[2018-09-03 16:35:25.476] 							date + INTERVAL 12 HOUR > NOW()
+[2018-09-03 16:35:25.476] 						) OR (
+[2018-09-03 16:35:25.476] 							intel >= 0.9
+[2018-09-03 16:35:25.476] 							AND
+[2018-09-03 16:35:25.476] 							date + INTERVAL 3 HOUR > NOW()
+[2018-09-03 16:35:25.476] 					))
+[2018-09-03 16:35:25.476] 				
+[2018-09-03 16:35:25.476] SQL: MySQL server has gone away | Query used: SELECT byond_key FROM SS13_player WHERE ckey = 'bobcat49'
+[2018-09-03 16:35:25.477] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'message' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'bobcat49'
+[2018-09-03 16:35:25.563] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_role_time
+[2018-09-03 16:35:25.563] (job, ckey, minutes)
+[2018-09-03 16:35:25.563] VALUES
+[2018-09-03 16:35:25.563] 	('Living', 'bigpenorboi', 10),
+[2018-09-03 16:35:25.563] 	('Station Engineer', 'bigpenorboi', 10),
+[2018-09-03 16:35:25.563] 	('traitor', 'bigpenorboi', 10)
+[2018-09-03 16:35:25.563] ON DUPLICATE KEY UPDATE minutes = minutes + VALUES(minutes)
+[2018-09-03 16:35:30.304] SQL: MySQL server has gone away | Query used: SELECT job, reason FROM SS13_ban WHERE ckey = 'bobcat49' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:35:42.994] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE adminonly = false AND Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "bobcat49") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "bobcat49")
+[2018-09-03 16:44:02.761] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'zeop'  OR ip = INET_ATON('87.94.230.149')   OR computerid = '964140640' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:45:29.417] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_legacy_population (playercount, admincount, time, server_ip, server_port, round_id) VALUES (2, 1, '2018-09-03 16:45:29', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', '2159')
+[2018-09-03 16:45:31.415] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_role_time
+[2018-09-03 16:45:31.415] (job, ckey, minutes)
+[2018-09-03 16:45:31.415] VALUES
+[2018-09-03 16:45:31.415] 	('Living', 'bigpenorboi', 10),
+[2018-09-03 16:45:31.415] 	('Station Engineer', 'bigpenorboi', 10),
+[2018-09-03 16:45:31.415] 	('Living', 'bobcat49', 10),
+[2018-09-03 16:45:31.415] 	('Roboticist', 'bobcat49', 10)
+[2018-09-03 16:45:31.415] ON DUPLICATE KEY UPDATE minutes = minutes + VALUES(minutes)
+[2018-09-03 16:45:48.483] SQL: MySQL server has gone away | Query used: SELECT job, minutes FROM SS13_role_time WHERE ckey = 'zeop'
+[2018-09-03 16:45:48.485] SQL: MySQL server has gone away | Query used: SELECT flags FROM SS13_player WHERE ckey='zeop'
+[2018-09-03 16:45:48.490] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE adminonly = false AND Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "zeop") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "zeop")
+[2018-09-03 16:45:48.520] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE ip = INET_ATON('87.94.230.149') AND ckey != 'zeop'
+[2018-09-03 16:45:48.520] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE computerid = '964140640' AND ckey != 'zeop'
+[2018-09-03 16:45:48.521] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'watchlist entry' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'zeop'
+[2018-09-03 16:45:48.521] SQL: MySQL server has gone away | Query used: 
+[2018-09-03 16:45:48.521] 				SELECT date, intel, TIMESTAMPDIFF(MINUTE,date,NOW())
+[2018-09-03 16:45:48.521] 				FROM SS13_ipintel
+[2018-09-03 16:45:48.521] 				WHERE
+[2018-09-03 16:45:48.521] 					ip = INET_ATON('87.94.230.149')
+[2018-09-03 16:45:48.521] 					AND ((
+[2018-09-03 16:45:48.521] 							intel < 0.9
+[2018-09-03 16:45:48.521] 							AND
+[2018-09-03 16:45:48.521] 							date + INTERVAL 12 HOUR > NOW()
+[2018-09-03 16:45:48.521] 						) OR (
+[2018-09-03 16:45:48.521] 							intel >= 0.9
+[2018-09-03 16:45:48.521] 							AND
+[2018-09-03 16:45:48.521] 							date + INTERVAL 3 HOUR > NOW()
+[2018-09-03 16:45:48.521] 					))
+[2018-09-03 16:45:48.521] 				
+[2018-09-03 16:45:48.523] SQL: MySQL server has gone away | Query used: SELECT byond_key FROM SS13_player WHERE ckey = 'zeop'
+[2018-09-03 16:45:48.527] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'message' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'zeop'
+[2018-09-03 16:46:15.479] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'zeop'  OR ip = INET_ATON('964140640')   OR computerid = '85.76.73.44' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:46:15.479] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'zeop'  OR ip = INET_ATON('3938626557')   OR computerid = '85.76.73.249' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:46:15.480] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'zeop'  OR ip = INET_ATON('964140640')   OR computerid = '87.94.230.149' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:46:15.480] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'drakesealis'  OR ip = INET_ATON('964140640')   OR computerid = '87.94.230.149' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:46:15.481] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'drakesealis'  OR ip = INET_ATON('3938626557')   OR computerid = '87.94.230.149' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:46:23.251] SQL: MySQL server has gone away | Query used: SELECT job, reason FROM SS13_ban WHERE ckey = 'zeop' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:52:28.969] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'chippedice'  OR ip = INET_ATON('174.219.1.178')   OR computerid = '1547336146' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:53:01.026] SQL: MySQL server has gone away | Query used: SELECT job, minutes FROM SS13_role_time WHERE ckey = 'chippedice'
+[2018-09-03 16:53:01.026] SQL: MySQL server has gone away | Query used: SELECT flags FROM SS13_player WHERE ckey='chippedice'
+[2018-09-03 16:53:01.031] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE adminonly = false AND Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "chippedice") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "chippedice")
+[2018-09-03 16:53:01.031] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE ip = INET_ATON('174.219.1.178') AND ckey != 'chippedice'
+[2018-09-03 16:53:01.032] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE computerid = '1547336146' AND ckey != 'chippedice'
+[2018-09-03 16:53:01.032] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'watchlist entry' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'chippedice'
+[2018-09-03 16:53:01.032] SQL: MySQL server has gone away | Query used: 
+[2018-09-03 16:53:01.032] 				SELECT date, intel, TIMESTAMPDIFF(MINUTE,date,NOW())
+[2018-09-03 16:53:01.032] 				FROM SS13_ipintel
+[2018-09-03 16:53:01.032] 				WHERE
+[2018-09-03 16:53:01.032] 					ip = INET_ATON('174.219.1.178')
+[2018-09-03 16:53:01.032] 					AND ((
+[2018-09-03 16:53:01.032] 							intel < 0.9
+[2018-09-03 16:53:01.032] 							AND
+[2018-09-03 16:53:01.032] 							date + INTERVAL 12 HOUR > NOW()
+[2018-09-03 16:53:01.032] 						) OR (
+[2018-09-03 16:53:01.032] 							intel >= 0.9
+[2018-09-03 16:53:01.032] 							AND
+[2018-09-03 16:53:01.032] 							date + INTERVAL 3 HOUR > NOW()
+[2018-09-03 16:53:01.032] 					))
+[2018-09-03 16:53:01.032] 				
+[2018-09-03 16:53:01.033] SQL: MySQL server has gone away | Query used: SELECT byond_key FROM SS13_player WHERE ckey = 'chippedice'
+[2018-09-03 16:53:01.034] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'message' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'chippedice'
+[2018-09-03 16:53:10.774] SQL: MySQL server has gone away | Query used: SELECT job, reason FROM SS13_ban WHERE ckey = 'chippedice' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:55:06.212] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'jaedo'  OR ip = INET_ATON('186.182.178.92')   OR computerid = '14506217' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 16:55:32.138] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_legacy_population (playercount, admincount, time, server_ip, server_port, round_id) VALUES (4, 1, '2018-09-03 16:55:32', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', '2159')
+[2018-09-03 16:55:33.836] SQL: MySQL server has gone away | Query used: SELECT job, minutes FROM SS13_role_time WHERE ckey = 'jaedo'
+[2018-09-03 16:55:33.837] SQL: MySQL server has gone away | Query used: SELECT flags FROM SS13_player WHERE ckey='jaedo'
+[2018-09-03 16:55:33.841] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE adminonly = false AND Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "jaedo") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "jaedo")
+[2018-09-03 16:55:33.856] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE ip = INET_ATON('186.182.178.92') AND ckey != 'jaedo'
+[2018-09-03 16:55:33.857] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE computerid = '14506217' AND ckey != 'jaedo'
+[2018-09-03 16:55:33.857] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'watchlist entry' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'jaedo'
+[2018-09-03 16:55:33.858] SQL: MySQL server has gone away | Query used: 
+[2018-09-03 16:55:33.858] 				SELECT date, intel, TIMESTAMPDIFF(MINUTE,date,NOW())
+[2018-09-03 16:55:33.858] 				FROM SS13_ipintel
+[2018-09-03 16:55:33.858] 				WHERE
+[2018-09-03 16:55:33.858] 					ip = INET_ATON('186.182.178.92')
+[2018-09-03 16:55:33.858] 					AND ((
+[2018-09-03 16:55:33.858] 							intel < 0.9
+[2018-09-03 16:55:33.858] 							AND
+[2018-09-03 16:55:33.858] 							date + INTERVAL 12 HOUR > NOW()
+[2018-09-03 16:55:33.858] 						) OR (
+[2018-09-03 16:55:33.858] 							intel >= 0.9
+[2018-09-03 16:55:33.858] 							AND
+[2018-09-03 16:55:33.858] 							date + INTERVAL 3 HOUR > NOW()
+[2018-09-03 16:55:33.858] 					))
+[2018-09-03 16:55:33.858] 				
+[2018-09-03 16:55:33.858] SQL: MySQL server has gone away | Query used: SELECT byond_key FROM SS13_player WHERE ckey = 'jaedo'
+[2018-09-03 16:55:33.860] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'message' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'jaedo'
+[2018-09-03 16:55:34.139] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_role_time
+[2018-09-03 16:55:34.139] (job, ckey, minutes)
+[2018-09-03 16:55:34.139] VALUES
+[2018-09-03 16:55:34.139] 	('Living', 'bigpenorboi', 10),
+[2018-09-03 16:55:34.139] 	('Station Engineer', 'bigpenorboi', 10),
+[2018-09-03 16:55:34.139] 	('Living', 'bobcat49', 10),
+[2018-09-03 16:55:34.139] 	('Roboticist', 'bobcat49', 10),
+[2018-09-03 16:55:34.139] 	('Living', 'zeop', 10),
+[2018-09-03 16:55:34.139] 	('Assistant', 'zeop', 10),
+[2018-09-03 16:55:34.139] 	('Living', 'chippedice', 10),
+[2018-09-03 16:55:34.139] 	('Shaft Miner', 'chippedice', 10)
+[2018-09-03 16:55:34.139] ON DUPLICATE KEY UPDATE minutes = minutes + VALUES(minutes)
+[2018-09-03 16:55:45.185] SQL: MySQL server has gone away | Query used: SELECT job, reason FROM SS13_ban WHERE ckey = 'jaedo' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 17:05:37.672] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_legacy_population (playercount, admincount, time, server_ip, server_port, round_id) VALUES (5, 1, '2018-09-03 17:05:37', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', '2159')
+[2018-09-03 17:05:39.668] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_role_time
+[2018-09-03 17:05:39.668] (job, ckey, minutes)
+[2018-09-03 17:05:39.669] VALUES
+[2018-09-03 17:05:39.669] 	('Living', 'bigpenorboi', 10),
+[2018-09-03 17:05:39.669] 	('Station Engineer', 'bigpenorboi', 10),
+[2018-09-03 17:05:39.669] 	('Living', 'bobcat49', 10),
+[2018-09-03 17:05:39.669] 	('Roboticist', 'bobcat49', 10),
+[2018-09-03 17:05:39.669] 	('Living', 'zeop', 10),
+[2018-09-03 17:05:39.669] 	('Assistant', 'zeop', 10),
+[2018-09-03 17:05:39.669] 	('Living', 'chippedice', 10),
+[2018-09-03 17:05:39.669] 	('Shaft Miner', 'chippedice', 10),
+[2018-09-03 17:05:39.669] 	('Living', 'jaedo', 10),
+[2018-09-03 17:05:39.669] 	('Cook', 'jaedo', 10)
+[2018-09-03 17:05:39.669] ON DUPLICATE KEY UPDATE minutes = minutes + VALUES(minutes)
+[2018-09-03 17:05:47.756] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'pandolphina'  OR ip = INET_ATON('90.127.113.93')   OR computerid = '5878244' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 17:06:19.263] SQL: MySQL server has gone away | Query used: SELECT job, minutes FROM SS13_role_time WHERE ckey = 'pandolphina'
+[2018-09-03 17:06:19.263] SQL: MySQL server has gone away | Query used: SELECT flags FROM SS13_player WHERE ckey='pandolphina'
+[2018-09-03 17:06:19.269] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE  Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "pandolphina") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "pandolphina")
+[2018-09-03 17:06:19.285] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'memo' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL)
+[2018-09-03 17:06:19.286] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE ip = INET_ATON('90.127.113.93') AND ckey != 'pandolphina'
+[2018-09-03 17:06:19.287] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE computerid = '5878244' AND ckey != 'pandolphina'
+[2018-09-03 17:06:19.287] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'watchlist entry' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'pandolphina'
+[2018-09-03 17:06:19.288] SQL: MySQL server has gone away | Query used: 
+[2018-09-03 17:06:19.288] 				SELECT date, intel, TIMESTAMPDIFF(MINUTE,date,NOW())
+[2018-09-03 17:06:19.288] 				FROM SS13_ipintel
+[2018-09-03 17:06:19.288] 				WHERE
+[2018-09-03 17:06:19.288] 					ip = INET_ATON('90.127.113.93')
+[2018-09-03 17:06:19.288] 					AND ((
+[2018-09-03 17:06:19.288] 							intel < 0.9
+[2018-09-03 17:06:19.288] 							AND
+[2018-09-03 17:06:19.288] 							date + INTERVAL 12 HOUR > NOW()
+[2018-09-03 17:06:19.288] 						) OR (
+[2018-09-03 17:06:19.288] 							intel >= 0.9
+[2018-09-03 17:06:19.288] 							AND
+[2018-09-03 17:06:19.288] 							date + INTERVAL 3 HOUR > NOW()
+[2018-09-03 17:06:19.288] 					))
+[2018-09-03 17:06:19.288] 				
+[2018-09-03 17:06:19.288] SQL: MySQL server has gone away | Query used: SELECT byond_key FROM SS13_player WHERE ckey = 'pandolphina'
+[2018-09-03 17:06:19.289] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'message' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'pandolphina'
+[2018-09-03 17:06:32.967] SQL: MySQL server has gone away | Query used: SELECT job, reason FROM SS13_ban WHERE ckey = 'pandolphina' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 17:06:36.473] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE  Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "pandolphina") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "pandolphina")
+[2018-09-03 17:12:17.598] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_death (pod, x_coord, y_coord, z_coord, mapname, server_ip, server_port, round_id, tod, job, special, name, byondkey, laname, lakey, bruteloss, fireloss, brainloss, oxyloss, toxloss, cloneloss, staminaloss, last_words, suicide) VALUES ('Robotics Lab', '174', '121', '2', 'Box Station', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', 2159, '2018-09-03 17:12:17', 'Cyborg', '', 'G.U.A.R.D.I.A.N.', 'pandolphina', '', '', 0, 75, 0, 0, 0, 0, 0, '', 0)
+[2018-09-03 17:12:40.981] SQL: MySQL server has gone away | Query used: SELECT job, minutes FROM SS13_role_time WHERE ckey = 'pandolphina'
+[2018-09-03 17:12:40.982] SQL: MySQL server has gone away | Query used: SELECT flags FROM SS13_player WHERE ckey='pandolphina'
+[2018-09-03 17:12:40.986] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE  Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "pandolphina") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "pandolphina")
+[2018-09-03 17:14:58.139] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_death (pod, x_coord, y_coord, z_coord, mapname, server_ip, server_port, round_id, tod, job, special, name, byondkey, laname, lakey, bruteloss, fireloss, brainloss, oxyloss, toxloss, cloneloss, staminaloss, last_words, suicide) VALUES ('Central Primary Hallway', '103', '140', '2', 'Box Station', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', 2159, '2018-09-03 17:14:58', 'Assistant', '', 'Gordon Jenkins', 'zeop', '', '', 0, 0, 0, 200, 0, 0, 0.1, '', 1)
+[2018-09-03 17:15:39.735] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_legacy_population (playercount, admincount, time, server_ip, server_port, round_id) VALUES (6, 2, '2018-09-03 17:15:39', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', '2159')
+[2018-09-03 17:15:41.737] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_role_time
+[2018-09-03 17:15:41.737] (job, ckey, minutes)
+[2018-09-03 17:15:41.737] VALUES
+[2018-09-03 17:15:41.737] 	('Living', 'bigpenorboi', 10),
+[2018-09-03 17:15:41.737] 	('Station Engineer', 'bigpenorboi', 10),
+[2018-09-03 17:15:41.737] 	('Living', 'bobcat49', 10),
+[2018-09-03 17:15:41.737] 	('Roboticist', 'bobcat49', 10),
+[2018-09-03 17:15:41.737] 	('Ghost', 'zeop', 10),
+[2018-09-03 17:15:41.737] 	('Living', 'chippedice', 10),
+[2018-09-03 17:15:41.737] 	('Shaft Miner', 'chippedice', 10),
+[2018-09-03 17:15:41.737] 	('Living', 'jaedo', 10),
+[2018-09-03 17:15:41.737] 	('Cook', 'jaedo', 10),
+[2018-09-03 17:15:41.737] 	('Living', 'pandolphina', 10),
+[2018-09-03 17:15:41.737] 	('Atmospheric Technician', 'pandolphina', 10)
+[2018-09-03 17:15:41.737] ON DUPLICATE KEY UPDATE minutes = minutes + VALUES(minutes)
+[2018-09-03 17:25:40.223] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_legacy_population (playercount, admincount, time, server_ip, server_port, round_id) VALUES (5, 2, '2018-09-03 17:25:40', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', '2159')
+[2018-09-03 17:25:42.222] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_role_time
+[2018-09-03 17:25:42.222] (job, ckey, minutes)
+[2018-09-03 17:25:42.222] VALUES
+[2018-09-03 17:25:42.222] 	('Living', 'bigpenorboi', 10),
+[2018-09-03 17:25:42.222] 	('Station Engineer', 'bigpenorboi', 10),
+[2018-09-03 17:25:42.222] 	('Living', 'bobcat49', 10),
+[2018-09-03 17:25:42.222] 	('Roboticist', 'bobcat49', 10),
+[2018-09-03 17:25:42.222] 	('Living', 'chippedice', 10),
+[2018-09-03 17:25:42.222] 	('Shaft Miner', 'chippedice', 10),
+[2018-09-03 17:25:42.222] 	('Living', 'jaedo', 10),
+[2018-09-03 17:25:42.222] 	('Cook', 'jaedo', 10),
+[2018-09-03 17:25:42.222] 	('Living', 'pandolphina', 10),
+[2018-09-03 17:25:42.222] 	('Atmospheric Technician', 'pandolphina', 10)
+[2018-09-03 17:25:42.222] ON DUPLICATE KEY UPDATE minutes = minutes + VALUES(minutes)
+[2018-09-03 17:34:23.709] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'davidththird'  OR ip = INET_ATON('70.65.121.138')   OR computerid = '415805091' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 17:34:55.562] SQL: MySQL server has gone away | Query used: SELECT job, minutes FROM SS13_role_time WHERE ckey = 'davidththird'
+[2018-09-03 17:34:55.564] SQL: MySQL server has gone away | Query used: SELECT flags FROM SS13_player WHERE ckey='davidththird'
+[2018-09-03 17:34:55.569] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE adminonly = false AND Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "davidththird") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "davidththird")
+[2018-09-03 17:34:55.583] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE ip = INET_ATON('70.65.121.138') AND ckey != 'davidththird'
+[2018-09-03 17:34:55.583] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE computerid = '415805091' AND ckey != 'davidththird'
+[2018-09-03 17:34:55.584] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'watchlist entry' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'davidththird'
+[2018-09-03 17:34:55.584] SQL: MySQL server has gone away | Query used: 
+[2018-09-03 17:34:55.584] 				SELECT date, intel, TIMESTAMPDIFF(MINUTE,date,NOW())
+[2018-09-03 17:34:55.584] 				FROM SS13_ipintel
+[2018-09-03 17:34:55.584] 				WHERE
+[2018-09-03 17:34:55.584] 					ip = INET_ATON('70.65.121.138')
+[2018-09-03 17:34:55.585] 					AND ((
+[2018-09-03 17:34:55.585] 							intel < 0.9
+[2018-09-03 17:34:55.585] 							AND
+[2018-09-03 17:34:55.585] 							date + INTERVAL 12 HOUR > NOW()
+[2018-09-03 17:34:55.585] 						) OR (
+[2018-09-03 17:34:55.585] 							intel >= 0.9
+[2018-09-03 17:34:55.585] 							AND
+[2018-09-03 17:34:55.585] 							date + INTERVAL 3 HOUR > NOW()
+[2018-09-03 17:34:55.585] 					))
+[2018-09-03 17:34:55.585] 				
+[2018-09-03 17:34:55.585] SQL: MySQL server has gone away | Query used: SELECT byond_key FROM SS13_player WHERE ckey = 'davidththird'
+[2018-09-03 17:34:55.588] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'message' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'davidththird'
+[2018-09-03 17:35:01.551] SQL: MySQL server has gone away | Query used: SELECT job, reason FROM SS13_ban WHERE ckey = 'davidththird' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 17:35:41.416] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_legacy_population (playercount, admincount, time, server_ip, server_port, round_id) VALUES (5, 0, '2018-09-03 17:35:41', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', '2159')
+[2018-09-03 17:35:43.414] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_role_time
+[2018-09-03 17:35:43.414] (job, ckey, minutes)
+[2018-09-03 17:35:43.414] VALUES
+[2018-09-03 17:35:43.414] 	('Living', 'bigpenorboi', 10),
+[2018-09-03 17:35:43.414] 	('Station Engineer', 'bigpenorboi', 10),
+[2018-09-03 17:35:43.414] 	('Living', 'bobcat49', 10),
+[2018-09-03 17:35:43.414] 	('Roboticist', 'bobcat49', 10),
+[2018-09-03 17:35:43.414] 	('Living', 'chippedice', 10),
+[2018-09-03 17:35:43.414] 	('Shaft Miner', 'chippedice', 10),
+[2018-09-03 17:35:43.414] 	('Living', 'jaedo', 10),
+[2018-09-03 17:35:43.414] 	('Cook', 'jaedo', 10),
+[2018-09-03 17:35:43.414] 	('Living', 'davidththird', 10),
+[2018-09-03 17:35:43.414] 	('Assistant', 'davidththird', 10)
+[2018-09-03 17:35:43.414] ON DUPLICATE KEY UPDATE minutes = minutes + VALUES(minutes)
+[2018-09-03 17:39:00.482] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'jaedo'  OR ip = INET_ATON('186.182.178.92')   OR computerid = '14506217' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 17:39:28.060] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE ip = INET_ATON('186.182.178.92') AND ckey != 'jaedo'
+[2018-09-03 17:39:28.060] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE computerid = '14506217' AND ckey != 'jaedo'
+[2018-09-03 17:39:28.061] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'watchlist entry' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'jaedo'
+[2018-09-03 17:39:28.061] SQL: MySQL server has gone away | Query used: 
+[2018-09-03 17:39:28.061] 				SELECT date, intel, TIMESTAMPDIFF(MINUTE,date,NOW())
+[2018-09-03 17:39:28.061] 				FROM SS13_ipintel
+[2018-09-03 17:39:28.061] 				WHERE
+[2018-09-03 17:39:28.061] 					ip = INET_ATON('186.182.178.92')
+[2018-09-03 17:39:28.061] 					AND ((
+[2018-09-03 17:39:28.061] 							intel < 0.9
+[2018-09-03 17:39:28.061] 							AND
+[2018-09-03 17:39:28.061] 							date + INTERVAL 12 HOUR > NOW()
+[2018-09-03 17:39:28.061] 						) OR (
+[2018-09-03 17:39:28.061] 							intel >= 0.9
+[2018-09-03 17:39:28.061] 							AND
+[2018-09-03 17:39:28.061] 							date + INTERVAL 3 HOUR > NOW()
+[2018-09-03 17:39:28.061] 					))
+[2018-09-03 17:39:28.061] 				
+[2018-09-03 17:39:28.062] SQL: MySQL server has gone away | Query used: SELECT byond_key FROM SS13_player WHERE ckey = 'jaedo'
+[2018-09-03 17:39:28.063] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'message' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'jaedo'
+[2018-09-03 17:41:43.219] SQL: MySQL server has gone away | Query used: SELECT job, reason FROM SS13_ban WHERE ckey = 'jaedo' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 17:45:44.866] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_legacy_population (playercount, admincount, time, server_ip, server_port, round_id) VALUES (5, 0, '2018-09-03 17:45:44', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', '2159')
+[2018-09-03 17:45:46.866] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_role_time
+[2018-09-03 17:45:46.866] (job, ckey, minutes)
+[2018-09-03 17:45:46.866] VALUES
+[2018-09-03 17:45:46.866] 	('Living', 'bobcat49', 10),
+[2018-09-03 17:45:46.866] 	('Roboticist', 'bobcat49', 10),
+[2018-09-03 17:45:46.866] 	('Ghost', 'chippedice', 10),
+[2018-09-03 17:45:46.866] 	('Living', 'davidththird', 10),
+[2018-09-03 17:45:46.866] 	('Assistant', 'davidththird', 10),
+[2018-09-03 17:45:46.866] 	('Living', 'jaedo', 10),
+[2018-09-03 17:45:46.866] 	('Cook', 'jaedo', 10)
+[2018-09-03 17:45:46.866] ON DUPLICATE KEY UPDATE minutes = minutes + VALUES(minutes)
+[2018-09-03 17:46:11.911] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'kyutness'  OR ip = INET_ATON('104.0.154.34')   OR computerid = '1890588738' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 17:46:26.570] SQL: MySQL server has gone away | Query used: SELECT job, minutes FROM SS13_role_time WHERE ckey = 'kyutness'
+[2018-09-03 17:46:26.570] SQL: MySQL server has gone away | Query used: SELECT flags FROM SS13_player WHERE ckey='kyutness'
+[2018-09-03 17:46:26.574] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE  Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "kyutness") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "kyutness")
+[2018-09-03 17:46:26.588] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'memo' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL)
+[2018-09-03 17:46:26.589] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE ip = INET_ATON('104.0.154.34') AND ckey != 'kyutness'
+[2018-09-03 17:46:26.589] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE computerid = '1890588738' AND ckey != 'kyutness'
+[2018-09-03 17:46:26.589] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'watchlist entry' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'kyutness'
+[2018-09-03 17:46:26.590] SQL: MySQL server has gone away | Query used: 
+[2018-09-03 17:46:26.590] 				SELECT date, intel, TIMESTAMPDIFF(MINUTE,date,NOW())
+[2018-09-03 17:46:26.590] 				FROM SS13_ipintel
+[2018-09-03 17:46:26.590] 				WHERE
+[2018-09-03 17:46:26.590] 					ip = INET_ATON('104.0.154.34')
+[2018-09-03 17:46:26.590] 					AND ((
+[2018-09-03 17:46:26.590] 							intel < 0.9
+[2018-09-03 17:46:26.590] 							AND
+[2018-09-03 17:46:26.590] 							date + INTERVAL 12 HOUR > NOW()
+[2018-09-03 17:46:26.590] 						) OR (
+[2018-09-03 17:46:26.590] 							intel >= 0.9
+[2018-09-03 17:46:26.590] 							AND
+[2018-09-03 17:46:26.590] 							date + INTERVAL 3 HOUR > NOW()
+[2018-09-03 17:46:26.590] 					))
+[2018-09-03 17:46:26.590] 				
+[2018-09-03 17:46:26.591] SQL: MySQL server has gone away | Query used: SELECT byond_key FROM SS13_player WHERE ckey = 'kyutness'
+[2018-09-03 17:46:26.596] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'message' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'kyutness'
+[2018-09-03 17:46:45.352] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'kyutness'  OR ip = INET_ATON('952120221')   OR computerid = '104.0.154.34' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 17:46:45.352] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'kyutness'  OR ip = INET_ATON('1890588738')   OR computerid = '104.0.154.34' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 17:47:24.547] SQL: MySQL server has gone away | Query used: SELECT job, reason FROM SS13_ban WHERE ckey = 'kyutness' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 17:55:47.407] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_legacy_population (playercount, admincount, time, server_ip, server_port, round_id) VALUES (6, 1, '2018-09-03 17:55:47', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', '2159')
+[2018-09-03 17:55:49.402] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_role_time
+[2018-09-03 17:55:49.403] (job, ckey, minutes)
+[2018-09-03 17:55:49.403] VALUES
+[2018-09-03 17:55:49.403] 	('Living', 'bigpenorboi', 10),
+[2018-09-03 17:55:49.403] 	('Station Engineer', 'bigpenorboi', 10),
+[2018-09-03 17:55:49.403] 	('Living', 'bobcat49', 10),
+[2018-09-03 17:55:49.403] 	('Roboticist', 'bobcat49', 10),
+[2018-09-03 17:55:49.403] 	('Living', 'chippedice', 10),
+[2018-09-03 17:55:49.403] 	('Unknown', 'chippedice', 10),
+[2018-09-03 17:55:49.403] 	('Living', 'davidththird', 10),
+[2018-09-03 17:55:49.403] 	('Assistant', 'davidththird', 10),
+[2018-09-03 17:55:49.403] 	('Living', 'jaedo', 10),
+[2018-09-03 17:55:49.403] 	('Cook', 'jaedo', 10),
+[2018-09-03 17:55:49.403] 	('Living', 'kyutness', 10),
+[2018-09-03 17:55:49.403] 	('Botanist', 'kyutness', 10)
+[2018-09-03 17:55:49.403] ON DUPLICATE KEY UPDATE minutes = minutes + VALUES(minutes)
+[2018-09-03 17:57:26.677] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = '1234brendan'  OR ip = INET_ATON('216.164.224.212')   OR computerid = '1418128881' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 17:59:08.355] SQL: MySQL server has gone away | Query used: SELECT job, minutes FROM SS13_role_time WHERE ckey = '1234brendan'
+[2018-09-03 17:59:08.356] SQL: MySQL server has gone away | Query used: SELECT flags FROM SS13_player WHERE ckey='1234brendan'
+[2018-09-03 17:59:08.361] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE adminonly = false AND Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "1234brendan") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "1234brendan")
+[2018-09-03 17:59:08.375] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE ip = INET_ATON('216.164.224.212') AND ckey != '1234brendan'
+[2018-09-03 17:59:08.375] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE computerid = '1418128881' AND ckey != '1234brendan'
+[2018-09-03 17:59:08.375] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'watchlist entry' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = '1234brendan'
+[2018-09-03 17:59:08.377] SQL: MySQL server has gone away | Query used: 
+[2018-09-03 17:59:08.377] 				SELECT date, intel, TIMESTAMPDIFF(MINUTE,date,NOW())
+[2018-09-03 17:59:08.377] 				FROM SS13_ipintel
+[2018-09-03 17:59:08.377] 				WHERE
+[2018-09-03 17:59:08.377] 					ip = INET_ATON('216.164.224.212')
+[2018-09-03 17:59:08.377] 					AND ((
+[2018-09-03 17:59:08.377] 							intel < 0.9
+[2018-09-03 17:59:08.377] 							AND
+[2018-09-03 17:59:08.377] 							date + INTERVAL 12 HOUR > NOW()
+[2018-09-03 17:59:08.377] 						) OR (
+[2018-09-03 17:59:08.377] 							intel >= 0.9
+[2018-09-03 17:59:08.377] 							AND
+[2018-09-03 17:59:08.377] 							date + INTERVAL 3 HOUR > NOW()
+[2018-09-03 17:59:08.378] 					))
+[2018-09-03 17:59:08.378] 				
+[2018-09-03 17:59:08.378] SQL: MySQL server has gone away | Query used: SELECT byond_key FROM SS13_player WHERE ckey = '1234brendan'
+[2018-09-03 17:59:08.383] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'message' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = '1234brendan'
+[2018-09-03 18:00:07.973] SQL: MySQL server has gone away | Query used: SELECT job, reason FROM SS13_ban WHERE ckey = '1234brendan' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 18:05:54.565] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_legacy_population (playercount, admincount, time, server_ip, server_port, round_id) VALUES (7, 1, '2018-09-03 18:05:54', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', '2159')
+[2018-09-03 18:05:56.613] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_role_time
+[2018-09-03 18:05:56.613] (job, ckey, minutes)
+[2018-09-03 18:05:56.613] VALUES
+[2018-09-03 18:05:56.613] 	('Living', 'bigpenorboi', 10),
+[2018-09-03 18:05:56.613] 	('Station Engineer', 'bigpenorboi', 10),
+[2018-09-03 18:05:56.613] 	('Living', 'bobcat49', 10),
+[2018-09-03 18:05:56.613] 	('Roboticist', 'bobcat49', 10),
+[2018-09-03 18:05:56.613] 	('Living', 'chippedice', 10),
+[2018-09-03 18:05:56.613] 	('Unknown', 'chippedice', 10),
+[2018-09-03 18:05:56.613] 	('Living', 'davidththird', 10),
+[2018-09-03 18:05:56.613] 	('Assistant', 'davidththird', 10),
+[2018-09-03 18:05:56.613] 	('Living', 'jaedo', 10),
+[2018-09-03 18:05:56.613] 	('Cook', 'jaedo', 10),
+[2018-09-03 18:05:56.613] 	('Living', 'kyutness', 10),
+[2018-09-03 18:05:56.613] 	('Botanist', 'kyutness', 10),
+[2018-09-03 18:05:56.613] 	('Living', '1234brendan', 10),
+[2018-09-03 18:05:56.613] 	('Captain', '1234brendan', 10)
+[2018-09-03 18:05:56.613] ON DUPLICATE KEY UPDATE minutes = minutes + VALUES(minutes)
+[2018-09-03 18:15:55.183] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_legacy_population (playercount, admincount, time, server_ip, server_port, round_id) VALUES (7, 1, '2018-09-03 18:15:55', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', '2159')
+[2018-09-03 18:15:57.313] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_role_time
+[2018-09-03 18:15:57.313] (job, ckey, minutes)
+[2018-09-03 18:15:57.313] VALUES
+[2018-09-03 18:15:57.313] 	('Living', 'bigpenorboi', 10),
+[2018-09-03 18:15:57.313] 	('Station Engineer', 'bigpenorboi', 10),
+[2018-09-03 18:15:57.313] 	('Living', 'bobcat49', 10),
+[2018-09-03 18:15:57.313] 	('Roboticist', 'bobcat49', 10),
+[2018-09-03 18:15:57.313] 	('Living', 'chippedice', 10),
+[2018-09-03 18:15:57.313] 	('Unknown', 'chippedice', 10),
+[2018-09-03 18:15:57.313] 	('Living', 'davidththird', 10),
+[2018-09-03 18:15:57.313] 	('Assistant', 'davidththird', 10),
+[2018-09-03 18:15:57.313] 	('Living', 'jaedo', 10),
+[2018-09-03 18:15:57.313] 	('Cook', 'jaedo', 10),
+[2018-09-03 18:15:57.313] 	('Living', 'kyutness', 10),
+[2018-09-03 18:15:57.313] 	('Botanist', 'kyutness', 10),
+[2018-09-03 18:15:57.313] 	('Living', '1234brendan', 10),
+[2018-09-03 18:15:57.313] 	('Captain', '1234brendan', 10)
+[2018-09-03 18:15:57.313] ON DUPLICATE KEY UPDATE minutes = minutes + VALUES(minutes)
+[2018-09-03 18:16:32.061] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_death (pod, x_coord, y_coord, z_coord, mapname, server_ip, server_port, round_id, tod, job, special, name, byondkey, laname, lakey, bruteloss, fireloss, brainloss, oxyloss, toxloss, cloneloss, staminaloss, last_words, suicide) VALUES ('Engineering', '109', '69', '2', 'Box Station', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', 2159, '2018-09-03 18:16:32', 'Station Engineer', '', 'Casimir Cressman', 'bigpenorboi', '', '', 0, 137.6, 0, 5.33333, 27.2734, 43, 0, '', 0)
+[2018-09-03 18:19:27.622] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'davidblanc'  OR ip = INET_ATON('188.2.166.107')   OR computerid = '75031469' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 18:20:04.821] SQL: MySQL server has gone away | Query used: SELECT job, minutes FROM SS13_role_time WHERE ckey = 'davidblanc'
+[2018-09-03 18:20:04.822] SQL: MySQL server has gone away | Query used: SELECT flags FROM SS13_player WHERE ckey='davidblanc'
+[2018-09-03 18:20:04.827] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE adminonly = false AND Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "davidblanc") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "davidblanc")
+[2018-09-03 18:20:04.843] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE ip = INET_ATON('188.2.166.107') AND ckey != 'davidblanc'
+[2018-09-03 18:20:04.844] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE computerid = '75031469' AND ckey != 'davidblanc'
+[2018-09-03 18:20:04.845] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'watchlist entry' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'davidblanc'
+[2018-09-03 18:20:04.846] SQL: MySQL server has gone away | Query used: 
+[2018-09-03 18:20:04.846] 				SELECT date, intel, TIMESTAMPDIFF(MINUTE,date,NOW())
+[2018-09-03 18:20:04.846] 				FROM SS13_ipintel
+[2018-09-03 18:20:04.846] 				WHERE
+[2018-09-03 18:20:04.846] 					ip = INET_ATON('188.2.166.107')
+[2018-09-03 18:20:04.846] 					AND ((
+[2018-09-03 18:20:04.846] 							intel < 0.9
+[2018-09-03 18:20:04.846] 							AND
+[2018-09-03 18:20:04.846] 							date + INTERVAL 12 HOUR > NOW()
+[2018-09-03 18:20:04.846] 						) OR (
+[2018-09-03 18:20:04.846] 							intel >= 0.9
+[2018-09-03 18:20:04.846] 							AND
+[2018-09-03 18:20:04.846] 							date + INTERVAL 3 HOUR > NOW()
+[2018-09-03 18:20:04.846] 					))
+[2018-09-03 18:20:04.846] 				
+[2018-09-03 18:20:04.847] SQL: MySQL server has gone away | Query used: SELECT byond_key FROM SS13_player WHERE ckey = 'davidblanc'
+[2018-09-03 18:20:04.851] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'message' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'davidblanc'
+[2018-09-03 18:23:22.721] SQL: MySQL server has gone away | Query used: SELECT IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.ckey), ckey), IFNULL((SELECT byond_key FROM SS13_player WHERE SS13_player.ckey = SS13_ban.a_ckey), a_ckey), reason, expiration_time, duration, bantime, bantype, id, round_id FROM SS13_ban WHERE (ckey = 'x1pr0'  OR ip = INET_ATON('68.194.125.36')   OR computerid = '1651793063' ) AND (bantype = 'PERMABAN' OR bantype = 'ADMIN_PERMABAN' OR ((bantype = 'TEMPBAN' OR bantype = 'ADMIN_TEMPBAN') AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 18:23:35.736] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_death (pod, x_coord, y_coord, z_coord, mapname, server_ip, server_port, round_id, tod, job, special, name, byondkey, laname, lakey, bruteloss, fireloss, brainloss, oxyloss, toxloss, cloneloss, staminaloss, last_words, suicide) VALUES ('Medbay Central', '139', '120', '2', 'Box Station', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', 2159, '2018-09-03 18:23:35', 'Botanist', '', 'Catocala', 'kyutness', '', '', 0, 302.4, 0, 0, 0, 0, 0, '', 0)
+[2018-09-03 18:23:35.751] SQL: MySQL server has gone away | Query used: INSERT INTO SS13_death (pod, x_coord, y_coord, z_coord, mapname, server_ip, server_port, round_id, tod, job, special, name, byondkey, laname, lakey, bruteloss, fireloss, brainloss, oxyloss, toxloss, cloneloss, staminaloss, last_words, suicide) VALUES ('Medbay Central', '140', '121', '2', 'Box Station', INET_ATON(IF('198.58.107.171' LIKE '', '0', '198.58.107.171')), '3333', 2159, '2018-09-03 18:23:35', 'Captain', '', 'Gerardo Paulson', '1234brendan', '', '', 4, 256.5, 0, 0, 0, 0, 0, '', 0)
+[2018-09-03 18:23:54.264] SQL: MySQL server has gone away | Query used: UPDATE SS13_round SET end_datetime = Now(), game_mode_result = 'undefined', station_name = 'Space Station 13' WHERE id = 2159
+[2018-09-03 18:23:55.825] SQL: MySQL server has gone away | Query used: SELECT job, minutes FROM SS13_role_time WHERE ckey = 'x1pr0'
+[2018-09-03 18:23:55.826] SQL: MySQL server has gone away | Query used: SELECT flags FROM SS13_player WHERE ckey='x1pr0'
+[2018-09-03 18:23:55.830] SQL: MySQL server has gone away | Query used: SELECT id FROM SS13_poll_question WHERE adminonly = false AND Now() BETWEEN starttime AND endtime AND id NOT IN (SELECT pollid FROM SS13_poll_vote WHERE ckey = "x1pr0") AND id NOT IN (SELECT pollid FROM SS13_poll_textreply WHERE ckey = "x1pr0")
+[2018-09-03 18:23:55.845] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE ip = INET_ATON('68.194.125.36') AND ckey != 'x1pr0'
+[2018-09-03 18:23:55.845] SQL: MySQL server has gone away | Query used: SELECT ckey FROM SS13_player WHERE computerid = '1651793063' AND ckey != 'x1pr0'
+[2018-09-03 18:23:55.846] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'watchlist entry' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'x1pr0'
+[2018-09-03 18:23:55.846] SQL: MySQL server has gone away | Query used: 
+[2018-09-03 18:23:55.846] 				SELECT date, intel, TIMESTAMPDIFF(MINUTE,date,NOW())
+[2018-09-03 18:23:55.846] 				FROM SS13_ipintel
+[2018-09-03 18:23:55.846] 				WHERE
+[2018-09-03 18:23:55.846] 					ip = INET_ATON('68.194.125.36')
+[2018-09-03 18:23:55.846] 					AND ((
+[2018-09-03 18:23:55.846] 							intel < 0.9
+[2018-09-03 18:23:55.846] 							AND
+[2018-09-03 18:23:55.846] 							date + INTERVAL 12 HOUR > NOW()
+[2018-09-03 18:23:55.846] 						) OR (
+[2018-09-03 18:23:55.846] 							intel >= 0.9
+[2018-09-03 18:23:55.846] 							AND
+[2018-09-03 18:23:55.846] 							date + INTERVAL 3 HOUR > NOW()
+[2018-09-03 18:23:55.846] 					))
+[2018-09-03 18:23:55.846] 				
+[2018-09-03 18:23:55.847] SQL: MySQL server has gone away | Query used: SELECT byond_key FROM SS13_player WHERE ckey = 'x1pr0'
+[2018-09-03 18:23:55.851] SQL: MySQL server has gone away | Query used: SELECT id, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = adminckey), adminckey), text, timestamp, IFNULL((SELECT byond_key FROM SS13_player WHERE ckey = lasteditor), lasteditor) FROM SS13_messages WHERE type = 'message' AND deleted = 0 AND (expire_timestamp > NOW() OR expire_timestamp IS NULL) AND targetckey = 'x1pr0'
+[2018-09-03 18:24:46.271] SQL: MySQL server has gone away | Query used: SELECT job, reason FROM SS13_ban WHERE ckey = 'davidblanc' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned)
+[2018-09-03 18:24:54.217] SQL: MySQL server has gone away | Query used: SELECT job, reason FROM SS13_ban WHERE ckey = 'x1pr0' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned)

@@ -1,0 +1,496 @@
+
+
+Starting up round ID 409. 03:12:46
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 6s!
+Loaded Lavaland in 5.5s!
+runtime error: 
+[03:13:11]Cannot read null.melee
+[03:13:11]proc name: attachArmor (/datum/armor/proc/attachArmor)
+[03:13:11]  source file: armor.dm,59
+[03:13:11]  usr: Schwert140703 (/mob/dead/new_player)
+[03:13:11]  src: /datum/armor (/datum/armor)
+[03:13:11]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[03:13:11]  call stack:
+[03:13:11]/datum/armor (/datum/armor): attachArmor(null)
+[03:13:11]the medal of captaincy (/obj/item/clothing/accessory/medal/gold/captain): attach(the captain\'s jumpsuit (/obj/item/clothing/under/rank/captain), null)
+[03:13:11]the captain\'s jumpsuit (/obj/item/clothing/under/rank/captain): attach accessory(the medal of captaincy (/obj/item/clothing/accessory/medal/gold/captain), null, 1)
+[03:13:11]Captain (/datum/outfit/job/captain): equip(Jane Baker (/mob/living/carbon/human/dummy), 1)
+[03:13:11]Jane Baker (/mob/living/carbon/human/dummy): equipOutfit(/datum/outfit/job/captain (/datum/outfit/job/captain), 1)
+[03:13:11]/datum/job/captain (/datum/job/captain): equip(Jane Baker (/mob/living/carbon/human/dummy), 1, 1)
+[03:13:11]/datum/preferences (/datum/preferences): update preview icon()
+[03:13:11]/datum/preferences (/datum/preferences): ShowChoices(Schwert140703 (/mob/dead/new_player))
+[03:13:11]/datum/preferences (/datum/preferences): process link(Schwert140703 (/mob/dead/new_player), /list (/list))
+[03:13:11]Schwert140703 (/client): Topic("_src_=prefs;preference=job;tas...", /list (/list), null)
+[03:13:11]Schwert140703 (/client): Topic("_src_=prefs;preference=job;tas...", /list (/list))
+Loaded Reebe in 4.8s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 24.3 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 40.8 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.2 seconds!
+Initialized Weather subsystem within 0 seconds!
+Initialized Atmospherics subsystem within 11.8 seconds!
+Initialized Minimap subsystem within 0.1 seconds!
+Initialized Assets subsystem within 1 second!
+Initialized Icon Smoothing subsystem within 5.1 seconds!
+Initialized Overlay subsystem within 21.5 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 11.5 seconds!
+Initialized Shuttle subsystem within 20.9 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 5 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 137.6 seconds!
+Game start took 12.7s
+runtime error: 
+[03:17:12]nothing to animate
+[03:17:12]proc name: shake camera (/proc/shake_camera)
+[03:17:12]  source file: mob_helpers.dm,270
+[03:17:12]  usr: (src)
+[03:17:12]  src: null
+[03:17:12]  call stack:
+[03:17:12]shake camera(Jonathon Whirlow (/mob/living/carbon/human), 0.75, 1)
+[03:17:12]Jonathon Whirlow (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[03:17:12]Jonathon Whirlow (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[03:17:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[03:17:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[03:17:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[03:17:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[03:17:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[03:17:12]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[03:17:12]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[03:21:18]addtimer called with a callback assigned to a qdeleted object
+[03:21:18]proc name: stack trace (/proc/stack_trace)
+[03:21:18]  source file: unsorted.dm,1254
+[03:21:18]  usr: Jonathon Whirlow (/mob/living/carbon/human)
+[03:21:18]  src: null
+[03:21:18]  usr.loc: the floor (135,120,2) (/turf/open/floor/plasteel/white)
+[03:21:18]  call stack:
+[03:21:18]stack trace("addtimer called with a callbac...")
+[03:21:18]addtimer(/datum/callback (/datum/callback), 20, 0)
+[03:21:18]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[03:21:18]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[03:21:18]addtimer called with a callback assigned to a qdeleted object
+[03:21:18]proc name: stack trace (/proc/stack_trace)
+[03:21:18]  source file: unsorted.dm,1254
+[03:21:18]  usr: Jonathon Whirlow (/mob/living/carbon/human)
+[03:21:18]  src: null
+[03:21:18]  usr.loc: the floor (135,120,2) (/turf/open/floor/plasteel/white)
+[03:21:18]  call stack:
+[03:21:18]stack trace("addtimer called with a callbac...")
+[03:21:18]addtimer(/datum/callback (/datum/callback), 20, 0)
+[03:21:18]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[03:21:18]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[03:23:53]No valid destination passed into forceMove
+[03:23:53]proc name: forceMove (/atom/movable/proc/forceMove)
+[03:23:53]  source file: atoms_movable.dm,314
+[03:23:53]  usr: Joseph Seed (/mob/living/carbon/human)
+[03:23:53]  src: the identification card (/obj/item/card/id)
+[03:23:53]  usr.loc: the floor (56,94,1) (/turf/open/floor/plasteel/dark)
+[03:23:53]  src.loc: Jonathon Whirlow (/mob/living/carbon/human/dummy)
+[03:23:53]  call stack:
+[03:23:53]the identification card (/obj/item/card/id): forceMove(null)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): doUnEquip(the identification card (/obj/item/card/id), 0, null, 0, 1)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): doUnEquip(the identification card (/obj/item/card/id), 0, null, 0, 1)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): doUnEquip(the identification card (/obj/item/card/id), 0, null, 0, 1)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): dropItemToGround(the identification card (/obj/item/card/id), 0)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): doUnEquip(the chaplain\'s jumpsuit (/obj/item/clothing/under/rank/chaplain), 1, null, 1, 1)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): temporarilyRemoveItemFromInventory(the chaplain\'s jumpsuit (/obj/item/clothing/under/rank/chaplain), 1, 1)
+[03:23:53]the chaplain\'s jumpsuit (/obj/item/clothing/under/rank/chaplain): Destroy(0)
+[03:23:53]the chaplain\'s jumpsuit (/obj/item/clothing/under/rank/chaplain): Destroy(0)
+[03:23:53]qdel(the chaplain\'s jumpsuit (/obj/item/clothing/under/rank/chaplain), 0)
+[03:23:53]...
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): Destroy(0)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): Destroy(0)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): Destroy(0)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): Destroy(0)
+[03:23:53]qdel(Jonathon Whirlow (/mob/living/carbon/human/dummy), 0)
+[03:23:53]Cult (/datum/team/cult): setup objectives()
+[03:23:53]Joseph Seed (/datum/mind): add antag datum(Cultist (/datum/antagonist/cult), null)
+[03:23:53]Joseph Seed (/datum/mind): add antag wrapper(/datum/antagonist/cult (/datum/antagonist/cult), Joseph Seed (/mob/living/carbon/human))
+[03:23:53]GimmesumsuccPls (/client): Topic("src=\[0x21001ffa];add_antag=/d...", /list (/list), Joseph Seed (/datum/mind))
+[03:23:53]GimmesumsuccPls (/client): Topic("src=\[0x21001ffa];add_antag=/d...", /list (/list), Joseph Seed (/datum/mind))
+runtime error: 
+[03:23:53]No valid destination passed into forceMove
+[03:23:53]proc name: forceMove (/atom/movable/proc/forceMove)
+[03:23:53]  source file: atoms_movable.dm,314
+[03:23:53]  usr: Joseph Seed (/mob/living/carbon/human)
+[03:23:53]  src: the chaplain PDA (/obj/item/device/pda/chaplain)
+[03:23:53]  usr.loc: the floor (56,94,1) (/turf/open/floor/plasteel/dark)
+[03:23:53]  src.loc: Jonathon Whirlow (/mob/living/carbon/human/dummy)
+[03:23:53]  call stack:
+[03:23:53]the chaplain PDA (/obj/item/device/pda/chaplain): forceMove(null)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): doUnEquip(the chaplain PDA (/obj/item/device/pda/chaplain), 0, null, 0, 1)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): doUnEquip(the chaplain PDA (/obj/item/device/pda/chaplain), 0, null, 0, 1)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): doUnEquip(the chaplain PDA (/obj/item/device/pda/chaplain), 0, null, 0, 1)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): dropItemToGround(the chaplain PDA (/obj/item/device/pda/chaplain), 0)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): doUnEquip(the chaplain\'s jumpsuit (/obj/item/clothing/under/rank/chaplain), 1, null, 1, 1)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): temporarilyRemoveItemFromInventory(the chaplain\'s jumpsuit (/obj/item/clothing/under/rank/chaplain), 1, 1)
+[03:23:53]the chaplain\'s jumpsuit (/obj/item/clothing/under/rank/chaplain): Destroy(0)
+[03:23:53]the chaplain\'s jumpsuit (/obj/item/clothing/under/rank/chaplain): Destroy(0)
+[03:23:53]qdel(the chaplain\'s jumpsuit (/obj/item/clothing/under/rank/chaplain), 0)
+[03:23:53]...
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): Destroy(0)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): Destroy(0)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): Destroy(0)
+[03:23:53]Jonathon Whirlow (/mob/living/carbon/human/dummy): Destroy(0)
+[03:23:53]qdel(Jonathon Whirlow (/mob/living/carbon/human/dummy), 0)
+[03:23:53]Cult (/datum/team/cult): setup objectives()
+[03:23:53]Joseph Seed (/datum/mind): add antag datum(Cultist (/datum/antagonist/cult), null)
+[03:23:53]Joseph Seed (/datum/mind): add antag wrapper(/datum/antagonist/cult (/datum/antagonist/cult), Joseph Seed (/mob/living/carbon/human))
+[03:23:53]GimmesumsuccPls (/client): Topic("src=\[0x21001ffa];add_antag=/d...", /list (/list), Joseph Seed (/datum/mind))
+[03:23:53]GimmesumsuccPls (/client): Topic("src=\[0x21001ffa];add_antag=/d...", /list (/list), Joseph Seed (/datum/mind))
+runtime error: 
+[03:29:50]nothing to animate
+[03:29:50]proc name: shake camera (/proc/shake_camera)
+[03:29:50]  source file: mob_helpers.dm,270
+[03:29:50]  usr: (src)
+[03:29:50]  src: null
+[03:29:50]  call stack:
+[03:29:50]shake camera(James McEwen (/mob/living/carbon/human), 0.75, 1)
+[03:29:50]James McEwen (/mob/living/carbon/human): afterShuttleMove(space (18,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[03:29:50]James McEwen (/mob/living/carbon/human): afterShuttleMove(space (18,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[03:29:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[03:29:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[03:29:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[03:29:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[03:29:50]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[03:29:50]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[03:29:50]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[03:31:18]addtimer called with a callback assigned to a qdeleted object
+[03:31:18]proc name: stack trace (/proc/stack_trace)
+[03:31:18]  source file: unsorted.dm,1254
+[03:31:18]  usr: 0
+[03:31:18]  src: null
+[03:31:18]  call stack:
+[03:31:18]stack trace("addtimer called with a callbac...")
+[03:31:18]addtimer(/datum/callback (/datum/callback), 20, 0)
+[03:31:18]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[03:31:18]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[03:31:19]addtimer called with a callback assigned to a qdeleted object
+[03:31:19]proc name: stack trace (/proc/stack_trace)
+[03:31:19]  source file: unsorted.dm,1254
+[03:31:19]  usr: 0
+[03:31:19]  src: null
+[03:31:19]  call stack:
+[03:31:19]stack trace("addtimer called with a callbac...")
+[03:31:19]addtimer(/datum/callback (/datum/callback), 20, 0)
+[03:31:19]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[03:31:19]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[03:34:35]Cannot read null.loc
+[03:34:35]proc name: update parallax (/datum/hud/proc/update_parallax)
+[03:34:35]  source file: parallax.dm,170
+[03:34:35]  usr: Raj-Wanum (/mob/living/brain)
+[03:34:35]  src: /datum/hud (/datum/hud)
+[03:34:35]  usr.loc: Raj-Wanum\'s brain (/obj/item/organ/brain)
+[03:34:35]  call stack:
+[03:34:35]/datum/hud (/datum/hud): update parallax()
+[03:34:35]/datum/hud (/datum/hud): update parallax pref(Raj-Wanum (/mob/living/brain))
+[03:34:35]/datum/hud (/datum/hud): show hud(1, null)
+[03:34:35]Raj-Wanum (/mob/living/brain): Login()
+[03:34:35]Raj-Wanum (/mob/living/brain): Login()
+[03:34:35]Raj-Wanum (/datum/mind): transfer to(Raj-Wanum (/mob/living/brain), 0)
+[03:34:35]Raj-Wanum\'s brain (/obj/item/organ/brain): transfer identity(Raj-Wanum (/mob/living/carbon/human))
+[03:34:35]Raj-Wanum\'s brain (/obj/item/organ/brain): Remove(Raj-Wanum (/mob/living/carbon/human), 0, 0)
+[03:34:35]Raj-Wanum\'s brain (/obj/item/organ/brain): transfer to limb(Raj-Wanum\'s head (/obj/item/bodypart/head), Raj-Wanum (/mob/living/carbon/human))
+[03:34:35]Raj-Wanum\'s head (/obj/item/bodypart/head): drop limb(null)
+[03:34:35]Raj-Wanum\'s head (/obj/item/bodypart/head): drop limb(null)
+[03:34:35]Raj-Wanum\'s head (/obj/item/bodypart/head): dismember("brute")
+[03:34:35]Lizardperson (/datum/species/lizard): spec attacked by(the officer\'s sabre (/obj/item/melee/sabre), Jane Baker (/mob/living/carbon/human), Raj-Wanum\'s head (/obj/item/bodypart/head), "harm", Raj-Wanum (/mob/living/carbon/human))
+[03:34:35]Raj-Wanum (/mob/living/carbon/human): attacked by(the officer\'s sabre (/obj/item/melee/sabre), Jane Baker (/mob/living/carbon/human))
+[03:34:35]the officer\'s sabre (/obj/item/melee/sabre): attack(Raj-Wanum (/mob/living/carbon/human), Jane Baker (/mob/living/carbon/human))
+[03:34:35]Raj-Wanum (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Jane Baker (/mob/living/carbon/human), "icon-x=20;icon-y=18;left=1;scr...")
+[03:34:35]Raj-Wanum (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Jane Baker (/mob/living/carbon/human), "icon-x=20;icon-y=18;left=1;scr...")
+[03:34:35]the officer\'s sabre (/obj/item/melee/sabre): melee attack chain(Jane Baker (/mob/living/carbon/human), Raj-Wanum (/mob/living/carbon/human), "icon-x=20;icon-y=18;left=1;scr...")
+[03:34:35]Jane Baker (/mob/living/carbon/human): ClickOn(Raj-Wanum (/mob/living/carbon/human), "icon-x=20;icon-y=18;left=1;scr...")
+[03:34:35]Raj-Wanum (/mob/living/carbon/human): Click(the floor (133,129,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=20;icon-y=18;left=1;scr...")
+runtime error: 
+[03:35:26]nothing to animate
+[03:35:26]proc name: shake camera (/proc/shake_camera)
+[03:35:26]  source file: mob_helpers.dm,270
+[03:35:26]  usr: (src)
+[03:35:26]  src: null
+[03:35:26]  call stack:
+[03:35:26]shake camera(Kayla Moore (/mob/living/carbon/human), 0.75, 1)
+[03:35:26]Kayla Moore (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[03:35:26]Kayla Moore (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[03:35:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[03:35:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[03:35:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[03:35:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[03:35:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[03:35:26]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[03:35:26]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[03:36:13]Cannot modify null.color.
+[03:36:13]proc name: UpdateButtonIcon (/datum/action/proc/UpdateButtonIcon)
+[03:36:13]  source file: action.dm,128
+[03:36:13]  usr: Joseph Seed (/mob/living/carbon/human)
+[03:36:13]  src: Mark Target (/datum/action/innate/cult/master/cultmark)
+[03:36:13]  usr.loc: the engraved floor (55,78,1) (/turf/open/floor/engine/cult)
+[03:36:13]  call stack:
+[03:36:13]Mark Target (/datum/action/innate/cult/master/cultmark): UpdateButtonIcon(0, 0)
+[03:36:13]Joseph Seed (/mob/living/carbon/human): update action buttons(null)
+[03:36:13]Mark Target (/datum/action/innate/cult/master/cultmark): Grant(Joseph Seed (/mob/living/carbon/human))
+[03:36:13]Cultist (/datum/antagonist/cult/master): apply innate effects(null)
+[03:36:13]Cultist (/datum/antagonist/cult/master): on gain()
+[03:36:13]Cultist (/datum/antagonist/cult/master): on gain()
+[03:36:13]Cultist (/datum/antagonist/cult/master): on gain()
+[03:36:13]Joseph Seed (/datum/mind): add antag datum(/datum/antagonist/cult/master (/datum/antagonist/cult/master), null)
+[03:36:13]pollCultists(Joseph Seed (/mob/living/carbon/human), Cult (/datum/team/cult))
+[03:36:13]Assert Leadership (/datum/action/innate/cult/mastervote): Activate()
+[03:36:13]Assert Leadership (/datum/action/innate/cult/mastervote): Trigger()
+[03:36:13]Assert Leadership (/obj/screen/movable/action_button): Click(null, "mapwindow.map", "icon-x=16;icon-y=15;left=1;scr...")
+runtime error: 
+[03:36:13]Cannot read null.moved
+[03:36:13]proc name: update action buttons (/mob/proc/update_action_buttons)
+[03:36:13]  source file: action_button.dm,155
+[03:36:13]  usr: (src)
+[03:36:13]  src: Joseph Seed (/mob/living/carbon/human)
+[03:36:13]  src.loc: the engraved floor (55,78,1) (/turf/open/floor/engine/cult)
+[03:36:13]  call stack:
+[03:36:13]Joseph Seed (/mob/living/carbon/human): update action buttons(null)
+[03:36:13]Mark Target (/datum/action/innate/cult/master/cultmark): Grant(Joseph Seed (/mob/living/carbon/human))
+[03:36:13]Cultist (/datum/antagonist/cult/master): apply innate effects(null)
+[03:36:13]Cultist (/datum/antagonist/cult/master): on gain()
+[03:36:13]Cultist (/datum/antagonist/cult/master): on gain()
+[03:36:13]Cultist (/datum/antagonist/cult/master): on gain()
+[03:36:13]Joseph Seed (/datum/mind): add antag datum(/datum/antagonist/cult/master (/datum/antagonist/cult/master), null)
+[03:36:13]pollCultists(Joseph Seed (/mob/living/carbon/human), Cult (/datum/team/cult))
+[03:36:13]Assert Leadership (/datum/action/innate/cult/mastervote): Activate()
+[03:36:13]Assert Leadership (/datum/action/innate/cult/mastervote): Trigger()
+[03:36:13]Assert Leadership (/obj/screen/movable/action_button): Click(null, "mapwindow.map", "icon-x=16;icon-y=15;left=1;scr...")
+runtime error: 
+[03:40:55]Cannot read null.client
+[03:40:55]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[03:40:55]  source file: vote.dm,321
+[03:40:55]  usr: null
+[03:40:55]  src: Vote! (/datum/action/vote)
+[03:40:55]  call stack:
+[03:40:55]Vote! (/datum/action/vote): remove from client()
+[03:40:55]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[03:40:55]Vote (/datum/controller/subsystem/vote): announce result()
+[03:40:55]Vote (/datum/controller/subsystem/vote): result()
+[03:40:55]Vote (/datum/controller/subsystem/vote): fire(0)
+[03:40:55]Vote (/datum/controller/subsystem/vote): ignite(0)
+[03:40:55]Master (/datum/controller/master): RunQueue()
+[03:40:55]Master (/datum/controller/master): Loop()
+[03:40:55]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[03:40:55]Cannot read null.client
+[03:40:55]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[03:40:55]  source file: vote.dm,321
+[03:40:55]  usr: null
+[03:40:55]  src: Vote! (/datum/action/vote)
+[03:40:55]  call stack:
+[03:40:55]Vote! (/datum/action/vote): remove from client()
+[03:40:55]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[03:40:55]Vote (/datum/controller/subsystem/vote): announce result()
+[03:40:55]Vote (/datum/controller/subsystem/vote): result()
+[03:40:55]Vote (/datum/controller/subsystem/vote): fire(0)
+[03:40:55]Vote (/datum/controller/subsystem/vote): ignite(0)
+[03:40:55]Master (/datum/controller/master): RunQueue()
+[03:40:55]Master (/datum/controller/master): Loop()
+[03:40:55]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[03:43:25]Cannot read null.loc
+[03:43:25]proc name: update parallax (/datum/hud/proc/update_parallax)
+[03:43:25]  source file: parallax.dm,170
+[03:43:25]  usr: Jane Baker (/mob/living/brain)
+[03:43:25]  src: /datum/hud (/datum/hud)
+[03:43:25]  usr.loc: Jane Baker\'s brain (/obj/item/organ/brain)
+[03:43:25]  call stack:
+[03:43:25]/datum/hud (/datum/hud): update parallax()
+[03:43:25]/datum/hud (/datum/hud): update parallax pref(Jane Baker (/mob/living/brain))
+[03:43:25]/datum/hud (/datum/hud): show hud(1, null)
+[03:43:25]Jane Baker (/mob/living/brain): Login()
+[03:43:25]Jane Baker (/mob/living/brain): Login()
+[03:43:25]Jane Baker (/datum/mind): transfer to(Jane Baker (/mob/living/brain), 0)
+[03:43:25]Jane Baker\'s brain (/obj/item/organ/brain): transfer identity(Jane Baker (/mob/living/carbon/human))
+[03:43:25]Jane Baker\'s brain (/obj/item/organ/brain): Remove(Jane Baker (/mob/living/carbon/human), 0, 0)
+[03:43:25]Jane Baker\'s brain (/obj/item/organ/brain): transfer to limb(Jane Baker\'s head (/obj/item/bodypart/head), Jane Baker (/mob/living/carbon/human))
+[03:43:25]Jane Baker\'s head (/obj/item/bodypart/head): drop limb(null)
+[03:43:25]Jane Baker\'s head (/obj/item/bodypart/head): drop limb(null)
+[03:43:25]Jane Baker\'s head (/obj/item/bodypart/head): dismember("brute")
+[03:43:25]Human (/datum/species/human): spec attacked by(the spear (Wielded) (/obj/item/twohanded/spear), Kayla Moore (/mob/living/carbon/human), Jane Baker\'s head (/obj/item/bodypart/head), "help", Jane Baker (/mob/living/carbon/human))
+[03:43:25]Jane Baker (/mob/living/carbon/human): attacked by(the spear (Wielded) (/obj/item/twohanded/spear), Kayla Moore (/mob/living/carbon/human))
+[03:43:25]the spear (Wielded) (/obj/item/twohanded/spear): attack(Jane Baker (/mob/living/carbon/human), Kayla Moore (/mob/living/carbon/human))
+[03:43:25]Jane Baker (/mob/living/carbon/human): attackby(the spear (Wielded) (/obj/item/twohanded/spear), Kayla Moore (/mob/living/carbon/human), "icon-x=12;icon-y=16;left=1;scr...")
+[03:43:25]Jane Baker (/mob/living/carbon/human): attackby(the spear (Wielded) (/obj/item/twohanded/spear), Kayla Moore (/mob/living/carbon/human), "icon-x=12;icon-y=16;left=1;scr...")
+[03:43:25]the spear (Wielded) (/obj/item/twohanded/spear): melee attack chain(Kayla Moore (/mob/living/carbon/human), Jane Baker (/mob/living/carbon/human), "icon-x=12;icon-y=16;left=1;scr...")
+[03:43:25]Kayla Moore (/mob/living/carbon/human): ClickOn(Jane Baker (/mob/living/carbon/human), "icon-x=12;icon-y=16;left=1;scr...")
+[03:43:25]Jane Baker (/mob/living/carbon/human): Click(the floor (97,114,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=12;icon-y=16;left=1;scr...")
+runtime error: 
+[03:44:11]addtimer called with a callback assigned to a qdeleted object
+[03:44:11]proc name: stack trace (/proc/stack_trace)
+[03:44:11]  source file: unsorted.dm,1254
+[03:44:11]  usr: (src)
+[03:44:11]  src: null
+[03:44:11]  call stack:
+[03:44:11]stack trace("addtimer called with a callbac...")
+[03:44:11]addtimer(/datum/callback (/datum/callback), 20, 0)
+[03:44:11]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[03:44:11]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+### VarEdit by GimmesumsuccPls/(Joseph Seed): /obj/item/card/id/syndicate name=silver identification card => Fedir Seed
+runtime error: 
+[04:01:00]Cannot execute null.Remove().
+[04:01:00]proc name: remove innate effects (/datum/antagonist/cult/master/remove_innate_effects)
+[04:01:00]  source file: cult.dm,205
+[04:01:00]  usr: Joseph Seed (/mob/dead/observer)
+[04:01:00]  src: Cultist (/datum/antagonist/cult/master)
+[04:01:00]  usr.loc: the engraved floor (189,203,2) (/turf/open/floor/engine/cult)
+[04:01:00]  call stack:
+[04:01:00]Cultist (/datum/antagonist/cult/master): remove innate effects(null)
+[04:01:00]Cultist (/datum/antagonist/cult/master): on body transfer(null, Joseph Seed (/mob/living/carbon/human))
+[04:01:00]Joseph Seed (/datum/mind): transfer to(Joseph Seed (/mob/living/carbon/human), 1)
+[04:01:00]Joseph Seed (/mob/dead/observer): change mob type(/mob/living/carbon/human (/mob/living/carbon/human), null, null, 1)
+[04:01:00]gimmesumsuccpls\'s admin datum... (/datum/admins): Topic("_src_=holder;admin_token=20661...", /list (/list))
+[04:01:00]GimmesumsuccPls (/client): Topic("_src_=holder;admin_token=20661...", /list (/list), gimmesumsuccpls\'s admin datum... (/datum/admins))
+[04:01:00]GimmesumsuccPls (/client): Topic("_src_=holder;admin_token=20661...", /list (/list))
+runtime error: 
+[04:01:00]Cannot execute null.Grant().
+[04:01:00]proc name: apply innate effects (/datum/antagonist/cult/master/apply_innate_effects)
+[04:01:00]  source file: cult.dm,194
+[04:01:00]  usr: Joseph Seed (/mob/dead/observer)
+[04:01:00]  src: Cultist (/datum/antagonist/cult/master)
+[04:01:00]  usr.loc: the engraved floor (189,203,2) (/turf/open/floor/engine/cult)
+[04:01:00]  call stack:
+[04:01:00]Cultist (/datum/antagonist/cult/master): apply innate effects(Joseph Seed (/mob/living/carbon/human))
+[04:01:00]Cultist (/datum/antagonist/cult/master): on body transfer(null, Joseph Seed (/mob/living/carbon/human))
+[04:01:00]Joseph Seed (/datum/mind): transfer to(Joseph Seed (/mob/living/carbon/human), 1)
+[04:01:00]Joseph Seed (/mob/dead/observer): change mob type(/mob/living/carbon/human (/mob/living/carbon/human), null, null, 1)
+[04:01:00]gimmesumsuccpls\'s admin datum... (/datum/admins): Topic("_src_=holder;admin_token=20661...", /list (/list))
+[04:01:00]GimmesumsuccPls (/client): Topic("_src_=holder;admin_token=20661...", /list (/list), gimmesumsuccpls\'s admin datum... (/datum/admins))
+[04:01:00]GimmesumsuccPls (/client): Topic("_src_=holder;admin_token=20661...", /list (/list))
+runtime error: 
+[04:07:22]Cannot execute null.copy().
+[04:07:22]proc name: init shade (/obj/item/device/soulstone/proc/init_shade)
+[04:07:22]  source file: soulstone.dm,247
+runtime error: 
+[04:08:19]Cannot execute null.copy().
+[04:08:19]proc name: init shade (/obj/item/device/soulstone/proc/init_shade)
+[04:08:19]  source file: soulstone.dm,247
+runtime error: 
+[04:09:47]addtimer called with a callback assigned to a qdeleted object
+[04:09:47]proc name: stack trace (/proc/stack_trace)
+[04:09:47]  source file: unsorted.dm,1254
+runtime error: 
+[04:09:47]addtimer called with a callback assigned to a qdeleted object
+[04:09:47]proc name: stack trace (/proc/stack_trace)
+[04:09:47]  source file: unsorted.dm,1254
+runtime error: 
+[04:13:44]nothing to animate
+[04:13:44]proc name: shake camera (/proc/shake_camera)
+[04:13:44]  source file: mob_helpers.dm,270
+runtime error: 
+[04:16:51]Cannot modify null.fps.
+[04:16:51]proc name: process link (/datum/preferences/proc/process_link)
+[04:16:51]  source file: preferences.dm,1285
+runtime error: 
+[04:17:09]Cannot read null.client
+[04:17:09]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[04:17:09]  source file: vote.dm,321
+runtime error: 
+[04:17:09]Cannot read null.client
+[04:17:09]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[04:17:09]  source file: vote.dm,321
+runtime error: 
+[04:17:36]addtimer called with a callback assigned to a qdeleted object
+[04:17:36]proc name: stack trace (/proc/stack_trace)
+[04:17:36]  source file: unsorted.dm,1254
+runtime error: 
+[04:17:37]addtimer called with a callback assigned to a qdeleted object
+[04:17:37]proc name: stack trace (/proc/stack_trace)
+[04:17:37]  source file: unsorted.dm,1254
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 04:18:49

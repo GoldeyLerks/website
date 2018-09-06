@@ -1,0 +1,640 @@
+[2018-07-31 02:59:28.923] Starting up round ID 1795.
+[2018-07-31 02:59:28.923] -------------------------
+[2018-07-31 02:59:32.373] Initialized Database subsystem within 0 seconds!
+[2018-07-31 02:59:32.373] Initialized Blackbox subsystem within 0 seconds!
+[2018-07-31 02:59:32.373] Initialized Server Tasks subsystem within 0 seconds!
+[2018-07-31 02:59:32.374] Initialized Input subsystem within 0 seconds!
+[2018-07-31 02:59:32.415] Initialized Research subsystem within 0.1 seconds!
+[2018-07-31 02:59:32.420] Initialized Events subsystem within 0 seconds!
+[2018-07-31 02:59:32.425] Initialized Jobs subsystem within 0 seconds!
+[2018-07-31 02:59:32.427] Initialized Quirks subsystem within 0 seconds!
+[2018-07-31 02:59:32.436] Initialized Ticker subsystem within 0 seconds!
+[2018-07-31 02:59:32.437] Loading Box Station...
+[2018-07-31 02:59:40.438] Loaded Station in 8s!
+[2018-07-31 02:59:46.547] Loaded Lavaland in 5.3s!
+[2018-07-31 03:00:02.767] Ruin loader finished with 0 left to spend.
+[2018-07-31 03:00:06.387] Ruin loader finished with 0 left to spend.
+[2018-07-31 03:00:17.918] Initialized Mapping subsystem within 45.5 seconds!
+[2018-07-31 03:00:17.920] Initialized Networks subsystem within 0 seconds!
+[2018-07-31 03:01:15.989] Initialized Atoms subsystem within 58 seconds!
+[2018-07-31 03:01:16.012] Initialized Language subsystem within 0.1 seconds!
+[2018-07-31 03:01:16.412] Initialized Machines subsystem within 0.4 seconds!
+[2018-07-31 03:01:16.485] Initialized Circuit subsystem within 0 seconds!
+[2018-07-31 03:01:16.487] Initialized Disease subsystem within 0 seconds!
+[2018-07-31 03:01:16.488] Initialized Medals subsystem within 0 seconds!
+[2018-07-31 03:01:16.488] Initialized Night Shift subsystem within 0 seconds!
+[2018-07-31 03:01:16.489] Initialized Parallax subsystem within 0 seconds!
+[2018-07-31 03:01:16.619] Initialized Traumas subsystem within 0.2 seconds!
+[2018-07-31 03:01:16.620] Initialized Weather subsystem within 0 seconds!
+[2018-07-31 03:02:42.939] Initialized Atmospherics subsystem within 86.3 seconds!
+[2018-07-31 03:02:42.958] Initialized Minimap subsystem within 0 seconds!
+[2018-07-31 03:02:45.316] Initialized Assets subsystem within 2.4 seconds!
+[2018-07-31 03:02:53.775] Initialized Icon Smoothing subsystem within 8.4 seconds!
+[2018-07-31 03:02:55.669] Initialized Overlay subsystem within 1.9 seconds!
+[2018-07-31 03:02:55.670] Initialized XKeyScore subsystem within 0 seconds!
+[2018-07-31 03:02:55.671] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-07-31 03:03:13.681] Initialized Lighting subsystem within 18 seconds!
+[2018-07-31 03:03:16.653] Initialized Shuttle subsystem within 3 seconds!
+[2018-07-31 03:03:16.691] Initialized Squeak subsystem within 0 seconds!
+[2018-07-31 03:03:16.696] Initialized Pathfinder subsystem within 0 seconds!
+[2018-07-31 03:03:16.753] Loaded 25 engraved messages on map Box Station
+[2018-07-31 03:03:16.780] Initialized Persistence subsystem within 0.1 seconds!
+[2018-07-31 03:03:16.781] Initializations complete within 224.4 seconds!
+[2018-07-31 03:04:28.562] Game start took 4.6s
+[2018-07-31 03:20:46.603] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-31 03:20:46.603] proc name: stack trace (/proc/stack_trace)
+[2018-07-31 03:20:46.603]   source file: unsorted.dm,1240
+[2018-07-31 03:20:46.603]   usr: Scale-Over-Skin (/mob/living/carbon/human)
+[2018-07-31 03:20:46.603]   src: null
+[2018-07-31 03:20:46.603]   usr.loc: the floor (101,120,2) (/turf/open/floor/plasteel)
+[2018-07-31 03:20:46.603]   call stack:
+[2018-07-31 03:20:46.603] stack trace("addtimer called with a callbac...")
+[2018-07-31 03:20:46.603] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-31 03:20:46.603] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-31 03:20:46.603] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-31 03:20:46.603] 
+[2018-07-31 03:53:35.187] runtime error: Cannot read null.armor
+[2018-07-31 03:53:35.187] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:35.187]   source file: human_defense.dm,32
+[2018-07-31 03:53:35.187]   usr: null
+[2018-07-31 03:53:35.187]   src: the ashen skeleton (/mob/living/carbon/human)
+[2018-07-31 03:53:35.187]   src.loc: null
+[2018-07-31 03:53:35.187]   call stack:
+[2018-07-31 03:53:35.187] the ashen skeleton (/mob/living/carbon/human): checkarmor(null, "bullet")
+[2018-07-31 03:53:35.187] the ashen skeleton (/mob/living/carbon/human): getarmor("r_leg", "bullet")
+[2018-07-31 03:53:35.187] the ashen skeleton (/mob/living/carbon/human): run armor check("r_leg", "bullet", "", "", 100, null)
+[2018-07-31 03:53:35.187] the ashen skeleton (/mob/living/carbon/human): bullet act(the death bolt (/obj/item/projectile/colossus), "r_leg")
+[2018-07-31 03:53:35.187] the ashen skeleton (/mob/living/carbon/human): bullet act(the death bolt (/obj/item/projectile/colossus), "r_leg")
+[2018-07-31 03:53:35.187] the death bolt (/obj/item/projectile/colossus): Bump(the ashen skeleton (/mob/living/carbon/human))
+[2018-07-31 03:53:35.187] the death bolt (/obj/item/projectile/colossus): pixel move(1, 0)
+[2018-07-31 03:53:35.187] the death bolt (/obj/item/projectile/colossus): process(1)
+[2018-07-31 03:53:35.187] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-31 03:53:35.187] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-31 03:53:35.188] Master (/datum/controller/master): RunQueue()
+[2018-07-31 03:53:35.188] Master (/datum/controller/master): Loop()
+[2018-07-31 03:53:35.188] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-31 03:53:35.188] 
+[2018-07-31 03:53:35.189] runtime error: Cannot read null.species
+[2018-07-31 03:53:35.189] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:35.189]   source file: damage_procs.dm,5
+[2018-07-31 03:53:35.189]   usr: null
+[2018-07-31 03:53:35.189]   src: the ashen skeleton (/mob/living/carbon/human)
+[2018-07-31 03:53:35.189]   src.loc: null
+[2018-07-31 03:53:35.189]   call stack:
+[2018-07-31 03:53:35.189] the ashen skeleton (/mob/living/carbon/human): apply damage(25, "brute", "r_leg", 0)
+[2018-07-31 03:53:35.189] the ashen skeleton (/mob/living/carbon/human): bullet act(the death bolt (/obj/item/projectile/colossus), "r_leg")
+[2018-07-31 03:53:35.189] the ashen skeleton (/mob/living/carbon/human): bullet act(the death bolt (/obj/item/projectile/colossus), "r_leg")
+[2018-07-31 03:53:35.189] the death bolt (/obj/item/projectile/colossus): Bump(the ashen skeleton (/mob/living/carbon/human))
+[2018-07-31 03:53:35.189] the death bolt (/obj/item/projectile/colossus): pixel move(1, 0)
+[2018-07-31 03:53:35.189] the death bolt (/obj/item/projectile/colossus): process(1)
+[2018-07-31 03:53:35.189] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-31 03:53:35.189] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-31 03:53:35.189] Master (/datum/controller/master): RunQueue()
+[2018-07-31 03:53:35.189] Master (/datum/controller/master): Loop()
+[2018-07-31 03:53:35.189] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-31 03:53:35.189] 
+[2018-07-31 03:53:35.303] runtime error: Cannot read null.armor
+[2018-07-31 03:53:35.303] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:35.303]   source file: human_defense.dm,32
+[2018-07-31 03:53:35.303]   usr: null
+[2018-07-31 03:53:35.303]   src: the ashen skeleton (/mob/living/carbon/human)
+[2018-07-31 03:53:35.303]   src.loc: null
+[2018-07-31 03:53:35.303]   call stack:
+[2018-07-31 03:53:35.303] the ashen skeleton (/mob/living/carbon/human): checkarmor(null, "bullet")
+[2018-07-31 03:53:35.303] the ashen skeleton (/mob/living/carbon/human): getarmor("l_leg", "bullet")
+[2018-07-31 03:53:35.303] the ashen skeleton (/mob/living/carbon/human): run armor check("l_leg", "bullet", "", "", 100, null)
+[2018-07-31 03:53:35.303] the ashen skeleton (/mob/living/carbon/human): bullet act(the death bolt (/obj/item/projectile/colossus), "l_leg")
+[2018-07-31 03:53:35.303] the ashen skeleton (/mob/living/carbon/human): bullet act(the death bolt (/obj/item/projectile/colossus), "l_leg")
+[2018-07-31 03:53:35.303] the death bolt (/obj/item/projectile/colossus): Bump(the ashen skeleton (/mob/living/carbon/human))
+[2018-07-31 03:53:35.303] the death bolt (/obj/item/projectile/colossus): pixel move(1, 0)
+[2018-07-31 03:53:35.303] the death bolt (/obj/item/projectile/colossus): process(1)
+[2018-07-31 03:53:35.303] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(1)
+[2018-07-31 03:53:35.303] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(1)
+[2018-07-31 03:53:35.303] Master (/datum/controller/master): RunQueue()
+[2018-07-31 03:53:35.303] Master (/datum/controller/master): Loop()
+[2018-07-31 03:53:35.303] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-31 03:53:35.303] 
+[2018-07-31 03:53:35.304] runtime error: Cannot read null.species
+[2018-07-31 03:53:35.304] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:35.304]   source file: damage_procs.dm,5
+[2018-07-31 03:53:35.304]   usr: null
+[2018-07-31 03:53:35.304]   src: the ashen skeleton (/mob/living/carbon/human)
+[2018-07-31 03:53:35.304]   src.loc: null
+[2018-07-31 03:53:35.304]   call stack:
+[2018-07-31 03:53:35.304] the ashen skeleton (/mob/living/carbon/human): apply damage(25, "brute", "l_leg", 0)
+[2018-07-31 03:53:35.304] the ashen skeleton (/mob/living/carbon/human): bullet act(the death bolt (/obj/item/projectile/colossus), "l_leg")
+[2018-07-31 03:53:35.304] the ashen skeleton (/mob/living/carbon/human): bullet act(the death bolt (/obj/item/projectile/colossus), "l_leg")
+[2018-07-31 03:53:35.304] the death bolt (/obj/item/projectile/colossus): Bump(the ashen skeleton (/mob/living/carbon/human))
+[2018-07-31 03:53:35.304] the death bolt (/obj/item/projectile/colossus): pixel move(1, 0)
+[2018-07-31 03:53:35.304] the death bolt (/obj/item/projectile/colossus): process(1)
+[2018-07-31 03:53:35.304] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(1)
+[2018-07-31 03:53:35.304] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(1)
+[2018-07-31 03:53:35.304] Master (/datum/controller/master): RunQueue()
+[2018-07-31 03:53:35.304] Master (/datum/controller/master): Loop()
+[2018-07-31 03:53:35.304] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-31 03:53:35.304] 
+[2018-07-31 03:53:35.308] runtime error: Cannot read null.armor
+[2018-07-31 03:53:35.308] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:35.308]   source file: human_defense.dm,32
+[2018-07-31 03:53:35.308] 
+[2018-07-31 03:53:35.308] runtime error: Cannot read null.species
+[2018-07-31 03:53:35.308] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:35.308]   source file: damage_procs.dm,5
+[2018-07-31 03:53:35.308] 
+[2018-07-31 03:53:35.487] runtime error: Cannot read null.armor
+[2018-07-31 03:53:35.487] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:35.487]   source file: human_defense.dm,32
+[2018-07-31 03:53:35.487] 
+[2018-07-31 03:53:35.487] runtime error: Cannot read null.species
+[2018-07-31 03:53:35.487] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:35.487]   source file: damage_procs.dm,5
+[2018-07-31 03:53:35.487] 
+[2018-07-31 03:53:35.488] runtime error: Cannot read null.species
+[2018-07-31 03:53:35.488] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:53:35.488]   source file: blood.dm,279
+[2018-07-31 03:53:35.488] 
+[2018-07-31 03:53:35.586] runtime error: Cannot read null.armor
+[2018-07-31 03:53:35.586] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:35.586]   source file: human_defense.dm,32
+[2018-07-31 03:53:35.586] 
+[2018-07-31 03:53:35.587] runtime error: Cannot read null.species
+[2018-07-31 03:53:35.587] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:35.587]   source file: damage_procs.dm,5
+[2018-07-31 03:53:35.587] 
+[2018-07-31 03:53:36.001] runtime error: Cannot read null.armor
+[2018-07-31 03:53:36.001] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:36.001]   source file: human_defense.dm,32
+[2018-07-31 03:53:36.001] 
+[2018-07-31 03:53:36.002] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.002] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:36.002]   source file: damage_procs.dm,5
+[2018-07-31 03:53:36.002] 
+[2018-07-31 03:53:36.002] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.002] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:53:36.002]   source file: blood.dm,279
+[2018-07-31 03:53:36.002] 
+[2018-07-31 03:53:36.058] runtime error: Cannot read null.armor
+[2018-07-31 03:53:36.059] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:36.059]   source file: human_defense.dm,32
+[2018-07-31 03:53:36.059] 
+[2018-07-31 03:53:36.059] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.059] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:36.059]   source file: damage_procs.dm,5
+[2018-07-31 03:53:36.059] 
+[2018-07-31 03:53:36.061] runtime error: Cannot read null.armor
+[2018-07-31 03:53:36.061] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:36.061]   source file: human_defense.dm,32
+[2018-07-31 03:53:36.061] 
+[2018-07-31 03:53:36.062] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.062] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:36.062]   source file: damage_procs.dm,5
+[2018-07-31 03:53:36.062] 
+[2018-07-31 03:53:36.105] runtime error: Cannot read null.armor
+[2018-07-31 03:53:36.105] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:36.105]   source file: human_defense.dm,32
+[2018-07-31 03:53:36.105] 
+[2018-07-31 03:53:36.105] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.105] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:36.105]   source file: damage_procs.dm,5
+[2018-07-31 03:53:36.105] 
+[2018-07-31 03:53:36.108] runtime error: Cannot read null.armor
+[2018-07-31 03:53:36.108] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:36.108]   source file: human_defense.dm,32
+[2018-07-31 03:53:36.108] 
+[2018-07-31 03:53:36.109] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.109] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:36.109]   source file: damage_procs.dm,5
+[2018-07-31 03:53:36.109] 
+[2018-07-31 03:53:36.254] runtime error: Cannot read null.armor
+[2018-07-31 03:53:36.254] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:36.254]   source file: human_defense.dm,32
+[2018-07-31 03:53:36.254] 
+[2018-07-31 03:53:36.254] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.254] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:36.254]   source file: damage_procs.dm,5
+[2018-07-31 03:53:36.254] 
+[2018-07-31 03:53:36.255] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.255] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:53:36.255]   source file: blood.dm,279
+[2018-07-31 03:53:36.255] 
+[2018-07-31 03:53:36.258] runtime error: Cannot read null.armor
+[2018-07-31 03:53:36.258] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:36.258]   source file: human_defense.dm,32
+[2018-07-31 03:53:36.258] 
+[2018-07-31 03:53:36.259] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.259] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:36.259]   source file: damage_procs.dm,5
+[2018-07-31 03:53:36.259] 
+[2018-07-31 03:53:36.298] runtime error: Cannot read null.armor
+[2018-07-31 03:53:36.298] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:36.298]   source file: human_defense.dm,32
+[2018-07-31 03:53:36.298] 
+[2018-07-31 03:53:36.298] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.298] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:36.298]   source file: damage_procs.dm,5
+[2018-07-31 03:53:36.298] 
+[2018-07-31 03:53:36.348] runtime error: Cannot read null.armor
+[2018-07-31 03:53:36.348] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:36.348]   source file: human_defense.dm,32
+[2018-07-31 03:53:36.348] 
+[2018-07-31 03:53:36.348] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.348] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:36.348]   source file: damage_procs.dm,5
+[2018-07-31 03:53:36.348] 
+[2018-07-31 03:53:36.349] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.349] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:53:36.349]   source file: blood.dm,279
+[2018-07-31 03:53:36.349] 
+[2018-07-31 03:53:36.399] runtime error: Cannot read null.armor
+[2018-07-31 03:53:36.399] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:36.399]   source file: human_defense.dm,32
+[2018-07-31 03:53:36.399] 
+[2018-07-31 03:53:36.400] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.400] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:36.400]   source file: damage_procs.dm,5
+[2018-07-31 03:53:36.400] 
+[2018-07-31 03:53:36.606] runtime error: Cannot read null.armor
+[2018-07-31 03:53:36.606] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:36.606]   source file: human_defense.dm,32
+[2018-07-31 03:53:36.606] 
+[2018-07-31 03:53:36.607] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.607] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:36.607]   source file: damage_procs.dm,5
+[2018-07-31 03:53:36.607] 
+[2018-07-31 03:53:36.608] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.608] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:53:36.608]   source file: blood.dm,279
+[2018-07-31 03:53:36.608] 
+[2018-07-31 03:53:36.704] runtime error: Cannot read null.armor
+[2018-07-31 03:53:36.704] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:36.704]   source file: human_defense.dm,32
+[2018-07-31 03:53:36.704] 
+[2018-07-31 03:53:36.705] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.705] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:36.705]   source file: damage_procs.dm,5
+[2018-07-31 03:53:36.705] 
+[2018-07-31 03:53:36.705] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.705] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:53:36.706]   source file: blood.dm,279
+[2018-07-31 03:53:36.706] 
+[2018-07-31 03:53:36.708] runtime error: Cannot read null.armor
+[2018-07-31 03:53:36.708] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:36.708]   source file: human_defense.dm,32
+[2018-07-31 03:53:36.708] 
+[2018-07-31 03:53:36.709] runtime error: Cannot read null.species
+[2018-07-31 03:53:36.709] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:36.709]   source file: damage_procs.dm,5
+[2018-07-31 03:53:36.709] 
+[2018-07-31 03:53:37.017] runtime error: Cannot read null.armor
+[2018-07-31 03:53:37.017] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:37.017]   source file: human_defense.dm,32
+[2018-07-31 03:53:37.017] 
+[2018-07-31 03:53:37.017] runtime error: Cannot read null.species
+[2018-07-31 03:53:37.017] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:37.017]   source file: damage_procs.dm,5
+[2018-07-31 03:53:37.017] 
+[2018-07-31 03:53:37.020] runtime error: Cannot read null.armor
+[2018-07-31 03:53:37.020] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:37.020]   source file: human_defense.dm,32
+[2018-07-31 03:53:37.020] 
+[2018-07-31 03:53:37.020] runtime error: Cannot read null.species
+[2018-07-31 03:53:37.020] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:37.020]   source file: damage_procs.dm,5
+[2018-07-31 03:53:37.020] 
+[2018-07-31 03:53:37.072] runtime error: Cannot read null.armor
+[2018-07-31 03:53:37.072] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:37.072]   source file: human_defense.dm,32
+[2018-07-31 03:53:37.072] 
+[2018-07-31 03:53:37.073] runtime error: Cannot read null.species
+[2018-07-31 03:53:37.073] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:37.073]   source file: damage_procs.dm,5
+[2018-07-31 03:53:37.073] 
+[2018-07-31 03:53:37.496] runtime error: Cannot read null.armor
+[2018-07-31 03:53:37.496] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:37.496]   source file: human_defense.dm,32
+[2018-07-31 03:53:37.496] 
+[2018-07-31 03:53:37.496] runtime error: Cannot read null.species
+[2018-07-31 03:53:37.496] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:37.496]   source file: damage_procs.dm,5
+[2018-07-31 03:53:37.496] 
+[2018-07-31 03:53:38.106] runtime error: Cannot read null.armor
+[2018-07-31 03:53:38.106] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:38.106]   source file: human_defense.dm,32
+[2018-07-31 03:53:38.106] 
+[2018-07-31 03:53:38.106] runtime error: Cannot read null.species
+[2018-07-31 03:53:38.106] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:38.106]   source file: damage_procs.dm,5
+[2018-07-31 03:53:38.106] 
+[2018-07-31 03:53:38.107] runtime error: Cannot read null.species
+[2018-07-31 03:53:38.107] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:53:38.107]   source file: blood.dm,279
+[2018-07-31 03:53:38.107] 
+[2018-07-31 03:53:38.253] runtime error: Cannot read null.armor
+[2018-07-31 03:53:38.254] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:38.254]   source file: human_defense.dm,32
+[2018-07-31 03:53:38.254] 
+[2018-07-31 03:53:38.254] runtime error: Cannot read null.species
+[2018-07-31 03:53:38.255] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:38.255]   source file: damage_procs.dm,5
+[2018-07-31 03:53:38.255] 
+[2018-07-31 03:53:38.255] runtime error: Cannot read null.species
+[2018-07-31 03:53:38.255] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:53:38.255]   source file: blood.dm,279
+[2018-07-31 03:53:38.255] 
+[2018-07-31 03:53:38.806] runtime error: Cannot read null.armor
+[2018-07-31 03:53:38.806] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:38.806]   source file: human_defense.dm,32
+[2018-07-31 03:53:38.806] 
+[2018-07-31 03:53:38.806] runtime error: Cannot read null.species
+[2018-07-31 03:53:38.806] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:38.806]   source file: damage_procs.dm,5
+[2018-07-31 03:53:38.806] 
+[2018-07-31 03:53:38.807] runtime error: Cannot read null.species
+[2018-07-31 03:53:38.807] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:53:38.807]   source file: blood.dm,279
+[2018-07-31 03:53:38.807] 
+[2018-07-31 03:53:39.916] runtime error: Cannot read null.armor
+[2018-07-31 03:53:39.916] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:39.916]   source file: human_defense.dm,32
+[2018-07-31 03:53:39.916] 
+[2018-07-31 03:53:39.917] runtime error: Cannot read null.species
+[2018-07-31 03:53:39.917] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:39.917]   source file: damage_procs.dm,5
+[2018-07-31 03:53:39.917] 
+[2018-07-31 03:53:39.917] runtime error: Cannot read null.species
+[2018-07-31 03:53:39.917] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:53:39.917]   source file: blood.dm,279
+[2018-07-31 03:53:39.917] 
+[2018-07-31 03:53:51.847] runtime error: Cannot read null.armor
+[2018-07-31 03:53:51.847] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:51.847]   source file: human_defense.dm,32
+[2018-07-31 03:53:51.847] 
+[2018-07-31 03:53:51.848] runtime error: Cannot read null.species
+[2018-07-31 03:53:51.848] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:51.848]   source file: damage_procs.dm,5
+[2018-07-31 03:53:51.848] 
+[2018-07-31 03:53:51.849] runtime error: Cannot read null.species
+[2018-07-31 03:53:51.849] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:53:51.849]   source file: blood.dm,279
+[2018-07-31 03:53:51.849] 
+[2018-07-31 03:53:51.851] runtime error: Cannot read null.armor
+[2018-07-31 03:53:51.851] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:51.851]   source file: human_defense.dm,32
+[2018-07-31 03:53:51.851] 
+[2018-07-31 03:53:51.851] runtime error: Cannot read null.species
+[2018-07-31 03:53:51.851] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:51.851]   source file: damage_procs.dm,5
+[2018-07-31 03:53:51.851] 
+[2018-07-31 03:53:51.852] runtime error: Cannot read null.species
+[2018-07-31 03:53:51.852] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:53:51.852]   source file: blood.dm,279
+[2018-07-31 03:53:51.852] 
+[2018-07-31 03:53:51.946] runtime error: Cannot read null.armor
+[2018-07-31 03:53:51.946] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:51.946]   source file: human_defense.dm,32
+[2018-07-31 03:53:51.946] 
+[2018-07-31 03:53:51.946] runtime error: Cannot read null.species
+[2018-07-31 03:53:51.946] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:51.946]   source file: damage_procs.dm,5
+[2018-07-31 03:53:51.946] 
+[2018-07-31 03:53:52.800] runtime error: Cannot read null.armor
+[2018-07-31 03:53:52.800] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:53:52.800]   source file: human_defense.dm,32
+[2018-07-31 03:53:52.800] 
+[2018-07-31 03:53:52.801] runtime error: Cannot read null.species
+[2018-07-31 03:53:52.801] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:53:52.801]   source file: damage_procs.dm,5
+[2018-07-31 03:53:52.801] 
+[2018-07-31 03:53:52.802] runtime error: Cannot read null.species
+[2018-07-31 03:53:52.802] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:53:52.802]   source file: blood.dm,279
+[2018-07-31 03:53:52.802] 
+[2018-07-31 03:54:27.998] runtime error: Cannot read null.armor
+[2018-07-31 03:54:27.998] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:54:27.998]   source file: human_defense.dm,32
+[2018-07-31 03:54:27.998] 
+[2018-07-31 03:54:27.998] runtime error: Cannot read null.species
+[2018-07-31 03:54:27.998] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:54:27.998]   source file: damage_procs.dm,5
+[2018-07-31 03:54:27.998] 
+[2018-07-31 03:54:28.155] runtime error: Cannot read null.armor
+[2018-07-31 03:54:28.155] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:54:28.155]   source file: human_defense.dm,32
+[2018-07-31 03:54:28.155] 
+[2018-07-31 03:54:28.155] runtime error: Cannot read null.species
+[2018-07-31 03:54:28.155] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:54:28.155]   source file: damage_procs.dm,5
+[2018-07-31 03:54:28.155] 
+[2018-07-31 03:54:28.318] runtime error: Cannot read null.armor
+[2018-07-31 03:54:28.318] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:54:28.318]   source file: human_defense.dm,32
+[2018-07-31 03:54:28.318] 
+[2018-07-31 03:54:28.319] runtime error: Cannot read null.species
+[2018-07-31 03:54:28.319] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:54:28.319]   source file: damage_procs.dm,5
+[2018-07-31 03:54:28.319] 
+[2018-07-31 03:54:28.373] runtime error: Cannot read null.armor
+[2018-07-31 03:54:28.373] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:54:28.373]   source file: human_defense.dm,32
+[2018-07-31 03:54:28.373] 
+[2018-07-31 03:54:28.373] runtime error: Cannot read null.species
+[2018-07-31 03:54:28.373] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:54:28.373]   source file: damage_procs.dm,5
+[2018-07-31 03:54:28.373] 
+[2018-07-31 03:54:28.374] runtime error: Cannot read null.species
+[2018-07-31 03:54:28.374] proc name: add splatter floor (/mob/living/carbon/human/add_splatter_floor)
+[2018-07-31 03:54:28.374]   source file: blood.dm,279
+[2018-07-31 03:54:28.374] 
+[2018-07-31 03:54:28.545] runtime error: Cannot read null.armor
+[2018-07-31 03:54:28.545] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 03:54:28.545]   source file: human_defense.dm,32
+[2018-07-31 03:54:28.545] 
+[2018-07-31 03:54:28.545] runtime error: Cannot read null.species
+[2018-07-31 03:54:28.545] proc name: apply damage (/mob/living/carbon/human/apply_damage)
+[2018-07-31 03:54:28.545]   source file: damage_procs.dm,5
+[2018-07-31 03:54:28.545] 
+[2018-07-31 03:54:28.630] runtime error: Cannot read null.armor
+[2018-07-31 03:54:28.630] Warning: further proc crash messages are being suppressed to prevent overload...
+[2018-07-31 03:54:28.630] 
+[2018-07-31 03:54:28.630] runtime error: Cannot read null.species
+[2018-07-31 03:54:28.630] 
+[2018-07-31 03:54:28.631] runtime error: Cannot read null.species
+[2018-07-31 03:54:28.631] 
+[2018-07-31 03:54:28.736] runtime error: Cannot read null.armor
+[2018-07-31 03:54:28.737] 
+[2018-07-31 03:54:28.737] runtime error: Cannot read null.species
+[2018-07-31 03:54:28.737] 
+[2018-07-31 03:54:28.737] runtime error: Cannot read null.species
+[2018-07-31 03:54:28.737] 
+[2018-07-31 03:54:28.887] runtime error: Cannot read null.armor
+[2018-07-31 03:54:28.888] 
+[2018-07-31 03:54:28.888] runtime error: Cannot read null.species
+[2018-07-31 03:54:28.888] 
+[2018-07-31 03:54:28.992] runtime error: Cannot read null.armor
+[2018-07-31 03:54:28.993] 
+[2018-07-31 03:54:28.993] runtime error: Cannot read null.species
+[2018-07-31 03:54:28.993] 
+[2018-07-31 03:54:28.993] runtime error: Cannot read null.species
+[2018-07-31 03:54:28.993] 
+[2018-07-31 03:54:29.035] runtime error: Cannot read null.armor
+[2018-07-31 03:54:29.035] 
+[2018-07-31 03:54:29.035] runtime error: Cannot read null.species
+[2018-07-31 03:54:29.035] 
+[2018-07-31 03:54:29.091] runtime error: Cannot read null.armor
+[2018-07-31 03:54:29.091] 
+[2018-07-31 03:54:29.091] runtime error: Cannot read null.species
+[2018-07-31 03:54:29.091] 
+[2018-07-31 03:54:29.238] runtime error: Cannot read null.armor
+[2018-07-31 03:54:29.238] 
+[2018-07-31 03:54:29.238] runtime error: Cannot read null.species
+[2018-07-31 03:54:29.238] 
+[2018-07-31 03:54:29.294] runtime error: Cannot read null.armor
+[2018-07-31 03:54:29.294] 
+[2018-07-31 03:54:29.294] runtime error: Cannot read null.species
+[2018-07-31 03:54:29.294] 
+[2018-07-31 03:54:29.339] runtime error: Cannot read null.armor
+[2018-07-31 03:54:29.339] 
+[2018-07-31 03:54:29.339] runtime error: Cannot read null.species
+[2018-07-31 03:54:29.339] 
+[2018-07-31 03:54:29.340] runtime error: Cannot read null.species
+[2018-07-31 03:54:29.340] 
+[2018-07-31 03:54:29.342] runtime error: Cannot read null.armor
+[2018-07-31 03:54:29.342] 
+[2018-07-31 03:54:29.342] runtime error: Cannot read null.species
+[2018-07-31 03:54:29.342] 
+[2018-07-31 03:54:29.594] runtime error: Cannot read null.armor
+[2018-07-31 03:54:29.594] 
+[2018-07-31 03:54:29.594] runtime error: Cannot read null.species
+[2018-07-31 03:54:29.594] 
+[2018-07-31 03:54:29.898] runtime error: Cannot read null.armor
+[2018-07-31 03:54:29.898] 
+[2018-07-31 03:54:29.898] runtime error: Cannot read null.species
+[2018-07-31 03:54:29.898] 
+[2018-07-31 03:54:29.899] runtime error: Cannot read null.species
+[2018-07-31 03:54:29.899] 
+[2018-07-31 03:54:29.946] runtime error: Cannot read null.armor
+[2018-07-31 03:54:29.946] 
+[2018-07-31 03:54:29.947] runtime error: Cannot read null.species
+[2018-07-31 03:54:29.947] 
+[2018-07-31 03:54:30.250] runtime error: Cannot read null.armor
+[2018-07-31 03:54:30.251] 
+[2018-07-31 03:54:30.251] runtime error: Cannot read null.species
+[2018-07-31 03:54:30.251] 
+[2018-07-31 03:54:30.251] runtime error: Cannot read null.species
+[2018-07-31 03:54:30.251] 
+[2018-07-31 03:54:30.253] runtime error: Cannot read null.armor
+[2018-07-31 03:54:30.253] 
+[2018-07-31 03:54:30.253] runtime error: Cannot read null.species
+[2018-07-31 03:54:30.253] 
+[2018-07-31 03:54:30.254] runtime error: Cannot read null.species
+[2018-07-31 03:54:30.254] 
+[2018-07-31 03:54:30.524] runtime error: Cannot read null.armor
+[2018-07-31 03:54:30.524] 
+[2018-07-31 03:54:30.525] runtime error: Cannot read null.species
+[2018-07-31 03:54:30.525] 
+[2018-07-31 03:54:30.821] runtime error: Cannot read null.species
+[2018-07-31 03:54:30.821] 
+[2018-07-31 03:54:46.745] runtime error: Cannot read null.species
+[2018-07-31 03:54:46.745] 
+[2018-07-31 03:54:47.434] runtime error: Cannot read null.species
+[2018-07-31 03:54:47.435] 
+[2018-07-31 03:54:47.991] runtime error: Cannot read null.species
+[2018-07-31 03:54:47.991] 
+[2018-07-31 03:54:48.089] runtime error: Cannot read null.species
+[2018-07-31 03:54:48.090] 
+[2018-07-31 03:54:48.406] runtime error: Cannot read null.species
+[2018-07-31 03:54:48.406] 
+[2018-07-31 03:54:50.407] runtime error: Cannot read null.species
+[2018-07-31 03:54:50.407] 
+[2018-07-31 03:54:52.892] runtime error: Cannot read null.species
+[2018-07-31 03:54:52.892] 
+[2018-07-31 03:55:15.952] runtime error: Cannot read null.species
+[2018-07-31 03:55:15.952] 
+[2018-07-31 03:55:36.579] runtime error: Cannot read null.species
+[2018-07-31 03:55:36.579] 
+[2018-07-31 03:55:36.831] runtime error: Cannot read null.species
+[2018-07-31 03:55:36.831] 
+[2018-07-31 04:03:43.558] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-31 04:03:43.558] 
+[2018-07-31 04:07:27.218] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-31 04:07:27.219] 
+[2018-07-31 04:19:17.743] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-31 04:19:17.743] 
+[2018-07-31 04:19:41.249] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-31 04:19:41.249] 
+[2018-07-31 04:19:41.250] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-31 04:19:41.250] 
+[2018-07-31 04:33:27.854] runtime error: Cannot execute null.getorganslot().
+[2018-07-31 04:33:27.854] 
+[2018-07-31 04:37:05.739] ## WARNING: couldn't find dock with id: pod_away in code/controllers/subsystem/shuttle.dm at line 165 src: Shuttle usr: .
+[2018-07-31 04:37:05.739] runtime error: Cannot execute null.get docked().
+[2018-07-31 04:37:05.739] 
+[2018-07-31 04:37:05.739] ## WARNING: couldn't find dock with id: pod_away in code/controllers/subsystem/shuttle.dm at line 165 src: Shuttle usr: .
+[2018-07-31 04:37:05.740] runtime error: Cannot execute null.get docked().
+[2018-07-31 04:37:05.740] 
+[2018-07-31 04:37:07.916] Saved 25 engraved messages on map Box Station
+[2018-07-31 04:38:44.365] Shutting down Persistence subsystem...
+[2018-07-31 04:38:44.366] Shutting down Pathfinder subsystem...
+[2018-07-31 04:38:44.366] Shutting down Squeak subsystem...
+[2018-07-31 04:38:44.366] Shutting down Shuttle subsystem...
+[2018-07-31 04:38:44.366] Shutting down Lighting subsystem...
+[2018-07-31 04:38:44.366] Shutting down XKeyScore subsystem...
+[2018-07-31 04:38:44.366] Shutting down Sticky Ban subsystem...
+[2018-07-31 04:38:44.366] Shutting down Overlay subsystem...
+[2018-07-31 04:38:44.429] Shutting down Icon Smoothing subsystem...
+[2018-07-31 04:38:44.430] Shutting down Assets subsystem...
+[2018-07-31 04:38:44.430] Shutting down Minimap subsystem...
+[2018-07-31 04:38:44.430] Shutting down Atmospherics subsystem...
+[2018-07-31 04:38:44.430] Shutting down Wet floors subsystem...
+[2018-07-31 04:38:44.430] Shutting down Weather subsystem...
+[2018-07-31 04:38:44.430] Shutting down Vote subsystem...
+[2018-07-31 04:38:44.430] Shutting down Traumas subsystem...
+[2018-07-31 04:38:44.430] Shutting down Title Screen subsystem...
+[2018-07-31 04:38:44.431] Shutting down Time Tracking subsystem...
+[2018-07-31 04:38:44.431] Shutting down Throwing subsystem...
+[2018-07-31 04:38:44.431] Shutting down tgui subsystem...
+[2018-07-31 04:38:44.431] Shutting down Sun subsystem...
+[2018-07-31 04:38:44.431] Shutting down Space Drift subsystem...
+[2018-07-31 04:38:44.432] Shutting down Religion subsystem...
+[2018-07-31 04:38:44.432] Shutting down Radio subsystem...
+[2018-07-31 04:38:44.432] Shutting down Radiation subsystem...
+[2018-07-31 04:38:44.432] Shutting down Projectiles subsystem...
+[2018-07-31 04:38:44.432] Shutting down Processing subsystem...
+[2018-07-31 04:38:44.432] Shutting down Ping subsystem...
+[2018-07-31 04:38:44.432] Shutting down Parallax subsystem...
+[2018-07-31 04:38:44.432] Shutting down pAI subsystem...
+[2018-07-31 04:38:44.432] Shutting down Orbits subsystem...
+[2018-07-31 04:38:44.432] Shutting down Objects subsystem...
+[2018-07-31 04:38:44.432] Shutting down NPC Pool subsystem...
+[2018-07-31 04:38:44.432] Shutting down Night Shift subsystem...
+[2018-07-31 04:38:44.432] Shutting down Mood subsystem...
+[2018-07-31 04:38:44.433] Shutting down Mobs subsystem...
+[2018-07-31 04:38:44.433] Shutting down Medals subsystem...
+[2018-07-31 04:38:44.433] Shutting down Idling NPC Pool subsystem...
+[2018-07-31 04:38:44.433] Shutting down Fire Burning subsystem...
+[2018-07-31 04:38:44.433] Shutting down Fields subsystem...
+[2018-07-31 04:38:44.433] Shutting down Fast Processing subsystem...
+[2018-07-31 04:38:44.433] Shutting down Disease subsystem...
+[2018-07-31 04:38:44.433] Shutting down Datum Component System subsystem...
+[2018-07-31 04:38:44.433] Shutting down Communications subsystem...
+[2018-07-31 04:38:44.433] Shutting down Augury subsystem...
+[2018-07-31 04:38:44.433] Shutting down Acid subsystem...
+[2018-07-31 04:38:44.433] Shutting down Timer subsystem...
+[2018-07-31 04:38:44.433] Shutting down Circuit subsystem...
+[2018-07-31 04:38:44.433] Shutting down Machines subsystem...
+[2018-07-31 04:38:44.434] Shutting down Language subsystem...
+[2018-07-31 04:38:44.434] Shutting down Atoms subsystem...
+[2018-07-31 04:38:44.435] Shutting down Networks subsystem...
+[2018-07-31 04:38:44.435] Shutting down Mapping subsystem...
+[2018-07-31 04:38:44.435] Shutting down Ticker subsystem...
+[2018-07-31 04:38:44.661] Shutting down Quirks subsystem...
+[2018-07-31 04:38:44.661] Shutting down Jobs subsystem...
+[2018-07-31 04:38:44.661] Shutting down Events subsystem...
+[2018-07-31 04:38:44.661] Shutting down Research subsystem...
+[2018-07-31 04:38:44.661] Shutting down Input subsystem...
+[2018-07-31 04:38:44.661] Shutting down Server Tasks subsystem...
+[2018-07-31 04:38:44.662] Shutting down Blackbox subsystem...
+[2018-07-31 04:38:44.933] Shutting down Database subsystem...
+[2018-07-31 04:38:44.970] Shutting down Garbage subsystem...
+[2018-07-31 04:38:45.083] Shutdown complete
+[2018-07-31 04:38:45.083] World rebooted at 04:38:45

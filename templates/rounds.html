@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block title %}Rounds{% endblock %}
+{% block active %}rounds{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="/static/css/rounds.css">
+<meta property="og:title" content="BeeStation - Rounds" />
+<meta property="og:description" content="BeeStation is a newbie friendly Space Station 13 server. The server was created in march 2018. We like to put a fun touch to the rounds to make a better experience." />
+{% endblock %}
+
+{% block content %}
+{% for round in rounds %}
+<div onclick="window.location='/round/{{ round["id"] }}'" class="round {% if round["crashed"] %}round-crashed{% endif %}">
+  <div class="round-header">Round {{ round["id"] }}<span class="round-integrity">{% if not round["crashed"] %}Score: {{ round["integrity"] }}%{% else %}Crashed!{% endif %}</span></div>
+{% if not round["crashed"] %}
+  <div class="round-stat"><b>Players:</b> {{ round["player_count"] }}</div>
+  <div class="round-stat"><b>Escaped:</b> {{ round["escaped_count"] }}</div>
+  <div class="round-stat"><b>Abandoned:</b> {{ round["abandoned_count"] }}</div>
+  <div class="round-stat"><b>Dead:</b> {{ round["death_count"] }}</div>
+{% endif %}
+</div>
+{% endfor %}
+{% if buttons[0] %}<a href="/rounds/{{page-1}}" class="button" style="float:left">&lt;</a>{% endif %}{% if buttons[1] %}<a href="/rounds/{{page+1}}" class="button" style="float:right">&gt;</a>{% endif %}
+<br>
+<div style="text-align: center;">page {{page}} of {{pages}}</div>
+{% endblock %}

@@ -1,0 +1,501 @@
+[2018-07-04 12:21:30.071] Starting up round ID 1420.
+[2018-07-04 12:21:30.072] -------------------------
+[2018-07-04 12:21:31.116] Initialized Database subsystem within 0 seconds!
+[2018-07-04 12:21:31.116] Initialized Blackbox subsystem within 0 seconds!
+[2018-07-04 12:21:31.116] Initialized Server Tasks subsystem within 0 seconds!
+[2018-07-04 12:21:31.116] Initialized Input subsystem within 0 seconds!
+[2018-07-04 12:21:31.142] Initialized Research subsystem within 0 seconds!
+[2018-07-04 12:21:31.146] Initialized Events subsystem within 0 seconds!
+[2018-07-04 12:21:31.149] Initialized Jobs subsystem within 0 seconds!
+[2018-07-04 12:21:31.150] Initialized Quirks subsystem within 0 seconds!
+[2018-07-04 12:21:31.153] Initialized Ticker subsystem within 0 seconds!
+[2018-07-04 12:21:31.153] Loading Box Station...
+[2018-07-04 12:21:35.772] Loaded Station in 4.6s!
+[2018-07-04 12:21:40.708] Loaded Lavaland in 4.6s!
+[2018-07-04 12:21:44.931] Ruin loader finished with 0 left to spend.
+[2018-07-04 12:21:47.067] Ruin loader finished with 0 left to spend.
+[2018-07-04 12:21:56.506] Initialized Mapping subsystem within 25.4 seconds!
+[2018-07-04 12:21:56.507] Initialized Networks subsystem within 0 seconds!
+[2018-07-04 12:22:36.518] Initialized Atoms subsystem within 40 seconds!
+[2018-07-04 12:22:36.534] Initialized Language subsystem within 0 seconds!
+[2018-07-04 12:22:36.818] Initialized Machines subsystem within 0.3 seconds!
+[2018-07-04 12:22:36.866] Initialized Circuit subsystem within 0 seconds!
+[2018-07-04 12:22:36.867] Initialized Disease subsystem within 0 seconds!
+[2018-07-04 12:22:36.867] Initialized Medals subsystem within 0 seconds!
+[2018-07-04 12:22:36.867] Initialized Night Shift subsystem within 0 seconds!
+[2018-07-04 12:22:36.868] Initialized Parallax subsystem within 0 seconds!
+[2018-07-04 12:22:36.993] Initialized Traumas subsystem within 0.1 seconds!
+[2018-07-04 12:22:36.994] Initialized Weather subsystem within 0 seconds!
+[2018-07-04 12:23:51.769] ## WARNING: There are 1 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+[2018-07-04 12:23:51.774] ## WARNING: HEY! LISTEN! 0 seconds were wasted processing 1 turf(s) (connected to 2 other turfs) with atmos differences at round start.
+[2018-07-04 12:23:52.250] Initialized Atmospherics subsystem within 75.3 seconds!
+[2018-07-04 12:23:52.265] Initialized Minimap subsystem within 0 seconds!
+[2018-07-04 12:23:53.865] Initialized Assets subsystem within 1.6 seconds!
+[2018-07-04 12:23:59.367] Initialized Icon Smoothing subsystem within 5.5 seconds!
+[2018-07-04 12:24:00.519] Initialized Overlay subsystem within 1.2 seconds!
+[2018-07-04 12:24:00.519] Initialized XKeyScore subsystem within 0 seconds!
+[2018-07-04 12:24:00.525] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-07-04 12:24:11.469] Initialized Lighting subsystem within 10.9 seconds!
+[2018-07-04 12:24:13.436] Initialized Shuttle subsystem within 2 seconds!
+[2018-07-04 12:24:13.470] Initialized Squeak subsystem within 0 seconds!
+[2018-07-04 12:24:13.471] Initialized Pathfinder subsystem within 0 seconds!
+[2018-07-04 12:24:13.522] Initialized Persistence subsystem within 0.1 seconds!
+[2018-07-04 12:24:13.522] Initializations complete within 162.4 seconds!
+[2018-07-04 13:39:29.304] Game start took 0.2s
+[2018-07-04 16:17:44.057] runtime error: Cannot read null.Uses
+[2018-07-04 16:17:44.057] proc name: delete extract (/datum/chemical_reaction/slime/proc/delete_extract)
+[2018-07-04 16:17:44.057]   source file: slime_extracts.dm,12
+[2018-07-04 16:17:44.057]   usr: Rose White (/mob/living/carbon/human)
+[2018-07-04 16:17:44.057]   src: Random Core (/datum/chemical_reaction/slime/slimeRNG)
+[2018-07-04 16:17:44.057]   usr.loc: the reinforced floor (166,97,2) (/turf/open/floor/engine)
+[2018-07-04 16:17:44.057]   call stack:
+[2018-07-04 16:17:44.058] Random Core (/datum/chemical_reaction/slime/slimeRNG): delete extract(/datum/reagents (/datum/reagents))
+[2018-07-04 16:17:44.058] Random Core (/datum/chemical_reaction/slime/slimeRNG): on reaction(/datum/reagents (/datum/reagents), 5)
+[2018-07-04 16:17:44.058] Random Core (/datum/chemical_reaction/slime/slimeRNG): on reaction(/datum/reagents (/datum/reagents), 5)
+[2018-07-04 16:17:44.058] /datum/reagents (/datum/reagents): handle reactions()
+[2018-07-04 16:17:44.058] /datum/reagents (/datum/reagents): trans to(the recurring rainbow extract (/obj/item/slime_extract/rainbow), 5, 1, 1, 0)
+[2018-07-04 16:17:44.058] the dropper (/obj/item/reagent_containers/dropper): afterattack(the recurring rainbow extract (/obj/item/slime_extract/rainbow), Rose White (/mob/living/carbon/human), 1, "icon-x=17;icon-y=17;left=1;scr...")
+[2018-07-04 16:17:44.058] the dropper (/obj/item/reagent_containers/dropper): melee attack chain(Rose White (/mob/living/carbon/human), the recurring rainbow extract (/obj/item/slime_extract/rainbow), "icon-x=17;icon-y=17;left=1;scr...")
+[2018-07-04 16:17:44.058] Rose White (/mob/living/carbon/human): ClickOn(the recurring rainbow extract (/obj/item/slime_extract/rainbow), "icon-x=17;icon-y=17;left=1;scr...")
+[2018-07-04 16:17:44.058] the recurring rainbow extract (/obj/item/slime_extract/rainbow): Click(null, "mapwindow.map", "icon-x=17;icon-y=17;left=1;scr...")
+[2018-07-04 16:17:44.058] Bobcat49 (/client): Click(the recurring rainbow extract (/obj/item/slime_extract/rainbow), null, "mapwindow.map", "icon-x=17;icon-y=17;left=1;scr...")
+[2018-07-04 16:17:44.058] 
+[2018-07-04 16:47:14.765] runtime error: undefined proc or verb /turf/open/floor/plating/dismantle wall().
+[2018-07-04 16:47:14.765] 
+[2018-07-04 16:47:14.765] proc name: attackby (/turf/closed/wall/mineral/wood/attackby)
+[2018-07-04 16:47:14.765]   source file: mineral_walls.dm,142
+[2018-07-04 16:47:14.765]   usr: Casimir Cressman (/mob/living/carbon/human)
+[2018-07-04 16:47:14.765]   src: the plating (70,95,5) (/turf/open/floor/plating)
+[2018-07-04 16:47:14.765]   usr.loc: the floor (70,96,5) (/turf/open/floor/wood)
+[2018-07-04 16:47:14.765]   call stack:
+[2018-07-04 16:47:14.765] the plating (70,95,5) (/turf/open/floor/plating): attackby(the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher), Casimir Cressman (/mob/living/carbon/human), "icon-x=18;icon-y=17;left=1;scr...")
+[2018-07-04 16:47:14.765] the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher): melee attack chain(Casimir Cressman (/mob/living/carbon/human), the plating (70,95,5) (/turf/open/floor/plating), "icon-x=18;icon-y=17;left=1;scr...")
+[2018-07-04 16:47:14.765] Casimir Cressman (/mob/living/carbon/human): ClickOn(the plating (70,95,5) (/turf/open/floor/plating), "icon-x=18;icon-y=17;left=1;scr...")
+[2018-07-04 16:47:14.765] the plating (70,95,5) (/turf/open/floor/plating): Click(the plating (70,95,5) (/turf/open/floor/plating), "mapwindow.map", "icon-x=18;icon-y=17;left=1;scr...")
+[2018-07-04 16:47:14.765] 
+[2018-07-04 16:47:14.965] runtime error: undefined proc or verb /turf/open/floor/plating/dismantle wall().
+[2018-07-04 16:47:14.965] 
+[2018-07-04 16:47:14.965] proc name: attackby (/turf/closed/wall/mineral/wood/attackby)
+[2018-07-04 16:47:14.965]   source file: mineral_walls.dm,142
+[2018-07-04 16:47:14.965]   usr: Casimir Cressman (/mob/living/carbon/human)
+[2018-07-04 16:47:14.965]   src: the plating (70,95,5) (/turf/open/floor/plating)
+[2018-07-04 16:47:14.965]   usr.loc: the floor (70,96,5) (/turf/open/floor/wood)
+[2018-07-04 16:47:14.965]   call stack:
+[2018-07-04 16:47:14.965] the plating (70,95,5) (/turf/open/floor/plating): attackby(the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher), Casimir Cressman (/mob/living/carbon/human), "icon-x=18;icon-y=-15;left=1;sc...")
+[2018-07-04 16:47:14.965] the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher): melee attack chain(Casimir Cressman (/mob/living/carbon/human), the plating (70,95,5) (/turf/open/floor/plating), "icon-x=18;icon-y=-15;left=1;sc...")
+[2018-07-04 16:47:14.965] Casimir Cressman (/mob/living/carbon/human): ClickOn(the plating (70,95,5) (/turf/open/floor/plating), "icon-x=18;icon-y=-15;left=1;sc...")
+[2018-07-04 16:47:14.965] the plating (70,95,5) (/turf/open/floor/plating): Click(the plating (70,95,5) (/turf/open/floor/plating), "mapwindow.map", "icon-x=18;icon-y=-15;left=1;sc...")
+[2018-07-04 16:47:14.965] 
+[2018-07-04 16:47:15.215] runtime error: undefined proc or verb /turf/open/floor/plating/dismantle wall().
+[2018-07-04 16:47:15.215] 
+[2018-07-04 16:47:15.215] proc name: attackby (/turf/closed/wall/mineral/wood/attackby)
+[2018-07-04 16:47:15.215]   source file: mineral_walls.dm,142
+[2018-07-04 16:47:15.215]   usr: Casimir Cressman (/mob/living/carbon/human)
+[2018-07-04 16:47:15.215]   src: the plating (70,95,5) (/turf/open/floor/plating)
+[2018-07-04 16:47:15.215]   usr.loc: the floor (70,96,5) (/turf/open/floor/wood)
+[2018-07-04 16:47:15.215]   call stack:
+[2018-07-04 16:47:15.215] the plating (70,95,5) (/turf/open/floor/plating): attackby(the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher), Casimir Cressman (/mob/living/carbon/human), "icon-x=18;icon-y=-21;left=1;sc...")
+[2018-07-04 16:47:15.215] the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher): melee attack chain(Casimir Cressman (/mob/living/carbon/human), the plating (70,95,5) (/turf/open/floor/plating), "icon-x=18;icon-y=-21;left=1;sc...")
+[2018-07-04 16:47:15.215] Casimir Cressman (/mob/living/carbon/human): ClickOn(the plating (70,95,5) (/turf/open/floor/plating), "icon-x=18;icon-y=-21;left=1;sc...")
+[2018-07-04 16:47:15.215] the plating (70,95,5) (/turf/open/floor/plating): Click(the plating (70,95,5) (/turf/open/floor/plating), "mapwindow.map", "icon-x=18;icon-y=-21;left=1;sc...")
+[2018-07-04 16:47:15.215] 
+[2018-07-04 16:51:20.669] runtime error: undefined proc or verb /turf/open/floor/plating/dismantle wall().
+[2018-07-04 16:51:20.669] 
+[2018-07-04 16:51:20.669] proc name: attackby (/turf/closed/wall/mineral/wood/attackby)
+[2018-07-04 16:51:20.669]   source file: mineral_walls.dm,142
+[2018-07-04 16:51:20.669]   usr: Casimir Cressman (/mob/living/carbon/human)
+[2018-07-04 16:51:20.669]   src: the plating (70,99,5) (/turf/open/floor/plating)
+[2018-07-04 16:51:20.669]   usr.loc: the floor (71,99,5) (/turf/open/floor/wood)
+[2018-07-04 16:51:20.669]   call stack:
+[2018-07-04 16:51:20.669] the plating (70,99,5) (/turf/open/floor/plating): attackby(the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher), Casimir Cressman (/mob/living/carbon/human), "icon-x=17;icon-y=21;left=1;scr...")
+[2018-07-04 16:51:20.669] the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher): melee attack chain(Casimir Cressman (/mob/living/carbon/human), the plating (70,99,5) (/turf/open/floor/plating), "icon-x=17;icon-y=21;left=1;scr...")
+[2018-07-04 16:51:20.669] Casimir Cressman (/mob/living/carbon/human): ClickOn(the plating (70,99,5) (/turf/open/floor/plating), "icon-x=17;icon-y=21;left=1;scr...")
+[2018-07-04 16:51:20.670] the plating (70,99,5) (/turf/open/floor/plating): Click(the plating (70,99,5) (/turf/open/floor/plating), "mapwindow.map", "icon-x=17;icon-y=21;left=1;scr...")
+[2018-07-04 16:51:20.670] 
+[2018-07-04 16:51:23.271] runtime error: undefined proc or verb /turf/open/floor/plating/dismantle wall().
+[2018-07-04 16:51:23.271] 
+[2018-07-04 16:51:23.271] proc name: attackby (/turf/closed/wall/mineral/wood/attackby)
+[2018-07-04 16:51:23.271]   source file: mineral_walls.dm,142
+[2018-07-04 16:51:23.271]   usr: Casimir Cressman (/mob/living/carbon/human)
+[2018-07-04 16:51:23.271]   src: the plating (70,99,5) (/turf/open/floor/plating)
+[2018-07-04 16:51:23.271]   usr.loc: the floor (71,99,5) (/turf/open/floor/wood)
+[2018-07-04 16:51:23.271]   call stack:
+[2018-07-04 16:51:23.271] the plating (70,99,5) (/turf/open/floor/plating): attackby(the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher), Casimir Cressman (/mob/living/carbon/human), "icon-x=15;icon-y=-17;left=1;sc...")
+[2018-07-04 16:51:23.271] the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher): melee attack chain(Casimir Cressman (/mob/living/carbon/human), the plating (70,99,5) (/turf/open/floor/plating), "icon-x=15;icon-y=-17;left=1;sc...")
+[2018-07-04 16:51:23.271] Casimir Cressman (/mob/living/carbon/human): ClickOn(the plating (70,99,5) (/turf/open/floor/plating), "icon-x=15;icon-y=-17;left=1;sc...")
+[2018-07-04 16:51:23.271] the plating (70,99,5) (/turf/open/floor/plating): Click(the plating (70,99,5) (/turf/open/floor/plating), "mapwindow.map", "icon-x=15;icon-y=-17;left=1;sc...")
+[2018-07-04 16:51:23.271] 
+[2018-07-04 16:51:38.319] runtime error: undefined proc or verb /turf/open/floor/plating/dismantle wall().
+[2018-07-04 16:51:38.319] 
+[2018-07-04 16:51:38.319] proc name: attackby (/turf/closed/wall/mineral/wood/attackby)
+[2018-07-04 16:51:38.319]   source file: mineral_walls.dm,142
+[2018-07-04 16:51:38.319]   usr: Casimir Cressman (/mob/living/carbon/human)
+[2018-07-04 16:51:38.319]   src: the plating (70,100,5) (/turf/open/floor/plating)
+[2018-07-04 16:51:38.319]   usr.loc: the floor (69,100,5) (/turf/open/floor/wood)
+[2018-07-04 16:51:38.319]   call stack:
+[2018-07-04 16:51:38.319] the plating (70,100,5) (/turf/open/floor/plating): attackby(the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher), Casimir Cressman (/mob/living/carbon/human), "icon-x=10;icon-y=-8;left=1;scr...")
+[2018-07-04 16:51:38.319] the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher): melee attack chain(Casimir Cressman (/mob/living/carbon/human), the plating (70,100,5) (/turf/open/floor/plating), "icon-x=10;icon-y=-8;left=1;scr...")
+[2018-07-04 16:51:38.319] Casimir Cressman (/mob/living/carbon/human): ClickOn(the plating (70,100,5) (/turf/open/floor/plating), "icon-x=10;icon-y=-8;left=1;scr...")
+[2018-07-04 16:51:38.319] the plating (70,100,5) (/turf/open/floor/plating): Click(the plating (70,100,5) (/turf/open/floor/plating), "mapwindow.map", "icon-x=10;icon-y=-8;left=1;scr...")
+[2018-07-04 16:51:38.319] 
+[2018-07-04 16:51:38.969] runtime error: undefined proc or verb /turf/open/floor/plating/dismantle wall().
+[2018-07-04 16:51:38.969] 
+[2018-07-04 16:51:38.969] proc name: attackby (/turf/closed/wall/mineral/wood/attackby)
+[2018-07-04 16:51:38.969]   source file: mineral_walls.dm,142
+[2018-07-04 16:51:38.969]   usr: Casimir Cressman (/mob/living/carbon/human)
+[2018-07-04 16:51:38.969]   src: the plating (69,101,5) (/turf/open/floor/plating)
+[2018-07-04 16:51:38.969]   usr.loc: the floor (69,100,5) (/turf/open/floor/wood)
+[2018-07-04 16:51:38.969]   call stack:
+[2018-07-04 16:51:38.969] the plating (69,101,5) (/turf/open/floor/plating): attackby(the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher), Casimir Cressman (/mob/living/carbon/human), "icon-x=24;icon-y=20;left=1;scr...")
+[2018-07-04 16:51:38.969] the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher): melee attack chain(Casimir Cressman (/mob/living/carbon/human), the plating (69,101,5) (/turf/open/floor/plating), "icon-x=24;icon-y=20;left=1;scr...")
+[2018-07-04 16:51:38.969] Casimir Cressman (/mob/living/carbon/human): ClickOn(the plating (69,101,5) (/turf/open/floor/plating), "icon-x=24;icon-y=20;left=1;scr...")
+[2018-07-04 16:51:38.969] the plating (69,101,5) (/turf/open/floor/plating): Click(the plating (69,101,5) (/turf/open/floor/plating), "mapwindow.map", "icon-x=24;icon-y=20;left=1;scr...")
+[2018-07-04 16:51:38.969] 
+[2018-07-04 16:51:39.271] runtime error: undefined proc or verb /turf/open/floor/plating/dismantle wall().
+[2018-07-04 16:51:39.271] 
+[2018-07-04 16:51:39.271] proc name: attackby (/turf/closed/wall/mineral/wood/attackby)
+[2018-07-04 16:51:39.271]   source file: mineral_walls.dm,142
+[2018-07-04 16:51:39.271]   usr: Casimir Cressman (/mob/living/carbon/human)
+[2018-07-04 16:51:39.271]   src: the plating (69,101,5) (/turf/open/floor/plating)
+[2018-07-04 16:51:39.271]   usr.loc: the floor (69,100,5) (/turf/open/floor/wood)
+[2018-07-04 16:51:39.271]   call stack:
+[2018-07-04 16:51:39.271] the plating (69,101,5) (/turf/open/floor/plating): attackby(the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher), Casimir Cressman (/mob/living/carbon/human), "icon-x=24;icon-y=-18;left=1;sc...")
+[2018-07-04 16:51:39.271] the proto-kinetic crusher (Wie... (/obj/item/twohanded/required/kinetic_crusher): melee attack chain(Casimir Cressman (/mob/living/carbon/human), the plating (69,101,5) (/turf/open/floor/plating), "icon-x=24;icon-y=-18;left=1;sc...")
+[2018-07-04 16:51:39.271] Casimir Cressman (/mob/living/carbon/human): ClickOn(the plating (69,101,5) (/turf/open/floor/plating), "icon-x=24;icon-y=-18;left=1;sc...")
+[2018-07-04 16:51:39.271] the plating (69,101,5) (/turf/open/floor/plating): Click(the plating (69,101,5) (/turf/open/floor/plating), "mapwindow.map", "icon-x=24;icon-y=-18;left=1;sc...")
+[2018-07-04 16:51:39.271] 
+[2018-07-04 16:52:55.855] runtime error: The airtight hatch taking damage after deletion
+[2018-07-04 16:52:55.855] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 16:52:55.855]   source file: unsorted.dm,1243
+[2018-07-04 16:52:55.855]   usr: null
+[2018-07-04 16:52:55.855]   src: the airtight hatch (/obj/machinery/door/airlock/hatch)
+[2018-07-04 16:52:55.855]   src.loc: null
+[2018-07-04 16:52:55.855]   call stack:
+[2018-07-04 16:52:55.855] the airtight hatch (/obj/machinery/door/airlock/hatch): stack trace("The airtight hatch taking dama...")
+[2018-07-04 16:52:55.855] the airtight hatch (/obj/machinery/door/airlock/hatch): take damage(20, "fire", "laser", 0, 8, 0)
+[2018-07-04 16:52:55.855] the airtight hatch (/obj/machinery/door/airlock/hatch): take damage(20, "fire", "laser", 0, 8, 0)
+[2018-07-04 16:52:55.855] the airtight hatch (/obj/machinery/door/airlock/hatch): take damage(20, "fire", "laser", 0, 8, 0)
+[2018-07-04 16:52:55.855] the airtight hatch (/obj/machinery/door/airlock/hatch): bullet act(the laser (/obj/item/projectile/beam/laser), "l_arm")
+[2018-07-04 16:52:55.855] the laser (/obj/item/projectile/beam/laser): Collide(the airtight hatch (/obj/machinery/door/airlock/hatch))
+[2018-07-04 16:52:55.855] the laser (/obj/item/projectile/beam/laser): pixel move(1, 1, 0)
+[2018-07-04 16:52:55.855] the laser (/obj/item/projectile/beam/laser): process(1)
+[2018-07-04 16:52:55.855] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-04 16:52:55.855] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-04 16:52:55.855] Master (/datum/controller/master): RunQueue()
+[2018-07-04 16:52:55.855] Master (/datum/controller/master): Loop()
+[2018-07-04 16:52:55.855] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 16:52:55.855] 
+[2018-07-04 17:00:28.484] runtime error: list index out of bounds
+[2018-07-04 17:00:28.484] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-04 17:00:28.484]   source file: customizables.dm,122
+[2018-07-04 17:00:28.484]   usr: Benny Tequila (/mob/living/carbon/human)
+[2018-07-04 17:00:28.484]   src: the burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-04 17:00:28.484]   usr.loc: the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:00:28.484]   src.loc: the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:00:28.484]   call stack:
+[2018-07-04 17:00:28.484] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the synthmeat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain))
+[2018-07-04 17:00:28.484] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the synthmeat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Benny Tequila (/mob/living/carbon/human), null)
+[2018-07-04 17:00:28.484] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): initialize custom food(the bun (/obj/item/reagent_containers/food/snacks/bun), the synthmeat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Benny Tequila (/mob/living/carbon/human))
+[2018-07-04 17:00:28.484] the bun (/obj/item/reagent_containers/food/snacks/bun): attackby(the synthmeat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Benny Tequila (/mob/living/carbon/human), "icon-x=17;icon-y=17;left=1;scr...")
+[2018-07-04 17:00:28.484] the synthmeat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain): melee attack chain(Benny Tequila (/mob/living/carbon/human), the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=17;icon-y=17;left=1;scr...")
+[2018-07-04 17:00:28.484] Benny Tequila (/mob/living/carbon/human): ClickOn(the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=17;icon-y=17;left=1;scr...")
+[2018-07-04 17:00:28.484] the bun (/obj/item/reagent_containers/food/snacks/bun): Click(the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=17;icon-y=17;left=1;scr...")
+[2018-07-04 17:00:28.484] Mr.Cheese1 (/client): Click(the bun (/obj/item/reagent_containers/food/snacks/bun), the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=17;icon-y=17;left=1;scr...")
+[2018-07-04 17:00:28.484] 
+[2018-07-04 17:01:12.065] runtime error: list index out of bounds
+[2018-07-04 17:01:12.065] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-04 17:01:12.065]   source file: customizables.dm,122
+[2018-07-04 17:01:12.065]   usr: Benny Tequila (/mob/living/carbon/human)
+[2018-07-04 17:01:12.065]   src: the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-04 17:01:12.065]   usr.loc: the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:01:12.065]   src.loc: the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:01:12.065]   call stack:
+[2018-07-04 17:01:12.065] the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the piece of bacon (/obj/item/reagent_containers/food/snacks/meat/bacon))
+[2018-07-04 17:01:12.065] the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the piece of bacon (/obj/item/reagent_containers/food/snacks/meat/bacon), Benny Tequila (/mob/living/carbon/human), "icon-x=14;icon-y=12;left=1;scr...")
+[2018-07-04 17:01:12.065] the piece of bacon (/obj/item/reagent_containers/food/snacks/meat/bacon): melee attack chain(Benny Tequila (/mob/living/carbon/human), the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=14;icon-y=12;left=1;scr...")
+[2018-07-04 17:01:12.065] Benny Tequila (/mob/living/carbon/human): ClickOn(the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=14;icon-y=12;left=1;scr...")
+[2018-07-04 17:01:12.065] the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger): Click(the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=14;icon-y=12;left=1;scr...")
+[2018-07-04 17:01:12.065] Mr.Cheese1 (/client): Click(the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger), the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=14;icon-y=12;left=1;scr...")
+[2018-07-04 17:01:12.065] 
+[2018-07-04 17:01:13.509] runtime error: list index out of bounds
+[2018-07-04 17:01:13.509] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-04 17:01:13.509]   source file: customizables.dm,122
+[2018-07-04 17:01:13.509]   usr: Benny Tequila (/mob/living/carbon/human)
+[2018-07-04 17:01:13.509]   src: the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-04 17:01:13.509]   usr.loc: the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:01:13.509]   src.loc: the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:01:13.509]   call stack:
+[2018-07-04 17:01:13.509] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the piece of bacon (/obj/item/reagent_containers/food/snacks/meat/bacon))
+[2018-07-04 17:01:13.509] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the piece of bacon (/obj/item/reagent_containers/food/snacks/meat/bacon), Benny Tequila (/mob/living/carbon/human), "icon-x=14;icon-y=12;left=1;scr...")
+[2018-07-04 17:01:13.509] the piece of bacon (/obj/item/reagent_containers/food/snacks/meat/bacon): melee attack chain(Benny Tequila (/mob/living/carbon/human), the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=14;icon-y=12;left=1;scr...")
+[2018-07-04 17:01:13.509] Benny Tequila (/mob/living/carbon/human): ClickOn(the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=14;icon-y=12;left=1;scr...")
+[2018-07-04 17:01:13.509] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): Click(the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=14;icon-y=12;left=1;scr...")
+[2018-07-04 17:01:13.509] Mr.Cheese1 (/client): Click(the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=14;icon-y=12;left=1;scr...")
+[2018-07-04 17:01:13.509] 
+[2018-07-04 17:01:54.929] runtime error: list index out of bounds
+[2018-07-04 17:01:54.929] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-04 17:01:54.929]   source file: customizables.dm,122
+[2018-07-04 17:01:54.929]   usr: Benny Tequila (/mob/living/carbon/human)
+[2018-07-04 17:01:54.929]   src: the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-04 17:01:54.929]   usr.loc: the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:01:54.929]   src.loc: the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:01:54.929]   call stack:
+[2018-07-04 17:01:54.929] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the cheese wedge (/obj/item/reagent_containers/food/snacks/cheesewedge))
+[2018-07-04 17:01:54.929] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the cheese wedge (/obj/item/reagent_containers/food/snacks/cheesewedge), Benny Tequila (/mob/living/carbon/human), "icon-x=18;icon-y=13;left=1;scr...")
+[2018-07-04 17:01:54.929] the cheese wedge (/obj/item/reagent_containers/food/snacks/cheesewedge): melee attack chain(Benny Tequila (/mob/living/carbon/human), the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=18;icon-y=13;left=1;scr...")
+[2018-07-04 17:01:54.929] Benny Tequila (/mob/living/carbon/human): ClickOn(the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=18;icon-y=13;left=1;scr...")
+[2018-07-04 17:01:54.929] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): Click(the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=18;icon-y=13;left=1;scr...")
+[2018-07-04 17:01:54.929] Mr.Cheese1 (/client): Click(the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=18;icon-y=13;left=1;scr...")
+[2018-07-04 17:01:54.929] 
+[2018-07-04 17:02:09.088] runtime error: list index out of bounds
+[2018-07-04 17:02:09.088] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-04 17:02:09.088]   source file: customizables.dm,122
+[2018-07-04 17:02:09.088]   usr: Benny Tequila (/mob/living/carbon/human)
+[2018-07-04 17:02:09.088]   src: the burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-04 17:02:09.088]   usr.loc: the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:02:09.088]   src.loc: the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:02:09.088]   call stack:
+[2018-07-04 17:02:09.088] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the synthmeat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain))
+[2018-07-04 17:02:09.088] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the synthmeat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Benny Tequila (/mob/living/carbon/human), null)
+[2018-07-04 17:02:09.088] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): initialize custom food(the bun (/obj/item/reagent_containers/food/snacks/bun), the synthmeat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Benny Tequila (/mob/living/carbon/human))
+[2018-07-04 17:02:09.088] the bun (/obj/item/reagent_containers/food/snacks/bun): attackby(the synthmeat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Benny Tequila (/mob/living/carbon/human), "icon-x=18;icon-y=13;left=1;scr...")
+[2018-07-04 17:02:09.088] the synthmeat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain): melee attack chain(Benny Tequila (/mob/living/carbon/human), the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=18;icon-y=13;left=1;scr...")
+[2018-07-04 17:02:09.088] Benny Tequila (/mob/living/carbon/human): ClickOn(the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=18;icon-y=13;left=1;scr...")
+[2018-07-04 17:02:09.088] the bun (/obj/item/reagent_containers/food/snacks/bun): Click(the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=18;icon-y=13;left=1;scr...")
+[2018-07-04 17:02:09.088] Mr.Cheese1 (/client): Click(the bun (/obj/item/reagent_containers/food/snacks/bun), the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=18;icon-y=13;left=1;scr...")
+[2018-07-04 17:02:09.088] 
+[2018-07-04 17:02:12.920] runtime error: list index out of bounds
+[2018-07-04 17:02:12.920] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-04 17:02:12.920]   source file: customizables.dm,122
+[2018-07-04 17:02:12.920]   usr: Benny Tequila (/mob/living/carbon/human)
+[2018-07-04 17:02:12.920]   src: the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-04 17:02:12.920]   usr.loc: the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:02:12.920]   src.loc: the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:02:12.920]   call stack:
+[2018-07-04 17:02:12.920] the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the cheese wedge (/obj/item/reagent_containers/food/snacks/cheesewedge))
+[2018-07-04 17:02:12.920] the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the cheese wedge (/obj/item/reagent_containers/food/snacks/cheesewedge), Benny Tequila (/mob/living/carbon/human), "icon-x=16;icon-y=12;left=1;scr...")
+[2018-07-04 17:02:12.920] the cheese wedge (/obj/item/reagent_containers/food/snacks/cheesewedge): melee attack chain(Benny Tequila (/mob/living/carbon/human), the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=16;icon-y=12;left=1;scr...")
+[2018-07-04 17:02:12.920] Benny Tequila (/mob/living/carbon/human): ClickOn(the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=16;icon-y=12;left=1;scr...")
+[2018-07-04 17:02:12.920] the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger): Click(the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=16;icon-y=12;left=1;scr...")
+[2018-07-04 17:02:12.920] Mr.Cheese1 (/client): Click(the synthmeat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger), the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=16;icon-y=12;left=1;scr...")
+[2018-07-04 17:02:12.920] 
+[2018-07-04 17:02:15.999] runtime error: list index out of bounds
+[2018-07-04 17:02:15.999] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-04 17:02:15.999]   source file: customizables.dm,122
+[2018-07-04 17:02:15.999]   usr: Benny Tequila (/mob/living/carbon/human)
+[2018-07-04 17:02:15.999]   src: the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-04 17:02:15.999]   usr.loc: the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:02:15.999]   src.loc: the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-04 17:02:15.999]   call stack:
+[2018-07-04 17:02:15.999] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the piece of bacon (/obj/item/reagent_containers/food/snacks/meat/bacon))
+[2018-07-04 17:02:15.999] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the piece of bacon (/obj/item/reagent_containers/food/snacks/meat/bacon), Benny Tequila (/mob/living/carbon/human), "icon-x=19;icon-y=16;left=1;scr...")
+[2018-07-04 17:02:15.999] the piece of bacon (/obj/item/reagent_containers/food/snacks/meat/bacon): melee attack chain(Benny Tequila (/mob/living/carbon/human), the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=19;icon-y=16;left=1;scr...")
+[2018-07-04 17:02:15.999] Benny Tequila (/mob/living/carbon/human): ClickOn(the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=19;icon-y=16;left=1;scr...")
+[2018-07-04 17:02:15.999] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): Click(the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=19;icon-y=16;left=1;scr...")
+[2018-07-04 17:02:15.999] Mr.Cheese1 (/client): Click(the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=19;icon-y=16;left=1;scr...")
+[2018-07-04 17:02:15.999] 
+[2018-07-04 17:02:16.350] runtime error: list index out of bounds
+[2018-07-04 17:02:16.350] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-04 17:02:16.350]   source file: customizables.dm,122
+[2018-07-04 17:02:16.350] 
+[2018-07-04 17:15:20.104] runtime error: list index out of bounds
+[2018-07-04 17:15:20.104] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-04 17:15:20.104]   source file: customizables.dm,122
+[2018-07-04 17:15:20.104] 
+[2018-07-04 17:28:16.366] runtime error: Ghostize was called on a virtual reality mob
+[2018-07-04 17:28:16.366] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 17:28:16.366]   source file: unsorted.dm,1243
+[2018-07-04 17:28:16.366] 
+[2018-07-04 17:37:26.514] ## WARNING: couldn't find shuttle with id: syndie_cargo in code/controllers/subsystem/shuttle.dm at line 159 src: Shuttle usr: Ava Ackerley.
+[2018-07-04 17:37:26.669] ## WARNING: couldn't find shuttle with id: syndie_cargo in code/controllers/subsystem/shuttle.dm at line 159 src: Shuttle usr: Ava Ackerley.
+[2018-07-04 18:01:24.437] runtime error: The respawnable barrier taking damage after deletion
+[2018-07-04 18:01:24.437] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:01:24.437]   source file: unsorted.dm,1243
+[2018-07-04 18:01:24.437] 
+[2018-07-04 18:01:24.438] runtime error: The respawnable barrier taking damage after deletion
+[2018-07-04 18:01:24.438] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:01:24.438]   source file: unsorted.dm,1243
+[2018-07-04 18:01:24.438] 
+[2018-07-04 18:01:26.893] runtime error: The respawnable barrier taking damage after deletion
+[2018-07-04 18:01:26.893] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:01:26.893]   source file: unsorted.dm,1243
+[2018-07-04 18:01:26.893] 
+[2018-07-04 18:01:26.894] runtime error: The respawnable barrier taking damage after deletion
+[2018-07-04 18:01:26.894] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:01:26.894]   source file: unsorted.dm,1243
+[2018-07-04 18:01:26.894] 
+[2018-07-04 18:01:26.894] runtime error: The respawnable barrier taking damage after deletion
+[2018-07-04 18:01:26.894] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:01:26.894]   source file: unsorted.dm,1243
+[2018-07-04 18:01:26.894] 
+[2018-07-04 18:01:27.841] runtime error: The respawnable barrier taking damage after deletion
+[2018-07-04 18:01:27.841] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:01:27.841]   source file: unsorted.dm,1243
+[2018-07-04 18:01:27.841] 
+[2018-07-04 18:01:27.842] runtime error: The respawnable barrier taking damage after deletion
+[2018-07-04 18:01:27.842] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:01:27.842]   source file: unsorted.dm,1243
+[2018-07-04 18:01:27.842] 
+[2018-07-04 18:01:27.842] runtime error: The respawnable barrier taking damage after deletion
+[2018-07-04 18:01:27.842] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:01:27.842]   source file: unsorted.dm,1243
+[2018-07-04 18:01:27.842] 
+[2018-07-04 18:01:43.347] runtime error: The respawnable barrier taking damage after deletion
+[2018-07-04 18:01:43.347] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:01:43.347]   source file: unsorted.dm,1243
+[2018-07-04 18:01:43.347] 
+[2018-07-04 18:01:43.745] runtime error: The respawnable barrier taking damage after deletion
+[2018-07-04 18:01:43.745] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:01:43.745]   source file: unsorted.dm,1243
+[2018-07-04 18:01:43.745] 
+[2018-07-04 18:01:53.842] runtime error: Ghostize was called on a virtual reality mob
+[2018-07-04 18:01:53.842] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:01:53.842]   source file: unsorted.dm,1243
+[2018-07-04 18:01:53.842] 
+[2018-07-04 18:13:00.864] runtime error: Cannot execute null.get bodypart().
+[2018-07-04 18:13:00.864] proc name: Activate (/datum/symptom/itching/Activate)
+[2018-07-04 18:13:00.864]   source file: itching.dm,49
+[2018-07-04 18:13:00.864] 
+[2018-07-04 18:13:37.003] runtime error: Cannot execute null.get bodypart().
+[2018-07-04 18:13:37.003] proc name: Activate (/datum/symptom/itching/Activate)
+[2018-07-04 18:13:37.003]   source file: itching.dm,49
+[2018-07-04 18:13:37.003] 
+[2018-07-04 18:14:07.066] runtime error: Cannot execute null.emote().
+[2018-07-04 18:14:07.066] proc name: Activate (/datum/symptom/cough/Activate)
+[2018-07-04 18:14:07.066]   source file: cough.dm,61
+[2018-07-04 18:14:07.066] 
+[2018-07-04 18:14:07.066] runtime error: Cannot execute null.get bodypart().
+[2018-07-04 18:14:07.066] proc name: Activate (/datum/symptom/itching/Activate)
+[2018-07-04 18:14:07.066]   source file: itching.dm,49
+[2018-07-04 18:14:07.066] 
+[2018-07-04 18:14:57.182] runtime error: Cannot execute null.get bodypart().
+[2018-07-04 18:14:57.182] proc name: Activate (/datum/symptom/itching/Activate)
+[2018-07-04 18:14:57.182]   source file: itching.dm,49
+[2018-07-04 18:14:57.182] 
+[2018-07-04 18:16:33.539] runtime error: The shuttle window taking damage after deletion
+[2018-07-04 18:16:33.540] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:16:33.540]   source file: unsorted.dm,1243
+[2018-07-04 18:16:33.540] 
+[2018-07-04 18:16:39.264] runtime error: The shuttle window taking damage after deletion
+[2018-07-04 18:16:39.264] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:16:39.264]   source file: unsorted.dm,1243
+[2018-07-04 18:16:39.264] 
+[2018-07-04 18:21:53.522] runtime error: Ghostize was called on a virtual reality mob
+[2018-07-04 18:21:53.522] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:21:53.522]   source file: unsorted.dm,1243
+[2018-07-04 18:21:53.522] 
+[2018-07-04 18:23:00.479] runtime error: Ghostize was called on a virtual reality mob
+[2018-07-04 18:23:00.479] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:23:00.479]   source file: unsorted.dm,1243
+[2018-07-04 18:23:00.479] 
+[2018-07-04 18:28:55.901] runtime error: The respawnable barrier taking damage after deletion
+[2018-07-04 18:28:55.901] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:28:55.901]   source file: unsorted.dm,1243
+[2018-07-04 18:28:55.901] 
+[2018-07-04 18:28:57.004] runtime error: The respawnable barrier taking damage after deletion
+[2018-07-04 18:28:57.004] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:28:57.004]   source file: unsorted.dm,1243
+[2018-07-04 18:28:57.004] 
+[2018-07-04 18:31:01.371] runtime error: The rack taking damage after deletion
+[2018-07-04 18:31:01.371] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 18:31:01.371]   source file: unsorted.dm,1243
+[2018-07-04 18:31:01.371] 
+[2018-07-04 18:46:24.661] runtime error: Cannot read null.species
+[2018-07-04 18:46:24.661] proc name: handle environment (/mob/living/carbon/human/handle_environment)
+[2018-07-04 18:46:24.661]   source file: life.dm,112
+[2018-07-04 18:46:24.661] 
+[2018-07-04 18:46:24.661] runtime error: Cannot read null.species
+[2018-07-04 18:46:24.662] proc name: mob negates gravity (/mob/living/carbon/human/mob_negates_gravity)
+[2018-07-04 18:46:24.662]   source file: human_movement.dm,35
+[2018-07-04 18:46:24.662] 
+[2018-07-04 18:46:24.662] runtime error: Cannot read null.mutations
+[2018-07-04 18:46:24.662] proc name: handle active genes (/mob/living/carbon/human/proc/handle_active_genes)
+[2018-07-04 18:46:24.662]   source file: life.dm,299
+[2018-07-04 18:46:24.662] 
+[2018-07-04 18:46:24.662] runtime error: Cannot read null.species
+[2018-07-04 18:46:24.662] proc name: Life (/mob/living/carbon/human/Life)
+[2018-07-04 18:46:24.662]   source file: life.dm,40
+[2018-07-04 18:46:24.662] 
+[2018-07-04 18:50:42.012] runtime error: pick() from empty list
+[2018-07-04 18:50:42.012] proc name: stage act (/datum/disease/transformation/stage_act)
+[2018-07-04 18:50:42.012]   source file: transformation.dm,35
+[2018-07-04 18:50:42.012] 
+[2018-07-04 18:50:46.821] Saved 0 engraved messages on map Box Station
+[2018-07-04 18:50:48.550] runtime error: pick() from empty list
+[2018-07-04 18:50:48.550] proc name: stage act (/datum/disease/transformation/stage_act)
+[2018-07-04 18:50:48.550]   source file: transformation.dm,35
+[2018-07-04 18:50:48.550] 
+[2018-07-04 18:51:02.627] runtime error: pick() from empty list
+[2018-07-04 18:51:02.627] proc name: stage act (/datum/disease/transformation/stage_act)
+[2018-07-04 18:51:02.627]   source file: transformation.dm,35
+[2018-07-04 18:51:02.627] 
+[2018-07-04 18:51:08.631] runtime error: pick() from empty list
+[2018-07-04 18:51:08.631] proc name: stage act (/datum/disease/transformation/stage_act)
+[2018-07-04 18:51:08.631]   source file: transformation.dm,35
+[2018-07-04 18:51:08.631] 
+[2018-07-04 18:52:23.741] Shutting down Persistence subsystem...
+[2018-07-04 18:52:23.742] Shutting down Pathfinder subsystem...
+[2018-07-04 18:52:23.742] Shutting down Squeak subsystem...
+[2018-07-04 18:52:23.742] Shutting down Shuttle subsystem...
+[2018-07-04 18:52:23.742] Shutting down Lighting subsystem...
+[2018-07-04 18:52:23.742] Shutting down XKeyScore subsystem...
+[2018-07-04 18:52:23.742] Shutting down Sticky Ban subsystem...
+[2018-07-04 18:52:23.742] Shutting down Overlay subsystem...
+[2018-07-04 18:52:23.780] Shutting down Icon Smoothing subsystem...
+[2018-07-04 18:52:23.780] Shutting down Assets subsystem...
+[2018-07-04 18:52:23.780] Shutting down Minimap subsystem...
+[2018-07-04 18:52:23.780] Shutting down Atmospherics subsystem...
+[2018-07-04 18:52:23.780] Shutting down Wet floors subsystem...
+[2018-07-04 18:52:23.780] Shutting down Weather subsystem...
+[2018-07-04 18:52:23.780] Shutting down Vote subsystem...
+[2018-07-04 18:52:23.780] Shutting down Traumas subsystem...
+[2018-07-04 18:52:23.780] Shutting down Title Screen subsystem...
+[2018-07-04 18:52:23.781] Shutting down Time Tracking subsystem...
+[2018-07-04 18:52:23.781] Shutting down Throwing subsystem...
+[2018-07-04 18:52:23.781] Shutting down tgui subsystem...
+[2018-07-04 18:52:23.781] Shutting down Sun subsystem...
+[2018-07-04 18:52:23.781] Shutting down Space Drift subsystem...
+[2018-07-04 18:52:23.781] Shutting down Religion subsystem...
+[2018-07-04 18:52:23.781] Shutting down Radio subsystem...
+[2018-07-04 18:52:23.781] Shutting down Radiation subsystem...
+[2018-07-04 18:52:23.782] Shutting down Projectiles subsystem...
+[2018-07-04 18:52:23.782] Shutting down Processing subsystem...
+[2018-07-04 18:52:23.782] Shutting down Ping subsystem...
+[2018-07-04 18:52:23.782] Shutting down Parallax subsystem...
+[2018-07-04 18:52:23.782] Shutting down pAI subsystem...
+[2018-07-04 18:52:23.782] Shutting down Orbits subsystem...
+[2018-07-04 18:52:23.782] Shutting down Objects subsystem...
+[2018-07-04 18:52:23.782] Shutting down NPC Pool subsystem...
+[2018-07-04 18:52:23.782] Shutting down Night Shift subsystem...
+[2018-07-04 18:52:23.782] Shutting down Mood subsystem...
+[2018-07-04 18:52:23.782] Shutting down Mobs subsystem...
+[2018-07-04 18:52:23.782] Shutting down Medals subsystem...
+[2018-07-04 18:52:23.782] Shutting down Idling NPC Pool subsystem...
+[2018-07-04 18:52:23.782] Shutting down Flightpack Movement subsystem...
+[2018-07-04 18:52:23.782] Shutting down Fire Burning subsystem...
+[2018-07-04 18:52:23.782] Shutting down Fields subsystem...
+[2018-07-04 18:52:23.782] Shutting down Fast Processing subsystem...
+[2018-07-04 18:52:23.782] Shutting down Disease subsystem...
+[2018-07-04 18:52:23.782] Shutting down Datum Component System subsystem...
+[2018-07-04 18:52:23.782] Shutting down Communications subsystem...
+[2018-07-04 18:52:23.782] Shutting down Augury subsystem...
+[2018-07-04 18:52:23.782] Shutting down Acid subsystem...
+[2018-07-04 18:52:23.782] Shutting down Timer subsystem...
+[2018-07-04 18:52:23.782] Shutting down Circuit subsystem...
+[2018-07-04 18:52:23.782] Shutting down Machines subsystem...
+[2018-07-04 18:52:23.782] Shutting down Language subsystem...
+[2018-07-04 18:52:23.782] Shutting down Atoms subsystem...
+[2018-07-04 18:52:23.782] Shutting down Networks subsystem...
+[2018-07-04 18:52:23.782] Shutting down Mapping subsystem...
+[2018-07-04 18:52:23.782] Shutting down Ticker subsystem...
+[2018-07-04 18:52:23.905] Shutting down Quirks subsystem...
+[2018-07-04 18:52:23.906] Shutting down Jobs subsystem...
+[2018-07-04 18:52:23.906] Shutting down Events subsystem...
+[2018-07-04 18:52:23.906] Shutting down Research subsystem...
+[2018-07-04 18:52:23.906] Shutting down Input subsystem...
+[2018-07-04 18:52:23.906] Shutting down Server Tasks subsystem...
+[2018-07-04 18:52:23.906] Shutting down Blackbox subsystem...
+[2018-07-04 18:52:24.031] Shutting down Database subsystem...
+[2018-07-04 18:52:24.067] Shutting down Garbage subsystem...
+[2018-07-04 18:52:24.188] Shutdown complete
+[2018-07-04 18:52:24.188] World rebooted at 18:52:24

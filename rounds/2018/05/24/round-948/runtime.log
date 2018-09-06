@@ -1,0 +1,915 @@
+
+
+Starting up round ID 948. 16:38:41
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0.1 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 5.2s!
+Loaded Lavaland in 11.9s!
+Loaded Reebe in 8s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 34.8 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[16:39:24]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[16:39:24]proc name: stack trace (/datum/proc/stack_trace)
+[16:39:24]  source file: unsorted.dm,1257
+[16:39:24]  usr: null
+[16:39:24]  src: Vacant Office APC (/obj/machinery/power/apc)
+[16:39:24]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[16:39:24]  call stack:
+[16:39:24]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[16:39:24]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[16:39:24]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[16:39:24]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[16:39:24]Atoms (/datum/controller/subsystem/atoms): Initialize(599572)
+[16:39:24]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 50.7 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 19 seconds!
+Initialized Minimap subsystem within 0.4 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 7 seconds!
+Initialized Overlay subsystem within 22.2 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 14.8 seconds!
+Initialized Shuttle subsystem within 26.4 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 121 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 177.1 seconds!
+runtime error: 
+[16:42:56]Cannot read null.species
+[16:42:56]proc name: attach limb (/obj/item/bodypart/proc/attach_limb)
+[16:42:56]  source file: dismemberment.dm,278
+[16:42:56]  usr: null
+[16:42:56]  src: the surplus prosthetic right a... (/obj/item/bodypart/r_arm/robot/surplus)
+[16:42:56]  src.loc: null
+[16:42:56]  call stack:
+[16:42:56]the surplus prosthetic right a... (/obj/item/bodypart/r_arm/robot/surplus): attach limb( (/mob/living/carbon/human), null)
+[16:42:56]the surplus prosthetic right a... (/obj/item/bodypart/r_arm/robot/surplus): replace limb( (/mob/living/carbon/human), null)
+[16:42:56]Prosthetic Limb (/datum/trait/prosthetic_limb): on spawn()
+[16:42:56]Prosthetic Limb (/datum/trait/prosthetic_limb): New( (/mob/living/carbon/human), 1)
+[16:42:56] (/mob/living/carbon/human): add trait datum("Prosthetic Limb", 1)
+[16:42:56]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), HaggisShuu (/client), 1)
+[16:42:56]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[16:42:56]Ticker (/datum/controller/subsystem/ticker): setup()
+[16:42:56]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[16:42:56]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+runtime error: 
+[16:42:56]addtimer called with a callback assigned to a qdeleted object
+[16:42:56]proc name: stack trace (/proc/stack_trace)
+[16:42:56]  source file: unsorted.dm,1254
+[16:42:56]  usr: (src)
+[16:42:56]  src: null
+[16:42:56]  call stack:
+[16:42:56]stack trace("addtimer called with a callbac...")
+[16:42:56]addtimer(/datum/callback (/datum/callback), 10, 4)
+[16:42:56] (/mob/living/carbon/human): clear fullscreen("nearsighted", 10)
+[16:42:56] (/mob/living/carbon/human): equip to slot(the prescription glasses (/obj/item/clothing/glasses/regular), 8)
+[16:42:56]Nearsighted (/datum/trait/nearsighted): on spawn()
+[16:42:56]Nearsighted (/datum/trait/nearsighted): New( (/mob/living/carbon/human), 1)
+[16:42:56] (/mob/living/carbon/human): add trait datum("Nearsighted", 1)
+[16:42:56]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), HaggisShuu (/client), 1)
+[16:42:56]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[16:42:56]Ticker (/datum/controller/subsystem/ticker): setup()
+[16:42:56]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[16:42:56]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+Game start took 18s
+runtime error: 
+[16:43:38]nothing to animate
+[16:43:38]proc name: shake camera (/proc/shake_camera)
+[16:43:38]  source file: mob_helpers.dm,270
+[16:43:38]  usr: (src)
+[16:43:38]  src: null
+[16:43:38]  call stack:
+[16:43:38]shake camera(J.J. Jones (/mob/living/carbon/human), 0.75, 1)
+[16:43:38]J.J. Jones (/mob/living/carbon/human): afterShuttleMove(space (23,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:43:38]J.J. Jones (/mob/living/carbon/human): afterShuttleMove(space (23,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:43:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[16:43:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[16:43:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[16:43:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:43:38]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:43:38]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[16:43:38]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[16:48:54]nothing to animate
+[16:48:54]proc name: shake camera (/proc/shake_camera)
+[16:48:54]  source file: mob_helpers.dm,270
+[16:48:54]  usr: (src)
+[16:48:54]  src: null
+[16:48:54]  call stack:
+[16:48:54]shake camera(Jakob Todd (/mob/living/carbon/human), 0.75, 1)
+[16:48:54]Jakob Todd (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:48:54]Jakob Todd (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:48:54]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[16:48:54]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[16:48:54]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[16:48:54]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:48:54]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:48:54]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[16:48:54]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[16:58:34]nothing to animate
+[16:58:34]proc name: shake camera (/proc/shake_camera)
+[16:58:34]  source file: mob_helpers.dm,270
+[16:58:34]  usr: (src)
+[16:58:34]  src: null
+[16:58:34]  call stack:
+[16:58:34]shake camera(Leopold Dermid (/mob/living/carbon/human), 0.75, 1)
+[16:58:34]Leopold Dermid (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:58:34]Leopold Dermid (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:58:34]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[16:58:34]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[16:58:34]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[16:58:34]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:58:34]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:58:34]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[16:58:34]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[16:59:21]nothing to animate
+[16:59:21]proc name: shake camera (/proc/shake_camera)
+[16:59:21]  source file: mob_helpers.dm,270
+[16:59:21]  usr: (src)
+[16:59:21]  src: null
+[16:59:21]  call stack:
+[16:59:21]shake camera(Vauxhall Astra (/mob/living/carbon/human), 0.75, 1)
+[16:59:21]Vauxhall Astra (/mob/living/carbon/human): afterShuttleMove(space (25,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:59:21]Vauxhall Astra (/mob/living/carbon/human): afterShuttleMove(space (25,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:59:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[16:59:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[16:59:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[16:59:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:59:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:59:21]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[16:59:21]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[17:00:49]nothing to animate
+[17:00:49]proc name: shake camera (/proc/shake_camera)
+[17:00:49]  source file: mob_helpers.dm,270
+[17:00:49]  usr: (src)
+[17:00:49]  src: null
+[17:00:49]  call stack:
+[17:00:49]shake camera(Keeps-to-Floors (/mob/living/carbon/human), 0.75, 1)
+[17:00:49]Keeps-to-Floors (/mob/living/carbon/human): afterShuttleMove(space (27,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[17:00:49]Keeps-to-Floors (/mob/living/carbon/human): afterShuttleMove(space (27,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[17:00:49]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[17:00:49]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[17:00:49]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[17:00:49]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[17:00:49]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[17:00:49]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[17:00:49]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[17:01:17]Cannot read null.client
+[17:01:17]proc name: open (/datum/tgui/proc/open)
+[17:01:17]  source file: tgui.dm,87
+[17:01:17]  usr: null
+[17:01:17]  src: /datum/tgui (/datum/tgui)
+[17:01:17]  call stack:
+[17:01:17]/datum/tgui (/datum/tgui): open()
+[17:01:17]the sleeper (/obj/machinery/sleeper): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/notcontained_s... (/datum/ui_state/notcontained_state))
+[17:01:17]the sleeper (/obj/machinery/sleeper): updateUsrDialog()
+[17:01:17]the sleeper (/obj/machinery/sleeper): open machine(1)
+[17:01:17]the sleeper (/obj/machinery/sleeper): open machine()
+[17:01:17]the sleeper (/obj/machinery/sleeper): container resist(Jeffery Jefferson (/mob/living/carbon/human))
+[17:01:17]the sleeper (/obj/machinery/sleeper): relaymove(Jeffery Jefferson (/mob/living/carbon/human), 2)
+[17:01:17]Jeffery jefferson (/client): Move(the floor (141,114,2) (/turf/open/floor/plasteel/white), 2)
+[17:01:17]Jeffery Jefferson (/mob/living/carbon/human): keyLoop(Jeffery jefferson (/client))
+[17:01:17]Jeffery jefferson (/client): keyLoop()
+[17:01:17]Input (/datum/controller/subsystem/input): fire(0)
+[17:01:17]Input (/datum/controller/subsystem/input): ignite(0)
+[17:01:17]Master (/datum/controller/master): RunQueue()
+[17:01:17]Master (/datum/controller/master): Loop()
+[17:01:17]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[17:02:08]Cannot read null.client
+[17:02:08]proc name: open (/datum/tgui/proc/open)
+[17:02:08]  source file: tgui.dm,87
+[17:02:08]  usr: null
+[17:02:08]  src: /datum/tgui (/datum/tgui)
+[17:02:08]  call stack:
+[17:02:08]/datum/tgui (/datum/tgui): open()
+[17:02:08]the sleeper (/obj/machinery/sleeper): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/notcontained_s... (/datum/ui_state/notcontained_state))
+[17:02:08]the sleeper (/obj/machinery/sleeper): updateUsrDialog()
+[17:02:08]the sleeper (/obj/machinery/sleeper): open machine(1)
+[17:02:08]the sleeper (/obj/machinery/sleeper): open machine()
+[17:02:08]the sleeper (/obj/machinery/sleeper): container resist(Jeffery Jefferson (/mob/living/carbon/human))
+[17:02:08]the sleeper (/obj/machinery/sleeper): relaymove(Jeffery Jefferson (/mob/living/carbon/human), 2)
+[17:02:08]Jeffery jefferson (/client): Move(the floor (141,114,2) (/turf/open/floor/plasteel/white), 2)
+[17:02:08]Jeffery Jefferson (/mob/living/carbon/human): keyLoop(Jeffery jefferson (/client))
+[17:02:08]Jeffery jefferson (/client): keyLoop()
+[17:02:08]Input (/datum/controller/subsystem/input): fire(0)
+[17:02:08]Input (/datum/controller/subsystem/input): ignite(0)
+[17:02:08]Master (/datum/controller/master): RunQueue()
+[17:02:08]Master (/datum/controller/master): Loop()
+[17:02:08]Master (/datum/controller/master): StartProcessing(0)
+## WARNING: couldn't find shuttle with id:  in code/controllers/subsystem/shuttle.dm at line 209 src: Shuttle usr: Adamantine Stibnite.
+runtime error: 
+[17:09:13]nothing to animate
+[17:09:13]proc name: shake camera (/proc/shake_camera)
+[17:09:13]  source file: mob_helpers.dm,270
+[17:09:13]  usr: (src)
+[17:09:13]  src: null
+[17:09:13]  call stack:
+[17:09:13]shake camera(Beau Richards (/mob/living/carbon/human), 0.75, 1)
+[17:09:13]Beau Richards (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[17:09:13]Beau Richards (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[17:09:13]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[17:09:13]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[17:09:13]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[17:09:13]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[17:09:13]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[17:09:13]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[17:09:13]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[17:26:10]nothing to animate
+[17:26:10]proc name: shake camera (/proc/shake_camera)
+[17:26:10]  source file: mob_helpers.dm,270
+[17:26:10]  usr: (src)
+[17:26:10]  src: null
+[17:26:10]  call stack:
+[17:26:10]shake camera(Buster Frown (/mob/living/carbon/human), 0.75, 1)
+[17:26:10]Buster Frown (/mob/living/carbon/human): afterShuttleMove(space (27,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[17:26:10]Buster Frown (/mob/living/carbon/human): afterShuttleMove(space (27,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[17:26:10]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[17:26:10]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[17:26:10]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[17:26:10]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[17:26:10]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[17:26:10]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[17:26:10]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+## WARNING: turf of type /turf/open/floor/plating/asteroid/basalt/lava_land_surface had a baseturfs length 1 still in list form. in code/game/turfs/ChangeTurf.dm at line 122 src: the volcanic floor usr: Adamantine Stibnite.
+## WARNING: turf of type /turf/open/floor/plating/asteroid/basalt/lava_land_surface had a baseturfs length 1 still in list form. in code/game/turfs/ChangeTurf.dm at line 122 src: the volcanic floor usr: Adamantine Stibnite.
+runtime error: 
+[17:31:40]Cannot read null.client
+[17:31:40]proc name: open (/datum/tgui/proc/open)
+[17:31:40]  source file: tgui.dm,87
+[17:31:40]  usr: null
+[17:31:40]  src: /datum/tgui (/datum/tgui)
+[17:31:40]  call stack:
+[17:31:40]/datum/tgui (/datum/tgui): open()
+[17:31:40]the sleeper (/obj/machinery/sleeper): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/notcontained_s... (/datum/ui_state/notcontained_state))
+[17:31:40]the sleeper (/obj/machinery/sleeper): updateUsrDialog()
+[17:31:40]the sleeper (/obj/machinery/sleeper): open machine(1)
+[17:31:40]the sleeper (/obj/machinery/sleeper): open machine()
+[17:31:40]the sleeper (/obj/machinery/sleeper): container resist(Alex Welsh (/mob/living/carbon/human))
+[17:31:40]the sleeper (/obj/machinery/sleeper): relaymove(Alex Welsh (/mob/living/carbon/human), 2)
+[17:31:40]Smartcaboose5 (/client): Move(the floor (141,114,2) (/turf/open/floor/plasteel/white), 2)
+[17:31:40]Alex Welsh (/mob/living/carbon/human): keyLoop(Smartcaboose5 (/client))
+[17:31:40]Smartcaboose5 (/client): keyLoop()
+[17:31:40]Input (/datum/controller/subsystem/input): fire(0)
+[17:31:40]Input (/datum/controller/subsystem/input): ignite(0)
+[17:31:40]Master (/datum/controller/master): RunQueue()
+[17:31:40]Master (/datum/controller/master): Loop()
+[17:31:40]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[17:38:56]type mismatch: 179 - "15x15"
+[17:38:56]proc name: get images (/obj/item/areaeditor/blueprints/proc/get_images)
+[17:38:56]  source file: blueprints.dm,105
+[17:38:56]  usr: Adamantine Stibnite (/mob/living/carbon/human)
+[17:38:56]  src: the land claim (/obj/item/areaeditor/blueprints)
+[17:38:56]  usr.loc: the volcanic floor (179,191,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[17:38:56]  src.loc: Adamantine Stibnite (/mob/living/carbon/human)
+[17:38:56]  call stack:
+[17:38:56]the land claim (/obj/item/areaeditor/blueprints): get images(the volcanic floor (179,191,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), "15x15")
+[17:38:56]the land claim (/obj/item/areaeditor/blueprints): set viewer(Adamantine Stibnite (/mob/living/carbon/human), "<span class=\'notice\'>You fli...")
+[17:38:56]the land claim (/obj/item/areaeditor/blueprints): Topic("src=\[0x2009bd3];view_blueprin...", /list (/list))
+[17:38:56]ZanderDowdall (/client): Topic("src=\[0x2009bd3];view_blueprin...", /list (/list), the land claim (/obj/item/areaeditor/blueprints))
+[17:38:56]ZanderDowdall (/client): Topic("src=\[0x2009bd3];view_blueprin...", /list (/list), the land claim (/obj/item/areaeditor/blueprints))
+runtime error: 
+[17:38:59]type mismatch: 177 - "15x15"
+[17:38:59]proc name: get images (/obj/item/areaeditor/blueprints/proc/get_images)
+[17:38:59]  source file: blueprints.dm,105
+[17:38:59]  usr: Adamantine Stibnite (/mob/living/carbon/human)
+[17:38:59]  src: the land claim (/obj/item/areaeditor/blueprints)
+[17:38:59]  usr.loc: the volcanic floor (177,191,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[17:38:59]  src.loc: Adamantine Stibnite (/mob/living/carbon/human)
+[17:38:59]  call stack:
+[17:38:59]the land claim (/obj/item/areaeditor/blueprints): get images(the volcanic floor (177,191,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), "15x15")
+[17:38:59]the land claim (/obj/item/areaeditor/blueprints): set viewer(Adamantine Stibnite (/mob/living/carbon/human), "")
+[17:38:59]the land claim (/obj/item/areaeditor/blueprints): Topic("src=\[0x2009bd3];refresh=1", /list (/list))
+[17:38:59]ZanderDowdall (/client): Topic("src=\[0x2009bd3];refresh=1", /list (/list), the land claim (/obj/item/areaeditor/blueprints))
+[17:38:59]ZanderDowdall (/client): Topic("src=\[0x2009bd3];refresh=1", /list (/list), the land claim (/obj/item/areaeditor/blueprints))
+runtime error: 
+[17:45:11]Cannot create objects of type null.
+[17:45:11]proc name: InterceptClickOn (/datum/buildmode/proc/InterceptClickOn)
+[17:45:11]  source file: buildmode.dm,310
+[17:45:11]  usr: Fixes-The-Station (/mob/living/carbon/human)
+[17:45:11]  src: /datum/buildmode (/datum/buildmode)
+[17:45:11]  usr.loc: the floor (165,131,2) (/turf/open/floor/plasteel)
+[17:45:11]  call stack:
+[17:45:11]/datum/buildmode (/datum/buildmode): InterceptClickOn(Fixes-The-Station (/mob/living/carbon/human), "icon-x=24;icon-y=24;left=1;scr...", the floor (170,129,2) (/turf/open/floor/plasteel))
+[17:45:11]Fixes-The-Station (/mob/living/carbon/human): check click intercept("icon-x=24;icon-y=24;left=1;scr...", the floor (170,129,2) (/turf/open/floor/plasteel))
+[17:45:11]Fixes-The-Station (/mob/living/carbon/human): ClickOn(the floor (170,129,2) (/turf/open/floor/plasteel), "icon-x=24;icon-y=24;left=1;scr...")
+[17:45:11]the floor (170,129,2) (/turf/open/floor/plasteel): Click(the floor (170,129,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=24;icon-y=24;left=1;scr...")
+[2018-05-24 17:45:48] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51060/tmp8372/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-05-24 17:45:48] Client: Iagotodesco triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:62856/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; .NET4.0C; .NET4.0E)
+runtime error: 
+[17:46:37]Cannot execute null.is cut().
+[17:46:37]proc name: update icon (/mob/living/simple_animal/bot/mulebot/update_icon)
+[17:46:37]  source file: mulebot.dm,126
+[17:46:37]  usr: Beau Richards (/mob/living/carbon/human)
+[17:46:37]  src: the MULEbot (#1) (/mob/living/simple_animal/bot/mulebot)
+[17:46:37]  usr.loc: the floor (91,119,2) (/turf/open/floor/plasteel)
+[17:46:37]  src.loc: null
+[17:46:37]  call stack:
+[17:46:37]the MULEbot (#1) (/mob/living/simple_animal/bot/mulebot): update icon()
+[17:46:37]the MULEbot (#1) (/mob/living/simple_animal/bot/mulebot): attackby(the pocket crowbar (/obj/item/crowbar), Beau Richards (/mob/living/carbon/human), "icon-x=6;icon-y=9;left=1;scree...")
+[17:46:37]the pocket crowbar (/obj/item/crowbar): melee attack chain(Beau Richards (/mob/living/carbon/human), the MULEbot (#1) (/mob/living/simple_animal/bot/mulebot), "icon-x=6;icon-y=9;left=1;scree...")
+[17:46:37]Beau Richards (/mob/living/carbon/human): ClickOn(the MULEbot (#1) (/mob/living/simple_animal/bot/mulebot), "icon-x=6;icon-y=9;left=1;scree...")
+[17:46:37]the MULEbot (#1) (/mob/living/simple_animal/bot/mulebot): Click(the floor (91,118,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=6;icon-y=9;left=1;scree...")
+runtime error: 
+[17:50:18]nothing to animate
+[17:50:18]proc name: shake camera (/proc/shake_camera)
+[17:50:18]  source file: mob_helpers.dm,270
+[17:50:18]  usr: (src)
+[17:50:18]  src: null
+[17:50:18]  call stack:
+[17:50:18]shake camera(Hazel Fiscina (/mob/living/carbon/human), 0.75, 1)
+[17:50:18]Hazel Fiscina (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[17:50:18]Hazel Fiscina (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[17:50:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[17:50:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[17:50:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[17:50:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[17:50:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[17:50:18]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[17:50:18]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[17:53:54]nothing to animate
+[17:53:54]proc name: shake camera (/proc/shake_camera)
+[17:53:54]  source file: mob_helpers.dm,270
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:54:56]list index out of bounds
+[17:54:56]proc name: nullifyPipenet (/obj/machinery/atmospherics/components/proc/nullifyPipenet)
+[17:54:56]  source file: components_base.dm,75
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:32]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:33]Cannot read null.air
+runtime error: 
+[17:56:33]Cannot read null.air
+runtime error: 
+[17:56:33]Cannot read null.air
+runtime error: 
+[17:56:33]Cannot read null.air
+runtime error: 
+[17:56:33]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:33]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:33]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:33]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:33]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:33]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:33]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:33]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:33]Component is missing a pipenet! Rebuilding...
+runtime error: 
+[17:56:33]Cannot read null.air
+runtime error: 
+[17:56:33]Cannot read null.air
+runtime error: 
+[17:56:33]Cannot read null.air
+runtime error: 
+[17:56:33]Cannot read null.air
+runtime error: 
+[17:56:34]Cannot read null.air
+runtime error: 
+[17:56:34]Cannot read null.air
+runtime error: 
+[17:56:34]Cannot read null.air
+runtime error: 
+[17:56:34]Cannot read null.air
+runtime error: 
+[17:56:35]Cannot read null.air
+runtime error: 
+[17:56:35]Cannot read null.air
+runtime error: 
+[17:56:35]Cannot read null.air
+runtime error: 
+[17:56:35]Cannot read null.air
+runtime error: 
+[17:56:36]Cannot read null.air
+runtime error: 
+[17:56:36]Cannot read null.air
+runtime error: 
+[17:56:36]Cannot read null.air
+runtime error: 
+[17:56:36]Cannot read null.air
+runtime error: 
+[17:56:37]Cannot read null.air
+runtime error: 
+[17:56:37]Cannot read null.air
+runtime error: 
+[17:56:37]Cannot read null.air
+runtime error: 
+[17:56:37]Cannot read null.air
+runtime error: 
+[17:56:38]Cannot read null.air
+runtime error: 
+[17:56:38]Cannot read null.air
+runtime error: 
+[17:56:38]Cannot read null.air
+runtime error: 
+[17:56:38]Cannot read null.air
+runtime error: 
+[17:56:39]Cannot read null.air
+runtime error: 
+[17:56:39]Cannot read null.air
+runtime error: 
+[17:56:39]Cannot read null.air
+runtime error: 
+[17:56:39]Cannot read null.air
+runtime error: 
+[17:56:40]Cannot read null.air
+runtime error: 
+[17:56:40]Cannot read null.air
+runtime error: 
+[17:56:40]Cannot read null.air
+runtime error: 
+[17:56:40]Cannot read null.air
+runtime error: 
+[17:56:41]Cannot read null.air
+runtime error: 
+[17:56:41]Cannot read null.air
+runtime error: 
+[17:56:41]Cannot read null.air
+runtime error: 
+[17:56:41]Cannot read null.air
+runtime error: 
+[17:56:41]Cannot read null.air
+runtime error: 
+[17:56:41]Cannot read null.air
+runtime error: 
+[17:56:41]Cannot read null.air
+runtime error: 
+[17:56:41]Cannot read null.air
+runtime error: 
+[17:56:42]Cannot read null.air
+runtime error: 
+[17:56:42]Cannot read null.air
+runtime error: 
+[17:56:42]Cannot read null.air
+runtime error: 
+[17:56:42]Cannot read null.air
+runtime error: 
+[17:56:43]Cannot read null.air
+runtime error: 
+[17:56:43]Cannot read null.air
+runtime error: 
+[17:56:43]Cannot read null.air
+runtime error: 
+[17:57:01]nothing to animate
+runtime error: 
+[18:00:49]wrong type of value for list
+runtime error: 
+[18:02:30]wrong type of value for list
+runtime error: 
+[18:05:07]Cannot read null.loc
+runtime error: 
+[18:05:08]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[18:05:08]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[18:05:09]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[18:05:09]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[18:05:09]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[18:05:09]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[18:05:09]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[18:05:14]nothing to animate
+runtime error: 
+[18:05:14]Cannot read null.mutations
+runtime error: 
+[18:05:14]Cannot read null.mutations
+runtime error: 
+[18:05:14]Cannot read null.species
+Saved 122 engraved messages on map Box Station
+runtime error: 
+[18:05:16]Cannot read null.mutations
+runtime error: 
+[18:05:16]Cannot read null.mutations
+runtime error: 
+[18:05:16]Cannot read null.species
+runtime error: 
+[18:06:17]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[18:06:18]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[18:06:18]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[18:06:18]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[18:06:18]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[18:06:18]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[18:06:27]Cannot create objects of type null.
+runtime error: 
+[18:06:29]Cannot read null.revivecost
+runtime error: 
+[18:06:36]Cannot read null.mutations
+runtime error: 
+[18:06:36]Cannot read null.species
+runtime error: 
+[18:06:36]Cannot read null.loc
+runtime error: 
+[18:06:36]No valid destination passed into forceMove
+runtime error: 
+[18:06:36]Cannot read null.mutations
+runtime error: 
+[18:06:36]Cannot read null.species
+runtime error: 
+[18:06:37]Cannot execute null.get reagent amount().
+runtime error: 
+[18:06:37]Cannot execute null.add reagent().
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 18:06:53

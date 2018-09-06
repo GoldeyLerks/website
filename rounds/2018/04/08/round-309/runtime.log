@@ -1,0 +1,1377 @@
+
+
+Starting up round ID 309. 21:16:24
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 6.4s!
+Loaded Lavaland in 5.5s!
+Loaded Reebe in 4.9s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 27.2 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 53.2 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 7 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 0 seconds were wasted processing 7 turf(s) (connected to 135 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 16.1 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.9 seconds!
+Initialized Icon Smoothing subsystem within 13.8 seconds!
+Initialized Overlay subsystem within 35.7 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 16.3 seconds!
+Initialized Shuttle subsystem within 21.1 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 2 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 185.6 seconds!
+runtime error: 
+[21:19:56]Cannot read null.species
+[21:19:56]proc name: attach limb (/obj/item/bodypart/proc/attach_limb)
+[21:19:56]  source file: dismemberment.dm,278
+[21:19:56]  usr: null
+[21:19:56]  src: the surplus prosthetic left ar... (/obj/item/bodypart/l_arm/robot/surplus)
+[21:19:56]  src.loc: null
+[21:19:56]  call stack:
+[21:19:56]the surplus prosthetic left ar... (/obj/item/bodypart/l_arm/robot/surplus): attach limb( (/mob/living/carbon/human), null)
+[21:19:56]the surplus prosthetic left ar... (/obj/item/bodypart/l_arm/robot/surplus): replace limb( (/mob/living/carbon/human), null)
+[21:19:56]Prosthetic Limb (/datum/trait/prosthetic_limb): on spawn()
+[21:19:56]Prosthetic Limb (/datum/trait/prosthetic_limb): New( (/mob/living/carbon/human), 1)
+[21:19:56] (/mob/living/carbon/human): add trait datum("Prosthetic Limb", 1)
+[21:19:56]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), Cscottburgess (/client), 1)
+[21:19:56]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[21:19:56]Ticker (/datum/controller/subsystem/ticker): setup()
+[21:19:56]Ticker (/datum/controller/subsystem/ticker): fire()
+[21:19:56]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[21:19:56]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+Game start took 39.4s
+runtime error: 
+[21:20:34]Cannot execute null.Copy().
+[21:20:34]proc name: Copy (/datum/disease/transformation/Copy)
+[21:20:34]  source file: transformation.dm,22
+[21:20:34]  usr: null
+[21:20:34]  src: Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode)
+[21:20:34]  call stack:
+[21:20:34]Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode): Copy()
+[21:20:34]Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode): infect( (/mob/living/carbon/human), 1)
+[21:20:34]Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode): try infect( (/mob/living/carbon/human), 1)
+[21:20:34] (/mob/living/carbon/human): ForceContractDisease(Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode), 1, 0)
+[21:20:34]Monkey Leader (/datum/antagonist/monkey/leader): on gain()
+[21:20:34]Monkey Leader (/datum/antagonist/monkey/leader): on gain()
+[21:20:34]Christopher Odd (/datum/mind): add antag datum(/datum/antagonist/monkey/leade... (/datum/antagonist/monkey/leader), null)
+[21:20:34]add monkey leader(Christopher Odd (/datum/mind), null)
+[21:20:34]monkey (/datum/game_mode/monkey): post setup()
+[21:20:34]Ticker (/datum/controller/subsystem/ticker): PostSetup()
+[21:20:34]Ticker (/datum/controller/subsystem/ticker): setup()
+[21:20:34]Ticker (/datum/controller/subsystem/ticker): fire()
+[21:20:34]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[21:20:34]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+runtime error: 
+[21:20:34]Cannot modify null.affected_mob.
+[21:20:34]proc name: infect (/datum/disease/proc/infect)
+[21:20:34]  source file: _disease.dm,53
+[21:20:34]  usr: null
+[21:20:34]  src: Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode)
+[21:20:34]  call stack:
+[21:20:34]Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode): infect( (/mob/living/carbon/human), 1)
+[21:20:34]Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode): try infect( (/mob/living/carbon/human), 1)
+[21:20:34] (/mob/living/carbon/human): ForceContractDisease(Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode), 1, 0)
+[21:20:34]Monkey Leader (/datum/antagonist/monkey/leader): on gain()
+[21:20:34]Monkey Leader (/datum/antagonist/monkey/leader): on gain()
+[21:20:34]Christopher Odd (/datum/mind): add antag datum(/datum/antagonist/monkey/leade... (/datum/antagonist/monkey/leader), null)
+[21:20:34]add monkey leader(Christopher Odd (/datum/mind), null)
+[21:20:34]monkey (/datum/game_mode/monkey): post setup()
+[21:20:34]Ticker (/datum/controller/subsystem/ticker): PostSetup()
+[21:20:34]Ticker (/datum/controller/subsystem/ticker): setup()
+[21:20:34]Ticker (/datum/controller/subsystem/ticker): fire()
+[21:20:34]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[21:20:34]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+runtime error: 
+[21:20:39]Cannot read null.infectivity
+[21:20:39]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:20:39]  source file: life.dm,254
+[21:20:39]  usr: null
+[21:20:39]  src:  (/mob/living/carbon/human)
+[21:20:39]  src.loc: the floor (117,80,2) (/turf/open/floor/plasteel)
+[21:20:39]  call stack:
+[21:20:39] (/mob/living/carbon/human): handle diseases()
+[21:20:39] (/mob/living/carbon/human): Life(2, 1)
+[21:20:39] (/mob/living/carbon/human): Life(2, 1)
+[21:20:39] (/mob/living/carbon/human): Life(2, 1)
+[21:20:39]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[21:20:39]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[21:20:39]Master (/datum/controller/master): RunQueue()
+[21:20:39]Master (/datum/controller/master): Loop()
+[21:20:39]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:20:42]Cannot read null.visibility_flags
+[21:20:42]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:20:42]  source file: data_huds.dm,86
+[21:20:42]  usr: null
+[21:20:42]  src: Christopher Odd (/mob/living/carbon/human)
+[21:20:42]  src.loc: the floor (117,80,2) (/turf/open/floor/plasteel)
+[21:20:42]  call stack:
+[21:20:42]Christopher Odd (/mob/living/carbon/human): check virus()
+[21:20:42]Christopher Odd (/mob/living/carbon/human): med hud set status()
+[21:20:42]Christopher Odd (/mob/living/carbon/human): update stat()
+[21:20:42]Christopher Odd (/mob/living/carbon/human): updatehealth()
+[21:20:42]Christopher Odd (/mob/living/carbon/human): adjustOxyLoss(-5, 1, 0)
+[21:20:42]the lungs (/obj/item/organ/lungs): check breath(/datum/gas_mixture/turf (/datum/gas_mixture/turf), Christopher Odd (/mob/living/carbon/human))
+[21:20:42]Christopher Odd (/mob/living/carbon/human): check breath(/datum/gas_mixture/turf (/datum/gas_mixture/turf))
+[21:20:42]Christopher Odd (/mob/living/carbon/human): breathe()
+[21:20:42]Christopher Odd (/mob/living/carbon/human): breathe()
+[21:20:42]Christopher Odd (/mob/living/carbon/human): handle breathing(2)
+[21:20:42]Christopher Odd (/mob/living/carbon/human): Life(2, 2)
+[21:20:42]Christopher Odd (/mob/living/carbon/human): Life(2, 2)
+[21:20:42]Christopher Odd (/mob/living/carbon/human): Life(2, 2)
+[21:20:42]Mobs (/datum/controller/subsystem/mobs): fire(1)
+[21:20:42]Mobs (/datum/controller/subsystem/mobs): ignite(1)
+[21:20:42]Master (/datum/controller/master): RunQueue()
+[21:20:42]Master (/datum/controller/master): Loop()
+[21:20:42]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:20:42]Cannot read null.visibility_flags
+[21:20:42]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:20:42]  source file: data_huds.dm,86
+[21:20:42]  usr: null
+[21:20:42]  src: Christopher Odd (/mob/living/carbon/human)
+[21:20:42]  src.loc: the floor (117,80,2) (/turf/open/floor/plasteel)
+[21:20:42]  call stack:
+[21:20:42]Christopher Odd (/mob/living/carbon/human): check virus()
+[21:20:42]Christopher Odd (/mob/living/carbon/human): med hud set status()
+[21:20:42]Christopher Odd (/mob/living/carbon/human): update stat()
+[21:20:42]Christopher Odd (/mob/living/carbon/human): updatehealth()
+[21:20:42]Christopher Odd (/mob/living/carbon/human): heal overall damage(0, 0, 0, 0, 1, 1)
+[21:20:42]Christopher Odd (/mob/living/carbon/human): adjustFireLoss(0, 1, 0)
+[21:20:42]the lungs (/obj/item/organ/lungs): check breath(/datum/gas_mixture/turf (/datum/gas_mixture/turf), Christopher Odd (/mob/living/carbon/human))
+[21:20:42]Christopher Odd (/mob/living/carbon/human): check breath(/datum/gas_mixture/turf (/datum/gas_mixture/turf))
+[21:20:42]Christopher Odd (/mob/living/carbon/human): breathe()
+[21:20:42]Christopher Odd (/mob/living/carbon/human): breathe()
+[21:20:42]Christopher Odd (/mob/living/carbon/human): handle breathing(2)
+[21:20:42]Christopher Odd (/mob/living/carbon/human): Life(2, 2)
+[21:20:42]Christopher Odd (/mob/living/carbon/human): Life(2, 2)
+[21:20:42]Christopher Odd (/mob/living/carbon/human): Life(2, 2)
+[21:20:42]Mobs (/datum/controller/subsystem/mobs): fire(1)
+[21:20:42]Mobs (/datum/controller/subsystem/mobs): ignite(1)
+[21:20:42]Master (/datum/controller/master): RunQueue()
+[21:20:42]Master (/datum/controller/master): Loop()
+[21:20:42]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:20:42]Cannot read null.infectivity
+[21:20:42]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:20:42]  source file: life.dm,254
+[21:20:42]  usr: null
+[21:20:42]  src: Christopher Odd (/mob/living/carbon/human)
+[21:20:42]  src.loc: the floor (117,80,2) (/turf/open/floor/plasteel)
+[21:20:42]  call stack:
+[21:20:42]Christopher Odd (/mob/living/carbon/human): handle diseases()
+[21:20:42]Christopher Odd (/mob/living/carbon/human): Life(2, 2)
+[21:20:42]Christopher Odd (/mob/living/carbon/human): Life(2, 2)
+[21:20:42]Christopher Odd (/mob/living/carbon/human): Life(2, 2)
+[21:20:42]Mobs (/datum/controller/subsystem/mobs): fire(1)
+[21:20:42]Mobs (/datum/controller/subsystem/mobs): ignite(1)
+[21:20:42]Master (/datum/controller/master): RunQueue()
+[21:20:42]Master (/datum/controller/master): Loop()
+[21:20:42]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:20:45]Cannot read null.infectivity
+[21:20:45]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:20:45]  source file: life.dm,254
+[21:20:45]  usr: null
+[21:20:45]  src: Christopher Odd (/mob/living/carbon/human)
+[21:20:45]  src.loc: the floor (117,80,2) (/turf/open/floor/plasteel)
+[21:20:45]  call stack:
+[21:20:45]Christopher Odd (/mob/living/carbon/human): handle diseases()
+[21:20:45]Christopher Odd (/mob/living/carbon/human): Life(2, 3)
+[21:20:45]Christopher Odd (/mob/living/carbon/human): Life(2, 3)
+[21:20:45]Christopher Odd (/mob/living/carbon/human): Life(2, 3)
+[21:20:45]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[21:20:45]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[21:20:45]Master (/datum/controller/master): RunQueue()
+[21:20:45]Master (/datum/controller/master): Loop()
+[21:20:45]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:21:04]Cannot read null.infectivity
+[21:21:04]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:04]  source file: life.dm,254
+[21:21:04]  usr: null
+[21:21:04]  src: Christopher Odd (/mob/living/carbon/human)
+[21:21:04]  src.loc: the floor (117,80,2) (/turf/open/floor/plasteel)
+[21:21:04]  call stack:
+[21:21:04]Christopher Odd (/mob/living/carbon/human): handle diseases()
+[21:21:04]Christopher Odd (/mob/living/carbon/human): Life(2, 12)
+[21:21:04]Christopher Odd (/mob/living/carbon/human): Life(2, 12)
+[21:21:04]Christopher Odd (/mob/living/carbon/human): Life(2, 12)
+[21:21:04]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[21:21:04]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[21:21:04]Master (/datum/controller/master): RunQueue()
+[21:21:04]Master (/datum/controller/master): Loop()
+[21:21:04]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:21:06]Cannot read null.infectivity
+[21:21:06]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:06]  source file: life.dm,254
+[21:21:06]  usr: null
+[21:21:06]  src: Christopher Odd (/mob/living/carbon/human)
+[21:21:06]  src.loc: the floor (117,80,2) (/turf/open/floor/plasteel)
+[21:21:06]  call stack:
+[21:21:06]Christopher Odd (/mob/living/carbon/human): handle diseases()
+[21:21:06]Christopher Odd (/mob/living/carbon/human): Life(2, 13)
+[21:21:06]Christopher Odd (/mob/living/carbon/human): Life(2, 13)
+[21:21:06]Christopher Odd (/mob/living/carbon/human): Life(2, 13)
+[21:21:06]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[21:21:06]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[21:21:06]Master (/datum/controller/master): RunQueue()
+[21:21:06]Master (/datum/controller/master): Loop()
+[21:21:06]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:21:08]Cannot read null.visibility_flags
+[21:21:08]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:21:08]  source file: data_huds.dm,86
+[21:21:08]  usr: null
+[21:21:08]  src: Christopher Odd (/mob/living/carbon/human)
+[21:21:08]  src.loc: the floor (117,80,2) (/turf/open/floor/plasteel)
+[21:21:08]  call stack:
+[21:21:08]Christopher Odd (/mob/living/carbon/human): check virus()
+[21:21:08]Christopher Odd (/mob/living/carbon/human): med hud set status()
+[21:21:08]Christopher Odd (/mob/living/carbon/human): update stat()
+[21:21:08]Christopher Odd (/mob/living/carbon/human): updatehealth()
+[21:21:08]Christopher Odd (/mob/living/carbon/human): adjustOxyLoss(-5, 1, 0)
+[21:21:08]the lungs (/obj/item/organ/lungs): check breath(/datum/gas_mixture/turf (/datum/gas_mixture/turf), Christopher Odd (/mob/living/carbon/human))
+[21:21:08]Christopher Odd (/mob/living/carbon/human): check breath(/datum/gas_mixture/turf (/datum/gas_mixture/turf))
+[21:21:08]Christopher Odd (/mob/living/carbon/human): breathe()
+[21:21:08]Christopher Odd (/mob/living/carbon/human): breathe()
+[21:21:08]Christopher Odd (/mob/living/carbon/human): handle breathing(14)
+[21:21:08]Christopher Odd (/mob/living/carbon/human): Life(2, 14)
+[21:21:08]Christopher Odd (/mob/living/carbon/human): Life(2, 14)
+[21:21:08]Christopher Odd (/mob/living/carbon/human): Life(2, 14)
+[21:21:08]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[21:21:08]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[21:21:08]Master (/datum/controller/master): RunQueue()
+[21:21:08]Master (/datum/controller/master): Loop()
+[21:21:08]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:21:08]Cannot read null.visibility_flags
+[21:21:08]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:21:08]  source file: data_huds.dm,86
+[21:21:08]  usr: null
+[21:21:08]  src: Christopher Odd (/mob/living/carbon/human)
+[21:21:08]  src.loc: the floor (117,80,2) (/turf/open/floor/plasteel)
+[21:21:08]  call stack:
+[21:21:08]Christopher Odd (/mob/living/carbon/human): check virus()
+[21:21:08]Christopher Odd (/mob/living/carbon/human): med hud set status()
+[21:21:08]Christopher Odd (/mob/living/carbon/human): update stat()
+[21:21:08]Christopher Odd (/mob/living/carbon/human): updatehealth()
+[21:21:08]Christopher Odd (/mob/living/carbon/human): heal overall damage(0, 0, 0, 0, 1, 1)
+[21:21:08]Christopher Odd (/mob/living/carbon/human): adjustFireLoss(0, 1, 0)
+[21:21:08]the lungs (/obj/item/organ/lungs): check breath(/datum/gas_mixture/turf (/datum/gas_mixture/turf), Christopher Odd (/mob/living/carbon/human))
+[21:21:08]Christopher Odd (/mob/living/carbon/human): check breath(/datum/gas_mixture/turf (/datum/gas_mixture/turf))
+[21:21:08]Christopher Odd (/mob/living/carbon/human): breathe()
+[21:21:08]Christopher Odd (/mob/living/carbon/human): breathe()
+[21:21:08]Christopher Odd (/mob/living/carbon/human): handle breathing(14)
+[21:21:08]Christopher Odd (/mob/living/carbon/human): Life(2, 14)
+[21:21:08]Christopher Odd (/mob/living/carbon/human): Life(2, 14)
+[21:21:08]Christopher Odd (/mob/living/carbon/human): Life(2, 14)
+[21:21:08]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[21:21:08]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[21:21:08]Master (/datum/controller/master): RunQueue()
+[21:21:08]Master (/datum/controller/master): Loop()
+[21:21:08]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:21:08]Cannot read null.infectivity
+[21:21:08]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:08]  source file: life.dm,254
+[21:21:08]  usr: null
+[21:21:08]  src: Christopher Odd (/mob/living/carbon/human)
+[21:21:08]  src.loc: the floor (117,80,2) (/turf/open/floor/plasteel)
+[21:21:08]  call stack:
+[21:21:08]Christopher Odd (/mob/living/carbon/human): handle diseases()
+[21:21:08]Christopher Odd (/mob/living/carbon/human): Life(2, 14)
+[21:21:08]Christopher Odd (/mob/living/carbon/human): Life(2, 14)
+[21:21:08]Christopher Odd (/mob/living/carbon/human): Life(2, 14)
+[21:21:08]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[21:21:08]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[21:21:08]Master (/datum/controller/master): RunQueue()
+[21:21:08]Master (/datum/controller/master): Loop()
+[21:21:08]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:21:11]Cannot read null.infectivity
+[21:21:11]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:11]  source file: life.dm,254
+[21:21:11]  usr: null
+[21:21:11]  src: Christopher Odd (/mob/living/carbon/human)
+[21:21:11]  src.loc: the floor (116,80,2) (/turf/open/floor/plasteel)
+[21:21:11]  call stack:
+[21:21:11]Christopher Odd (/mob/living/carbon/human): handle diseases()
+[21:21:11]Christopher Odd (/mob/living/carbon/human): Life(2, 15)
+[21:21:11]Christopher Odd (/mob/living/carbon/human): Life(2, 15)
+[21:21:11]Christopher Odd (/mob/living/carbon/human): Life(2, 15)
+[21:21:11]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[21:21:11]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[21:21:11]Master (/datum/controller/master): RunQueue()
+[21:21:11]Master (/datum/controller/master): Loop()
+[21:21:11]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:21:14]Cannot read null.infectivity
+[21:21:14]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:14]  source file: life.dm,254
+[21:21:14]  usr: null
+[21:21:14]  src: Christopher Odd (/mob/living/carbon/human)
+[21:21:14]  src.loc: the floor (118,82,2) (/turf/open/floor/plasteel/vault)
+[21:21:14]  call stack:
+[21:21:14]Christopher Odd (/mob/living/carbon/human): handle diseases()
+[21:21:14]Christopher Odd (/mob/living/carbon/human): Life(2, 16)
+[21:21:14]Christopher Odd (/mob/living/carbon/human): Life(2, 16)
+[21:21:14]Christopher Odd (/mob/living/carbon/human): Life(2, 16)
+[21:21:14]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[21:21:14]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[21:21:14]Master (/datum/controller/master): RunQueue()
+[21:21:14]Master (/datum/controller/master): Loop()
+[21:21:14]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:21:16]Cannot read null.infectivity
+[21:21:16]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:16]  source file: life.dm,254
+[21:21:16]  usr: null
+[21:21:16]  src: Christopher Odd (/mob/living/carbon/human)
+[21:21:16]  src.loc: the floor (119,82,2) (/turf/open/floor/plasteel/vault)
+[21:21:16]  call stack:
+[21:21:16]Christopher Odd (/mob/living/carbon/human): handle diseases()
+[21:21:16]Christopher Odd (/mob/living/carbon/human): Life(2, 17)
+[21:21:16]Christopher Odd (/mob/living/carbon/human): Life(2, 17)
+[21:21:16]Christopher Odd (/mob/living/carbon/human): Life(2, 17)
+[21:21:16]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[21:21:16]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[21:21:16]Master (/datum/controller/master): RunQueue()
+[21:21:16]Master (/datum/controller/master): Loop()
+[21:21:16]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:21:18]Cannot read null.visibility_flags
+[21:21:18]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:21:18]  source file: data_huds.dm,86
+[21:21:18]  usr: null
+[21:21:18]  src: Christopher Odd (/mob/living/carbon/human)
+[21:21:18]  src.loc: the floor (119,75,2) (/turf/open/floor/plasteel)
+[21:21:18]  call stack:
+[21:21:18]Christopher Odd (/mob/living/carbon/human): check virus()
+[21:21:18]Christopher Odd (/mob/living/carbon/human): med hud set status()
+[21:21:18]Christopher Odd (/mob/living/carbon/human): update stat()
+[21:21:18]Christopher Odd (/mob/living/carbon/human): updatehealth()
+[21:21:18]Christopher Odd (/mob/living/carbon/human): adjustOxyLoss(-5, 1, 0)
+[21:21:18]the lungs (/obj/item/organ/lungs): check breath(/datum/gas_mixture/turf (/datum/gas_mixture/turf), Christopher Odd (/mob/living/carbon/human))
+[21:21:18]Christopher Odd (/mob/living/carbon/human): check breath(/datum/gas_mixture/turf (/datum/gas_mixture/turf))
+[21:21:18]Christopher Odd (/mob/living/carbon/human): breathe()
+[21:21:18]Christopher Odd (/mob/living/carbon/human): breathe()
+[21:21:18]Christopher Odd (/mob/living/carbon/human): handle breathing(18)
+[21:21:18]Christopher Odd (/mob/living/carbon/human): Life(2, 18)
+[21:21:18]Christopher Odd (/mob/living/carbon/human): Life(2, 18)
+[21:21:18]Christopher Odd (/mob/living/carbon/human): Life(2, 18)
+[21:21:18]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[21:21:18]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[21:21:18]Master (/datum/controller/master): RunQueue()
+[21:21:18]Master (/datum/controller/master): Loop()
+[21:21:18]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:21:18]Cannot read null.visibility_flags
+[21:21:18]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:21:18]  source file: data_huds.dm,86
+[21:21:18]  usr: null
+[21:21:18]  src: Christopher Odd (/mob/living/carbon/human)
+[21:21:18]  src.loc: the floor (119,75,2) (/turf/open/floor/plasteel)
+[21:21:18]  call stack:
+[21:21:18]Christopher Odd (/mob/living/carbon/human): check virus()
+[21:21:18]Christopher Odd (/mob/living/carbon/human): med hud set status()
+[21:21:18]Christopher Odd (/mob/living/carbon/human): update stat()
+[21:21:18]Christopher Odd (/mob/living/carbon/human): updatehealth()
+[21:21:18]Christopher Odd (/mob/living/carbon/human): heal overall damage(0, 0, 0, 0, 1, 1)
+[21:21:18]Christopher Odd (/mob/living/carbon/human): adjustFireLoss(0, 1, 0)
+[21:21:18]the lungs (/obj/item/organ/lungs): check breath(/datum/gas_mixture/turf (/datum/gas_mixture/turf), Christopher Odd (/mob/living/carbon/human))
+[21:21:18]Christopher Odd (/mob/living/carbon/human): check breath(/datum/gas_mixture/turf (/datum/gas_mixture/turf))
+[21:21:18]Christopher Odd (/mob/living/carbon/human): breathe()
+[21:21:18]Christopher Odd (/mob/living/carbon/human): breathe()
+[21:21:18]Christopher Odd (/mob/living/carbon/human): handle breathing(18)
+[21:21:18]Christopher Odd (/mob/living/carbon/human): Life(2, 18)
+[21:21:18]Christopher Odd (/mob/living/carbon/human): Life(2, 18)
+[21:21:18]Christopher Odd (/mob/living/carbon/human): Life(2, 18)
+[21:21:18]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[21:21:18]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[21:21:18]Master (/datum/controller/master): RunQueue()
+[21:21:18]Master (/datum/controller/master): Loop()
+[21:21:18]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:21:18]Cannot read null.infectivity
+[21:21:18]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:18]  source file: life.dm,254
+[21:21:18]  usr: null
+[21:21:18]  src: Christopher Odd (/mob/living/carbon/human)
+[21:21:18]  src.loc: the floor (119,75,2) (/turf/open/floor/plasteel)
+[21:21:18]  call stack:
+[21:21:18]Christopher Odd (/mob/living/carbon/human): handle diseases()
+[21:21:18]Christopher Odd (/mob/living/carbon/human): Life(2, 18)
+[21:21:18]Christopher Odd (/mob/living/carbon/human): Life(2, 18)
+[21:21:18]Christopher Odd (/mob/living/carbon/human): Life(2, 18)
+[21:21:18]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[21:21:18]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[21:21:18]Master (/datum/controller/master): RunQueue()
+[21:21:18]Master (/datum/controller/master): Loop()
+[21:21:18]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:21:21]Cannot read null.infectivity
+[21:21:21]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:21]  source file: life.dm,254
+runtime error: 
+[21:21:23]Cannot read null.infectivity
+[21:21:23]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:23]  source file: life.dm,254
+runtime error: 
+[21:21:25]Cannot read null.infectivity
+[21:21:25]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:25]  source file: life.dm,254
+runtime error: 
+[21:21:28]Cannot read null.visibility_flags
+[21:21:28]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:21:28]  source file: data_huds.dm,86
+runtime error: 
+[21:21:28]Cannot read null.visibility_flags
+[21:21:28]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:21:28]  source file: data_huds.dm,86
+runtime error: 
+[21:21:28]Cannot read null.infectivity
+[21:21:28]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:28]  source file: life.dm,254
+runtime error: 
+[21:21:30]Cannot read null.infectivity
+[21:21:30]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:30]  source file: life.dm,254
+runtime error: 
+[21:21:32]Cannot read null.infectivity
+[21:21:32]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:32]  source file: life.dm,254
+runtime error: 
+[21:21:34]Cannot read null.infectivity
+[21:21:34]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:34]  source file: life.dm,254
+runtime error: 
+[21:21:36]Cannot read null.visibility_flags
+[21:21:36]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:21:36]  source file: data_huds.dm,86
+runtime error: 
+[21:21:36]Cannot read null.visibility_flags
+[21:21:36]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:21:36]  source file: data_huds.dm,86
+runtime error: 
+[21:21:36]Cannot read null.infectivity
+[21:21:36]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:36]  source file: life.dm,254
+runtime error: 
+[21:21:40]Cannot read null.infectivity
+[21:21:40]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:40]  source file: life.dm,254
+runtime error: 
+[21:21:43]Cannot read null.infectivity
+[21:21:43]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:43]  source file: life.dm,254
+runtime error: 
+[21:21:45]Cannot read null.infectivity
+[21:21:45]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:45]  source file: life.dm,254
+runtime error: 
+[21:21:48]Cannot read null.visibility_flags
+[21:21:48]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:21:48]  source file: data_huds.dm,86
+runtime error: 
+[21:21:48]Cannot read null.visibility_flags
+[21:21:48]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:21:48]  source file: data_huds.dm,86
+runtime error: 
+[21:21:48]Cannot read null.infectivity
+[21:21:48]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:48]  source file: life.dm,254
+runtime error: 
+[21:21:50]Cannot read null.infectivity
+[21:21:50]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:50]  source file: life.dm,254
+runtime error: 
+[21:21:53]Cannot read null.infectivity
+[21:21:53]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:53]  source file: life.dm,254
+runtime error: 
+[21:21:55]Cannot read null.infectivity
+[21:21:55]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:55]  source file: life.dm,254
+runtime error: 
+[21:21:57]Cannot read null.visibility_flags
+[21:21:57]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:21:57]  source file: data_huds.dm,86
+runtime error: 
+[21:21:57]Cannot read null.visibility_flags
+[21:21:57]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:21:57]  source file: data_huds.dm,86
+runtime error: 
+[21:21:57]Cannot read null.infectivity
+[21:21:57]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:57]  source file: life.dm,254
+runtime error: 
+[21:21:59]Cannot read null.infectivity
+[21:21:59]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:21:59]  source file: life.dm,254
+runtime error: 
+[21:22:01]Cannot read null.infectivity
+[21:22:01]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:01]  source file: life.dm,254
+runtime error: 
+[21:22:04]Cannot read null.infectivity
+[21:22:04]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:04]  source file: life.dm,254
+runtime error: 
+[21:22:06]Cannot read null.visibility_flags
+[21:22:06]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:22:06]  source file: data_huds.dm,86
+runtime error: 
+[21:22:06]Cannot read null.visibility_flags
+[21:22:06]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:22:06]  source file: data_huds.dm,86
+runtime error: 
+[21:22:06]Cannot read null.infectivity
+[21:22:06]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:06]  source file: life.dm,254
+runtime error: 
+[21:22:09]Cannot read null.infectivity
+[21:22:09]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:09]  source file: life.dm,254
+runtime error: 
+[21:22:10]Cannot read null.infectivity
+[21:22:10]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:10]  source file: life.dm,254
+runtime error: 
+[21:22:12]Cannot read null.infectivity
+[21:22:12]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:12]  source file: life.dm,254
+runtime error: 
+[21:22:14]Cannot read null.visibility_flags
+[21:22:14]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:22:14]  source file: data_huds.dm,86
+runtime error: 
+[21:22:14]Cannot read null.visibility_flags
+[21:22:14]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:22:14]  source file: data_huds.dm,86
+runtime error: 
+[21:22:14]Cannot read null.infectivity
+[21:22:14]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:14]  source file: life.dm,254
+runtime error: 
+[21:22:17]Cannot read null.infectivity
+[21:22:17]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:17]  source file: life.dm,254
+runtime error: 
+[21:22:19]Cannot read null.infectivity
+[21:22:19]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:19]  source file: life.dm,254
+runtime error: 
+[21:22:21]Cannot read null.infectivity
+[21:22:21]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:21]  source file: life.dm,254
+runtime error: 
+[21:22:24]Cannot read null.visibility_flags
+[21:22:24]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:22:24]  source file: data_huds.dm,86
+runtime error: 
+[21:22:24]Cannot read null.visibility_flags
+[21:22:24]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:22:24]  source file: data_huds.dm,86
+runtime error: 
+[21:22:24]Cannot read null.infectivity
+[21:22:24]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:24]  source file: life.dm,254
+runtime error: 
+[21:22:26]Cannot read null.infectivity
+[21:22:26]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:26]  source file: life.dm,254
+runtime error: 
+[21:22:28]Cannot read null.infectivity
+[21:22:28]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:28]  source file: life.dm,254
+runtime error: 
+[21:22:30]Cannot read null.infectivity
+[21:22:30]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:30]  source file: life.dm,254
+runtime error: 
+[21:22:32]Cannot read null.visibility_flags
+[21:22:32]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:22:32]  source file: data_huds.dm,86
+runtime error: 
+[21:22:32]Cannot read null.visibility_flags
+[21:22:32]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:22:32]  source file: data_huds.dm,86
+runtime error: 
+[21:22:32]Cannot read null.infectivity
+[21:22:32]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:32]  source file: life.dm,254
+runtime error: 
+[21:22:35]Cannot read null.infectivity
+[21:22:35]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:35]  source file: life.dm,254
+runtime error: 
+[21:22:37]Cannot read null.infectivity
+[21:22:37]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:37]  source file: life.dm,254
+runtime error: 
+[21:22:39]Cannot read null.infectivity
+[21:22:39]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:39]  source file: life.dm,254
+runtime error: 
+[21:22:41]Cannot read null.visibility_flags
+[21:22:41]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:22:41]  source file: data_huds.dm,86
+runtime error: 
+[21:22:41]Cannot read null.visibility_flags
+[21:22:41]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:22:41]  source file: data_huds.dm,86
+runtime error: 
+[21:22:41]Cannot read null.infectivity
+[21:22:41]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:41]  source file: life.dm,254
+runtime error: 
+[21:22:43]Cannot read null.infectivity
+[21:22:43]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:43]  source file: life.dm,254
+runtime error: 
+[21:22:46]Cannot read null.infectivity
+[21:22:46]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:46]  source file: life.dm,254
+runtime error: 
+[21:22:48]Cannot read null.infectivity
+[21:22:48]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:48]  source file: life.dm,254
+runtime error: 
+[21:22:50]Cannot read null.visibility_flags
+[21:22:50]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:22:50]  source file: data_huds.dm,86
+runtime error: 
+[21:22:50]Cannot read null.visibility_flags
+[21:22:50]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:22:50]  source file: data_huds.dm,86
+runtime error: 
+[21:22:50]Cannot read null.infectivity
+[21:22:50]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:22:50]  source file: life.dm,254
+runtime error: 
+[21:23:05]Cannot read null.spread_flags
+[21:23:05]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:05]  source file: living.dm,125
+runtime error: 
+[21:23:05]Cannot read null.spread_flags
+[21:23:05]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:05]  source file: living.dm,125
+runtime error: 
+[21:23:06]Cannot read null.spread_flags
+[21:23:06]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:06]  source file: living.dm,125
+runtime error: 
+[21:23:06]Cannot read null.spread_flags
+[21:23:06]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:06]  source file: living.dm,125
+runtime error: 
+[21:23:06]Cannot read null.spread_flags
+[21:23:06]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:06]  source file: living.dm,125
+runtime error: 
+[21:23:07]Cannot read null.visibility_flags
+[21:23:07]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:23:07]  source file: data_huds.dm,86
+runtime error: 
+[21:23:07]Cannot read null.visibility_flags
+[21:23:07]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:23:07]  source file: data_huds.dm,86
+runtime error: 
+[21:23:07]Cannot read null.infectivity
+[21:23:07]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:23:07]  source file: life.dm,254
+runtime error: 
+[21:23:07]Cannot read null.spread_flags
+[21:23:07]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:07]  source file: living.dm,125
+runtime error: 
+[21:23:07]Cannot read null.spread_flags
+[21:23:07]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:07]  source file: living.dm,125
+runtime error: 
+[21:23:07]Cannot read null.spread_flags
+[21:23:07]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:07]  source file: living.dm,125
+runtime error: 
+[21:23:07]Cannot read null.spread_flags
+[21:23:07]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:07]  source file: living.dm,125
+runtime error: 
+[21:23:07]Cannot read null.spread_flags
+[21:23:07]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:07]  source file: living.dm,125
+runtime error: 
+[21:23:07]Cannot read null.spread_flags
+[21:23:07]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:07]  source file: living.dm,125
+runtime error: 
+[21:23:07]Cannot read null.spread_flags
+[21:23:07]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:07]  source file: living.dm,125
+runtime error: 
+[21:23:07]Cannot read null.spread_flags
+[21:23:07]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:07]  source file: living.dm,125
+runtime error: 
+[21:23:07]Cannot read null.spread_flags
+[21:23:07]proc name: MobCollide (/mob/living/proc/MobCollide)
+[21:23:07]  source file: living.dm,125
+runtime error: 
+[21:23:09]Cannot read null.infectivity
+[21:23:09]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:23:09]  source file: life.dm,254
+runtime error: 
+[21:23:11]Cannot read null.infectivity
+[21:23:11]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:23:11]  source file: life.dm,254
+runtime error: 
+[21:23:15]Cannot read null.visibility_flags
+[21:23:15]Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: 
+[21:23:15]Cannot read null.visibility_flags
+runtime error: 
+[21:23:24]Cannot read null.visibility_flags
+runtime error: 
+[21:23:24]Cannot read null.visibility_flags
+runtime error: 
+[21:23:24]Cannot read null.spread_flags
+runtime error: 
+[21:23:25]Cannot read null.spread_flags
+runtime error: 
+[21:23:26]Cannot read null.spread_flags
+runtime error: 
+[21:23:29]Cannot read null.visibility_flags
+runtime error: 
+[21:23:30]Cannot read null.visibility_flags
+runtime error: 
+[21:23:36]Cannot read null.visibility_flags
+runtime error: 
+[21:23:36]Cannot read null.visibility_flags
+runtime error: 
+[21:23:44]Cannot read null.visibility_flags
+runtime error: 
+[21:23:44]Cannot read null.visibility_flags
+runtime error: 
+[21:23:53]Cannot read null.visibility_flags
+runtime error: 
+[21:23:53]Cannot read null.visibility_flags
+runtime error: 
+[21:24:02]Cannot read null.visibility_flags
+runtime error: 
+[21:24:02]Cannot read null.visibility_flags
+runtime error: 
+[21:24:09]nothing to animate
+runtime error: 
+[21:24:12]Cannot read null.visibility_flags
+runtime error: 
+[21:24:12]Cannot read null.visibility_flags
+runtime error: 
+[21:24:21]Cannot read null.visibility_flags
+runtime error: 
+[21:24:21]Cannot read null.visibility_flags
+runtime error: 
+[21:24:30]Cannot read null.visibility_flags
+runtime error: 
+[21:24:30]Cannot read null.visibility_flags
+runtime error: 
+[21:24:39]Cannot read null.visibility_flags
+runtime error: 
+[21:24:39]Cannot read null.visibility_flags
+runtime error: 
+[21:24:42]Cannot read null.spread_flags
+runtime error: 
+[21:24:50]Cannot read null.visibility_flags
+runtime error: 
+[21:24:50]Cannot read null.visibility_flags
+runtime error: 
+[21:25:01]Cannot read null.visibility_flags
+runtime error: 
+[21:25:01]Cannot read null.visibility_flags
+runtime error: 
+[21:25:46]Cannot read null.spread_flags
+runtime error: 
+[21:25:47]Cannot read null.spread_flags
+runtime error: 
+[21:25:47]Cannot read null.spread_flags
+runtime error: 
+[21:25:47]Cannot read null.spread_flags
+runtime error: 
+[21:25:47]Cannot read null.spread_flags
+runtime error: 
+[21:26:00]Cannot read null.spread_flags
+runtime error: 
+[21:27:18]Cannot read null.spread_flags
+runtime error: 
+[21:27:19]Cannot read null.spread_flags
+runtime error: 
+[21:27:21]Cannot read null.spread_flags
+runtime error: 
+[21:28:22]nothing to animate
+runtime error: 
+[21:28:32]Cannot read null.spread_flags
+runtime error: 
+[21:28:35]Cannot read null.spread_flags
+runtime error: 
+[21:28:35]Cannot read null.spread_flags
+runtime error: 
+[21:28:35]Cannot read null.spread_flags
+runtime error: 
+[21:28:41]Cannot read null.spread_flags
+runtime error: 
+[21:29:05]Cannot read null.spread_flags
+runtime error: 
+[21:29:24]Cannot read null.spread_flags
+runtime error: 
+[21:29:44]Cannot read null.spread_flags
+runtime error: 
+[21:30:49]Cannot read null.spread_flags
+runtime error: 
+[21:30:49]Cannot read null.spread_flags
+runtime error: 
+[21:30:50]Cannot read null.spread_flags
+runtime error: 
+[21:30:50]Cannot read null.spread_flags
+runtime error: 
+[21:30:51]Cannot read null.spread_flags
+runtime error: 
+[21:30:51]Cannot read null.spread_flags
+runtime error: 
+[21:30:51]Cannot read null.spread_flags
+runtime error: 
+[21:30:51]Cannot read null.spread_flags
+runtime error: 
+[21:30:51]Cannot read null.spread_flags
+runtime error: 
+[21:30:51]Cannot read null.spread_flags
+runtime error: 
+[21:30:51]Cannot read null.spread_flags
+runtime error: 
+[21:30:51]Cannot read null.spread_flags
+runtime error: 
+[21:30:51]Cannot read null.spread_flags
+runtime error: 
+[21:30:51]Cannot read null.spread_flags
+runtime error: 
+[21:30:52]Cannot read null.spread_flags
+runtime error: 
+[21:30:52]Cannot read null.spread_flags
+runtime error: 
+[21:30:54]Cannot read null.spread_flags
+runtime error: 
+[21:30:54]Cannot read null.spread_flags
+runtime error: 
+[21:30:54]Cannot read null.spread_flags
+runtime error: 
+[21:30:55]Cannot read null.spread_flags
+runtime error: 
+[21:30:56]Cannot read null.spread_flags
+runtime error: 
+[21:31:14]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:15]Cannot read null.spread_flags
+runtime error: 
+[21:31:16]Cannot read null.spread_flags
+runtime error: 
+[21:31:16]Cannot read null.spread_flags
+runtime error: 
+[21:31:16]Cannot read null.spread_flags
+runtime error: 
+[21:31:19]nothing to animate
+runtime error: 
+[21:31:28]Cannot read null.spread_flags
+runtime error: 
+[21:31:28]Cannot read null.spread_flags
+runtime error: 
+[21:31:36]Cannot read null.visibility_flags
+runtime error: 
+[21:31:36]Cannot read null.visibility_flags
+runtime error: 
+[21:31:56]Cannot read null.visibility_flags
+runtime error: 
+[21:32:13]Cannot read null.spread_flags
+runtime error: 
+[21:32:36]nothing to animate
+runtime error: 
+[21:32:56]Cannot read null.client
+runtime error: 
+[21:32:56]Cannot read null.client
+runtime error: 
+[21:32:56]Cannot read null.client
+runtime error: 
+[21:32:56]Cannot read null.client
+runtime error: 
+[21:33:30]Cannot read null.spread_flags
+runtime error: 
+[21:34:27]Cannot read null.spread_flags
+runtime error: 
+[21:34:41]Cannot read null.severity
+runtime error: 
+[21:34:49]Cannot read null.spread_flags
+runtime error: 
+[21:34:49]Cannot read null.spread_flags
+runtime error: 
+[21:34:50]Cannot read null.spread_flags
+runtime error: 
+[21:34:50]Cannot read null.spread_flags
+runtime error: 
+[21:34:58]Cannot read null.infectivity
+runtime error: 
+[21:35:00]Cannot read null.infectivity
+runtime error: 
+[21:35:03]Cannot read null.infectivity
+runtime error: 
+[21:35:05]Cannot read null.infectivity
+runtime error: 
+[21:35:07]Cannot read null.infectivity
+runtime error: 
+[21:35:09]Cannot read null.infectivity
+runtime error: 
+[21:35:12]Cannot read null.infectivity
+runtime error: 
+[21:35:14]Cannot read null.infectivity
+runtime error: 
+[21:35:16]Cannot read null.infectivity
+runtime error: 
+[21:35:18]Cannot read null.infectivity
+runtime error: 
+[21:35:20]Cannot read null.infectivity
+runtime error: 
+[21:35:23]Cannot read null.infectivity
+runtime error: 
+[21:35:25]Cannot read null.infectivity
+runtime error: 
+[21:35:27]Cannot read null.infectivity
+runtime error: 
+[21:35:29]Cannot read null.infectivity
+runtime error: 
+[21:35:32]Cannot read null.infectivity
+runtime error: 
+[21:35:34]Cannot read null.infectivity
+runtime error: 
+[21:35:34]Cannot read null.spread_flags
+runtime error: 
+[21:35:34]Cannot read null.spread_flags
+runtime error: 
+[21:35:34]Cannot read null.spread_flags
+runtime error: 
+[21:35:35]Cannot read null.spread_flags
+runtime error: 
+[21:35:35]Cannot read null.spread_flags
+runtime error: 
+[21:35:35]Cannot read null.spread_flags
+runtime error: 
+[21:35:36]Cannot read null.infectivity
+runtime error: 
+[21:35:37]Cannot read null.spread_flags
+runtime error: 
+[21:35:38]Cannot read null.spread_flags
+runtime error: 
+[21:35:38]Cannot read null.spread_flags
+runtime error: 
+[21:35:38]Cannot read null.spread_flags
+runtime error: 
+[21:35:39]Cannot read null.spread_flags
+runtime error: 
+[21:35:39]Cannot read null.spread_flags
+runtime error: 
+[21:35:39]Cannot read null.infectivity
+runtime error: 
+[21:35:39]Cannot read null.spread_flags
+runtime error: 
+[21:35:39]Cannot read null.spread_flags
+runtime error: 
+[21:35:41]Cannot read null.infectivity
+runtime error: 
+[21:35:43]Cannot read null.infectivity
+runtime error: 
+[21:35:45]Cannot read null.spread_flags
+runtime error: 
+[21:35:45]Cannot read null.spread_flags
+runtime error: 
+[21:35:45]Cannot read null.spread_flags
+runtime error: 
+[21:35:45]Cannot read null.spread_flags
+runtime error: 
+[21:35:45]Cannot read null.spread_flags
+runtime error: 
+[21:35:45]Cannot read null.infectivity
+runtime error: 
+[21:35:48]Cannot read null.infectivity
+runtime error: 
+[21:35:50]Cannot read null.infectivity
+runtime error: 
+[21:35:52]Cannot read null.infectivity
+runtime error: 
+[21:35:54]Cannot read null.infectivity
+runtime error: 
+[21:35:56]Cannot read null.infectivity
+runtime error: 
+[21:35:59]Cannot read null.infectivity
+runtime error: 
+[21:36:01]Cannot read null.infectivity
+runtime error: 
+[21:36:03]Cannot read null.infectivity
+runtime error: 
+[21:36:05]Cannot read null.infectivity
+runtime error: 
+[21:36:07]Cannot read null.infectivity
+runtime error: 
+[21:36:10]Cannot read null.infectivity
+runtime error: 
+[21:36:12]Cannot read null.infectivity
+runtime error: 
+[21:36:12]Cannot read null.spread_flags
+runtime error: 
+[21:36:13]Cannot read null.spread_flags
+runtime error: 
+[21:36:13]Cannot read null.spread_flags
+runtime error: 
+[21:36:14]Cannot read null.infectivity
+runtime error: 
+[21:36:14]Cannot read null.spread_flags
+runtime error: 
+[21:36:16]Cannot read null.infectivity
+runtime error: 
+[21:36:17]Cannot read null.spread_flags
+runtime error: 
+[21:36:18]Cannot read null.infectivity
+runtime error: 
+[21:36:21]Cannot read null.infectivity
+runtime error: 
+[21:36:23]Cannot read null.len
+runtime error: 
+[21:36:23]Cannot read null.infectivity
+runtime error: 
+[21:36:25]Cannot read null.infectivity
+runtime error: 
+[21:36:28]Cannot read null.infectivity
+runtime error: 
+[21:36:30]Cannot read null.infectivity
+runtime error: 
+[21:36:32]Cannot read null.infectivity
+runtime error: 
+[21:36:33]Cannot read null.type
+runtime error: 
+[21:36:34]Cannot read null.infectivity
+runtime error: 
+[21:36:35]Cannot read null.spread_flags
+runtime error: 
+[21:36:35]Cannot read null.spread_flags
+runtime error: 
+[21:36:36]Cannot read null.spread_flags
+runtime error: 
+[21:36:36]Cannot read null.spread_flags
+runtime error: 
+[21:36:37]Cannot read null.spread_flags
+runtime error: 
+[21:36:37]Cannot read null.spread_flags
+runtime error: 
+[21:36:37]Cannot read null.infectivity
+runtime error: 
+[21:36:40]Cannot read null.visibility_flags
+runtime error: 
+[21:36:40]Cannot read null.visibility_flags
+runtime error: 
+[21:36:40]Cannot read null.infectivity
+runtime error: 
+[21:36:42]Cannot read null.infectivity
+runtime error: 
+[21:36:44]Cannot read null.infectivity
+runtime error: 
+[21:36:46]Cannot read null.infectivity
+runtime error: 
+[21:36:48]Cannot read null.visibility_flags
+runtime error: 
+[21:36:48]Cannot read null.visibility_flags
+runtime error: 
+[21:36:48]Cannot read null.infectivity
+runtime error: 
+[21:36:50]Cannot read null.infectivity
+runtime error: 
+[21:36:52]Cannot read null.infectivity
+runtime error: 
+[21:36:57]Cannot read null.visibility_flags
+runtime error: 
+[21:36:57]Cannot read null.visibility_flags
+runtime error: 
+[21:36:59]Cannot read null.visibility_flags
+runtime error: 
+[21:37:06]Cannot read null.visibility_flags
+runtime error: 
+[21:37:06]Cannot read null.visibility_flags
+runtime error: 
+[21:37:14]Cannot read null.visibility_flags
+runtime error: 
+[21:37:14]Cannot read null.visibility_flags
+runtime error: 
+[21:37:23]Cannot read null.visibility_flags
+runtime error: 
+[21:37:23]Cannot read null.visibility_flags
+runtime error: 
+[21:37:32]Cannot read null.visibility_flags
+runtime error: 
+[21:37:32]Cannot read null.visibility_flags
+runtime error: 
+[21:37:41]Cannot read null.visibility_flags
+runtime error: 
+[21:37:41]Cannot read null.visibility_flags
+runtime error: 
+[21:37:49]Cannot read null.visibility_flags
+runtime error: 
+[21:37:49]Cannot read null.visibility_flags
+runtime error: 
+[21:37:57]Cannot read null.visibility_flags
+runtime error: 
+[21:37:58]Cannot read null.visibility_flags
+runtime error: 
+[21:37:58]undefined variable /obj/effect/hallucination/simple/xeno/var/client
+runtime error: 
+[21:37:58]undefined variable /obj/effect/hallucination/simple/xeno/var/client
+runtime error: 
+[21:37:58]undefined variable /obj/effect/hallucination/simple/xeno/var/client
+runtime error: 
+[21:37:58]undefined variable /obj/effect/hallucination/simple/xeno/var/client
+runtime error: 
+[21:37:58]undefined variable /obj/effect/hallucination/simple/xeno/var/client
+runtime error: 
+[21:37:58]undefined variable /obj/effect/hallucination/simple/xeno/var/client
+runtime error: 
+[21:37:58]undefined variable /obj/effect/hallucination/simple/xeno/var/client
+runtime error: 
+[21:37:58]undefined variable /obj/effect/hallucination/simple/xeno/var/client
+runtime error: 
+[21:37:58]undefined variable /obj/effect/hallucination/simple/xeno/var/client
+runtime error: 
+[21:37:58]undefined variable /obj/effect/hallucination/simple/xeno/var/client
+runtime error: 
+[21:37:59]Cannot read null.visibility_flags
+runtime error: 
+[21:38:01]Cannot read null.visibility_flags
+runtime error: 
+[21:38:01]Cannot read null.visibility_flags
+runtime error: 
+[21:38:01]Cannot read null.visibility_flags
+runtime error: 
+[21:38:01]Cannot read null.visibility_flags
+runtime error: 
+[21:38:01]Cannot read null.visibility_flags
+runtime error: 
+[21:38:02]Cannot read null.visibility_flags
+runtime error: 
+[21:38:02]Cannot read null.visibility_flags
+runtime error: 
+[21:38:04]Cannot read null.visibility_flags
+runtime error: 
+[21:38:04]Cannot read null.visibility_flags
+runtime error: 
+[21:38:05]Cannot read null.visibility_flags
+runtime error: 
+[21:38:06]Cannot read null.visibility_flags
+runtime error: 
+[21:38:06]Cannot read null.visibility_flags
+runtime error: 
+[21:38:07]Cannot read null.visibility_flags
+runtime error: 
+[21:38:07]Cannot read null.visibility_flags
+runtime error: 
+[21:38:07]Cannot read null.visibility_flags
+runtime error: 
+[21:38:08]Cannot read null.visibility_flags
+runtime error: 
+[21:38:08]Cannot read null.visibility_flags
+runtime error: 
+[21:38:08]Cannot read null.visibility_flags
+runtime error: 
+[21:38:08]Cannot read null.visibility_flags
+runtime error: 
+[21:38:08]Cannot read null.visibility_flags
+runtime error: 
+[21:38:09]Cannot read null.visibility_flags
+runtime error: 
+[21:38:09]Cannot read null.visibility_flags
+runtime error: 
+[21:38:09]Cannot read null.visibility_flags
+runtime error: 
+[21:38:09]Cannot read null.visibility_flags
+runtime error: 
+[21:38:09]Cannot read null.visibility_flags
+runtime error: 
+[21:38:10]Cannot read null.visibility_flags
+runtime error: 
+[21:38:10]Cannot read null.visibility_flags
+runtime error: 
+[21:38:10]Cannot read null.visibility_flags
+runtime error: 
+[21:38:10]Cannot read null.visibility_flags
+runtime error: 
+[21:38:10]Cannot read null.visibility_flags
+runtime error: 
+[21:38:10]Cannot read null.visibility_flags
+runtime error: 
+[21:38:15]Cannot read null.spread_flags
+runtime error: 
+[21:38:52]Cannot read null.client
+runtime error: 
+[21:38:56]nothing to animate
+runtime error: 
+[21:39:06]Cannot read null.client
+runtime error: 
+[21:39:19]Cannot read null.spread_flags
+runtime error: 
+[21:39:55]Cannot read null.spread_flags
+runtime error: 
+[21:39:56]Cannot read null.spread_flags
+runtime error: 
+[21:40:39]Cannot read null.x
+runtime error: 
+[21:41:30]No valid destination passed into forceMove
+Saved 2 engraved messages on map Box Station
+[2018-04-08 21:41:20] Client: Dnexus triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52045/tmp7904/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0E; .NET4.0C)
+[2018-04-08 21:41:20] Client: Kyutness triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50041/tmp7484/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-04-08 21:41:20] Client: Smallrus triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:63438/tmp54888/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; raidcall; .NET CLR 1.1.4322; MAARJS)
+[2018-04-08 21:41:20] Client: Minnesotaman227 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50181/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; BRI/2)
+[2018-04-08 21:41:20] Client: Wylenn triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:56438/tmp2216/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET4.0C; .NET4.0E)
+[2018-04-08 21:41:20] Client: That guy is taken triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:60637/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-08 21:41:20] Client: DisRespectIsRespect triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:62910/tmp10168/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-08 21:41:20] Client: Rossyboi triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53125/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; HPDTDFJS)
+[2018-04-08 21:41:20] Client: Baby_Face_Gerry triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58248/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee)
+[2018-04-08 21:41:20] Client: Froglegs of Kekistan triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64108/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; McAfee)
+[2018-04-08 21:41:20] Client: DarkVaderV2 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61817/tmp10852/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-08 21:41:20] Client: AsciiSquid triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:61328/tmp1868/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; Tablet PC 2.0)
+[2018-04-08 21:41:20] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:55303/tmp21044/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-04-08 21:41:20] Client: MonkeyMan901 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50588/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; HPNTDFJS; H9P; McAfee)
+[2018-04-08 21:41:20] Client: Toned Mcstone triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50122/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; .NET CLR 1.1.4322; BRI/2)
+[2018-04-08 21:41:20] Client: Golden Touch triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:63338/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-08 21:41:20] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:57755/tmp14928/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-08 21:41:20] Client: Datmanisdumb triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53937/tmp6804/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-04-08 21:41:20] Client: BeerBears triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50787/tmp1156/browserOutput.js | line: 116 | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; byond_5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+[2018-04-08 21:41:20] Client: BarbadosEZ triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:55485/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-04-08 21:41:20] Client: Kevinspacey2002 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52345/tmp12128/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-08 21:41:20] Client: Yeti284 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58864/tmp404/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-08 21:41:20] Client: O-Shee triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:59508/tmp10064/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; Tablet PC 2.0; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; HRTS; H9P)
+[2018-04-08 21:41:20] Client: Bolloeds4 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:54510/tmp18416/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; McAfee; LCTE)
+[2018-04-08 21:41:20] Client: Cscottburgess triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50304/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee)
+[2018-04-08 21:41:20] Client: Ozan59593 triggered JS error: Error: Kodu çözülecek URI geçerli bir kodlama değil | url: http://127.0.0.1:56885/tmp4160/browserOutput.js | line: 116 | column: 2 | error: URIError: Kodu çözülecek URI geçerli bir kodlama değil | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-08 21:41:20] Client: PantasTheDark triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53991/tmp5148/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; CPNTDFJS; H9P; InfoPath.3)
+[2018-04-08 21:41:20] Client: GameOver2015 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:54471/tmp10572/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-04-08 21:41:20] Client: BABAHUHU triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53447/tmp13116/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 21:44:08

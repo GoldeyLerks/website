@@ -1,0 +1,730 @@
+
+
+Starting up round ID 876. 18:30:38
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 6.7s!
+Loaded Lavaland in 8s!
+Loaded Reebe in 6.3s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 27.4 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[18:31:19]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[18:31:19]proc name: stack trace (/datum/proc/stack_trace)
+[18:31:19]  source file: unsorted.dm,1257
+[18:31:19]  usr: null
+[18:31:19]  src: Vacant Office APC (/obj/machinery/power/apc)
+[18:31:19]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[18:31:19]  call stack:
+[18:31:19]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[18:31:19]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[18:31:19]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[18:31:19]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[18:31:19]Atoms (/datum/controller/subsystem/atoms): Initialize(666729)
+[18:31:19]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 43 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.2 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 8 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 8 turf(s) (connected to 19090 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 20 seconds!
+Initialized Minimap subsystem within 0.3 seconds!
+Initialized Assets subsystem within 0.9 seconds!
+Initialized Icon Smoothing subsystem within 5.9 seconds!
+Initialized Overlay subsystem within 18.9 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 12.3 seconds!
+Initialized Shuttle subsystem within 26.6 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 119 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 156 seconds!
+Game start took 24.9s
+runtime error: 
+[18:35:26]nothing to animate
+[18:35:26]proc name: shake camera (/proc/shake_camera)
+[18:35:26]  source file: mob_helpers.dm,270
+[18:35:26]  usr: (src)
+[18:35:26]  src: null
+[18:35:26]  call stack:
+[18:35:26]shake camera(Lorick WorldCrusher (/mob/living/carbon/human), 0.75, 1)
+[18:35:26]Lorick WorldCrusher (/mob/living/carbon/human): afterShuttleMove(space (21,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:35:26]Lorick WorldCrusher (/mob/living/carbon/human): afterShuttleMove(space (21,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:35:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[18:35:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[18:35:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[18:35:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:35:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:35:26]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:35:26]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:36:08]Cannot read null.client
+[18:36:08]proc name: open (/datum/tgui/proc/open)
+[18:36:08]  source file: tgui.dm,87
+[18:36:08]  usr: Lorick WorldCrusher (/mob/living/carbon/human)
+[18:36:08]  src: /datum/tgui (/datum/tgui)
+[18:36:08]  usr.loc: the shuttle floor (41,143,2) (/turf/open/floor/mineral/titanium/blue)
+[18:36:08]  call stack:
+[18:36:08]/datum/tgui (/datum/tgui): open()
+[18:36:08]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[18:36:08]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Lorick WorldCrusher (/mob/living/carbon/human))
+[18:36:08]Lorick WorldCrusher (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=23;icon-y=15;left=1;scr...")
+[18:36:08]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=23;icon-y=15;left=1;scr...")
+runtime error: 
+[18:36:24]nothing to animate
+[18:36:24]proc name: shake camera (/proc/shake_camera)
+[18:36:24]  source file: mob_helpers.dm,270
+[18:36:24]  usr: (src)
+[18:36:24]  src: null
+[18:36:24]  call stack:
+[18:36:24]shake camera(Wicker Atmos (/mob/living/carbon/human), 0.75, 1)
+[18:36:24]Wicker Atmos (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:36:24]Wicker Atmos (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:36:24]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[18:36:24]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[18:36:24]the mining shuttle (/obj/docking_port/mobile): check()
+[18:36:24]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:36:24]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:36:36]Cannot read null.client
+[18:36:36]proc name: open (/datum/tgui/proc/open)
+[18:36:36]  source file: tgui.dm,87
+[18:36:36]  usr: Lorick WorldCrusher (/mob/living/carbon/human)
+[18:36:36]  src: /datum/tgui (/datum/tgui)
+[18:36:36]  usr.loc: the shuttle floor (41,143,2) (/turf/open/floor/mineral/titanium/blue)
+[18:36:36]  call stack:
+[18:36:36]/datum/tgui (/datum/tgui): open()
+[18:36:36]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[18:36:36]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Lorick WorldCrusher (/mob/living/carbon/human))
+[18:36:36]Lorick WorldCrusher (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=17;icon-y=18;left=1;scr...")
+[18:36:36]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=17;icon-y=18;left=1;scr...")
+runtime error: 
+[18:39:01]nothing to animate
+[18:39:01]proc name: shake camera (/proc/shake_camera)
+[18:39:01]  source file: mob_helpers.dm,270
+[18:39:01]  usr: (src)
+[18:39:01]  src: null
+[18:39:01]  call stack:
+[18:39:01]shake camera(Taya Velvet (/mob/living/carbon/human), 0.75, 1)
+[18:39:01]Taya Velvet (/mob/living/carbon/human): afterShuttleMove(space (25,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:39:01]Taya Velvet (/mob/living/carbon/human): afterShuttleMove(space (25,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:39:01]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[18:39:01]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[18:39:01]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[18:39:01]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:39:01]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:39:01]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:39:01]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:39:41]nothing to animate
+[18:39:41]proc name: shake camera (/proc/shake_camera)
+[18:39:41]  source file: mob_helpers.dm,270
+[18:39:41]  usr: (src)
+[18:39:41]  src: null
+[18:39:41]  call stack:
+[18:39:41]shake camera(Matt Yevpraksiya (/mob/living/carbon/human), 0.75, 1)
+[18:39:41]Matt Yevpraksiya (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:39:41]Matt Yevpraksiya (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:39:41]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[18:39:41]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[18:39:41]the mining shuttle (/obj/docking_port/mobile): check()
+[18:39:41]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:39:41]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:41:48]A ref was requested of an object with DF_USE_TAG set but no tag: the new player
+[18:41:48]proc name: stack trace (/proc/stack_trace)
+[18:41:48]  source file: unsorted.dm,1254
+[18:41:48]  usr: the new player (/mob/dead/new_player)
+[18:41:48]  src: null
+[18:41:48]  usr.loc: null
+[18:41:48]  call stack:
+[18:41:48]stack trace("A ref was requested of an obje...")
+[18:41:48]REF(the new player (/mob/dead/new_player))
+[18:41:48]the new player (/mob/dead/new_player): new player panel()
+[18:41:48]the new player (/mob/dead/new_player): make me an observer()
+[18:41:48]the new player (/mob/dead/new_player): Topic("src=\[mob_307];ready=2", /list (/list))
+[18:41:48]Infinitys true end (/client): Topic("src=\[mob_307];ready=2", /list (/list), the new player (/mob/dead/new_player))
+[18:41:48]Infinitys true end (/client): Topic("src=\[mob_307];ready=2", /list (/list), the new player (/mob/dead/new_player))
+runtime error: 
+[18:42:41]nothing to animate
+[18:42:41]proc name: shake camera (/proc/shake_camera)
+[18:42:41]  source file: mob_helpers.dm,270
+[18:42:41]  usr: (src)
+[18:42:41]  src: null
+[18:42:41]  call stack:
+[18:42:41]shake camera(Matt Yevpraksiya (/mob/living/carbon/human), 0.75, 1)
+[18:42:41]Matt Yevpraksiya (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:42:41]Matt Yevpraksiya (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:42:41]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the mining shuttle bay (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[18:42:41]the mining shuttle (/obj/docking_port/mobile): initiate docking(the mining shuttle bay (/obj/docking_port/stationary), 1, 0)
+[18:42:41]the mining shuttle (/obj/docking_port/mobile): check()
+[18:42:41]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:42:41]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:43:06]Cannot read null.client
+[18:43:06]proc name: open (/datum/tgui/proc/open)
+[18:43:06]  source file: tgui.dm,87
+[18:43:06]  usr: Bara (/mob/living/carbon/human)
+[18:43:06]  src: /datum/tgui (/datum/tgui)
+[18:43:06]  usr.loc: the floor (113,103,2) (/turf/open/floor/plasteel)
+[18:43:06]  call stack:
+[18:43:06]/datum/tgui (/datum/tgui): open()
+[18:43:06]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[18:43:06]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Bara (/mob/living/carbon/human))
+[18:43:06]Bara (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=21;icon-y=13;left=1;scr...")
+[18:43:06]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=21;icon-y=13;left=1;scr...")
+runtime error: 
+[18:43:30]nothing to animate
+[18:43:30]proc name: shake camera (/proc/shake_camera)
+[18:43:30]  source file: mob_helpers.dm,270
+[18:43:30]  usr: (src)
+[18:43:30]  src: null
+[18:43:30]  call stack:
+[18:43:30]shake camera(Matt Yevpraksiya (/mob/living/carbon/human), 0.75, 1)
+[18:43:30]Matt Yevpraksiya (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:43:30]Matt Yevpraksiya (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:43:30]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[18:43:30]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[18:43:30]the mining shuttle (/obj/docking_port/mobile): check()
+[18:43:30]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:43:30]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:43:31]Cannot read null.client
+[18:43:31]proc name: open (/datum/tgui/proc/open)
+[18:43:31]  source file: tgui.dm,87
+[18:43:31]  usr: Bara (/mob/living/carbon/human)
+[18:43:31]  src: /datum/tgui (/datum/tgui)
+[18:43:31]  usr.loc: the floor (113,102,2) (/turf/open/floor/plasteel)
+[18:43:31]  call stack:
+[18:43:31]/datum/tgui (/datum/tgui): open()
+[18:43:31]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[18:43:31]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Bara (/mob/living/carbon/human))
+[18:43:31]Bara (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=18;icon-y=18;left=1;scr...")
+[18:43:31]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=18;icon-y=18;left=1;scr...")
+runtime error: 
+[18:43:40]Cannot read null.client
+[18:43:40]proc name: open (/datum/tgui/proc/open)
+[18:43:40]  source file: tgui.dm,87
+[18:43:40]  usr: Lorick WorldCrusher (/mob/living/carbon/human)
+[18:43:40]  src: /datum/tgui (/datum/tgui)
+[18:43:40]  usr.loc: the plating (52,150,2) (/turf/open/floor/plating)
+[18:43:40]  call stack:
+[18:43:40]/datum/tgui (/datum/tgui): open()
+[18:43:40]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[18:43:40]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Lorick WorldCrusher (/mob/living/carbon/human))
+[18:43:40]Lorick WorldCrusher (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=14;icon-y=14;left=1;scr...")
+[18:43:40]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=14;icon-y=14;left=1;scr...")
+runtime error: 
+[18:44:06]Cannot read null.client
+[18:44:06]proc name: open (/datum/tgui/proc/open)
+[18:44:06]  source file: tgui.dm,87
+[18:44:06]  usr: Lorick WorldCrusher (/mob/living/carbon/human)
+[18:44:06]  src: /datum/tgui (/datum/tgui)
+[18:44:06]  usr.loc: the plating (52,150,2) (/turf/open/floor/plating)
+[18:44:06]  call stack:
+[18:44:06]/datum/tgui (/datum/tgui): open()
+[18:44:06]/datum/computer_file/program/c... (/datum/computer_file/program/computerconfig): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[18:44:06]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", null, 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[18:44:06]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Lorick WorldCrusher (/mob/living/carbon/human))
+[18:44:06]Lorick WorldCrusher (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=13;icon-y=23;left=1;scr...")
+[18:44:06]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=13;icon-y=23;left=1;scr...")
+runtime error: 
+[18:44:58]Cannot read null.client
+[18:44:58]proc name: open (/datum/tgui/proc/open)
+[18:44:58]  source file: tgui.dm,87
+[18:44:58]  usr: Lorick WorldCrusher (/mob/living/carbon/human)
+[18:44:58]  src: /datum/tgui (/datum/tgui)
+[18:44:58]  usr.loc: the plating (52,150,2) (/turf/open/floor/plating)
+[18:44:58]  call stack:
+[18:44:58]/datum/tgui (/datum/tgui): open()
+[18:44:58]/datum/computer_file/program/n... (/datum/computer_file/program/ntnetdownload): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[18:44:58]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", null, 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[18:44:58]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Lorick WorldCrusher (/mob/living/carbon/human))
+[18:44:58]Lorick WorldCrusher (/mob/living/carbon/human): Activate Held Object()
+[18:44:58]Lorick WorldCrusher (/mob/living/carbon/human): key down("Y", Kreatoss (/client))
+[18:44:58]Lorick WorldCrusher (/mob/living/carbon/human): key down("Y", Kreatoss (/client))
+[18:44:58]Lorick WorldCrusher (/mob/living/carbon/human): key down("Y", Kreatoss (/client))
+[18:44:58]Lorick WorldCrusher (/mob/living/carbon/human): key down("Y", Kreatoss (/client))
+[18:44:58]Kreatoss (/client): keyDown("Y")
+runtime error: 
+[18:45:34]Cannot read null.client
+[18:45:34]proc name: open (/datum/tgui/proc/open)
+[18:45:34]  source file: tgui.dm,87
+[18:45:34]  usr: Lorick WorldCrusher (/mob/living/carbon/human)
+[18:45:34]  src: /datum/tgui (/datum/tgui)
+[18:45:34]  usr.loc: the plating (52,150,2) (/turf/open/floor/plating)
+[18:45:34]  call stack:
+[18:45:34]/datum/tgui (/datum/tgui): open()
+[18:45:34]/datum/computer_file/program/n... (/datum/computer_file/program/ntnetdownload): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[18:45:34]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", null, 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[18:45:34]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Lorick WorldCrusher (/mob/living/carbon/human))
+[18:45:34]Lorick WorldCrusher (/mob/living/carbon/human): Activate Held Object()
+[18:45:34]Lorick WorldCrusher (/mob/living/carbon/human): key down("Y", Kreatoss (/client))
+[18:45:34]Lorick WorldCrusher (/mob/living/carbon/human): key down("Y", Kreatoss (/client))
+[18:45:34]Lorick WorldCrusher (/mob/living/carbon/human): key down("Y", Kreatoss (/client))
+[18:45:34]Lorick WorldCrusher (/mob/living/carbon/human): key down("Y", Kreatoss (/client))
+[18:45:34]Kreatoss (/client): keyDown("Y")
+runtime error: 
+[18:46:39]Cannot read null.client
+[18:46:39]proc name: open (/datum/tgui/proc/open)
+[18:46:39]  source file: tgui.dm,87
+[18:46:39]  usr: Lorick WorldCrusher (/mob/living/carbon/human)
+[18:46:39]  src: /datum/tgui (/datum/tgui)
+[18:46:39]  usr.loc: the plating (52,150,2) (/turf/open/floor/plating)
+[18:46:39]  call stack:
+[18:46:39]/datum/tgui (/datum/tgui): open()
+[18:46:39]/datum/computer_file/program/n... (/datum/computer_file/program/ntnetdownload): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[18:46:39]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", null, 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[18:46:39]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Lorick WorldCrusher (/mob/living/carbon/human))
+[18:46:39]Lorick WorldCrusher (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=20;icon-y=11;left=1;scr...")
+[18:46:39]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=20;icon-y=11;left=1;scr...")
+runtime error: 
+[18:46:40]Cannot read null.client
+[18:46:40]proc name: open (/datum/tgui/proc/open)
+[18:46:40]  source file: tgui.dm,87
+runtime error: 
+[18:46:40]Cannot read null.client
+[18:46:40]proc name: open (/datum/tgui/proc/open)
+[18:46:40]  source file: tgui.dm,87
+runtime error: 
+[18:46:41]Cannot read null.client
+[18:46:41]proc name: open (/datum/tgui/proc/open)
+[18:46:41]  source file: tgui.dm,87
+runtime error: 
+[18:48:30]nothing to animate
+[18:48:30]proc name: shake camera (/proc/shake_camera)
+[18:48:30]  source file: mob_helpers.dm,270
+runtime error: 
+[18:49:47]Cannot execute null.visible message().
+[18:49:47]proc name: losecontrol (/obj/item/device/flightpack/proc/losecontrol)
+[18:49:47]  source file: flightsuit.dm,471
+runtime error: 
+[18:51:44]nothing to animate
+[18:51:44]proc name: shake camera (/proc/shake_camera)
+[18:51:44]  source file: mob_helpers.dm,270
+runtime error: 
+[18:53:39]nothing to animate
+[18:53:39]proc name: shake camera (/proc/shake_camera)
+[18:53:39]  source file: mob_helpers.dm,270
+runtime error: 
+[18:53:46]Cannot execute null.user unbuckle mob().
+[18:53:46]proc name: resist buckle (/mob/living/carbon/resist_buckle)
+[18:53:46]  source file: carbon.dm,270
+runtime error: 
+[18:55:12]nothing to animate
+[18:55:12]proc name: shake camera (/proc/shake_camera)
+[18:55:12]  source file: mob_helpers.dm,270
+runtime error: 
+[18:55:57]nothing to animate
+[18:55:57]proc name: shake camera (/proc/shake_camera)
+[18:55:57]  source file: mob_helpers.dm,270
+runtime error: 
+[18:56:08]addtimer called with a callback assigned to a qdeleted object
+[18:56:08]proc name: stack trace (/proc/stack_trace)
+[18:56:08]  source file: unsorted.dm,1254
+runtime error: 
+[18:56:09]addtimer called with a callback assigned to a qdeleted object
+[18:56:09]proc name: stack trace (/proc/stack_trace)
+[18:56:09]  source file: unsorted.dm,1254
+### VarEdit by Infinitys true end/(Fixes-The-Station): /obj/item/twohanded/vibro_weapon force_unwielded=20 => 30
+### VarEdit by Infinitys true end/(Fixes-The-Station): /obj/item/twohanded/vibro_weapon force_wielded=40 => 60
+runtime error: 
+[18:58:26]Cannot read null.client
+[18:58:26]proc name: open (/datum/tgui/proc/open)
+[18:58:26]  source file: tgui.dm,87
+runtime error: 
+[18:58:53]Cannot read null.client
+[18:58:53]proc name: open (/datum/tgui/proc/open)
+[18:58:53]  source file: tgui.dm,87
+runtime error: 
+[18:59:20]Cannot read null.client
+[18:59:20]proc name: open (/datum/tgui/proc/open)
+[18:59:20]  source file: tgui.dm,87
+runtime error: 
+[19:00:43]Cannot read null.client
+[19:00:43]proc name: open (/datum/tgui/proc/open)
+[19:00:43]  source file: tgui.dm,87
+runtime error: 
+[19:02:10]nothing to animate
+[19:02:10]proc name: shake camera (/proc/shake_camera)
+[19:02:10]  source file: mob_helpers.dm,270
+runtime error: 
+[19:06:22]nothing to animate
+[19:06:22]proc name: shake camera (/proc/shake_camera)
+[19:06:22]  source file: mob_helpers.dm,270
+runtime error: 
+[19:09:19]addtimer called with a callback assigned to a qdeleted object
+[19:09:19]proc name: stack trace (/proc/stack_trace)
+[19:09:19]  source file: unsorted.dm,1254
+runtime error: 
+[19:09:19]addtimer called with a callback assigned to a qdeleted object
+[19:09:19]proc name: stack trace (/proc/stack_trace)
+[19:09:19]  source file: unsorted.dm,1254
+runtime error: 
+[19:11:12]Cannot create objects of type null.
+[19:11:12]proc name: InterceptClickOn (/datum/buildmode/proc/InterceptClickOn)
+[19:11:12]  source file: buildmode.dm,310
+runtime error: 
+[19:11:36]Cannot create objects of type null.
+[19:11:36]proc name: InterceptClickOn (/datum/buildmode/proc/InterceptClickOn)
+[19:11:36]  source file: buildmode.dm,310
+runtime error: 
+[19:13:59]Cannot create objects of type null.
+[19:13:59]proc name: InterceptClickOn (/datum/buildmode/proc/InterceptClickOn)
+[19:13:59]  source file: buildmode.dm,310
+runtime error: 
+[19:14:17]nothing to animate
+[19:14:17]proc name: shake camera (/proc/shake_camera)
+[19:14:17]  source file: mob_helpers.dm,270
+runtime error: 
+[19:14:41]Cannot create objects of type null.
+[19:14:41]proc name: InterceptClickOn (/datum/buildmode/proc/InterceptClickOn)
+[19:14:41]  source file: buildmode.dm,310
+runtime error: 
+[19:16:39]addtimer called with a callback assigned to a qdeleted object
+[19:16:39]proc name: stack trace (/proc/stack_trace)
+[19:16:39]  source file: unsorted.dm,1254
+runtime error: 
+[19:16:39]addtimer called with a callback assigned to a qdeleted object
+[19:16:39]proc name: stack trace (/proc/stack_trace)
+[19:16:39]  source file: unsorted.dm,1254
+runtime error: 
+[19:17:09]Cannot read null.x
+[19:17:09]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:17:09]  source file: manned_turret.dm,158
+runtime error: 
+[19:17:09]Cannot read null.x
+[19:17:09]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:17:09]  source file: manned_turret.dm,158
+runtime error: 
+[19:17:09]Cannot read null.x
+[19:17:09]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:17:09]  source file: manned_turret.dm,158
+runtime error: 
+[19:17:09]Cannot read null.x
+[19:17:09]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:17:09]  source file: manned_turret.dm,158
+runtime error: 
+[19:17:09]Cannot read null.x
+[19:17:09]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:17:09]  source file: manned_turret.dm,158
+runtime error: 
+[19:17:10]Cannot read null.x
+[19:17:10]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:17:10]  source file: manned_turret.dm,158
+runtime error: 
+[19:17:10]Cannot read null.x
+[19:17:10]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:17:10]  source file: manned_turret.dm,158
+runtime error: 
+[19:17:10]Cannot read null.x
+[19:17:10]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:17:10]  source file: manned_turret.dm,158
+runtime error: 
+[19:17:10]Cannot read null.x
+[19:17:10]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:17:10]  source file: manned_turret.dm,158
+runtime error: 
+[19:17:10]Cannot read null.x
+[19:17:10]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:17:10]  source file: manned_turret.dm,158
+runtime error: 
+[19:17:11]Cannot read null.x
+[19:17:11]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:17:11]  source file: manned_turret.dm,158
+runtime error: 
+[19:17:37]addtimer called with a callback assigned to a qdeleted object
+[19:17:37]proc name: stack trace (/proc/stack_trace)
+[19:17:37]  source file: unsorted.dm,1254
+runtime error: 
+[19:19:06]Cannot execute null.disconnect().
+[19:19:06]proc name: Move (/obj/mecha/Move)
+[19:19:06]  source file: mecha.dm,481
+runtime error: 
+[19:19:06]Cannot execute null.disconnect().
+[19:19:06]proc name: Move (/obj/mecha/Move)
+[19:19:06]  source file: mecha.dm,481
+runtime error: 
+[19:19:06]addtimer called with a callback assigned to a qdeleted object
+[19:19:06]proc name: stack trace (/proc/stack_trace)
+[19:19:06]  source file: unsorted.dm,1254
+runtime error: 
+[19:19:07]addtimer called with a callback assigned to a qdeleted object
+[19:19:07]proc name: stack trace (/proc/stack_trace)
+[19:19:07]  source file: unsorted.dm,1254
+runtime error: 
+[19:19:07]addtimer called with a callback assigned to a qdeleted object
+[19:19:07]proc name: stack trace (/proc/stack_trace)
+[19:19:07]  source file: unsorted.dm,1254
+runtime error: 
+[19:19:07]addtimer called with a callback assigned to a qdeleted object
+[19:19:07]proc name: stack trace (/proc/stack_trace)
+[19:19:07]  source file: unsorted.dm,1254
+runtime error: 
+[19:19:36]nothing to animate
+[19:19:36]proc name: shake camera (/proc/shake_camera)
+[19:19:36]  source file: mob_helpers.dm,270
+Saved 119 engraved messages on map Box Station
+runtime error: 
+[19:20:22]Cannot read null.x
+[19:20:22]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:22]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:22]Cannot read null.x
+[19:20:22]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:22]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:22]Cannot read null.x
+[19:20:22]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:22]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:22]Cannot read null.x
+[19:20:22]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:22]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:22]Cannot read null.x
+[19:20:22]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:22]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:26]Cannot read null.x
+[19:20:26]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:26]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:26]Cannot read null.x
+[19:20:26]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:26]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:26]Cannot read null.x
+[19:20:26]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:26]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:26]Cannot read null.x
+[19:20:26]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:26]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:27]Cannot read null.x
+[19:20:27]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:27]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:27]Cannot read null.x
+[19:20:27]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:27]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:27]Cannot read null.x
+[19:20:27]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:27]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:28]Cannot read null.x
+[19:20:28]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:28]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:28]Cannot read null.x
+[19:20:28]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:28]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:30]Cannot read null.x
+[19:20:30]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:30]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:30]Cannot read null.x
+[19:20:30]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:30]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:30]Cannot read null.x
+[19:20:30]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:30]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:31]Cannot read null.x
+[19:20:31]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:31]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:31]Cannot read null.x
+[19:20:31]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:31]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:31]Cannot read null.x
+[19:20:31]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:31]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:31]Cannot read null.x
+[19:20:31]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:31]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:31]Cannot read null.x
+[19:20:31]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:31]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:32]Cannot read null.x
+[19:20:32]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:32]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:34]Cannot read null.x
+[19:20:34]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:34]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:34]Cannot read null.x
+[19:20:34]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:34]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:34]Cannot read null.x
+[19:20:34]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:34]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:34]Cannot read null.x
+[19:20:34]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:34]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:35]Cannot read null.x
+[19:20:35]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:35]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:35]Cannot read null.x
+[19:20:35]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:35]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:35]Cannot read null.x
+[19:20:35]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:35]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:35]Cannot read null.x
+[19:20:35]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:35]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:35]Cannot read null.x
+[19:20:35]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:35]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:36]Cannot read null.x
+[19:20:36]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:36]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:36]Cannot read null.x
+[19:20:36]proc name: fire helper (/obj/machinery/manned_turret/proc/fire_helper)
+[19:20:36]  source file: manned_turret.dm,158
+runtime error: 
+[19:20:36]Cannot read null.x
+[19:20:36]Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: 
+[19:20:36]Cannot read null.x
+runtime error: 
+[19:20:36]Cannot read null.x
+runtime error: 
+[19:20:37]Cannot read null.x
+runtime error: 
+[19:20:37]Cannot read null.x
+runtime error: 
+[19:20:37]Cannot read null.x
+runtime error: 
+[19:20:37]Cannot read null.x
+runtime error: 
+[19:20:38]Cannot read null.x
+runtime error: 
+[19:20:38]Cannot read null.x
+runtime error: 
+[19:21:09]Cannot read null.loc
+runtime error: 
+[19:21:09]Cannot execute null.hitby().
+runtime error: 
+[19:21:09]Cannot read null.density
+runtime error: 
+[19:21:09]Cannot execute null.hitby().
+runtime error: 
+[19:21:09]Cannot read null.density
+runtime error: 
+[19:21:09]Cannot read null.species
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 19:21:15

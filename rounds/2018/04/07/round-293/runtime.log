@@ -1,0 +1,463 @@
+
+
+Starting up round ID 293. 21:02:41
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 5.6s!
+Loaded Lavaland in 4.4s!
+Loaded Reebe in 12.8s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 30 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 46.3 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 10 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 10 turf(s) (connected to 19798 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 15.6 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 1 second!
+Initialized Icon Smoothing subsystem within 6.7 seconds!
+[2018-04-07 21:05:04] Client: Crocroby59 triggered JS error: Error: Échec de l’appel de procédure distante.
+ | url: http://127.0.0.1:49676/browserOutput.js | line: 910 | column: 6 | error: Error | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; VER#8A#80836748576745484874484981; .NET4.0E; .NET4.0C)
+Initialized Overlay subsystem within 28.4 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 15.2 seconds!
+Initialized Shuttle subsystem within 23.7 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 1 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 167.7 seconds!
+runtime error: 
+[21:07:27]Cannot read null.species
+[21:07:27]proc name: attach limb (/obj/item/bodypart/proc/attach_limb)
+[21:07:27]  source file: dismemberment.dm,278
+[21:07:27]  usr: null
+[21:07:27]  src: the surplus prosthetic right a... (/obj/item/bodypart/r_arm/robot/surplus)
+[21:07:27]  src.loc: null
+[21:07:27]  call stack:
+[21:07:27]the surplus prosthetic right a... (/obj/item/bodypart/r_arm/robot/surplus): attach limb( (/mob/living/carbon/human), null)
+[21:07:27]the surplus prosthetic right a... (/obj/item/bodypart/r_arm/robot/surplus): replace limb( (/mob/living/carbon/human), null)
+[21:07:27]Prosthetic Limb (/datum/trait/prosthetic_limb): on spawn()
+[21:07:27]Prosthetic Limb (/datum/trait/prosthetic_limb): New( (/mob/living/carbon/human), 1)
+[21:07:27] (/mob/living/carbon/human): add trait datum("Prosthetic Limb", 1)
+[21:07:27]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), Cscottburgess (/client), 1)
+[21:07:27]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[21:07:27]Ticker (/datum/controller/subsystem/ticker): setup()
+[21:07:27]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[21:07:27]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+Game start took 23.6s
+runtime error: 
+[21:08:26]nothing to animate
+[21:08:26]proc name: shake camera (/proc/shake_camera)
+[21:08:26]  source file: mob_helpers.dm,270
+[21:08:26]  usr: (src)
+[21:08:26]  src: null
+[21:08:26]  call stack:
+[21:08:26]shake camera(Frankie Price (/mob/living/carbon/human), 0.75, 1)
+[21:08:26]Frankie Price (/mob/living/carbon/human): afterShuttleMove(space (25,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:08:26]Frankie Price (/mob/living/carbon/human): afterShuttleMove(space (25,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:08:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[21:08:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[21:08:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[21:08:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:08:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:08:26]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:08:26]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+## WARNING: shuttle "arrivals" could not enter transit space. Docked at arrivals_stationary. Transit dock 29. in code/modules/shuttle/shuttle.dm at line 422 src: the arrivals shuttle usr: .
+runtime error: 
+[21:13:51]nothing to animate
+[21:13:51]proc name: shake camera (/proc/shake_camera)
+[21:13:51]  source file: mob_helpers.dm,270
+[21:13:51]  usr: (src)
+[21:13:51]  src: null
+[21:13:51]  call stack:
+[21:13:51]shake camera(Barack Obama (/mob/living/carbon/human), 0.75, 1)
+[21:13:51]Barack Obama (/mob/living/carbon/human): afterShuttleMove(space (18,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:13:51]Barack Obama (/mob/living/carbon/human): afterShuttleMove(space (18,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:13:51]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[21:13:51]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[21:13:51]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[21:13:51]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:13:51]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:13:51]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:13:51]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:14:39]nothing to animate
+[21:14:39]proc name: shake camera (/proc/shake_camera)
+[21:14:39]  source file: mob_helpers.dm,270
+[21:14:39]  usr: (src)
+[21:14:39]  src: null
+[21:14:39]  call stack:
+[21:14:39]shake camera(Fedir Ruda (/mob/living/carbon/human), 0.75, 1)
+[21:14:39]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:14:39]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:14:39]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[21:14:39]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[21:14:39]the mining shuttle (/obj/docking_port/mobile): check()
+[21:14:39]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:14:39]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:14:48]nothing to animate
+[21:14:48]proc name: shake camera (/proc/shake_camera)
+[21:14:48]  source file: mob_helpers.dm,270
+[21:14:48]  usr: (src)
+[21:14:48]  src: null
+[21:14:48]  call stack:
+[21:14:48]shake camera(Johnathan Wright (/mob/living/carbon/human), 0.75, 1)
+[21:14:48]Johnathan Wright (/mob/living/carbon/human): afterShuttleMove(space (23,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:14:48]Johnathan Wright (/mob/living/carbon/human): afterShuttleMove(space (23,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:14:48]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[21:14:48]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[21:14:48]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[21:14:48]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:14:48]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:14:48]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:14:48]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:16:40]nothing to animate
+[21:16:40]proc name: shake camera (/proc/shake_camera)
+[21:16:40]  source file: mob_helpers.dm,270
+[21:16:40]  usr: (src)
+[21:16:40]  src: null
+[21:16:40]  call stack:
+[21:16:40]shake camera(Fedir Ruda (/mob/living/carbon/human), 0.75, 1)
+[21:16:40]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:16:40]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:16:40]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the mining shuttle bay (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[21:16:40]the mining shuttle (/obj/docking_port/mobile): initiate docking(the mining shuttle bay (/obj/docking_port/stationary), 1, 0)
+[21:16:40]the mining shuttle (/obj/docking_port/mobile): check()
+[21:16:40]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:16:40]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:17:40]nothing to animate
+[21:17:40]proc name: shake camera (/proc/shake_camera)
+[21:17:40]  source file: mob_helpers.dm,270
+[21:17:40]  usr: (src)
+[21:17:40]  src: null
+[21:17:40]  call stack:
+[21:17:40]shake camera(Lane Prosswell (/mob/living/carbon/human), 0.75, 1)
+[21:17:40]Lane Prosswell (/mob/living/carbon/human): afterShuttleMove(space (47,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:17:40]Lane Prosswell (/mob/living/carbon/human): afterShuttleMove(space (47,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[21:17:40]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[21:17:40]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[21:17:40]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[21:17:40]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:17:40]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[21:17:40]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:17:40]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:17:45]nothing to animate
+[21:17:45]proc name: shake camera (/proc/shake_camera)
+[21:17:45]  source file: mob_helpers.dm,270
+[21:17:45]  usr: (src)
+[21:17:45]  src: null
+[21:17:45]  call stack:
+[21:17:45]shake camera(Fedir Ruda (/mob/living/carbon/human), 0.75, 1)
+[21:17:45]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (19,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:17:45]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (19,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:17:45]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[21:17:45]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[21:17:45]the mining shuttle (/obj/docking_port/mobile): check()
+[21:17:45]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:17:45]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:17:45]nothing to animate
+[21:17:45]proc name: shake camera (/proc/shake_camera)
+[21:17:45]  source file: mob_helpers.dm,270
+[21:17:45]  usr: (src)
+[21:17:45]  src: null
+[21:17:45]  call stack:
+[21:17:45]shake camera(Osmund Kimple (/mob/living/carbon/human), 0.75, 1)
+[21:17:45]Osmund Kimple (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:17:45]Osmund Kimple (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:17:45]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[21:17:45]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[21:17:45]the mining shuttle (/obj/docking_port/mobile): check()
+[21:17:45]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:17:45]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:19:31]nothing to animate
+[21:19:31]proc name: shake camera (/proc/shake_camera)
+[21:19:31]  source file: mob_helpers.dm,270
+[21:19:31]  usr: (src)
+[21:19:31]  src: null
+[21:19:31]  call stack:
+[21:19:31]shake camera(Osmund Kimple (/mob/living/carbon/human), 0.75, 1)
+[21:19:31]Osmund Kimple (/mob/living/carbon/human): afterShuttleMove(space (75,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:19:31]Osmund Kimple (/mob/living/carbon/human): afterShuttleMove(space (75,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:19:31]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the mining shuttle bay (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[21:19:31]the mining shuttle (/obj/docking_port/mobile): initiate docking(the mining shuttle bay (/obj/docking_port/stationary), 1, 0)
+[21:19:31]the mining shuttle (/obj/docking_port/mobile): check()
+[21:19:31]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:19:31]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:19:31]nothing to animate
+[21:19:31]proc name: shake camera (/proc/shake_camera)
+[21:19:31]  source file: mob_helpers.dm,270
+[21:19:31]  usr: (src)
+[21:19:31]  src: null
+[21:19:31]  call stack:
+[21:19:31]shake camera(Fedir Ruda (/mob/living/carbon/human), 0.75, 1)
+[21:19:31]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (74,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:19:31]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (74,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:19:31]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the mining shuttle bay (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[21:19:31]the mining shuttle (/obj/docking_port/mobile): initiate docking(the mining shuttle bay (/obj/docking_port/stationary), 1, 0)
+[21:19:31]the mining shuttle (/obj/docking_port/mobile): check()
+[21:19:31]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:19:31]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:22:52]nothing to animate
+[21:22:52]proc name: shake camera (/proc/shake_camera)
+[21:22:52]  source file: mob_helpers.dm,270
+[21:22:52]  usr: (src)
+[21:22:52]  src: null
+[21:22:52]  call stack:
+[21:22:52]shake camera(Peter Petrograd (/mob/living/carbon/human), 0.75, 1)
+[21:22:52]Peter Petrograd (/mob/living/carbon/human): afterShuttleMove(space (51,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:22:52]Peter Petrograd (/mob/living/carbon/human): afterShuttleMove(space (51,18,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:22:52]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[21:22:52]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[21:22:52]the mining shuttle (/obj/docking_port/mobile): check()
+[21:22:52]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:22:52]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:22:52]nothing to animate
+[21:22:52]proc name: shake camera (/proc/shake_camera)
+[21:22:52]  source file: mob_helpers.dm,270
+[21:22:52]  usr: (src)
+[21:22:52]  src: null
+[21:22:52]  call stack:
+[21:22:52]shake camera(Fedir Ruda (/mob/living/carbon/human), 0.75, 1)
+[21:22:52]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:22:52]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:22:52]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[21:22:52]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[21:22:52]the mining shuttle (/obj/docking_port/mobile): check()
+[21:22:52]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:22:52]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:26:01]nothing to animate
+[21:26:01]proc name: shake camera (/proc/shake_camera)
+[21:26:01]  source file: mob_helpers.dm,270
+[21:26:01]  usr: (src)
+[21:26:01]  src: null
+[21:26:01]  call stack:
+[21:26:01]shake camera(Fedir Ruda (/mob/living/carbon/human), 0.75, 1)
+[21:26:01]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:26:01]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:26:01]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the mining shuttle bay (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[21:26:01]the mining shuttle (/obj/docking_port/mobile): initiate docking(the mining shuttle bay (/obj/docking_port/stationary), 1, 0)
+[21:26:01]the mining shuttle (/obj/docking_port/mobile): check()
+[21:26:01]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:26:01]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:27:31]Cannot read null.loc
+[21:27:31]proc name: update parallax (/datum/hud/proc/update_parallax)
+[21:27:31]  source file: parallax.dm,170
+[21:27:31]  usr: Arturim (/mob/living/brain)
+[21:27:31]  src: /datum/hud (/datum/hud)
+[21:27:31]  usr.loc: Arturim\'s brain (/obj/item/organ/brain)
+[21:27:31]  call stack:
+[21:27:31]/datum/hud (/datum/hud): update parallax()
+[21:27:31]/datum/hud (/datum/hud): update parallax pref(Arturim (/mob/living/brain))
+[21:27:31]/datum/hud (/datum/hud): show hud(1, null)
+[21:27:31]Arturim (/mob/living/brain): Login()
+[21:27:31]Arturim (/mob/living/brain): Login()
+[21:27:31]Arturim (/datum/mind): transfer to(Arturim (/mob/living/brain), 0)
+[21:27:31]Arturim\'s brain (/obj/item/organ/brain): transfer identity(Arturim (/mob/living/carbon/human))
+[21:27:31]Arturim\'s brain (/obj/item/organ/brain): Remove(Arturim (/mob/living/carbon/human), 0, 0)
+[21:27:31]Arturim\'s brain (/obj/item/organ/brain): transfer to limb(Arturim\'s head (/obj/item/bodypart/head), Arturim (/mob/living/carbon/human))
+[21:27:31]Arturim\'s head (/obj/item/bodypart/head): drop limb(null)
+[21:27:31]Arturim\'s head (/obj/item/bodypart/head): drop limb(null)
+[21:27:31]Arturim\'s head (/obj/item/bodypart/head): dismember("brute")
+[21:27:31]Mothmen (/datum/species/moth): spec attacked by(the sacred chainsaw sword (/obj/item/nullrod/claymore/chainsaw_sword), Unknown (/mob/living/carbon/human), Arturim\'s head (/obj/item/bodypart/head), "help", Arturim (/mob/living/carbon/human))
+[21:27:31]Arturim (/mob/living/carbon/human): attacked by(the sacred chainsaw sword (/obj/item/nullrod/claymore/chainsaw_sword), Unknown (/mob/living/carbon/human))
+[21:27:31]the sacred chainsaw sword (/obj/item/nullrod/claymore/chainsaw_sword): attack(Arturim (/mob/living/carbon/human), Unknown (/mob/living/carbon/human))
+[21:27:31]Arturim (/mob/living/carbon/human): attackby(the sacred chainsaw sword (/obj/item/nullrod/claymore/chainsaw_sword), Unknown (/mob/living/carbon/human), "icon-x=18;icon-y=28;left=1;scr...")
+[21:27:31]Arturim (/mob/living/carbon/human): attackby(the sacred chainsaw sword (/obj/item/nullrod/claymore/chainsaw_sword), Unknown (/mob/living/carbon/human), "icon-x=18;icon-y=28;left=1;scr...")
+[21:27:31]the sacred chainsaw sword (/obj/item/nullrod/claymore/chainsaw_sword): melee attack chain(Unknown (/mob/living/carbon/human), Arturim (/mob/living/carbon/human), "icon-x=18;icon-y=28;left=1;scr...")
+[21:27:31]Unknown (/mob/living/carbon/human): ClickOn(Arturim (/mob/living/carbon/human), "icon-x=18;icon-y=28;left=1;scr...")
+[21:27:31]Arturim (/mob/living/carbon/human): Click(the floor (172,124,2) (/turf/open/floor/plasteel/white), "mapwindow.map", "icon-x=18;icon-y=28;left=1;scr...")
+runtime error: 
+[21:27:56]nothing to animate
+[21:27:56]proc name: shake camera (/proc/shake_camera)
+[21:27:56]  source file: mob_helpers.dm,270
+[21:27:56]  usr: (src)
+[21:27:56]  src: null
+[21:27:56]  call stack:
+[21:27:56]shake camera(Fedir Ruda (/mob/living/carbon/human), 0.75, 1)
+[21:27:56]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:27:56]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:27:56]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[21:27:56]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[21:27:56]the mining shuttle (/obj/docking_port/mobile): check()
+[21:27:56]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:27:56]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[21:30:00]nothing to animate
+[21:30:00]proc name: shake camera (/proc/shake_camera)
+[21:30:00]  source file: mob_helpers.dm,270
+[21:30:00]  usr: (src)
+[21:30:00]  src: null
+[21:30:00]  call stack:
+[21:30:00]shake camera(Fedir Ruda (/mob/living/carbon/human), 0.75, 1)
+[21:30:00]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:30:00]Fedir Ruda (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[21:30:00]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[21:30:00]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[21:30:00]the mining shuttle (/obj/docking_port/mobile): check()
+[21:30:00]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[21:30:00]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+[2018-04-07 21:34:56] Client: SeniorSenor125 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:63734/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; LCJB)
+[2018-04-07 21:34:56] Client: LongTittyTyrone triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51464/tmp18216/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; NMTE)
+[2018-04-07 21:34:56] Client: TylerKT triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:55408/tmp9740/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 1.1.4322)
+[2018-04-07 21:34:56] Client: Wylenn triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49488/tmp2992/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET4.0C; .NET4.0E)
+[2018-04-07 21:34:56] Client: BABAHUHU triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50760/tmp9116/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-07 21:34:56] Client: DarkVaderV2 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:54949/tmp7856/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-07 21:34:56] Client: Bolloeds4 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:55518/tmp13140/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; McAfee; LCTE)
+[2018-04-07 21:34:56] Client: GhostyToasty triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:54488/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-07 21:34:56] Client: Datmanisdumb triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50022/tmp1716/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-04-07 21:34:56] Client: CthulhuOnIce triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:54121/tmp3756/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-07 21:34:56] Client: Arturim triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49849/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-07 21:34:56] Client: BeerBears triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:59465/tmp7712/browserOutput.js | line: 116 | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; byond_5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+[2018-04-07 21:34:56] Client: Asymov triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:62249/tmp552/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/8.0; .NET4.0C; .NET4.0E; Tablet PC 2.0; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-07 21:34:56] Client: Infinitys true end triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:51111/tmp18148/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-04-07 21:34:56] Client: NoBark triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:3931/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-04-07 21:34:56] Client: Halfmaster triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50695/tmp14784/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-04-07 21:34:56] Client: PRO__nik triggered JS error: Error: Обнаружена недопустимая кодировка при попытке декодирования URI | url: http://127.0.0.1:49870/tmp3716/browserOutput.js | line: 116 | column: 2 | error: URIError: Обнаружена недопустимая кодировка при попытке декодирования URI | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0E; .NET4.0C)
+[2018-04-07 21:34:56] Client: Sootybear42 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58023/tmp7792/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-04-07 21:34:56] Client: Crocroby59 triggered JS error: Error: L'URI à décoder contient un caractère incorrect | url: http://127.0.0.1:49676/browserOutput.js | line: 116 | column: 2 | error: URIError: L'URI à décoder contient un caractère incorrect | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; VER#8A#80836748576745484874484981; .NET4.0E; .NET4.0C)
+runtime error: 
+[21:41:48]Cannot read null.client
+[21:41:48]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:41:48]  source file: vote.dm,321
+[21:41:48]  usr: null
+[21:41:48]  src: Vote! (/datum/action/vote)
+[21:41:48]  call stack:
+[21:41:48]Vote! (/datum/action/vote): remove from client()
+[21:41:48]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:41:48]Vote (/datum/controller/subsystem/vote): announce result()
+[21:41:48]Vote (/datum/controller/subsystem/vote): result()
+[21:41:48]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:41:48]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:41:48]Master (/datum/controller/master): RunQueue()
+[21:41:48]Master (/datum/controller/master): Loop()
+[21:41:48]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:41:48]Cannot read null.client
+[21:41:48]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:41:48]  source file: vote.dm,321
+[21:41:48]  usr: null
+[21:41:48]  src: Vote! (/datum/action/vote)
+[21:41:48]  call stack:
+[21:41:48]Vote! (/datum/action/vote): remove from client()
+[21:41:48]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:41:48]Vote (/datum/controller/subsystem/vote): announce result()
+[21:41:48]Vote (/datum/controller/subsystem/vote): result()
+[21:41:48]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:41:48]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:41:48]Master (/datum/controller/master): RunQueue()
+[21:41:48]Master (/datum/controller/master): Loop()
+[21:41:48]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:41:48]Cannot read null.client
+[21:41:48]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:41:48]  source file: vote.dm,321
+runtime error: 
+[21:41:48]Cannot read null.client
+[21:41:48]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:41:48]  source file: vote.dm,321
+Saved 1 engraved messages on map Box Station
+runtime error: 
+[21:42:20]addtimer called with a callback assigned to a qdeleted object
+[21:42:20]proc name: stack trace (/proc/stack_trace)
+[21:42:20]  source file: unsorted.dm,1254
+runtime error: 
+[21:42:21]addtimer called with a callback assigned to a qdeleted object
+[21:42:21]proc name: stack trace (/proc/stack_trace)
+[21:42:21]  source file: unsorted.dm,1254
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 21:43:46

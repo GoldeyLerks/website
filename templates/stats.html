@@ -1,0 +1,136 @@
+{% extends "layout.html" %}
+{% block title %}Stats{% endblock %}
+{% block active %}stats{% endblock %}
+{% block head %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+<link rel="stylesheet" href="/static/css/stats.css">
+<meta property="og:title" content="BeeStation - Stats" />
+<meta property="og:description" content="Online: {{ stats["players"] }} | Duration: {{ stats["duration"] }} | Map: {{ stats["map"] }}" />
+{% endblock %}
+
+{% block content %}
+
+<div class="stats">
+  <div class="stat"><div class="stat-header">Players</div><div id="stat-players" class="stat-value">{{ stats["players"] }}</div></div>
+  <div class="stat"><div class="stat-header">Admins</div><div id="stat-admins" class="stat-value">{{ stats["admins"] }}</div></div>
+  <div class="stat"><div class="stat-header">Game Mode</div><div id="stat-mode" class="stat-value">{{ stats["mode"] }}</div></div>
+</div>
+<div class="stats">
+  <div class="stat"><div class="stat-header">Round ID</div><div id="stat-round" class="stat-value">{{ stats["round"] }}</div></div>
+  <div class="stat"><div class="stat-header">Duration</div><div id="stat-duration" class="stat-value">{{ stats["duration"] }}</div></div>
+  <div class="stat"><div class="stat-header">Map</div><div id="stat-map" class="stat-value">{{ stats["map"] }}</div></div>
+</div>
+
+<div class="chart-label">Daily Players</div>
+<canvas class="chart" width="1000px" height="350px" id="daily-player-chart"></canvas>
+<div class="chart-label">Weekly Players</div>
+<canvas class="chart" width="1000px" height="350px" id="weekly-player-chart"></canvas>
+<div class="chart-label">Online Players</div>
+
+
+{% for client_group in stats["clients"] %}
+<div class="stats">
+{% for client in client_group %}
+<div class="stat" style="height: 45px;"><div id="stat-round" class="stat-value">{{client}}</div></div>
+{% endfor %}
+</div>
+{% endfor %}
+
+<script>
+window.setInterval(function() {
+
+  $.getJSON( "/api/stats", function( json ) {
+    $("#stat-duration").html((new Date).clearTime().addSeconds(json["round_duration"]).toString('H:mm:ss'));
+    $("#stat-players").html(json["players"]);
+    $("#stat-admins").html(json["admins"]);
+    $("#stat-mode").html(json["mode"]);
+    $("#stat-round").html(json["round_id"]);
+    $("#stat-map").html(json["map_name"]);
+   });
+
+}, 5000)
+
+var ctxd = document.getElementById('daily-player-chart').getContext('2d');
+
+var daily_player_chart = new Chart(ctxd, {
+    type: 'line',
+
+    data: {
+        labels: {{ stats["dailylabels"]|safe }},
+        datasets: [{
+            label: 'players',
+            data: {{ stats["dailydata"]|safe }},
+            backgroundColor: 'rgba(0, 150, 50, 0.2)',
+            borderColor: 'rgba(0,150,50,1)',
+            borderWidth: 2
+        }]
+    },
+
+    options: {
+        legend: {
+            display: false
+        },
+        elements: {
+            line: {
+
+            },
+        },
+        scales: {
+            xAxes: [{
+                display: false
+            }],
+            yAxes: [{
+                display: true,
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+
+});
+
+var ctxw = document.getElementById('weekly-player-chart').getContext('2d');
+
+var weekly_player_chart = new Chart(ctxw, {
+    type: 'line',
+
+    data: {
+        labels: {{ stats["weeklylabels"]|safe }},
+        datasets: [{
+            label: 'players',
+            data: {{ stats["weeklydata"]|safe }},
+            backgroundColor: 'rgba(0, 150, 50, 0.2)',
+            borderColor: 'rgba(0,150,50,1)',
+            borderWidth: 2
+        }]
+    },
+
+    options: {
+        legend: {
+            display: false
+        },
+        elements: {
+            line: {
+
+            },
+        },
+        scales: {
+            xAxes: [{
+                display: false
+            }],
+            yAxes: [{
+                display: true,
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+
+});
+</script>
+
+
+
+{% endblock %}

@@ -1,0 +1,437 @@
+
+
+Starting up round ID 958. 06:33:01
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 6.1s!
+Loaded Lavaland in 6.2s!
+Loaded Reebe in 6.3s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 37.9 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[06:33:49]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[06:33:49]proc name: stack trace (/datum/proc/stack_trace)
+[06:33:49]  source file: unsorted.dm,1257
+[06:33:49]  usr: null
+[06:33:49]  src: Vacant Office APC (/obj/machinery/power/apc)
+[06:33:49]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[06:33:49]  call stack:
+[06:33:49]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[06:33:49]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[06:33:49]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[06:33:49]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[06:33:49]Atoms (/datum/controller/subsystem/atoms): Initialize(236223)
+[06:33:49]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 46.1 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 20 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 20 turf(s) (connected to 19335 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 16.4 seconds!
+Initialized Minimap subsystem within 0.3 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 7.4 seconds!
+Initialized Overlay subsystem within 20.9 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 19.1 seconds!
+Initialized Shuttle subsystem within 23.9 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 124 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 173.8 seconds!
+Game start took 4.8s
+runtime error: 
+[06:53:21]addtimer called with a callback assigned to a qdeleted object
+[06:53:21]proc name: stack trace (/proc/stack_trace)
+[06:53:21]  source file: unsorted.dm,1254
+[06:53:21]  usr: Jetra Norlan (/mob/living/carbon/human)
+[06:53:21]  src: null
+[06:53:21]  usr.loc: the APLU \"Ripley\" (/obj/mecha/working/ripley)
+[06:53:21]  call stack:
+[06:53:21]stack trace("addtimer called with a callbac...")
+[06:53:21]addtimer(/datum/callback (/datum/callback), 20, 0)
+[06:53:21]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[06:53:21]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[06:55:43]addtimer called with a callback assigned to a qdeleted object
+[06:55:43]proc name: stack trace (/proc/stack_trace)
+[06:55:43]  source file: unsorted.dm,1254
+[06:55:43]  usr: Jetra Norlan (/mob/living/carbon/human)
+[06:55:43]  src: null
+[06:55:43]  usr.loc: the APLU \"Ripley\" (/obj/mecha/working/ripley)
+[06:55:43]  call stack:
+[06:55:43]stack trace("addtimer called with a callbac...")
+[06:55:43]addtimer(/datum/callback (/datum/callback), 20, 0)
+[06:55:43]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[06:55:43]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[06:57:06]addtimer called with a callback assigned to a qdeleted object
+[06:57:06]proc name: stack trace (/proc/stack_trace)
+[06:57:06]  source file: unsorted.dm,1254
+[06:57:06]  usr: Jetra Norlan (/mob/living/carbon/human)
+[06:57:06]  src: null
+[06:57:06]  usr.loc: the APLU \"Ripley\" (/obj/mecha/working/ripley)
+[06:57:06]  call stack:
+[06:57:06]stack trace("addtimer called with a callbac...")
+[06:57:06]addtimer(/datum/callback (/datum/callback), 20, 0)
+[06:57:06]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[06:57:06]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[06:57:06]addtimer called with a callback assigned to a qdeleted object
+[06:57:06]proc name: stack trace (/proc/stack_trace)
+[06:57:06]  source file: unsorted.dm,1254
+[06:57:06]  usr: Jetra Norlan (/mob/living/carbon/human)
+[06:57:06]  src: null
+[06:57:06]  usr.loc: the APLU \"Ripley\" (/obj/mecha/working/ripley)
+[06:57:06]  call stack:
+[06:57:06]stack trace("addtimer called with a callbac...")
+[06:57:06]addtimer(/datum/callback (/datum/callback), 20, 0)
+[06:57:06]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[06:57:06]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[06:59:13]addtimer called with a callback assigned to a qdeleted object
+[06:59:13]proc name: stack trace (/proc/stack_trace)
+[06:59:13]  source file: unsorted.dm,1254
+[06:59:13]  usr: Jetra Norlan (/mob/living/carbon/human)
+[06:59:13]  src: null
+[06:59:13]  usr.loc: the APLU \"Ripley\" (/obj/mecha/working/ripley)
+[06:59:13]  call stack:
+[06:59:13]stack trace("addtimer called with a callbac...")
+[06:59:13]addtimer(/datum/callback (/datum/callback), 20, 0)
+[06:59:13]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[06:59:13]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[06:59:13]addtimer called with a callback assigned to a qdeleted object
+[06:59:13]proc name: stack trace (/proc/stack_trace)
+[06:59:13]  source file: unsorted.dm,1254
+[06:59:13]  usr: Jetra Norlan (/mob/living/carbon/human)
+[06:59:13]  src: null
+[06:59:13]  usr.loc: the APLU \"Ripley\" (/obj/mecha/working/ripley)
+[06:59:13]  call stack:
+[06:59:13]stack trace("addtimer called with a callbac...")
+[06:59:13]addtimer(/datum/callback (/datum/callback), 20, 0)
+[06:59:13]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[06:59:13]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[07:06:06]nothing to animate
+[07:06:06]proc name: shake camera (/proc/shake_camera)
+[07:06:06]  source file: mob_helpers.dm,270
+[07:06:06]  usr: (src)
+[07:06:06]  src: null
+[07:06:06]  call stack:
+[07:06:06]shake camera(Jonathon Whirlow (/mob/living/carbon/human), 0.75, 1)
+[07:06:06]Jonathon Whirlow (/mob/living/carbon/human): afterShuttleMove(space (25,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[07:06:06]Jonathon Whirlow (/mob/living/carbon/human): afterShuttleMove(space (25,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[07:06:06]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[07:06:06]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[07:06:06]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[07:06:06]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[07:06:06]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[07:06:06]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[07:06:06]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[07:13:08]list index out of bounds
+[07:13:08]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[07:13:08]  source file: aurora_caelus.dm,39
+[07:13:08]  usr: null
+[07:13:08]  src: /datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus)
+[07:13:08]  call stack:
+[07:13:08]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): tick()
+[07:13:08]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): process()
+[07:13:08]Events (/datum/controller/subsystem/events): fire(0)
+[07:13:08]Events (/datum/controller/subsystem/events): ignite(0)
+[07:13:08]Master (/datum/controller/master): RunQueue()
+[07:13:08]Master (/datum/controller/master): Loop()
+[07:13:08]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:19:55]addtimer called with a callback assigned to a qdeleted object
+[07:19:55]proc name: stack trace (/proc/stack_trace)
+[07:19:55]  source file: unsorted.dm,1254
+[07:19:55]  usr: (src)
+[07:19:55]  src: null
+[07:19:55]  call stack:
+[07:19:55]stack trace("addtimer called with a callbac...")
+[07:19:55]addtimer(/datum/callback (/datum/callback), 30, 0)
+[07:19:55]the holodeck control console (/obj/machinery/computer/holodeck): load program(Holodeck - Offline (/area/holodeck/rec_center/offline), 1, 1)
+[07:19:55]the holodeck control console (/obj/machinery/computer/holodeck): emergency shutdown()
+[07:19:55]the holodeck control console (/obj/machinery/computer/holodeck): Destroy(0)
+[07:19:55]qdel(the holodeck control console (/obj/machinery/computer/holodeck), 0)
+[07:19:55]the holodeck control console (/obj/machinery/computer/holodeck): deconstruct(0, null)
+[07:19:55]the holodeck control console (/obj/machinery/computer/holodeck): burn()
+[07:19:55]the holodeck control console (/obj/machinery/computer/holodeck): obj destruction("fire")
+[07:19:55]the holodeck control console (/obj/machinery/computer/holodeck): take damage(12, "fire", "fire", 0, null, 0)
+[07:19:55]the holodeck control console (/obj/machinery/computer/holodeck): fire act(1417.14, 218672)
+[07:19:55]the hotspot (/obj/effect/hotspot): perform exposure()
+[07:19:55]the hotspot (/obj/effect/hotspot): process()
+[07:19:55]Atmospherics (/datum/controller/subsystem/air): process hotspots(0)
+[07:19:55]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[07:19:55]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[07:19:55]Master (/datum/controller/master): RunQueue()
+[07:19:55]Master (/datum/controller/master): Loop()
+[07:19:55]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:20:25]addtimer called with a callback assigned to a qdeleted object
+[07:20:25]proc name: stack trace (/proc/stack_trace)
+[07:20:25]  source file: unsorted.dm,1254
+[07:20:25]  usr: (src)
+[07:20:25]  src: null
+[07:20:25]  call stack:
+[07:20:25]stack trace("addtimer called with a callbac...")
+[07:20:25]addtimer(/datum/callback (/datum/callback), 20, 0)
+[07:20:25]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[07:20:25]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[07:20:54]addtimer called with a callback assigned to a qdeleted object
+[07:20:54]proc name: stack trace (/proc/stack_trace)
+[07:20:54]  source file: unsorted.dm,1254
+[07:20:54]  usr: (src)
+[07:20:54]  src: null
+[07:20:54]  call stack:
+[07:20:54]stack trace("addtimer called with a callbac...")
+[07:20:54]addtimer(/datum/callback (/datum/callback), 20, 0)
+[07:20:54]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[07:20:54]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[07:20:54]addtimer called with a callback assigned to a qdeleted object
+[07:20:54]proc name: stack trace (/proc/stack_trace)
+[07:20:54]  source file: unsorted.dm,1254
+[07:20:54]  usr: (src)
+[07:20:54]  src: null
+[07:20:54]  call stack:
+[07:20:54]stack trace("addtimer called with a callbac...")
+[07:20:54]addtimer(/datum/callback (/datum/callback), 20, 0)
+[07:20:54]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[07:20:54]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[07:37:42]Cannot read null.client
+[07:37:42]proc name: open (/datum/tgui/proc/open)
+[07:37:42]  source file: tgui.dm,87
+[07:37:42]  usr: null
+[07:37:42]  src: /datum/tgui (/datum/tgui)
+[07:37:42]  call stack:
+[07:37:42]/datum/tgui (/datum/tgui): open()
+[07:37:42]the sleeper (/obj/machinery/sleeper): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/notcontained_s... (/datum/ui_state/notcontained_state))
+[07:37:42]the sleeper (/obj/machinery/sleeper): updateUsrDialog()
+[07:37:42]the sleeper (/obj/machinery/sleeper): open machine(1)
+[07:37:42]the sleeper (/obj/machinery/sleeper): open machine()
+[07:37:42]the sleeper (/obj/machinery/sleeper): container resist(Jordan Nicholas (/mob/living/carbon/human))
+[07:37:42]the sleeper (/obj/machinery/sleeper): relaymove(Jordan Nicholas (/mob/living/carbon/human), 2)
+[07:37:42]That guy is taken (/client): Move(the floor (214,90,9) (/turf/open/floor/plasteel/white), 2)
+[07:37:42]Jordan Nicholas (/mob/living/carbon/human): keyLoop(That guy is taken (/client))
+[07:37:42]That guy is taken (/client): keyLoop()
+[07:37:42]Input (/datum/controller/subsystem/input): fire(0)
+[07:37:42]Input (/datum/controller/subsystem/input): ignite(0)
+[07:37:42]Master (/datum/controller/master): RunQueue()
+[07:37:42]Master (/datum/controller/master): Loop()
+[07:37:42]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:49:39]nothing to animate
+[07:49:39]proc name: shake camera (/proc/shake_camera)
+[07:49:39]  source file: mob_helpers.dm,270
+[07:49:39]  usr: (src)
+[07:49:39]  src: null
+[07:49:39]  call stack:
+[07:49:39]shake camera(Diego Trovato (/mob/living/carbon/human), 0.75, 1)
+[07:49:39]Diego Trovato (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[07:49:39]Diego Trovato (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[07:49:39]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[07:49:39]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[07:49:39]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[07:49:39]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[07:49:39]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[07:49:39]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[07:49:39]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[08:20:12]Cannot read null.client
+[08:20:12]proc name: open (/datum/tgui/proc/open)
+[08:20:12]  source file: tgui.dm,87
+[08:20:12]  usr: Diego Trovato (/mob/living/carbon/human)
+[08:20:12]  src: /datum/tgui (/datum/tgui)
+[08:20:12]  usr.loc: the floor (116,108,2) (/turf/open/floor/plasteel)
+[08:20:12]  call stack:
+[08:20:12]/datum/tgui (/datum/tgui): open()
+[08:20:12]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[08:20:12]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Diego Trovato (/mob/living/carbon/human))
+[08:20:12]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): MouseDrop(the stool (/obj/structure/chair/stool), null, the floor (117,108,2) (/turf/open/floor/plasteel), "mapwindow.map", "mapwindow.map", "icon-x=15;icon-y=11;left=1;scr...")
+runtime error: 
+[08:20:19]Cannot read null.client
+[08:20:19]proc name: open (/datum/tgui/proc/open)
+[08:20:19]  source file: tgui.dm,87
+[08:20:19]  usr: Diego Trovato (/mob/living/carbon/human)
+[08:20:19]  src: /datum/tgui (/datum/tgui)
+[08:20:19]  usr.loc: the floor (116,108,2) (/turf/open/floor/plasteel)
+[08:20:19]  call stack:
+[08:20:19]/datum/tgui (/datum/tgui): open()
+[08:20:19]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[08:20:19]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Diego Trovato (/mob/living/carbon/human))
+[08:20:19]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): MouseDrop(the floor (117,108,2) (/turf/open/floor/plasteel), null, the floor (117,108,2) (/turf/open/floor/plasteel), "mapwindow.map", "mapwindow.map", "icon-x=25;icon-y=4;left=1;scre...")
+runtime error: 
+[08:20:25]Cannot read null.client
+[08:20:25]proc name: open (/datum/tgui/proc/open)
+[08:20:25]  source file: tgui.dm,87
+[08:20:25]  usr: Diego Trovato (/mob/living/carbon/human)
+[08:20:25]  src: /datum/tgui (/datum/tgui)
+[08:20:25]  usr.loc: the floor (116,108,2) (/turf/open/floor/plasteel)
+[08:20:25]  call stack:
+[08:20:25]/datum/tgui (/datum/tgui): open()
+[08:20:25]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[08:20:25]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Diego Trovato (/mob/living/carbon/human))
+[08:20:25]Diego Trovato (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=20;icon-y=17;left=1;scr...")
+[08:20:25]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=20;icon-y=17;left=1;scr...")
+runtime error: 
+[08:23:17]Cannot read null.client
+[08:23:17]proc name: open (/datum/tgui/proc/open)
+[08:23:17]  source file: tgui.dm,87
+runtime error: 
+[08:35:43]Cannot read null.client
+[08:35:43]proc name: open (/datum/tgui/proc/open)
+[08:35:43]  source file: tgui.dm,87
+runtime error: 
+[08:37:39]Cannot read null.client
+[08:37:39]proc name: open (/datum/tgui/proc/open)
+[08:37:39]  source file: tgui.dm,87
+runtime error: 
+[08:37:41]Cannot read null.client
+[08:37:41]proc name: open (/datum/tgui/proc/open)
+[08:37:41]  source file: tgui.dm,87
+runtime error: 
+[08:37:41]Cannot read null.client
+[08:37:41]proc name: open (/datum/tgui/proc/open)
+[08:37:41]  source file: tgui.dm,87
+runtime error: 
+[08:42:20]nothing to animate
+[08:42:20]proc name: shake camera (/proc/shake_camera)
+[08:42:20]  source file: mob_helpers.dm,270
+runtime error: 
+[08:57:43]addtimer called with a callback assigned to a qdeleted object
+[08:57:43]proc name: stack trace (/proc/stack_trace)
+[08:57:43]  source file: unsorted.dm,1254
+runtime error: 
+[08:57:44]addtimer called with a callback assigned to a qdeleted object
+[08:57:44]proc name: stack trace (/proc/stack_trace)
+[08:57:44]  source file: unsorted.dm,1254
+runtime error: 
+[08:57:44]addtimer called with a callback assigned to a qdeleted object
+[08:57:44]proc name: stack trace (/proc/stack_trace)
+[08:57:44]  source file: unsorted.dm,1254
+runtime error: 
+[08:59:03]addtimer called with a callback assigned to a qdeleted object
+[08:59:03]proc name: stack trace (/proc/stack_trace)
+[08:59:03]  source file: unsorted.dm,1254
+runtime error: 
+[08:59:03]addtimer called with a callback assigned to a qdeleted object
+[08:59:03]proc name: stack trace (/proc/stack_trace)
+[08:59:03]  source file: unsorted.dm,1254
+runtime error: 
+[09:26:11]addtimer called with a callback assigned to a qdeleted object
+[09:26:11]proc name: stack trace (/proc/stack_trace)
+[09:26:11]  source file: unsorted.dm,1254
+runtime error: 
+[09:26:11]addtimer called with a callback assigned to a qdeleted object
+[09:26:11]proc name: stack trace (/proc/stack_trace)
+[09:26:11]  source file: unsorted.dm,1254
+runtime error: 
+[09:26:11]addtimer called with a callback assigned to a qdeleted object
+[09:26:11]proc name: stack trace (/proc/stack_trace)
+[09:26:11]  source file: unsorted.dm,1254
+runtime error: 
+[09:37:19]nothing to animate
+[09:37:19]proc name: shake camera (/proc/shake_camera)
+[09:37:19]  source file: mob_helpers.dm,270
+Saved 124 engraved messages on map Box Station
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 09:38:56

@@ -1,0 +1,243 @@
+
+
+Starting up round ID 641. 16:40:22
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 9.9s!
+Loaded Lavaland in 6.3s!
+Loaded Reebe in 5.4s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 29.3 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 48.8 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.4 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.2 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 30 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 30 turf(s) (connected to 20587 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 15.9 seconds!
+Initialized Minimap subsystem within 0.3 seconds!
+Initialized Assets subsystem within 0.9 seconds!
+Initialized Icon Smoothing subsystem within 6.4 seconds!
+Initialized Overlay subsystem within 23.3 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 13.1 seconds!
+Initialized Shuttle subsystem within 25.5 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 102 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 164.5 seconds!
+Game start took 14.8s
+runtime error: 
+[16:54:25]nothing to animate
+[16:54:25]proc name: shake camera (/proc/shake_camera)
+[16:54:25]  source file: mob_helpers.dm,270
+[16:54:25]  usr: (src)
+[16:54:25]  src: null
+[16:54:25]  call stack:
+[16:54:25]shake camera(Jhonson Lutherfield (/mob/living/carbon/human), 0.75, 1)
+[16:54:25]Jhonson Lutherfield (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:54:25]Jhonson Lutherfield (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[16:54:25]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[16:54:25]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[16:54:25]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[16:54:25]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:54:25]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[16:54:25]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[16:54:25]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[16:56:22]Cannot read null.prefs
+[16:56:22]proc name: change mob type (/mob/proc/change_mob_type)
+[16:56:22]  source file: mob_transformation_simple.dm,50
+[16:56:22]  usr: (src)
+[16:56:22]  src: Todd Hayseed (/mob/living/carbon/human)
+[16:56:22]  src.loc: null
+[16:56:22]  call stack:
+[16:56:22]Todd Hayseed (/mob/living/carbon/human): change mob type(/mob/living/carbon/human (/mob/living/carbon/human), null, null, 1)
+[16:56:22]gimmesumsuccpls\'s admin datum... (/datum/admins): Topic("_src_=holder;admin_token=88072...", /list (/list))
+[16:56:22]GimmesumsuccPls (/client): Topic("_src_=holder;admin_token=88072...", /list (/list), gimmesumsuccpls\'s admin datum... (/datum/admins))
+[16:56:22]GimmesumsuccPls (/client): Topic("_src_=holder;admin_token=88072...", /list (/list))
+runtime error: 
+[17:08:59]Cannot read null.species
+[17:08:59]proc name: death (/mob/living/carbon/human/death)
+[17:08:59]  source file: death.dm,37
+[17:08:59]  usr: Benny Tequilla (/mob/living/carbon/human)
+[17:08:59]  src: Unknown (/mob/living/carbon/human)
+[17:08:59]  usr.loc: the floor (83,131,2) (/turf/open/floor/plasteel/floorgrime)
+[17:08:59]  src.loc: null
+[17:08:59]  call stack:
+[17:08:59]Unknown (/mob/living/carbon/human): death(null)
+[17:08:59]Unknown (/mob/living/carbon/human): update stat()
+[17:08:59]Unknown (/mob/living/carbon/human): updatehealth()
+[17:08:59]the chest (/obj/item/bodypart/chest): receive damage(21.6, 0, 0, 1)
+[17:08:59]Human (/datum/species/human): apply damage(24, "brute", "chest", 10, Unknown (/mob/living/carbon/human))
+[17:08:59]Human (/datum/species/human): spec attacked by(the fire axe (Wielded) (/obj/item/twohanded/fireaxe), Benny Tequilla (/mob/living/carbon/human), the chest (/obj/item/bodypart/chest), "help", Unknown (/mob/living/carbon/human))
+[17:08:59]Unknown (/mob/living/carbon/human): attacked by(the fire axe (Wielded) (/obj/item/twohanded/fireaxe), Benny Tequilla (/mob/living/carbon/human))
+[17:08:59]the fire axe (Wielded) (/obj/item/twohanded/fireaxe): attack(Unknown (/mob/living/carbon/human), Benny Tequilla (/mob/living/carbon/human))
+[17:08:59]Unknown (/mob/living/carbon/human): attackby(the fire axe (Wielded) (/obj/item/twohanded/fireaxe), Benny Tequilla (/mob/living/carbon/human), "icon-x=14;icon-y=26;left=1;scr...")
+[17:08:59]Unknown (/mob/living/carbon/human): attackby(the fire axe (Wielded) (/obj/item/twohanded/fireaxe), Benny Tequilla (/mob/living/carbon/human), "icon-x=14;icon-y=26;left=1;scr...")
+[17:08:59]the fire axe (Wielded) (/obj/item/twohanded/fireaxe): melee attack chain(Benny Tequilla (/mob/living/carbon/human), Unknown (/mob/living/carbon/human), "icon-x=14;icon-y=26;left=1;scr...")
+[17:08:59]Benny Tequilla (/mob/living/carbon/human): ClickOn(Unknown (/mob/living/carbon/human), "icon-x=14;icon-y=26;left=1;scr...")
+[17:08:59]Unknown (/mob/living/carbon/human): Click(the floor (83,131,2) (/turf/open/floor/plasteel/floorgrime), "mapwindow.map", "icon-x=14;icon-y=26;left=1;scr...")
+runtime error: 
+[17:08:59]Cannot read null.species
+[17:08:59]proc name: get blood id (/mob/living/carbon/human/get_blood_id)
+[17:08:59]  source file: blood.dm,213
+[17:08:59]  usr: Benny Tequilla (/mob/living/carbon/human)
+[17:08:59]  src: Unknown (/mob/living/carbon/human)
+[17:08:59]  usr.loc: the floor (83,131,2) (/turf/open/floor/plasteel/floorgrime)
+[17:08:59]  src.loc: null
+[17:08:59]  call stack:
+[17:08:59]Unknown (/mob/living/carbon/human): get blood id()
+[17:08:59]Unknown (/mob/living/carbon/human): get blood dna list()
+[17:08:59]the fire axe (Wielded) (/obj/item/twohanded/fireaxe): add mob blood(Unknown (/mob/living/carbon/human))
+[17:08:59]Human (/datum/species/human): spec attacked by(the fire axe (Wielded) (/obj/item/twohanded/fireaxe), Benny Tequilla (/mob/living/carbon/human), the chest (/obj/item/bodypart/chest), "help", Unknown (/mob/living/carbon/human))
+[17:08:59]Unknown (/mob/living/carbon/human): attacked by(the fire axe (Wielded) (/obj/item/twohanded/fireaxe), Benny Tequilla (/mob/living/carbon/human))
+[17:08:59]the fire axe (Wielded) (/obj/item/twohanded/fireaxe): attack(Unknown (/mob/living/carbon/human), Benny Tequilla (/mob/living/carbon/human))
+[17:08:59]Unknown (/mob/living/carbon/human): attackby(the fire axe (Wielded) (/obj/item/twohanded/fireaxe), Benny Tequilla (/mob/living/carbon/human), "icon-x=14;icon-y=26;left=1;scr...")
+[17:08:59]Unknown (/mob/living/carbon/human): attackby(the fire axe (Wielded) (/obj/item/twohanded/fireaxe), Benny Tequilla (/mob/living/carbon/human), "icon-x=14;icon-y=26;left=1;scr...")
+[17:08:59]the fire axe (Wielded) (/obj/item/twohanded/fireaxe): melee attack chain(Benny Tequilla (/mob/living/carbon/human), Unknown (/mob/living/carbon/human), "icon-x=14;icon-y=26;left=1;scr...")
+[17:08:59]Benny Tequilla (/mob/living/carbon/human): ClickOn(Unknown (/mob/living/carbon/human), "icon-x=14;icon-y=26;left=1;scr...")
+[17:08:59]Unknown (/mob/living/carbon/human): Click(the floor (83,131,2) (/turf/open/floor/plasteel/floorgrime), "mapwindow.map", "icon-x=14;icon-y=26;left=1;scr...")
+runtime error: 
+[17:10:47]Cannot read null.z
+[17:10:47]proc name: AStar (/proc/AStar)
+[17:10:47]  source file: AStar.dm,104
+[17:10:47]  usr: (src)
+[17:10:47]  src: null
+[17:10:47]  call stack:
+[17:10:47]AStar(the MULEbot (#1) (/mob/living/simple_animal/bot/mulebot), null, /turf/proc/Distance_cardinal (/turf/proc/Distance_cardinal), 0, 250, null, /turf/proc/reachableTurftest (/turf/proc/reachableTurftest), the identification card (/obj/item/card/id), null, 1)
+[17:10:47]get path to(the MULEbot (#1) (/mob/living/simple_animal/bot/mulebot), null, /turf/proc/Distance_cardinal (/turf/proc/Distance_cardinal), 0, 250, null, /turf/proc/reachableTurftest (/turf/proc/reachableTurftest), the identification card (/obj/item/card/id), null, 1)
+[17:10:47]the MULEbot (#1) (/mob/living/simple_animal/bot/mulebot): calc path(null)
+[17:10:47]the MULEbot (#1) (/mob/living/simple_animal/bot/mulebot): process bot()
+runtime error: 
+[17:17:05]pick() from empty list
+[17:17:05]proc name: New (/datum/hallucination/stray_bullet/New)
+[17:17:05]  source file: Hallucination.dm,1186
+[17:17:05]  usr: null
+[17:17:05]  src: /datum/hallucination/stray_bul... (/datum/hallucination/stray_bullet)
+[17:17:05]  call stack:
+[17:17:05]/datum/hallucination/stray_bul... (/datum/hallucination/stray_bullet): New(Jamie Demuth (/mob/living/carbon/human), 0)
+[17:17:05]Jamie Demuth (/mob/living/carbon/human): handle hallucinations()
+[17:17:05]Jamie Demuth (/mob/living/carbon/human): handle status effects()
+[17:17:05]Jamie Demuth (/mob/living/carbon/human): handle status effects()
+[17:17:05]Jamie Demuth (/mob/living/carbon/human): Life(2, 962)
+[17:17:05]Jamie Demuth (/mob/living/carbon/human): Life(2, 962)
+[17:17:05]Jamie Demuth (/mob/living/carbon/human): Life(2, 962)
+[17:17:05]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[17:17:05]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[17:17:05]Master (/datum/controller/master): RunQueue()
+[17:17:05]Master (/datum/controller/master): Loop()
+[17:17:05]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[17:18:46]list index out of bounds
+[17:18:46]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[17:18:46]  source file: aurora_caelus.dm,39
+[17:18:46]  usr: null
+[17:18:46]  src: /datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus)
+[17:18:46]  call stack:
+[17:18:46]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): tick()
+[17:18:46]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): process()
+[17:18:46]Events (/datum/controller/subsystem/events): fire(0)
+[17:18:46]Events (/datum/controller/subsystem/events): ignite(0)
+[17:18:46]Master (/datum/controller/master): RunQueue()
+[17:18:46]Master (/datum/controller/master): Loop()
+[17:18:46]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[17:22:31]pick() from empty list
+[17:22:31]proc name: New (/datum/hallucination/stray_bullet/New)
+[17:22:31]  source file: Hallucination.dm,1186
+[17:22:31]  usr: null
+[17:22:31]  src: /datum/hallucination/stray_bul... (/datum/hallucination/stray_bullet)
+[17:22:31]  call stack:
+[17:22:31]/datum/hallucination/stray_bul... (/datum/hallucination/stray_bullet): New(Jamie Demuth (/mob/living/carbon/human), 0)
+[17:22:31]Jamie Demuth (/mob/living/carbon/human): handle hallucinations()
+[17:22:31]Jamie Demuth (/mob/living/carbon/human): handle status effects()
+[17:22:31]Jamie Demuth (/mob/living/carbon/human): handle status effects()
+[17:22:31]Jamie Demuth (/mob/living/carbon/human): Life(2, 1124)
+[17:22:31]Jamie Demuth (/mob/living/carbon/human): Life(2, 1124)
+[17:22:31]Jamie Demuth (/mob/living/carbon/human): Life(2, 1124)
+[17:22:31]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[17:22:31]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[17:22:31]Master (/datum/controller/master): RunQueue()
+[17:22:31]Master (/datum/controller/master): Loop()
+[17:22:31]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[17:23:09]nothing to animate
+[17:23:09]proc name: shake camera (/proc/shake_camera)
+[17:23:09]  source file: mob_helpers.dm,270
+[17:23:09]  usr: (src)
+[17:23:09]  src: null
+[17:23:09]  call stack:
+[17:23:09]shake camera(Jack Gray (/mob/living/carbon/human), 0.75, 1)
+[17:23:09]Jack Gray (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[17:23:09]Jack Gray (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[17:23:09]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[17:23:09]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[17:23:09]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[17:23:09]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[17:23:09]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[17:23:09]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[17:23:09]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[17:25:48]Expected :: ,{"type":"toggle button"}],"wires":[[[2,"A",1],[5,"A",1]]]}
+[17:25:48]proc name: validate electronic assembly (/datum/controller/subsystem/processing/circuit/proc/validate_electronic_assembly)
+[17:25:48]  source file: saved_circuits.dm,229
+[17:25:48]  usr: Edwin Saylor (/mob/living/carbon/human)
+[17:25:48]  src: Circuit (/datum/controller/subsystem/processing/circuit)
+[17:25:48]  usr.loc: the floor (191,98,2) (/turf/open/floor/plasteel/white)
+[17:25:48]  call stack:
+[17:25:48]Circuit (/datum/controller/subsystem/processing/circuit): validate electronic assembly("{\"assembly\":{\"type\":\"type...")
+[17:25:48]the integrated circuit printer (/obj/item/device/integrated_circuit_printer): Topic("src=\[0x20055b7];print=load", /list (/list))
+[17:25:48]David Blanc2 (/client): Topic("src=\[0x20055b7];print=load", /list (/list), the integrated circuit printer (/obj/item/device/integrated_circuit_printer))
+[17:25:48]David Blanc2 (/client): Topic("src=\[0x20055b7];print=load", /list (/list), the integrated circuit printer (/obj/item/device/integrated_circuit_printer))
+runtime error: 
+[17:31:20]pick() from empty list
+[17:31:20]proc name: New (/datum/hallucination/stray_bullet/New)
+[17:31:20]  source file: Hallucination.dm,1186
+[17:31:20]  usr: null
+[17:31:20]  src: /datum/hallucination/stray_bul... (/datum/hallucination/stray_bullet)
+[17:31:20]  call stack:
+[17:31:20]/datum/hallucination/stray_bul... (/datum/hallucination/stray_bullet): New(Jamie Demuth (/mob/living/carbon/human), 0)
+[17:31:20]Jamie Demuth (/mob/living/carbon/human): handle hallucinations()
+[17:31:20]Jamie Demuth (/mob/living/carbon/human): handle status effects()
+[17:31:20]Jamie Demuth (/mob/living/carbon/human): handle status effects()
+[17:31:20]Jamie Demuth (/mob/living/carbon/human): Life(2, 1386)
+[17:31:20]Jamie Demuth (/mob/living/carbon/human): Life(2, 1386)
+[17:31:20]Jamie Demuth (/mob/living/carbon/human): Life(2, 1386)
+[17:31:20]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[17:31:20]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[17:31:20]Master (/datum/controller/master): RunQueue()
+[17:31:20]Master (/datum/controller/master): Loop()
+[17:31:20]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[17:40:39]addtimer called with a callback assigned to a qdeleted object
+[17:40:39]proc name: stack trace (/proc/stack_trace)
+[17:40:39]  source file: unsorted.dm,1254
+[17:40:39]  usr: the midwife (101) (/mob/living/simple_animal/hostile/poison/giant_spider/nurse/midwife)
+[17:40:39]  src: null
+[17:40:39]  usr.loc: the plating (163,126,2) (/turf/open/floor/plating)
+[17:40:39]  call stack:
+[17:40:39]stack trace("addtimer called with a callbac...")
+[17:40:39]addtimer(/datum/callback (/datum/callback), 20, 0)
+[17:40:39]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[17:40:39]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+Saved 102 engraved messages on map Box Station

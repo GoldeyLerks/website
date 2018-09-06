@@ -1,0 +1,237 @@
+
+
+Starting up round ID 1062. 09:16:20
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading BeeStation 1...
+Loaded Station in 5.8s!
+Loaded Lavaland in 6.1s!
+Loaded Reebe in 5.6s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 33.1 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[09:17:01]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[09:17:01]proc name: stack trace (/datum/proc/stack_trace)
+[09:17:01]  source file: unsorted.dm,1257
+[09:17:01]  usr: null
+[09:17:01]  src: Vacant Office APC (/obj/machinery/power/apc)
+[09:17:01]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[09:17:01]  call stack:
+[09:17:01]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[09:17:01]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[09:17:01]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[09:17:01]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[09:17:01]Atoms (/datum/controller/subsystem/atoms): Initialize(334145)
+[09:17:01]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 45.6 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.2 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 24 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 0 seconds were wasted processing 24 turf(s) (connected to 48 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 14.3 seconds!
+Failed to find backup file for map BeeStation 1 on zlevel 2.
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 7 seconds!
+Initialized Overlay subsystem within 16 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 14.7 seconds!
+Initialized Shuttle subsystem within 23.9 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 2 engraved messages on map BeeStation 1
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 156.4 seconds!
+Game start took 1.3s
+runtime error: 
+[11:33:46]list index out of bounds
+[11:33:46]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[11:33:46]  source file: aurora_caelus.dm,39
+[11:33:46]  usr: null
+[11:33:46]  src: /datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus)
+[11:33:46]  call stack:
+[11:33:46]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): tick()
+[11:33:46]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): process()
+[11:33:46]Events (/datum/controller/subsystem/events): fire(0)
+[11:33:46]Events (/datum/controller/subsystem/events): ignite(0)
+[11:33:46]Master (/datum/controller/master): RunQueue()
+[11:33:46]Master (/datum/controller/master): Loop()
+[11:33:46]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[11:42:33]nothing to animate
+[11:42:33]proc name: shake camera (/proc/shake_camera)
+[11:42:33]  source file: mob_helpers.dm,270
+[11:42:33]  usr: (src)
+[11:42:33]  src: null
+[11:42:33]  call stack:
+[11:42:33]shake camera(Tyron Reade (/mob/living/carbon/human), 0.75, 1)
+[11:42:33]Tyron Reade (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[11:42:33]Tyron Reade (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[11:42:33]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[11:42:33]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[11:42:33]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[11:42:33]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[11:42:33]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[11:42:33]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[11:42:33]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[12:20:56]nothing to animate
+[12:20:56]proc name: shake camera (/proc/shake_camera)
+[12:20:56]  source file: mob_helpers.dm,270
+[12:20:56]  usr: (src)
+[12:20:56]  src: null
+[12:20:56]  call stack:
+[12:20:56]shake camera(Benny Tequilla (/mob/living/carbon/human), 0.75, 1)
+[12:20:56]Benny Tequilla (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[12:20:56]Benny Tequilla (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[12:20:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[12:20:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[12:20:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[12:20:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[12:20:56]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[12:20:56]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[12:20:56]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[13:02:30]nothing to animate
+[13:02:30]proc name: shake camera (/proc/shake_camera)
+[13:02:30]  source file: mob_helpers.dm,270
+[13:02:30]  usr: (src)
+[13:02:30]  src: null
+[13:02:30]  call stack:
+[13:02:30]shake camera(Isaac Wile (/mob/living/carbon/human), 0.75, 1)
+[13:02:30]Isaac Wile (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[13:02:30]Isaac Wile (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[13:02:30]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[13:02:30]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[13:02:30]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[13:02:30]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[13:02:30]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[13:02:30]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[13:02:30]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[13:07:52]nothing to animate
+[13:07:52]proc name: shake camera (/proc/shake_camera)
+[13:07:52]  source file: mob_helpers.dm,270
+[13:07:52]  usr: (src)
+[13:07:52]  src: null
+[13:07:52]  call stack:
+[13:07:52]shake camera(Isaac Wile (/mob/living/carbon/human), 0.75, 1)
+[13:07:52]Isaac Wile (/mob/living/carbon/human): afterShuttleMove(space (133,72,2) (/turf/open/space), /list (/list), 4, 4, 8, 0)
+[13:07:52]Isaac Wile (/mob/living/carbon/human): afterShuttleMove(space (133,72,2) (/turf/open/space), /list (/list), 4, 4, 8, 0)
+[13:07:52]the escape pod 4 (/obj/docking_port/mobile/pod): cleanup runway(Transit for pod4/escape pod 4 (/obj/docking_port/stationary/transit), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space (/turf/open/space), /turf/open/space (/turf/open/space))
+[13:07:52]the escape pod 4 (/obj/docking_port/mobile/pod): initiate docking(Transit for pod4/escape pod 4 (/obj/docking_port/stationary/transit), 8, 0)
+[13:07:52]the escape pod 4 (/obj/docking_port/mobile/pod): enterTransit()
+[13:07:52]the escape pod 4 (/obj/docking_port/mobile/pod): on emergency launch()
+[13:07:52]Box emergency shuttle (/obj/docking_port/mobile/emergency): check()
+[13:07:52]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[13:07:52]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[13:09:53]nothing to animate
+[13:09:53]proc name: shake camera (/proc/shake_camera)
+[13:09:53]  source file: mob_helpers.dm,270
+[13:09:53]  usr: (src)
+[13:09:53]  src: null
+[13:09:53]  call stack:
+[13:09:53]shake camera(Isaac Wile (/mob/living/carbon/human), 0.75, 1)
+[13:09:53]Isaac Wile (/mob/living/carbon/human): afterShuttleMove(space (111,17,13) (/turf/open/space/transit/east), /list (/list), 4, 4, 8, 270)
+[13:09:53]Isaac Wile (/mob/living/carbon/human): afterShuttleMove(space (111,17,13) (/turf/open/space/transit/east), /list (/list), 4, 4, 8, 270)
+[13:09:53]the escape pod 4 (/obj/docking_port/mobile/pod): cleanup runway(the recovery ship (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 270, 8, Space (/area/space), /turf/open/space/transit/east (/turf/open/space/transit/east), /turf/open/space (/turf/open/space))
+[13:09:53]the escape pod 4 (/obj/docking_port/mobile/pod): initiate docking(the recovery ship (/obj/docking_port/stationary), 8, 0)
+[13:09:53]the escape pod 4 (/obj/docking_port/mobile/pod): on emergency dock()
+[13:09:53]Box emergency shuttle (/obj/docking_port/mobile/emergency): check()
+[13:09:53]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[13:09:53]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+Saved 2 engraved messages on map BeeStation 1
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 13:11:30

@@ -1,0 +1,677 @@
+
+
+Starting up round ID 308. 21:09:09
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 12.6s!
+Loaded Lavaland in 8.4s!
+Loaded Reebe in 5.3s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 37.6 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 49.3 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 31 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 31 turf(s) (connected to 20635 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 17.8 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.9 seconds!
+Initialized Icon Smoothing subsystem within 5.6 seconds!
+runtime error: 
+[21:11:17]Cannot modify null.active.
+[21:11:17]proc name: AIize (/mob/proc/AIize)
+[21:11:17]  source file: transform_procs.dm,348
+[21:11:17]  usr: Cscottburgess (/mob/dead/new_player)
+[21:11:17]  src: Clement Russell (/mob/living/carbon/human/dummy)
+[21:11:17]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[21:11:17]  src.loc: null
+[21:11:17]  call stack:
+[21:11:17]Clement Russell (/mob/living/carbon/human/dummy): AIize(0)
+[21:11:17]Clement Russell (/mob/living/carbon/human/dummy): AIize(0)
+[21:11:17]Clement Russell (/mob/living/carbon/human/dummy): AIize(0)
+[21:11:17]/datum/job/ai (/datum/job/ai): equip(Clement Russell (/mob/living/carbon/human/dummy), 1)
+[21:11:17]/datum/preferences (/datum/preferences): update preview icon()
+[21:11:17]/datum/preferences (/datum/preferences): ShowChoices(Cscottburgess (/mob/dead/new_player))
+[21:11:17]Cscottburgess (/mob/dead/new_player): Topic("src=\[mob_42];show_preferences...", /list (/list))
+[21:11:17]Cscottburgess (/client): Topic("src=\[mob_42];show_preferences...", /list (/list), Cscottburgess (/mob/dead/new_player))
+[21:11:17]Cscottburgess (/client): Topic("src=\[mob_42];show_preferences...", /list (/list), Cscottburgess (/mob/dead/new_player))
+runtime error: 
+[21:11:31]Cannot execute null.light().
+[21:11:31]proc name: post equip (/datum/outfit/job/detective/post_equip)
+[21:11:31]  source file: security.dm,163
+[21:11:31]  usr: BeerBears (/mob/dead/new_player)
+[21:11:31]  src: Detective (/datum/outfit/job/detective)
+[21:11:31]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[21:11:31]  call stack:
+[21:11:31]Detective (/datum/outfit/job/detective): post equip(Johnny Banana (/mob/living/carbon/human/dummy), 1)
+[21:11:31]Detective (/datum/outfit/job/detective): equip(Johnny Banana (/mob/living/carbon/human/dummy), 1)
+[21:11:31]Johnny Banana (/mob/living/carbon/human/dummy): equipOutfit(/datum/outfit/job/detective (/datum/outfit/job/detective), 1)
+[21:11:31]/datum/job/detective (/datum/job/detective): equip(Johnny Banana (/mob/living/carbon/human/dummy), 1, 1)
+[21:11:31]/datum/preferences (/datum/preferences): update preview icon()
+[21:11:31]/datum/preferences (/datum/preferences): ShowChoices(BeerBears (/mob/dead/new_player))
+[21:11:31]/datum/preferences (/datum/preferences): process link(BeerBears (/mob/dead/new_player), /list (/list))
+[21:11:31]BeerBears (/client): Topic("_src_=prefs;preference=hair_st...", /list (/list), null)
+[21:11:31]BeerBears (/client): Topic("_src_=prefs;preference=hair_st...", /list (/list))
+runtime error: 
+[21:11:35]Cannot execute null.light().
+[21:11:35]proc name: post equip (/datum/outfit/job/detective/post_equip)
+[21:11:35]  source file: security.dm,163
+[21:11:35]  usr: BeerBears (/mob/dead/new_player)
+[21:11:35]  src: Detective (/datum/outfit/job/detective)
+[21:11:35]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[21:11:35]  call stack:
+[21:11:35]Detective (/datum/outfit/job/detective): post equip(Johnny Banana (/mob/living/carbon/human/dummy), 1)
+[21:11:35]Detective (/datum/outfit/job/detective): equip(Johnny Banana (/mob/living/carbon/human/dummy), 1)
+[21:11:35]Johnny Banana (/mob/living/carbon/human/dummy): equipOutfit(/datum/outfit/job/detective (/datum/outfit/job/detective), 1)
+[21:11:35]/datum/job/detective (/datum/job/detective): equip(Johnny Banana (/mob/living/carbon/human/dummy), 1, 1)
+[21:11:35]/datum/preferences (/datum/preferences): update preview icon()
+[21:11:35]/datum/preferences (/datum/preferences): ShowChoices(BeerBears (/mob/dead/new_player))
+[21:11:35]/datum/preferences (/datum/preferences): process link(BeerBears (/mob/dead/new_player), /list (/list))
+[21:11:35]BeerBears (/client): Topic("_src_=prefs;preference=save", /list (/list), null)
+[21:11:35]BeerBears (/client): Topic("_src_=prefs;preference=save", /list (/list))
+Initialized Overlay subsystem within 30.3 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+runtime error: 
+[21:11:48]Cannot execute null.light().
+[21:11:48]proc name: post equip (/datum/outfit/job/detective/post_equip)
+[21:11:48]  source file: security.dm,163
+[21:11:48]  usr: BeerBears (/mob/dead/new_player)
+[21:11:48]  src: Detective (/datum/outfit/job/detective)
+[21:11:48]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[21:11:48]  call stack:
+[21:11:48]Detective (/datum/outfit/job/detective): post equip(Johnny Banana (/mob/living/carbon/human/dummy), 1)
+[21:11:48]Detective (/datum/outfit/job/detective): equip(Johnny Banana (/mob/living/carbon/human/dummy), 1)
+[21:11:48]Johnny Banana (/mob/living/carbon/human/dummy): equipOutfit(/datum/outfit/job/detective (/datum/outfit/job/detective), 1)
+[21:11:48]/datum/job/detective (/datum/job/detective): equip(Johnny Banana (/mob/living/carbon/human/dummy), 1, 1)
+[21:11:48]/datum/preferences (/datum/preferences): update preview icon()
+[21:11:48]/datum/preferences (/datum/preferences): ShowChoices(BeerBears (/mob/dead/new_player))
+[21:11:48]BeerBears (/mob/dead/new_player): Topic("src=\[mob_21];show_preferences...", /list (/list))
+[21:11:48]BeerBears (/client): Topic("src=\[mob_21];show_preferences...", /list (/list), BeerBears (/mob/dead/new_player))
+[21:11:48]BeerBears (/client): Topic("src=\[mob_21];show_preferences...", /list (/list), BeerBears (/mob/dead/new_player))
+Initialized Lighting subsystem within 11.7 seconds!
+runtime error: 
+[21:12:15]Cannot execute null.light().
+[21:12:15]proc name: post equip (/datum/outfit/job/detective/post_equip)
+[21:12:15]  source file: security.dm,163
+[21:12:15]  usr: BeerBears (/mob/dead/new_player)
+[21:12:15]  src: Detective (/datum/outfit/job/detective)
+[21:12:15]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[21:12:15]  call stack:
+[21:12:15]Detective (/datum/outfit/job/detective): post equip(May Thorley (/mob/living/carbon/human/dummy), 1)
+[21:12:15]Detective (/datum/outfit/job/detective): equip(May Thorley (/mob/living/carbon/human/dummy), 1)
+[21:12:15]May Thorley (/mob/living/carbon/human/dummy): equipOutfit(/datum/outfit/job/detective (/datum/outfit/job/detective), 1)
+[21:12:15]/datum/job/detective (/datum/job/detective): equip(May Thorley (/mob/living/carbon/human/dummy), 1, 1)
+[21:12:15]/datum/preferences (/datum/preferences): update preview icon()
+[21:12:15]/datum/preferences (/datum/preferences): ShowChoices(BeerBears (/mob/dead/new_player))
+[21:12:15]/datum/preferences (/datum/preferences): process link(BeerBears (/mob/dead/new_player), /list (/list))
+[21:12:15]BeerBears (/client): Topic("_src_=prefs;preference=changes...", /list (/list), null)
+[21:12:15]BeerBears (/client): Topic("_src_=prefs;preference=changes...", /list (/list))
+Initialized Shuttle subsystem within 22.8 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 2 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 177.1 seconds!
+runtime error: 
+[21:12:18]Cannot execute null.light().
+[21:12:18]proc name: post equip (/datum/outfit/job/detective/post_equip)
+[21:12:18]  source file: security.dm,163
+[21:12:18]  usr: BeerBears (/mob/dead/new_player)
+[21:12:18]  src: Detective (/datum/outfit/job/detective)
+[21:12:18]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[21:12:18]  call stack:
+[21:12:18]Detective (/datum/outfit/job/detective): post equip(May Thorley (/mob/living/carbon/human/dummy), 1)
+[21:12:18]Detective (/datum/outfit/job/detective): equip(May Thorley (/mob/living/carbon/human/dummy), 1)
+[21:12:18]May Thorley (/mob/living/carbon/human/dummy): equipOutfit(/datum/outfit/job/detective (/datum/outfit/job/detective), 1)
+[21:12:18]/datum/job/detective (/datum/job/detective): equip(May Thorley (/mob/living/carbon/human/dummy), 1, 1)
+[21:12:18]/datum/preferences (/datum/preferences): update preview icon()
+[21:12:18]/datum/preferences (/datum/preferences): ShowChoices(BeerBears (/mob/dead/new_player))
+[21:12:18]BeerBears (/mob/dead/new_player): Topic("src=\[mob_21];show_preferences...", /list (/list))
+[21:12:18]BeerBears (/client): Topic("src=\[mob_21];show_preferences...", /list (/list), BeerBears (/mob/dead/new_player))
+[21:12:18]BeerBears (/client): Topic("src=\[mob_21];show_preferences...", /list (/list), BeerBears (/mob/dead/new_player))
+runtime error: 
+[21:12:23]Cannot execute null.light().
+[21:12:23]proc name: post equip (/datum/outfit/job/detective/post_equip)
+[21:12:23]  source file: security.dm,163
+[21:12:23]  usr: BeerBears (/mob/dead/new_player)
+[21:12:23]  src: Detective (/datum/outfit/job/detective)
+[21:12:23]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[21:12:23]  call stack:
+[21:12:23]Detective (/datum/outfit/job/detective): post equip(Johnny Banana (/mob/living/carbon/human/dummy), 1)
+[21:12:23]Detective (/datum/outfit/job/detective): equip(Johnny Banana (/mob/living/carbon/human/dummy), 1)
+[21:12:23]Johnny Banana (/mob/living/carbon/human/dummy): equipOutfit(/datum/outfit/job/detective (/datum/outfit/job/detective), 1)
+[21:12:23]/datum/job/detective (/datum/job/detective): equip(Johnny Banana (/mob/living/carbon/human/dummy), 1, 1)
+[21:12:23]/datum/preferences (/datum/preferences): update preview icon()
+[21:12:23]/datum/preferences (/datum/preferences): ShowChoices(BeerBears (/mob/dead/new_player))
+[21:12:23]/datum/preferences (/datum/preferences): process link(BeerBears (/mob/dead/new_player), /list (/list))
+[21:12:23]BeerBears (/client): Topic("_src_=prefs;preference=changes...", /list (/list), null)
+[21:12:23]BeerBears (/client): Topic("_src_=prefs;preference=changes...", /list (/list))
+runtime error: 
+[21:12:28]Cannot execute null.light().
+[21:12:28]proc name: post equip (/datum/outfit/job/detective/post_equip)
+[21:12:28]  source file: security.dm,163
+[21:12:28]  usr: BeerBears (/mob/dead/new_player)
+[21:12:28]  src: Detective (/datum/outfit/job/detective)
+[21:12:28]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[21:12:28]  call stack:
+[21:12:28]Detective (/datum/outfit/job/detective): post equip(Johnny Banana (/mob/living/carbon/human/dummy), 1)
+[21:12:28]Detective (/datum/outfit/job/detective): equip(Johnny Banana (/mob/living/carbon/human/dummy), 1)
+[21:12:28]Johnny Banana (/mob/living/carbon/human/dummy): equipOutfit(/datum/outfit/job/detective (/datum/outfit/job/detective), 1)
+[21:12:28]/datum/job/detective (/datum/job/detective): equip(Johnny Banana (/mob/living/carbon/human/dummy), 1, 1)
+[21:12:28]/datum/preferences (/datum/preferences): update preview icon()
+[21:12:28]/datum/preferences (/datum/preferences): ShowChoices(BeerBears (/mob/dead/new_player))
+[21:12:28]/datum/preferences (/datum/preferences): process link(BeerBears (/mob/dead/new_player), /list (/list))
+[21:12:28]BeerBears (/client): Topic("_src_=prefs;preference=save", /list (/list), null)
+[21:12:28]BeerBears (/client): Topic("_src_=prefs;preference=save", /list (/list))
+runtime error: 
+[21:12:59]Cannot read null.client
+[21:12:59]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:12:59]  source file: vote.dm,321
+[21:12:59]  usr: null
+[21:12:59]  src: Vote: Monkey zombie round? (/datum/action/vote)
+[21:12:59]  call stack:
+[21:12:59]Vote: Monkey zombie round? (/datum/action/vote): remove from client()
+[21:12:59]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:12:59]Vote (/datum/controller/subsystem/vote): announce result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:12:59]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:12:59]Master (/datum/controller/master): RunQueue()
+[21:12:59]Master (/datum/controller/master): Loop()
+[21:12:59]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:12:59]Cannot read null.client
+[21:12:59]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:12:59]  source file: vote.dm,321
+[21:12:59]  usr: null
+[21:12:59]  src: Vote: Monkey zombie round? (/datum/action/vote)
+[21:12:59]  call stack:
+[21:12:59]Vote: Monkey zombie round? (/datum/action/vote): remove from client()
+[21:12:59]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:12:59]Vote (/datum/controller/subsystem/vote): announce result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:12:59]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:12:59]Master (/datum/controller/master): RunQueue()
+[21:12:59]Master (/datum/controller/master): Loop()
+[21:12:59]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:12:59]Cannot read null.client
+[21:12:59]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:12:59]  source file: vote.dm,321
+[21:12:59]  usr: null
+[21:12:59]  src: Vote: Monkey zombie round? (/datum/action/vote)
+[21:12:59]  call stack:
+[21:12:59]Vote: Monkey zombie round? (/datum/action/vote): remove from client()
+[21:12:59]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:12:59]Vote (/datum/controller/subsystem/vote): announce result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:12:59]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:12:59]Master (/datum/controller/master): RunQueue()
+[21:12:59]Master (/datum/controller/master): Loop()
+[21:12:59]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:12:59]Cannot read null.client
+[21:12:59]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:12:59]  source file: vote.dm,321
+[21:12:59]  usr: null
+[21:12:59]  src: Vote: Monkey zombie round? (/datum/action/vote)
+[21:12:59]  call stack:
+[21:12:59]Vote: Monkey zombie round? (/datum/action/vote): remove from client()
+[21:12:59]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:12:59]Vote (/datum/controller/subsystem/vote): announce result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:12:59]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:12:59]Master (/datum/controller/master): RunQueue()
+[21:12:59]Master (/datum/controller/master): Loop()
+[21:12:59]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:12:59]Cannot read null.client
+[21:12:59]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:12:59]  source file: vote.dm,321
+[21:12:59]  usr: null
+[21:12:59]  src: Vote: Monkey zombie round? (/datum/action/vote)
+[21:12:59]  call stack:
+[21:12:59]Vote: Monkey zombie round? (/datum/action/vote): remove from client()
+[21:12:59]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:12:59]Vote (/datum/controller/subsystem/vote): announce result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:12:59]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:12:59]Master (/datum/controller/master): RunQueue()
+[21:12:59]Master (/datum/controller/master): Loop()
+[21:12:59]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:12:59]Cannot read null.client
+[21:12:59]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:12:59]  source file: vote.dm,321
+[21:12:59]  usr: null
+[21:12:59]  src: Vote: Monkey zombie round? (/datum/action/vote)
+[21:12:59]  call stack:
+[21:12:59]Vote: Monkey zombie round? (/datum/action/vote): remove from client()
+[21:12:59]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:12:59]Vote (/datum/controller/subsystem/vote): announce result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:12:59]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:12:59]Master (/datum/controller/master): RunQueue()
+[21:12:59]Master (/datum/controller/master): Loop()
+[21:12:59]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:12:59]Cannot read null.client
+[21:12:59]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:12:59]  source file: vote.dm,321
+[21:12:59]  usr: null
+[21:12:59]  src: Vote: Monkey zombie round? (/datum/action/vote)
+[21:12:59]  call stack:
+[21:12:59]Vote: Monkey zombie round? (/datum/action/vote): remove from client()
+[21:12:59]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:12:59]Vote (/datum/controller/subsystem/vote): announce result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): result()
+[21:12:59]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:12:59]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:12:59]Master (/datum/controller/master): RunQueue()
+[21:12:59]Master (/datum/controller/master): Loop()
+[21:12:59]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:13:35]Cannot read null.species
+[21:13:35]proc name: attach limb (/obj/item/bodypart/proc/attach_limb)
+[21:13:35]  source file: dismemberment.dm,278
+[21:13:35]  usr: null
+[21:13:35]  src: the surplus prosthetic right a... (/obj/item/bodypart/r_arm/robot/surplus)
+[21:13:35]  src.loc: null
+[21:13:35]  call stack:
+[21:13:35]the surplus prosthetic right a... (/obj/item/bodypart/r_arm/robot/surplus): attach limb( (/mob/living/carbon/human), null)
+[21:13:35]the surplus prosthetic right a... (/obj/item/bodypart/r_arm/robot/surplus): replace limb( (/mob/living/carbon/human), null)
+[21:13:35]Prosthetic Limb (/datum/trait/prosthetic_limb): on spawn()
+[21:13:35]Prosthetic Limb (/datum/trait/prosthetic_limb): New( (/mob/living/carbon/human), 1)
+[21:13:35] (/mob/living/carbon/human): add trait datum("Prosthetic Limb", 1)
+[21:13:35]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), Cscottburgess (/client), 1)
+[21:13:35]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[21:13:35]Ticker (/datum/controller/subsystem/ticker): setup()
+[21:13:35]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[21:13:35]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+Game start took 34s
+runtime error: 
+[21:14:07]Cannot execute null.Copy().
+[21:14:07]proc name: Copy (/datum/disease/transformation/Copy)
+[21:14:07]  source file: transformation.dm,22
+[21:14:07]  usr: null
+[21:14:07]  src: Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode)
+[21:14:07]  call stack:
+[21:14:07]Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode): Copy()
+[21:14:07]Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode): infect( (/mob/living/carbon/human), 1)
+[21:14:07]Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode): try infect( (/mob/living/carbon/human), 1)
+[21:14:07] (/mob/living/carbon/human): ForceContractDisease(Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode), 1, 0)
+[21:14:07]Monkey Leader (/datum/antagonist/monkey/leader): on gain()
+[21:14:07]Monkey Leader (/datum/antagonist/monkey/leader): on gain()
+[21:14:07]Christopher Odd (/datum/mind): add antag datum(/datum/antagonist/monkey/leade... (/datum/antagonist/monkey/leader), null)
+[21:14:07]add monkey leader(Christopher Odd (/datum/mind), null)
+[21:14:07]monkey (/datum/game_mode/monkey): post setup()
+[21:14:07]Ticker (/datum/controller/subsystem/ticker): PostSetup()
+[21:14:07]Ticker (/datum/controller/subsystem/ticker): setup()
+[21:14:07]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[21:14:07]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+runtime error: 
+[21:14:07]Cannot modify null.affected_mob.
+[21:14:07]proc name: infect (/datum/disease/proc/infect)
+[21:14:07]  source file: _disease.dm,53
+[21:14:07]  usr: null
+[21:14:07]  src: Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode)
+[21:14:07]  call stack:
+[21:14:07]Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode): infect( (/mob/living/carbon/human), 1)
+[21:14:07]Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode): try infect( (/mob/living/carbon/human), 1)
+[21:14:07] (/mob/living/carbon/human): ForceContractDisease(Jungle Fever (/datum/disease/transformation/jungle_fever/monkeymode), 1, 0)
+[21:14:07]Monkey Leader (/datum/antagonist/monkey/leader): on gain()
+[21:14:07]Monkey Leader (/datum/antagonist/monkey/leader): on gain()
+[21:14:07]Christopher Odd (/datum/mind): add antag datum(/datum/antagonist/monkey/leade... (/datum/antagonist/monkey/leader), null)
+[21:14:07]add monkey leader(Christopher Odd (/datum/mind), null)
+[21:14:07]monkey (/datum/game_mode/monkey): post setup()
+[21:14:07]Ticker (/datum/controller/subsystem/ticker): PostSetup()
+[21:14:07]Ticker (/datum/controller/subsystem/ticker): setup()
+[21:14:07]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[21:14:07]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+runtime error: 
+[21:14:15]Cannot read null.infectivity
+[21:14:15]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:15]  source file: life.dm,254
+[21:14:15]  usr: null
+[21:14:15]  src:  (/mob/living/carbon/human)
+[21:14:15]  src.loc: the floor (117,80,2) (/turf/open/floor/plasteel)
+[21:14:15]  call stack:
+[21:14:15] (/mob/living/carbon/human): handle diseases()
+[21:14:15] (/mob/living/carbon/human): Life(2, 1)
+[21:14:15] (/mob/living/carbon/human): Life(2, 1)
+[21:14:15] (/mob/living/carbon/human): Life(2, 1)
+[21:14:15]Mobs (/datum/controller/subsystem/mobs): fire(1)
+[21:14:15]Mobs (/datum/controller/subsystem/mobs): ignite(1)
+[21:14:15]Master (/datum/controller/master): RunQueue()
+[21:14:15]Master (/datum/controller/master): Loop()
+[21:14:15]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:14:19]Cannot read null.visibility_flags
+[21:14:19]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:14:19]  source file: data_huds.dm,86
+runtime error: 
+[21:14:19]Cannot read null.visibility_flags
+[21:14:19]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:14:19]  source file: data_huds.dm,86
+runtime error: 
+[21:14:19]Cannot read null.infectivity
+[21:14:19]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:19]  source file: life.dm,254
+runtime error: 
+[21:14:21]Cannot read null.infectivity
+[21:14:21]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:21]  source file: life.dm,254
+runtime error: 
+[21:14:22]Cannot read null.infectivity
+[21:14:22]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:22]  source file: life.dm,254
+runtime error: 
+[21:14:24]Cannot read null.infectivity
+[21:14:24]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:24]  source file: life.dm,254
+runtime error: 
+[21:14:26]Cannot read null.visibility_flags
+[21:14:26]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:14:26]  source file: data_huds.dm,86
+runtime error: 
+[21:14:26]Cannot read null.visibility_flags
+[21:14:26]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:14:26]  source file: data_huds.dm,86
+runtime error: 
+[21:14:26]Cannot read null.infectivity
+[21:14:26]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:26]  source file: life.dm,254
+runtime error: 
+[21:14:28]Cannot read null.infectivity
+[21:14:28]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:28]  source file: life.dm,254
+runtime error: 
+[21:14:29]Cannot read null.severity
+[21:14:29]proc name: fully heal (/mob/living/carbon/fully_heal)
+[21:14:29]  source file: carbon.dm,764
+runtime error: 
+[21:14:30]Cannot read null.infectivity
+[21:14:30]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:30]  source file: life.dm,254
+runtime error: 
+[21:14:34]Cannot read null.infectivity
+[21:14:34]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:34]  source file: life.dm,254
+runtime error: 
+[21:14:37]Cannot read null.visibility_flags
+[21:14:37]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:14:37]  source file: data_huds.dm,86
+runtime error: 
+[21:14:37]Cannot read null.visibility_flags
+[21:14:37]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:14:37]  source file: data_huds.dm,86
+runtime error: 
+[21:14:37]Cannot read null.infectivity
+[21:14:37]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:37]  source file: life.dm,254
+runtime error: 
+[21:14:39]Cannot read null.infectivity
+[21:14:39]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:39]  source file: life.dm,254
+runtime error: 
+[21:14:41]Cannot read null.infectivity
+[21:14:41]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:41]  source file: life.dm,254
+runtime error: 
+[21:14:43]Cannot read null.infectivity
+[21:14:43]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:43]  source file: life.dm,254
+runtime error: 
+[21:14:46]Cannot read null.visibility_flags
+[21:14:46]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:14:46]  source file: data_huds.dm,86
+runtime error: 
+[21:14:46]Cannot read null.visibility_flags
+[21:14:46]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:14:46]  source file: data_huds.dm,86
+runtime error: 
+[21:14:46]Cannot read null.infectivity
+[21:14:46]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:46]  source file: life.dm,254
+runtime error: 
+[21:14:49]Cannot read null.infectivity
+[21:14:49]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:49]  source file: life.dm,254
+runtime error: 
+[21:14:51]Cannot read null.infectivity
+[21:14:51]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:51]  source file: life.dm,254
+runtime error: 
+[21:14:53]Cannot read null.infectivity
+[21:14:53]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:53]  source file: life.dm,254
+runtime error: 
+[21:14:55]Cannot read null.visibility_flags
+[21:14:55]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:14:55]  source file: data_huds.dm,86
+runtime error: 
+[21:14:55]Cannot read null.visibility_flags
+[21:14:55]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:14:55]  source file: data_huds.dm,86
+runtime error: 
+[21:14:55]Cannot read null.infectivity
+[21:14:55]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:55]  source file: life.dm,254
+runtime error: 
+[21:14:57]Cannot read null.infectivity
+[21:14:57]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:57]  source file: life.dm,254
+runtime error: 
+[21:14:59]Cannot read null.infectivity
+[21:14:59]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:14:59]  source file: life.dm,254
+runtime error: 
+[21:15:02]Cannot read null.infectivity
+[21:15:02]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:02]  source file: life.dm,254
+runtime error: 
+[21:15:04]Cannot read null.visibility_flags
+[21:15:04]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:15:04]  source file: data_huds.dm,86
+runtime error: 
+[21:15:04]Cannot read null.visibility_flags
+[21:15:04]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:15:04]  source file: data_huds.dm,86
+runtime error: 
+[21:15:04]Cannot read null.infectivity
+[21:15:04]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:04]  source file: life.dm,254
+runtime error: 
+[21:15:06]Cannot read null.infectivity
+[21:15:06]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:06]  source file: life.dm,254
+runtime error: 
+[21:15:08]Cannot read null.infectivity
+[21:15:08]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:08]  source file: life.dm,254
+runtime error: 
+[21:15:09]Cannot read null.type
+[21:15:09]proc name: IsSame (/datum/disease/proc/IsSame)
+[21:15:09]  source file: _disease.dm,132
+Saved 2 engraved messages on map Box Station
+runtime error: 
+[21:15:10]Cannot read null.infectivity
+[21:15:10]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:10]  source file: life.dm,254
+runtime error: 
+[21:15:12]Cannot read null.visibility_flags
+[21:15:12]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:15:12]  source file: data_huds.dm,86
+runtime error: 
+[21:15:12]Cannot read null.visibility_flags
+[21:15:12]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:15:12]  source file: data_huds.dm,86
+runtime error: 
+[21:15:12]Cannot read null.infectivity
+[21:15:12]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:12]  source file: life.dm,254
+runtime error: 
+[21:15:15]Cannot read null.infectivity
+[21:15:15]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:15]  source file: life.dm,254
+runtime error: 
+[21:15:17]Cannot read null.infectivity
+[21:15:17]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:17]  source file: life.dm,254
+runtime error: 
+[21:15:21]Cannot read null.infectivity
+[21:15:21]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:21]  source file: life.dm,254
+runtime error: 
+[21:15:23]Cannot read null.visibility_flags
+[21:15:23]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:15:23]  source file: data_huds.dm,86
+runtime error: 
+[21:15:23]Cannot read null.visibility_flags
+[21:15:23]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:15:23]  source file: data_huds.dm,86
+runtime error: 
+[21:15:23]Cannot read null.infectivity
+[21:15:23]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:23]  source file: life.dm,254
+runtime error: 
+[21:15:25]Cannot read null.infectivity
+[21:15:25]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:25]  source file: life.dm,254
+runtime error: 
+[21:15:28]Cannot read null.infectivity
+[21:15:28]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:28]  source file: life.dm,254
+runtime error: 
+[21:15:30]Cannot read null.infectivity
+[21:15:30]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:30]  source file: life.dm,254
+runtime error: 
+[21:15:32]Cannot read null.visibility_flags
+[21:15:32]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:15:32]  source file: data_huds.dm,86
+runtime error: 
+[21:15:32]Cannot read null.visibility_flags
+[21:15:32]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:15:32]  source file: data_huds.dm,86
+runtime error: 
+[21:15:32]Cannot read null.infectivity
+[21:15:32]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:32]  source file: life.dm,254
+runtime error: 
+[21:15:34]Cannot read null.infectivity
+[21:15:34]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:34]  source file: life.dm,254
+runtime error: 
+[21:15:36]Cannot read null.infectivity
+[21:15:36]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:36]  source file: life.dm,254
+runtime error: 
+[21:15:38]Cannot read null.infectivity
+[21:15:38]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:38]  source file: life.dm,254
+runtime error: 
+[21:15:40]Cannot read null.visibility_flags
+[21:15:40]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:15:40]  source file: data_huds.dm,86
+runtime error: 
+[21:15:40]Cannot read null.visibility_flags
+[21:15:40]proc name: check virus (/mob/living/carbon/proc/check_virus)
+[21:15:40]  source file: data_huds.dm,86
+runtime error: 
+[21:15:40]Cannot read null.infectivity
+[21:15:40]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:40]  source file: life.dm,254
+runtime error: 
+[21:15:42]Cannot read null.infectivity
+[21:15:42]proc name: handle diseases (/mob/living/carbon/handle_diseases)
+[21:15:42]  source file: life.dm,254
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 21:16:08

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block title %}Bans{% endblock %}
+{% block active %}bans{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="/static/css/bans.css">
+<meta property="og:title" content="BeeStation - Bans" />
+<meta property="og:description" content="BeeStation is a newbie friendly Space Station 13 server. The server was created in march 2018. We like to put a fun touch to the rounds to make a better experience." />
+{% endblock %}
+
+{% block content %}
+{% for ban in bans %}
+<div class="ban">
+  <div class="ban-header">{{ ban["user"] }}<span class="ban-banner">Banner: {{ ban["banner"] }}</span></div>
+  <div class="ban-reason"><b>Reason:</b> {{ ban["reason"] }}</div>
+  <div class="ban-reason"><b>Type:</b> {{ ban["type"] }}</div>
+  {% if ban["job"] != None %}
+  <div class="ban-reason"><b>Job:</b> {{ ban["job"] }}</div>
+  {% endif %}
+  <div class="ban-reason"><b>Time:</b> {{ ban["time"] }}</div>
+  <div class="ban-reason"><b>Date:</b> {{ ban["date"] }}</div>
+</div>
+{% endfor %}
+{% if buttons[0] %}<a href="/bans/{{page-1}}" class="button" style="float:left">&lt;</a>{% endif %}{% if buttons[1] %}<a href="/bans/{{page+1}}" class="button" style="float:right">&gt;</a>{% endif %}
+<br>
+<div style="text-align: center;">page {{page}} of {{pages}}</div>
+{% endblock %}

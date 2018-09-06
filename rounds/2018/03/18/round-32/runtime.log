@@ -1,0 +1,349 @@
+
+
+Starting up round ID 32. 00:08:35
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0.1 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 5s!
+Loaded Lavaland in 4.5s!
+Loaded Reebe in 4s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 19.3 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[00:09:26]Cannot execute null.copy from().
+[00:09:26]proc name: Assimilate Air (/turf/open/proc/Assimilate_Air)
+[00:09:26]  source file: ChangeTurf.dm,263
+[00:09:26]  usr: null
+[00:09:26]  src: the asteroid sand (156,143,7) (/turf/open/floor/plating/asteroid/airless/cave)
+[00:09:26]  call stack:
+[00:09:26]the asteroid sand (156,143,7) (/turf/open/floor/plating/asteroid/airless/cave): Assimilate Air()
+[00:09:26]the asteroid sand (156,143,7) (/turf/open/floor/plating/asteroid/airless/cave): AfterChange(0)
+[00:09:26]the asteroid sand (156,143,7) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[00:09:26]the asteroid sand (156,143,7) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[00:09:26]the asteroid sand (156,143,7) (/turf/open/floor/plating/asteroid/airless/cave): Initialize(1)
+[00:09:26]Atoms (/datum/controller/subsystem/atoms): InitAtom(the asteroid sand (156,143,7) (/turf/open/floor/plating/asteroid/airless/cave), /list (/list))
+[00:09:26]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[00:09:26]Atoms (/datum/controller/subsystem/atoms): Initialize(149364)
+[00:09:26]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 34.2 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Weather subsystem within 0 seconds!
+runtime error: 
+[00:09:40]Cannot execute null.compare().
+[00:09:40]proc name: Initalize Atmos (/turf/open/Initalize_Atmos)
+[00:09:40]  source file: open.dm,137
+[00:09:40]  usr: null
+[00:09:40]  src: the asteroid sand (156,143,7) (/turf/open/floor/plating/asteroid/airless/cave)
+[00:09:40]  call stack:
+[00:09:40]the asteroid sand (156,143,7) (/turf/open/floor/plating/asteroid/airless/cave): Initalize Atmos(1)
+[00:09:40]Atmospherics (/datum/controller/subsystem/air): setup allturfs()
+[00:09:40]Atmospherics (/datum/controller/subsystem/air): Initialize(149710)
+[00:09:40]Master (/datum/controller/master): Initialize(10, 0)
+## WARNING: There are 38 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 38 turf(s) (connected to 19108 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 12.4 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 5.2 seconds!
+Initialized Overlay subsystem within 18.6 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Lighting subsystem within 11.5 seconds!
+Initialized Shuttle subsystem within 21.8 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Loaded 0 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 124.4 seconds!
+Game start took 3.9s
+runtime error: 
+[00:44:42]Cannot create objects of type null.
+[00:44:42]proc name: add event (/datum/component/mood/proc/add_event)
+[00:44:42]  source file: mood.dm,91
+[00:44:42]  usr: Unknown (/mob/living/carbon/human)
+[00:44:42]  src: /datum/component/mood (/datum/component/mood)
+[00:44:42]  usr.loc: the floor (134,109,2) (/turf/open/floor/plasteel/white)
+[00:44:42]  call stack:
+[00:44:42]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[00:44:42]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[00:44:42]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[00:44:42]sever limb (/datum/surgery_step/sever_limb): success(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "r_arm", the scalpel (/obj/item/scalpel), amputation (/datum/surgery/amputation))
+[00:44:42]sever limb (/datum/surgery_step/sever_limb): initiate(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "r_arm", the scalpel (/obj/item/scalpel), amputation (/datum/surgery/amputation), 0)
+[00:44:42]sever limb (/datum/surgery_step/sever_limb): try op(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "r_arm", the scalpel (/obj/item/scalpel), amputation (/datum/surgery/amputation), 0)
+[00:44:42]amputation (/datum/surgery/amputation): next step(Unknown (/mob/living/carbon/human), null)
+[00:44:42]Felix Marshal (/mob/living/carbon/human): attackby(the scalpel (/obj/item/scalpel), Unknown (/mob/living/carbon/human), "icon-x=16;icon-y=18;left=1;scr...")
+[00:44:42]the scalpel (/obj/item/scalpel): melee attack chain(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "icon-x=16;icon-y=18;left=1;scr...")
+[00:44:42]Unknown (/mob/living/carbon/human): ClickOn(Felix Marshal (/mob/living/carbon/human), "icon-x=16;icon-y=18;left=1;scr...")
+[00:44:42]Felix Marshal (/mob/living/carbon/human): Click(the floor (134,108,2) (/turf/open/floor/plasteel/white), "mapwindow.map", "icon-x=16;icon-y=18;left=1;scr...")
+runtime error: 
+[00:45:50]Cannot create objects of type null.
+[00:45:50]proc name: add event (/datum/component/mood/proc/add_event)
+[00:45:50]  source file: mood.dm,91
+[00:45:50]  usr: Unknown (/mob/living/carbon/human)
+[00:45:50]  src: /datum/component/mood (/datum/component/mood)
+[00:45:50]  usr.loc: the floor (134,109,2) (/turf/open/floor/plasteel/white)
+[00:45:50]  call stack:
+[00:45:50]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[00:45:50]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[00:45:50]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[00:45:50]sever limb (/datum/surgery_step/sever_limb): success(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "l_arm", the scalpel (/obj/item/scalpel), amputation (/datum/surgery/amputation))
+[00:45:50]sever limb (/datum/surgery_step/sever_limb): initiate(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "l_arm", the scalpel (/obj/item/scalpel), amputation (/datum/surgery/amputation), 0)
+[00:45:50]sever limb (/datum/surgery_step/sever_limb): try op(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "l_arm", the scalpel (/obj/item/scalpel), amputation (/datum/surgery/amputation), 0)
+[00:45:50]amputation (/datum/surgery/amputation): next step(Unknown (/mob/living/carbon/human), null)
+[00:45:50]Felix Marshal (/mob/living/carbon/human): attackby(the scalpel (/obj/item/scalpel), Unknown (/mob/living/carbon/human), "icon-x=16;icon-y=14;left=1;scr...")
+[00:45:50]the scalpel (/obj/item/scalpel): melee attack chain(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "icon-x=16;icon-y=14;left=1;scr...")
+[00:45:50]Unknown (/mob/living/carbon/human): ClickOn(Felix Marshal (/mob/living/carbon/human), "icon-x=16;icon-y=14;left=1;scr...")
+[00:45:50]Felix Marshal (/mob/living/carbon/human): Click(the floor (134,108,2) (/turf/open/floor/plasteel/white), "mapwindow.map", "icon-x=16;icon-y=14;left=1;scr...")
+runtime error: 
+[00:46:37]Cannot create objects of type null.
+[00:46:37]proc name: add event (/datum/component/mood/proc/add_event)
+[00:46:37]  source file: mood.dm,91
+[00:46:37]  usr: Unknown (/mob/living/carbon/human)
+[00:46:37]  src: /datum/component/mood (/datum/component/mood)
+[00:46:37]  usr.loc: the floor (134,109,2) (/turf/open/floor/plasteel/white)
+[00:46:37]  call stack:
+[00:46:37]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[00:46:37]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[00:46:37]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[00:46:37]sever limb (/datum/surgery_step/sever_limb): success(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "r_leg", the circular saw (/obj/item/circular_saw), amputation (/datum/surgery/amputation))
+[00:46:37]sever limb (/datum/surgery_step/sever_limb): initiate(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "r_leg", the circular saw (/obj/item/circular_saw), amputation (/datum/surgery/amputation), 0)
+[00:46:37]sever limb (/datum/surgery_step/sever_limb): try op(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "r_leg", the circular saw (/obj/item/circular_saw), amputation (/datum/surgery/amputation), 0)
+[00:46:37]amputation (/datum/surgery/amputation): next step(Unknown (/mob/living/carbon/human), null)
+[00:46:37]Felix Marshal (/mob/living/carbon/human): attackby(the circular saw (/obj/item/circular_saw), Unknown (/mob/living/carbon/human), "icon-x=14;icon-y=16;left=1;scr...")
+[00:46:37]the circular saw (/obj/item/circular_saw): melee attack chain(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "icon-x=14;icon-y=16;left=1;scr...")
+[00:46:37]Unknown (/mob/living/carbon/human): ClickOn(Felix Marshal (/mob/living/carbon/human), "icon-x=14;icon-y=16;left=1;scr...")
+[00:46:37]Felix Marshal (/mob/living/carbon/human): Click(the floor (134,108,2) (/turf/open/floor/plasteel/white), "mapwindow.map", "icon-x=14;icon-y=16;left=1;scr...")
+runtime error: 
+[00:47:28]Cannot create objects of type null.
+[00:47:28]proc name: add event (/datum/component/mood/proc/add_event)
+[00:47:28]  source file: mood.dm,91
+[00:47:28]  usr: Unknown (/mob/living/carbon/human)
+[00:47:28]  src: /datum/component/mood (/datum/component/mood)
+[00:47:28]  usr.loc: the floor (134,109,2) (/turf/open/floor/plasteel/white)
+[00:47:28]  call stack:
+[00:47:28]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[00:47:28]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[00:47:28]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[00:47:28]sever limb (/datum/surgery_step/sever_limb): success(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "l_leg", the circular saw (/obj/item/circular_saw), amputation (/datum/surgery/amputation))
+[00:47:28]sever limb (/datum/surgery_step/sever_limb): initiate(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "l_leg", the circular saw (/obj/item/circular_saw), amputation (/datum/surgery/amputation), 0)
+[00:47:28]sever limb (/datum/surgery_step/sever_limb): try op(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "l_leg", the circular saw (/obj/item/circular_saw), amputation (/datum/surgery/amputation), 0)
+[00:47:28]amputation (/datum/surgery/amputation): next step(Unknown (/mob/living/carbon/human), null)
+[00:47:28]Felix Marshal (/mob/living/carbon/human): attackby(the circular saw (/obj/item/circular_saw), Unknown (/mob/living/carbon/human), "icon-x=13;icon-y=16;left=1;scr...")
+[00:47:28]the circular saw (/obj/item/circular_saw): melee attack chain(Unknown (/mob/living/carbon/human), Felix Marshal (/mob/living/carbon/human), "icon-x=13;icon-y=16;left=1;scr...")
+[00:47:28]Unknown (/mob/living/carbon/human): ClickOn(Felix Marshal (/mob/living/carbon/human), "icon-x=13;icon-y=16;left=1;scr...")
+[00:47:28]Felix Marshal (/mob/living/carbon/human): Click(the floor (134,108,2) (/turf/open/floor/plasteel/white), "mapwindow.map", "icon-x=13;icon-y=16;left=1;scr...")
+runtime error: 
+[01:27:48]Cannot read null.parents
+[01:27:48]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[01:27:48]  source file: components_base.dm,91
+[01:27:48]  usr: the orange adult slime (852) (/mob/living/simple_animal/slime)
+[01:27:48]  src: the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[01:27:48]  usr.loc: the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[01:27:48]  src.loc: the floor (46,158,2) (/turf/open/floor/plasteel/yellow/side)
+[01:27:48]  call stack:
+[01:27:48]the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on): returnPipenet(the air supply pipe (/obj/machinery/atmospherics/pipe/simple/supply/hidden))
+[01:27:48]the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on): returnPipenets()
+[01:27:48]the orange adult slime (852) (/mob/living/simple_animal/slime): add ventcrawl(the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on))
+[01:27:48]the orange adult slime (852) (/mob/living/simple_animal/slime): update pipe vision(null)
+[01:27:48]the orange adult slime (852) (/mob/living/simple_animal/slime): reset perspective(null)
+[01:27:48]the orange adult slime (852) (/mob/living/simple_animal/slime): forceMove(the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on))
+[01:27:48]the orange adult slime (852) (/mob/living/simple_animal/slime): handle ventcrawl(the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on))
+[01:27:48]the orange adult slime (852) (/mob/living/simple_animal/slime): handle ventcrawl(the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on))
+[01:27:48]the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on): AltClick(the orange adult slime (852) (/mob/living/simple_animal/slime))
+[01:27:48]the orange adult slime (852) (/mob/living/simple_animal/slime): AltClickOn(the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on))
+[01:27:48]the orange adult slime (852) (/mob/living/simple_animal/slime): ClickOn(the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on), "icon-x=24;icon-y=16;left=1;alt...")
+[01:27:48]the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on): Click(the floor (46,158,2) (/turf/open/floor/plasteel/yellow/side), "mapwindow.map", "icon-x=24;icon-y=16;left=1;alt...")
+runtime error: 
+[01:27:49]Cannot read null.parents
+[01:27:49]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[01:27:49]  source file: components_base.dm,91
+[01:27:49]  usr: null
+[01:27:49]  src: the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[01:27:49]  src.loc: the floor (46,158,2) (/turf/open/floor/plasteel/yellow/side)
+[01:27:49]  call stack:
+[01:27:49]the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on): returnPipenet(the air supply pipe (/obj/machinery/atmospherics/pipe/simple/supply/hidden))
+[01:27:49]the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on): returnPipenets()
+[01:27:49]the Auxiliary Base Constructio... (/obj/machinery/atmospherics/components/unary/vent_pump/on): relaymove(the orange adult slime (852) (/mob/living/simple_animal/slime), 2)
+[01:27:49]GhostyToasty (/client): Move(the floor (46,157,2) (/turf/open/floor/plasteel/yellow/side), 2)
+[01:27:49]the orange adult slime (852) (/mob/living/simple_animal/slime): keyLoop(GhostyToasty (/client))
+[01:27:49]GhostyToasty (/client): keyLoop()
+[01:27:49]Input (/datum/controller/subsystem/input): fire(0)
+[01:27:49]Input (/datum/controller/subsystem/input): ignite(0)
+[01:27:49]Master (/datum/controller/master): RunQueue()
+[01:27:49]Master (/datum/controller/master): Loop()
+[01:27:49]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[01:29:29]Cannot read null.parents
+[01:29:29]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[01:29:29]  source file: components_base.dm,91
+[01:29:29]  usr: the orange adult slime (852) (/mob/living/simple_animal/slime)
+[01:29:29]  src: the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[01:29:29]  usr.loc: the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[01:29:29]  src.loc: the floor (54,138,2) (/turf/open/floor/plasteel/neutral/side)
+[01:29:29]  call stack:
+[01:29:29]the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on): returnPipenet(the air supply pipe (/obj/machinery/atmospherics/pipe/manifold/supply/hidden))
+[01:29:29]the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on): returnPipenets()
+[01:29:29]the orange adult slime (852) (/mob/living/simple_animal/slime): add ventcrawl(the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on))
+[01:29:29]the orange adult slime (852) (/mob/living/simple_animal/slime): update pipe vision(null)
+[01:29:29]the orange adult slime (852) (/mob/living/simple_animal/slime): reset perspective(null)
+[01:29:29]the orange adult slime (852) (/mob/living/simple_animal/slime): forceMove(the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on))
+[01:29:29]the orange adult slime (852) (/mob/living/simple_animal/slime): handle ventcrawl(the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on))
+[01:29:29]the orange adult slime (852) (/mob/living/simple_animal/slime): handle ventcrawl(the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on))
+[01:29:29]the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on): AltClick(the orange adult slime (852) (/mob/living/simple_animal/slime))
+[01:29:29]the orange adult slime (852) (/mob/living/simple_animal/slime): AltClickOn(the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on))
+[01:29:29]the orange adult slime (852) (/mob/living/simple_animal/slime): ClickOn(the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on), "icon-x=15;icon-y=22;left=1;alt...")
+[01:29:29]the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on): Click(the floor (54,138,2) (/turf/open/floor/plasteel/neutral/side), "mapwindow.map", "icon-x=15;icon-y=22;left=1;alt...")
+runtime error: 
+[01:29:31]Cannot read null.parents
+[01:29:31]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[01:29:31]  source file: components_base.dm,91
+[01:29:31]  usr: null
+[01:29:31]  src: the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on)
+[01:29:31]  src.loc: the floor (54,138,2) (/turf/open/floor/plasteel/neutral/side)
+[01:29:31]  call stack:
+[01:29:31]the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on): returnPipenet(the air supply pipe (/obj/machinery/atmospherics/pipe/manifold/supply/hidden))
+[01:29:31]the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on): returnPipenets()
+[01:29:31]the Arrival Shuttle Hallway ve... (/obj/machinery/atmospherics/components/unary/vent_pump/on): relaymove(the orange adult slime (852) (/mob/living/simple_animal/slime), 8)
+[01:29:31]GhostyToasty (/client): Move(the floor (53,138,2) (/turf/open/floor/plasteel/neutral/side), 8)
+[01:29:31]the orange adult slime (852) (/mob/living/simple_animal/slime): keyLoop(GhostyToasty (/client))
+[01:29:31]GhostyToasty (/client): keyLoop()
+[01:29:31]Input (/datum/controller/subsystem/input): fire(0)
+[01:29:31]Input (/datum/controller/subsystem/input): ignite(0)
+[01:29:31]Master (/datum/controller/master): RunQueue()
+[01:29:31]Master (/datum/controller/master): Loop()
+[01:29:31]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[01:30:53]Cannot read null.parents
+[01:30:53]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[01:30:53]  source file: components_base.dm,91
+[01:30:53]  usr: the orange adult slime (852) (/mob/living/simple_animal/slime)
+[01:30:53]  src: the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on)
+[01:30:53]  usr.loc: the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on)
+[01:30:53]  src.loc: the floor (143,124,2) (/turf/open/floor/plasteel/whiteblue/side)
+[01:30:53]  call stack:
+[01:30:53]the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on): returnPipenet(the scrubbers pipe (/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden))
+[01:30:53]the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on): returnPipenets()
+[01:30:53]the orange adult slime (852) (/mob/living/simple_animal/slime): add ventcrawl(the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on))
+[01:30:53]the orange adult slime (852) (/mob/living/simple_animal/slime): update pipe vision(null)
+[01:30:53]the orange adult slime (852) (/mob/living/simple_animal/slime): reset perspective(null)
+[01:30:53]the orange adult slime (852) (/mob/living/simple_animal/slime): forceMove(the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on))
+[01:30:53]the orange adult slime (852) (/mob/living/simple_animal/slime): handle ventcrawl(the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on))
+[01:30:53]the orange adult slime (852) (/mob/living/simple_animal/slime): handle ventcrawl(the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on))
+[01:30:53]the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on): AltClick(the orange adult slime (852) (/mob/living/simple_animal/slime))
+[01:30:53]the orange adult slime (852) (/mob/living/simple_animal/slime): AltClickOn(the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on))
+[01:30:53]the orange adult slime (852) (/mob/living/simple_animal/slime): ClickOn(the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on), "icon-x=16;icon-y=24;left=1;alt...")
+[01:30:53]the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on): Click(the floor (143,124,2) (/turf/open/floor/plasteel/whiteblue/side), "mapwindow.map", "icon-x=16;icon-y=24;left=1;alt...")
+runtime error: 
+[01:31:48]Cannot read null.parents
+[01:31:48]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[01:31:48]  source file: components_base.dm,91
+[01:31:48]  usr: null
+[01:31:48]  src: the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on)
+[01:31:48]  src.loc: the floor (143,124,2) (/turf/open/floor/plasteel/whiteblue/side)
+[01:31:48]  call stack:
+[01:31:48]the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on): returnPipenet(the scrubbers pipe (/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden))
+[01:31:48]the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on): returnPipenets()
+[01:31:48]the Medbay Central air scrubbe... (/obj/machinery/atmospherics/components/unary/vent_scrubber/on): relaymove(the orange adult slime (852) (/mob/living/simple_animal/slime), 8)
+[01:31:48]GhostyToasty (/client): Move(the floor (142,123,2) (/turf/open/floor/plasteel/white), 10)
+[01:31:48]the orange adult slime (852) (/mob/living/simple_animal/slime): keyLoop(GhostyToasty (/client))
+[01:31:48]GhostyToasty (/client): keyLoop()
+[01:31:48]Input (/datum/controller/subsystem/input): fire(0)
+[01:31:48]Input (/datum/controller/subsystem/input): ignite(0)
+[01:31:48]Master (/datum/controller/master): RunQueue()
+[01:31:48]Master (/datum/controller/master): Loop()
+[01:31:48]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[01:45:43]Cannot create objects of type null.
+[01:45:43]proc name: add event (/datum/component/mood/proc/add_event)
+[01:45:43]  source file: mood.dm,91
+[01:45:43]  usr: Unknown (/mob/living/carbon/human)
+[01:45:43]  src: /datum/component/mood (/datum/component/mood)
+[01:45:43]  usr.loc: the floor (167,119,2) (/turf/open/floor/plasteel/dark)
+[01:45:43]  call stack:
+[01:45:43]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[01:45:43]Felix Marshal\'s head (/obj/item/bodypart/head): drop limb(null)
+[01:45:43]Felix Marshal\'s head (/obj/item/bodypart/head): drop limb(null)
+[01:45:43]sever limb (/datum/surgery_step/sever_limb): success(Unknown (/mob/living/carbon/human), Unknown (/mob/living/carbon/human), "head", the circular saw (/obj/item/circular_saw), amputation (/datum/surgery/amputation))
+[01:45:43]sever limb (/datum/surgery_step/sever_limb): initiate(Unknown (/mob/living/carbon/human), Unknown (/mob/living/carbon/human), "head", the circular saw (/obj/item/circular_saw), amputation (/datum/surgery/amputation), 0)
+[01:45:43]sever limb (/datum/surgery_step/sever_limb): try op(Unknown (/mob/living/carbon/human), Unknown (/mob/living/carbon/human), "head", the circular saw (/obj/item/circular_saw), amputation (/datum/surgery/amputation), 0)
+[01:45:43]amputation (/datum/surgery/amputation): next step(Unknown (/mob/living/carbon/human), null)
+[01:45:43]Unknown (/mob/living/carbon/human): attackby(the circular saw (/obj/item/circular_saw), Unknown (/mob/living/carbon/human), "icon-x=13;icon-y=15;left=1;scr...")
+[01:45:43]the circular saw (/obj/item/circular_saw): melee attack chain(Unknown (/mob/living/carbon/human), Unknown (/mob/living/carbon/human), "icon-x=13;icon-y=15;left=1;scr...")
+[01:45:43]Unknown (/mob/living/carbon/human): ClickOn(Unknown (/mob/living/carbon/human), "icon-x=13;icon-y=15;left=1;scr...")
+[01:45:43]Unknown (/mob/living/carbon/human): Click(the floor (167,118,2) (/turf/open/floor/plasteel/dark), "mapwindow.map", "icon-x=13;icon-y=15;left=1;scr...")
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 01:50:51

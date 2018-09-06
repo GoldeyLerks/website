@@ -1,0 +1,481 @@
+[2018-07-06 00:49:43.599] Starting up round ID 1433.
+[2018-07-06 00:49:43.599] -------------------------
+[2018-07-06 00:49:48.917] Initialized Database subsystem within 0 seconds!
+[2018-07-06 00:49:48.917] Initialized Blackbox subsystem within 0 seconds!
+[2018-07-06 00:49:48.918] Initialized Server Tasks subsystem within 0 seconds!
+[2018-07-06 00:49:48.919] Initialized Input subsystem within 0 seconds!
+[2018-07-06 00:49:48.957] Initialized Research subsystem within 0 seconds!
+[2018-07-06 00:49:48.961] Initialized Events subsystem within 0 seconds!
+[2018-07-06 00:49:48.966] Initialized Jobs subsystem within 0 seconds!
+[2018-07-06 00:49:48.967] Initialized Quirks subsystem within 0 seconds!
+[2018-07-06 00:49:48.973] Initialized Ticker subsystem within 0 seconds!
+[2018-07-06 00:49:48.974] Loading Box Station...
+[2018-07-06 00:49:54.480] Loaded Station in 5.5s!
+[2018-07-06 00:50:00.874] Loaded Lavaland in 5.7s!
+[2018-07-06 00:50:18.337] Ruin loader finished with 0 left to spend.
+[2018-07-06 00:50:20.573] Ruin loader finished with 0 left to spend.
+[2018-07-06 00:50:30.721] Initialized Mapping subsystem within 41.8 seconds!
+[2018-07-06 00:50:30.723] Initialized Networks subsystem within 0 seconds!
+[2018-07-06 00:51:19.393] Initialized Atoms subsystem within 48.6 seconds!
+[2018-07-06 00:51:19.415] Initialized Language subsystem within 0.1 seconds!
+[2018-07-06 00:51:19.791] Initialized Machines subsystem within 0.3 seconds!
+[2018-07-06 00:51:19.843] Initialized Circuit subsystem within 0.1 seconds!
+[2018-07-06 00:51:19.845] Initialized Disease subsystem within 0 seconds!
+[2018-07-06 00:51:19.845] Initialized Medals subsystem within 0 seconds!
+[2018-07-06 00:51:19.846] Initialized Night Shift subsystem within 0 seconds!
+[2018-07-06 00:51:19.846] Initialized Parallax subsystem within 0 seconds!
+[2018-07-06 00:51:19.973] Initialized Traumas subsystem within 0.1 seconds!
+[2018-07-06 00:51:19.974] Initialized Weather subsystem within 0 seconds!
+[2018-07-06 00:52:42.584] Initialized Atmospherics subsystem within 82.6 seconds!
+[2018-07-06 00:52:42.601] Initialized Minimap subsystem within 0.1 seconds!
+[2018-07-06 00:52:44.547] Initialized Assets subsystem within 1.9 seconds!
+[2018-07-06 00:52:52.264] Initialized Icon Smoothing subsystem within 7.7 seconds!
+[2018-07-06 00:52:53.964] Initialized Overlay subsystem within 1.7 seconds!
+[2018-07-06 00:52:53.965] Initialized XKeyScore subsystem within 0 seconds!
+[2018-07-06 00:52:53.971] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-07-06 00:53:09.378] Initialized Lighting subsystem within 15.4 seconds!
+[2018-07-06 00:53:12.413] Initialized Shuttle subsystem within 3.1 seconds!
+[2018-07-06 00:53:12.449] Initialized Squeak subsystem within 0 seconds!
+[2018-07-06 00:53:12.451] Initialized Pathfinder subsystem within 0 seconds!
+[2018-07-06 00:53:12.498] Loaded 6 engraved messages on map Box Station
+[2018-07-06 00:53:12.524] Initialized Persistence subsystem within 0.1 seconds!
+[2018-07-06 00:53:12.524] Initializations complete within 203.6 seconds!
+[2018-07-06 00:54:23.821] Game start took 4.9s
+[2018-07-06 00:59:20.512] runtime error: list index out of bounds
+[2018-07-06 00:59:20.512] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-06 00:59:20.512]   source file: customizables.dm,122
+[2018-07-06 00:59:20.512]   usr: Noenio (/mob/living/carbon/human)
+[2018-07-06 00:59:20.512]   src: the burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-06 00:59:20.512]   usr.loc: the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-06 00:59:20.512]   src.loc: the floor (152,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-06 00:59:20.512]   call stack:
+[2018-07-06 00:59:20.512] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain))
+[2018-07-06 00:59:20.512] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Noenio (/mob/living/carbon/human), null)
+[2018-07-06 00:59:20.512] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): initialize custom food(the bun (/obj/item/reagent_containers/food/snacks/bun), the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Noenio (/mob/living/carbon/human))
+[2018-07-06 00:59:20.512] the bun (/obj/item/reagent_containers/food/snacks/bun): attackby(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Noenio (/mob/living/carbon/human), "icon-x=13;icon-y=18;left=1;scr...")
+[2018-07-06 00:59:20.512] the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain): melee attack chain(Noenio (/mob/living/carbon/human), the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=13;icon-y=18;left=1;scr...")
+[2018-07-06 00:59:20.512] Noenio (/mob/living/carbon/human): ClickOn(the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=13;icon-y=18;left=1;scr...")
+[2018-07-06 00:59:20.512] the bun (/obj/item/reagent_containers/food/snacks/bun): Click(the floor (152,137,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=13;icon-y=18;left=1;scr...")
+[2018-07-06 00:59:20.512] Supe22 (/client): Click(the bun (/obj/item/reagent_containers/food/snacks/bun), the floor (152,137,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=13;icon-y=18;left=1;scr...")
+[2018-07-06 00:59:20.512] 
+[2018-07-06 00:59:32.072] runtime error: list index out of bounds
+[2018-07-06 00:59:32.072] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-06 00:59:32.072]   source file: customizables.dm,122
+[2018-07-06 00:59:32.072]   usr: Noenio (/mob/living/carbon/human)
+[2018-07-06 00:59:32.072]   src: the monkey meat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-06 00:59:32.072]   usr.loc: the floor (153,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-06 00:59:32.072]   src.loc: Noenio (/mob/living/carbon/human)
+[2018-07-06 00:59:32.072]   call stack:
+[2018-07-06 00:59:32.072] the monkey meat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the bun (/obj/item/reagent_containers/food/snacks/bun))
+[2018-07-06 00:59:32.072] the monkey meat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the bun (/obj/item/reagent_containers/food/snacks/bun), Noenio (/mob/living/carbon/human), "icon-x=13;icon-y=12;left=1;scr...")
+[2018-07-06 00:59:32.072] the bun (/obj/item/reagent_containers/food/snacks/bun): melee attack chain(Noenio (/mob/living/carbon/human), the monkey meat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=13;icon-y=12;left=1;scr...")
+[2018-07-06 00:59:32.072] Noenio (/mob/living/carbon/human): ClickOn(the monkey meat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=13;icon-y=12;left=1;scr...")
+[2018-07-06 00:59:32.072] the monkey meat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger): Click(null, "mapwindow.map", "icon-x=13;icon-y=12;left=1;scr...")
+[2018-07-06 00:59:32.072] Supe22 (/client): Click(the monkey meat steak burger (/obj/item/reagent_containers/food/snacks/customizable/burger), null, "mapwindow.map", "icon-x=13;icon-y=12;left=1;scr...")
+[2018-07-06 00:59:32.072] 
+[2018-07-06 00:59:50.127] runtime error: list index out of bounds
+[2018-07-06 00:59:50.127] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-06 00:59:50.127]   source file: customizables.dm,122
+[2018-07-06 00:59:50.127]   usr: Noenio (/mob/living/carbon/human)
+[2018-07-06 00:59:50.127]   src: the burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-06 00:59:50.127]   usr.loc: the floor (149,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-06 00:59:50.127]   src.loc: the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-06 00:59:50.127]   call stack:
+[2018-07-06 00:59:50.127] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain))
+[2018-07-06 00:59:50.128] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Noenio (/mob/living/carbon/human), null)
+[2018-07-06 00:59:50.128] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): initialize custom food(the bun (/obj/item/reagent_containers/food/snacks/bun), the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Noenio (/mob/living/carbon/human))
+[2018-07-06 00:59:50.128] the bun (/obj/item/reagent_containers/food/snacks/bun): attackby(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Noenio (/mob/living/carbon/human), "icon-x=11;icon-y=13;left=1;scr...")
+[2018-07-06 00:59:50.128] the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain): melee attack chain(Noenio (/mob/living/carbon/human), the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=11;icon-y=13;left=1;scr...")
+[2018-07-06 00:59:50.128] Noenio (/mob/living/carbon/human): ClickOn(the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=11;icon-y=13;left=1;scr...")
+[2018-07-06 00:59:50.128] the bun (/obj/item/reagent_containers/food/snacks/bun): Click(the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=11;icon-y=13;left=1;scr...")
+[2018-07-06 00:59:50.128] Supe22 (/client): Click(the bun (/obj/item/reagent_containers/food/snacks/bun), the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=11;icon-y=13;left=1;scr...")
+[2018-07-06 00:59:50.128] 
+[2018-07-06 00:59:54.538] runtime error: list index out of bounds
+[2018-07-06 00:59:54.538] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-06 00:59:54.538]   source file: customizables.dm,122
+[2018-07-06 00:59:54.538]   usr: Noenio (/mob/living/carbon/human)
+[2018-07-06 00:59:54.538]   src: the burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-06 00:59:54.538]   usr.loc: the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-06 00:59:54.538]   src.loc: the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-06 00:59:54.538]   call stack:
+[2018-07-06 00:59:54.538] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain))
+[2018-07-06 00:59:54.538] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Noenio (/mob/living/carbon/human), null)
+[2018-07-06 00:59:54.538] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): initialize custom food(the bun (/obj/item/reagent_containers/food/snacks/bun), the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Noenio (/mob/living/carbon/human))
+[2018-07-06 00:59:54.538] the bun (/obj/item/reagent_containers/food/snacks/bun): attackby(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Noenio (/mob/living/carbon/human), "icon-x=18;icon-y=15;left=1;scr...")
+[2018-07-06 00:59:54.538] the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain): melee attack chain(Noenio (/mob/living/carbon/human), the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=18;icon-y=15;left=1;scr...")
+[2018-07-06 00:59:54.538] Noenio (/mob/living/carbon/human): ClickOn(the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=18;icon-y=15;left=1;scr...")
+[2018-07-06 00:59:54.538] the bun (/obj/item/reagent_containers/food/snacks/bun): Click(the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=18;icon-y=15;left=1;scr...")
+[2018-07-06 00:59:54.538] Supe22 (/client): Click(the bun (/obj/item/reagent_containers/food/snacks/bun), the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=18;icon-y=15;left=1;scr...")
+[2018-07-06 00:59:54.538] 
+[2018-07-06 01:00:00.756] runtime error: list index out of bounds
+[2018-07-06 01:00:00.756] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-06 01:00:00.756]   source file: customizables.dm,122
+[2018-07-06 01:00:00.756]   usr: Noenio (/mob/living/carbon/human)
+[2018-07-06 01:00:00.756]   src: the burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-06 01:00:00.756]   usr.loc: the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-06 01:00:00.756]   src.loc: the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-06 01:00:00.756]   call stack:
+[2018-07-06 01:00:00.756] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain))
+[2018-07-06 01:00:00.756] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Noenio (/mob/living/carbon/human), null)
+[2018-07-06 01:00:00.756] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): initialize custom food(the bun (/obj/item/reagent_containers/food/snacks/bun), the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Noenio (/mob/living/carbon/human))
+[2018-07-06 01:00:00.756] the bun (/obj/item/reagent_containers/food/snacks/bun): attackby(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Noenio (/mob/living/carbon/human), "icon-x=10;icon-y=14;left=1;scr...")
+[2018-07-06 01:00:00.756] the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain): melee attack chain(Noenio (/mob/living/carbon/human), the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=10;icon-y=14;left=1;scr...")
+[2018-07-06 01:00:00.756] Noenio (/mob/living/carbon/human): ClickOn(the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=10;icon-y=14;left=1;scr...")
+[2018-07-06 01:00:00.756] the bun (/obj/item/reagent_containers/food/snacks/bun): Click(the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=10;icon-y=14;left=1;scr...")
+[2018-07-06 01:00:00.756] Supe22 (/client): Click(the bun (/obj/item/reagent_containers/food/snacks/bun), the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=10;icon-y=14;left=1;scr...")
+[2018-07-06 01:00:00.756] 
+[2018-07-06 01:02:49.178] runtime error: list index out of bounds
+[2018-07-06 01:02:49.178] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-06 01:02:49.178]   source file: customizables.dm,122
+[2018-07-06 01:02:49.178] 
+[2018-07-06 01:02:50.385] runtime error: list index out of bounds
+[2018-07-06 01:02:50.385] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-06 01:02:50.385]   source file: customizables.dm,122
+[2018-07-06 01:02:50.385] 
+[2018-07-06 01:04:00.572] UAH: src=%5B0x21000b49%5D%3Badmin_token%3D0988287052871065745101081254106510649&admin_token=0988287052871065745101081254106510649&filter=human&offset=x%2Cy%2Cz&offset_type=relative&object_count=1&object_dir=&object_name=&object_where=onfloor&object_list=%2Fmob%2Fliving%2Fcarbon%2Fhuman%2Fspecies%2Flizard
+[2018-07-06 01:04:43.376] UAH: src=%5B0x21000b49%5D%3Badmin_token%3D0988287052871065745101081254106510649&admin_token=0988287052871065745101081254106510649&filter=human&offset=x%2Cy%2Cz&offset_type=relative&object_count=1&object_dir=&object_name=&object_where=onfloor&object_list=%2Fmob%2Fliving%2Fcarbon%2Fhuman%2Fspecies%2Flizard
+[2018-07-06 01:05:35.224] runtime error: list index out of bounds
+[2018-07-06 01:05:35.224] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-06 01:05:35.224]   source file: customizables.dm,122
+[2018-07-06 01:05:35.224] 
+[2018-07-06 01:24:21.912] runtime error: Cannot modify null.parallax_animate_timer.
+[2018-07-06 01:24:21.912] proc name: update parallax motionblur (/datum/hud/proc/update_parallax_motionblur)
+[2018-07-06 01:24:21.912]   source file: parallax.dm,149
+[2018-07-06 01:24:21.912] 
+[2018-07-06 01:36:03.405] ### VarEdit by Disguiser/(Gwenevere Magor): /obj/item/card/id/centcom name=�CentCom ID => Private Security Officer
+[2018-07-06 01:36:36.730] ### VarEdit by Disguiser/(Gwenevere Magor): /obj/item/card/id/centcom registered_name=Central Command => Private Security Officer
+[2018-07-06 01:36:36.730] 
+[2018-07-06 01:38:56.652] ### VarEdit by GreenTea98/(Helps-The-Station): /obj/machinery/power/smes charge=286417 => 686417
+[2018-07-06 01:47:39.669] runtime error: Cannot read null.contents
+[2018-07-06 01:47:39.669] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:39.669]   source file: storage.dm,359
+[2018-07-06 01:47:39.669] 
+[2018-07-06 01:47:39.768] runtime error: Cannot read null.contents
+[2018-07-06 01:47:39.768] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:39.768]   source file: storage.dm,359
+[2018-07-06 01:47:39.768] 
+[2018-07-06 01:47:42.768] runtime error: Cannot read null.contents
+[2018-07-06 01:47:42.768] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:42.768]   source file: storage.dm,359
+[2018-07-06 01:47:42.768] 
+[2018-07-06 01:47:42.868] runtime error: Cannot read null.contents
+[2018-07-06 01:47:42.868] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:42.868]   source file: storage.dm,359
+[2018-07-06 01:47:42.868] 
+[2018-07-06 01:47:42.968] runtime error: Cannot read null.contents
+[2018-07-06 01:47:42.968] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:42.968]   source file: storage.dm,359
+[2018-07-06 01:47:42.968] 
+[2018-07-06 01:47:43.218] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.218] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.218]   source file: storage.dm,359
+[2018-07-06 01:47:43.218] 
+[2018-07-06 01:47:43.318] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.319] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.319]   source file: storage.dm,359
+[2018-07-06 01:47:43.319] 
+[2018-07-06 01:47:43.418] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.418] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.418]   source file: storage.dm,359
+[2018-07-06 01:47:43.418] 
+[2018-07-06 01:47:43.518] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.518] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.518]   source file: storage.dm,359
+[2018-07-06 01:47:43.518] 
+[2018-07-06 01:47:43.618] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.618] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.619]   source file: storage.dm,359
+[2018-07-06 01:47:43.619] 
+[2018-07-06 01:47:43.718] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.718] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.718]   source file: storage.dm,359
+[2018-07-06 01:47:43.718] 
+[2018-07-06 01:47:43.719] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.719] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.719]   source file: storage.dm,359
+[2018-07-06 01:47:43.719] 
+[2018-07-06 01:47:43.719] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.719] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.719]   source file: storage.dm,359
+[2018-07-06 01:47:43.719] 
+[2018-07-06 01:47:43.768] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.768] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.768]   source file: storage.dm,359
+[2018-07-06 01:47:43.768] 
+[2018-07-06 01:47:43.769] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.769] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.769]   source file: storage.dm,359
+[2018-07-06 01:47:43.769] 
+[2018-07-06 01:47:43.769] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.769] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.769]   source file: storage.dm,359
+[2018-07-06 01:47:43.769] 
+[2018-07-06 01:47:43.818] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.818] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.818]   source file: storage.dm,359
+[2018-07-06 01:47:43.818] 
+[2018-07-06 01:47:43.819] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.819] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.819]   source file: storage.dm,359
+[2018-07-06 01:47:43.819] 
+[2018-07-06 01:47:43.819] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.819] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.819]   source file: storage.dm,359
+[2018-07-06 01:47:43.819] 
+[2018-07-06 01:47:43.868] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.868] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.868]   source file: storage.dm,359
+[2018-07-06 01:47:43.868] 
+[2018-07-06 01:47:43.869] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.869] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.869]   source file: storage.dm,359
+[2018-07-06 01:47:43.869] 
+[2018-07-06 01:47:43.869] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.869] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.869]   source file: storage.dm,359
+[2018-07-06 01:47:43.869] 
+[2018-07-06 01:47:43.918] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.918] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.918]   source file: storage.dm,359
+[2018-07-06 01:47:43.918] 
+[2018-07-06 01:47:43.919] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.919] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.919]   source file: storage.dm,359
+[2018-07-06 01:47:43.919] 
+[2018-07-06 01:47:43.919] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.919] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.919]   source file: storage.dm,359
+[2018-07-06 01:47:43.919] 
+[2018-07-06 01:47:43.968] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.968] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.968]   source file: storage.dm,359
+[2018-07-06 01:47:43.968] 
+[2018-07-06 01:47:43.969] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.969] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.969]   source file: storage.dm,359
+[2018-07-06 01:47:43.969] 
+[2018-07-06 01:47:43.969] runtime error: Cannot read null.contents
+[2018-07-06 01:47:43.969] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:43.969]   source file: storage.dm,359
+[2018-07-06 01:47:43.969] 
+[2018-07-06 01:47:44.018] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.018] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.018]   source file: storage.dm,359
+[2018-07-06 01:47:44.018] 
+[2018-07-06 01:47:44.068] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.068] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.068]   source file: storage.dm,359
+[2018-07-06 01:47:44.068] 
+[2018-07-06 01:47:44.069] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.069] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.069]   source file: storage.dm,359
+[2018-07-06 01:47:44.069] 
+[2018-07-06 01:47:44.069] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.069] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.069]   source file: storage.dm,359
+[2018-07-06 01:47:44.069] 
+[2018-07-06 01:47:44.070] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.070] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.070]   source file: storage.dm,359
+[2018-07-06 01:47:44.070] 
+[2018-07-06 01:47:44.118] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.118] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.118]   source file: storage.dm,359
+[2018-07-06 01:47:44.118] 
+[2018-07-06 01:47:44.119] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.119] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.119]   source file: storage.dm,359
+[2018-07-06 01:47:44.119] 
+[2018-07-06 01:47:44.121] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.121] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.121]   source file: storage.dm,359
+[2018-07-06 01:47:44.121] 
+[2018-07-06 01:47:44.121] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.121] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.121]   source file: storage.dm,359
+[2018-07-06 01:47:44.121] 
+[2018-07-06 01:47:44.218] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.218] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.218]   source file: storage.dm,359
+[2018-07-06 01:47:44.218] 
+[2018-07-06 01:47:44.219] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.219] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.219]   source file: storage.dm,359
+[2018-07-06 01:47:44.219] 
+[2018-07-06 01:47:44.219] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.219] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.219]   source file: storage.dm,359
+[2018-07-06 01:47:44.219] 
+[2018-07-06 01:47:44.220] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.220] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.220]   source file: storage.dm,359
+[2018-07-06 01:47:44.220] 
+[2018-07-06 01:47:44.318] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.318] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.318]   source file: storage.dm,359
+[2018-07-06 01:47:44.318] 
+[2018-07-06 01:47:44.368] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.368] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.368]   source file: storage.dm,359
+[2018-07-06 01:47:44.368] 
+[2018-07-06 01:47:44.418] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.418] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.418]   source file: storage.dm,359
+[2018-07-06 01:47:44.418] 
+[2018-07-06 01:47:44.468] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.468] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.468]   source file: storage.dm,359
+[2018-07-06 01:47:44.468] 
+[2018-07-06 01:47:44.519] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.519] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.519]   source file: storage.dm,359
+[2018-07-06 01:47:44.519] 
+[2018-07-06 01:47:44.569] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.569] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.569]   source file: storage.dm,359
+[2018-07-06 01:47:44.569] 
+[2018-07-06 01:47:44.618] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.618] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.618]   source file: storage.dm,359
+[2018-07-06 01:47:44.618] 
+[2018-07-06 01:47:44.669] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.669] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.669]   source file: storage.dm,359
+[2018-07-06 01:47:44.669] 
+[2018-07-06 01:47:44.718] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.718] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.718]   source file: storage.dm,359
+[2018-07-06 01:47:44.718] 
+[2018-07-06 01:47:44.719] runtime error: Cannot read null.contents
+[2018-07-06 01:47:44.719] proc name: hide from (/datum/component/storage/proc/hide_from)
+[2018-07-06 01:47:44.719]   source file: storage.dm,359
+[2018-07-06 01:47:44.719] 
+[2018-07-06 01:57:59.050] ### VarEdit by Disguiser/(Gwenevere Magor): /obj/item/card/id assignment=CentCom Commander => Private Security Officerw
+[2018-07-06 01:59:01.176] ### VarEdit by Disguiser/(Gwenevere Magor): /obj/item/card/id name=Gwenevere Magor's ID Card (CentCom Commander) => Gwenevere Magor's ID Card (Private Security Officer)
+[2018-07-06 02:01:53.175] ### VarEdit by GreenTea98/(Helps-The-Station): /obj/machinery/power/smes charge=477000 => 1.277e+06
+[2018-07-06 02:29:27.632] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:29:27.633] 
+[2018-07-06 02:30:30.618] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:30:30.618] 
+[2018-07-06 02:30:34.148] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:30:34.148] 
+[2018-07-06 02:30:37.648] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:30:37.648] 
+[2018-07-06 02:30:40.601] runtime error: The weakened strong blob taking damage after deletion
+[2018-07-06 02:30:40.601] 
+[2018-07-06 02:30:41.202] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:30:41.202] 
+[2018-07-06 02:30:44.236] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:30:44.236] 
+[2018-07-06 02:31:18.809] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:31:18.809] 
+[2018-07-06 02:31:25.314] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:31:25.314] 
+[2018-07-06 02:32:52.512] runtime error: The grille taking damage after deletion
+[2018-07-06 02:32:52.512] 
+[2018-07-06 02:33:04.160] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:33:04.160] 
+[2018-07-06 02:33:25.551] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:33:25.551] 
+[2018-07-06 02:33:29.944] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:33:29.944] 
+[2018-07-06 02:34:33.397] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:34:33.397] 
+[2018-07-06 02:42:10.967] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:42:10.967] 
+[2018-07-06 02:45:32.755] runtime error: undefined proc or verb /mob/living/simple_animal/hostile/carp/megacarp/electrocution animation().
+[2018-07-06 02:45:32.755] 
+[2018-07-06 02:45:32.755] 
+[2018-07-06 02:45:38.089] runtime error: undefined proc or verb /mob/living/simple_animal/hostile/carp/electrocution animation().
+[2018-07-06 02:45:38.089] 
+[2018-07-06 02:45:38.089] 
+[2018-07-06 02:48:11.511] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:48:11.511] 
+[2018-07-06 02:49:11.209] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:49:11.209] 
+[2018-07-06 02:49:12.710] runtime error: The fragile blob taking damage after deletion
+[2018-07-06 02:49:12.710] 
+[2018-07-06 02:55:10.038] runtime error: The fuel tank taking damage after deletion
+[2018-07-06 02:55:10.038] 
+[2018-07-06 02:55:58.742] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-06 02:55:58.742] 
+[2018-07-06 02:55:58.742] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-06 02:55:58.742] 
+[2018-07-06 03:05:47.175] runtime error: undefined proc or verb /mob/living/silicon/ai/toggle module().
+[2018-07-06 03:05:47.175] 
+[2018-07-06 03:05:47.175] 
+[2018-07-06 03:46:47.303] runtime error: The fuel tank taking damage after deletion
+[2018-07-06 03:46:47.303] 
+[2018-07-06 03:46:47.885] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-06 03:46:47.885] 
+[2018-07-06 03:46:48.384] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-06 03:46:48.385] 
+[2018-07-06 03:54:41.955] runtime error: The grille taking damage after deletion
+[2018-07-06 03:54:41.955] 
+[2018-07-06 03:57:44.754] Saved 6 engraved messages on map Box Station
+[2018-07-06 03:59:19.716] Shutting down Persistence subsystem...
+[2018-07-06 03:59:19.716] Shutting down Pathfinder subsystem...
+[2018-07-06 03:59:19.716] Shutting down Squeak subsystem...
+[2018-07-06 03:59:19.716] Shutting down Shuttle subsystem...
+[2018-07-06 03:59:19.716] Shutting down Lighting subsystem...
+[2018-07-06 03:59:19.716] Shutting down XKeyScore subsystem...
+[2018-07-06 03:59:19.716] Shutting down Sticky Ban subsystem...
+[2018-07-06 03:59:19.716] Shutting down Overlay subsystem...
+[2018-07-06 03:59:19.752] Shutting down Icon Smoothing subsystem...
+[2018-07-06 03:59:19.753] Shutting down Assets subsystem...
+[2018-07-06 03:59:19.753] Shutting down Minimap subsystem...
+[2018-07-06 03:59:19.753] Shutting down Atmospherics subsystem...
+[2018-07-06 03:59:19.753] Shutting down Wet floors subsystem...
+[2018-07-06 03:59:19.753] Shutting down Weather subsystem...
+[2018-07-06 03:59:19.753] Shutting down Vote subsystem...
+[2018-07-06 03:59:19.753] Shutting down Traumas subsystem...
+[2018-07-06 03:59:19.753] Shutting down Title Screen subsystem...
+[2018-07-06 03:59:19.753] Shutting down Time Tracking subsystem...
+[2018-07-06 03:59:19.753] Shutting down Throwing subsystem...
+[2018-07-06 03:59:19.753] Shutting down tgui subsystem...
+[2018-07-06 03:59:19.753] Shutting down Sun subsystem...
+[2018-07-06 03:59:19.753] Shutting down Space Drift subsystem...
+[2018-07-06 03:59:19.753] Shutting down Religion subsystem...
+[2018-07-06 03:59:19.753] Shutting down Radio subsystem...
+[2018-07-06 03:59:19.754] Shutting down Radiation subsystem...
+[2018-07-06 03:59:19.754] Shutting down Projectiles subsystem...
+[2018-07-06 03:59:19.754] Shutting down Processing subsystem...
+[2018-07-06 03:59:19.754] Shutting down Ping subsystem...
+[2018-07-06 03:59:19.754] Shutting down Parallax subsystem...
+[2018-07-06 03:59:19.754] Shutting down pAI subsystem...
+[2018-07-06 03:59:19.754] Shutting down Orbits subsystem...
+[2018-07-06 03:59:19.754] Shutting down Objects subsystem...
+[2018-07-06 03:59:19.754] Shutting down NPC Pool subsystem...
+[2018-07-06 03:59:19.754] Shutting down Night Shift subsystem...
+[2018-07-06 03:59:19.754] Shutting down Mood subsystem...
+[2018-07-06 03:59:19.754] Shutting down Mobs subsystem...
+[2018-07-06 03:59:19.754] Shutting down Medals subsystem...
+[2018-07-06 03:59:19.754] Shutting down Idling NPC Pool subsystem...
+[2018-07-06 03:59:19.754] Shutting down Flightpack Movement subsystem...
+[2018-07-06 03:59:19.754] Shutting down Fire Burning subsystem...
+[2018-07-06 03:59:19.754] Shutting down Fields subsystem...
+[2018-07-06 03:59:19.754] Shutting down Fast Processing subsystem...
+[2018-07-06 03:59:19.754] Shutting down Disease subsystem...
+[2018-07-06 03:59:19.754] Shutting down Datum Component System subsystem...
+[2018-07-06 03:59:19.754] Shutting down Communications subsystem...
+[2018-07-06 03:59:19.754] Shutting down Augury subsystem...
+[2018-07-06 03:59:19.754] Shutting down Acid subsystem...
+[2018-07-06 03:59:19.754] Shutting down Timer subsystem...
+[2018-07-06 03:59:19.754] Shutting down Circuit subsystem...
+[2018-07-06 03:59:19.754] Shutting down Machines subsystem...
+[2018-07-06 03:59:19.754] Shutting down Language subsystem...
+[2018-07-06 03:59:19.754] Shutting down Atoms subsystem...
+[2018-07-06 03:59:19.755] Shutting down Networks subsystem...
+[2018-07-06 03:59:19.755] Shutting down Mapping subsystem...
+[2018-07-06 03:59:19.755] Shutting down Ticker subsystem...
+[2018-07-06 03:59:19.874] Shutting down Quirks subsystem...
+[2018-07-06 03:59:19.874] Shutting down Jobs subsystem...
+[2018-07-06 03:59:19.874] Shutting down Events subsystem...
+[2018-07-06 03:59:19.874] Shutting down Research subsystem...
+[2018-07-06 03:59:19.874] Shutting down Input subsystem...
+[2018-07-06 03:59:19.874] Shutting down Server Tasks subsystem...
+[2018-07-06 03:59:19.874] Shutting down Blackbox subsystem...
+[2018-07-06 03:59:19.982] Shutting down Database subsystem...
+[2018-07-06 03:59:20.020] Shutting down Garbage subsystem...
+[2018-07-06 03:59:20.100] Shutdown complete
+[2018-07-06 03:59:20.100] World rebooted at 03:59:20

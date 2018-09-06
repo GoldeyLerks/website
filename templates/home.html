@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+{% block title %}Home{% endblock %}
+{% block active %}home{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="/static/css/home.css">
+<link rel="stylesheet" href="/static/css/stats.css">
+<meta property="og:title" content="BeeStation - Home" />
+<meta property="og:description" content="BeeStation is a newbie friendly Space Station 13 server. The server was created in march 2018. We like to put a fun touch to the rounds to make a better experience." />
+{% endblock %}
+
+{% block content %}
+<div class="server-info">
+  <h1>Welcome to BeeStation</h1>
+  <p>It appears you have stumbled into the cozy corner of the BeeStation website. This website is meant to be informative. It has a list of archived rounds, the rules for the server, a server statistics page, a page to review server bans, and links to many more places you should visit!</p>
+
+  <p>BeeStation is a Space Station 13 server, hosted by Beeskee, which was created in march 2018. We focus greatly on being newbie friendly, while also following the concept of Medium RP. Our codebase is /tg/, but we are constantly striving to change up our code and add in new features. We love to put a touch of fun into every round to keep things interesting.</p>
+
+  <p>Our server is open source, so feel free to contribute to the code! We also have a Discord server with a great helpful community, a forum for ban appeals, staff applications, or other things, and an Informative Wiki.</p>
+
+  <div class="stats">
+    <div class="stat"><div class="stat-header">Players</div><div id="stat-players" class="stat-value">{{ stats["players"] }}</div></div>
+    <div class="stat"><div class="stat-header">Time</div><div id="stat-duration" class="stat-value">{{ stats["duration"] }}</div></div>
+    <div class="stat"><div class="stat-header">Map</div><div id="stat-map" class="stat-value">{{ stats["map_name"] }}</div></div>
+  </div>
+
+  <style>
+
+  @keyframes progress-bar {
+      from { width: 0%; }
+      to { width: {{budget_stats["percent"]}}% }
+  }
+  </style>
+
+<div id="stat-map" style="margin: 0 auto; text-align: center;" class="stat-value">Help us reach our monthly budget goal with <a class="link anim-shine" style="display: inline-block; margin: 0 0;" href="https://www.patreon.com/user?u=10639001">Patreon</a></div>
+
+  <div class="progress-bg">
+    <div class="progress-bar">
+        <h3 class="progress-raised">${{budget_stats["income"]}} / ${{budget_stats["goal"]}}</h3>
+      </div>
+  </div>
+
+</div>
+
+<div class="links">
+  <div class="links-header">Useful Links</div>
+  <a class="link anim-shine" href="byond://198.58.107.171:3333">Join Game!</a>
+  <a class="link anim-shine" href="/rules">BeeStation Rules</a>
+  <a target="_blank" class="link anim-shine" href="https://github.com/BeeStation/BeeStation-13">Github Repository</a>
+  <a target="_blank" class="link anim-shine" href="https://github.com/qwertyquerty/ss13rp">SS13RP Github</a>
+  <a target="_blank" class="link anim-shine" href="https://discordapp.com/invite/g5334am">Discord Server</a>
+  <a class="link anim-shine" href="/forum">BeeStation Forums</a>
+  <a target="_blank" class="link anim-shine" href="http://beestation.beeskee.com/wiki/index.php?title=Main_Page">BeeStation Wiki</a>
+  <a target="_blank" class="link anim-shine" href="https://www.reddit.com/r/SS13">SS13 Subreddit</a>
+  <a target="_blank" class="link anim-shine" href="https://www.patreon.com/user?u=10639001">Donation Page</a>
+
+</div>
+
+<script>
+window.setInterval(function() {
+
+  $.getJSON( "/api/stats", function( json ) {
+    $("#stat-duration").html((new Date).clearTime().addSeconds(json["round_duration"]).toString('H:mm:ss'));
+    $("#stat-players").html(json["players"]);
+    $("#stat-map").html(json["map_name"]);
+   });
+
+}, 5000)
+</script>
+{% endblock %}

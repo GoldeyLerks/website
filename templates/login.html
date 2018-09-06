@@ -1,0 +1,21 @@
+{% from "_formhelpers.html" import render_field %}
+{% extends "layout.html" %}
+{% block title %}Login{% endblock %}
+{% block active %}login{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="/static/css/forms.css">
+<meta property="og:title" content="BeeStation - Login" />
+<meta property="og:description" content="BeeStation is a newbie friendly Space Station 13 server. The server was created in march 2018. We like to put a fun touch to the rounds to make a better experience." />
+{% endblock %}
+
+{% block content %}
+
+<form class="form" method=post>
+
+    {{ render_field(form.username) }}
+    {{ render_field(form.password) }}
+    {{ render_field(form.submit) }}
+
+
+</form>
+{% endblock %}

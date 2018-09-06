@@ -1,0 +1,644 @@
+
+
+Starting up round ID 1066. 15:37:32
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading BeeStation 1...
+Loaded Station in 5s!
+Loaded Lavaland in 7.4s!
+Loaded Reebe in 5.8s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 26.9 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[15:38:07]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[15:38:07]proc name: stack trace (/datum/proc/stack_trace)
+[15:38:07]  source file: unsorted.dm,1257
+[15:38:07]  usr: null
+[15:38:07]  src: Vacant Office APC (/obj/machinery/power/apc)
+[15:38:07]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[15:38:07]  call stack:
+[15:38:07]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[15:38:07]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[15:38:07]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[15:38:07]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[15:38:07]Atoms (/datum/controller/subsystem/atoms): Initialize(562800)
+[15:38:07]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 45.8 seconds!
+Initialized Language subsystem within 0.1 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 16.2 seconds!
+Failed to find backup file for map BeeStation 1 on zlevel 2.
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 6 seconds!
+Initialized Overlay subsystem within 19.9 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 13.1 seconds!
+Initialized Shuttle subsystem within 25.1 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 2 engraved messages on map BeeStation 1
+Initialized Persistence subsystem within 0.2 seconds!
+Initializations complete within 155 seconds!
+Game start took 4.8s
+runtime error: 
+[15:43:32]No valid destination passed into forceMove
+[15:43:32]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:43:32]  source file: atoms_movable.dm,314
+[15:43:32]  usr: null
+[15:43:32]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:32]  src.loc: null
+[15:43:32]  call stack:
+[15:43:32]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:32]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:32]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:32]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:32]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:32]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:32]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:32]Master (/datum/controller/master): RunQueue()
+[15:43:32]Master (/datum/controller/master): Loop()
+[15:43:32]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:32]Cannot read null.x
+[15:43:32]proc name: fire (/obj/item/projectile/proc/fire)
+[15:43:32]  source file: projectile.dm,354
+[15:43:32]  usr: null
+[15:43:32]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:32]  src.loc: null
+[15:43:32]  call stack:
+[15:43:32]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:32]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:32]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:32]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:32]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:32]Master (/datum/controller/master): RunQueue()
+[15:43:32]Master (/datum/controller/master): Loop()
+[15:43:32]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:34]No valid destination passed into forceMove
+[15:43:34]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:43:34]  source file: atoms_movable.dm,314
+[15:43:34]  usr: null
+[15:43:34]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:34]  src.loc: null
+[15:43:34]  call stack:
+[15:43:34]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:34]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:34]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:34]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:34]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:34]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:34]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:34]Master (/datum/controller/master): RunQueue()
+[15:43:34]Master (/datum/controller/master): Loop()
+[15:43:34]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:34]Cannot read null.x
+[15:43:34]proc name: fire (/obj/item/projectile/proc/fire)
+[15:43:34]  source file: projectile.dm,354
+[15:43:34]  usr: null
+[15:43:34]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:34]  src.loc: null
+[15:43:34]  call stack:
+[15:43:34]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:34]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:34]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:34]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:34]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:34]Master (/datum/controller/master): RunQueue()
+[15:43:34]Master (/datum/controller/master): Loop()
+[15:43:34]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:36]No valid destination passed into forceMove
+[15:43:36]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:43:36]  source file: atoms_movable.dm,314
+[15:43:36]  usr: null
+[15:43:36]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:36]  src.loc: null
+[15:43:36]  call stack:
+[15:43:36]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:36]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:36]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:36]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:36]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:36]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:36]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:36]Master (/datum/controller/master): RunQueue()
+[15:43:36]Master (/datum/controller/master): Loop()
+[15:43:36]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:36]Cannot read null.x
+[15:43:36]proc name: fire (/obj/item/projectile/proc/fire)
+[15:43:36]  source file: projectile.dm,354
+[15:43:36]  usr: null
+[15:43:36]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:36]  src.loc: null
+[15:43:36]  call stack:
+[15:43:36]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:36]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:36]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:36]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:36]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:36]Master (/datum/controller/master): RunQueue()
+[15:43:36]Master (/datum/controller/master): Loop()
+[15:43:36]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:38]No valid destination passed into forceMove
+[15:43:38]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:43:38]  source file: atoms_movable.dm,314
+[15:43:38]  usr: null
+[15:43:38]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:38]  src.loc: null
+[15:43:38]  call stack:
+[15:43:38]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:38]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:38]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:38]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:38]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:38]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:38]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:38]Master (/datum/controller/master): RunQueue()
+[15:43:38]Master (/datum/controller/master): Loop()
+[15:43:38]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:38]Cannot read null.x
+[15:43:38]proc name: fire (/obj/item/projectile/proc/fire)
+[15:43:38]  source file: projectile.dm,354
+[15:43:38]  usr: null
+[15:43:38]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:38]  src.loc: null
+[15:43:38]  call stack:
+[15:43:38]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:38]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:38]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:38]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:38]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:38]Master (/datum/controller/master): RunQueue()
+[15:43:38]Master (/datum/controller/master): Loop()
+[15:43:38]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:44]No valid destination passed into forceMove
+[15:43:44]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:43:44]  source file: atoms_movable.dm,314
+[15:43:44]  usr: null
+[15:43:44]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:44]  src.loc: null
+[15:43:44]  call stack:
+[15:43:44]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:44]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:44]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:44]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:44]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:44]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:44]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:44]Master (/datum/controller/master): RunQueue()
+[15:43:44]Master (/datum/controller/master): Loop()
+[15:43:44]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:44]Cannot read null.x
+[15:43:44]proc name: fire (/obj/item/projectile/proc/fire)
+[15:43:44]  source file: projectile.dm,354
+[15:43:44]  usr: null
+[15:43:44]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:44]  src.loc: null
+[15:43:44]  call stack:
+[15:43:44]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:44]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:44]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:44]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:44]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:44]Master (/datum/controller/master): RunQueue()
+[15:43:44]Master (/datum/controller/master): Loop()
+[15:43:44]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:46]No valid destination passed into forceMove
+[15:43:46]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:43:46]  source file: atoms_movable.dm,314
+[15:43:46]  usr: null
+[15:43:46]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:46]  src.loc: null
+[15:43:46]  call stack:
+[15:43:46]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:46]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:46]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:46]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:46]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:46]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:46]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:46]Master (/datum/controller/master): RunQueue()
+[15:43:46]Master (/datum/controller/master): Loop()
+[15:43:46]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:46]Cannot read null.x
+[15:43:46]proc name: fire (/obj/item/projectile/proc/fire)
+[15:43:46]  source file: projectile.dm,354
+[15:43:46]  usr: null
+[15:43:46]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:46]  src.loc: null
+[15:43:46]  call stack:
+[15:43:46]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:46]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:46]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:46]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:46]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:46]Master (/datum/controller/master): RunQueue()
+[15:43:46]Master (/datum/controller/master): Loop()
+[15:43:46]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:48]No valid destination passed into forceMove
+[15:43:48]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:43:48]  source file: atoms_movable.dm,314
+[15:43:48]  usr: null
+[15:43:48]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:48]  src.loc: null
+[15:43:48]  call stack:
+[15:43:48]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:48]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:48]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:48]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:48]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:48]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:48]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:48]Master (/datum/controller/master): RunQueue()
+[15:43:48]Master (/datum/controller/master): Loop()
+[15:43:48]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:48]Cannot read null.x
+[15:43:48]proc name: fire (/obj/item/projectile/proc/fire)
+[15:43:48]  source file: projectile.dm,354
+[15:43:48]  usr: null
+[15:43:48]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:48]  src.loc: null
+[15:43:48]  call stack:
+[15:43:48]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:48]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:48]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:48]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:48]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:48]Master (/datum/controller/master): RunQueue()
+[15:43:48]Master (/datum/controller/master): Loop()
+[15:43:48]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:50]No valid destination passed into forceMove
+[15:43:50]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:43:50]  source file: atoms_movable.dm,314
+[15:43:50]  usr: null
+[15:43:50]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:50]  src.loc: null
+[15:43:50]  call stack:
+[15:43:50]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:50]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:50]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:50]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:50]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:50]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:50]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:50]Master (/datum/controller/master): RunQueue()
+[15:43:50]Master (/datum/controller/master): Loop()
+[15:43:50]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:50]Cannot read null.x
+[15:43:50]proc name: fire (/obj/item/projectile/proc/fire)
+[15:43:50]  source file: projectile.dm,354
+[15:43:50]  usr: null
+[15:43:50]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:50]  src.loc: null
+[15:43:50]  call stack:
+[15:43:50]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:50]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:50]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:50]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:50]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:50]Master (/datum/controller/master): RunQueue()
+[15:43:50]Master (/datum/controller/master): Loop()
+[15:43:50]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:56]No valid destination passed into forceMove
+[15:43:56]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:43:56]  source file: atoms_movable.dm,314
+[15:43:56]  usr: null
+[15:43:56]  src: the emitter beam (/obj/item/projectile/beam/emitter)
+[15:43:56]  src.loc: null
+[15:43:56]  call stack:
+[15:43:56]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:56]the emitter beam (/obj/item/projectile/beam/emitter): forceMove(null)
+[15:43:56]the emitter beam (/obj/item/projectile/beam/emitter): fire(null, null)
+[15:43:56]the emitter (/obj/machinery/power/emitter/anchored): fire beam(null)
+[15:43:56]the emitter (/obj/machinery/power/emitter/anchored): process(2)
+[15:43:56]Machines (/datum/controller/subsystem/machines): fire(1)
+[15:43:56]Machines (/datum/controller/subsystem/machines): ignite(1)
+[15:43:56]Master (/datum/controller/master): RunQueue()
+[15:43:56]Master (/datum/controller/master): Loop()
+[15:43:56]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:43:56]Cannot read null.x
+[15:43:56]proc name: fire (/obj/item/projectile/proc/fire)
+[15:43:56]  source file: projectile.dm,354
+runtime error: 
+[15:43:58]No valid destination passed into forceMove
+[15:43:58]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:43:58]  source file: atoms_movable.dm,314
+runtime error: 
+[15:43:58]Cannot read null.x
+[15:43:58]proc name: fire (/obj/item/projectile/proc/fire)
+[15:43:58]  source file: projectile.dm,354
+runtime error: 
+[15:44:00]No valid destination passed into forceMove
+[15:44:00]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:44:00]  source file: atoms_movable.dm,314
+runtime error: 
+[15:44:00]Cannot read null.x
+[15:44:00]proc name: fire (/obj/item/projectile/proc/fire)
+[15:44:00]  source file: projectile.dm,354
+runtime error: 
+[15:44:03]No valid destination passed into forceMove
+[15:44:03]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:44:03]  source file: atoms_movable.dm,314
+runtime error: 
+[15:44:03]Cannot read null.x
+[15:44:03]proc name: fire (/obj/item/projectile/proc/fire)
+[15:44:03]  source file: projectile.dm,354
+runtime error: 
+[15:44:13]No valid destination passed into forceMove
+[15:44:13]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:44:13]  source file: atoms_movable.dm,314
+runtime error: 
+[15:44:13]Cannot read null.x
+[15:44:13]proc name: fire (/obj/item/projectile/proc/fire)
+[15:44:13]  source file: projectile.dm,354
+runtime error: 
+[15:44:15]No valid destination passed into forceMove
+[15:44:15]proc name: forceMove (/atom/movable/proc/forceMove)
+[15:44:15]  source file: atoms_movable.dm,314
+runtime error: 
+[15:44:15]Cannot read null.x
+[15:44:15]proc name: fire (/obj/item/projectile/proc/fire)
+[15:44:15]  source file: projectile.dm,354
+runtime error: 
+[15:44:57]nothing to animate
+[15:44:57]proc name: shake camera (/proc/shake_camera)
+[15:44:57]  source file: mob_helpers.dm,270
+runtime error: 
+[15:51:27]nothing to animate
+[15:51:27]proc name: shake camera (/proc/shake_camera)
+[15:51:27]  source file: mob_helpers.dm,270
+runtime error: 
+[15:54:03]nothing to animate
+[15:54:03]proc name: shake camera (/proc/shake_camera)
+[15:54:03]  source file: mob_helpers.dm,270
+runtime error: 
+[15:59:42]nothing to animate
+[15:59:42]proc name: shake camera (/proc/shake_camera)
+[15:59:42]  source file: mob_helpers.dm,270
+runtime error: 
+[16:13:28]nothing to animate
+[16:13:28]proc name: shake camera (/proc/shake_camera)
+[16:13:28]  source file: mob_helpers.dm,270
+runtime error: 
+[16:16:47]list index out of bounds
+[16:16:47]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[16:16:47]  source file: aurora_caelus.dm,39
+runtime error: 
+[16:31:00]nothing to animate
+[16:31:00]proc name: shake camera (/proc/shake_camera)
+[16:31:00]  source file: mob_helpers.dm,270
+runtime error: 
+[16:34:25]Cannot read null.species
+[16:34:25]proc name: remove (/datum/trait/deviant_tastes/remove)
+[16:34:25]  source file: neutral.dm,31
+runtime error: 
+[16:36:53]Cannot read null.loc
+[16:36:53]proc name: update parallax (/datum/hud/proc/update_parallax)
+[16:36:53]  source file: parallax.dm,170
+runtime error: 
+[16:37:10]Cannot read null.language_holder
+[16:37:10]proc name: init shade (/obj/item/device/soulstone/proc/init_shade)
+[16:37:10]  source file: soulstone.dm,247
+runtime error: 
+[16:40:06]nothing to animate
+[16:40:06]proc name: shake camera (/proc/shake_camera)
+[16:40:06]  source file: mob_helpers.dm,270
+runtime error: 
+[16:42:27]nothing to animate
+[16:42:27]proc name: shake camera (/proc/shake_camera)
+[16:42:27]  source file: mob_helpers.dm,270
+runtime error: 
+[16:43:20]nothing to animate
+[16:43:20]proc name: shake camera (/proc/shake_camera)
+[16:43:20]  source file: mob_helpers.dm,270
+runtime error: 
+[17:11:35]addtimer called with a callback assigned to a qdeleted object
+[17:11:35]proc name: stack trace (/proc/stack_trace)
+[17:11:35]  source file: unsorted.dm,1254
+runtime error: 
+[17:11:38]addtimer called with a callback assigned to a qdeleted object
+[17:11:38]proc name: stack trace (/proc/stack_trace)
+[17:11:38]  source file: unsorted.dm,1254
+runtime error: 
+[17:14:45]Cannot execute null.archive().
+[17:14:45]proc name: archive (/turf/open/archive)
+[17:14:45]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[17:14:45]Cannot read null.gases
+[17:14:45]proc name: compare (/datum/gas_mixture/compare)
+[17:14:45]  source file: gas_mixture.dm,387
+runtime error: 
+[17:14:45]Cannot execute null.archive().
+[17:14:45]proc name: archive (/turf/open/archive)
+[17:14:45]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[17:14:45]Cannot read null.gases
+[17:14:45]proc name: compare (/datum/gas_mixture/compare)
+[17:14:45]  source file: gas_mixture.dm,387
+runtime error: 
+[17:14:45]Cannot execute null.archive().
+[17:14:45]proc name: archive (/turf/open/archive)
+[17:14:45]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[17:14:45]Cannot read null.gases
+[17:14:45]proc name: compare (/datum/gas_mixture/compare)
+[17:14:45]  source file: gas_mixture.dm,387
+runtime error: 
+[17:14:45]Cannot execute null.archive().
+[17:14:45]proc name: archive (/turf/open/archive)
+[17:14:45]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[17:14:45]Cannot read null.gases
+[17:14:45]proc name: compare (/datum/gas_mixture/compare)
+[17:14:45]  source file: gas_mixture.dm,387
+runtime error: 
+[17:14:45]Cannot execute null.archive().
+[17:14:45]proc name: archive (/turf/open/archive)
+[17:14:45]  source file: LINDA_turf_tile.dm,91
+runtime error: 
+[17:14:45]Cannot read null.gases
+[17:14:45]proc name: compare (/datum/gas_mixture/compare)
+[17:14:45]  source file: gas_mixture.dm,387
+runtime error: 
+[17:20:57]nothing to animate
+[17:20:57]proc name: shake camera (/proc/shake_camera)
+[17:20:57]  source file: mob_helpers.dm,270
+runtime error: 
+[17:45:15]nothing to animate
+[17:45:15]proc name: shake camera (/proc/shake_camera)
+[17:45:15]  source file: mob_helpers.dm,270
+runtime error: 
+[17:51:00]Cannot read null.species
+[17:51:00]proc name: death (/mob/living/carbon/human/death)
+[17:51:00]  source file: death.dm,37
+runtime error: 
+[17:51:00]Cannot read null.bleed_mod
+[17:51:00]proc name: bleed (/mob/living/carbon/human/bleed)
+[17:51:00]  source file: blood.dm,101
+runtime error: 
+[17:51:00]Cannot read null.species
+[17:51:00]proc name: Life (/mob/living/carbon/human/Life)
+[17:51:00]  source file: life.dm,58
+### VarEdit by PapaPutin/(Vladamir Putin): /obj/item/cardboard_cutout acid_level=0 => 1
+runtime error: 
+[17:58:37]nothing to animate
+[17:58:37]proc name: shake camera (/proc/shake_camera)
+[17:58:37]  source file: mob_helpers.dm,270
+runtime error: 
+[18:03:17]nothing to animate
+[18:03:17]proc name: shake camera (/proc/shake_camera)
+[18:03:17]  source file: mob_helpers.dm,270
+runtime error: 
+[18:07:38]nothing to animate
+[18:07:38]proc name: shake camera (/proc/shake_camera)
+[18:07:38]  source file: mob_helpers.dm,270
+runtime error: 
+[18:08:07]Cannot read null.species
+[18:08:07]proc name: handle environment (/mob/living/carbon/human/handle_environment)
+[18:08:07]  source file: life.dm,136
+runtime error: 
+[18:08:07]Cannot read null.species
+[18:08:07]proc name: mob negates gravity (/mob/living/carbon/human/mob_negates_gravity)
+[18:08:07]  source file: human_movement.dm,28
+runtime error: 
+[18:08:07]Cannot read null.mutations
+[18:08:07]proc name: handle active genes (/mob/living/carbon/human/proc/handle_active_genes)
+[18:08:07]  source file: life.dm,325
+runtime error: 
+[18:08:07]Cannot read null.species
+[18:08:07]proc name: Life (/mob/living/carbon/human/Life)
+[18:08:07]  source file: life.dm,58
+runtime error: 
+[18:13:02]Cannot read null.loc
+[18:13:02]proc name: update parallax (/datum/hud/proc/update_parallax)
+[18:13:02]  source file: parallax.dm,170
+runtime error: 
+[18:15:55]nothing to animate
+[18:15:55]proc name: shake camera (/proc/shake_camera)
+[18:15:55]  source file: mob_helpers.dm,270
+runtime error: 
+[18:18:44]Cannot read null.client
+[18:18:44]proc name: open (/datum/tgui/proc/open)
+[18:18:44]  source file: tgui.dm,87
+runtime error: 
+[18:24:53]Cannot read null.client
+[18:24:53]proc name: open (/datum/tgui/proc/open)
+[18:24:53]  source file: tgui.dm,87
+runtime error: 
+[18:26:47]Cannot read null.client
+[18:26:47]proc name: open (/datum/tgui/proc/open)
+[18:26:47]  source file: tgui.dm,87
+runtime error: 
+[18:26:47]Cannot read null.client
+[18:26:47]proc name: open (/datum/tgui/proc/open)
+[18:26:47]  source file: tgui.dm,87
+Saved 2 engraved messages on map BeeStation 1
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 18:30:42

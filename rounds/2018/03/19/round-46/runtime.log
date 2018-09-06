@@ -1,0 +1,406 @@
+
+
+Starting up round ID 46. 19:24:20
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0.1 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 7s!
+Loaded Lavaland in 5.4s!
+runtime error: 
+[19:24:37]Cannot read null.melee
+[19:24:37]proc name: attachArmor (/datum/armor/proc/attachArmor)
+[19:24:37]  source file: armor.dm,59
+[19:24:37]  usr: GhostyToasty (/mob/dead/new_player)
+[19:24:37]  src: /datum/armor (/datum/armor)
+[19:24:37]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[19:24:37]  call stack:
+[19:24:37]/datum/armor (/datum/armor): attachArmor(null)
+[19:24:37]the medal of captaincy (/obj/item/clothing/accessory/medal/gold/captain): attach(the captain\'s jumpsuit (/obj/item/clothing/under/rank/captain), null)
+[19:24:37]the captain\'s jumpsuit (/obj/item/clothing/under/rank/captain): attach accessory(the medal of captaincy (/obj/item/clothing/accessory/medal/gold/captain), null, 1)
+[19:24:37]Captain (/datum/outfit/job/captain): equip(Steve Marshal (/mob/living/carbon/human/dummy), 1)
+[19:24:37]Steve Marshal (/mob/living/carbon/human/dummy): equipOutfit(/datum/outfit/job/captain (/datum/outfit/job/captain), 1)
+[19:24:37]/datum/job/captain (/datum/job/captain): equip(Steve Marshal (/mob/living/carbon/human/dummy), 1, 1)
+[19:24:37]/datum/preferences (/datum/preferences): update preview icon()
+[19:24:37]/datum/preferences (/datum/preferences): ShowChoices(GhostyToasty (/mob/dead/new_player))
+[19:24:37]/datum/preferences (/datum/preferences): process link(GhostyToasty (/mob/dead/new_player), /list (/list))
+[19:24:37]GhostyToasty (/client): Topic("_src_=prefs;preference=job;tas...", /list (/list), null)
+[19:24:37]GhostyToasty (/client): Topic("_src_=prefs;preference=job;tas...", /list (/list))
+Loaded Reebe in 5.2s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 27 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[19:25:23]Cannot execute null.copy from().
+[19:25:23]proc name: Assimilate Air (/turf/open/proc/Assimilate_Air)
+[19:25:23]  source file: ChangeTurf.dm,263
+[19:25:23]  usr: null
+[19:25:23]  src: the asteroid sand (65,62,4) (/turf/open/floor/plating/asteroid/airless/cave)
+[19:25:23]  call stack:
+[19:25:23]the asteroid sand (65,62,4) (/turf/open/floor/plating/asteroid/airless/cave): Assimilate Air()
+[19:25:23]the asteroid sand (65,62,4) (/turf/open/floor/plating/asteroid/airless/cave): AfterChange(0)
+[19:25:23]the asteroid sand (65,62,4) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[19:25:23]the asteroid sand (65,62,4) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[19:25:23]the asteroid sand (65,62,4) (/turf/open/floor/plating/asteroid/airless/cave): Initialize(1)
+[19:25:23]Atoms (/datum/controller/subsystem/atoms): InitAtom(the asteroid sand (65,62,4) (/turf/open/floor/plating/asteroid/airless/cave), /list (/list))
+[19:25:23]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[19:25:23]Atoms (/datum/controller/subsystem/atoms): Initialize(842890)
+[19:25:23]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 54.3 seconds!
+Initialized Language subsystem within 0.1 seconds!
+Initialized Machines subsystem within 0.2 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Weather subsystem within 0 seconds!
+runtime error: 
+[19:25:47]Cannot execute null.compare().
+[19:25:47]proc name: Initalize Atmos (/turf/open/Initalize_Atmos)
+[19:25:47]  source file: open.dm,137
+[19:25:47]  usr: null
+[19:25:47]  src: the asteroid sand (65,62,4) (/turf/open/floor/plating/asteroid/airless/cave)
+[19:25:47]  call stack:
+[19:25:47]the asteroid sand (65,62,4) (/turf/open/floor/plating/asteroid/airless/cave): Initalize Atmos(1)
+[19:25:47]Atmospherics (/datum/controller/subsystem/air): setup allturfs()
+[19:25:47]Atmospherics (/datum/controller/subsystem/air): Initialize(843440)
+[19:25:47]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atmospherics subsystem within 13.3 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 6.4 seconds!
+Initialized Overlay subsystem within 20.1 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+runtime error: 
+[19:26:36]list index out of bounds
+[19:26:36]proc name: fire (/datum/controller/subsystem/lighting/fire)
+[19:26:36]  source file: lighting.dm,36
+[19:26:36]  usr: null
+[19:26:36]  src: Lighting (/datum/controller/subsystem/lighting)
+[19:26:36]  call stack:
+[19:26:36]Lighting (/datum/controller/subsystem/lighting): fire(0, 1)
+[19:26:36]Lighting (/datum/controller/subsystem/lighting): Initialize(843846)
+[19:26:36]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Lighting subsystem within 11.7 seconds!
+Initialized Shuttle subsystem within 22.6 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Loaded 0 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 157.1 seconds!
+Game start took 3.6s
+runtime error: 
+[19:36:40]Cannot read null.air
+[19:36:40]proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[19:36:40]  source file: pipes.dm,60
+[19:36:40]  usr: null
+[19:36:40]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:40]  src.loc: null
+[19:36:40]  call stack:
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): return air()
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:40]Master (/datum/controller/master): RunQueue()
+[19:36:40]Master (/datum/controller/master): Loop()
+[19:36:40]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:40]Cannot read null.temperature
+[19:36:40]proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[19:36:40]  source file: he_pipes.dm,42
+[19:36:40]  usr: null
+[19:36:40]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:40]  src.loc: null
+[19:36:40]  call stack:
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:40]Master (/datum/controller/master): RunQueue()
+[19:36:40]Master (/datum/controller/master): Loop()
+[19:36:40]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:40]Cannot read null.air
+[19:36:40]proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[19:36:40]  source file: pipes.dm,60
+[19:36:40]  usr: null
+[19:36:40]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:40]  src.loc: null
+[19:36:40]  call stack:
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): return air()
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:40]Master (/datum/controller/master): RunQueue()
+[19:36:40]Master (/datum/controller/master): Loop()
+[19:36:40]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:40]Cannot read null.temperature
+[19:36:40]proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[19:36:40]  source file: he_pipes.dm,42
+[19:36:40]  usr: null
+[19:36:40]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:40]  src.loc: null
+[19:36:40]  call stack:
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:40]Master (/datum/controller/master): RunQueue()
+[19:36:40]Master (/datum/controller/master): Loop()
+[19:36:40]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:40]Cannot read null.air
+[19:36:40]proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[19:36:40]  source file: pipes.dm,60
+[19:36:40]  usr: null
+[19:36:40]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:40]  src.loc: null
+[19:36:40]  call stack:
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): return air()
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:40]Master (/datum/controller/master): RunQueue()
+[19:36:40]Master (/datum/controller/master): Loop()
+[19:36:40]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:40]Cannot read null.temperature
+[19:36:40]proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[19:36:40]  source file: he_pipes.dm,42
+[19:36:40]  usr: null
+[19:36:40]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:40]  src.loc: null
+[19:36:40]  call stack:
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:40]Master (/datum/controller/master): RunQueue()
+[19:36:40]Master (/datum/controller/master): Loop()
+[19:36:40]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:40]Cannot read null.air
+[19:36:40]proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[19:36:40]  source file: pipes.dm,60
+[19:36:40]  usr: null
+[19:36:40]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:40]  src.loc: null
+[19:36:40]  call stack:
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): return air()
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:40]Master (/datum/controller/master): RunQueue()
+[19:36:40]Master (/datum/controller/master): Loop()
+[19:36:40]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:40]Cannot read null.temperature
+[19:36:40]proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[19:36:40]  source file: he_pipes.dm,42
+[19:36:40]  usr: null
+[19:36:40]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:40]  src.loc: null
+[19:36:40]  call stack:
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:40]Master (/datum/controller/master): RunQueue()
+[19:36:40]Master (/datum/controller/master): Loop()
+[19:36:40]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:40]Cannot read null.air
+[19:36:40]proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[19:36:40]  source file: pipes.dm,60
+[19:36:40]  usr: null
+[19:36:40]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:40]  src.loc: null
+[19:36:40]  call stack:
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): return air()
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:40]Master (/datum/controller/master): RunQueue()
+[19:36:40]Master (/datum/controller/master): Loop()
+[19:36:40]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:40]Cannot read null.temperature
+[19:36:40]proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[19:36:40]  source file: he_pipes.dm,42
+[19:36:40]  usr: null
+[19:36:40]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:40]  src.loc: null
+[19:36:40]  call stack:
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:40]Master (/datum/controller/master): RunQueue()
+[19:36:40]Master (/datum/controller/master): Loop()
+[19:36:40]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:40]Cannot read null.air
+[19:36:40]proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[19:36:40]  source file: pipes.dm,60
+[19:36:40]  usr: null
+[19:36:40]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:40]  src.loc: null
+[19:36:40]  call stack:
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): return air()
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:40]Master (/datum/controller/master): RunQueue()
+[19:36:40]Master (/datum/controller/master): Loop()
+[19:36:40]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:40]Cannot read null.temperature
+[19:36:40]proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[19:36:40]  source file: he_pipes.dm,42
+[19:36:40]  usr: null
+[19:36:40]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:40]  src.loc: null
+[19:36:40]  call stack:
+[19:36:40]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:40]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:40]Master (/datum/controller/master): RunQueue()
+[19:36:40]Master (/datum/controller/master): Loop()
+[19:36:40]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:41]Cannot read null.air
+[19:36:41]proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[19:36:41]  source file: pipes.dm,60
+[19:36:41]  usr: null
+[19:36:41]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:41]  src.loc: null
+[19:36:41]  call stack:
+[19:36:41]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): return air()
+[19:36:41]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:41]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:41]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:41]Master (/datum/controller/master): RunQueue()
+[19:36:41]Master (/datum/controller/master): Loop()
+[19:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:41]Cannot read null.temperature
+[19:36:41]proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[19:36:41]  source file: he_pipes.dm,42
+[19:36:41]  usr: null
+[19:36:41]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:41]  src.loc: null
+[19:36:41]  call stack:
+[19:36:41]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:41]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:41]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:41]Master (/datum/controller/master): RunQueue()
+[19:36:41]Master (/datum/controller/master): Loop()
+[19:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:41]Cannot read null.air
+[19:36:41]proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[19:36:41]  source file: pipes.dm,60
+[19:36:41]  usr: null
+[19:36:41]  src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[19:36:41]  src.loc: null
+[19:36:41]  call stack:
+[19:36:41]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): return air()
+[19:36:41]the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[19:36:41]Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[19:36:41]Atmospherics (/datum/controller/subsystem/air): fire(1)
+[19:36:41]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:36:41]Master (/datum/controller/master): RunQueue()
+[19:36:41]Master (/datum/controller/master): Loop()
+[19:36:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:36:41]Cannot read null.temperature
+[19:36:41]proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[19:36:41]  source file: he_pipes.dm,42
+runtime error: 
+[19:36:41]Cannot read null.air
+[19:36:41]proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[19:36:41]  source file: pipes.dm,60
+runtime error: 
+[19:36:41]Cannot read null.temperature
+[19:36:41]proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[19:36:41]  source file: he_pipes.dm,42
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 19:41:22

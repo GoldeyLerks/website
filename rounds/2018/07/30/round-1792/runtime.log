@@ -1,0 +1,302 @@
+[2018-07-30 23:27:25.148] Starting up round ID 1792.
+[2018-07-30 23:27:25.148] -------------------------
+[2018-07-30 23:27:29.659] Initialized Database subsystem within 0 seconds!
+[2018-07-30 23:27:29.659] Initialized Blackbox subsystem within 0 seconds!
+[2018-07-30 23:27:29.659] Initialized Server Tasks subsystem within 0 seconds!
+[2018-07-30 23:27:29.660] Initialized Input subsystem within 0 seconds!
+[2018-07-30 23:27:29.699] Initialized Research subsystem within 0 seconds!
+[2018-07-30 23:27:29.704] Initialized Events subsystem within 0 seconds!
+[2018-07-30 23:27:29.710] Initialized Jobs subsystem within 0 seconds!
+[2018-07-30 23:27:29.711] Initialized Quirks subsystem within 0 seconds!
+[2018-07-30 23:27:29.720] Initialized Ticker subsystem within 0 seconds!
+[2018-07-30 23:27:29.720] Loading Box Station...
+[2018-07-30 23:27:35.674] Loaded Station in 5.9s!
+[2018-07-30 23:27:41.420] Loaded Lavaland in 5.1s!
+[2018-07-30 23:27:46.032] Ruin loader finished with 0 left to spend.
+[2018-07-30 23:27:47.793] Ruin loader finished with 0 left to spend.
+[2018-07-30 23:27:57.977] Initialized Mapping subsystem within 28.2 seconds!
+[2018-07-30 23:27:57.979] Initialized Networks subsystem within 0 seconds!
+[2018-07-30 23:28:47.443] Initialized Atoms subsystem within 49.5 seconds!
+[2018-07-30 23:28:47.463] Initialized Language subsystem within 0 seconds!
+[2018-07-30 23:28:47.823] Initialized Machines subsystem within 0.4 seconds!
+[2018-07-30 23:28:47.875] Initialized Circuit subsystem within 0 seconds!
+[2018-07-30 23:28:47.877] Initialized Disease subsystem within 0 seconds!
+[2018-07-30 23:28:47.877] Initialized Medals subsystem within 0 seconds!
+[2018-07-30 23:28:47.878] Initialized Night Shift subsystem within 0 seconds!
+[2018-07-30 23:28:47.878] Initialized Parallax subsystem within 0 seconds!
+[2018-07-30 23:28:48.006] Initialized Traumas subsystem within 0.2 seconds!
+[2018-07-30 23:28:48.008] Initialized Weather subsystem within 0 seconds!
+[2018-07-30 23:30:09.038] ## WARNING: There are 1 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+[2018-07-30 23:30:09.044] ## WARNING: HEY! LISTEN! 0 seconds were wasted processing 1 turf(s) (connected to 2 other turfs) with atmos differences at round start.
+[2018-07-30 23:30:09.540] Initialized Atmospherics subsystem within 81.5 seconds!
+[2018-07-30 23:30:09.562] Initialized Minimap subsystem within 0 seconds!
+[2018-07-30 23:30:11.883] Initialized Assets subsystem within 2.3 seconds!
+[2018-07-30 23:30:18.076] Initialized Icon Smoothing subsystem within 6.2 seconds!
+[2018-07-30 23:30:19.544] Initialized Overlay subsystem within 1.5 seconds!
+[2018-07-30 23:30:19.544] Initialized XKeyScore subsystem within 0 seconds!
+[2018-07-30 23:30:19.545] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-07-30 23:30:33.212] Initialized Lighting subsystem within 13.7 seconds!
+[2018-07-30 23:30:37.567] Initialized Shuttle subsystem within 4.3 seconds!
+[2018-07-30 23:30:37.607] Initialized Squeak subsystem within 0.1 seconds!
+[2018-07-30 23:30:37.609] Initialized Pathfinder subsystem within 0 seconds!
+[2018-07-30 23:30:37.671] Loaded 25 engraved messages on map Box Station
+[2018-07-30 23:30:37.695] Initialized Persistence subsystem within 0 seconds!
+[2018-07-30 23:30:37.941] Initializations complete within 188.3 seconds!
+[2018-07-30 23:31:51.479] Game start took 5.1s
+[2018-07-30 23:50:22.203] runtime error: Cannot read null.body_part
+[2018-07-30 23:50:22.203] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-30 23:50:22.203]   source file: human_defense.dm,30
+[2018-07-30 23:50:22.203]   usr: 0
+[2018-07-30 23:50:22.203]   src: Jack Gray (/mob/living/carbon/human)
+[2018-07-30 23:50:22.203]   src.loc: the floor (119,162,2) (/turf/open/floor/plasteel/red/corner)
+[2018-07-30 23:50:22.203]   call stack:
+[2018-07-30 23:50:22.203] Jack Gray (/mob/living/carbon/human): checkarmor(null, "laser")
+[2018-07-30 23:50:22.203] Jack Gray (/mob/living/carbon/human): getarmor("r_leg", "laser")
+[2018-07-30 23:50:22.203] Jack Gray (/mob/living/carbon/human): run armor check("r_leg", "laser", "", "", 0, null)
+[2018-07-30 23:50:22.203] Jack Gray (/mob/living/carbon/human): bullet act(the laser (/obj/item/projectile/beam/laser), "r_leg")
+[2018-07-30 23:50:22.203] Jack Gray (/mob/living/carbon/human): bullet act(the laser (/obj/item/projectile/beam/laser), "r_leg")
+[2018-07-30 23:50:22.203] the laser (/obj/item/projectile/beam/laser): Bump(Jack Gray (/mob/living/carbon/human))
+[2018-07-30 23:50:22.203] the floor (119,162,2) (/turf/open/floor/plasteel/red/corner): Enter(the laser (/obj/item/projectile/beam/laser), the floor (119,163,2) (/turf/open/floor/plasteel))
+[2018-07-30 23:50:22.203] the laser (/obj/item/projectile/beam/laser): Move(the floor (119,162,2) (/turf/open/floor/plasteel/red/corner), 2)
+[2018-07-30 23:50:22.203] the laser (/obj/item/projectile/beam/laser): Move(the floor (119,162,2) (/turf/open/floor/plasteel/red/corner), 2)
+[2018-07-30 23:50:22.203] the laser (/obj/item/projectile/beam/laser): pixel move(1, 0)
+[2018-07-30 23:50:22.203] the laser (/obj/item/projectile/beam/laser): process(1)
+[2018-07-30 23:50:22.203] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-30 23:50:22.203] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-30 23:50:22.203] Master (/datum/controller/master): RunQueue()
+[2018-07-30 23:50:22.203] Master (/datum/controller/master): Loop()
+[2018-07-30 23:50:22.203] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-30 23:50:22.203] 
+[2018-07-30 23:50:22.655] runtime error: Cannot read null.body_part
+[2018-07-30 23:50:22.655] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-30 23:50:22.655]   source file: human_defense.dm,30
+[2018-07-30 23:50:22.655]   usr: 0
+[2018-07-30 23:50:22.655]   src: Jack Gray (/mob/living/carbon/human)
+[2018-07-30 23:50:22.655]   src.loc: the floor (119,162,2) (/turf/open/floor/plasteel/red/corner)
+[2018-07-30 23:50:22.655]   call stack:
+[2018-07-30 23:50:22.655] Jack Gray (/mob/living/carbon/human): checkarmor(null, "laser")
+[2018-07-30 23:50:22.655] Jack Gray (/mob/living/carbon/human): getarmor("r_leg", "laser")
+[2018-07-30 23:50:22.655] Jack Gray (/mob/living/carbon/human): run armor check("r_leg", "laser", "", "", 0, null)
+[2018-07-30 23:50:22.655] Jack Gray (/mob/living/carbon/human): bullet act(the laser (/obj/item/projectile/beam/laser), "r_leg")
+[2018-07-30 23:50:22.655] Jack Gray (/mob/living/carbon/human): bullet act(the laser (/obj/item/projectile/beam/laser), "r_leg")
+[2018-07-30 23:50:22.655] the laser (/obj/item/projectile/beam/laser): Bump(Jack Gray (/mob/living/carbon/human))
+[2018-07-30 23:50:22.655] the floor (119,162,2) (/turf/open/floor/plasteel/red/corner): Enter(the laser (/obj/item/projectile/beam/laser), the floor (119,163,2) (/turf/open/floor/plasteel))
+[2018-07-30 23:50:22.655] the laser (/obj/item/projectile/beam/laser): Move(the floor (119,162,2) (/turf/open/floor/plasteel/red/corner), 2)
+[2018-07-30 23:50:22.655] the laser (/obj/item/projectile/beam/laser): Move(the floor (119,162,2) (/turf/open/floor/plasteel/red/corner), 2)
+[2018-07-30 23:50:22.655] the laser (/obj/item/projectile/beam/laser): pixel move(1, 0)
+[2018-07-30 23:50:22.655] the laser (/obj/item/projectile/beam/laser): process(1)
+[2018-07-30 23:50:22.655] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-30 23:50:22.655] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-30 23:50:22.655] Master (/datum/controller/master): RunQueue()
+[2018-07-30 23:50:22.655] Master (/datum/controller/master): Loop()
+[2018-07-30 23:50:22.655] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-30 23:50:22.655] 
+[2018-07-30 23:53:08.678] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-30 23:53:08.678] proc name: stack trace (/proc/stack_trace)
+[2018-07-30 23:53:08.678]   source file: unsorted.dm,1240
+[2018-07-30 23:53:08.678]   usr: Tyron Jamal (/mob/living/carbon/human)
+[2018-07-30 23:53:08.678]   src: null
+[2018-07-30 23:53:08.678]   usr.loc: the floor (169,126,2) (/turf/open/floor/plasteel)
+[2018-07-30 23:53:08.678]   call stack:
+[2018-07-30 23:53:08.678] stack trace("addtimer called with a callbac...")
+[2018-07-30 23:53:08.678] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-30 23:53:08.678] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-30 23:53:08.678] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-30 23:53:08.678] 
+[2018-07-30 23:53:09.180] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-30 23:53:09.180] proc name: stack trace (/proc/stack_trace)
+[2018-07-30 23:53:09.180]   source file: unsorted.dm,1240
+[2018-07-30 23:53:09.180]   usr: Tyron Jamal (/mob/living/carbon/human)
+[2018-07-30 23:53:09.180]   src: null
+[2018-07-30 23:53:09.180]   usr.loc: the floor (169,126,2) (/turf/open/floor/plasteel)
+[2018-07-30 23:53:09.180]   call stack:
+[2018-07-30 23:53:09.180] stack trace("addtimer called with a callbac...")
+[2018-07-30 23:53:09.180] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-30 23:53:09.180] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-30 23:53:09.180] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-30 23:53:09.180] 
+[2018-07-31 00:00:54.723] runtime error: Cannot read null.body_part
+[2018-07-31 00:00:54.723] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 00:00:54.723]   source file: human_defense.dm,30
+[2018-07-31 00:00:54.723]   usr: 0
+[2018-07-31 00:00:54.723]   src: Jack Gray (/mob/living/carbon/human)
+[2018-07-31 00:00:54.723]   src.loc: the floor (112,135,2) (/turf/open/floor/plasteel)
+[2018-07-31 00:00:54.723]   call stack:
+[2018-07-31 00:00:54.723] Jack Gray (/mob/living/carbon/human): checkarmor(null, "energy")
+[2018-07-31 00:00:54.723] Jack Gray (/mob/living/carbon/human): getarmor("r_leg", "energy")
+[2018-07-31 00:00:54.723] Jack Gray (/mob/living/carbon/human): run armor check("r_leg", "energy", "", "", 0, null)
+[2018-07-31 00:00:54.723] Jack Gray (/mob/living/carbon/human): bullet act(the electrode (/obj/item/projectile/energy/electrode), "r_leg")
+[2018-07-31 00:00:54.723] Jack Gray (/mob/living/carbon/human): bullet act(the electrode (/obj/item/projectile/energy/electrode), "r_leg")
+[2018-07-31 00:00:54.723] the electrode (/obj/item/projectile/energy/electrode): Bump(Jack Gray (/mob/living/carbon/human))
+[2018-07-31 00:00:54.723] the floor (112,135,2) (/turf/open/floor/plasteel): Enter(the electrode (/obj/item/projectile/energy/electrode), the floor (111,135,2) (/turf/open/floor/plasteel))
+[2018-07-31 00:00:54.723] the electrode (/obj/item/projectile/energy/electrode): Move(the floor (112,135,2) (/turf/open/floor/plasteel), 4)
+[2018-07-31 00:00:54.723] the electrode (/obj/item/projectile/energy/electrode): Move(the floor (112,135,2) (/turf/open/floor/plasteel), 4)
+[2018-07-31 00:00:54.723] the electrode (/obj/item/projectile/energy/electrode): pixel move(1, 0)
+[2018-07-31 00:00:54.723] the electrode (/obj/item/projectile/energy/electrode): process(1)
+[2018-07-31 00:00:54.723] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-31 00:00:54.723] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-31 00:00:54.723] Master (/datum/controller/master): RunQueue()
+[2018-07-31 00:00:54.723] Master (/datum/controller/master): Loop()
+[2018-07-31 00:00:54.723] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-31 00:00:54.723] 
+[2018-07-31 00:00:56.606] runtime error: Cannot read null.body_part
+[2018-07-31 00:00:56.606] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 00:00:56.606]   source file: human_defense.dm,30
+[2018-07-31 00:00:56.606]   usr: 0
+[2018-07-31 00:00:56.606]   src: Jack Gray (/mob/living/carbon/human)
+[2018-07-31 00:00:56.606]   src.loc: the floor (112,135,2) (/turf/open/floor/plasteel)
+[2018-07-31 00:00:56.606]   call stack:
+[2018-07-31 00:00:56.606] Jack Gray (/mob/living/carbon/human): checkarmor(null, "bullet")
+[2018-07-31 00:00:56.606] Jack Gray (/mob/living/carbon/human): getarmor("chest", "bullet")
+[2018-07-31 00:00:56.606] Jack Gray (/mob/living/carbon/human): run armor check("chest", "bullet", "", "", 0, null)
+[2018-07-31 00:00:56.606] Jack Gray (/mob/living/carbon/human): bullet act(the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot), "chest")
+[2018-07-31 00:00:56.607] Jack Gray (/mob/living/carbon/human): bullet act(the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot), "chest")
+[2018-07-31 00:00:56.607] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): Bump(Jack Gray (/mob/living/carbon/human))
+[2018-07-31 00:00:56.607] the floor (112,135,2) (/turf/open/floor/plasteel): Enter(the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot), the floor (111,135,2) (/turf/open/floor/plasteel))
+[2018-07-31 00:00:56.607] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): Move(the floor (112,135,2) (/turf/open/floor/plasteel), 4)
+[2018-07-31 00:00:56.607] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): Move(the floor (112,135,2) (/turf/open/floor/plasteel), 4)
+[2018-07-31 00:00:56.607] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): pixel move(1, 0)
+[2018-07-31 00:00:56.607] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): process(1)
+[2018-07-31 00:00:56.607] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(1)
+[2018-07-31 00:00:56.607] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(1)
+[2018-07-31 00:00:56.607] Master (/datum/controller/master): RunQueue()
+[2018-07-31 00:00:56.607] Master (/datum/controller/master): Loop()
+[2018-07-31 00:00:56.607] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-31 00:00:56.607] 
+[2018-07-31 00:00:57.355] runtime error: Cannot read null.body_part
+[2018-07-31 00:00:57.355] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 00:00:57.355]   source file: human_defense.dm,30
+[2018-07-31 00:00:57.355]   usr: 0
+[2018-07-31 00:00:57.355]   src: Jack Gray (/mob/living/carbon/human)
+[2018-07-31 00:00:57.355]   src.loc: the floor (112,135,2) (/turf/open/floor/plasteel)
+[2018-07-31 00:00:57.355]   call stack:
+[2018-07-31 00:00:57.355] Jack Gray (/mob/living/carbon/human): checkarmor(null, "bullet")
+[2018-07-31 00:00:57.355] Jack Gray (/mob/living/carbon/human): getarmor("l_leg", "bullet")
+[2018-07-31 00:00:57.355] Jack Gray (/mob/living/carbon/human): run armor check("l_leg", "bullet", "", "", 0, null)
+[2018-07-31 00:00:57.355] Jack Gray (/mob/living/carbon/human): bullet act(the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot), "l_leg")
+[2018-07-31 00:00:57.355] Jack Gray (/mob/living/carbon/human): bullet act(the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot), "l_leg")
+[2018-07-31 00:00:57.355] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): Bump(Jack Gray (/mob/living/carbon/human))
+[2018-07-31 00:00:57.355] the floor (112,135,2) (/turf/open/floor/plasteel): Enter(the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot), the floor (111,135,2) (/turf/open/floor/plasteel))
+[2018-07-31 00:00:57.355] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): Move(the floor (112,135,2) (/turf/open/floor/plasteel), 4)
+[2018-07-31 00:00:57.355] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): Move(the floor (112,135,2) (/turf/open/floor/plasteel), 4)
+[2018-07-31 00:00:57.355] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): pixel move(1, 0)
+[2018-07-31 00:00:57.355] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): process(1)
+[2018-07-31 00:00:57.355] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(1)
+[2018-07-31 00:00:57.355] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(1)
+[2018-07-31 00:00:57.355] Master (/datum/controller/master): RunQueue()
+[2018-07-31 00:00:57.355] Master (/datum/controller/master): Loop()
+[2018-07-31 00:00:57.355] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-31 00:00:57.355] 
+[2018-07-31 00:00:58.248] runtime error: Cannot read null.body_part
+[2018-07-31 00:00:58.248] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-31 00:00:58.248]   source file: human_defense.dm,30
+[2018-07-31 00:00:58.248]   usr: 0
+[2018-07-31 00:00:58.248]   src: Jack Gray (/mob/living/carbon/human)
+[2018-07-31 00:00:58.248]   src.loc: the floor (112,135,2) (/turf/open/floor/plasteel)
+[2018-07-31 00:00:58.248]   call stack:
+[2018-07-31 00:00:58.248] Jack Gray (/mob/living/carbon/human): checkarmor(null, "bullet")
+[2018-07-31 00:00:58.248] Jack Gray (/mob/living/carbon/human): getarmor("l_leg", "bullet")
+[2018-07-31 00:00:58.248] Jack Gray (/mob/living/carbon/human): run armor check("l_leg", "bullet", "", "", 0, null)
+[2018-07-31 00:00:58.248] Jack Gray (/mob/living/carbon/human): bullet act(the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot), "l_leg")
+[2018-07-31 00:00:58.248] Jack Gray (/mob/living/carbon/human): bullet act(the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot), "l_leg")
+[2018-07-31 00:00:58.248] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): Bump(Jack Gray (/mob/living/carbon/human))
+[2018-07-31 00:00:58.248] the floor (112,135,2) (/turf/open/floor/plasteel): Enter(the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot), the floor (111,135,2) (/turf/open/floor/plasteel))
+[2018-07-31 00:00:58.248] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): Move(the floor (112,135,2) (/turf/open/floor/plasteel), 4)
+[2018-07-31 00:00:58.248] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): Move(the floor (112,135,2) (/turf/open/floor/plasteel), 4)
+[2018-07-31 00:00:58.248] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): pixel move(1, 0)
+[2018-07-31 00:00:58.248] the buckshot pellet (/obj/item/projectile/bullet/pellet/shotgun_buckshot): process(1)
+[2018-07-31 00:00:58.248] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(1)
+[2018-07-31 00:00:58.248] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(1)
+[2018-07-31 00:00:58.248] Master (/datum/controller/master): RunQueue()
+[2018-07-31 00:00:58.248] Master (/datum/controller/master): Loop()
+[2018-07-31 00:00:58.248] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-31 00:00:58.248] 
+[2018-07-31 00:13:58.837] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-31 00:13:58.837] proc name: stack trace (/proc/stack_trace)
+[2018-07-31 00:13:58.837]   source file: unsorted.dm,1240
+[2018-07-31 00:13:58.837]   usr: Nerissa Ratcliff (/mob/living/carbon/human)
+[2018-07-31 00:13:58.837]   src: null
+[2018-07-31 00:13:58.837]   usr.loc: the plating (126,122,2) (/turf/open/floor/plating)
+[2018-07-31 00:13:58.837]   call stack:
+[2018-07-31 00:13:58.837] stack trace("addtimer called with a callbac...")
+[2018-07-31 00:13:58.837] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-31 00:13:58.837] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-31 00:13:58.837] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-31 00:13:58.837] 
+[2018-07-31 00:14:11.451] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-31 00:14:11.451] proc name: stack trace (/proc/stack_trace)
+[2018-07-31 00:14:11.451]   source file: unsorted.dm,1240
+[2018-07-31 00:14:11.451]   usr: Nerissa Ratcliff (/mob/living/carbon/human)
+[2018-07-31 00:14:11.451]   src: null
+[2018-07-31 00:14:11.451]   usr.loc: the floor (121,124,2) (/turf/open/floor/wood)
+[2018-07-31 00:14:11.451]   call stack:
+[2018-07-31 00:14:11.451] stack trace("addtimer called with a callbac...")
+[2018-07-31 00:14:11.451] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-31 00:14:11.451] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-31 00:14:11.451] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-31 00:14:11.451] 
+[2018-07-31 00:22:02.806] Shutting down Persistence subsystem...
+[2018-07-31 00:22:02.806] Shutting down Pathfinder subsystem...
+[2018-07-31 00:22:02.806] Shutting down Squeak subsystem...
+[2018-07-31 00:22:02.806] Shutting down Shuttle subsystem...
+[2018-07-31 00:22:02.806] Shutting down Lighting subsystem...
+[2018-07-31 00:22:02.806] Shutting down XKeyScore subsystem...
+[2018-07-31 00:22:02.806] Shutting down Sticky Ban subsystem...
+[2018-07-31 00:22:02.806] Shutting down Overlay subsystem...
+[2018-07-31 00:22:02.843] Shutting down Icon Smoothing subsystem...
+[2018-07-31 00:22:02.843] Shutting down Assets subsystem...
+[2018-07-31 00:22:02.843] Shutting down Minimap subsystem...
+[2018-07-31 00:22:02.843] Shutting down Atmospherics subsystem...
+[2018-07-31 00:22:02.843] Shutting down Wet floors subsystem...
+[2018-07-31 00:22:02.843] Shutting down Weather subsystem...
+[2018-07-31 00:22:02.843] Shutting down Vote subsystem...
+[2018-07-31 00:22:02.843] Shutting down Traumas subsystem...
+[2018-07-31 00:22:02.843] Shutting down Title Screen subsystem...
+[2018-07-31 00:22:02.844] Shutting down Time Tracking subsystem...
+[2018-07-31 00:22:02.845] Shutting down Throwing subsystem...
+[2018-07-31 00:22:02.845] Shutting down tgui subsystem...
+[2018-07-31 00:22:02.845] Shutting down Sun subsystem...
+[2018-07-31 00:22:02.845] Shutting down Space Drift subsystem...
+[2018-07-31 00:22:02.845] Shutting down Religion subsystem...
+[2018-07-31 00:22:02.845] Shutting down Radio subsystem...
+[2018-07-31 00:22:02.845] Shutting down Radiation subsystem...
+[2018-07-31 00:22:02.845] Shutting down Projectiles subsystem...
+[2018-07-31 00:22:02.845] Shutting down Processing subsystem...
+[2018-07-31 00:22:02.845] Shutting down Ping subsystem...
+[2018-07-31 00:22:02.845] Shutting down Parallax subsystem...
+[2018-07-31 00:22:02.845] Shutting down pAI subsystem...
+[2018-07-31 00:22:02.845] Shutting down Orbits subsystem...
+[2018-07-31 00:22:02.845] Shutting down Objects subsystem...
+[2018-07-31 00:22:02.845] Shutting down NPC Pool subsystem...
+[2018-07-31 00:22:02.845] Shutting down Night Shift subsystem...
+[2018-07-31 00:22:02.845] Shutting down Mood subsystem...
+[2018-07-31 00:22:02.845] Shutting down Mobs subsystem...
+[2018-07-31 00:22:02.845] Shutting down Medals subsystem...
+[2018-07-31 00:22:02.845] Shutting down Idling NPC Pool subsystem...
+[2018-07-31 00:22:02.845] Shutting down Fire Burning subsystem...
+[2018-07-31 00:22:02.846] Shutting down Fields subsystem...
+[2018-07-31 00:22:02.846] Shutting down Fast Processing subsystem...
+[2018-07-31 00:22:02.846] Shutting down Disease subsystem...
+[2018-07-31 00:22:02.846] Shutting down Datum Component System subsystem...
+[2018-07-31 00:22:02.846] Shutting down Communications subsystem...
+[2018-07-31 00:22:02.846] Shutting down Augury subsystem...
+[2018-07-31 00:22:02.846] Shutting down Acid subsystem...
+[2018-07-31 00:22:02.846] Shutting down Timer subsystem...
+[2018-07-31 00:22:02.846] Shutting down Circuit subsystem...
+[2018-07-31 00:22:02.846] Shutting down Machines subsystem...
+[2018-07-31 00:22:02.846] Shutting down Language subsystem...
+[2018-07-31 00:22:02.846] Shutting down Atoms subsystem...
+[2018-07-31 00:22:02.847] Shutting down Networks subsystem...
+[2018-07-31 00:22:02.847] Shutting down Mapping subsystem...
+[2018-07-31 00:22:02.847] Shutting down Ticker subsystem...
+[2018-07-31 00:22:03.068] Shutting down Quirks subsystem...
+[2018-07-31 00:22:03.068] Shutting down Jobs subsystem...
+[2018-07-31 00:22:03.068] Shutting down Events subsystem...
+[2018-07-31 00:22:03.068] Shutting down Research subsystem...
+[2018-07-31 00:22:03.068] Shutting down Input subsystem...
+[2018-07-31 00:22:03.068] Shutting down Server Tasks subsystem...
+[2018-07-31 00:22:03.069] Shutting down Blackbox subsystem...
+[2018-07-31 00:22:03.291] Shutting down Database subsystem...
+[2018-07-31 00:22:03.329] Shutting down Garbage subsystem...
+[2018-07-31 00:22:03.422] Shutdown complete
+[2018-07-31 00:22:03.422] World rebooted at 00:22:03

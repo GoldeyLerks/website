@@ -1,0 +1,1716 @@
+
+
+Starting up round ID 1351. 19:27:34
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0.1 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading PubbyStation...
+Loaded Station in 13.7s!
+Loaded Lavaland in 7.6s!
+Loaded Reebe in 7s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 46.5 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 50.3 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 209 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 209 turf(s) (connected to 20920 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 17.5 seconds!
+Failed to find backup file for map PubbyStation on zlevel 2.
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 7.3 seconds!
+Initialized Overlay subsystem within 27.3 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 16.9 seconds!
+Initialized Shuttle subsystem within 25.5 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 3 engraved messages on map PubbyStation
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 193.3 seconds!
+runtime error: 
+[19:34:12]addtimer called with a callback assigned to a qdeleted object
+[19:34:12]proc name: stack trace (/proc/stack_trace)
+[19:34:12]  source file: unsorted.dm,1254
+[19:34:12]  usr: (src)
+[19:34:12]  src: null
+[19:34:12]  call stack:
+[19:34:12]stack trace("addtimer called with a callbac...")
+[19:34:12]addtimer(/datum/callback (/datum/callback), 10, 4)
+[19:34:12] (/mob/living/carbon/human): clear fullscreen("nearsighted", 10)
+[19:34:12] (/mob/living/carbon/human): equip to slot(the prescription glasses (/obj/item/clothing/glasses/regular), 8)
+[19:34:12]Nearsighted (/datum/trait/nearsighted): on spawn()
+[19:34:12]Nearsighted (/datum/trait/nearsighted): New( (/mob/living/carbon/human), 1)
+[19:34:12] (/mob/living/carbon/human): add trait datum("Nearsighted", 1)
+[19:34:12]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), GreenTea98 (/client), 1)
+[19:34:12]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[19:34:12]Ticker (/datum/controller/subsystem/ticker): setup()
+[19:34:12]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[19:34:12]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+Game start took 20.4s
+runtime error: 
+[19:35:05]Cannot read null.z
+[19:35:05]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:05]  source file: dna_console.dm,68
+[19:35:05]  usr: Lisa Standley (/mob/living/carbon/human)
+[19:35:05]  src: the DNA scanner access console (/obj/machinery/computer/scan_consolenew)
+[19:35:05]  usr.loc: the floor (94,117,2) (/turf/open/floor/plasteel/white)
+[19:35:05]  src.loc: the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side)
+[19:35:05]  call stack:
+[19:35:05]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): ui interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:05]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:05]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:05]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:05]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:05]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:05]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:05]Lisa Standley (/mob/living/carbon/human): UnarmedAttack(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), 1)
+[19:35:05]Lisa Standley (/mob/living/carbon/human): ClickOn(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), "icon-x=16;icon-y=19;left=1;scr...")
+[19:35:05]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): Click(the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side), "mapwindow.map", "icon-x=16;icon-y=19;left=1;scr...")
+runtime error: 
+[19:35:07]Cannot read null.z
+[19:35:07]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:07]  source file: dna_console.dm,68
+[19:35:07]  usr: Lisa Standley (/mob/living/carbon/human)
+[19:35:07]  src: the DNA scanner access console (/obj/machinery/computer/scan_consolenew)
+[19:35:07]  usr.loc: the floor (94,117,2) (/turf/open/floor/plasteel/white)
+[19:35:07]  src.loc: the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side)
+[19:35:07]  call stack:
+[19:35:07]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): ui interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:07]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:07]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:07]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:07]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:07]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:07]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:07]Lisa Standley (/mob/living/carbon/human): UnarmedAttack(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), 1)
+[19:35:07]Lisa Standley (/mob/living/carbon/human): ClickOn(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), "icon-x=16;icon-y=19;left=1;scr...")
+[19:35:07]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): Click(the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side), "mapwindow.map", "icon-x=16;icon-y=19;left=1;scr...")
+runtime error: 
+[19:35:10]Cannot read null.z
+[19:35:10]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:10]  source file: dna_console.dm,68
+[19:35:10]  usr: Lisa Standley (/mob/living/carbon/human)
+[19:35:10]  src: the DNA scanner access console (/obj/machinery/computer/scan_consolenew)
+[19:35:10]  usr.loc: the floor (94,117,2) (/turf/open/floor/plasteel/white)
+[19:35:10]  src.loc: the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side)
+[19:35:10]  call stack:
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): ui interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:10]Lisa Standley (/mob/living/carbon/human): UnarmedAttack(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), 1)
+[19:35:10]Lisa Standley (/mob/living/carbon/human): ClickOn(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), "icon-x=24;icon-y=15;left=1;scr...")
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): Click(the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side), "mapwindow.map", "icon-x=24;icon-y=15;left=1;scr...")
+runtime error: 
+[19:35:10]Cannot read null.z
+[19:35:10]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:10]  source file: dna_console.dm,68
+[19:35:10]  usr: Lisa Standley (/mob/living/carbon/human)
+[19:35:10]  src: the DNA scanner access console (/obj/machinery/computer/scan_consolenew)
+[19:35:10]  usr.loc: the floor (94,117,2) (/turf/open/floor/plasteel/white)
+[19:35:10]  src.loc: the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side)
+[19:35:10]  call stack:
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): ui interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:10]Lisa Standley (/mob/living/carbon/human): UnarmedAttack(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), 1)
+[19:35:10]Lisa Standley (/mob/living/carbon/human): ClickOn(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), "icon-x=24;icon-y=15;left=1;scr...")
+[19:35:10]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): Click(the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side), "mapwindow.map", "icon-x=24;icon-y=15;left=1;scr...")
+runtime error: 
+[19:35:15]Cannot read null.z
+[19:35:15]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:15]  source file: dna_console.dm,68
+[19:35:15]  usr: Lisa Standley (/mob/living/carbon/human)
+[19:35:15]  src: the DNA scanner access console (/obj/machinery/computer/scan_consolenew)
+[19:35:15]  usr.loc: the floor (94,117,2) (/turf/open/floor/plasteel/white)
+[19:35:15]  src.loc: the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side)
+[19:35:15]  call stack:
+[19:35:15]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): ui interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:15]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:15]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:15]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:15]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:15]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:15]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:15]Lisa Standley (/mob/living/carbon/human): UnarmedAttack(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), 1)
+[19:35:15]Lisa Standley (/mob/living/carbon/human): ClickOn(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), "icon-x=18;icon-y=22;left=1;scr...")
+[19:35:15]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): Click(the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side), "mapwindow.map", "icon-x=18;icon-y=22;left=1;scr...")
+runtime error: 
+[19:35:21]Cannot read null.z
+[19:35:21]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:21]  source file: dna_console.dm,68
+[19:35:21]  usr: Lisa Standley (/mob/living/carbon/human)
+[19:35:21]  src: the DNA scanner access console (/obj/machinery/computer/scan_consolenew)
+[19:35:21]  usr.loc: the floor (94,117,2) (/turf/open/floor/plasteel/white)
+[19:35:21]  src.loc: the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side)
+[19:35:21]  call stack:
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): ui interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:21]Lisa Standley (/mob/living/carbon/human): UnarmedAttack(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), 1)
+[19:35:21]Lisa Standley (/mob/living/carbon/human): ClickOn(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), "icon-x=23;icon-y=16;left=1;scr...")
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): Click(the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side), "mapwindow.map", "icon-x=23;icon-y=16;left=1;scr...")
+runtime error: 
+[19:35:21]Cannot read null.z
+[19:35:21]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:21]  source file: dna_console.dm,68
+[19:35:21]  usr: Lisa Standley (/mob/living/carbon/human)
+[19:35:21]  src: the DNA scanner access console (/obj/machinery/computer/scan_consolenew)
+[19:35:21]  usr.loc: the floor (94,117,2) (/turf/open/floor/plasteel/white)
+[19:35:21]  src.loc: the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side)
+[19:35:21]  call stack:
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): ui interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): interact(Lisa Standley (/mob/living/carbon/human), null)
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew):  try interact(Lisa Standley (/mob/living/carbon/human))
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): attack hand(Lisa Standley (/mob/living/carbon/human))
+[19:35:21]Lisa Standley (/mob/living/carbon/human): UnarmedAttack(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), 1)
+[19:35:21]Lisa Standley (/mob/living/carbon/human): ClickOn(the DNA scanner access console (/obj/machinery/computer/scan_consolenew), "icon-x=23;icon-y=16;left=1;scr...")
+[19:35:21]the DNA scanner access console (/obj/machinery/computer/scan_consolenew): Click(the floor (94,116,2) (/turf/open/floor/plasteel/whitepurple/side), "mapwindow.map", "icon-x=23;icon-y=16;left=1;scr...")
+runtime error: 
+[19:35:21]Cannot read null.z
+[19:35:21]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:21]  source file: dna_console.dm,68
+runtime error: 
+[19:35:21]Cannot read null.z
+[19:35:21]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:21]  source file: dna_console.dm,68
+runtime error: 
+[19:35:21]Cannot read null.z
+[19:35:21]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:21]  source file: dna_console.dm,68
+runtime error: 
+[19:35:21]Cannot read null.z
+[19:35:21]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:21]  source file: dna_console.dm,68
+runtime error: 
+[19:35:22]Cannot read null.z
+[19:35:22]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:22]  source file: dna_console.dm,68
+runtime error: 
+[19:35:22]Cannot read null.z
+[19:35:22]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:22]  source file: dna_console.dm,68
+runtime error: 
+[19:35:22]Cannot read null.z
+[19:35:22]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:22]  source file: dna_console.dm,68
+runtime error: 
+[19:35:26]Cannot read null.z
+[19:35:26]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:26]  source file: dna_console.dm,68
+runtime error: 
+[19:35:27]Cannot read null.z
+[19:35:27]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:27]  source file: dna_console.dm,68
+runtime error: 
+[19:35:33]Cannot read null.z
+[19:35:33]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:33]  source file: dna_console.dm,68
+runtime error: 
+[19:35:38]Cannot read null.z
+[19:35:38]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:38]  source file: dna_console.dm,68
+runtime error: 
+[19:35:38]Cannot read null.z
+[19:35:38]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:38]  source file: dna_console.dm,68
+runtime error: 
+[19:35:38]Cannot read null.z
+[19:35:38]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:38]  source file: dna_console.dm,68
+runtime error: 
+[19:35:38]Cannot read null.z
+[19:35:38]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:38]  source file: dna_console.dm,68
+runtime error: 
+[19:35:39]Cannot read null.z
+[19:35:39]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:39]  source file: dna_console.dm,68
+runtime error: 
+[19:35:39]Cannot read null.z
+[19:35:39]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:35:39]  source file: dna_console.dm,68
+runtime error: 
+[19:36:03]Cannot read null.z
+[19:36:03]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:03]  source file: dna_console.dm,68
+runtime error: 
+[19:36:04]Cannot read null.z
+[19:36:04]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:04]  source file: dna_console.dm,68
+runtime error: 
+[19:36:04]Cannot read null.z
+[19:36:04]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:04]  source file: dna_console.dm,68
+runtime error: 
+[19:36:04]Cannot read null.z
+[19:36:04]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:04]  source file: dna_console.dm,68
+runtime error: 
+[19:36:04]Cannot read null.z
+[19:36:04]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:04]  source file: dna_console.dm,68
+runtime error: 
+[19:36:04]Cannot read null.z
+[19:36:04]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:04]  source file: dna_console.dm,68
+runtime error: 
+[19:36:06]Cannot read null.z
+[19:36:06]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:06]  source file: dna_console.dm,68
+runtime error: 
+[19:36:07]nothing to animate
+[19:36:07]proc name: shake camera (/proc/shake_camera)
+[19:36:07]  source file: mob_helpers.dm,270
+runtime error: 
+[19:36:19]Cannot read null.z
+[19:36:19]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:19]  source file: dna_console.dm,68
+runtime error: 
+[19:36:19]Cannot read null.z
+[19:36:19]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:19]  source file: dna_console.dm,68
+runtime error: 
+[19:36:19]Cannot read null.z
+[19:36:19]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:19]  source file: dna_console.dm,68
+runtime error: 
+[19:36:20]Cannot read null.z
+[19:36:20]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:20]  source file: dna_console.dm,68
+runtime error: 
+[19:36:20]Cannot read null.z
+[19:36:20]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:20]  source file: dna_console.dm,68
+runtime error: 
+[19:36:20]Cannot read null.z
+[19:36:20]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:20]  source file: dna_console.dm,68
+runtime error: 
+[19:36:20]Cannot read null.z
+[19:36:20]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:20]  source file: dna_console.dm,68
+runtime error: 
+[19:36:20]Cannot read null.z
+[19:36:20]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:20]  source file: dna_console.dm,68
+runtime error: 
+[19:36:21]Cannot read null.z
+[19:36:21]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:21]  source file: dna_console.dm,68
+runtime error: 
+[19:36:21]Cannot read null.z
+[19:36:21]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:21]  source file: dna_console.dm,68
+runtime error: 
+[19:36:21]Cannot read null.z
+[19:36:21]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:21]  source file: dna_console.dm,68
+runtime error: 
+[19:36:21]Cannot read null.z
+[19:36:21]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:21]  source file: dna_console.dm,68
+runtime error: 
+[19:36:21]Cannot read null.z
+[19:36:21]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:21]  source file: dna_console.dm,68
+runtime error: 
+[19:36:22]Cannot read null.z
+[19:36:22]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:22]  source file: dna_console.dm,68
+runtime error: 
+[19:36:22]Cannot read null.z
+[19:36:22]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:22]  source file: dna_console.dm,68
+runtime error: 
+[19:36:22]Cannot read null.z
+[19:36:22]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:22]  source file: dna_console.dm,68
+runtime error: 
+[19:36:22]Cannot read null.z
+[19:36:22]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:22]  source file: dna_console.dm,68
+runtime error: 
+[19:36:53]Cannot read null.z
+[19:36:53]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:53]  source file: dna_console.dm,68
+runtime error: 
+[19:36:54]Cannot read null.z
+[19:36:54]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:54]  source file: dna_console.dm,68
+runtime error: 
+[19:36:54]Cannot read null.z
+[19:36:54]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:54]  source file: dna_console.dm,68
+runtime error: 
+[19:36:54]Cannot read null.z
+[19:36:54]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:54]  source file: dna_console.dm,68
+runtime error: 
+[19:36:55]Cannot read null.z
+[19:36:55]proc name: ui interact (/obj/machinery/computer/scan_consolenew/ui_interact)
+[19:36:55]  source file: dna_console.dm,68
+### MAP WARNING, Mining Shuttle Airlock at Mining Shuttle (54,36,5) failed to find a valid airlock to cyclelink with!
+runtime error: 
+[19:40:30]Cannot read null.z
+[19:40:30]proc name: user buckle mob (/obj/vehicle/ridden/user_buckle_mob)
+[19:40:30]  source file: ridden.dm,65
+runtime error: 
+[19:40:35]Cannot read null.z
+[19:40:35]proc name: user buckle mob (/obj/vehicle/ridden/user_buckle_mob)
+[19:40:35]  source file: ridden.dm,65
+runtime error: 
+[19:40:37]Cannot read null.z
+[19:40:37]proc name: user buckle mob (/obj/vehicle/ridden/user_buckle_mob)
+[19:40:37]  source file: ridden.dm,65
+runtime error: 
+[19:40:40]Cannot read null.z
+[19:40:40]proc name: user buckle mob (/obj/vehicle/ridden/user_buckle_mob)
+[19:40:40]  source file: ridden.dm,65
+runtime error: 
+[19:40:42]Cannot read null.z
+[19:40:42]proc name: user buckle mob (/obj/vehicle/ridden/user_buckle_mob)
+[19:40:42]  source file: ridden.dm,65
+runtime error: 
+[19:40:44]Cannot read null.z
+[19:40:44]proc name: user buckle mob (/obj/vehicle/ridden/user_buckle_mob)
+[19:40:44]  source file: ridden.dm,65
+runtime error: 
+[19:40:53]Cannot read null.z
+[19:40:53]proc name: user buckle mob (/obj/vehicle/ridden/user_buckle_mob)
+[19:40:53]  source file: ridden.dm,65
+runtime error: 
+[19:40:57]Cannot read null.z
+[19:40:57]proc name: user buckle mob (/obj/vehicle/ridden/user_buckle_mob)
+[19:40:57]  source file: ridden.dm,65
+runtime error: 
+[19:41:00]Cannot read null.z
+[19:41:00]proc name: user buckle mob (/obj/vehicle/ridden/user_buckle_mob)
+[19:41:00]  source file: ridden.dm,65
+runtime error: 
+[19:41:10]Cannot read null.z
+[19:41:10]proc name: user buckle mob (/atom/movable/proc/user_buckle_mob)
+[19:41:10]  source file: buckling.dm,110
+runtime error: 
+[19:41:18]Cannot read null.z
+[19:41:18]proc name: user buckle mob (/atom/movable/proc/user_buckle_mob)
+[19:41:18]  source file: buckling.dm,110
+runtime error: 
+[19:46:17]Cannot read null.z
+runtime error: 
+[19:47:09]Cannot read null.z
+runtime error: 
+[19:47:13]Cannot read null.z
+runtime error: 
+[19:47:48]Cannot read null.z
+runtime error: 
+[19:47:50]undefined variable /datum/asset/simple/paper/var/z
+runtime error: 
+[19:47:56]Cannot read null.z
+runtime error: 
+[19:48:15]Cannot read null.z
+runtime error: 
+[19:48:15]Cannot read null.z
+runtime error: 
+[19:48:15]Cannot read null.z
+runtime error: 
+[19:48:15]Cannot read null.z
+runtime error: 
+[19:48:16]Cannot read null.z
+runtime error: 
+[19:48:16]Cannot read null.z
+runtime error: 
+[19:48:16]Cannot read null.z
+runtime error: 
+[19:48:16]Cannot read null.z
+runtime error: 
+[19:48:17]Cannot read null.z
+runtime error: 
+[19:48:17]Cannot read null.z
+runtime error: 
+[19:48:17]Cannot read null.z
+runtime error: 
+[19:48:17]Cannot read null.z
+runtime error: 
+[19:48:18]Cannot read null.z
+runtime error: 
+[19:48:25]Cannot read null.z
+runtime error: 
+[19:48:26]Cannot read null.z
+runtime error: 
+[19:48:27]Cannot read null.z
+runtime error: 
+[19:48:53]Cannot read null.z
+runtime error: 
+[19:48:53]Cannot read null.z
+runtime error: 
+[19:48:54]Cannot read null.z
+runtime error: 
+[19:48:54]Cannot read null.z
+runtime error: 
+[19:48:54]Cannot read null.z
+runtime error: 
+[19:48:54]Cannot read null.z
+runtime error: 
+[19:48:54]Cannot read null.z
+runtime error: 
+[19:48:55]Cannot read null.z
+runtime error: 
+[19:48:55]Cannot read null.z
+runtime error: 
+[19:48:55]Cannot read null.z
+runtime error: 
+[19:48:55]Cannot read null.z
+runtime error: 
+[19:48:55]Cannot read null.z
+runtime error: 
+[19:48:55]Cannot read null.z
+runtime error: 
+[19:48:56]Cannot read null.z
+runtime error: 
+[19:48:56]Cannot read null.z
+runtime error: 
+[19:48:56]Cannot read null.z
+runtime error: 
+[19:49:46]Cannot read null.z
+runtime error: 
+[19:49:46]Cannot read null.z
+runtime error: 
+[19:49:46]Cannot read null.z
+runtime error: 
+[19:49:57]No valid destination passed into forceMove
+runtime error: 
+[19:49:57]No valid destination passed into forceMove
+runtime error: 
+[19:49:57]No valid destination passed into forceMove
+runtime error: 
+[19:49:57]No valid destination passed into forceMove
+runtime error: 
+[19:49:57]No valid destination passed into forceMove
+runtime error: 
+[19:49:57]No valid destination passed into forceMove
+runtime error: 
+[19:49:57]No valid destination passed into forceMove
+runtime error: 
+[19:49:57]No valid destination passed into forceMove
+runtime error: 
+[19:49:57]No valid destination passed into forceMove
+runtime error: 
+[19:49:57]No valid destination passed into forceMove
+runtime error: 
+[19:49:57]No valid destination passed into forceMove
+runtime error: 
+[19:49:57]No valid destination passed into forceMove
+runtime error: 
+[19:49:58]No valid destination passed into forceMove
+runtime error: 
+[19:49:58]No valid destination passed into forceMove
+runtime error: 
+[19:49:58]No valid destination passed into forceMove
+runtime error: 
+[19:49:58]No valid destination passed into forceMove
+runtime error: 
+[19:49:58]No valid destination passed into forceMove
+runtime error: 
+[19:49:58]No valid destination passed into forceMove
+runtime error: 
+[19:50:02]Cannot read null.z
+runtime error: 
+[19:50:02]Cannot read null.z
+runtime error: 
+[19:50:02]Cannot read null.z
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:03]No valid destination passed into forceMove
+runtime error: 
+[19:50:04]No valid destination passed into forceMove
+runtime error: 
+[19:50:04]No valid destination passed into forceMove
+runtime error: 
+[19:50:04]No valid destination passed into forceMove
+runtime error: 
+[19:50:04]No valid destination passed into forceMove
+runtime error: 
+[19:50:04]No valid destination passed into forceMove
+runtime error: 
+[19:50:04]No valid destination passed into forceMove
+runtime error: 
+[19:50:04]No valid destination passed into forceMove
+runtime error: 
+[19:50:04]No valid destination passed into forceMove
+runtime error: 
+[19:50:04]No valid destination passed into forceMove
+runtime error: 
+[19:50:04]No valid destination passed into forceMove
+runtime error: 
+[19:50:04]No valid destination passed into forceMove
+runtime error: 
+[19:50:04]No valid destination passed into forceMove
+runtime error: 
+[19:50:05]Cannot read null.z
+runtime error: 
+[19:50:05]Cannot read null.z
+runtime error: 
+[19:50:05]Cannot read null.z
+runtime error: 
+[19:50:05]Cannot read null.z
+runtime error: 
+[19:50:06]Cannot read null.z
+runtime error: 
+[19:50:06]Cannot read null.z
+runtime error: 
+[19:50:06]Cannot read null.z
+runtime error: 
+[19:50:07]Cannot read null.z
+runtime error: 
+[19:50:07]Cannot read null.z
+runtime error: 
+[19:50:07]Cannot read null.z
+runtime error: 
+[19:50:07]Cannot read null.z
+runtime error: 
+[19:50:07]Cannot read null.z
+runtime error: 
+[19:50:07]Cannot read null.z
+runtime error: 
+[19:50:08]Cannot read null.z
+runtime error: 
+[19:50:08]Cannot read null.z
+runtime error: 
+[19:50:08]Cannot read null.z
+runtime error: 
+[19:50:15]No valid destination passed into forceMove
+runtime error: 
+[19:50:15]No valid destination passed into forceMove
+runtime error: 
+[19:50:15]No valid destination passed into forceMove
+runtime error: 
+[19:50:15]No valid destination passed into forceMove
+runtime error: 
+[19:50:15]No valid destination passed into forceMove
+runtime error: 
+[19:50:15]No valid destination passed into forceMove
+runtime error: 
+[19:52:14]Cannot read null.z
+runtime error: 
+[19:52:15]Cannot read null.z
+runtime error: 
+[19:52:15]Cannot read null.z
+runtime error: 
+[19:52:15]Cannot read null.z
+runtime error: 
+[19:52:15]Cannot read null.z
+runtime error: 
+[19:52:48]Cannot read null.z
+runtime error: 
+[19:53:17]nothing to animate
+runtime error: 
+[19:55:38]undefined variable /datum/song/handheld/var/z
+runtime error: 
+[19:55:44]undefined variable /datum/song/handheld/var/z
+runtime error: 
+[19:55:52]Cannot read null.z
+runtime error: 
+[19:55:54]Cannot read null.z
+runtime error: 
+[19:55:56]Cannot read null.z
+runtime error: 
+[19:55:57]Cannot read null.z
+runtime error: 
+[19:55:57]Cannot read null.z
+runtime error: 
+[19:55:58]undefined variable /datum/song/handheld/var/z
+runtime error: 
+[19:56:25]undefined variable /datum/song/handheld/var/z
+runtime error: 
+[19:56:30]undefined variable /datum/song/handheld/var/z
+runtime error: 
+[19:56:34]undefined variable /datum/song/handheld/var/z
+runtime error: 
+[19:56:50]nothing to animate
+runtime error: 
+[19:57:35]Cannot read null.z
+runtime error: 
+[19:57:45]Cannot read null.z
+runtime error: 
+[19:57:56]Cannot read null.z
+runtime error: 
+[19:57:57]Cannot read null.z
+runtime error: 
+[19:59:00]Cannot read null.client
+runtime error: 
+[19:59:00]nothing to animate
+runtime error: 
+[19:59:20]Cannot read null.z
+runtime error: 
+[20:00:02]Cannot read null.client
+runtime error: 
+[20:00:32]Cannot read null.z
+runtime error: 
+[20:00:33]Cannot read null.z
+runtime error: 
+[20:01:01]No valid destination passed into forceMove
+runtime error: 
+[20:01:01]No valid destination passed into forceMove
+runtime error: 
+[20:01:01]No valid destination passed into forceMove
+runtime error: 
+[20:01:01]No valid destination passed into forceMove
+runtime error: 
+[20:01:01]No valid destination passed into forceMove
+runtime error: 
+[20:01:01]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:02]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:01:08]No valid destination passed into forceMove
+runtime error: 
+[20:04:05]Cannot read null.z
+runtime error: 
+[20:04:10]Cannot read null.z
+runtime error: 
+[20:04:49]Cannot read null.z
+runtime error: 
+[20:06:16]Cannot read null.z
+runtime error: 
+[20:08:30]Cannot read null.z
+runtime error: 
+[20:08:31]Cannot read null.z
+runtime error: 
+[20:08:32]Cannot read null.z
+runtime error: 
+[20:08:38]Cannot read null.z
+runtime error: 
+[20:08:52]Cannot read null.z
+runtime error: 
+[20:08:56]Cannot read null.z
+### MAP WARNING, Mining Shuttle Airlock at Mining Shuttle (68,19,13) failed to find a valid airlock to cyclelink with!
+runtime error: 
+[20:09:14]Cannot read null.z
+runtime error: 
+[20:09:17]Cannot read null.z
+runtime error: 
+[20:09:19]Cannot read null.z
+runtime error: 
+[20:09:23]Cannot read null.z
+runtime error: 
+[20:09:25]Cannot read null.z
+runtime error: 
+[20:09:35]Cannot read null.z
+runtime error: 
+[20:09:39]Cannot read null.z
+runtime error: 
+[20:09:44]Cannot read null.z
+runtime error: 
+[20:10:00]Cannot read null.z
+runtime error: 
+[20:10:05]Cannot read null.z
+runtime error: 
+[20:10:13]Cannot read null.z
+runtime error: 
+[20:10:24]Cannot read null.z
+runtime error: 
+[20:10:26]Cannot read null.z
+runtime error: 
+[20:10:29]Cannot read null.z
+runtime error: 
+[20:10:34]Cannot read null.z
+runtime error: 
+[20:10:35]nothing to animate
+runtime error: 
+[20:10:38]Cannot read null.z
+runtime error: 
+[20:10:40]Cannot read null.z
+runtime error: 
+[20:10:43]Cannot read null.z
+### MAP WARNING, Mining Shuttle Airlock at Mining Shuttle (54,36,5) failed to find a valid airlock to cyclelink with!
+runtime error: 
+[20:11:11]Cannot read null.z
+runtime error: 
+[20:11:27]Cannot read null.z
+runtime error: 
+[20:11:47]Cannot read null.z
+runtime error: 
+[20:12:09]No valid destination passed into forceMove
+runtime error: 
+[20:12:09]No valid destination passed into forceMove
+runtime error: 
+[20:12:09]No valid destination passed into forceMove
+runtime error: 
+[20:12:15]No valid destination passed into forceMove
+runtime error: 
+[20:12:15]No valid destination passed into forceMove
+runtime error: 
+[20:12:15]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:16]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:22]No valid destination passed into forceMove
+runtime error: 
+[20:12:23]No valid destination passed into forceMove
+runtime error: 
+[20:12:23]No valid destination passed into forceMove
+runtime error: 
+[20:12:23]No valid destination passed into forceMove
+runtime error: 
+[20:12:29]No valid destination passed into forceMove
+runtime error: 
+[20:12:29]No valid destination passed into forceMove
+runtime error: 
+[20:12:29]No valid destination passed into forceMove
+runtime error: 
+[20:12:29]No valid destination passed into forceMove
+runtime error: 
+[20:12:29]No valid destination passed into forceMove
+runtime error: 
+[20:12:29]No valid destination passed into forceMove
+runtime error: 
+[20:12:29]No valid destination passed into forceMove
+runtime error: 
+[20:12:29]No valid destination passed into forceMove
+runtime error: 
+[20:12:29]No valid destination passed into forceMove
+runtime error: 
+[20:14:08]Cannot read null.z
+runtime error: 
+[20:14:40]Cannot read null.z
+runtime error: 
+[20:14:53]Cannot read null.z
+runtime error: 
+[20:15:02]Cannot read null.z
+runtime error: 
+[20:15:04]Cannot read null.z
+runtime error: 
+[20:15:15]Cannot read null.z
+runtime error: 
+[20:16:07]Cannot read null.z
+runtime error: 
+[20:16:10]Cannot read null.z
+runtime error: 
+[20:16:36]Cannot read null.z
+runtime error: 
+[20:17:11]Cannot read null.z
+runtime error: 
+[20:17:20]Cannot read null.z
+runtime error: 
+[20:18:54]Cannot read null.z
+runtime error: 
+[20:19:15]Cannot read null.z
+runtime error: 
+[20:19:27]Cannot read null.z
+runtime error: 
+[20:19:34]Cannot read null.z
+runtime error: 
+[20:19:37]Cannot read null.z
+### MAP WARNING, Mining Shuttle Airlock at Mining Shuttle (68,19,13) failed to find a valid airlock to cyclelink with!
+runtime error: 
+[20:19:40]Cannot read null.z
+runtime error: 
+[20:20:33]Cannot read null.z
+runtime error: 
+[20:20:53]Cannot read null.z
+runtime error: 
+[20:21:17]Cannot read null.loc
+runtime error: 
+[20:21:35]nothing to animate
+runtime error: 
+[20:22:04]Cannot read null.z
+runtime error: 
+[20:22:19]Cannot read null.z
+runtime error: 
+[20:23:17]Cannot read null.z
+runtime error: 
+[20:23:25]undefined proc or verb /turf/open/floor/plating/dismantle wall().
+
+runtime error: 
+[20:23:34]Cannot modify null.dir.
+runtime error: 
+[20:23:41]Cannot read null.z
+runtime error: 
+[20:24:07]nothing to animate
+runtime error: 
+[20:24:26]Cannot read null.z
+runtime error: 
+[20:24:40]Cannot read null.z
+runtime error: 
+[20:24:51]undefined proc or verb /turf/open/floor/plating/dismantle wall().
+
+runtime error: 
+[20:24:55]undefined proc or verb /turf/open/floor/plating/dismantle wall().
+
+runtime error: 
+[20:25:00]Cannot read null.z
+runtime error: 
+[20:25:15]nothing to animate
+runtime error: 
+[20:25:21]undefined proc or verb /turf/closed/wall/high pressure movements().
+
+runtime error: 
+[20:26:01]Cannot read null.z
+runtime error: 
+[20:26:03]Cannot read null.z
+runtime error: 
+[20:26:03]Cannot read null.z
+runtime error: 
+[20:26:09]Cannot read null.z
+runtime error: 
+[20:26:10]Cannot read null.z
+runtime error: 
+[20:26:24]Cannot read null.z
+runtime error: 
+[20:26:30]nothing to animate
+runtime error: 
+[20:26:51]Cannot read null.z
+runtime error: 
+[20:27:02]Cannot read null.z
+runtime error: 
+[20:27:18]nothing to animate
+runtime error: 
+[20:27:19]Cannot read null.z
+runtime error: 
+[20:27:20]Cannot read null.z
+runtime error: 
+[20:27:38]undefined proc or verb /turf/open/floor/plating/dismantle wall().
+
+runtime error: 
+[20:27:38]undefined proc or verb /turf/open/floor/plating/dismantle wall().
+
+runtime error: 
+[20:27:43]Cannot read null.z
+runtime error: 
+[20:27:50]undefined proc or verb /turf/open/floor/plating/dismantle wall().
+
+runtime error: 
+[20:27:56]Cannot read null.z
+runtime error: 
+[20:27:56]Cannot read null.z
+runtime error: 
+[20:27:57]Cannot read null.z
+runtime error: 
+[20:27:57]Cannot read null.z
+runtime error: 
+[20:27:58]Cannot read null.z
+runtime error: 
+[20:28:00]undefined proc or verb /turf/open/floor/plating/dismantle wall().
+
+runtime error: 
+[20:28:00]Cannot read null.z
+runtime error: 
+[20:28:00]Cannot read null.z
+runtime error: 
+[20:28:01]Cannot read null.z
+runtime error: 
+[20:28:01]Cannot read null.z
+runtime error: 
+[20:28:01]Cannot read null.z
+runtime error: 
+[20:28:14]Cannot read null.z
+runtime error: 
+[20:28:14]Cannot read null.z
+runtime error: 
+[20:28:14]Cannot read null.z
+runtime error: 
+[20:28:14]Cannot read null.z
+runtime error: 
+[20:28:14]Cannot read null.z
+runtime error: 
+[20:28:15]Cannot read null.z
+runtime error: 
+[20:28:15]Cannot read null.z
+runtime error: 
+[20:28:15]Cannot read null.z
+runtime error: 
+[20:28:15]Cannot read null.z
+runtime error: 
+[20:28:24]Cannot read null.z
+runtime error: 
+[20:28:25]Cannot read null.z
+runtime error: 
+[20:28:27]Cannot read null.z
+runtime error: 
+[20:28:28]Cannot read null.z
+runtime error: 
+[20:28:28]Cannot read null.z
+runtime error: 
+[20:28:28]Cannot read null.z
+runtime error: 
+[20:28:33]Cannot read null.z
+runtime error: 
+[20:28:33]Cannot read null.z
+runtime error: 
+[20:28:34]Cannot read null.z
+runtime error: 
+[20:28:35]Cannot read null.z
+runtime error: 
+[20:28:41]Cannot read null.z
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:00]Cannot read null.type
+runtime error: 
+[20:29:15]Cannot read null.z
+runtime error: 
+[20:29:19]Cannot read null.z
+runtime error: 
+[20:29:30]Cannot read null.z
+runtime error: 
+[20:29:31]Cannot read null.z
+runtime error: 
+[20:29:31]Cannot read null.z
+runtime error: 
+[20:29:31]Cannot read null.z
+runtime error: 
+[20:29:31]Cannot read null.z
+runtime error: 
+[20:29:31]Cannot read null.z
+runtime error: 
+[20:29:32]Cannot read null.z
+runtime error: 
+[20:29:32]Cannot read null.z
+runtime error: 
+[20:29:34]Cannot read null.z
+runtime error: 
+[20:29:40]Cannot read null.z
+runtime error: 
+[20:29:40]Cannot read null.z
+runtime error: 
+[20:29:41]Cannot read null.z
+runtime error: 
+[20:29:42]Cannot read null.z
+runtime error: 
+[20:29:42]Cannot read null.z
+runtime error: 
+[20:29:43]Cannot read null.z
+runtime error: 
+[20:29:43]Cannot read null.z
+runtime error: 
+[20:29:43]Cannot read null.z
+runtime error: 
+[20:29:44]Cannot read null.z
+runtime error: 
+[20:29:44]Cannot read null.z
+runtime error: 
+[20:29:47]Cannot read null.z
+runtime error: 
+[20:29:57]Cannot read null.client
+runtime error: 
+[20:29:57]Cannot read null.client
+runtime error: 
+[20:29:57]Cannot read null.client
+runtime error: 
+[20:29:57]Cannot read null.client
+runtime error: 
+[20:29:57]Cannot read null.client
+runtime error: 
+[20:29:57]Cannot read null.client
+runtime error: 
+[20:29:57]Cannot read null.client
+runtime error: 
+[20:29:57]Cannot read null.client
+runtime error: 
+[20:29:57]Cannot read null.client
+runtime error: 
+[20:29:57]Cannot read null.z
+runtime error: 
+[20:30:15]undefined variable /datum/song/handheld/var/z
+runtime error: 
+[20:30:20]Cannot read null.z
+runtime error: 
+[20:30:25]undefined variable /datum/song/handheld/var/z
+runtime error: 
+[20:30:41]undefined variable /datum/song/handheld/var/z
+runtime error: 
+[20:30:42]Cannot read null.z
+runtime error: 
+[20:30:44]Cannot read null.z
+runtime error: 
+[20:30:58]undefined variable /datum/song/handheld/var/z
+runtime error: 
+[20:31:09]undefined variable /datum/song/handheld/var/z
+runtime error: 
+[20:31:23]undefined variable /datum/song/handheld/var/z
+runtime error: 
+[20:31:44]undefined proc or verb /turf/open/floor/plating/dismantle wall().
+
+runtime error: 
+[20:32:00]Cannot read null.z
+runtime error: 
+[20:32:03]Cannot read null.z
+runtime error: 
+[20:32:04]Cannot read null.z
+runtime error: 
+[20:32:06]Cannot read null.z
+runtime error: 
+[20:32:07]Cannot read null.z
+runtime error: 
+[20:32:09]Cannot read null.z
+runtime error: 
+[20:32:10]Cannot read null.z
+runtime error: 
+[20:32:11]Cannot read null.z
+runtime error: 
+[20:32:11]Cannot read null.z
+runtime error: 
+[20:32:12]Cannot read null.z
+runtime error: 
+[20:32:17]Cannot read null.z
+runtime error: 
+[20:32:30]Cannot read null.z
+runtime error: 
+[20:32:31]Cannot read null.z
+runtime error: 
+[20:32:34]Cannot read null.z
+runtime error: 
+[20:32:34]Cannot read null.z
+runtime error: 
+[20:32:37]Cannot read null.z
+runtime error: 
+[20:32:38]Cannot read null.z
+runtime error: 
+[20:32:38]Cannot read null.z
+runtime error: 
+[20:32:39]Cannot read null.z
+runtime error: 
+[20:32:41]Cannot read null.z
+runtime error: 
+[20:32:42]Cannot read null.z
+runtime error: 
+[20:32:42]Cannot read null.z
+runtime error: 
+[20:32:42]Cannot read null.z
+runtime error: 
+[20:32:55]Cannot read null.z
+runtime error: 
+[20:33:08]Cannot read null.z
+runtime error: 
+[20:33:08]Cannot read null.z
+runtime error: 
+[20:33:09]Cannot read null.z
+runtime error: 
+[20:33:11]Cannot read null.z
+runtime error: 
+[20:33:11]Cannot read null.z
+runtime error: 
+[20:33:11]Cannot read null.z
+runtime error: 
+[20:33:12]Cannot read null.z
+runtime error: 
+[20:33:12]Cannot read null.z
+runtime error: 
+[20:33:15]Cannot read null.z
+runtime error: 
+[20:33:15]Cannot read null.z
+runtime error: 
+[20:33:16]Cannot read null.z
+runtime error: 
+[20:33:19]Cannot read null.z
+runtime error: 
+[20:33:19]Cannot read null.z
+runtime error: 
+[20:33:19]Cannot read null.z
+runtime error: 
+[20:33:20]Cannot read null.z
+runtime error: 
+[20:33:21]Cannot read null.z
+runtime error: 
+[20:33:21]Cannot read null.z
+runtime error: 
+[20:34:00]Cannot read null.z
+runtime error: 
+[20:34:02]Cannot read null.z
+runtime error: 
+[20:34:08]Cannot read null.z
+runtime error: 
+[20:34:08]Cannot read null.z
+runtime error: 
+[20:34:09]Cannot read null.z
+runtime error: 
+[20:34:09]Cannot read null.z
+runtime error: 
+[20:34:09]Cannot read null.z
+runtime error: 
+[20:34:09]Cannot read null.z
+runtime error: 
+[20:34:09]Cannot read null.z
+runtime error: 
+[20:34:11]Cannot read null.z
+runtime error: 
+[20:34:11]Cannot read null.z
+runtime error: 
+[20:34:22]Cannot read null.z
+runtime error: 
+[20:34:24]Cannot read null.z
+runtime error: 
+[20:34:26]Cannot read null.z
+runtime error: 
+[20:34:28]Cannot read null.z
+runtime error: 
+[20:34:30]Cannot read null.z
+runtime error: 
+[20:34:36]Cannot read null.z
+runtime error: 
+[20:34:38]Cannot read null.z
+runtime error: 
+[20:34:56]Cannot read null.z
+runtime error: 
+[20:34:58]Cannot read null.z
+runtime error: 
+[20:35:00]Cannot read null.z
+runtime error: 
+[20:35:01]Cannot read null.z
+runtime error: 
+[20:35:04]Cannot read null.z
+runtime error: 
+[20:35:07]Cannot read null.z
+runtime error: 
+[20:35:09]Cannot read null.z
+runtime error: 
+[20:35:11]Cannot read null.z
+## WARNING: turf of type /turf/open/floor/plating/asteroid/airless had a baseturfs length 1 still in list form. in code/game/turfs/ChangeTurf.dm at line 122 src: the asteroid sand usr: .
+runtime error: 
+[20:35:47]undefined variable /datum/asset/simple/paper/var/z
+runtime error: 
+[20:36:26]nothing to animate
+runtime error: 
+[20:38:13]undefined variable /datum/asset/simple/paper/var/z
+runtime error: 
+[20:39:53]Cannot read null.z
+runtime error: 
+[20:39:54]Cannot read null.z
+runtime error: 
+[20:39:54]Cannot read null.z
+runtime error: 
+[20:39:55]Cannot read null.z
+runtime error: 
+[20:39:55]Cannot read null.z
+runtime error: 
+[20:39:56]Cannot read null.z
+runtime error: 
+[20:39:56]Cannot read null.z
+runtime error: 
+[20:39:57]Cannot read null.z
+runtime error: 
+[20:39:57]Cannot read null.z
+runtime error: 
+[20:39:57]Cannot read null.z
+runtime error: 
+[20:39:57]Cannot read null.z
+runtime error: 
+[20:39:58]Cannot read null.z
+runtime error: 
+[20:39:58]Cannot read null.z
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:40:03]Cannot read null.type
+runtime error: 
+[20:43:14]Cannot read null.name
+runtime error: 
+[20:45:17]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[20:45:17]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[20:45:17]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[20:45:18]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[20:45:18]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[20:45:18]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[20:45:18]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[20:45:25]Cannot execute null.is sharp().
+runtime error: 
+[20:45:25]Cannot execute null.is sharp().
+runtime error: 
+[20:45:25]Cannot execute null.is sharp().
+### MAP WARNING, Mining Shuttle Airlock at Mining Shuttle (54,36,5) failed to find a valid airlock to cyclelink with!
+### MAP WARNING, Mining Shuttle Airlock at Mining Shuttle (68,19,13) failed to find a valid airlock to cyclelink with!
+runtime error: 
+[20:45:52]A ref was requested of an object with DF_USE_TAG set but no tag: Tulius Von Pinkbeard
+runtime error: 
+[20:46:26]Cannot read null.z
+runtime error: 
+[20:46:29]Cannot read null.z
+runtime error: 
+[20:47:32]Cannot read null.z
+Saved 3 engraved messages on map PubbyStation
+runtime error: 
+[20:47:58]Cannot read null.z
+runtime error: 
+[20:48:16]Cannot read null.z
+runtime error: 
+[20:48:25]undefined proc or verb /turf/open/floor/plating/dismantle wall().
+
+runtime error: 
+[20:49:24]undefined proc or verb /turf/open/floor/plating/dismantle wall().
+
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 20:49:25

@@ -1,0 +1,35 @@
+
+<head>
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://beestation13.com/static/img/logo.png" />
+  <meta name="description" content="BeeStation is a newbie friendly Space Station 13 server. We like to put a fun touch to the rounds to make a better experience."/>
+  {% block head %}
+
+  {% endblock %}
+  <link rel="stylesheet" href="/static/css/main.css">
+  <link rel="stylesheet" href="/static/css/anim.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <title>BeeStation - {% block title %}{% endblock %}</title>
+  <style>#ac-{% block active %}{% endblock %} {border-bottom: solid #E2C438 5px !important;}</style>
+</head>
+
+
+<div id="container">
+  <div id="nav">
+    <div onclick="location.href = '/'" id="ac-home" class="nav-logo"><img id="nav-logo-img" src="/static/img/logo.svg"> <span id="nav-logo-text">BeeStation</span></div>
+    <div id="nav-spacer"></div>
+    <div onclick="location.href = '/forum'" id="ac-forum" class="nav-item">Forum</div>
+    <div onclick="location.href = '/rounds'" id="ac-rounds" class="nav-item">Rounds</div>
+    <div onclick="location.href = '/stats'" id="ac-stats" class="nav-item">Stats</div>
+    <div onclick="location.href = '/bans'" id="ac-bans" class="nav-item">Bans</div>
+    <div onclick="location.href = 'byond://198.58.107.171:3333'" id="ac-join" class="nav-item anim-shine">Join!</div>
+  </div>
+
+  <div id="content">
+    {% block content %}{% endblock %}
+  </div>
+</div>
+<footer>BeeStation website made with <3 by <a href="https://github.com/qwertyquerty" style="color:#cccccc;">qwerty</a></footer>

@@ -1,0 +1,402 @@
+
+
+Starting up round ID 877. 19:21:28
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 5.8s!
+Loaded Lavaland in 5.8s!
+Loaded Reebe in 5.3s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 31 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[19:22:13]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[19:22:13]proc name: stack trace (/datum/proc/stack_trace)
+[19:22:13]  source file: unsorted.dm,1257
+[19:22:13]  usr: null
+[19:22:13]  src: Vacant Office APC (/obj/machinery/power/apc)
+[19:22:13]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[19:22:13]  call stack:
+[19:22:13]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[19:22:13]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[19:22:13]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[19:22:13]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[19:22:13]Atoms (/datum/controller/subsystem/atoms): Initialize(697263)
+[19:22:13]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 47.6 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.2 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 230 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 230 turf(s) (connected to 20380 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 16 seconds!
+Initialized Minimap subsystem within 0.3 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 6 seconds!
+Initialized Overlay subsystem within 17 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 14 seconds!
+Initialized Shuttle subsystem within 24.9 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 119 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 159.2 seconds!
+Game start took 16.6s
+runtime error: 
+[19:26:15]nothing to animate
+[19:26:15]proc name: shake camera (/proc/shake_camera)
+[19:26:15]  source file: mob_helpers.dm,270
+[19:26:15]  usr: (src)
+[19:26:15]  src: null
+[19:26:15]  call stack:
+[19:26:15]shake camera(Ronnie Pace (/mob/living/carbon/human), 0.75, 1)
+[19:26:15]Ronnie Pace (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:26:15]Ronnie Pace (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:26:15]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[19:26:15]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[19:26:15]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[19:26:15]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:26:15]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:26:15]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:26:15]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:30:00]nothing to animate
+[19:30:00]proc name: shake camera (/proc/shake_camera)
+[19:30:00]  source file: mob_helpers.dm,270
+[19:30:00]  usr: (src)
+[19:30:00]  src: null
+[19:30:00]  call stack:
+[19:30:00]shake camera(Jack Gray (/mob/living/carbon/human), 0.75, 1)
+[19:30:00]Jack Gray (/mob/living/carbon/human): afterShuttleMove(space (27,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:30:00]Jack Gray (/mob/living/carbon/human): afterShuttleMove(space (27,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:30:00]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[19:30:00]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[19:30:00]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[19:30:00]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:30:00]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:30:00]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:30:00]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:31:52]Cannot read null.client
+[19:31:52]proc name: open (/datum/tgui/proc/open)
+[19:31:52]  source file: tgui.dm,87
+[19:31:52]  usr: Lorick WorldCrusher (/mob/living/carbon/human)
+[19:31:52]  src: /datum/tgui (/datum/tgui)
+[19:31:52]  usr.loc: the floor (102,73,2) (/turf/open/floor/plasteel)
+[19:31:52]  call stack:
+[19:31:52]/datum/tgui (/datum/tgui): open()
+[19:31:52]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/default (/datum/ui_state/default))
+[19:31:52]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): attack self(Lorick WorldCrusher (/mob/living/carbon/human))
+[19:31:52]Lorick WorldCrusher (/mob/living/carbon/human): ClickOn(the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced), "icon-x=24;icon-y=20;left=1;scr...")
+[19:31:52]the tablet computer (/obj/item/device/modular_computer/tablet/preset/advanced): Click(null, "mapwindow.map", "icon-x=24;icon-y=20;left=1;scr...")
+runtime error: 
+[19:32:32]nothing to animate
+[19:32:32]proc name: shake camera (/proc/shake_camera)
+[19:32:32]  source file: mob_helpers.dm,270
+[19:32:32]  usr: (src)
+[19:32:32]  src: null
+[19:32:32]  call stack:
+[19:32:32]shake camera(Erick Larson (/mob/living/carbon/human), 0.75, 1)
+[19:32:32]Erick Larson (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:32:32]Erick Larson (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:32:32]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[19:32:32]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[19:32:32]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[19:32:32]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:32:32]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:32:32]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:32:32]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:49:26]nothing to animate
+[19:49:26]proc name: shake camera (/proc/shake_camera)
+[19:49:26]  source file: mob_helpers.dm,270
+[19:49:26]  usr: (src)
+[19:49:26]  src: null
+[19:49:26]  call stack:
+[19:49:26]shake camera(Edwin Saylor (/mob/living/carbon/human), 0.75, 1)
+[19:49:26]Edwin Saylor (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:49:26]Edwin Saylor (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:49:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[19:49:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[19:49:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[19:49:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:49:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:49:26]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:49:26]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:49:46]nothing to animate
+[19:49:46]proc name: shake camera (/proc/shake_camera)
+[19:49:46]  source file: mob_helpers.dm,270
+[19:49:46]  usr: (src)
+[19:49:46]  src: null
+[19:49:46]  call stack:
+[19:49:46]shake camera(Jack Gray (/mob/living/carbon/human), 0.75, 1)
+[19:49:46]Jack Gray (/mob/living/carbon/human): afterShuttleMove(space (19,19,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[19:49:46]Jack Gray (/mob/living/carbon/human): afterShuttleMove(space (19,19,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[19:49:46]the labor camp shuttle (/obj/docking_port/mobile): cleanup runway(the labor camp (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[19:49:46]the labor camp shuttle (/obj/docking_port/mobile): initiate docking(the labor camp (/obj/docking_port/stationary), 1, 0)
+[19:49:46]the labor camp shuttle (/obj/docking_port/mobile): check()
+[19:49:46]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:49:46]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:51:29]Cannot read null.powernet
+[19:51:29]proc name: generate menu (/obj/item/cartridge/proc/generate_menu)
+[19:51:29]  source file: cart.dm,288
+[19:51:29]  usr: Edwin Saylor (/mob/living/carbon/human)
+[19:51:29]  src: the Power-On DELUXE cartridge (/obj/item/cartridge/ce)
+[19:51:29]  usr.loc: the floor (50,149,2) (/turf/open/floor/plasteel/arrival)
+[19:51:29]  src.loc: PDA-Edwin Saylor (Chief Engine... (/obj/item/device/pda/heads/ce)
+[19:51:29]  call stack:
+[19:51:29]the Power-On DELUXE cartridge (/obj/item/cartridge/ce): generate menu(null)
+[19:51:29]PDA-Edwin Saylor (Chief Engine... (/obj/item/device/pda/heads/ce): attack self(Edwin Saylor (/mob/living/carbon/human))
+[19:51:29]the Power-On DELUXE cartridge (/obj/item/cartridge/ce): Topic("src=\[0x2028432];choice=Power%...", /list (/list))
+[19:51:29]David Blanc2 (/client): Topic("src=\[0x2028432];choice=Power%...", /list (/list), the Power-On DELUXE cartridge (/obj/item/cartridge/ce))
+[19:51:29]David Blanc2 (/client): Topic("src=\[0x2028432];choice=Power%...", /list (/list), the Power-On DELUXE cartridge (/obj/item/cartridge/ce))
+runtime error: 
+[19:51:31]Cannot read null.powernet
+[19:51:31]proc name: generate menu (/obj/item/cartridge/proc/generate_menu)
+[19:51:31]  source file: cart.dm,288
+[19:51:31]  usr: Edwin Saylor (/mob/living/carbon/human)
+[19:51:31]  src: the Power-On DELUXE cartridge (/obj/item/cartridge/ce)
+[19:51:31]  usr.loc: the floor (50,149,2) (/turf/open/floor/plasteel/arrival)
+[19:51:31]  src.loc: PDA-Edwin Saylor (Chief Engine... (/obj/item/device/pda/heads/ce)
+[19:51:31]  call stack:
+[19:51:31]the Power-On DELUXE cartridge (/obj/item/cartridge/ce): generate menu(null)
+[19:51:31]PDA-Edwin Saylor (Chief Engine... (/obj/item/device/pda/heads/ce): attack self(Edwin Saylor (/mob/living/carbon/human))
+[19:51:31]PDA-Edwin Saylor (Chief Engine... (/obj/item/device/pda/heads/ce): Topic("src=\[0x2007ece];choice=Refres...", /list (/list))
+[19:51:31]David Blanc2 (/client): Topic("src=\[0x2007ece];choice=Refres...", /list (/list), PDA-Edwin Saylor (Chief Engine... (/obj/item/device/pda/heads/ce))
+[19:51:31]David Blanc2 (/client): Topic("src=\[0x2007ece];choice=Refres...", /list (/list), PDA-Edwin Saylor (Chief Engine... (/obj/item/device/pda/heads/ce))
+runtime error: 
+[19:52:10]nothing to animate
+[19:52:10]proc name: shake camera (/proc/shake_camera)
+[19:52:10]  source file: mob_helpers.dm,270
+[19:52:10]  usr: (src)
+[19:52:10]  src: null
+[19:52:10]  call stack:
+[19:52:10]shake camera(Jhonson Lutherfield (/mob/living/carbon/human), 0.75, 1)
+[19:52:10]Jhonson Lutherfield (/mob/living/carbon/human): afterShuttleMove(space (50,23,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[19:52:10]Jhonson Lutherfield (/mob/living/carbon/human): afterShuttleMove(space (50,23,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[19:52:10]the labor camp shuttle (/obj/docking_port/mobile): cleanup runway(the fore bay 1 (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[19:52:10]the labor camp shuttle (/obj/docking_port/mobile): initiate docking(the fore bay 1 (/obj/docking_port/stationary), 1, 0)
+[19:52:10]the labor camp shuttle (/obj/docking_port/mobile): check()
+[19:52:10]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:52:10]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:52:39]Cannot read null.loc
+[19:52:39]proc name: update parallax (/datum/hud/proc/update_parallax)
+[19:52:39]  source file: parallax.dm,170
+[19:52:39]  usr: Jack Gray (/mob/living/brain)
+[19:52:39]  src: /datum/hud (/datum/hud)
+[19:52:39]  usr.loc: Jack Gray\'s brain (/obj/item/organ/brain)
+[19:52:39]  call stack:
+[19:52:39]/datum/hud (/datum/hud): update parallax()
+[19:52:39]/datum/hud (/datum/hud): update parallax pref(Jack Gray (/mob/living/brain))
+[19:52:39]/datum/hud (/datum/hud): show hud(1, null)
+[19:52:39]Jack Gray (/mob/living/brain): Login()
+[19:52:39]Jack Gray (/mob/living/brain): Login()
+[19:52:39]Jack Gray (/datum/mind): transfer to(Jack Gray (/mob/living/brain), 0)
+[19:52:39]Jack Gray\'s brain (/obj/item/organ/brain): transfer identity(Jack Gray (/mob/living/carbon/human))
+[19:52:39]Jack Gray\'s brain (/obj/item/organ/brain): Remove(Jack Gray (/mob/living/carbon/human), 0, 0)
+[19:52:39]Jack Gray\'s brain (/obj/item/organ/brain): transfer to limb(Jack Gray\'s head (/obj/item/bodypart/head), Jack Gray (/mob/living/carbon/human))
+[19:52:39]Jack Gray\'s head (/obj/item/bodypart/head): drop limb(null)
+[19:52:39]...
+[19:52:39]Jack Gray (/mob/living/carbon/human): gib(null, null, null)
+[19:52:39]Jack Gray (/mob/living/carbon/human): gib(null, null, null)
+[19:52:39]the volcanic floor (17,40,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface): toShuttleMove(the wall (52,20,13) (/turf/closed/wall/mineral/titanium), 7, the labor camp shuttle (/obj/docking_port/mobile))
+[19:52:39]the labor camp shuttle (/obj/docking_port/mobile): preflight check(/list (/list), /list (/list), /list (/list), 0, /turf/open/space/transit/north (/turf/open/space/transit/north), /list (/list))
+[19:52:39]the labor camp shuttle (/obj/docking_port/mobile): initiate docking(the labor camp (/obj/docking_port/stationary), 1, 0)
+[19:52:39]the labor camp shuttle (/obj/docking_port/mobile): check()
+[19:52:39]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:52:39]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+[19:52:39]Master (/datum/controller/master): Loop()
+[19:52:39]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:59:11]nothing to animate
+[19:59:11]proc name: shake camera (/proc/shake_camera)
+[19:59:11]  source file: mob_helpers.dm,270
+[19:59:11]  usr: (src)
+[19:59:11]  src: null
+[19:59:11]  call stack:
+[19:59:11]shake camera(Red Axolotl (/mob/living/carbon/human), 0.75, 1)
+[19:59:11]Red Axolotl (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:59:11]Red Axolotl (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:59:11]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[19:59:11]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[19:59:11]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[19:59:11]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:59:11]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:59:11]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:59:11]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[20:08:03]Cannot read null.client
+[20:08:03]proc name: open (/datum/tgui/proc/open)
+[20:08:03]  source file: tgui.dm,87
+[20:08:03]  usr: null
+[20:08:03]  src: /datum/tgui (/datum/tgui)
+[20:08:03]  call stack:
+[20:08:03]/datum/tgui (/datum/tgui): open()
+[20:08:03]the suit storage unit (/obj/machinery/suit_storage_unit/engine): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/notcontained_s... (/datum/ui_state/notcontained_state))
+[20:08:03]the suit storage unit (/obj/machinery/suit_storage_unit/engine): updateUsrDialog()
+[20:08:03]the suit storage unit (/obj/machinery/suit_storage_unit/engine): open machine(1)
+[20:08:03]the suit storage unit (/obj/machinery/suit_storage_unit/engine): relaymove(Greyson Gibson (/mob/living/carbon/human), 1)
+[20:08:03]Verillius (/client): Move(the floor (113,79,2) (/turf/open/floor/plasteel/vault), 1)
+[20:08:03]Greyson Gibson (/mob/living/carbon/human): keyLoop(Verillius (/client))
+[20:08:03]Verillius (/client): keyLoop()
+[20:08:03]Input (/datum/controller/subsystem/input): fire(0)
+[20:08:03]Input (/datum/controller/subsystem/input): ignite(0)
+[20:08:03]Master (/datum/controller/master): RunQueue()
+[20:08:03]Master (/datum/controller/master): Loop()
+[20:08:03]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:09:26]nothing to animate
+[20:09:26]proc name: shake camera (/proc/shake_camera)
+[20:09:26]  source file: mob_helpers.dm,270
+[20:09:26]  usr: (src)
+[20:09:26]  src: null
+[20:09:26]  call stack:
+[20:09:26]shake camera(Sej Tribal (/mob/living/carbon/human), 0.75, 1)
+[20:09:26]Sej Tribal (/mob/living/carbon/human): afterShuttleMove(space (27,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[20:09:26]Sej Tribal (/mob/living/carbon/human): afterShuttleMove(space (27,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[20:09:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[20:09:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[20:09:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[20:09:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[20:09:26]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[20:09:26]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[20:09:26]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[20:16:21]nothing to animate
+[20:16:21]proc name: shake camera (/proc/shake_camera)
+[20:16:21]  source file: mob_helpers.dm,270
+[20:16:21]  usr: (src)
+[20:16:21]  src: null
+[20:16:21]  call stack:
+[20:16:21]shake camera(Benny Tequilla (/mob/living/carbon/human), 0.75, 1)
+[20:16:21]Benny Tequilla (/mob/living/carbon/human): afterShuttleMove(space (23,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[20:16:21]Benny Tequilla (/mob/living/carbon/human): afterShuttleMove(space (23,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[20:16:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[20:16:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[20:16:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[20:16:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[20:16:21]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[20:16:21]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[20:16:21]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[20:18:47]nothing to animate
+[20:18:47]proc name: shake camera (/proc/shake_camera)
+[20:18:47]  source file: mob_helpers.dm,270
+[20:18:47]  usr: (src)
+[20:18:47]  src: null
+[20:18:47]  call stack:
+[20:18:47]shake camera(Earl Scruggs (/mob/living/carbon/human), 0.75, 1)
+[20:18:47]Earl Scruggs (/mob/living/carbon/human): afterShuttleMove(space (21,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[20:18:47]Earl Scruggs (/mob/living/carbon/human): afterShuttleMove(space (21,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[20:18:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[20:18:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[20:18:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[20:18:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[20:18:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[20:18:47]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[20:18:47]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[20:23:53]Cannot read null.client
+[20:23:53]proc name: open (/datum/tgui/proc/open)
+[20:23:53]  source file: tgui.dm,87
+[20:23:53]  usr: null
+[20:23:53]  src: /datum/tgui (/datum/tgui)
+[20:23:53]  call stack:
+[20:23:53]/datum/tgui (/datum/tgui): open()
+[20:23:53]the sleeper (/obj/machinery/sleeper): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/notcontained_s... (/datum/ui_state/notcontained_state))
+[20:23:53]the sleeper (/obj/machinery/sleeper): updateUsrDialog()
+[20:23:53]the sleeper (/obj/machinery/sleeper): open machine(1)
+[20:23:53]the sleeper (/obj/machinery/sleeper): open machine()
+[20:23:53]the sleeper (/obj/machinery/sleeper): container resist(Gannon Maclagan (/mob/living/carbon/human))
+[20:23:53]the sleeper (/obj/machinery/sleeper): relaymove(Gannon Maclagan (/mob/living/carbon/human), 8)
+[20:23:53]Thoreaufare (/client): Move(the floor (140,115,2) (/turf/open/floor/plasteel/white/side), 8)
+[20:23:53]Gannon Maclagan (/mob/living/carbon/human): keyLoop(Thoreaufare (/client))
+[20:23:53]Thoreaufare (/client): keyLoop()
+[20:23:53]Input (/datum/controller/subsystem/input): fire(0)
+[20:23:53]Input (/datum/controller/subsystem/input): ignite(0)
+[20:23:53]Master (/datum/controller/master): RunQueue()
+[20:23:53]Master (/datum/controller/master): Loop()
+[20:23:53]Master (/datum/controller/master): StartProcessing(0)
+## WARNING: shuttle "arrivals" could not enter transit space. Docked at arrivals_stationary. Transit dock 46. in code/modules/shuttle/shuttle.dm at line 422 src: the arrivals shuttle usr: .
+runtime error: 
+[20:25:00]Cannot read null.client
+[20:25:00]proc name: open (/datum/tgui/proc/open)
+[20:25:00]  source file: tgui.dm,87
+[20:25:00]  usr: null
+[20:25:00]  src: /datum/tgui (/datum/tgui)
+[20:25:00]  call stack:
+[20:25:00]/datum/tgui (/datum/tgui): open()
+[20:25:00]the sleeper (/obj/machinery/sleeper): ui interact(null, "main", /datum/tgui (/datum/tgui), 0, null, /datum/ui_state/notcontained_s... (/datum/ui_state/notcontained_state))
+[20:25:00]the sleeper (/obj/machinery/sleeper): updateUsrDialog()
+[20:25:00]the sleeper (/obj/machinery/sleeper): open machine(1)
+[20:25:00]the sleeper (/obj/machinery/sleeper): open machine()
+[20:25:00]the sleeper (/obj/machinery/sleeper): container resist(Gannon Maclagan (/mob/living/carbon/human))
+[20:25:00]the sleeper (/obj/machinery/sleeper): relaymove(Gannon Maclagan (/mob/living/carbon/human), 2)
+[20:25:00]Thoreaufare (/client): Move(the floor (141,114,2) (/turf/open/floor/plasteel/white), 2)
+[20:25:00]Gannon Maclagan (/mob/living/carbon/human): keyLoop(Thoreaufare (/client))
+[20:25:00]Thoreaufare (/client): keyLoop()
+[20:25:00]Input (/datum/controller/subsystem/input): fire(0)
+[20:25:00]Input (/datum/controller/subsystem/input): ignite(0)
+[20:25:00]Master (/datum/controller/master): RunQueue()
+[20:25:00]Master (/datum/controller/master): Loop()
+[20:25:00]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:25:34]Cannot read null.client
+[20:25:34]proc name: open (/datum/tgui/proc/open)
+[20:25:34]  source file: tgui.dm,87
+runtime error: 
+[20:25:34]Cannot read null.client
+[20:25:34]proc name: open (/datum/tgui/proc/open)
+[20:25:34]  source file: tgui.dm,87
+runtime error: 
+[20:29:13]nothing to animate
+[20:29:13]proc name: shake camera (/proc/shake_camera)
+[20:29:13]  source file: mob_helpers.dm,270
+runtime error: 
+[20:33:14]nothing to animate
+[20:33:14]proc name: shake camera (/proc/shake_camera)
+[20:33:14]  source file: mob_helpers.dm,270
+runtime error: 
+[20:36:04]nothing to animate
+[20:36:04]proc name: shake camera (/proc/shake_camera)
+[20:36:04]  source file: mob_helpers.dm,270
+runtime error: 
+[20:37:22]nothing to animate
+[20:37:22]proc name: shake camera (/proc/shake_camera)
+[20:37:22]  source file: mob_helpers.dm,270
+runtime error: 
+[20:41:01]nothing to animate
+[20:41:01]proc name: shake camera (/proc/shake_camera)
+[20:41:01]  source file: mob_helpers.dm,270

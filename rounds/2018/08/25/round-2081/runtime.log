@@ -1,0 +1,1339 @@
+[2018-08-25 22:58:33.965] Starting up round ID 2081.
+[2018-08-25 22:58:33.965] -------------------------
+[2018-08-25 22:58:35.037] Initialized Database subsystem within 0 seconds!
+[2018-08-25 22:58:35.037] Initialized Blackbox subsystem within 0 seconds!
+[2018-08-25 22:58:35.037] Initialized Server Tasks subsystem within 0 seconds!
+[2018-08-25 22:58:35.038] Initialized Input subsystem within 0 seconds!
+[2018-08-25 22:58:35.088] Initialized Research subsystem within 0 seconds!
+[2018-08-25 22:58:35.093] Initialized Events subsystem within 0 seconds!
+[2018-08-25 22:58:35.098] Initialized Jobs subsystem within 0 seconds!
+[2018-08-25 22:58:35.099] Initialized Quirks subsystem within 0 seconds!
+[2018-08-25 22:58:35.110] Initialized Ticker subsystem within 0.1 seconds!
+[2018-08-25 22:58:35.110] Loading Box Station...
+[2018-08-25 22:58:41.114] Loaded Station in 6s!
+[2018-08-25 22:58:46.580] Loaded Lavaland in 5.1s!
+[2018-08-25 22:58:53.227] Ruin loader finished with 0 left to spend.
+[2018-08-25 22:58:55.696] Ruin loader finished with 0 left to spend.
+[2018-08-25 22:59:06.985] Initialized Mapping subsystem within 31.8 seconds!
+[2018-08-25 22:59:06.987] Initialized Networks subsystem within 0 seconds!
+[2018-08-25 22:59:58.260] Initialized Atoms subsystem within 51.3 seconds!
+[2018-08-25 22:59:58.288] Initialized Language subsystem within 0 seconds!
+[2018-08-25 22:59:58.674] Initialized Machines subsystem within 0.4 seconds!
+[2018-08-25 22:59:58.828] Initialized Circuit subsystem within 0.1 seconds!
+[2018-08-25 22:59:58.830] Initialized Disease subsystem within 0 seconds!
+[2018-08-25 22:59:58.831] Initialized Medals subsystem within 0 seconds!
+[2018-08-25 22:59:58.831] Initialized Night Shift subsystem within 0 seconds!
+[2018-08-25 22:59:58.831] Initialized Parallax subsystem within 0 seconds!
+[2018-08-25 22:59:58.963] Initialized Traumas subsystem within 0.1 seconds!
+[2018-08-25 22:59:58.964] Initialized Weather subsystem within 0 seconds!
+[2018-08-25 23:01:22.449] Initialized Atmospherics subsystem within 83.5 seconds!
+[2018-08-25 23:01:22.477] Initialized Minimap subsystem within 0 seconds!
+[2018-08-25 23:01:25.282] Initialized Assets subsystem within 2.8 seconds!
+[2018-08-25 23:01:32.338] Initialized Icon Smoothing subsystem within 7.1 seconds!
+[2018-08-25 23:01:34.162] Initialized Overlay subsystem within 1.8 seconds!
+[2018-08-25 23:01:34.162] Initialized XKeyScore subsystem within 0 seconds!
+[2018-08-25 23:01:34.164] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-08-25 23:01:48.678] Initialized Lighting subsystem within 14.5 seconds!
+[2018-08-25 23:01:53.146] Initialized Shuttle subsystem within 4.5 seconds!
+[2018-08-25 23:01:53.183] Initialized Squeak subsystem within 0 seconds!
+[2018-08-25 23:01:53.184] Initialized Pathfinder subsystem within 0 seconds!
+[2018-08-25 23:01:53.235] Loaded 21 engraved messages on map Box Station
+[2018-08-25 23:01:53.276] Initialized Persistence subsystem within 0.1 seconds!
+[2018-08-25 23:01:53.277] Initializations complete within 198.2 seconds!
+[2018-08-25 23:03:05.767] Game start took 3.2s
+[2018-08-25 23:03:09.083] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:03:09.083] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:03:09.083]   source file: mood.dm,122
+[2018-08-25 23:03:09.083]   usr:  (/mob/living/carbon/human)
+[2018-08-25 23:03:09.083]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-25 23:03:09.083]   usr.loc: the carpet (100,158,2) (/turf/open/floor/carpet)
+[2018-08-25 23:03:09.083]   call stack:
+[2018-08-25 23:03:09.083] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-25 23:03:09.083] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-25 23:03:09.083] /datum/component/mood (/datum/component/mood): add event("family_heirloom", /datum/mood_event/family_heirl... (/datum/mood_event/family_heirloom), null)
+[2018-08-25 23:03:09.083] /datum/callback (/datum/callback): Invoke("family_heirloom", /datum/mood_event/family_heirl... (/datum/mood_event/family_heirloom))
+[2018-08-25 23:03:09.083] world: PushUsr( (/mob/living/carbon/human), /datum/callback (/datum/callback), "family_heirloom", /datum/mood_event/family_heirl... (/datum/mood_event/family_heirloom))
+[2018-08-25 23:03:09.083] /datum/callback (/datum/callback): InvokeAsync("family_heirloom", /datum/mood_event/family_heirl... (/datum/mood_event/family_heirloom))
+[2018-08-25 23:03:09.083]  (/mob/living/carbon/human):  SendSignal("add_mood", /list (/list))
+[2018-08-25 23:03:09.083] Family Heirloom (/datum/quirk/family_heirloom): on process()
+[2018-08-25 23:03:09.083] Family Heirloom (/datum/quirk/family_heirloom): process(10)
+[2018-08-25 23:03:09.083] Quirks (/datum/controller/subsystem/processing/quirks): fire(0)
+[2018-08-25 23:03:09.083] Quirks (/datum/controller/subsystem/processing/quirks): ignite(0)
+[2018-08-25 23:03:09.083] Master (/datum/controller/master): RunQueue()
+[2018-08-25 23:03:09.083] Master (/datum/controller/master): Loop()
+[2018-08-25 23:03:09.083] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-25 23:03:09.083] 
+[2018-08-25 23:03:11.871] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:03:11.871] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:03:11.871]   source file: mood.dm,122
+[2018-08-25 23:03:11.871]   usr: null
+[2018-08-25 23:03:11.871]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-25 23:03:11.871]   call stack:
+[2018-08-25 23:03:11.871] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-25 23:03:11.871] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-25 23:03:11.871] /datum/component/mood (/datum/component/mood): clear event("nutrition")
+[2018-08-25 23:03:11.871] /datum/component/mood (/datum/component/mood): HandleNutrition( (/mob/living/carbon/human))
+[2018-08-25 23:03:11.871] /datum/component/mood (/datum/component/mood): process(10)
+[2018-08-25 23:03:11.871] Mood (/datum/controller/subsystem/processing/mood): fire(0)
+[2018-08-25 23:03:11.871] Mood (/datum/controller/subsystem/processing/mood): ignite(0)
+[2018-08-25 23:03:11.871] Master (/datum/controller/master): RunQueue()
+[2018-08-25 23:03:11.871] Master (/datum/controller/master): Loop()
+[2018-08-25 23:03:11.871] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-25 23:03:11.871] 
+[2018-08-25 23:03:12.028] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:03:12.028] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:03:12.028]   source file: mood.dm,122
+[2018-08-25 23:03:12.028]   usr:  (/mob/living/carbon/human)
+[2018-08-25 23:03:12.028]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-25 23:03:12.028]   usr.loc: the floor (103,116,2) (/turf/open/floor/plasteel)
+[2018-08-25 23:03:12.028]   call stack:
+[2018-08-25 23:03:12.028] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-25 23:03:12.028] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-25 23:03:12.028] /datum/component/mood (/datum/component/mood): add event("antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused), null)
+[2018-08-25 23:03:12.028] /datum/callback (/datum/callback): Invoke("antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused))
+[2018-08-25 23:03:12.028] world: PushUsr( (/mob/living/carbon/human), /datum/callback (/datum/callback), "antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused))
+[2018-08-25 23:03:12.028] /datum/callback (/datum/callback): InvokeAsync("antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused))
+[2018-08-25 23:03:12.028]  (/mob/living/carbon/human):  SendSignal("add_mood", /list (/list))
+[2018-08-25 23:03:12.028] Traitor (/datum/antagonist/traitor): give antag moodies()
+[2018-08-25 23:03:12.028] Traitor (/datum/antagonist/traitor): on gain()
+[2018-08-25 23:03:12.028] Traitor (/datum/antagonist/traitor): on gain()
+[2018-08-25 23:03:12.028] Mr Fluffles (/datum/mind): add antag datum(Traitor (/datum/antagonist/traitor), null)
+[2018-08-25 23:03:12.028] /datum/callback (/datum/callback): InvokeAsync()
+[2018-08-25 23:03:12.028] Timer (/datum/controller/subsystem/timer): fire(0)
+[2018-08-25 23:03:12.028] Timer (/datum/controller/subsystem/timer): ignite(0)
+[2018-08-25 23:03:12.028] Master (/datum/controller/master): RunQueue()
+[2018-08-25 23:03:12.028] Master (/datum/controller/master): Loop()
+[2018-08-25 23:03:12.028] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-25 23:03:12.028] 
+[2018-08-25 23:03:12.624] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:03:12.624] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:03:12.624]   source file: mood.dm,122
+[2018-08-25 23:03:12.624]   usr:  (/mob/living/carbon/human)
+[2018-08-25 23:03:12.624]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-25 23:03:12.624]   usr.loc: the carpet (100,158,2) (/turf/open/floor/carpet)
+[2018-08-25 23:03:12.624]   call stack:
+[2018-08-25 23:03:12.624] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-25 23:03:12.624] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-25 23:03:12.624] /datum/component/mood (/datum/component/mood): add event("smoked", /datum/mood_event/drugs/smoked (/datum/mood_event/drugs/smoked), "Nicotine")
+[2018-08-25 23:03:12.624] /datum/callback (/datum/callback): Invoke("smoked", /datum/mood_event/drugs/smoked (/datum/mood_event/drugs/smoked), "Nicotine")
+[2018-08-25 23:03:12.624] world: PushUsr( (/mob/living/carbon/human), /datum/callback (/datum/callback), "smoked", /datum/mood_event/drugs/smoked (/datum/mood_event/drugs/smoked), "Nicotine")
+[2018-08-25 23:03:12.624] /datum/callback (/datum/callback): InvokeAsync("smoked", /datum/mood_event/drugs/smoked (/datum/mood_event/drugs/smoked), "Nicotine")
+[2018-08-25 23:03:12.624]  (/mob/living/carbon/human):  SendSignal("add_mood", /list (/list))
+[2018-08-25 23:03:12.624] Nicotine (/datum/reagent/drug/nicotine): on mob life( (/mob/living/carbon/human))
+[2018-08-25 23:03:12.624] /datum/reagents (/datum/reagents): metabolize( (/mob/living/carbon/human), 1, 0)
+[2018-08-25 23:03:12.625] the liver (/obj/item/organ/liver): on life()
+[2018-08-25 23:03:12.625]  (/mob/living/carbon/human): handle organs()
+[2018-08-25 23:03:12.625]  (/mob/living/carbon/human): Life(2, 2)
+[2018-08-25 23:03:12.625]  (/mob/living/carbon/human): Life(2, 2)
+[2018-08-25 23:03:12.625] Mobs (/datum/controller/subsystem/mobs): fire(0)
+[2018-08-25 23:03:12.625] Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[2018-08-25 23:03:12.625] Master (/datum/controller/master): RunQueue()
+[2018-08-25 23:03:12.625] Master (/datum/controller/master): Loop()
+[2018-08-25 23:03:12.625] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-25 23:03:12.625] 
+[2018-08-25 23:03:21.042] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:03:21.042] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:03:21.042]   source file: mood.dm,122
+[2018-08-25 23:03:21.042]   usr: null
+[2018-08-25 23:03:21.042]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-25 23:03:21.042]   call stack:
+[2018-08-25 23:03:21.042] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-25 23:03:21.042] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-25 23:03:21.042] /datum/component/mood (/datum/component/mood): add event("nutrition", /datum/mood_event/nutrition/fe... (/datum/mood_event/nutrition/fed), null)
+[2018-08-25 23:03:21.042] /datum/component/mood (/datum/component/mood): HandleNutrition( (/mob/living/carbon/human))
+[2018-08-25 23:03:21.042] /datum/component/mood (/datum/component/mood): process(10)
+[2018-08-25 23:03:21.042] Mood (/datum/controller/subsystem/processing/mood): fire(0)
+[2018-08-25 23:03:21.042] Mood (/datum/controller/subsystem/processing/mood): ignite(0)
+[2018-08-25 23:03:21.042] Master (/datum/controller/master): RunQueue()
+[2018-08-25 23:03:21.042] Master (/datum/controller/master): Loop()
+[2018-08-25 23:03:21.042] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-25 23:03:21.042] 
+[2018-08-25 23:06:17.698] runtime error: Cannot execute null.log message().
+[2018-08-25 23:06:17.698] proc name: log combat (/proc/log_combat)
+[2018-08-25 23:06:17.698]   source file: atoms.dm,673
+[2018-08-25 23:06:17.698] 
+[2018-08-25 23:06:18.449] runtime error: Cannot execute null.log message().
+[2018-08-25 23:06:18.449] proc name: log combat (/proc/log_combat)
+[2018-08-25 23:06:18.449]   source file: atoms.dm,673
+[2018-08-25 23:06:18.449] 
+[2018-08-25 23:06:19.328] runtime error: Cannot execute null.log message().
+[2018-08-25 23:06:19.328] proc name: log combat (/proc/log_combat)
+[2018-08-25 23:06:19.328]   source file: atoms.dm,673
+[2018-08-25 23:06:19.328] 
+[2018-08-25 23:06:21.191] runtime error: Cannot execute null.log message().
+[2018-08-25 23:06:21.191] proc name: log combat (/proc/log_combat)
+[2018-08-25 23:06:21.191]   source file: atoms.dm,673
+[2018-08-25 23:06:21.191] 
+[2018-08-25 23:06:21.746] runtime error: Cannot execute null.log message().
+[2018-08-25 23:06:21.746] proc name: log combat (/proc/log_combat)
+[2018-08-25 23:06:21.746]   source file: atoms.dm,673
+[2018-08-25 23:06:21.746] 
+[2018-08-25 23:06:22.317] runtime error: Cannot execute null.log message().
+[2018-08-25 23:06:22.317] proc name: log combat (/proc/log_combat)
+[2018-08-25 23:06:22.317]   source file: atoms.dm,673
+[2018-08-25 23:06:22.317] 
+[2018-08-25 23:07:33.149] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:07:33.149] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:07:33.149]   source file: mood.dm,122
+[2018-08-25 23:07:33.149] 
+[2018-08-25 23:08:33.849] runtime error: Cannot execute null.log message().
+[2018-08-25 23:08:33.849] proc name: log combat (/proc/log_combat)
+[2018-08-25 23:08:33.849]   source file: atoms.dm,673
+[2018-08-25 23:08:33.849] 
+[2018-08-25 23:08:46.415] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:08:46.415] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:08:46.416]   source file: mood.dm,122
+[2018-08-25 23:08:46.416] 
+[2018-08-25 23:09:10.526] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:09:10.526] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:09:10.526]   source file: mood.dm,122
+[2018-08-25 23:09:10.526] 
+[2018-08-25 23:09:34.196] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:09:34.196] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:09:34.196]   source file: mood.dm,122
+[2018-08-25 23:09:34.196] 
+[2018-08-25 23:09:40.452] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:09:40.452] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:09:40.452]   source file: mood.dm,122
+[2018-08-25 23:09:40.452] 
+[2018-08-25 23:09:40.566] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:09:40.566] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:09:40.566]   source file: mood.dm,122
+[2018-08-25 23:09:40.566] 
+[2018-08-25 23:11:10.706] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:11:10.706] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:11:10.706]   source file: mood.dm,122
+[2018-08-25 23:11:10.706] 
+[2018-08-25 23:11:41.409] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:11:41.409] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:11:41.409]   source file: mood.dm,122
+[2018-08-25 23:11:41.409] 
+[2018-08-25 23:12:22.410] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:12:22.410] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:12:22.410]   source file: mood.dm,122
+[2018-08-25 23:12:22.410] 
+[2018-08-25 23:12:38.045] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:12:38.045] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:12:38.045]   source file: mood.dm,122
+[2018-08-25 23:12:38.045] 
+[2018-08-25 23:12:43.916] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:12:43.916] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:12:43.916]   source file: mood.dm,122
+[2018-08-25 23:12:43.916] 
+[2018-08-25 23:12:59.865] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:12:59.865] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:12:59.865]   source file: mood.dm,122
+[2018-08-25 23:12:59.865] 
+[2018-08-25 23:13:03.443] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:13:03.443] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:13:03.443]   source file: mood.dm,122
+[2018-08-25 23:13:03.443] 
+[2018-08-25 23:13:41.092] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:13:41.092] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:13:41.092]   source file: mood.dm,122
+[2018-08-25 23:13:41.092] 
+[2018-08-25 23:13:59.786] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:13:59.786] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:13:59.786]   source file: mood.dm,122
+[2018-08-25 23:13:59.786] 
+[2018-08-25 23:14:09.759] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:14:09.759] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:14:09.759]   source file: mood.dm,122
+[2018-08-25 23:14:09.759] 
+[2018-08-25 23:14:16.757] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:14:16.757] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:14:16.757]   source file: mood.dm,122
+[2018-08-25 23:14:16.757] 
+[2018-08-25 23:15:08.346] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:15:08.346] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:15:08.346]   source file: mood.dm,122
+[2018-08-25 23:15:08.346] 
+[2018-08-25 23:15:41.640] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:15:41.640] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:15:41.640]   source file: mood.dm,122
+[2018-08-25 23:15:41.640] 
+[2018-08-25 23:15:49.988] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:15:49.988] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:15:49.988]   source file: mood.dm,122
+[2018-08-25 23:15:49.988] 
+[2018-08-25 23:15:50.437] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:15:50.437] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:15:50.437]   source file: mood.dm,122
+[2018-08-25 23:15:50.437] 
+[2018-08-25 23:15:53.439] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:15:53.439] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:15:53.439]   source file: mood.dm,122
+[2018-08-25 23:15:53.439] 
+[2018-08-25 23:16:00.375] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:16:00.375] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:16:00.375]   source file: mood.dm,122
+[2018-08-25 23:16:00.375] 
+[2018-08-25 23:16:10.220] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:16:10.220] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:16:10.220]   source file: mood.dm,122
+[2018-08-25 23:16:10.220] 
+[2018-08-25 23:16:12.486] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:16:12.486] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:16:12.486]   source file: mood.dm,122
+[2018-08-25 23:16:12.486] 
+[2018-08-25 23:16:17.219] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:16:17.219] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:16:17.219]   source file: mood.dm,122
+[2018-08-25 23:16:17.219] 
+[2018-08-25 23:16:28.483] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:16:28.483] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:16:28.483]   source file: mood.dm,122
+[2018-08-25 23:16:28.483] 
+[2018-08-25 23:16:28.483] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:16:28.483] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:16:28.483]   source file: mood.dm,122
+[2018-08-25 23:16:28.483] 
+[2018-08-25 23:16:40.483] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:16:40.483] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:16:40.483]   source file: mood.dm,122
+[2018-08-25 23:16:40.483] 
+[2018-08-25 23:17:04.484] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:17:04.484] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:17:04.484]   source file: mood.dm,122
+[2018-08-25 23:17:04.484] 
+[2018-08-25 23:17:12.091] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:17:12.091] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:17:12.091]   source file: mood.dm,122
+[2018-08-25 23:17:12.091] 
+[2018-08-25 23:17:32.425] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:17:32.425] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:17:32.425]   source file: mood.dm,122
+[2018-08-25 23:17:32.425] 
+[2018-08-25 23:19:30.669] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:19:30.669] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:19:30.669]   source file: mood.dm,122
+[2018-08-25 23:19:30.669] 
+[2018-08-25 23:19:32.276] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:19:32.276] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:19:32.276]   source file: mood.dm,122
+[2018-08-25 23:19:32.276] 
+[2018-08-25 23:19:33.161] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:19:33.162] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:19:33.162]   source file: mood.dm,122
+[2018-08-25 23:19:33.162] 
+[2018-08-25 23:20:18.672] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:20:18.672] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:20:18.672]   source file: mood.dm,122
+[2018-08-25 23:20:18.672] 
+[2018-08-25 23:20:51.686] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:20:51.686] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:20:51.686]   source file: mood.dm,122
+[2018-08-25 23:20:51.686] 
+[2018-08-25 23:20:51.747] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:20:51.747] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:20:51.747]   source file: mood.dm,122
+[2018-08-25 23:20:51.747] 
+[2018-08-25 23:21:31.787] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:21:31.787] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:21:31.787]   source file: mood.dm,122
+[2018-08-25 23:21:31.787] 
+[2018-08-25 23:21:33.392] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:21:33.392] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:21:33.392]   source file: mood.dm,122
+[2018-08-25 23:21:33.392] 
+[2018-08-25 23:22:02.717] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:22:02.717] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:22:02.717]   source file: mood.dm,122
+[2018-08-25 23:22:02.717] 
+[2018-08-25 23:22:19.766] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:22:19.767] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:22:19.767]   source file: mood.dm,122
+[2018-08-25 23:22:19.767] 
+[2018-08-25 23:22:27.182] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:22:27.182] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:22:27.182]   source file: mood.dm,122
+[2018-08-25 23:22:27.182] 
+[2018-08-25 23:22:55.382] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:22:55.382] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:22:55.382]   source file: mood.dm,122
+[2018-08-25 23:22:55.382] 
+[2018-08-25 23:23:54.837] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:23:54.837] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:23:54.837]   source file: mood.dm,122
+[2018-08-25 23:23:54.837] 
+[2018-08-25 23:23:58.056] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:23:58.056] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:23:58.056]   source file: mood.dm,122
+[2018-08-25 23:23:58.056] 
+[2018-08-25 23:24:15.246] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:24:15.246] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:24:15.246]   source file: mood.dm,122
+[2018-08-25 23:24:15.246] 
+[2018-08-25 23:24:19.789] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:24:19.789] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:24:19.789]   source file: mood.dm,122
+[2018-08-25 23:24:19.789] 
+[2018-08-25 23:24:22.152] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:24:22.152] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:24:22.152]   source file: mood.dm,122
+[2018-08-25 23:24:22.152] 
+[2018-08-25 23:24:27.192] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:24:27.192] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:24:27.192]   source file: mood.dm,122
+[2018-08-25 23:24:27.192] 
+[2018-08-25 23:24:33.256] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-25 23:24:33.256] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-25 23:24:33.256]   source file: unsorted.dm,1169
+[2018-08-25 23:24:33.256] 
+[2018-08-25 23:24:39.521] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-25 23:24:39.521] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-25 23:24:39.521]   source file: unsorted.dm,1169
+[2018-08-25 23:24:39.521] 
+[2018-08-25 23:24:40.060] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-25 23:24:40.060] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-25 23:24:40.060]   source file: unsorted.dm,1169
+[2018-08-25 23:24:40.060] 
+[2018-08-25 23:24:44.628] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:24:44.628] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:24:44.628]   source file: mood.dm,122
+[2018-08-25 23:24:44.628] 
+[2018-08-25 23:24:55.550] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:24:55.550] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:24:55.550]   source file: mood.dm,122
+[2018-08-25 23:24:55.550] 
+[2018-08-25 23:25:21.468] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:25:21.468] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:25:21.468]   source file: mood.dm,122
+[2018-08-25 23:25:21.468] 
+[2018-08-25 23:25:52.332] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:25:52.332] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:25:52.332]   source file: mood.dm,122
+[2018-08-25 23:25:52.333] 
+[2018-08-25 23:26:22.676] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:26:22.676] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:26:22.676]   source file: mood.dm,122
+[2018-08-25 23:26:22.676] 
+[2018-08-25 23:26:44.987] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:26:44.987] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:26:44.987]   source file: mood.dm,122
+[2018-08-25 23:26:44.987] 
+[2018-08-25 23:26:49.822] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:26:49.822] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:26:49.823]   source file: mood.dm,122
+[2018-08-25 23:26:49.823] 
+[2018-08-25 23:27:15.902] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:27:15.902] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:27:15.902]   source file: mood.dm,122
+[2018-08-25 23:27:15.902] 
+[2018-08-25 23:27:21.801] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:27:21.801] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:27:21.802]   source file: mood.dm,122
+[2018-08-25 23:27:21.802] 
+[2018-08-25 23:27:55.474] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:27:55.474] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:27:55.474]   source file: mood.dm,122
+[2018-08-25 23:27:55.474] 
+[2018-08-25 23:28:27.883] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-25 23:28:27.883] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-25 23:28:27.883]   source file: unsorted.dm,1169
+[2018-08-25 23:28:27.883] 
+[2018-08-25 23:28:49.942] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:28:49.942] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:28:49.942]   source file: mood.dm,122
+[2018-08-25 23:28:49.942] 
+[2018-08-25 23:29:22.020] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:29:22.021] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:29:22.021]   source file: mood.dm,122
+[2018-08-25 23:29:22.021] 
+[2018-08-25 23:29:40.094] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:29:40.094] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:29:40.094]   source file: mood.dm,122
+[2018-08-25 23:29:40.094] 
+[2018-08-25 23:29:41.256] runtime error: Cannot execute null.log message().
+[2018-08-25 23:29:41.256] proc name: log combat (/proc/log_combat)
+[2018-08-25 23:29:41.256]   source file: atoms.dm,673
+[2018-08-25 23:29:41.256] 
+[2018-08-25 23:29:41.560] runtime error: Cannot execute null.log message().
+[2018-08-25 23:29:41.561] proc name: log combat (/proc/log_combat)
+[2018-08-25 23:29:41.561]   source file: atoms.dm,673
+[2018-08-25 23:29:41.561] 
+[2018-08-25 23:29:41.962] runtime error: Cannot execute null.log message().
+[2018-08-25 23:29:41.962] proc name: log combat (/proc/log_combat)
+[2018-08-25 23:29:41.962]   source file: atoms.dm,673
+[2018-08-25 23:29:41.962] 
+[2018-08-25 23:30:12.918] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:30:12.918] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:30:12.918]   source file: mood.dm,122
+[2018-08-25 23:30:12.918] 
+[2018-08-25 23:31:00.392] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:31:00.392] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:31:00.392]   source file: mood.dm,122
+[2018-08-25 23:31:00.392] 
+[2018-08-25 23:32:19.486] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:32:19.486] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-25 23:32:19.486]   source file: mood.dm,122
+[2018-08-25 23:32:19.486] 
+[2018-08-25 23:32:22.930] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:32:22.930] Warning: further proc crash messages are being suppressed to prevent overload...
+[2018-08-25 23:32:22.930] 
+[2018-08-25 23:32:27.974] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:32:27.974] 
+[2018-08-25 23:32:41.339] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:32:41.339] 
+[2018-08-25 23:32:41.341] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:32:41.341] 
+[2018-08-25 23:33:07.913] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:33:07.913] 
+[2018-08-25 23:34:35.416] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:34:35.416] 
+[2018-08-25 23:34:35.869] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:34:35.869] 
+[2018-08-25 23:35:08.967] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:35:08.967] 
+[2018-08-25 23:35:20.184] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:35:20.184] 
+[2018-08-25 23:35:20.997] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:35:20.997] 
+[2018-08-25 23:35:28.631] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:35:28.631] 
+[2018-08-25 23:39:00.488] runtime error: Cannot execute null.log message().
+[2018-08-25 23:39:00.488] 
+[2018-08-25 23:39:00.822] runtime error: Cannot execute null.log message().
+[2018-08-25 23:39:00.823] 
+[2018-08-25 23:39:01.175] runtime error: Cannot execute null.log message().
+[2018-08-25 23:39:01.175] 
+[2018-08-25 23:39:04.626] runtime error: Cannot execute null.log message().
+[2018-08-25 23:39:04.626] 
+[2018-08-25 23:39:05.025] runtime error: Cannot execute null.log message().
+[2018-08-25 23:39:05.025] 
+[2018-08-25 23:39:05.441] runtime error: Cannot execute null.log message().
+[2018-08-25 23:39:05.441] 
+[2018-08-25 23:39:57.373] runtime error: Cannot execute null.log message().
+[2018-08-25 23:39:57.373] 
+[2018-08-25 23:39:57.781] runtime error: Cannot execute null.log message().
+[2018-08-25 23:39:57.781] 
+[2018-08-25 23:42:00.609] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-25 23:42:00.609] 
+[2018-08-25 23:42:16.038] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-25 23:42:16.038] 
+[2018-08-25 23:42:21.080] runtime error: Cannot execute null.log message().
+[2018-08-25 23:42:21.080] 
+[2018-08-25 23:42:21.560] runtime error: Cannot execute null.log message().
+[2018-08-25 23:42:21.560] 
+[2018-08-25 23:42:21.949] runtime error: Cannot execute null.log message().
+[2018-08-25 23:42:21.949] 
+[2018-08-25 23:42:22.226] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-25 23:42:22.226] 
+[2018-08-25 23:42:26.809] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-25 23:42:26.809] 
+[2018-08-25 23:42:39.118] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-25 23:42:39.118] 
+[2018-08-25 23:42:42.875] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-25 23:42:42.875] 
+[2018-08-25 23:42:54.951] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-25 23:42:54.951] 
+[2018-08-25 23:45:37.837] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:45:37.838] 
+[2018-08-25 23:46:05.600] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:46:05.601] 
+[2018-08-25 23:47:24.949] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:47:24.949] 
+[2018-08-25 23:47:25.128] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:47:25.128] 
+[2018-08-25 23:48:33.195] runtime error: Cannot execute null.log message().
+[2018-08-25 23:48:33.195] 
+[2018-08-25 23:48:33.949] runtime error: Cannot execute null.log message().
+[2018-08-25 23:48:33.949] 
+[2018-08-25 23:48:34.156] runtime error: Cannot execute null.log message().
+[2018-08-25 23:48:34.156] 
+[2018-08-25 23:50:27.896] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-25 23:50:27.896] 
+[2018-08-25 23:50:44.077] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:50:44.077] 
+[2018-08-25 23:50:44.581] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:50:44.581] 
+[2018-08-25 23:51:00.798] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:51:00.798] 
+[2018-08-25 23:51:00.798] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:51:00.798] 
+[2018-08-25 23:51:01.823] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:51:01.823] 
+[2018-08-25 23:53:03.464] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:53:03.464] 
+[2018-08-25 23:53:45.809] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:53:45.809] 
+[2018-08-25 23:54:00.600] runtime error: Cannot execute null.log message().
+[2018-08-25 23:54:00.600] 
+[2018-08-25 23:54:00.602] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:54:00.602] 
+[2018-08-25 23:54:00.805] runtime error: Cannot execute null.log message().
+[2018-08-25 23:54:00.805] 
+[2018-08-25 23:54:01.001] runtime error: Cannot execute null.log message().
+[2018-08-25 23:54:01.001] 
+[2018-08-25 23:54:13.717] runtime error: Cannot execute null.log message().
+[2018-08-25 23:54:13.717] 
+[2018-08-25 23:54:13.923] runtime error: Cannot execute null.log message().
+[2018-08-25 23:54:13.923] 
+[2018-08-25 23:54:14.116] runtime error: Cannot execute null.log message().
+[2018-08-25 23:54:14.116] 
+[2018-08-25 23:54:26.095] runtime error: Cannot execute null.log message().
+[2018-08-25 23:54:26.095] 
+[2018-08-25 23:54:26.305] runtime error: Cannot execute null.log message().
+[2018-08-25 23:54:26.305] 
+[2018-08-25 23:54:26.503] runtime error: Cannot execute null.log message().
+[2018-08-25 23:54:26.503] 
+[2018-08-25 23:54:38.207] runtime error: Cannot execute null.log message().
+[2018-08-25 23:54:38.207] 
+[2018-08-25 23:54:38.413] runtime error: Cannot execute null.log message().
+[2018-08-25 23:54:38.413] 
+[2018-08-25 23:54:38.634] runtime error: Cannot execute null.log message().
+[2018-08-25 23:54:38.635] 
+[2018-08-25 23:54:38.744] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:54:38.744] 
+[2018-08-25 23:54:39.087] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:54:39.087] 
+[2018-08-25 23:56:02.620] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:56:02.620] 
+[2018-08-25 23:56:05.381] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:56:05.381] 
+[2018-08-25 23:56:37.721] runtime error: Cannot execute null.log message().
+[2018-08-25 23:56:37.721] 
+[2018-08-25 23:56:39.967] runtime error: Cannot execute null.log message().
+[2018-08-25 23:56:39.967] 
+[2018-08-25 23:58:04.312] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:58:04.312] 
+[2018-08-25 23:58:07.312] runtime error: Cannot execute null.log message().
+[2018-08-25 23:58:07.312] 
+[2018-08-25 23:58:19.904] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:58:19.904] 
+[2018-08-25 23:58:20.479] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:58:20.479] 
+[2018-08-25 23:59:08.332] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:59:08.332] 
+[2018-08-25 23:59:08.924] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:59:08.924] 
+[2018-08-25 23:59:36.304] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:59:36.304] 
+[2018-08-25 23:59:36.319] runtime error: Cannot modify null.icon_state.
+[2018-08-25 23:59:36.319] 
+[2018-08-26 00:00:36.498] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:00:36.498] 
+[2018-08-26 00:02:15.296] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:02:15.296] 
+[2018-08-26 00:02:27.773] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:02:27.773] 
+[2018-08-26 00:02:27.773] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:02:27.773] 
+[2018-08-26 00:02:27.774] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:02:27.774] 
+[2018-08-26 00:02:27.774] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:02:27.774] 
+[2018-08-26 00:02:40.697] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:02:40.697] 
+[2018-08-26 00:06:18.910] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:06:18.910] 
+[2018-08-26 00:07:52.863] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:07:52.863] 
+[2018-08-26 00:09:24.092] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:09:24.092] 
+[2018-08-26 00:09:24.696] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:09:24.696] 
+[2018-08-26 00:11:04.185] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:11:04.185] 
+[2018-08-26 00:11:04.185] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:11:04.185] 
+[2018-08-26 00:11:25.439] runtime error: The grille taking damage after deletion
+[2018-08-26 00:11:25.439] 
+[2018-08-26 00:19:34.767] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:19:34.767] 
+[2018-08-26 00:19:34.993] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:19:34.993] 
+[2018-08-26 00:19:40.023] runtime error: The grille taking damage after deletion
+[2018-08-26 00:19:40.023] 
+[2018-08-26 00:20:07.476] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-26 00:20:07.476] 
+[2018-08-26 00:21:51.850] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:21:51.850] 
+[2018-08-26 00:21:52.612] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:21:52.612] 
+[2018-08-26 00:21:54.683] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:21:54.683] 
+[2018-08-26 00:22:38.515] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:22:38.515] 
+[2018-08-26 00:22:38.987] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:22:38.987] 
+[2018-08-26 00:22:49.145] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:22:49.145] 
+[2018-08-26 00:23:43.168] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:23:43.168] 
+[2018-08-26 00:25:45.887] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:25:45.887] 
+[2018-08-26 00:27:31.680] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:27:31.680] 
+[2018-08-26 00:27:44.394] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:27:44.394] 
+[2018-08-26 00:28:12.328] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:28:12.328] 
+[2018-08-26 00:28:12.655] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:28:12.655] 
+[2018-08-26 00:28:39.530] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:28:39.530] 
+[2018-08-26 00:28:39.802] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:28:39.802] 
+[2018-08-26 00:28:40.813] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:28:40.814] 
+[2018-08-26 00:29:01.185] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:29:01.185] 
+[2018-08-26 00:29:02.059] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:29:02.059] 
+[2018-08-26 00:29:04.347] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:29:04.347] 
+[2018-08-26 00:29:05.082] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:29:05.082] 
+[2018-08-26 00:29:07.483] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:29:07.483] 
+[2018-08-26 00:29:08.092] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:29:08.092] 
+[2018-08-26 00:29:17.326] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:29:17.326] 
+[2018-08-26 00:29:18.232] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:29:18.232] 
+[2018-08-26 00:29:29.566] runtime error: Cannot read null.armor
+[2018-08-26 00:29:29.566] 
+[2018-08-26 00:30:54.236] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:30:54.237] 
+[2018-08-26 00:30:58.239] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:30:58.239] 
+[2018-08-26 00:30:59.097] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:30:59.097] 
+[2018-08-26 00:31:01.289] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:31:01.289] 
+[2018-08-26 00:31:02.105] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:31:02.105] 
+[2018-08-26 00:31:02.105] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:31:02.105] 
+[2018-08-26 00:31:04.555] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:31:04.555] 
+[2018-08-26 00:31:26.423] runtime error: Cannot read null.armor
+[2018-08-26 00:31:26.423] 
+[2018-08-26 00:31:48.136] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:31:48.136] 
+[2018-08-26 00:32:05.504] runtime error: Cannot execute null.log message().
+[2018-08-26 00:32:05.505] 
+[2018-08-26 00:32:17.797] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:32:17.797] 
+[2018-08-26 00:32:23.953] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:32:23.953] 
+[2018-08-26 00:32:53.945] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:32:53.945] 
+[2018-08-26 00:32:54.257] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:32:54.257] 
+[2018-08-26 00:32:58.253] runtime error: Cannot read null.armor
+[2018-08-26 00:32:58.253] 
+[2018-08-26 00:33:01.337] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:33:01.337] 
+[2018-08-26 00:33:01.401] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:33:01.401] 
+[2018-08-26 00:33:55.868] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:33:55.868] 
+[2018-08-26 00:34:08.270] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:34:08.270] 
+[2018-08-26 00:34:16.829] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:34:16.829] 
+[2018-08-26 00:34:16.996] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:34:16.996] 
+[2018-08-26 00:34:32.023] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:34:32.023] 
+[2018-08-26 00:34:34.642] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:34:34.642] 
+[2018-08-26 00:34:41.433] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:34:41.433] 
+[2018-08-26 00:34:41.440] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:34:41.440] 
+[2018-08-26 00:34:59.474] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:34:59.474] 
+[2018-08-26 00:35:01.478] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:35:01.478] 
+[2018-08-26 00:35:01.479] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:35:01.479] 
+[2018-08-26 00:35:04.257] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:35:04.257] 
+[2018-08-26 00:35:05.020] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:35:05.020] 
+[2018-08-26 00:35:16.921] runtime error: The grille taking damage after deletion
+[2018-08-26 00:35:16.921] 
+[2018-08-26 00:35:17.817] runtime error: The grille taking damage after deletion
+[2018-08-26 00:35:17.817] 
+[2018-08-26 00:35:22.061] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:35:22.061] 
+[2018-08-26 00:35:26.099] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:35:26.099] 
+[2018-08-26 00:35:46.606] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:35:46.606] 
+[2018-08-26 00:36:06.961] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:36:06.961] 
+[2018-08-26 00:36:07.580] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:36:07.580] 
+[2018-08-26 00:36:27.256] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:36:27.256] 
+[2018-08-26 00:36:29.300] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:36:29.300] 
+[2018-08-26 00:36:45.053] runtime error: The grille taking damage after deletion
+[2018-08-26 00:36:45.053] 
+[2018-08-26 00:36:50.039] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:36:50.040] 
+[2018-08-26 00:37:02.265] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:37:02.265] 
+[2018-08-26 00:37:22.549] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:37:22.549] 
+[2018-08-26 00:37:30.803] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:37:30.803] 
+[2018-08-26 00:37:32.664] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:37:32.664] 
+[2018-08-26 00:42:29.435] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 00:42:29.435] 
+[2018-08-26 00:42:36.242] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 00:42:36.242] 
+[2018-08-26 00:42:41.102] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 00:42:41.102] 
+[2018-08-26 00:42:50.762] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 00:42:50.762] 
+[2018-08-26 00:44:32.269] runtime error: The grille taking damage after deletion
+[2018-08-26 00:44:32.269] 
+[2018-08-26 00:44:36.820] runtime error: The grille taking damage after deletion
+[2018-08-26 00:44:36.820] 
+[2018-08-26 00:48:09.003] runtime error: Cannot execute null.log message().
+[2018-08-26 00:48:09.003] 
+[2018-08-26 00:48:09.004] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:48:09.004] 
+[2018-08-26 00:48:18.837] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:48:18.837] 
+[2018-08-26 00:49:12.556] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:49:12.556] 
+[2018-08-26 00:49:33.573] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:49:33.573] 
+[2018-08-26 00:49:56.760] runtime error: Cannot execute null.log message().
+[2018-08-26 00:49:56.760] 
+[2018-08-26 00:50:10.809] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:50:10.809] 
+[2018-08-26 00:50:47.651] runtime error: Cannot execute null.log message().
+[2018-08-26 00:50:47.651] 
+[2018-08-26 00:50:56.258] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:50:56.258] 
+[2018-08-26 00:50:56.258] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:50:56.258] 
+[2018-08-26 00:50:57.657] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:50:57.657] 
+[2018-08-26 00:51:56.220] runtime error: Cannot execute null.log message().
+[2018-08-26 00:51:56.220] 
+[2018-08-26 00:51:56.496] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:51:56.496] 
+[2018-08-26 00:51:56.689] runtime error: Cannot execute null.log message().
+[2018-08-26 00:51:56.689] 
+[2018-08-26 00:51:57.161] runtime error: Cannot execute null.log message().
+[2018-08-26 00:51:57.161] 
+[2018-08-26 00:53:01.374] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:53:01.374] 
+[2018-08-26 00:54:36.008] runtime error: The grille taking damage after deletion
+[2018-08-26 00:54:36.008] 
+[2018-08-26 00:55:54.302] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:55:54.302] 
+[2018-08-26 00:56:11.621] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:56:11.621] 
+[2018-08-26 00:57:04.536] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:57:04.536] 
+[2018-08-26 00:59:22.348] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:59:22.348] 
+[2018-08-26 00:59:33.395] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:59:33.395] 
+[2018-08-26 00:59:51.654] runtime error: Cannot modify null.icon_state.
+[2018-08-26 00:59:51.654] 
+[2018-08-26 01:00:12.323] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:00:12.323] 
+[2018-08-26 01:00:27.755] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:00:27.755] 
+[2018-08-26 01:00:27.756] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:00:27.756] 
+[2018-08-26 01:01:03.106] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 01:01:03.107] 
+[2018-08-26 01:01:07.490] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 01:01:07.490] 
+[2018-08-26 01:02:04.124] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:02:04.124] 
+[2018-08-26 01:02:08.820] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:02:08.820] 
+[2018-08-26 01:03:26.346] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:03:26.346] 
+[2018-08-26 01:04:06.272] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:04:06.272] 
+[2018-08-26 01:04:16.139] runtime error: Cannot execute null.log message().
+[2018-08-26 01:04:16.139] 
+[2018-08-26 01:04:20.735] runtime error: Cannot execute null.log message().
+[2018-08-26 01:04:20.735] 
+[2018-08-26 01:04:28.593] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-26 01:04:28.593] 
+[2018-08-26 01:04:37.005] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:04:37.005] 
+[2018-08-26 01:06:17.039] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:06:17.039] 
+[2018-08-26 01:08:33.487] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:08:33.487] 
+[2018-08-26 01:09:20.281] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:09:20.282] 
+[2018-08-26 01:09:35.647] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:09:35.647] 
+[2018-08-26 01:09:40.278] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:09:40.278] 
+[2018-08-26 01:09:42.937] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:09:42.937] 
+[2018-08-26 01:09:48.050] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:09:48.050] 
+[2018-08-26 01:11:12.061] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:11:12.061] 
+[2018-08-26 01:11:36.897] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:11:36.897] 
+[2018-08-26 01:11:38.492] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:11:38.492] 
+[2018-08-26 01:12:16.070] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:12:16.070] 
+[2018-08-26 01:12:19.728] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:12:19.728] 
+[2018-08-26 01:13:01.953] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:13:01.953] 
+[2018-08-26 01:13:06.700] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:13:06.700] 
+[2018-08-26 01:13:06.700] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:13:06.701] 
+[2018-08-26 01:13:09.002] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:13:09.002] 
+[2018-08-26 01:13:35.949] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:13:35.949] 
+[2018-08-26 01:13:44.704] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:13:44.704] 
+[2018-08-26 01:13:52.538] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:13:52.539] 
+[2018-08-26 01:14:10.711] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:14:10.711] 
+[2018-08-26 01:14:14.912] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:14:14.912] 
+[2018-08-26 01:15:04.450] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:15:04.450] 
+[2018-08-26 01:15:23.461] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:15:23.461] 
+[2018-08-26 01:15:24.161] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:15:24.161] 
+[2018-08-26 01:16:01.741] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:16:01.741] 
+[2018-08-26 01:16:16.193] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:16:16.193] 
+[2018-08-26 01:16:24.609] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:16:24.609] 
+[2018-08-26 01:16:28.578] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:16:28.578] 
+[2018-08-26 01:16:57.741] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 01:16:57.741] 
+[2018-08-26 01:17:26.698] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 01:17:26.698] 
+[2018-08-26 01:17:53.553] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:17:53.553] 
+[2018-08-26 01:18:12.671] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:18:12.671] 
+[2018-08-26 01:18:12.671] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:18:12.671] 
+[2018-08-26 01:18:14.953] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:18:14.953] 
+[2018-08-26 01:18:16.878] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:18:16.878] 
+[2018-08-26 01:19:15.998] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:19:15.998] 
+[2018-08-26 01:19:31.889] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 01:19:31.890] 
+[2018-08-26 01:19:36.661] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 01:19:36.661] 
+[2018-08-26 01:19:40.419] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 01:19:40.419] 
+[2018-08-26 01:19:50.186] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 01:19:50.186] 
+[2018-08-26 01:20:35.152] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:20:35.152] 
+[2018-08-26 01:22:21.306] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:22:21.306] 
+[2018-08-26 01:22:37.073] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:22:37.073] 
+[2018-08-26 01:22:43.104] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:22:43.104] 
+[2018-08-26 01:23:12.816] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:23:12.816] 
+[2018-08-26 01:23:13.407] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:23:13.407] 
+[2018-08-26 01:23:15.787] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:23:15.787] 
+[2018-08-26 01:23:20.507] runtime error: The grille taking damage after deletion
+[2018-08-26 01:23:20.507] 
+[2018-08-26 01:23:21.598] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:23:21.598] 
+[2018-08-26 01:23:29.641] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:23:29.641] 
+[2018-08-26 01:23:33.391] runtime error: The grille taking damage after deletion
+[2018-08-26 01:23:33.392] 
+[2018-08-26 01:23:33.724] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:23:33.724] 
+[2018-08-26 01:23:35.741] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:23:35.741] 
+[2018-08-26 01:23:41.827] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:23:41.827] 
+[2018-08-26 01:24:30.377] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:24:30.377] 
+[2018-08-26 01:25:47.705] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:25:47.705] 
+[2018-08-26 01:28:31.987] runtime error: Cannot execute null.log message().
+[2018-08-26 01:28:31.987] 
+[2018-08-26 01:29:03.735] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:29:03.735] 
+[2018-08-26 01:29:55.560] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:29:55.560] 
+[2018-08-26 01:30:56.038] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:30:56.039] 
+[2018-08-26 01:31:24.347] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:31:24.347] 
+[2018-08-26 01:31:43.971] runtime error: The grille taking damage after deletion
+[2018-08-26 01:31:43.971] 
+[2018-08-26 01:31:47.949] runtime error: Cannot execute null.log message().
+[2018-08-26 01:31:47.950] 
+[2018-08-26 01:32:14.234] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-26 01:32:14.234] 
+[2018-08-26 01:32:48.751] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:32:48.751] 
+[2018-08-26 01:32:49.352] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:32:49.353] 
+[2018-08-26 01:32:53.815] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-26 01:32:53.815] 
+[2018-08-26 01:33:28.098] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:33:28.098] 
+[2018-08-26 01:36:03.213] runtime error: Cannot execute null.log message().
+[2018-08-26 01:36:03.213] 
+[2018-08-26 01:36:05.462] runtime error: Cannot execute null.log message().
+[2018-08-26 01:36:05.462] 
+[2018-08-26 01:36:05.464] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:36:05.464] 
+[2018-08-26 01:36:15.453] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:36:15.453] 
+[2018-08-26 01:36:55.942] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:36:55.942] 
+[2018-08-26 01:37:29.322] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:37:29.322] 
+[2018-08-26 01:38:06.480] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:38:06.480] 
+[2018-08-26 01:40:19.739] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:40:19.739] 
+[2018-08-26 01:40:27.362] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:40:27.362] 
+[2018-08-26 01:40:41.529] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:40:41.529] 
+[2018-08-26 01:41:30.259] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:41:30.259] 
+[2018-08-26 01:41:48.651] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:41:48.651] 
+[2018-08-26 01:43:37.916] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:43:37.916] 
+[2018-08-26 01:44:36.553] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 01:44:36.553] 
+[2018-08-26 01:44:45.327] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 01:44:45.327] 
+[2018-08-26 01:45:05.192] runtime error: The grille taking damage after deletion
+[2018-08-26 01:45:05.192] 
+[2018-08-26 01:45:07.565] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:45:07.565] 
+[2018-08-26 01:45:07.993] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:45:07.993] 
+[2018-08-26 01:45:09.620] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:45:09.620] 
+[2018-08-26 01:47:34.284] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:47:34.284] 
+[2018-08-26 01:47:34.285] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:47:34.285] 
+[2018-08-26 01:47:53.475] runtime error: Cannot execute null.log message().
+[2018-08-26 01:47:53.475] 
+[2018-08-26 01:47:58.701] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:47:58.701] 
+[2018-08-26 01:47:58.701] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:47:58.701] 
+[2018-08-26 01:49:17.603] runtime error: Cannot execute null.log message().
+[2018-08-26 01:49:17.603] 
+[2018-08-26 01:49:36.418] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:49:36.418] 
+[2018-08-26 01:49:43.721] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:49:43.721] 
+[2018-08-26 01:51:08.596] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:51:08.596] 
+[2018-08-26 01:51:08.884] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:51:08.884] 
+[2018-08-26 01:51:30.333] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:51:30.333] 
+[2018-08-26 01:51:40.053] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:51:40.053] 
+[2018-08-26 01:52:04.084] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:52:04.084] 
+[2018-08-26 01:52:22.825] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:52:22.825] 
+[2018-08-26 01:52:22.826] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:52:22.826] 
+[2018-08-26 01:52:53.133] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:52:53.133] 
+[2018-08-26 01:52:53.133] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:52:53.133] 
+[2018-08-26 01:52:56.308] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:52:56.308] 
+[2018-08-26 01:52:56.308] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:52:56.308] 
+[2018-08-26 01:53:33.082] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:53:33.082] 
+[2018-08-26 01:53:33.082] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:53:33.082] 
+[2018-08-26 01:53:37.859] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:53:37.859] 
+[2018-08-26 01:55:38.455] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:55:38.455] 
+[2018-08-26 01:56:39.560] runtime error: Cannot execute null.log message().
+[2018-08-26 01:56:39.560] 
+[2018-08-26 01:56:39.561] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:56:39.561] 
+[2018-08-26 01:56:49.420] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:56:49.421] 
+[2018-08-26 01:57:53.257] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:57:53.257] 
+[2018-08-26 01:57:56.790] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 01:57:56.791] 
+[2018-08-26 01:58:12.510] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:58:12.510] 
+[2018-08-26 01:58:12.511] runtime error: Cannot modify null.icon_state.
+[2018-08-26 01:58:12.511] 
+[2018-08-26 02:03:53.626] runtime error: Cannot execute null.log message().
+[2018-08-26 02:03:53.626] 
+[2018-08-26 02:03:58.167] runtime error: Cannot execute null.log message().
+[2018-08-26 02:03:58.167] 
+[2018-08-26 02:04:24.948] runtime error: Cannot execute null.log message().
+[2018-08-26 02:04:24.948] 
+[2018-08-26 02:06:39.780] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:06:39.780] 
+[2018-08-26 02:08:23.204] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:08:23.204] 
+[2018-08-26 02:08:29.177] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:08:29.177] 
+[2018-08-26 02:08:37.181] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:08:37.181] 
+[2018-08-26 02:08:39.208] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:08:39.208] 
+[2018-08-26 02:08:49.219] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:08:49.219] 
+[2018-08-26 02:08:49.273] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:08:49.273] 
+[2018-08-26 02:08:57.321] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:08:57.321] 
+[2018-08-26 02:09:05.237] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:09:05.237] 
+[2018-08-26 02:09:05.310] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:09:05.311] 
+[2018-08-26 02:09:07.261] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:09:07.261] 
+[2018-08-26 02:12:03.972] runtime error: Invalid individual logging type: . Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:12:03.972] 
+[2018-08-26 02:12:53.930] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:12:53.930] 
+[2018-08-26 02:12:53.930] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:12:53.930] 
+[2018-08-26 02:13:50.793] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-26 02:13:50.793] 
+[2018-08-26 02:13:51.292] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-26 02:13:51.292] 
+[2018-08-26 02:16:36.285] runtime error: Cannot execute null.log message().
+[2018-08-26 02:16:36.285] 
+[2018-08-26 02:16:38.855] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:16:38.855] 
+[2018-08-26 02:17:48.773] runtime error: Cannot execute null.log message().
+[2018-08-26 02:17:48.773] 
+[2018-08-26 02:17:50.731] runtime error: Cannot execute null.log message().
+[2018-08-26 02:17:50.731] 
+[2018-08-26 02:17:55.979] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:17:55.980] 
+[2018-08-26 02:18:01.294] runtime error: Cannot execute null.log message().
+[2018-08-26 02:18:01.294] 
+[2018-08-26 02:18:06.294] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:18:06.294] 
+[2018-08-26 02:19:10.785] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:19:10.785] 
+[2018-08-26 02:20:00.024] runtime error: The grille taking damage after deletion
+[2018-08-26 02:20:00.024] 
+[2018-08-26 02:20:06.306] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:20:06.306] 
+[2018-08-26 02:20:21.925] runtime error: Cannot execute null.log message().
+[2018-08-26 02:20:21.925] 
+[2018-08-26 02:20:23.483] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:20:23.483] 
+[2018-08-26 02:20:23.483] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:20:23.483] 
+[2018-08-26 02:20:44.903] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:20:44.904] 
+[2018-08-26 02:20:52.854] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:20:52.854] 
+[2018-08-26 02:20:58.401] runtime error: Cannot execute null.log message().
+[2018-08-26 02:20:58.401] 
+[2018-08-26 02:20:58.854] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:20:58.854] 
+[2018-08-26 02:21:04.856] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:21:04.856] 
+[2018-08-26 02:21:55.125] runtime error: Cannot execute null.log message().
+[2018-08-26 02:21:55.125] 
+[2018-08-26 02:21:56.327] runtime error: Cannot execute null.log message().
+[2018-08-26 02:21:56.327] 
+[2018-08-26 02:21:57.475] runtime error: Cannot execute null.log message().
+[2018-08-26 02:21:57.475] 
+[2018-08-26 02:21:59.025] runtime error: Cannot execute null.log message().
+[2018-08-26 02:21:59.025] 
+[2018-08-26 02:22:09.877] runtime error: Cannot execute null.forceMove().
+[2018-08-26 02:22:09.877] 
+[2018-08-26 02:23:24.970] runtime error: Cannot execute null.log message().
+[2018-08-26 02:23:24.971] 
+[2018-08-26 02:26:51.682] runtime error: Cannot execute null.log message().
+[2018-08-26 02:26:51.682] 
+[2018-08-26 02:26:52.036] runtime error: Cannot execute null.log message().
+[2018-08-26 02:26:52.036] 
+[2018-08-26 02:26:52.470] runtime error: Cannot execute null.log message().
+[2018-08-26 02:26:52.470] 
+[2018-08-26 02:27:09.436] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:27:09.436] 
+[2018-08-26 02:27:10.902] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:27:10.902] 
+[2018-08-26 02:27:10.903] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:27:10.903] 
+[2018-08-26 02:27:16.111] runtime error: Cannot execute null.log message().
+[2018-08-26 02:27:16.111] 
+[2018-08-26 02:27:16.503] runtime error: Cannot execute null.log message().
+[2018-08-26 02:27:16.503] 
+[2018-08-26 02:27:16.912] runtime error: Cannot execute null.log message().
+[2018-08-26 02:27:16.912] 
+[2018-08-26 02:27:20.532] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:27:20.532] 
+[2018-08-26 02:29:29.451] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:29:29.451] 
+[2018-08-26 02:29:50.121] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:29:50.121] 
+[2018-08-26 02:30:56.218] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:30:56.218] 
+[2018-08-26 02:31:02.390] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:31:02.390] 
+[2018-08-26 02:31:15.090] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:31:15.090] 
+[2018-08-26 02:31:33.296] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:31:33.296] 
+[2018-08-26 02:32:16.143] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:32:16.143] 
+[2018-08-26 02:32:47.073] runtime error: Cannot execute null.log message().
+[2018-08-26 02:32:47.073] 
+[2018-08-26 02:32:47.074] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:32:47.074] 
+[2018-08-26 02:32:59.519] runtime error: Cannot execute null.log message().
+[2018-08-26 02:32:59.519] 
+[2018-08-26 02:33:11.584] runtime error: Cannot execute null.log message().
+[2018-08-26 02:33:11.584] 
+[2018-08-26 02:34:40.789] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:34:40.789] 
+[2018-08-26 02:34:47.306] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:34:47.306] 
+[2018-08-26 02:34:49.671] runtime error: The grille taking damage after deletion
+[2018-08-26 02:34:49.671] 
+[2018-08-26 02:34:52.319] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:34:52.319] 
+[2018-08-26 02:34:54.991] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:34:54.991] 
+[2018-08-26 02:34:54.991] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:34:54.991] 
+[2018-08-26 02:39:08.123] runtime error: Cannot execute null.log message().
+[2018-08-26 02:39:08.123] 
+[2018-08-26 02:41:34.401] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:41:34.401] 
+[2018-08-26 02:42:33.753] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:42:33.753] 
+[2018-08-26 02:43:50.815] runtime error: Cannot execute null.log message().
+[2018-08-26 02:43:50.815] 
+[2018-08-26 02:43:52.666] runtime error: Cannot execute null.log message().
+[2018-08-26 02:43:52.666] 
+[2018-08-26 02:43:53.318] runtime error: Cannot execute null.log message().
+[2018-08-26 02:43:53.318] 
+[2018-08-26 02:43:54.063] runtime error: Cannot execute null.log message().
+[2018-08-26 02:43:54.063] 
+[2018-08-26 02:46:12.539] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:46:12.539] 
+[2018-08-26 02:47:31.886] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:47:31.886] 
+[2018-08-26 02:47:44.991] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:47:44.992] 
+[2018-08-26 02:48:01.085] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:48:01.085] 
+[2018-08-26 02:48:25.297] runtime error: Cannot execute null.log message().
+[2018-08-26 02:48:25.297] 
+[2018-08-26 02:48:36.797] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:48:36.797] 
+[2018-08-26 02:48:55.996] runtime error: Cannot execute null.log message().
+[2018-08-26 02:48:55.996] 
+[2018-08-26 02:49:35.832] runtime error: Cannot execute null.log message().
+[2018-08-26 02:49:35.832] 
+[2018-08-26 02:49:39.007] runtime error: Cannot execute null.log message().
+[2018-08-26 02:49:39.007] 
+[2018-08-26 02:49:52.592] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-26 02:49:52.592] 
+[2018-08-26 02:50:40.809] runtime error: The grille taking damage after deletion
+[2018-08-26 02:50:40.809] 
+[2018-08-26 02:50:41.916] runtime error: Cannot execute null.log message().
+[2018-08-26 02:50:41.916] 
+[2018-08-26 02:53:20.385] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:53:20.385] 
+[2018-08-26 02:53:20.385] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:53:20.385] 
+[2018-08-26 02:53:36.201] runtime error: Cannot execute null.log message().
+[2018-08-26 02:53:36.201] 
+[2018-08-26 02:54:05.112] runtime error: Cannot execute null.log message().
+[2018-08-26 02:54:05.112] 
+[2018-08-26 02:54:05.569] runtime error: Cannot execute null.log message().
+[2018-08-26 02:54:05.569] 
+[2018-08-26 02:54:05.942] runtime error: Cannot execute null.log message().
+[2018-08-26 02:54:05.942] 
+[2018-08-26 02:54:25.954] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:54:25.954] 
+[2018-08-26 02:54:36.370] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:54:36.370] 
+[2018-08-26 02:55:09.815] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:55:09.815] 
+[2018-08-26 02:55:09.815] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:55:09.815] 
+[2018-08-26 02:56:11.373] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:56:11.373] 
+[2018-08-26 02:56:27.800] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:56:27.800] 
+[2018-08-26 02:57:21.431] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:57:21.431] 
+[2018-08-26 02:57:33.669] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:57:33.669] 
+[2018-08-26 02:57:42.434] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:57:42.434] 
+[2018-08-26 02:57:47.511] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:57:47.511] 
+[2018-08-26 02:57:50.112] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:57:50.112] 
+[2018-08-26 02:57:56.572] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:57:56.572] 
+[2018-08-26 02:58:01.504] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:58:01.504] 
+[2018-08-26 02:58:07.797] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-26 02:58:07.797] 
+[2018-08-26 02:58:12.285] runtime error: Cannot modify null.icon_state.
+[2018-08-26 02:58:12.285] 
+[2018-08-26 03:00:10.751] runtime error: Cannot modify null.icon_state.
+[2018-08-26 03:00:10.751] 
+[2018-08-26 03:00:24.857] runtime error: Cannot modify null.icon_state.
+[2018-08-26 03:00:24.857] 
+[2018-08-26 03:00:39.512] runtime error: Cannot modify null.icon_state.
+[2018-08-26 03:00:39.512] 
+[2018-08-26 03:01:37.660] runtime error: Cannot modify null.icon_state.
+[2018-08-26 03:01:37.660] 
+[2018-08-26 03:02:25.453] runtime error: Cannot modify null.icon_state.
+[2018-08-26 03:02:25.453] 
+[2018-08-26 03:05:14.058] runtime error: Cannot modify null.icon_state.
+[2018-08-26 03:05:14.058] 
+[2018-08-26 03:05:54.154] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-26 03:05:54.154] 

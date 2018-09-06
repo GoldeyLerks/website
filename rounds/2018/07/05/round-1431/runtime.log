@@ -1,0 +1,521 @@
+[2018-07-05 20:10:25.494] Starting up round ID 1431.
+[2018-07-05 20:10:25.494] -------------------------
+[2018-07-05 20:10:29.646] Initialized Database subsystem within 0 seconds!
+[2018-07-05 20:10:29.646] Initialized Blackbox subsystem within 0 seconds!
+[2018-07-05 20:10:29.647] Initialized Server Tasks subsystem within 0 seconds!
+[2018-07-05 20:10:29.647] Initialized Input subsystem within 0 seconds!
+[2018-07-05 20:10:29.683] Initialized Research subsystem within 0 seconds!
+[2018-07-05 20:10:29.687] Initialized Events subsystem within 0 seconds!
+[2018-07-05 20:10:29.691] Initialized Jobs subsystem within 0 seconds!
+[2018-07-05 20:10:29.692] Initialized Quirks subsystem within 0 seconds!
+[2018-07-05 20:10:29.698] Initialized Ticker subsystem within 0 seconds!
+[2018-07-05 20:10:29.698] Loading Box Station...
+[2018-07-05 20:10:35.334] Loaded Station in 5.7s!
+[2018-07-05 20:10:41.821] Loaded Lavaland in 5.9s!
+[2018-07-05 20:10:58.067] Ruin loader finished with 0 left to spend.
+[2018-07-05 20:10:59.794] Ruin loader finished with 0 left to spend.
+[2018-07-05 20:11:10.756] Initialized Mapping subsystem within 41.1 seconds!
+[2018-07-05 20:11:10.758] Initialized Networks subsystem within 0 seconds!
+[2018-07-05 20:12:01.739] Initialized Atoms subsystem within 51 seconds!
+[2018-07-05 20:12:01.768] Initialized Language subsystem within 0 seconds!
+[2018-07-05 20:12:02.132] Initialized Machines subsystem within 0.4 seconds!
+[2018-07-05 20:12:02.188] Initialized Circuit subsystem within 0 seconds!
+[2018-07-05 20:12:02.190] Initialized Disease subsystem within 0 seconds!
+[2018-07-05 20:12:02.190] Initialized Medals subsystem within 0 seconds!
+[2018-07-05 20:12:02.191] Initialized Night Shift subsystem within 0 seconds!
+[2018-07-05 20:12:02.191] Initialized Parallax subsystem within 0 seconds!
+[2018-07-05 20:12:02.321] Initialized Traumas subsystem within 0.2 seconds!
+[2018-07-05 20:12:02.322] Initialized Weather subsystem within 0 seconds!
+[2018-07-05 20:13:23.045] Initialized Atmospherics subsystem within 80.7 seconds!
+[2018-07-05 20:13:23.061] Initialized Minimap subsystem within 0 seconds!
+[2018-07-05 20:13:25.099] Initialized Assets subsystem within 2 seconds!
+[2018-07-05 20:13:33.323] Initialized Icon Smoothing subsystem within 8.2 seconds!
+[2018-07-05 20:13:35.092] Initialized Overlay subsystem within 1.7 seconds!
+[2018-07-05 20:13:35.093] Initialized XKeyScore subsystem within 0 seconds!
+[2018-07-05 20:13:35.100] Initialized Sticky Ban subsystem within 0.1 seconds!
+[2018-07-05 20:13:50.134] Initialized Lighting subsystem within 15 seconds!
+[2018-07-05 20:13:52.610] Initialized Shuttle subsystem within 2.5 seconds!
+[2018-07-05 20:13:52.647] Initialized Squeak subsystem within 0 seconds!
+[2018-07-05 20:13:52.649] Initialized Pathfinder subsystem within 0 seconds!
+[2018-07-05 20:13:52.695] Loaded 6 engraved messages on map Box Station
+[2018-07-05 20:13:52.720] Initialized Persistence subsystem within 0.1 seconds!
+[2018-07-05 20:13:52.720] Initializations complete within 203.1 seconds!
+[2018-07-05 20:15:04.790] Game start took 4.5s
+[2018-07-05 20:18:49.287] runtime error: The grille taking damage after deletion
+[2018-07-05 20:18:49.287] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-05 20:18:49.287]   source file: unsorted.dm,1243
+[2018-07-05 20:18:49.287]   usr: null
+[2018-07-05 20:18:49.287]   src: the grille (/obj/structure/grille)
+[2018-07-05 20:18:49.287]   src.loc: null
+[2018-07-05 20:18:49.287]   call stack:
+[2018-07-05 20:18:49.287] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-07-05 20:18:49.287] the grille (/obj/structure/grille): take damage(8, "brute", "melee", 1, null, 0)
+[2018-07-05 20:18:49.287] the grille (/obj/structure/grille): take damage(8, "brute", "melee", 1, null)
+[2018-07-05 20:18:49.287] the grille (/obj/structure/grille): attack animal(the space polar bear (/mob/living/simple_animal/hostile/bear/snow))
+[2018-07-05 20:18:49.287] the space polar bear (/mob/living/simple_animal/hostile/bear/snow): DestroyObjectsInDirection(4)
+[2018-07-05 20:18:49.287] the space polar bear (/mob/living/simple_animal/hostile/bear/snow): DestroyPathToTarget()
+[2018-07-05 20:18:49.287] the space polar bear (/mob/living/simple_animal/hostile/bear/snow): handle automated action()
+[2018-07-05 20:18:49.288] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-07-05 20:18:49.288] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-07-05 20:18:49.288] Master (/datum/controller/master): RunQueue()
+[2018-07-05 20:18:49.288] Master (/datum/controller/master): Loop()
+[2018-07-05 20:18:49.288] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-05 20:18:49.288] 
+[2018-07-05 20:21:51.155] runtime error: Cannot read null.species
+[2018-07-05 20:21:51.155] proc name: death (/mob/living/carbon/human/death)
+[2018-07-05 20:21:51.155]   source file: death.dm,37
+[2018-07-05 20:21:51.155]   usr: (src)
+[2018-07-05 20:21:51.155]   src: Drake Power (/mob/living/carbon/human)
+[2018-07-05 20:21:51.155]   src.loc: null
+[2018-07-05 20:21:51.155]   call stack:
+[2018-07-05 20:21:51.155] Drake Power (/mob/living/carbon/human): death(1)
+[2018-07-05 20:21:51.156] Drake Power (/mob/living/carbon/human): gib(null, null, null)
+[2018-07-05 20:21:51.156] Drake Power (/mob/living/carbon/human): gib(null, null, null)
+[2018-07-05 20:21:51.156] the floor (66,118,13) (/turf/open/floor/plasteel/elevatorshaft): toShuttleMove(the plating (203,118,13) (/turf/open/floor/plating), 7, the excavation elevator (/obj/docking_port/mobile/elevator))
+[2018-07-05 20:21:51.156] the excavation elevator (/obj/docking_port/mobile/elevator): preflight check(/list (/list), /list (/list), /list (/list), 0)
+[2018-07-05 20:21:51.156] the excavation elevator (/obj/docking_port/mobile/elevator): initiate docking(the snowdin excavation top (/obj/docking_port/stationary), 1, 0)
+[2018-07-05 20:21:51.156] the excavation elevator (/obj/docking_port/mobile/elevator): request(the snowdin excavation top (/obj/docking_port/stationary))
+[2018-07-05 20:21:51.156] Shuttle (/datum/controller/subsystem/shuttle): moveShuttle("snowdin_excavation", "snowdin_excavation_top", 1)
+[2018-07-05 20:21:51.156] Excavation Elevator Console (/obj/machinery/computer/shuttle/snowdin/mining): Topic("src=\[0x20082b2];move=snowdin_...", /list (/list))
+[2018-07-05 20:21:51.156] Pandolphina (/client): Topic("src=\[0x20082b2];move=snowdin_...", /list (/list), Excavation Elevator Console (/obj/machinery/computer/shuttle/snowdin/mining))
+[2018-07-05 20:21:51.156] Pandolphina (/client): Topic("src=\[0x20082b2];move=snowdin_...", /list (/list), Excavation Elevator Console (/obj/machinery/computer/shuttle/snowdin/mining))
+[2018-07-05 20:21:51.156] 
+[2018-07-05 20:31:57.015] ### VarEdit by Pandolphina/(Does-The-Gimmick): /mob/dead/observer name=Does-The-Gimmick => Vladimir Putin
+[2018-07-05 20:32:04.928] ### VarEdit by Pandolphina/(Vladimir Putin): /mob/dead/observer real_name=Does-The-Gimmick => Vladimir Putin
+[2018-07-05 20:38:17.343] ### VarEdit by Pandolphina/(Killer Tomato): /mob/living/simple_animal/hostile/killertomato name=Killer Tomato => Vladimir Putin
+[2018-07-05 20:39:28.622] ### VarEdit by Pandolphina/(space polar bear): /mob/living/simple_animal/hostile/bear/snow name=space polar bear => Vladimir Putin
+[2018-07-05 20:41:36.136] runtime error: list index out of bounds
+[2018-07-05 20:41:36.136] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:41:36.136]   source file: customizables.dm,122
+[2018-07-05 20:41:36.136]   usr: Al Cohal (/mob/living/carbon/human)
+[2018-07-05 20:41:36.136]   src: the burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-05 20:41:36.136]   usr.loc: the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:36.136]   src.loc: the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:36.136]   call stack:
+[2018-07-05 20:41:36.136] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the faggot (/obj/item/reagent_containers/food/snacks/faggot))
+[2018-07-05 20:41:36.136] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the faggot (/obj/item/reagent_containers/food/snacks/faggot), Al Cohal (/mob/living/carbon/human), null)
+[2018-07-05 20:41:36.136] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): initialize custom food(the bun (/obj/item/reagent_containers/food/snacks/bun), the faggot (/obj/item/reagent_containers/food/snacks/faggot), Al Cohal (/mob/living/carbon/human))
+[2018-07-05 20:41:36.136] the bun (/obj/item/reagent_containers/food/snacks/bun): attackby(the faggot (/obj/item/reagent_containers/food/snacks/faggot), Al Cohal (/mob/living/carbon/human), "icon-x=17;icon-y=16;left=1;scr...")
+[2018-07-05 20:41:36.136] the faggot (/obj/item/reagent_containers/food/snacks/faggot): melee attack chain(Al Cohal (/mob/living/carbon/human), the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=17;icon-y=16;left=1;scr...")
+[2018-07-05 20:41:36.136] Al Cohal (/mob/living/carbon/human): ClickOn(the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=17;icon-y=16;left=1;scr...")
+[2018-07-05 20:41:36.136] the bun (/obj/item/reagent_containers/food/snacks/bun): Click(the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=17;icon-y=16;left=1;scr...")
+[2018-07-05 20:41:36.136] SaltyScabbard (/client): Click(the bun (/obj/item/reagent_containers/food/snacks/bun), the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=17;icon-y=16;left=1;scr...")
+[2018-07-05 20:41:36.136] 
+[2018-07-05 20:41:36.825] runtime error: list index out of bounds
+[2018-07-05 20:41:36.825] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:41:36.825]   source file: customizables.dm,122
+[2018-07-05 20:41:36.825]   usr: Al Cohal (/mob/living/carbon/human)
+[2018-07-05 20:41:36.825]   src: the burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-05 20:41:36.825]   usr.loc: the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:36.825]   src.loc: the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:36.825]   call stack:
+[2018-07-05 20:41:36.825] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the faggot (/obj/item/reagent_containers/food/snacks/faggot))
+[2018-07-05 20:41:36.825] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the faggot (/obj/item/reagent_containers/food/snacks/faggot), Al Cohal (/mob/living/carbon/human), null)
+[2018-07-05 20:41:36.825] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): initialize custom food(the bun (/obj/item/reagent_containers/food/snacks/bun), the faggot (/obj/item/reagent_containers/food/snacks/faggot), Al Cohal (/mob/living/carbon/human))
+[2018-07-05 20:41:36.825] the bun (/obj/item/reagent_containers/food/snacks/bun): attackby(the faggot (/obj/item/reagent_containers/food/snacks/faggot), Al Cohal (/mob/living/carbon/human), "icon-x=18;icon-y=14;left=1;scr...")
+[2018-07-05 20:41:36.825] the faggot (/obj/item/reagent_containers/food/snacks/faggot): melee attack chain(Al Cohal (/mob/living/carbon/human), the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=18;icon-y=14;left=1;scr...")
+[2018-07-05 20:41:36.825] Al Cohal (/mob/living/carbon/human): ClickOn(the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=18;icon-y=14;left=1;scr...")
+[2018-07-05 20:41:36.825] the bun (/obj/item/reagent_containers/food/snacks/bun): Click(the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=18;icon-y=14;left=1;scr...")
+[2018-07-05 20:41:36.825] SaltyScabbard (/client): Click(the bun (/obj/item/reagent_containers/food/snacks/bun), the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=18;icon-y=14;left=1;scr...")
+[2018-07-05 20:41:36.825] 
+[2018-07-05 20:41:40.292] runtime error: list index out of bounds
+[2018-07-05 20:41:40.292] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:41:40.292]   source file: customizables.dm,122
+[2018-07-05 20:41:40.292]   usr: Al Cohal (/mob/living/carbon/human)
+[2018-07-05 20:41:40.292]   src: the burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-05 20:41:40.292]   usr.loc: the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:40.292]   src.loc: the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:40.292]   call stack:
+[2018-07-05 20:41:40.292] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the faggot (/obj/item/reagent_containers/food/snacks/faggot))
+[2018-07-05 20:41:40.292] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the faggot (/obj/item/reagent_containers/food/snacks/faggot), Al Cohal (/mob/living/carbon/human), null)
+[2018-07-05 20:41:40.292] the burger (/obj/item/reagent_containers/food/snacks/customizable/burger): initialize custom food(the bun (/obj/item/reagent_containers/food/snacks/bun), the faggot (/obj/item/reagent_containers/food/snacks/faggot), Al Cohal (/mob/living/carbon/human))
+[2018-07-05 20:41:40.292] the bun (/obj/item/reagent_containers/food/snacks/bun): attackby(the faggot (/obj/item/reagent_containers/food/snacks/faggot), Al Cohal (/mob/living/carbon/human), "icon-x=17;icon-y=19;left=1;scr...")
+[2018-07-05 20:41:40.292] the faggot (/obj/item/reagent_containers/food/snacks/faggot): melee attack chain(Al Cohal (/mob/living/carbon/human), the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=17;icon-y=19;left=1;scr...")
+[2018-07-05 20:41:40.292] Al Cohal (/mob/living/carbon/human): ClickOn(the bun (/obj/item/reagent_containers/food/snacks/bun), "icon-x=17;icon-y=19;left=1;scr...")
+[2018-07-05 20:41:40.292] the bun (/obj/item/reagent_containers/food/snacks/bun): Click(the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=17;icon-y=19;left=1;scr...")
+[2018-07-05 20:41:40.292] SaltyScabbard (/client): Click(the bun (/obj/item/reagent_containers/food/snacks/bun), the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=17;icon-y=19;left=1;scr...")
+[2018-07-05 20:41:40.292] 
+[2018-07-05 20:41:43.951] runtime error: list index out of bounds
+[2018-07-05 20:41:43.951] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:41:43.951]   source file: customizables.dm,122
+[2018-07-05 20:41:43.951]   usr: Al Cohal (/mob/living/carbon/human)
+[2018-07-05 20:41:43.951]   src: the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-05 20:41:43.951]   usr.loc: the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:43.951]   src.loc: the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:43.951]   call stack:
+[2018-07-05 20:41:43.951] the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the tomato (/obj/item/reagent_containers/food/snacks/grown/tomato))
+[2018-07-05 20:41:43.951] the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the tomato (/obj/item/reagent_containers/food/snacks/grown/tomato), Al Cohal (/mob/living/carbon/human), "icon-x=17;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:43.951] the tomato (/obj/item/reagent_containers/food/snacks/grown/tomato): melee attack chain(Al Cohal (/mob/living/carbon/human), the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=17;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:43.951] Al Cohal (/mob/living/carbon/human): ClickOn(the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=17;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:43.951] the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger): Click(the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=17;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:43.951] SaltyScabbard (/client): Click(the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger), the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=17;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:43.951] 
+[2018-07-05 20:41:44.532] runtime error: list index out of bounds
+[2018-07-05 20:41:44.532] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:41:44.532]   source file: customizables.dm,122
+[2018-07-05 20:41:44.532]   usr: Al Cohal (/mob/living/carbon/human)
+[2018-07-05 20:41:44.532]   src: the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-05 20:41:44.532]   usr.loc: the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:44.532]   src.loc: the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:44.532]   call stack:
+[2018-07-05 20:41:44.532] the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the tomato (/obj/item/reagent_containers/food/snacks/grown/tomato))
+[2018-07-05 20:41:44.532] the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the tomato (/obj/item/reagent_containers/food/snacks/grown/tomato), Al Cohal (/mob/living/carbon/human), "icon-x=18;icon-y=18;left=1;scr...")
+[2018-07-05 20:41:44.532] the tomato (/obj/item/reagent_containers/food/snacks/grown/tomato): melee attack chain(Al Cohal (/mob/living/carbon/human), the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=18;icon-y=18;left=1;scr...")
+[2018-07-05 20:41:44.532] Al Cohal (/mob/living/carbon/human): ClickOn(the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=18;icon-y=18;left=1;scr...")
+[2018-07-05 20:41:44.532] the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger): Click(the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=18;icon-y=18;left=1;scr...")
+[2018-07-05 20:41:44.532] SaltyScabbard (/client): Click(the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger), the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=18;icon-y=18;left=1;scr...")
+[2018-07-05 20:41:44.532] 
+[2018-07-05 20:41:46.031] runtime error: list index out of bounds
+[2018-07-05 20:41:46.031] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:41:46.031]   source file: customizables.dm,122
+[2018-07-05 20:41:46.031]   usr: Al Cohal (/mob/living/carbon/human)
+[2018-07-05 20:41:46.031]   src: the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-05 20:41:46.031]   usr.loc: the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:46.031]   src.loc: the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:46.031]   call stack:
+[2018-07-05 20:41:46.031] the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the tomato (/obj/item/reagent_containers/food/snacks/grown/tomato))
+[2018-07-05 20:41:46.031] the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the tomato (/obj/item/reagent_containers/food/snacks/grown/tomato), Al Cohal (/mob/living/carbon/human), "icon-x=17;icon-y=13;left=1;scr...")
+[2018-07-05 20:41:46.031] the tomato (/obj/item/reagent_containers/food/snacks/grown/tomato): melee attack chain(Al Cohal (/mob/living/carbon/human), the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=17;icon-y=13;left=1;scr...")
+[2018-07-05 20:41:46.031] Al Cohal (/mob/living/carbon/human): ClickOn(the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=17;icon-y=13;left=1;scr...")
+[2018-07-05 20:41:46.031] the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger): Click(the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=17;icon-y=13;left=1;scr...")
+[2018-07-05 20:41:46.031] SaltyScabbard (/client): Click(the faggot burger (/obj/item/reagent_containers/food/snacks/customizable/burger), the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=17;icon-y=13;left=1;scr...")
+[2018-07-05 20:41:46.031] 
+[2018-07-05 20:41:49.184] runtime error: list index out of bounds
+[2018-07-05 20:41:49.184] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:41:49.184]   source file: customizables.dm,122
+[2018-07-05 20:41:49.184]   usr: Al Cohal (/mob/living/carbon/human)
+[2018-07-05 20:41:49.184]   src: the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-05 20:41:49.184]   usr.loc: the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:49.184]   src.loc: the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:49.184]   call stack:
+[2018-07-05 20:41:49.184] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain))
+[2018-07-05 20:41:49.184] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Al Cohal (/mob/living/carbon/human), "icon-x=11;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:49.184] the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain): melee attack chain(Al Cohal (/mob/living/carbon/human), the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=11;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:49.184] Al Cohal (/mob/living/carbon/human): ClickOn(the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=11;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:49.184] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): Click(the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=11;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:49.184] SaltyScabbard (/client): Click(the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=11;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:49.184] 
+[2018-07-05 20:41:49.722] runtime error: list index out of bounds
+[2018-07-05 20:41:49.722] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:41:49.722]   source file: customizables.dm,122
+[2018-07-05 20:41:49.722]   usr: Al Cohal (/mob/living/carbon/human)
+[2018-07-05 20:41:49.722]   src: the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-05 20:41:49.722]   usr.loc: the floor (150,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:49.722]   src.loc: the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:49.722]   call stack:
+[2018-07-05 20:41:49.722] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain))
+[2018-07-05 20:41:49.722] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Al Cohal (/mob/living/carbon/human), "icon-x=12;icon-y=13;left=1;scr...")
+[2018-07-05 20:41:49.722] the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain): melee attack chain(Al Cohal (/mob/living/carbon/human), the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=12;icon-y=13;left=1;scr...")
+[2018-07-05 20:41:49.722] Al Cohal (/mob/living/carbon/human): ClickOn(the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=12;icon-y=13;left=1;scr...")
+[2018-07-05 20:41:49.722] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): Click(the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=12;icon-y=13;left=1;scr...")
+[2018-07-05 20:41:49.722] SaltyScabbard (/client): Click(the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), the floor (150,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=12;icon-y=13;left=1;scr...")
+[2018-07-05 20:41:49.722] 
+[2018-07-05 20:41:51.676] runtime error: list index out of bounds
+[2018-07-05 20:41:51.676] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:41:51.676]   source file: customizables.dm,122
+[2018-07-05 20:41:51.676]   usr: Al Cohal (/mob/living/carbon/human)
+[2018-07-05 20:41:51.676]   src: the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger)
+[2018-07-05 20:41:51.676]   usr.loc: the floor (151,137,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:51.676]   src.loc: the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria)
+[2018-07-05 20:41:51.676]   call stack:
+[2018-07-05 20:41:51.676] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): update overlays(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain))
+[2018-07-05 20:41:51.676] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): attackby(the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain), Al Cohal (/mob/living/carbon/human), "icon-x=18;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:51.676] the monkey meat steak (/obj/item/reagent_containers/food/snacks/meat/steak/plain): melee attack chain(Al Cohal (/mob/living/carbon/human), the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=18;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:51.676] Al Cohal (/mob/living/carbon/human): ClickOn(the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), "icon-x=18;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:51.676] the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger): Click(the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=18;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:51.676] SaltyScabbard (/client): Click(the custom burger (/obj/item/reagent_containers/food/snacks/customizable/burger), the floor (151,136,2) (/turf/open/floor/plasteel/cafeteria), "mapwindow.map", "icon-x=18;icon-y=15;left=1;scr...")
+[2018-07-05 20:41:51.676] 
+[2018-07-05 20:42:34.945] runtime error: Cannot execute null.copy to().
+[2018-07-05 20:42:34.945] proc name: Collide (/obj/item/projectile/Collide)
+[2018-07-05 20:42:34.945]   source file: projectile.dm,202
+[2018-07-05 20:42:34.945]   usr: Verna Sandys (/mob/living/carbon/human)
+[2018-07-05 20:42:34.945]   src: .50 bullet (/obj/item/projectile/bullet/p50)
+[2018-07-05 20:42:34.945]   usr.loc: the grass patch (183,140,2) (/turf/open/floor/grass)
+[2018-07-05 20:42:34.945]   src.loc: the grass patch (183,140,2) (/turf/open/floor/grass)
+[2018-07-05 20:42:34.945]   call stack:
+[2018-07-05 20:42:34.945] .50 bullet (/obj/item/projectile/bullet/p50): Collide(Verna Sandys (/mob/living/carbon/human))
+[2018-07-05 20:42:34.945] .50 bullet (/obj/item/projectile/bullet/p50): Crossed(Verna Sandys (/mob/living/carbon/human))
+[2018-07-05 20:42:34.945] Verna Sandys (/mob/living/carbon/human): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 2)
+[2018-07-05 20:42:34.945] Verna Sandys (/mob/living/carbon/human): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 2)
+[2018-07-05 20:42:34.945] Verna Sandys (/mob/living/carbon/human): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 2)
+[2018-07-05 20:42:34.945] Verna Sandys (/mob/living/carbon/human): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 2)
+[2018-07-05 20:42:34.945] Ceanox (/client): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 2)
+[2018-07-05 20:42:34.945] Verna Sandys (/mob/living/carbon/human): keyLoop(Ceanox (/client))
+[2018-07-05 20:42:34.945] Ceanox (/client): keyLoop()
+[2018-07-05 20:42:34.945] Input (/datum/controller/subsystem/input): fire(0)
+[2018-07-05 20:42:34.945] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-07-05 20:42:34.945] Master (/datum/controller/master): RunQueue()
+[2018-07-05 20:42:34.945] Master (/datum/controller/master): Loop()
+[2018-07-05 20:42:34.945] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-05 20:42:34.945] 
+[2018-07-05 20:43:44.640] runtime error: Cannot execute null.copy to().
+[2018-07-05 20:43:44.640] proc name: Collide (/obj/item/projectile/Collide)
+[2018-07-05 20:43:44.640]   source file: projectile.dm,202
+[2018-07-05 20:43:44.640]   usr: Eva (/mob/living/carbon/human)
+[2018-07-05 20:43:44.640]   src: .50 bullet (/obj/item/projectile/bullet/p50)
+[2018-07-05 20:43:44.640]   usr.loc: the grass patch (183,140,2) (/turf/open/floor/grass)
+[2018-07-05 20:43:44.640]   src.loc: the grass patch (183,140,2) (/turf/open/floor/grass)
+[2018-07-05 20:43:44.640]   call stack:
+[2018-07-05 20:43:44.640] .50 bullet (/obj/item/projectile/bullet/p50): Collide(Eva (/mob/living/carbon/human))
+[2018-07-05 20:43:44.640] .50 bullet (/obj/item/projectile/bullet/p50): Crossed(Eva (/mob/living/carbon/human))
+[2018-07-05 20:43:44.640] Eva (/mob/living/carbon/human): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 8)
+[2018-07-05 20:43:44.640] Eva (/mob/living/carbon/human): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 8)
+[2018-07-05 20:43:44.640] Eva (/mob/living/carbon/human): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 8)
+[2018-07-05 20:43:44.640] Eva (/mob/living/carbon/human): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 8)
+[2018-07-05 20:43:44.640] Mayhem88 (/client): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 8)
+[2018-07-05 20:43:44.640] Eva (/mob/living/carbon/human): keyLoop(Mayhem88 (/client))
+[2018-07-05 20:43:44.640] Mayhem88 (/client): keyLoop()
+[2018-07-05 20:43:44.640] Input (/datum/controller/subsystem/input): fire(0)
+[2018-07-05 20:43:44.640] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-07-05 20:43:44.640] Master (/datum/controller/master): RunQueue()
+[2018-07-05 20:43:44.640] Master (/datum/controller/master): Loop()
+[2018-07-05 20:43:44.640] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-05 20:43:44.640] 
+[2018-07-05 20:44:46.460] runtime error: Cannot read null.armor
+[2018-07-05 20:44:46.460] proc name: checkarmor (/mob/living/carbon/human/proc/checkarmor)
+[2018-07-05 20:44:46.460]   source file: human_defense.dm,32
+[2018-07-05 20:44:46.460]   usr: null
+[2018-07-05 20:44:46.460]   src: Eva (/mob/living/carbon/human)
+[2018-07-05 20:44:46.460]   src.loc: null
+[2018-07-05 20:44:46.460]   call stack:
+[2018-07-05 20:44:46.460] Eva (/mob/living/carbon/human): checkarmor(null, "magic")
+[2018-07-05 20:44:46.460] Eva (/mob/living/carbon/human): getarmor("r_leg", "magic")
+[2018-07-05 20:44:46.460] Eva (/mob/living/carbon/human): run armor check("r_leg", "magic", "", "", 100, null)
+[2018-07-05 20:44:46.460] Eva (/mob/living/carbon/human): bullet act(the bolt of change (/obj/item/projectile/magic/change), "r_leg")
+[2018-07-05 20:44:46.460] Eva (/mob/living/carbon/human): bullet act(the bolt of change (/obj/item/projectile/magic/change), "r_leg")
+[2018-07-05 20:44:46.460] the bolt of change (/obj/item/projectile/magic/change): Collide(Eva (/mob/living/carbon/human))
+[2018-07-05 20:44:46.460] the bolt of change (/obj/item/projectile/magic/change): pixel move(2, 1, 0)
+[2018-07-05 20:44:46.461] the bolt of change (/obj/item/projectile/magic/change): process(1)
+[2018-07-05 20:44:46.461] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-05 20:44:46.461] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-05 20:44:46.461] Master (/datum/controller/master): RunQueue()
+[2018-07-05 20:44:46.461] Master (/datum/controller/master): Loop()
+[2018-07-05 20:44:46.461] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-05 20:44:46.461] 
+[2018-07-05 20:49:18.911] runtime error: Cannot execute null.copy to().
+[2018-07-05 20:49:18.911] proc name: Collide (/obj/item/projectile/Collide)
+[2018-07-05 20:49:18.911]   source file: projectile.dm,202
+[2018-07-05 20:49:18.911]   usr: Eva (/mob/living/carbon/monkey)
+[2018-07-05 20:49:18.911]   src: .50 bullet (/obj/item/projectile/bullet/p50)
+[2018-07-05 20:49:18.911]   usr.loc: the grass patch (183,140,2) (/turf/open/floor/grass)
+[2018-07-05 20:49:18.911]   src.loc: the grass patch (183,140,2) (/turf/open/floor/grass)
+[2018-07-05 20:49:18.911]   call stack:
+[2018-07-05 20:49:18.911] .50 bullet (/obj/item/projectile/bullet/p50): Collide(Eva (/mob/living/carbon/monkey))
+[2018-07-05 20:49:18.911] .50 bullet (/obj/item/projectile/bullet/p50): Crossed(Eva (/mob/living/carbon/monkey))
+[2018-07-05 20:49:18.911] Eva (/mob/living/carbon/monkey): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 1)
+[2018-07-05 20:49:18.911] Eva (/mob/living/carbon/monkey): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 1)
+[2018-07-05 20:49:18.911] Eva (/mob/living/carbon/monkey): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 1)
+[2018-07-05 20:49:18.911] Mayhem88 (/client): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 1)
+[2018-07-05 20:49:18.911] Eva (/mob/living/carbon/monkey): keyLoop(Mayhem88 (/client))
+[2018-07-05 20:49:18.911] Mayhem88 (/client): keyLoop()
+[2018-07-05 20:49:18.911] Input (/datum/controller/subsystem/input): fire(0)
+[2018-07-05 20:49:18.911] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-07-05 20:49:18.911] Master (/datum/controller/master): RunQueue()
+[2018-07-05 20:49:18.911] Master (/datum/controller/master): Loop()
+[2018-07-05 20:49:18.911] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-05 20:49:18.911] 
+[2018-07-05 20:49:19.885] runtime error: Cannot execute null.copy to().
+[2018-07-05 20:49:19.885] proc name: Collide (/obj/item/projectile/Collide)
+[2018-07-05 20:49:19.885]   source file: projectile.dm,202
+[2018-07-05 20:49:19.885]   usr: Eva (/mob/living/carbon/monkey)
+[2018-07-05 20:49:19.885]   src: .50 bullet (/obj/item/projectile/bullet/p50)
+[2018-07-05 20:49:19.885]   usr.loc: the grass patch (183,140,2) (/turf/open/floor/grass)
+[2018-07-05 20:49:19.885]   src.loc: the grass patch (183,140,2) (/turf/open/floor/grass)
+[2018-07-05 20:49:19.885]   call stack:
+[2018-07-05 20:49:19.885] .50 bullet (/obj/item/projectile/bullet/p50): Collide(Eva (/mob/living/carbon/monkey))
+[2018-07-05 20:49:19.885] .50 bullet (/obj/item/projectile/bullet/p50): Crossed(Eva (/mob/living/carbon/monkey))
+[2018-07-05 20:49:19.885] Eva (/mob/living/carbon/monkey): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 2)
+[2018-07-05 20:49:19.885] Eva (/mob/living/carbon/monkey): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 2)
+[2018-07-05 20:49:19.885] Eva (/mob/living/carbon/monkey): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 2)
+[2018-07-05 20:49:19.885] Mayhem88 (/client): Move(the grass patch (183,140,2) (/turf/open/floor/grass), 2)
+[2018-07-05 20:49:19.885] Eva (/mob/living/carbon/monkey): keyLoop(Mayhem88 (/client))
+[2018-07-05 20:49:19.885] Mayhem88 (/client): keyLoop()
+[2018-07-05 20:49:19.885] Input (/datum/controller/subsystem/input): fire(0)
+[2018-07-05 20:49:19.885] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-07-05 20:49:19.885] Master (/datum/controller/master): RunQueue()
+[2018-07-05 20:49:19.885] Master (/datum/controller/master): Loop()
+[2018-07-05 20:49:19.885] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-05 20:49:19.885] 
+[2018-07-05 20:50:38.147] runtime error: list index out of bounds
+[2018-07-05 20:50:38.147] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:50:38.147]   source file: customizables.dm,122
+[2018-07-05 20:50:38.147] 
+[2018-07-05 20:50:39.126] runtime error: list index out of bounds
+[2018-07-05 20:50:39.126] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:50:39.126]   source file: customizables.dm,122
+[2018-07-05 20:50:39.126] 
+[2018-07-05 20:50:40.996] runtime error: list index out of bounds
+[2018-07-05 20:50:40.996] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:50:40.996]   source file: customizables.dm,122
+[2018-07-05 20:50:40.996] 
+[2018-07-05 20:54:07.417] runtime error: list index out of bounds
+[2018-07-05 20:54:07.417] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:54:07.417]   source file: customizables.dm,122
+[2018-07-05 20:54:07.417] 
+[2018-07-05 20:54:11.206] runtime error: list index out of bounds
+[2018-07-05 20:54:11.206] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:54:11.206]   source file: customizables.dm,122
+[2018-07-05 20:54:11.206] 
+[2018-07-05 20:54:11.610] runtime error: list index out of bounds
+[2018-07-05 20:54:11.610] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:54:11.610]   source file: customizables.dm,122
+[2018-07-05 20:54:11.610] 
+[2018-07-05 20:54:14.176] runtime error: list index out of bounds
+[2018-07-05 20:54:14.176] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:54:14.176]   source file: customizables.dm,122
+[2018-07-05 20:54:14.176] 
+[2018-07-05 20:54:14.586] runtime error: list index out of bounds
+[2018-07-05 20:54:14.586] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:54:14.586]   source file: customizables.dm,122
+[2018-07-05 20:54:14.586] 
+[2018-07-05 20:54:25.553] runtime error: list index out of bounds
+[2018-07-05 20:54:25.553] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:54:25.553]   source file: customizables.dm,122
+[2018-07-05 20:54:25.553] 
+[2018-07-05 20:54:25.895] runtime error: list index out of bounds
+[2018-07-05 20:54:25.896] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:54:25.896]   source file: customizables.dm,122
+[2018-07-05 20:54:25.896] 
+[2018-07-05 20:54:28.217] runtime error: list index out of bounds
+[2018-07-05 20:54:28.217] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:54:28.217]   source file: customizables.dm,122
+[2018-07-05 20:54:28.217] 
+[2018-07-05 20:54:28.526] runtime error: list index out of bounds
+[2018-07-05 20:54:28.527] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:54:28.527]   source file: customizables.dm,122
+[2018-07-05 20:54:28.527] 
+[2018-07-05 20:54:31.990] runtime error: list index out of bounds
+[2018-07-05 20:54:31.990] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:54:31.990]   source file: customizables.dm,122
+[2018-07-05 20:54:31.990] 
+[2018-07-05 20:54:32.455] runtime error: list index out of bounds
+[2018-07-05 20:54:32.455] proc name: update overlays (/obj/item/reagent_containers/food/snacks/customizable/update_overlays)
+[2018-07-05 20:54:32.455]   source file: customizables.dm,122
+[2018-07-05 20:54:32.455] 
+[2018-07-05 21:05:39.984] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-05 21:05:39.984] proc name: stack trace (/proc/stack_trace)
+[2018-07-05 21:05:39.984]   source file: unsorted.dm,1240
+[2018-07-05 21:05:39.984] 
+[2018-07-05 21:13:45.102] runtime error: Cannot modify null.parallax_animate_timer.
+[2018-07-05 21:13:45.102] proc name: update parallax motionblur (/datum/hud/proc/update_parallax_motionblur)
+[2018-07-05 21:13:45.102]   source file: parallax.dm,149
+[2018-07-05 21:13:45.102] 
+[2018-07-05 21:48:05.669] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-05 21:48:05.669] proc name: stack trace (/proc/stack_trace)
+[2018-07-05 21:48:05.669]   source file: unsorted.dm,1240
+[2018-07-05 21:48:05.669] 
+[2018-07-05 21:48:05.670] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-05 21:48:05.670] proc name: stack trace (/proc/stack_trace)
+[2018-07-05 21:48:05.670]   source file: unsorted.dm,1240
+[2018-07-05 21:48:05.670] 
+[2018-07-05 21:49:26.776] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-05 21:49:26.776] proc name: stack trace (/proc/stack_trace)
+[2018-07-05 21:49:26.776]   source file: unsorted.dm,1240
+[2018-07-05 21:49:26.776] 
+[2018-07-05 21:53:58.065] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-05 21:53:58.065] proc name: stack trace (/proc/stack_trace)
+[2018-07-05 21:53:58.065]   source file: unsorted.dm,1240
+[2018-07-05 21:53:58.065] 
+[2018-07-05 21:53:58.065] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-05 21:53:58.065] proc name: stack trace (/proc/stack_trace)
+[2018-07-05 21:53:58.065]   source file: unsorted.dm,1240
+[2018-07-05 21:53:58.065] 
+[2018-07-05 21:57:22.339] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-05 21:57:22.339] proc name: stack trace (/proc/stack_trace)
+[2018-07-05 21:57:22.339]   source file: unsorted.dm,1240
+[2018-07-05 21:57:22.339] 
+[2018-07-05 21:58:11.702] runtime error: list index out of bounds
+[2018-07-05 21:58:11.703] proc name: process queue (/obj/machinery/mecha_part_fabricator/proc/process_queue)
+[2018-07-05 21:58:11.703]   source file: mech_fabricator.dm,183
+[2018-07-05 21:58:11.703] 
+[2018-07-05 21:59:04.007] runtime error: The reinforced window taking damage after deletion
+[2018-07-05 21:59:04.007] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-05 21:59:04.007]   source file: unsorted.dm,1243
+[2018-07-05 21:59:04.007] 
+[2018-07-05 22:05:02.288] runtime error: The �APLU "Ripley" taking damage after deletion
+[2018-07-05 22:05:02.289] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-05 22:05:02.289]   source file: unsorted.dm,1243
+[2018-07-05 22:05:02.289] 
+[2018-07-05 22:05:02.335] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-05 22:05:02.335] proc name: stack trace (/proc/stack_trace)
+[2018-07-05 22:05:02.335]   source file: unsorted.dm,1240
+[2018-07-05 22:05:02.335] 
+[2018-07-05 22:05:02.335] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-05 22:05:02.335] proc name: stack trace (/proc/stack_trace)
+[2018-07-05 22:05:02.335]   source file: unsorted.dm,1240
+[2018-07-05 22:05:02.335] 
+[2018-07-05 22:05:02.350] runtime error: The blue jumpsuit taking damage after deletion
+[2018-07-05 22:05:02.350] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-05 22:05:02.350]   source file: unsorted.dm,1243
+[2018-07-05 22:05:02.350] 
+[2018-07-05 22:05:02.946] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-05 22:05:02.946] proc name: stack trace (/proc/stack_trace)
+[2018-07-05 22:05:02.946]   source file: unsorted.dm,1240
+[2018-07-05 22:05:02.946] 
+[2018-07-05 22:07:17.059] Saved 6 engraved messages on map Box Station
+[2018-07-05 22:07:48.249] Shutting down Persistence subsystem...
+[2018-07-05 22:07:48.249] Shutting down Pathfinder subsystem...
+[2018-07-05 22:07:48.249] Shutting down Squeak subsystem...
+[2018-07-05 22:07:48.249] Shutting down Shuttle subsystem...
+[2018-07-05 22:07:48.249] Shutting down Lighting subsystem...
+[2018-07-05 22:07:48.249] Shutting down XKeyScore subsystem...
+[2018-07-05 22:07:48.249] Shutting down Sticky Ban subsystem...
+[2018-07-05 22:07:48.249] Shutting down Overlay subsystem...
+[2018-07-05 22:07:48.287] Shutting down Icon Smoothing subsystem...
+[2018-07-05 22:07:48.287] Shutting down Assets subsystem...
+[2018-07-05 22:07:48.287] Shutting down Minimap subsystem...
+[2018-07-05 22:07:48.287] Shutting down Atmospherics subsystem...
+[2018-07-05 22:07:48.287] Shutting down Wet floors subsystem...
+[2018-07-05 22:07:48.287] Shutting down Weather subsystem...
+[2018-07-05 22:07:48.287] Shutting down Vote subsystem...
+[2018-07-05 22:07:48.287] Shutting down Traumas subsystem...
+[2018-07-05 22:07:48.287] Shutting down Title Screen subsystem...
+[2018-07-05 22:07:48.288] Shutting down Time Tracking subsystem...
+[2018-07-05 22:07:48.289] Shutting down Throwing subsystem...
+[2018-07-05 22:07:48.289] Shutting down tgui subsystem...
+[2018-07-05 22:07:48.289] Shutting down Sun subsystem...
+[2018-07-05 22:07:48.289] Shutting down Space Drift subsystem...
+[2018-07-05 22:07:48.289] Shutting down Religion subsystem...
+[2018-07-05 22:07:48.289] Shutting down Radio subsystem...
+[2018-07-05 22:07:48.289] Shutting down Radiation subsystem...
+[2018-07-05 22:07:48.289] Shutting down Projectiles subsystem...
+[2018-07-05 22:07:48.289] Shutting down Processing subsystem...
+[2018-07-05 22:07:48.289] Shutting down Ping subsystem...
+[2018-07-05 22:07:48.289] Shutting down Parallax subsystem...
+[2018-07-05 22:07:48.289] Shutting down pAI subsystem...
+[2018-07-05 22:07:48.289] Shutting down Orbits subsystem...
+[2018-07-05 22:07:48.289] Shutting down Objects subsystem...
+[2018-07-05 22:07:48.289] Shutting down NPC Pool subsystem...
+[2018-07-05 22:07:48.289] Shutting down Night Shift subsystem...
+[2018-07-05 22:07:48.289] Shutting down Mood subsystem...
+[2018-07-05 22:07:48.289] Shutting down Mobs subsystem...
+[2018-07-05 22:07:48.289] Shutting down Medals subsystem...
+[2018-07-05 22:07:48.289] Shutting down Idling NPC Pool subsystem...
+[2018-07-05 22:07:48.289] Shutting down Flightpack Movement subsystem...
+[2018-07-05 22:07:48.289] Shutting down Fire Burning subsystem...
+[2018-07-05 22:07:48.289] Shutting down Fields subsystem...
+[2018-07-05 22:07:48.289] Shutting down Fast Processing subsystem...
+[2018-07-05 22:07:48.289] Shutting down Disease subsystem...
+[2018-07-05 22:07:48.289] Shutting down Datum Component System subsystem...
+[2018-07-05 22:07:48.289] Shutting down Communications subsystem...
+[2018-07-05 22:07:48.289] Shutting down Augury subsystem...
+[2018-07-05 22:07:48.289] Shutting down Acid subsystem...
+[2018-07-05 22:07:48.289] Shutting down Timer subsystem...
+[2018-07-05 22:07:48.290] Shutting down Circuit subsystem...
+[2018-07-05 22:07:48.290] Shutting down Machines subsystem...
+[2018-07-05 22:07:48.290] Shutting down Language subsystem...
+[2018-07-05 22:07:48.290] Shutting down Atoms subsystem...
+[2018-07-05 22:07:48.291] Shutting down Networks subsystem...
+[2018-07-05 22:07:48.291] Shutting down Mapping subsystem...
+[2018-07-05 22:07:48.291] Shutting down Ticker subsystem...
+[2018-07-05 22:07:48.406] Shutting down Quirks subsystem...
+[2018-07-05 22:07:48.406] Shutting down Jobs subsystem...
+[2018-07-05 22:07:48.406] Shutting down Events subsystem...
+[2018-07-05 22:07:48.406] Shutting down Research subsystem...
+[2018-07-05 22:07:48.406] Shutting down Input subsystem...
+[2018-07-05 22:07:48.406] Shutting down Server Tasks subsystem...
+[2018-07-05 22:07:48.406] Shutting down Blackbox subsystem...
+[2018-07-05 22:07:48.512] Shutting down Database subsystem...
+[2018-07-05 22:07:48.547] Shutting down Garbage subsystem...
+[2018-07-05 22:07:48.631] Shutdown complete
+[2018-07-05 22:07:48.631] World rebooted at 22:07:48

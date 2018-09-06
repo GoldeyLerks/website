@@ -1,0 +1,27 @@
+{% from "_formhelpers.html" import render_post_field %}
+{% extends "layout.html" %}
+{% block title %}Forum{% endblock %}
+{% block active %}forum{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="/static/css/forums.css">
+<link rel="stylesheet" href="/static/css/forms.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/at.js/1.5.4/js/jquery.atwho.min.js"></script>
+<meta property="og:title" content="BeeStation - Forum" />
+<meta property="og:description" content="BeeStation is a newbie friendly Space Station 13 server. The server was created in march 2018. We like to put a fun touch to the rounds to make a better experience." />
+{% endblock %}
+
+{% block content %}
+
+{% if "username" in session %}
+<form class="form-post" method=post>
+
+    {{ render_post_field(form.title) }}
+    {{ render_post_field(form.content) }}
+    {{ render_post_field(form.submit) }}
+
+
+</form>
+{% endif %}
+
+
+{% endblock %}

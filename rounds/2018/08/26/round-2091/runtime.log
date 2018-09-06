@@ -1,0 +1,376 @@
+[2018-08-26 18:54:35.457] Starting up round ID 2091.
+[2018-08-26 18:54:35.457] -------------------------
+[2018-08-26 18:54:36.913] Initialized Database subsystem within 0 seconds!
+[2018-08-26 18:54:36.914] Initialized Blackbox subsystem within 0 seconds!
+[2018-08-26 18:54:36.914] Initialized Server Tasks subsystem within 0 seconds!
+[2018-08-26 18:54:36.914] Initialized Input subsystem within 0 seconds!
+[2018-08-26 18:54:36.946] Initialized Research subsystem within 0 seconds!
+[2018-08-26 18:54:36.950] Initialized Events subsystem within 0 seconds!
+[2018-08-26 18:54:36.954] Initialized Jobs subsystem within 0 seconds!
+[2018-08-26 18:54:36.955] Initialized Quirks subsystem within 0 seconds!
+[2018-08-26 18:54:36.963] Initialized Ticker subsystem within 0 seconds!
+[2018-08-26 18:54:36.964] Loading Box Station...
+[2018-08-26 18:54:40.758] Loaded Station in 3.8s!
+[2018-08-26 18:54:46.444] Loaded Lavaland in 5.5s!
+[2018-08-26 18:54:48.412] Ruin loader finished with 0 left to spend.
+[2018-08-26 18:54:51.169] Ruin loader finished with 0 left to spend.
+[2018-08-26 18:54:52.516] Initialized Mapping subsystem within 15.6 seconds!
+[2018-08-26 18:54:52.538] Initialized Networks subsystem within 0 seconds!
+[2018-08-26 18:55:36.129] Initialized Atoms subsystem within 43.6 seconds!
+[2018-08-26 18:55:36.144] Initialized Language subsystem within 0 seconds!
+[2018-08-26 18:55:36.496] Initialized Machines subsystem within 0.3 seconds!
+[2018-08-26 18:55:36.548] Initialized Circuit subsystem within 0.1 seconds!
+[2018-08-26 18:55:36.550] Initialized Disease subsystem within 0 seconds!
+[2018-08-26 18:55:36.550] Initialized Medals subsystem within 0 seconds!
+[2018-08-26 18:55:36.550] Initialized Night Shift subsystem within 0 seconds!
+[2018-08-26 18:55:36.551] Initialized Parallax subsystem within 0 seconds!
+[2018-08-26 18:55:36.693] Initialized Traumas subsystem within 0.1 seconds!
+[2018-08-26 18:55:36.694] Initialized Weather subsystem within 0 seconds!
+[2018-08-26 18:55:41.566] ## WARNING: There are 1 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+[2018-08-26 18:55:41.571] ## WARNING: HEY! LISTEN! 0 seconds were wasted processing 1 turf(s) (connected to 2 other turfs) with atmos differences at round start.
+[2018-08-26 18:55:42.102] Initialized Atmospherics subsystem within 5.5 seconds!
+[2018-08-26 18:55:42.120] Initialized Minimap subsystem within 0 seconds!
+[2018-08-26 18:55:44.255] Initialized Assets subsystem within 2.1 seconds!
+[2018-08-26 18:55:50.552] Initialized Icon Smoothing subsystem within 6.3 seconds!
+[2018-08-26 18:55:51.976] Initialized Overlay subsystem within 1.4 seconds!
+[2018-08-26 18:55:51.976] Initialized XKeyScore subsystem within 0 seconds!
+[2018-08-26 18:55:51.977] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-08-26 18:56:05.153] Initialized Lighting subsystem within 13.2 seconds!
+[2018-08-26 18:56:07.842] Initialized Shuttle subsystem within 2.7 seconds!
+[2018-08-26 18:56:07.877] Initialized Squeak subsystem within 0 seconds!
+[2018-08-26 18:56:07.879] Initialized Pathfinder subsystem within 0 seconds!
+[2018-08-26 18:56:07.928] Loaded 21 engraved messages on map Box Station
+[2018-08-26 18:56:07.953] Initialized Persistence subsystem within 0.1 seconds!
+[2018-08-26 18:56:07.955] Initializations complete within 91 seconds!
+[2018-08-26 18:57:36.294] Game start took 0.2s
+[2018-08-26 20:05:05.477] runtime error: The grille taking damage after deletion
+[2018-08-26 20:05:05.477] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-26 20:05:05.477]   source file: unsorted.dm,1169
+[2018-08-26 20:05:05.477]   usr: null
+[2018-08-26 20:05:05.477]   src: the grille (/obj/structure/grille)
+[2018-08-26 20:05:05.477]   src.loc: null
+[2018-08-26 20:05:05.477]   call stack:
+[2018-08-26 20:05:05.477] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-08-26 20:05:05.477] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null, 0)
+[2018-08-26 20:05:05.477] the grille (/obj/structure/grille): take damage(9, "brute", "melee", 1, null)
+[2018-08-26 20:05:05.477] the grille (/obj/structure/grille): attack animal(the space carp (/mob/living/simple_animal/hostile/carp))
+[2018-08-26 20:05:05.477] the space carp (/mob/living/simple_animal/hostile/carp): DestroyObjectsInDirection(4)
+[2018-08-26 20:05:05.477] the space carp (/mob/living/simple_animal/hostile/carp): DestroyPathToTarget()
+[2018-08-26 20:05:05.477] the space carp (/mob/living/simple_animal/hostile/carp): handle automated action()
+[2018-08-26 20:05:05.477] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-08-26 20:05:05.477] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-08-26 20:05:05.477] Master (/datum/controller/master): RunQueue()
+[2018-08-26 20:05:05.477] Master (/datum/controller/master): Loop()
+[2018-08-26 20:05:05.477] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-26 20:05:05.477] 
+[2018-08-26 20:06:30.534] [2018-08-26 20:06:36] Client: I like D0nUts triggered JS error: Error: El identificador URI para descodificar no tiene una codificación válida | url: http://127.0.0.1:51333/tmp5084/browserOutput.js | line: 161 | column: 2 | error: URIError: El identificador URI para descodificar no tiene una codificación válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-08-26 20:06:30.596] [2018-08-26 20:06:36] Client: Bilary triggered JS error: Error: Der zu entschlüsselnde URI hat keine gültige Verschlüsselung. | url: http://127.0.0.1:52842/tmp3976/browserOutput.js | line: 161 | column: 2 | error: URIError: Der zu entschlüsselnde URI hat keine gültige Verschlüsselung. | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; LCTE)
+[2018-08-26 20:08:47.858] Saved 21 engraved messages on map Box Station
+[2018-08-26 20:09:54.138] runtime error: Cannot read null.air
+[2018-08-26 20:09:54.138] proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[2018-08-26 20:09:54.138]   source file: pipes.dm,60
+[2018-08-26 20:09:54.138]   usr: null
+[2018-08-26 20:09:54.138]   src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[2018-08-26 20:09:54.138]   src.loc: null
+[2018-08-26 20:09:54.138]   call stack:
+[2018-08-26 20:09:54.138] the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): return air()
+[2018-08-26 20:09:54.138] the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[2018-08-26 20:09:54.138] Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[2018-08-26 20:09:54.138] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-08-26 20:09:54.138] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-08-26 20:09:54.138] Master (/datum/controller/master): RunQueue()
+[2018-08-26 20:09:54.138] Master (/datum/controller/master): Loop()
+[2018-08-26 20:09:54.138] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-26 20:09:54.138] 
+[2018-08-26 20:09:54.138] runtime error: Cannot read null.temperature
+[2018-08-26 20:09:54.138] proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[2018-08-26 20:09:54.138]   source file: he_pipes.dm,37
+[2018-08-26 20:09:54.138]   usr: null
+[2018-08-26 20:09:54.138]   src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[2018-08-26 20:09:54.138]   src.loc: null
+[2018-08-26 20:09:54.138]   call stack:
+[2018-08-26 20:09:54.138] the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[2018-08-26 20:09:54.138] Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[2018-08-26 20:09:54.138] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-08-26 20:09:54.138] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-08-26 20:09:54.138] Master (/datum/controller/master): RunQueue()
+[2018-08-26 20:09:54.138] Master (/datum/controller/master): Loop()
+[2018-08-26 20:09:54.138] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-26 20:09:54.139] 
+[2018-08-26 20:09:54.249] runtime error: The solid state drive taking damage after deletion
+[2018-08-26 20:09:54.249] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-26 20:09:54.249]   source file: unsorted.dm,1169
+[2018-08-26 20:09:54.249]   usr: null
+[2018-08-26 20:09:54.249]   src: the solid state drive (/obj/item/computer_hardware/hard_drive/small)
+[2018-08-26 20:09:54.249]   src.loc: the floor (112,79,2) (/turf/open/floor/plasteel/vault)
+[2018-08-26 20:09:54.249]   call stack:
+[2018-08-26 20:09:54.249] the solid state drive (/obj/item/computer_hardware/hard_drive/small): stack trace("The solid state drive taking d...")
+[2018-08-26 20:09:54.249] the solid state drive (/obj/item/computer_hardware/hard_drive/small): take damage(11, "brute", 0, 0, null, 0)
+[2018-08-26 20:09:54.249] the tablet computer (/obj/item/modular_computer/tablet/preset/advanced): break apart()
+[2018-08-26 20:09:54.249] the tablet computer (/obj/item/modular_computer/tablet/preset/advanced): deconstruct(0)
+[2018-08-26 20:09:54.249] the tablet computer (/obj/item/modular_computer/tablet/preset/advanced): obj destruction("bomb")
+[2018-08-26 20:09:54.249] the tablet computer (/obj/item/modular_computer/tablet/preset/advanced): take damage(197, "brute", "bomb", 0, null, 0)
+[2018-08-26 20:09:54.249] the tablet computer (/obj/item/modular_computer/tablet/preset/advanced): take damage(197, "brute", "bomb", 0)
+[2018-08-26 20:09:54.249] the tablet computer (/obj/item/modular_computer/tablet/preset/advanced): ex act(2, null)
+[2018-08-26 20:09:54.249] the floor (112,79,2) (/turf/open/floor/plasteel/vault): contents explosion(2, null)
+[2018-08-26 20:09:54.249] the floor (112,79,2) (/turf/open/floor/plasteel/vault): ex act(2, null)
+[2018-08-26 20:09:54.249] the floor (112,79,2) (/turf/open/floor/plasteel/vault): ex act(2, null)
+[2018-08-26 20:09:54.249] /datum/explosion (/datum/explosion): New(space (113,66,2) (/turf/open/space), 11.3135, 24.627, 26.627, 28.627, 1, 1, 0, 0, 0)
+[2018-08-26 20:09:54.249] 
+[2018-08-26 20:09:54.284] runtime error: Cannot read null.air
+[2018-08-26 20:09:54.284] proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[2018-08-26 20:09:54.284]   source file: pipes.dm,60
+[2018-08-26 20:09:54.284]   usr: null
+[2018-08-26 20:09:54.284]   src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[2018-08-26 20:09:54.284]   src.loc: null
+[2018-08-26 20:09:54.284]   call stack:
+[2018-08-26 20:09:54.284] the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): return air()
+[2018-08-26 20:09:54.284] the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[2018-08-26 20:09:54.284] Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[2018-08-26 20:09:54.284] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-08-26 20:09:54.284] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-08-26 20:09:54.284] Master (/datum/controller/master): RunQueue()
+[2018-08-26 20:09:54.284] Master (/datum/controller/master): Loop()
+[2018-08-26 20:09:54.284] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-26 20:09:54.284] 
+[2018-08-26 20:09:54.285] runtime error: Cannot read null.temperature
+[2018-08-26 20:09:54.285] proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[2018-08-26 20:09:54.285]   source file: he_pipes.dm,37
+[2018-08-26 20:09:54.285]   usr: null
+[2018-08-26 20:09:54.285]   src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[2018-08-26 20:09:54.285]   src.loc: null
+[2018-08-26 20:09:54.285]   call stack:
+[2018-08-26 20:09:54.285] the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[2018-08-26 20:09:54.285] Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[2018-08-26 20:09:54.285] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-08-26 20:09:54.285] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-08-26 20:09:54.285] Master (/datum/controller/master): RunQueue()
+[2018-08-26 20:09:54.285] Master (/datum/controller/master): Loop()
+[2018-08-26 20:09:54.285] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-26 20:09:54.285] 
+[2018-08-26 20:09:54.286] runtime error: Cannot read null.air
+[2018-08-26 20:09:54.286] proc name: return air (/obj/machinery/atmospherics/pipe/return_air)
+[2018-08-26 20:09:54.286]   source file: pipes.dm,60
+[2018-08-26 20:09:54.286]   usr: null
+[2018-08-26 20:09:54.286]   src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[2018-08-26 20:09:54.286]   src.loc: null
+[2018-08-26 20:09:54.286]   call stack:
+[2018-08-26 20:09:54.286] the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): return air()
+[2018-08-26 20:09:54.286] the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[2018-08-26 20:09:54.286] Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[2018-08-26 20:09:54.286] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-08-26 20:09:54.286] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-08-26 20:09:54.286] Master (/datum/controller/master): RunQueue()
+[2018-08-26 20:09:54.286] Master (/datum/controller/master): Loop()
+[2018-08-26 20:09:54.286] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-26 20:09:54.286] 
+[2018-08-26 20:09:54.286] runtime error: Cannot read null.temperature
+[2018-08-26 20:09:54.286] proc name: process atmos (/obj/machinery/atmospherics/pipe/heat_exchanging/process_atmos)
+[2018-08-26 20:09:54.286]   source file: he_pipes.dm,37
+[2018-08-26 20:09:54.286]   usr: null
+[2018-08-26 20:09:54.286]   src: the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple)
+[2018-08-26 20:09:54.286]   src.loc: null
+[2018-08-26 20:09:54.286]   call stack:
+[2018-08-26 20:09:54.286] the pipe (/obj/machinery/atmospherics/pipe/heat_exchanging/simple): process atmos(0.5)
+[2018-08-26 20:09:54.286] Atmospherics (/datum/controller/subsystem/air): process atmos machinery(1)
+[2018-08-26 20:09:54.286] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-08-26 20:09:54.286] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-08-26 20:09:54.286] Master (/datum/controller/master): RunQueue()
+[2018-08-26 20:09:54.286] Master (/datum/controller/master): Loop()
+[2018-08-26 20:09:54.286] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-26 20:09:54.286] 
+[2018-08-26 20:09:56.411] runtime error: The oxygen tank taking damage after deletion
+[2018-08-26 20:09:56.411] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-26 20:09:56.411]   source file: unsorted.dm,1169
+[2018-08-26 20:09:56.411]   usr: 0
+[2018-08-26 20:09:56.411]   src: the oxygen tank (/obj/item/tank/internals/oxygen/red)
+[2018-08-26 20:09:56.411]   src.loc: null
+[2018-08-26 20:09:56.411]   call stack:
+[2018-08-26 20:09:56.411] the oxygen tank (/obj/item/tank/internals/oxygen/red): stack trace("The oxygen tank taking damage ...")
+[2018-08-26 20:09:56.411] the oxygen tank (/obj/item/tank/internals/oxygen/red): take damage(220, "brute", "bomb", 0, null, 0)
+[2018-08-26 20:09:56.411] the oxygen tank (/obj/item/tank/internals/oxygen/red): ex act(2, null)
+[2018-08-26 20:09:56.411] the fire-safety closet (/obj/structure/closet/firecloset): contents explosion(2, null)
+[2018-08-26 20:09:56.411] the fire-safety closet (/obj/structure/closet/firecloset): ex act(2, null)
+[2018-08-26 20:09:56.411] 
+[2018-08-26 20:09:56.412] runtime error: The fire extinguisher taking damage after deletion
+[2018-08-26 20:09:56.412] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-26 20:09:56.412]   source file: unsorted.dm,1169
+[2018-08-26 20:09:56.412]   usr: 0
+[2018-08-26 20:09:56.412]   src: the fire extinguisher (/obj/item/extinguisher)
+[2018-08-26 20:09:56.412]   src.loc: null
+[2018-08-26 20:09:56.412]   call stack:
+[2018-08-26 20:09:56.412] the fire extinguisher (/obj/item/extinguisher): stack trace("The fire extinguisher taking d...")
+[2018-08-26 20:09:56.412] the fire extinguisher (/obj/item/extinguisher): take damage(225, "brute", "bomb", 0, null, 0)
+[2018-08-26 20:09:56.412] the fire extinguisher (/obj/item/extinguisher): ex act(2, null)
+[2018-08-26 20:09:56.412] the fire-safety closet (/obj/structure/closet/firecloset): contents explosion(2, null)
+[2018-08-26 20:09:56.412] the fire-safety closet (/obj/structure/closet/firecloset): ex act(2, null)
+[2018-08-26 20:09:56.412] 
+[2018-08-26 20:10:01.706] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-26 20:10:01.706] proc name: stack trace (/proc/stack_trace)
+[2018-08-26 20:10:01.706]   source file: unsorted.dm,1166
+[2018-08-26 20:10:01.706]   usr: 0
+[2018-08-26 20:10:01.706]   src: null
+[2018-08-26 20:10:01.706]   call stack:
+[2018-08-26 20:10:01.706] stack trace("addtimer called with a callbac...")
+[2018-08-26 20:10:01.706] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-08-26 20:10:01.706] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-08-26 20:10:01.706] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-08-26 20:10:01.706] 
+[2018-08-26 20:10:02.206] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-26 20:10:02.207] proc name: stack trace (/proc/stack_trace)
+[2018-08-26 20:10:02.207]   source file: unsorted.dm,1166
+[2018-08-26 20:10:02.207]   usr: 0
+[2018-08-26 20:10:02.207]   src: null
+[2018-08-26 20:10:02.207]   call stack:
+[2018-08-26 20:10:02.207] stack trace("addtimer called with a callbac...")
+[2018-08-26 20:10:02.207] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-08-26 20:10:02.207] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-08-26 20:10:02.207] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-08-26 20:10:02.207] 
+[2018-08-26 20:10:04.811] runtime error: No valid destination passed into forceMove
+[2018-08-26 20:10:04.811] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-08-26 20:10:04.811]   source file: atoms_movable.dm,365
+[2018-08-26 20:10:04.811]   usr: null
+[2018-08-26 20:10:04.811]   src: the match (/obj/item/match)
+[2018-08-26 20:10:04.811]   src.loc: the matchbox (/obj/item/storage/box/matches)
+[2018-08-26 20:10:04.811]   call stack:
+[2018-08-26 20:10:04.811] the match (/obj/item/match): forceMove(null)
+[2018-08-26 20:10:04.811] /datum/component/storage/concr... (/datum/component/storage/concrete):  insert physical item(the match (/obj/item/match), 0)
+[2018-08-26 20:10:04.811] /datum/component/storage/concr... (/datum/component/storage/concrete): handle item insertion(the match (/obj/item/match), 1, null, null)
+[2018-08-26 20:10:04.811] /datum/component/storage/concr... (/datum/component/storage/concrete): signal fill type(/obj/item/match (/obj/item/match), 10, 0)
+[2018-08-26 20:10:04.811] /datum/callback (/datum/callback): InvokeAsync(/obj/item/match (/obj/item/match))
+[2018-08-26 20:10:04.811] 
+[2018-08-26 20:10:04.812] runtime error: No valid destination passed into forceMove
+[2018-08-26 20:10:04.812] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-08-26 20:10:04.812]   source file: atoms_movable.dm,365
+[2018-08-26 20:10:04.812]   usr: null
+[2018-08-26 20:10:04.812]   src: the match (/obj/item/match)
+[2018-08-26 20:10:04.812]   src.loc: the matchbox (/obj/item/storage/box/matches)
+[2018-08-26 20:10:04.812]   call stack:
+[2018-08-26 20:10:04.812] the match (/obj/item/match): forceMove(null)
+[2018-08-26 20:10:04.812] /datum/component/storage/concr... (/datum/component/storage/concrete):  insert physical item(the match (/obj/item/match), 0)
+[2018-08-26 20:10:04.812] /datum/component/storage/concr... (/datum/component/storage/concrete): handle item insertion(the match (/obj/item/match), 1, null, null)
+[2018-08-26 20:10:04.812] /datum/component/storage/concr... (/datum/component/storage/concrete): signal fill type(/obj/item/match (/obj/item/match), 10, 0)
+[2018-08-26 20:10:04.812] /datum/callback (/datum/callback): InvokeAsync(/obj/item/match (/obj/item/match))
+[2018-08-26 20:10:04.812] 
+[2018-08-26 20:10:04.813] runtime error: No valid destination passed into forceMove
+[2018-08-26 20:10:04.813] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-08-26 20:10:04.813]   source file: atoms_movable.dm,365
+[2018-08-26 20:10:04.813]   usr: null
+[2018-08-26 20:10:04.813]   src: the match (/obj/item/match)
+[2018-08-26 20:10:04.813]   src.loc: the matchbox (/obj/item/storage/box/matches)
+[2018-08-26 20:10:04.813]   call stack:
+[2018-08-26 20:10:04.813] the match (/obj/item/match): forceMove(null)
+[2018-08-26 20:10:04.813] /datum/component/storage/concr... (/datum/component/storage/concrete):  insert physical item(the match (/obj/item/match), 0)
+[2018-08-26 20:10:04.813] /datum/component/storage/concr... (/datum/component/storage/concrete): handle item insertion(the match (/obj/item/match), 1, null, null)
+[2018-08-26 20:10:04.813] /datum/component/storage/concr... (/datum/component/storage/concrete): signal fill type(/obj/item/match (/obj/item/match), 10, 0)
+[2018-08-26 20:10:04.813] /datum/callback (/datum/callback): InvokeAsync(/obj/item/match (/obj/item/match))
+[2018-08-26 20:10:04.813] 
+[2018-08-26 20:10:04.815] runtime error: No valid destination passed into forceMove
+[2018-08-26 20:10:04.815] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-08-26 20:10:04.815]   source file: atoms_movable.dm,365
+[2018-08-26 20:10:04.815]   usr: null
+[2018-08-26 20:10:04.815]   src: the match (/obj/item/match)
+[2018-08-26 20:10:04.815]   src.loc: the matchbox (/obj/item/storage/box/matches)
+[2018-08-26 20:10:04.815]   call stack:
+[2018-08-26 20:10:04.815] the match (/obj/item/match): forceMove(null)
+[2018-08-26 20:10:04.815] /datum/component/storage/concr... (/datum/component/storage/concrete):  insert physical item(the match (/obj/item/match), 0)
+[2018-08-26 20:10:04.815] /datum/component/storage/concr... (/datum/component/storage/concrete): handle item insertion(the match (/obj/item/match), 1, null, null)
+[2018-08-26 20:10:04.815] /datum/component/storage/concr... (/datum/component/storage/concrete): signal fill type(/obj/item/match (/obj/item/match), 10, 0)
+[2018-08-26 20:10:04.815] /datum/callback (/datum/callback): InvokeAsync(/obj/item/match (/obj/item/match))
+[2018-08-26 20:10:04.815] 
+[2018-08-26 20:10:04.816] runtime error: No valid destination passed into forceMove
+[2018-08-26 20:10:04.816] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-08-26 20:10:04.816]   source file: atoms_movable.dm,365
+[2018-08-26 20:10:04.816]   usr: null
+[2018-08-26 20:10:04.816]   src: the match (/obj/item/match)
+[2018-08-26 20:10:04.816]   src.loc: the matchbox (/obj/item/storage/box/matches)
+[2018-08-26 20:10:04.816]   call stack:
+[2018-08-26 20:10:04.816] the match (/obj/item/match): forceMove(null)
+[2018-08-26 20:10:04.816] /datum/component/storage/concr... (/datum/component/storage/concrete):  insert physical item(the match (/obj/item/match), 0)
+[2018-08-26 20:10:04.816] /datum/component/storage/concr... (/datum/component/storage/concrete): handle item insertion(the match (/obj/item/match), 1, null, null)
+[2018-08-26 20:10:04.816] /datum/component/storage/concr... (/datum/component/storage/concrete): signal fill type(/obj/item/match (/obj/item/match), 10, 0)
+[2018-08-26 20:10:04.816] /datum/callback (/datum/callback): InvokeAsync(/obj/item/match (/obj/item/match))
+[2018-08-26 20:10:04.816] 
+[2018-08-26 20:10:04.816] runtime error: No valid destination passed into forceMove
+[2018-08-26 20:10:04.816] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-08-26 20:10:04.816]   source file: atoms_movable.dm,365
+[2018-08-26 20:10:04.816] 
+[2018-08-26 20:10:04.817] runtime error: No valid destination passed into forceMove
+[2018-08-26 20:10:04.817] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-08-26 20:10:04.817]   source file: atoms_movable.dm,365
+[2018-08-26 20:10:04.817] 
+[2018-08-26 20:10:04.817] runtime error: No valid destination passed into forceMove
+[2018-08-26 20:10:04.817] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-08-26 20:10:04.817]   source file: atoms_movable.dm,365
+[2018-08-26 20:10:04.817] 
+[2018-08-26 20:10:04.818] runtime error: No valid destination passed into forceMove
+[2018-08-26 20:10:04.818] proc name: forceMove (/atom/movable/proc/forceMove)
+[2018-08-26 20:10:04.818]   source file: atoms_movable.dm,365
+[2018-08-26 20:10:04.818] 
+[2018-08-26 20:10:27.943] Shutting down Persistence subsystem...
+[2018-08-26 20:10:27.943] Shutting down Pathfinder subsystem...
+[2018-08-26 20:10:27.943] Shutting down Squeak subsystem...
+[2018-08-26 20:10:27.943] Shutting down Shuttle subsystem...
+[2018-08-26 20:10:27.943] Shutting down Lighting subsystem...
+[2018-08-26 20:10:27.943] Shutting down XKeyScore subsystem...
+[2018-08-26 20:10:27.944] Shutting down Sticky Ban subsystem...
+[2018-08-26 20:10:27.944] Shutting down Overlay subsystem...
+[2018-08-26 20:10:27.978] Shutting down Icon Smoothing subsystem...
+[2018-08-26 20:10:27.978] Shutting down Assets subsystem...
+[2018-08-26 20:10:27.978] Shutting down Minimap subsystem...
+[2018-08-26 20:10:27.978] Shutting down Atmospherics subsystem...
+[2018-08-26 20:10:27.979] Shutting down Wet floors subsystem...
+[2018-08-26 20:10:27.979] Shutting down Weather subsystem...
+[2018-08-26 20:10:27.979] Shutting down Vote subsystem...
+[2018-08-26 20:10:27.979] Shutting down Traumas subsystem...
+[2018-08-26 20:10:27.979] Shutting down Title Screen subsystem...
+[2018-08-26 20:10:27.979] Shutting down Time Tracking subsystem...
+[2018-08-26 20:10:27.980] Shutting down Throwing subsystem...
+[2018-08-26 20:10:27.980] Shutting down tgui subsystem...
+[2018-08-26 20:10:27.980] Shutting down Sun subsystem...
+[2018-08-26 20:10:27.980] Shutting down Space Drift subsystem...
+[2018-08-26 20:10:27.980] Shutting down Religion subsystem...
+[2018-08-26 20:10:27.980] Shutting down Radio subsystem...
+[2018-08-26 20:10:27.980] Shutting down Radiation subsystem...
+[2018-08-26 20:10:27.980] Shutting down Projectiles subsystem...
+[2018-08-26 20:10:27.980] Shutting down Processing subsystem...
+[2018-08-26 20:10:27.980] Shutting down Ping subsystem...
+[2018-08-26 20:10:27.980] Shutting down Parallax subsystem...
+[2018-08-26 20:10:27.981] Shutting down pAI subsystem...
+[2018-08-26 20:10:27.981] Shutting down Orbits subsystem...
+[2018-08-26 20:10:27.981] Shutting down Objects subsystem...
+[2018-08-26 20:10:27.981] Shutting down NPC Pool subsystem...
+[2018-08-26 20:10:27.981] Shutting down Night Shift subsystem...
+[2018-08-26 20:10:27.981] Shutting down Nanites subsystem...
+[2018-08-26 20:10:27.981] Shutting down Mood subsystem...
+[2018-08-26 20:10:27.981] Shutting down Mobs subsystem...
+[2018-08-26 20:10:27.981] Shutting down Medals subsystem...
+[2018-08-26 20:10:27.981] Shutting down Idling NPC Pool subsystem...
+[2018-08-26 20:10:27.981] Shutting down Fire Burning subsystem...
+[2018-08-26 20:10:27.981] Shutting down Fields subsystem...
+[2018-08-26 20:10:27.982] Shutting down Fast Processing subsystem...
+[2018-08-26 20:10:27.982] Shutting down Disease subsystem...
+[2018-08-26 20:10:27.982] Shutting down Datum Component System subsystem...
+[2018-08-26 20:10:27.982] Shutting down Communications subsystem...
+[2018-08-26 20:10:27.982] Shutting down Augury subsystem...
+[2018-08-26 20:10:27.982] Shutting down Acid subsystem...
+[2018-08-26 20:10:27.982] Shutting down Timer subsystem...
+[2018-08-26 20:10:27.982] Shutting down Circuit subsystem...
+[2018-08-26 20:10:27.982] Shutting down Machines subsystem...
+[2018-08-26 20:10:27.982] Shutting down Language subsystem...
+[2018-08-26 20:10:27.982] Shutting down Atoms subsystem...
+[2018-08-26 20:10:27.983] Shutting down Networks subsystem...
+[2018-08-26 20:10:27.983] Shutting down Mapping subsystem...
+[2018-08-26 20:10:27.983] Shutting down Ticker subsystem...
+[2018-08-26 20:10:28.241] Shutting down Quirks subsystem...
+[2018-08-26 20:10:28.241] Shutting down Jobs subsystem...
+[2018-08-26 20:10:28.241] Shutting down Events subsystem...
+[2018-08-26 20:10:28.241] Shutting down Research subsystem...
+[2018-08-26 20:10:28.241] Shutting down Input subsystem...
+[2018-08-26 20:10:28.241] Shutting down Server Tasks subsystem...
+[2018-08-26 20:10:28.241] Shutting down Blackbox subsystem...
+[2018-08-26 20:10:28.504] Shutting down Database subsystem...
+[2018-08-26 20:10:28.541] Shutting down Garbage subsystem...
+[2018-08-26 20:10:28.603] Shutdown complete
+[2018-08-26 20:10:28.603] World rebooted at 20:10:28

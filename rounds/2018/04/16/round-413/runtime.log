@@ -1,0 +1,461 @@
+
+
+Starting up round ID 413. 11:29:22
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 5.6s!
+Loaded Lavaland in 4.4s!
+Loaded Reebe in 3.8s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 20.5 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 36.5 seconds!
+Initialized Language subsystem within 0.1 seconds!
+Initialized Machines subsystem within 0.2 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+Initialized Atmospherics subsystem within 11.4 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 4.9 seconds!
+Initialized Overlay subsystem within 21.1 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 11.2 seconds!
+Initialized Shuttle subsystem within 19.2 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 5 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 126.2 seconds!
+Game start took 1.8s
+runtime error: 
+[11:45:16]Cannot read null.loc
+[11:45:16]proc name: update parallax (/datum/hud/proc/update_parallax)
+[11:45:16]  source file: parallax.dm,170
+[11:45:16]  usr: Jonathon Whirlow (/mob/living/brain)
+[11:45:16]  src: /datum/hud (/datum/hud)
+[11:45:16]  usr.loc: Jonathon Whirlow\'s brain (/obj/item/organ/brain)
+[11:45:16]  call stack:
+[11:45:16]/datum/hud (/datum/hud): update parallax()
+[11:45:16]/datum/hud (/datum/hud): update parallax pref(Jonathon Whirlow (/mob/living/brain))
+[11:45:16]/datum/hud (/datum/hud): show hud(1, null)
+[11:45:16]Jonathon Whirlow (/mob/living/brain): Login()
+[11:45:16]Jonathon Whirlow (/mob/living/brain): Login()
+[11:45:16]Jonathon Whirlow (/datum/mind): transfer to(Jonathon Whirlow (/mob/living/brain), 0)
+[11:45:16]Jonathon Whirlow\'s brain (/obj/item/organ/brain): transfer identity(Jonathon Whirlow (/mob/living/carbon/human))
+[11:45:16]Jonathon Whirlow\'s brain (/obj/item/organ/brain): Remove(Jonathon Whirlow (/mob/living/carbon/human), 0, 0)
+[11:45:16]Jonathon Whirlow\'s brain (/obj/item/organ/brain): transfer to limb(Jonathon Whirlow\'s head (/obj/item/bodypart/head), Jonathon Whirlow (/mob/living/carbon/human))
+[11:45:16]Jonathon Whirlow\'s head (/obj/item/bodypart/head): drop limb(null)
+[11:45:16]Jonathon Whirlow\'s head (/obj/item/bodypart/head): drop limb(null)
+[11:45:16]Jonathon Whirlow (/mob/living/carbon/human): spread bodyparts(null, null)
+[11:45:16]Jonathon Whirlow (/mob/living/carbon/human): gib(null, null, null)
+[11:45:16]Jonathon Whirlow (/mob/living/carbon/human): gib(null, null, null)
+[11:45:16]Jonathon Whirlow (/mob/living/carbon/human): ex act(1, null, null)
+[11:45:16]the floor (167,130,2) (/turf/open/floor/plasteel): contents explosion(1, null)
+[11:45:16]the floor (167,130,2) (/turf/open/floor/plasteel): ex act(1, null)
+[11:45:16]the floor (167,130,2) (/turf/open/floor/plasteel): ex act(1, null)
+[11:45:16]/datum/explosion (/datum/explosion): New(space (166,129,2) (/turf/open/space), 3, 9, 17, 3, 1, 0, 17, 0, 0)
+runtime error: 
+[11:45:19]addtimer called with a callback assigned to a qdeleted object
+[11:45:19]proc name: stack trace (/proc/stack_trace)
+[11:45:19]  source file: unsorted.dm,1254
+[11:45:19]  usr: 0
+[11:45:19]  src: null
+[11:45:19]  call stack:
+[11:45:19]stack trace("addtimer called with a callbac...")
+[11:45:19]addtimer(/datum/callback (/datum/callback), 20, 0)
+[11:45:19]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[11:45:19]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[11:45:22]addtimer called with a callback assigned to a qdeleted object
+[11:45:22]proc name: stack trace (/proc/stack_trace)
+[11:45:22]  source file: unsorted.dm,1254
+[11:45:22]  usr: Jonathon Whirlow (/mob/living/carbon/human)
+[11:45:22]  src: null
+[11:45:22]  usr.loc: null
+[11:45:22]  call stack:
+[11:45:22]stack trace("addtimer called with a callbac...")
+[11:45:22]addtimer(/datum/callback (/datum/callback), 20, 0)
+[11:45:22]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[11:45:22]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[11:45:22]addtimer called with a callback assigned to a qdeleted object
+[11:45:22]proc name: stack trace (/proc/stack_trace)
+[11:45:22]  source file: unsorted.dm,1254
+[11:45:22]  usr: 0
+[11:45:22]  src: null
+[11:45:22]  call stack:
+[11:45:22]stack trace("addtimer called with a callbac...")
+[11:45:22]addtimer(/datum/callback (/datum/callback), 20, 0)
+[11:45:22]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[11:45:22]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[11:45:22]addtimer called with a callback assigned to a qdeleted object
+[11:45:22]proc name: stack trace (/proc/stack_trace)
+[11:45:22]  source file: unsorted.dm,1254
+[11:45:22]  usr: Jonathon Whirlow (/mob/living/carbon/human)
+[11:45:22]  src: null
+[11:45:22]  usr.loc: null
+[11:45:22]  call stack:
+[11:45:22]stack trace("addtimer called with a callbac...")
+[11:45:22]addtimer(/datum/callback (/datum/callback), 20, 0)
+[11:45:22]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[11:45:22]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[13:22:20]log(-0.623426) is not computable
+[13:22:20]proc name: heat2colour g (/proc/heat2colour_g)
+[13:22:20]  source file: type2type.dm,419
+[13:22:20]  usr: (src)
+[13:22:20]  src: null
+[13:22:20]  call stack:
+[13:22:20]heat2colour g(-0.623426)
+[13:22:20]the hotspot (/obj/effect/hotspot): update color()
+[13:22:20]the hotspot (/obj/effect/hotspot): process()
+[13:22:20]Atmospherics (/datum/controller/subsystem/air): process hotspots(0)
+[13:22:20]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[13:22:20]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[13:22:20]Master (/datum/controller/master): RunQueue()
+[13:22:20]Master (/datum/controller/master): Loop()
+[13:22:20]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[13:22:20]log(-1.69377) is not computable
+[13:22:20]proc name: heat2colour g (/proc/heat2colour_g)
+[13:22:20]  source file: type2type.dm,419
+[13:22:20]  usr: (src)
+[13:22:20]  src: null
+[13:22:20]  call stack:
+[13:22:20]heat2colour g(-1.69377)
+[13:22:20]the hotspot (/obj/effect/hotspot): update color()
+[13:22:20]the hotspot (/obj/effect/hotspot): process()
+[13:22:20]Atmospherics (/datum/controller/subsystem/air): process hotspots(0)
+[13:22:20]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[13:22:20]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[13:22:20]Master (/datum/controller/master): RunQueue()
+[13:22:20]Master (/datum/controller/master): Loop()
+[13:22:20]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[13:26:39]addtimer called with a callback assigned to a qdeleted object
+[13:26:39]proc name: stack trace (/proc/stack_trace)
+[13:26:39]  source file: unsorted.dm,1254
+[13:26:39]  usr: (src)
+[13:26:39]  src: null
+[13:26:39]  call stack:
+[13:26:39]stack trace("addtimer called with a callbac...")
+[13:26:39]addtimer(/datum/callback (/datum/callback), 8, 0)
+[13:26:39]the archives (/obj/structure/destructible/cult/tome): ratvar act()
+[13:26:39]the engraved floor (177,139,2) (/turf/open/floor/engine/cult): ratvar act(null, null, 40)
+[13:26:39]the engraved floor (177,139,2) (/turf/open/floor/engine/cult): ratvar act(null, null)
+[13:26:39]the engraved floor (177,139,2) (/turf/open/floor/engine/cult): ratvar act()
+[13:26:39]Ratvar, the Clockwork Justicia... (/obj/structure/destructible/clockwork/massive/ratvar): process(20)
+[13:26:39]Objects (/datum/controller/subsystem/obj): fire(0)
+[13:26:39]Objects (/datum/controller/subsystem/obj): ignite(0)
+[13:26:39]Master (/datum/controller/master): RunQueue()
+[13:26:39]Master (/datum/controller/master): Loop()
+[13:26:39]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[13:27:02]addtimer called with a callback assigned to a qdeleted object
+[13:27:02]proc name: stack trace (/proc/stack_trace)
+[13:27:02]  source file: unsorted.dm,1254
+[13:27:02]  usr: (src)
+[13:27:02]  src: null
+[13:27:02]  call stack:
+[13:27:02]stack trace("addtimer called with a callbac...")
+[13:27:02]addtimer(/datum/callback (/datum/callback), 8, 0)
+[13:27:02]the brass table frame (/obj/structure/table_frame/brass): narsie act()
+[13:27:02]space (174,125,2) (/turf/open/space): narsie act(null, null, 20)
+[13:27:02]Nar-Sie (/obj/singularity/narsie/large/cult): consume(space (174,125,2) (/turf/open/space))
+[13:27:02]Nar-Sie (/obj/singularity/narsie/large/cult): eat()
+[13:27:02]Nar-Sie (/obj/singularity/narsie/large/cult): process(20)
+runtime error: 
+[13:27:08]addtimer called with a callback assigned to a qdeleted object
+[13:27:08]proc name: stack trace (/proc/stack_trace)
+[13:27:08]  source file: unsorted.dm,1254
+[13:27:08]  usr: (src)
+[13:27:08]  src: null
+[13:27:08]  call stack:
+[13:27:08]stack trace("addtimer called with a callbac...")
+[13:27:08]addtimer(/datum/callback (/datum/callback), 8, 0)
+[13:27:08]the brass table frame (/obj/structure/table_frame/brass): narsie act()
+[13:27:08]space (172,135,2) (/turf/open/space): narsie act(null, null, 20)
+[13:27:08]Nar-Sie (/obj/singularity/narsie/large/cult): consume(space (172,135,2) (/turf/open/space))
+[13:27:08]Nar-Sie (/obj/singularity/narsie/large/cult): eat()
+[13:27:08]Nar-Sie (/obj/singularity/narsie/large/cult): process(20)
+[13:27:08]Objects (/datum/controller/subsystem/obj): fire(0)
+[13:27:08]Objects (/datum/controller/subsystem/obj): ignite(0)
+[13:27:08]Master (/datum/controller/master): RunQueue()
+[13:27:08]Master (/datum/controller/master): Loop()
+[13:27:08]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[13:27:08]addtimer called with a callback assigned to a qdeleted object
+[13:27:08]proc name: stack trace (/proc/stack_trace)
+[13:27:08]  source file: unsorted.dm,1254
+[13:27:08]  usr: (src)
+[13:27:08]  src: null
+[13:27:08]  call stack:
+[13:27:08]stack trace("addtimer called with a callbac...")
+[13:27:08]addtimer(/datum/callback (/datum/callback), 8, 0)
+[13:27:08]the brass table frame (/obj/structure/table_frame/brass): narsie act()
+[13:27:08]space (172,135,2) (/turf/open/space): narsie act(null, null, 20)
+[13:27:08]Nar-Sie (/obj/singularity/narsie/large/cult): consume(space (172,135,2) (/turf/open/space))
+[13:27:08]Nar-Sie (/obj/singularity/narsie/large/cult): eat()
+[13:27:08]Nar-Sie (/obj/singularity/narsie/large/cult): process(20)
+[13:27:08]Objects (/datum/controller/subsystem/obj): fire(0)
+[13:27:08]Objects (/datum/controller/subsystem/obj): ignite(0)
+[13:27:08]Master (/datum/controller/master): RunQueue()
+[13:27:08]Master (/datum/controller/master): Loop()
+[13:27:08]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[13:27:12]addtimer called with a callback assigned to a qdeleted object
+[13:27:12]proc name: stack trace (/proc/stack_trace)
+[13:27:12]  source file: unsorted.dm,1254
+[13:27:12]  usr: (src)
+[13:27:12]  src: null
+[13:27:12]  call stack:
+[13:27:12]stack trace("addtimer called with a callbac...")
+[13:27:12]addtimer(/datum/callback (/datum/callback), 8, 0)
+[13:27:12]the brass table frame (/obj/structure/table_frame/brass): narsie act()
+[13:27:12]space (170,132,2) (/turf/open/space): narsie act(null, null, 20)
+[13:27:12]Nar-Sie (/obj/singularity/narsie/large/cult): consume(space (170,132,2) (/turf/open/space))
+[13:27:12]Nar-Sie (/obj/singularity/narsie/large/cult): eat()
+[13:27:12]Nar-Sie (/obj/singularity/narsie/large/cult): process(20)
+runtime error: 
+[13:27:16]addtimer called with a callback assigned to a qdeleted object
+[13:27:16]proc name: stack trace (/proc/stack_trace)
+[13:27:16]  source file: unsorted.dm,1254
+[13:27:16]  usr: (src)
+[13:27:16]  src: null
+[13:27:16]  call stack:
+[13:27:16]stack trace("addtimer called with a callbac...")
+[13:27:16]addtimer(/datum/callback (/datum/callback), 8, 0)
+[13:27:16]the brass table frame (/obj/structure/table_frame/brass): narsie act()
+[13:27:16]the clockwork floor (177,140,2) (/turf/open/floor/clockwork): narsie act(null, null, 20)
+[13:27:16]the clockwork floor (177,140,2) (/turf/open/floor/clockwork): narsie act(null, null, 20)
+[13:27:16]the clockwork floor (177,140,2) (/turf/open/floor/clockwork): narsie act()
+[13:27:16]Nar-Sie (/obj/singularity/narsie/large/cult): consume(the clockwork floor (177,140,2) (/turf/open/floor/clockwork))
+[13:27:16]Nar-Sie (/obj/singularity/narsie/large/cult): eat()
+[13:27:16]Nar-Sie (/obj/singularity/narsie/large/cult): process(20)
+runtime error: 
+[13:27:18]addtimer called with a callback assigned to a qdeleted object
+[13:27:18]proc name: stack trace (/proc/stack_trace)
+[13:27:18]  source file: unsorted.dm,1254
+[13:27:18]  usr: (src)
+[13:27:18]  src: null
+[13:27:18]  call stack:
+[13:27:18]stack trace("addtimer called with a callbac...")
+[13:27:18]addtimer(/datum/callback (/datum/callback), 8, 0)
+[13:27:18]Crematorium (/obj/machinery/door/airlock/clockwork): narsie act()
+[13:27:18]the clockwork floor (176,143,2) (/turf/open/floor/clockwork): narsie act(null, null, 20)
+[13:27:18]the clockwork floor (176,143,2) (/turf/open/floor/clockwork): narsie act(null, null, 20)
+[13:27:18]the clockwork floor (176,143,2) (/turf/open/floor/clockwork): narsie act()
+[13:27:18]Nar-Sie (/obj/singularity/narsie/large/cult): consume(the clockwork floor (176,143,2) (/turf/open/floor/clockwork))
+[13:27:18]Nar-Sie (/obj/singularity/narsie/large/cult): eat()
+[13:27:18]Nar-Sie (/obj/singularity/narsie/large/cult): process(20)
+[13:27:18]Objects (/datum/controller/subsystem/obj): fire(0)
+[13:27:18]Objects (/datum/controller/subsystem/obj): ignite(0)
+[13:27:18]Master (/datum/controller/master): RunQueue()
+[13:27:18]Master (/datum/controller/master): Loop()
+[13:27:18]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[13:27:23]Cannot read null.species
+[13:27:23]proc name: remove (/datum/trait/deviant_tastes/remove)
+[13:27:23]  source file: neutral.dm,31
+[13:27:23]  usr: null
+[13:27:23]  src: Deviant Tastes (/datum/trait/deviant_tastes)
+[13:27:23]  call stack:
+[13:27:23]Deviant Tastes (/datum/trait/deviant_tastes): remove()
+[13:27:23]Deviant Tastes (/datum/trait/deviant_tastes): Destroy(0)
+[13:27:23]qdel(Deviant Tastes (/datum/trait/deviant_tastes), 0)
+[13:27:23]Deviant Tastes (/datum/trait/deviant_tastes): process(10)
+[13:27:23]Traits (/datum/controller/subsystem/processing/traits): fire(0)
+[13:27:23]Traits (/datum/controller/subsystem/processing/traits): ignite(0)
+[13:27:23]Master (/datum/controller/master): RunQueue()
+[13:27:23]Master (/datum/controller/master): Loop()
+[13:27:23]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[13:27:41]Cannot execute null.playsound local().
+[13:27:41]proc name: process (/obj/structure/destructible/clockwork/massive/ratvar/process)
+[13:27:41]  source file: ratvar_the_clockwork_justicar.dm,85
+[13:27:41]  usr: null
+[13:27:41]  src: Ratvar, the Clockwork Justicia... (/obj/structure/destructible/clockwork/massive/ratvar)
+[13:27:41]  src.loc: the clockwork floor (183,138,2) (/turf/open/floor/clockwork)
+[13:27:41]  call stack:
+[13:27:41]Ratvar, the Clockwork Justicia... (/obj/structure/destructible/clockwork/massive/ratvar): process(20)
+[13:27:41]Objects (/datum/controller/subsystem/obj): fire(0)
+[13:27:41]Objects (/datum/controller/subsystem/obj): ignite(0)
+[13:27:41]Master (/datum/controller/master): RunQueue()
+[13:27:41]Master (/datum/controller/master): Loop()
+[13:27:41]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[13:27:54]addtimer called with a callback assigned to a qdeleted object
+[13:27:54]proc name: stack trace (/proc/stack_trace)
+[13:27:54]  source file: unsorted.dm,1254
+[13:27:54]  usr: (src)
+[13:27:54]  src: null
+[13:27:54]  call stack:
+[13:27:54]stack trace("addtimer called with a callbac...")
+[13:27:54]addtimer(/datum/callback (/datum/callback), 8, 0)
+[13:27:54]Library Maintenance (/obj/machinery/door/airlock/clockwork): narsie act()
+[13:27:54]the clockwork floor (168,146,2) (/turf/open/floor/clockwork): narsie act(null, null, 20)
+[13:27:54]the clockwork floor (168,146,2) (/turf/open/floor/clockwork): narsie act(null, null, 20)
+[13:27:54]the clockwork floor (168,146,2) (/turf/open/floor/clockwork): narsie act()
+[13:27:54]Nar-Sie (/obj/singularity/narsie/large/cult): consume(the clockwork floor (168,146,2) (/turf/open/floor/clockwork))
+[13:27:54]Nar-Sie (/obj/singularity/narsie/large/cult): eat()
+[13:27:54]Nar-Sie (/obj/singularity/narsie/large/cult): process(20)
+runtime error: 
+[13:28:07]addtimer called with a callback assigned to a qdeleted object
+[13:28:07]proc name: stack trace (/proc/stack_trace)
+[13:28:07]  source file: unsorted.dm,1254
+[13:28:07]  usr: (src)
+[13:28:07]  src: null
+[13:28:07]  call stack:
+[13:28:07]stack trace("addtimer called with a callbac...")
+[13:28:07]addtimer(/datum/callback (/datum/callback), 8, 0)
+[13:28:07]Crematorium Maintenance (/obj/machinery/door/airlock/clockwork): narsie act()
+[13:28:07]the clockwork floor (175,146,2) (/turf/open/floor/clockwork): narsie act(null, null, 20)
+[13:28:07]the clockwork floor (175,146,2) (/turf/open/floor/clockwork): narsie act(null, null, 20)
+[13:28:07]the clockwork floor (175,146,2) (/turf/open/floor/clockwork): narsie act()
+[13:28:07]Nar-Sie (/obj/singularity/narsie/large/cult): consume(the clockwork floor (175,146,2) (/turf/open/floor/clockwork))
+[13:28:07]Nar-Sie (/obj/singularity/narsie/large/cult): eat()
+[13:28:07]Nar-Sie (/obj/singularity/narsie/large/cult): process(20)
+runtime error: 
+[13:28:07]addtimer called with a callback assigned to a qdeleted object
+[13:28:07]proc name: stack trace (/proc/stack_trace)
+[13:28:07]  source file: unsorted.dm,1254
+runtime error: 
+[13:28:13]addtimer called with a callback assigned to a qdeleted object
+[13:28:13]proc name: stack trace (/proc/stack_trace)
+[13:28:13]  source file: unsorted.dm,1254
+runtime error: 
+[13:28:19]addtimer called with a callback assigned to a qdeleted object
+[13:28:19]proc name: stack trace (/proc/stack_trace)
+[13:28:19]  source file: unsorted.dm,1254
+runtime error: 
+[13:28:19]addtimer called with a callback assigned to a qdeleted object
+[13:28:19]proc name: stack trace (/proc/stack_trace)
+[13:28:19]  source file: unsorted.dm,1254
+runtime error: 
+[13:28:26]addtimer called with a callback assigned to a qdeleted object
+[13:28:26]proc name: stack trace (/proc/stack_trace)
+[13:28:26]  source file: unsorted.dm,1254
+runtime error: 
+[13:28:26]addtimer called with a callback assigned to a qdeleted object
+[13:28:26]proc name: stack trace (/proc/stack_trace)
+[13:28:26]  source file: unsorted.dm,1254
+runtime error: 
+[13:28:26]addtimer called with a callback assigned to a qdeleted object
+[13:28:26]proc name: stack trace (/proc/stack_trace)
+[13:28:26]  source file: unsorted.dm,1254
+runtime error: 
+[13:28:26]addtimer called with a callback assigned to a qdeleted object
+[13:28:26]proc name: stack trace (/proc/stack_trace)
+[13:28:26]  source file: unsorted.dm,1254
+runtime error: 
+[13:28:26]addtimer called with a callback assigned to a qdeleted object
+[13:28:26]proc name: stack trace (/proc/stack_trace)
+[13:28:26]  source file: unsorted.dm,1254
+runtime error: 
+[13:28:30]addtimer called with a callback assigned to a qdeleted object
+[13:28:30]proc name: stack trace (/proc/stack_trace)
+[13:28:30]  source file: unsorted.dm,1254
+runtime error: 
+[13:28:30]addtimer called with a callback assigned to a qdeleted object
+[13:28:30]proc name: stack trace (/proc/stack_trace)
+[13:28:30]  source file: unsorted.dm,1254
+runtime error: 
+[13:28:30]addtimer called with a callback assigned to a qdeleted object
+[13:28:30]proc name: stack trace (/proc/stack_trace)
+[13:28:30]  source file: unsorted.dm,1254
+runtime error: 
+[13:28:32]addtimer called with a callback assigned to a qdeleted object
+[13:28:32]proc name: stack trace (/proc/stack_trace)
+[13:28:32]  source file: unsorted.dm,1254
+runtime error: 
+[13:28:36]addtimer called with a callback assigned to a qdeleted object
+[13:28:36]proc name: stack trace (/proc/stack_trace)
+[13:28:36]  source file: unsorted.dm,1254
+runtime error: 
+[13:29:07]addtimer called with a callback assigned to a qdeleted object
+[13:29:07]proc name: stack trace (/proc/stack_trace)
+[13:29:07]  source file: unsorted.dm,1254
+Saved 5 engraved messages on map Box Station
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 13:30:56

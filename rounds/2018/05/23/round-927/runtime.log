@@ -1,0 +1,575 @@
+
+
+Starting up round ID 927. 09:24:46
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 5.2s!
+Loaded Lavaland in 5.8s!
+Loaded Reebe in 5.6s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 31.3 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[09:25:26]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[09:25:26]proc name: stack trace (/datum/proc/stack_trace)
+[09:25:26]  source file: unsorted.dm,1257
+[09:25:26]  usr: null
+[09:25:26]  src: Vacant Office APC (/obj/machinery/power/apc)
+[09:25:26]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[09:25:26]  call stack:
+[09:25:26]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[09:25:26]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[09:25:26]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[09:25:26]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[09:25:26]Atoms (/datum/controller/subsystem/atoms): Initialize(339197)
+[09:25:26]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 41.8 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 22 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 0.1 seconds were wasted processing 22 turf(s) (connected to 3239 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 14 seconds!
+Initialized Minimap subsystem within 0.3 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 6 seconds!
+Initialized Overlay subsystem within 13.6 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 12.8 seconds!
+Initialized Shuttle subsystem within 24.4 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 119 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 145.5 seconds!
+Game start took 2.3s
+runtime error: 
+[09:35:52]Cannot read null.loc
+[09:35:52]proc name: update parallax (/datum/hud/proc/update_parallax)
+[09:35:52]  source file: parallax.dm,170
+[09:35:52]  usr: Helps-The-Station (/mob/living/brain)
+[09:35:52]  src: /datum/hud (/datum/hud)
+[09:35:52]  usr.loc: Helps-The-Station\'s brain (/obj/item/organ/brain)
+[09:35:52]  call stack:
+[09:35:52]/datum/hud (/datum/hud): update parallax()
+[09:35:52]/datum/hud (/datum/hud): update parallax pref(Helps-The-Station (/mob/living/brain))
+[09:35:52]/datum/hud (/datum/hud): show hud(1, null)
+[09:35:52]Helps-The-Station (/mob/living/brain): Login()
+[09:35:52]Helps-The-Station (/mob/living/brain): Login()
+[09:35:52]Helps-The-Station (/datum/mind): transfer to(Helps-The-Station (/mob/living/brain), 0)
+[09:35:52]Helps-The-Station\'s brain (/obj/item/organ/brain): transfer identity(Helps-The-Station (/mob/living/carbon/human))
+[09:35:52]Helps-The-Station\'s brain (/obj/item/organ/brain): Remove(Helps-The-Station (/mob/living/carbon/human), 0, 0)
+[09:35:52]Helps-The-Station\'s brain (/obj/item/organ/brain): transfer to limb(Helps-The-Station\'s head (/obj/item/bodypart/head), Helps-The-Station (/mob/living/carbon/human))
+[09:35:52]Helps-The-Station\'s head (/obj/item/bodypart/head): drop limb(null)
+[09:35:52]Helps-The-Station\'s head (/obj/item/bodypart/head): drop limb(null)
+[09:35:52]Helps-The-Station (/mob/living/carbon/human): spread bodyparts(null, null)
+[09:35:52]Helps-The-Station (/mob/living/carbon/human): gib(null, null, null)
+[09:35:52]Helps-The-Station (/mob/living/carbon/human): gib(null, null, null)
+[09:35:52]Helps-The-Station (/mob/living/carbon/human): ex act(1, null, null)
+[09:35:52]/datum/explosion (/datum/explosion): New(the floor (146,129,2) (/turf/open/floor/plasteel), 3, 9, 17, 3, 1, 0, 17, 0, 0)
+Saved 119 engraved messages on map Box Station
+runtime error: 
+[09:38:13]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:13]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:13]  source file: unsorted.dm,1257
+[09:38:13]  usr: null
+[09:38:13]  src: /datum/pipeline (/datum/pipeline)
+[09:38:13]  call stack:
+[09:38:13]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:13]/datum/pipeline (/datum/pipeline): return air()
+[09:38:13]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:13]/datum/pipeline (/datum/pipeline): process()
+[09:38:13]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:13]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:13]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:13]Master (/datum/controller/master): RunQueue()
+[09:38:13]Master (/datum/controller/master): Loop()
+[09:38:13]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:14]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:14]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:14]  source file: unsorted.dm,1257
+[09:38:14]  usr: null
+[09:38:14]  src: /datum/pipeline (/datum/pipeline)
+[09:38:14]  call stack:
+[09:38:14]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:14]/datum/pipeline (/datum/pipeline): return air()
+[09:38:14]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:14]/datum/pipeline (/datum/pipeline): process()
+[09:38:14]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:14]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:14]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:14]Master (/datum/controller/master): RunQueue()
+[09:38:14]Master (/datum/controller/master): Loop()
+[09:38:14]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:14]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:14]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:14]  source file: unsorted.dm,1257
+[09:38:14]  usr: null
+[09:38:14]  src: /datum/pipeline (/datum/pipeline)
+[09:38:14]  call stack:
+[09:38:14]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:14]/datum/pipeline (/datum/pipeline): return air()
+[09:38:14]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:14]/datum/pipeline (/datum/pipeline): process()
+[09:38:14]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:14]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:14]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:14]Master (/datum/controller/master): RunQueue()
+[09:38:14]Master (/datum/controller/master): Loop()
+[09:38:14]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:15]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:15]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:15]  source file: unsorted.dm,1257
+[09:38:15]  usr: null
+[09:38:15]  src: /datum/pipeline (/datum/pipeline)
+[09:38:15]  call stack:
+[09:38:15]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:15]/datum/pipeline (/datum/pipeline): return air()
+[09:38:15]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:15]/datum/pipeline (/datum/pipeline): process()
+[09:38:15]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:15]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:15]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:15]Master (/datum/controller/master): RunQueue()
+[09:38:15]Master (/datum/controller/master): Loop()
+[09:38:15]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:15]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:15]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:15]  source file: unsorted.dm,1257
+[09:38:15]  usr: null
+[09:38:15]  src: /datum/pipeline (/datum/pipeline)
+[09:38:15]  call stack:
+[09:38:15]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:15]/datum/pipeline (/datum/pipeline): return air()
+[09:38:15]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:15]/datum/pipeline (/datum/pipeline): process()
+[09:38:15]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:15]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:15]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:15]Master (/datum/controller/master): RunQueue()
+[09:38:15]Master (/datum/controller/master): Loop()
+[09:38:15]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:16]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:16]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:16]  source file: unsorted.dm,1257
+[09:38:16]  usr: null
+[09:38:16]  src: /datum/pipeline (/datum/pipeline)
+[09:38:16]  call stack:
+[09:38:16]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:16]/datum/pipeline (/datum/pipeline): return air()
+[09:38:16]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:16]/datum/pipeline (/datum/pipeline): process()
+[09:38:16]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:16]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:16]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:16]Master (/datum/controller/master): RunQueue()
+[09:38:16]Master (/datum/controller/master): Loop()
+[09:38:16]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:16]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:16]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:16]  source file: unsorted.dm,1257
+[09:38:16]  usr: null
+[09:38:16]  src: /datum/pipeline (/datum/pipeline)
+[09:38:16]  call stack:
+[09:38:16]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:16]/datum/pipeline (/datum/pipeline): return air()
+[09:38:16]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:16]/datum/pipeline (/datum/pipeline): process()
+[09:38:16]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:16]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:16]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:16]Master (/datum/controller/master): RunQueue()
+[09:38:16]Master (/datum/controller/master): Loop()
+[09:38:16]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:17]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:17]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:17]  source file: unsorted.dm,1257
+[09:38:17]  usr: null
+[09:38:17]  src: /datum/pipeline (/datum/pipeline)
+[09:38:17]  call stack:
+[09:38:17]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:17]/datum/pipeline (/datum/pipeline): return air()
+[09:38:17]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:17]/datum/pipeline (/datum/pipeline): process()
+[09:38:17]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:17]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:17]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:17]Master (/datum/controller/master): RunQueue()
+[09:38:17]Master (/datum/controller/master): Loop()
+[09:38:17]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:18]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:18]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:18]  source file: unsorted.dm,1257
+[09:38:18]  usr: null
+[09:38:18]  src: /datum/pipeline (/datum/pipeline)
+[09:38:18]  call stack:
+[09:38:18]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:18]/datum/pipeline (/datum/pipeline): return air()
+[09:38:18]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:18]/datum/pipeline (/datum/pipeline): process()
+[09:38:18]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:18]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:18]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:18]Master (/datum/controller/master): RunQueue()
+[09:38:18]Master (/datum/controller/master): Loop()
+[09:38:18]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:18]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:18]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:18]  source file: unsorted.dm,1257
+[09:38:18]  usr: null
+[09:38:18]  src: /datum/pipeline (/datum/pipeline)
+[09:38:18]  call stack:
+[09:38:18]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:18]/datum/pipeline (/datum/pipeline): return air()
+[09:38:18]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:18]/datum/pipeline (/datum/pipeline): process()
+[09:38:18]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:18]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:18]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:18]Master (/datum/controller/master): RunQueue()
+[09:38:18]Master (/datum/controller/master): Loop()
+[09:38:18]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:19]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:19]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:19]  source file: unsorted.dm,1257
+[09:38:19]  usr: null
+[09:38:19]  src: /datum/pipeline (/datum/pipeline)
+[09:38:19]  call stack:
+[09:38:19]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:19]/datum/pipeline (/datum/pipeline): return air()
+[09:38:19]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:19]/datum/pipeline (/datum/pipeline): process()
+[09:38:19]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:19]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:19]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:19]Master (/datum/controller/master): RunQueue()
+[09:38:19]Master (/datum/controller/master): Loop()
+[09:38:19]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:19]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:19]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:19]  source file: unsorted.dm,1257
+[09:38:19]  usr: null
+[09:38:19]  src: /datum/pipeline (/datum/pipeline)
+[09:38:19]  call stack:
+[09:38:19]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:19]/datum/pipeline (/datum/pipeline): return air()
+[09:38:19]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:19]/datum/pipeline (/datum/pipeline): process()
+[09:38:19]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:19]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:19]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:19]Master (/datum/controller/master): RunQueue()
+[09:38:19]Master (/datum/controller/master): Loop()
+[09:38:19]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:20]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:20]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:20]  source file: unsorted.dm,1257
+[09:38:20]  usr: null
+[09:38:20]  src: /datum/pipeline (/datum/pipeline)
+[09:38:20]  call stack:
+[09:38:20]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:20]/datum/pipeline (/datum/pipeline): return air()
+[09:38:20]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:20]/datum/pipeline (/datum/pipeline): process()
+[09:38:20]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:20]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:20]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:20]Master (/datum/controller/master): RunQueue()
+[09:38:20]Master (/datum/controller/master): Loop()
+[09:38:20]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:21]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:21]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:21]  source file: unsorted.dm,1257
+[09:38:21]  usr: null
+[09:38:21]  src: /datum/pipeline (/datum/pipeline)
+[09:38:21]  call stack:
+[09:38:21]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:21]/datum/pipeline (/datum/pipeline): return air()
+[09:38:21]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:21]/datum/pipeline (/datum/pipeline): process()
+[09:38:21]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:21]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:21]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:21]Master (/datum/controller/master): RunQueue()
+[09:38:21]Master (/datum/controller/master): Loop()
+[09:38:21]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:21]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:21]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:21]  source file: unsorted.dm,1257
+[09:38:21]  usr: null
+[09:38:21]  src: /datum/pipeline (/datum/pipeline)
+[09:38:21]  call stack:
+[09:38:21]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:21]/datum/pipeline (/datum/pipeline): return air()
+[09:38:21]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:21]/datum/pipeline (/datum/pipeline): process()
+[09:38:21]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:21]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:21]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:21]Master (/datum/controller/master): RunQueue()
+[09:38:21]Master (/datum/controller/master): Loop()
+[09:38:21]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:22]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:22]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:22]  source file: unsorted.dm,1257
+[09:38:22]  usr: null
+[09:38:22]  src: /datum/pipeline (/datum/pipeline)
+[09:38:22]  call stack:
+[09:38:22]/datum/pipeline (/datum/pipeline): stack trace("/datum/pipeline has one or mor...")
+[09:38:22]/datum/pipeline (/datum/pipeline): return air()
+[09:38:22]/datum/pipeline (/datum/pipeline): reconcile air()
+[09:38:22]/datum/pipeline (/datum/pipeline): process()
+[09:38:22]Atmospherics (/datum/controller/subsystem/air): process pipenets(0)
+[09:38:22]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[09:38:22]Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[09:38:22]Master (/datum/controller/master): RunQueue()
+[09:38:22]Master (/datum/controller/master): Loop()
+[09:38:22]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[09:38:22]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:22]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:22]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:23]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:23]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:23]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:24]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:24]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:24]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:24]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:24]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:24]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:25]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:25]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:25]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:26]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:26]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:26]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:26]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:26]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:26]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:27]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:27]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:27]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:27]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:27]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:27]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:28]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:28]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:28]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:29]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:29]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:29]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:29]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:29]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:29]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:30]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:30]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:30]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:30]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:30]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:30]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:31]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:31]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:31]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:32]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:32]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:32]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:32]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:32]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:32]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:33]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:33]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:33]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:33]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:33]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:33]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:34]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:34]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:34]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:34]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:34]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:34]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:35]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:35]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:35]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:35]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:35]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:35]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:36]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:36]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:36]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:37]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:37]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:37]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:37]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:37]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:37]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:38]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:38]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:38]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:38]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:38]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:38]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:39]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:39]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:39]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:40]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:40]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:40]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:40]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:40]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:40]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:41]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:41]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:41]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:41]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:41]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:41]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:42]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:42]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:42]  source file: unsorted.dm,1257
+runtime error: 
+[09:38:43]/datum/pipeline has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().
+[09:38:43]proc name: stack trace (/datum/proc/stack_trace)
+[09:38:43]  source file: unsorted.dm,1257
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 09:39:56

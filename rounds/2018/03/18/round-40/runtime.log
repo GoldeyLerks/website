@@ -1,0 +1,246 @@
+
+
+Starting up round ID 40. 20:49:20
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 6.6s!
+Loaded Lavaland in 4.7s!
+Loaded Reebe in 4.4s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 23.6 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[20:50:10]Cannot execute null.copy from().
+[20:50:10]proc name: Assimilate Air (/turf/open/proc/Assimilate_Air)
+[20:50:10]  source file: ChangeTurf.dm,263
+[20:50:10]  usr: null
+[20:50:10]  src: the asteroid sand (40,145,3) (/turf/open/floor/plating/asteroid/airless/cave)
+[20:50:10]  call stack:
+[20:50:10]the asteroid sand (40,145,3) (/turf/open/floor/plating/asteroid/airless/cave): Assimilate Air()
+[20:50:10]the asteroid sand (40,145,3) (/turf/open/floor/plating/asteroid/airless/cave): AfterChange(0)
+[20:50:10]the asteroid sand (40,145,3) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[20:50:10]the asteroid sand (40,145,3) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[20:50:10]the asteroid sand (40,145,3) (/turf/open/floor/plating/asteroid/airless/cave): Initialize(1)
+[20:50:10]Atoms (/datum/controller/subsystem/atoms): InitAtom(the asteroid sand (40,145,3) (/turf/open/floor/plating/asteroid/airless/cave), /list (/list))
+[20:50:10]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[20:50:10]Atoms (/datum/controller/subsystem/atoms): Initialize(29856)
+[20:50:10]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 50.4 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.4 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Weather subsystem within 0 seconds!
+runtime error: 
+[20:50:40]Cannot execute null.compare().
+[20:50:40]proc name: Initalize Atmos (/turf/open/Initalize_Atmos)
+[20:50:40]  source file: open.dm,137
+[20:50:40]  usr: null
+[20:50:40]  src: the asteroid sand (40,145,3) (/turf/open/floor/plating/asteroid/airless/cave)
+[20:50:40]  call stack:
+[20:50:40]the asteroid sand (40,145,3) (/turf/open/floor/plating/asteroid/airless/cave): Initalize Atmos(1)
+[20:50:40]Atmospherics (/datum/controller/subsystem/air): setup allturfs()
+[20:50:40]Atmospherics (/datum/controller/subsystem/air): Initialize(30366)
+[20:50:40]Master (/datum/controller/master): Initialize(10, 0)
+## WARNING: There are 14 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 14 turf(s) (connected to 20680 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 15.2 seconds!
+Initialized Minimap subsystem within 0.1 seconds!
+Initialized Assets subsystem within 0.9 seconds!
+Initialized Icon Smoothing subsystem within 6 seconds!
+Initialized Overlay subsystem within 21.7 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+runtime error: 
+[20:51:34]list index out of bounds
+[20:51:34]proc name: fire (/datum/controller/subsystem/lighting/fire)
+[20:51:34]  source file: lighting.dm,36
+[20:51:34]  usr: null
+[20:51:34]  src: Lighting (/datum/controller/subsystem/lighting)
+[20:51:34]  call stack:
+[20:51:34]Lighting (/datum/controller/subsystem/lighting): fire(0, 1)
+[20:51:34]Lighting (/datum/controller/subsystem/lighting): Initialize(30805)
+[20:51:34]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Lighting subsystem within 14.1 seconds!
+Initialized Shuttle subsystem within 26 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Loaded 0 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 158.9 seconds!
+Game start took 9s
+runtime error: 
+[21:08:35]Cannot create objects of type null.
+[21:08:35]proc name: add event (/datum/component/mood/proc/add_event)
+[21:08:35]  source file: mood.dm,91
+[21:08:35]  usr: Haylie Lineman (/mob/living/carbon/human)
+[21:08:35]  src: /datum/component/mood (/datum/component/mood)
+[21:08:35]  usr.loc: the floor (187,124,2) (/turf/open/floor/plasteel/white)
+[21:08:35]  call stack:
+[21:08:35]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[21:08:35]Gordon Freeman\'s head (/obj/item/bodypart/head): drop limb(null)
+[21:08:35]Gordon Freeman\'s head (/obj/item/bodypart/head): drop limb(null)
+[21:08:35]Gordon Freeman\'s head (/obj/item/bodypart/head): dismember("brute")
+[21:08:35]Human (/datum/species/human): spec attacked by(the officer\'s sabre (/obj/item/melee/sabre), Haylie Lineman (/mob/living/carbon/human), Gordon Freeman\'s head (/obj/item/bodypart/head), "help", Gordon Freeman (/mob/living/carbon/human))
+[21:08:35]Gordon Freeman (/mob/living/carbon/human): attacked by(the officer\'s sabre (/obj/item/melee/sabre), Haylie Lineman (/mob/living/carbon/human))
+[21:08:35]the officer\'s sabre (/obj/item/melee/sabre): attack(Gordon Freeman (/mob/living/carbon/human), Haylie Lineman (/mob/living/carbon/human))
+[21:08:35]Gordon Freeman (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Haylie Lineman (/mob/living/carbon/human), "icon-x=13;icon-y=18;left=1;scr...")
+[21:08:35]Gordon Freeman (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Haylie Lineman (/mob/living/carbon/human), "icon-x=13;icon-y=18;left=1;scr...")
+[21:08:35]the officer\'s sabre (/obj/item/melee/sabre): melee attack chain(Haylie Lineman (/mob/living/carbon/human), Gordon Freeman (/mob/living/carbon/human), "icon-x=13;icon-y=18;left=1;scr...")
+[21:08:35]Haylie Lineman (/mob/living/carbon/human): ClickOn(Gordon Freeman (/mob/living/carbon/human), "icon-x=13;icon-y=18;left=1;scr...")
+[21:08:35]Gordon Freeman (/mob/living/carbon/human): Click(the floor (187,125,2) (/turf/open/floor/plasteel/white), "mapwindow.map", "icon-x=13;icon-y=18;left=1;scr...")
+runtime error: 
+[21:10:02]Cannot create objects of type null.
+[21:10:02]proc name: add event (/datum/component/mood/proc/add_event)
+[21:10:02]  source file: mood.dm,91
+[21:10:02]  usr: Haylie Lineman (/mob/living/carbon/human)
+[21:10:02]  src: /datum/component/mood (/datum/component/mood)
+[21:10:02]  usr.loc: the floor (114,93,2) (/turf/open/floor/plasteel)
+[21:10:02]  call stack:
+[21:10:02]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[21:10:02]Bill Peters\'s head (/obj/item/bodypart/head): drop limb(null)
+[21:10:02]Bill Peters\'s head (/obj/item/bodypart/head): drop limb(null)
+[21:10:02]Bill Peters\'s head (/obj/item/bodypart/head): dismember("brute")
+[21:10:02]Human (/datum/species/human): spec attacked by(the officer\'s sabre (/obj/item/melee/sabre), Haylie Lineman (/mob/living/carbon/human), Bill Peters\'s head (/obj/item/bodypart/head), "help", Bill Peters (/mob/living/carbon/human))
+[21:10:02]Bill Peters (/mob/living/carbon/human): attacked by(the officer\'s sabre (/obj/item/melee/sabre), Haylie Lineman (/mob/living/carbon/human))
+[21:10:02]the officer\'s sabre (/obj/item/melee/sabre): attack(Bill Peters (/mob/living/carbon/human), Haylie Lineman (/mob/living/carbon/human))
+[21:10:02]Bill Peters (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Haylie Lineman (/mob/living/carbon/human), "icon-x=18;icon-y=16;left=1;scr...")
+[21:10:02]Bill Peters (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Haylie Lineman (/mob/living/carbon/human), "icon-x=18;icon-y=16;left=1;scr...")
+[21:10:02]the officer\'s sabre (/obj/item/melee/sabre): melee attack chain(Haylie Lineman (/mob/living/carbon/human), Bill Peters (/mob/living/carbon/human), "icon-x=18;icon-y=16;left=1;scr...")
+[21:10:02]Haylie Lineman (/mob/living/carbon/human): ClickOn(Bill Peters (/mob/living/carbon/human), "icon-x=18;icon-y=16;left=1;scr...")
+[21:10:02]Bill Peters (/mob/living/carbon/human): Click(the floor (114,94,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=18;icon-y=16;left=1;scr...")
+runtime error: 
+[21:12:33]list index out of bounds
+[21:12:33]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[21:12:33]  source file: aurora_caelus.dm,39
+[21:12:33]  usr: null
+[21:12:33]  src: /datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus)
+[21:12:33]  call stack:
+[21:12:33]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): tick()
+[21:12:33]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): process()
+[21:12:33]Events (/datum/controller/subsystem/events): fire(0)
+[21:12:33]Events (/datum/controller/subsystem/events): ignite(0)
+[21:12:33]Master (/datum/controller/master): RunQueue()
+[21:12:33]Master (/datum/controller/master): Loop()
+[21:12:33]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:22:17]Cannot read null.client
+[21:22:17]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:22:17]  source file: vote.dm,321
+[21:22:17]  usr: null
+[21:22:17]  src: Vote! (/datum/action/vote)
+[21:22:17]  call stack:
+[21:22:17]Vote! (/datum/action/vote): remove from client()
+[21:22:17]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:22:17]Vote (/datum/controller/subsystem/vote): announce result()
+[21:22:17]Vote (/datum/controller/subsystem/vote): result()
+[21:22:17]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:22:17]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:22:17]Master (/datum/controller/master): RunQueue()
+[21:22:17]Master (/datum/controller/master): Loop()
+[21:22:17]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:22:17]Cannot read null.client
+[21:22:17]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:22:17]  source file: vote.dm,321
+[21:22:17]  usr: null
+[21:22:17]  src: Vote! (/datum/action/vote)
+[21:22:17]  call stack:
+[21:22:17]Vote! (/datum/action/vote): remove from client()
+[21:22:17]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:22:17]Vote (/datum/controller/subsystem/vote): announce result()
+[21:22:17]Vote (/datum/controller/subsystem/vote): result()
+[21:22:17]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:22:17]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:22:17]Master (/datum/controller/master): RunQueue()
+[21:22:17]Master (/datum/controller/master): Loop()
+[21:22:17]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[21:22:17]Cannot read null.client
+[21:22:17]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[21:22:17]  source file: vote.dm,321
+[21:22:17]  usr: null
+[21:22:17]  src: Vote! (/datum/action/vote)
+[21:22:17]  call stack:
+[21:22:17]Vote! (/datum/action/vote): remove from client()
+[21:22:17]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[21:22:17]Vote (/datum/controller/subsystem/vote): announce result()
+[21:22:17]Vote (/datum/controller/subsystem/vote): result()
+[21:22:17]Vote (/datum/controller/subsystem/vote): fire(0)
+[21:22:17]Vote (/datum/controller/subsystem/vote): ignite(0)
+[21:22:17]Master (/datum/controller/master): RunQueue()
+[21:22:17]Master (/datum/controller/master): Loop()
+[21:22:17]Master (/datum/controller/master): StartProcessing(0)
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 21:23:48

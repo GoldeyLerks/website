@@ -1,0 +1,446 @@
+
+
+Starting up round ID 58. 18:14:52
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 9.2s!
+Loaded Lavaland in 7s!
+Loaded Reebe in 5.6s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 33.2 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[18:15:59]Cannot execute null.copy from().
+[18:15:59]proc name: Assimilate Air (/turf/open/proc/Assimilate_Air)
+[18:15:59]  source file: ChangeTurf.dm,263
+[18:15:59]  usr: null
+[18:15:59]  src: the asteroid sand (194,119,4) (/turf/open/floor/plating/asteroid/airless/cave)
+[18:15:59]  call stack:
+[18:15:59]the asteroid sand (194,119,4) (/turf/open/floor/plating/asteroid/airless/cave): Assimilate Air()
+[18:15:59]the asteroid sand (194,119,4) (/turf/open/floor/plating/asteroid/airless/cave): AfterChange(0)
+[18:15:59]the asteroid sand (194,119,4) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[18:15:59]the asteroid sand (194,119,4) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[18:15:59]the asteroid sand (194,119,4) (/turf/open/floor/plating/asteroid/airless/cave): Initialize(1)
+[18:15:59]Atoms (/datum/controller/subsystem/atoms): InitAtom(the asteroid sand (194,119,4) (/turf/open/floor/plating/asteroid/airless/cave), /list (/list))
+[18:15:59]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[18:15:59]Atoms (/datum/controller/subsystem/atoms): Initialize(801291)
+[18:15:59]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 51.3 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.2 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Weather subsystem within 0 seconds!
+runtime error: 
+[18:16:25]Cannot read null.gases
+[18:16:25]proc name: compare (/datum/gas_mixture/compare)
+[18:16:25]  source file: gas_mixture.dm,387
+[18:16:25]  usr: null
+[18:16:25]  src: /datum/gas_mixture/turf (/datum/gas_mixture/turf)
+[18:16:25]  call stack:
+[18:16:25]/datum/gas_mixture/turf (/datum/gas_mixture/turf): compare(null)
+[18:16:25]the asteroid sand (193,119,4) (/turf/open/floor/plating/asteroid/airless): Initalize Atmos(1)
+[18:16:25]Atmospherics (/datum/controller/subsystem/air): setup allturfs()
+[18:16:25]Atmospherics (/datum/controller/subsystem/air): Initialize(801810)
+[18:16:25]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[18:16:25]Cannot execute null.compare().
+[18:16:25]proc name: Initalize Atmos (/turf/open/Initalize_Atmos)
+[18:16:25]  source file: open.dm,137
+[18:16:25]  usr: null
+[18:16:25]  src: the asteroid sand (194,119,4) (/turf/open/floor/plating/asteroid/airless/cave)
+[18:16:25]  call stack:
+[18:16:25]the asteroid sand (194,119,4) (/turf/open/floor/plating/asteroid/airless/cave): Initalize Atmos(1)
+[18:16:25]Atmospherics (/datum/controller/subsystem/air): setup allturfs()
+[18:16:25]Atmospherics (/datum/controller/subsystem/air): Initialize(801810)
+[18:16:25]Master (/datum/controller/master): Initialize(10, 0)
+## WARNING: There are 32 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 0.9 seconds were wasted processing 32 turf(s) (connected to 19655 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 17.1 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 1.1 seconds!
+Initialized Icon Smoothing subsystem within 7.8 seconds!
+Initialized Overlay subsystem within 26.3 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Lighting subsystem within 12.6 seconds!
+Initialized Shuttle subsystem within 25.5 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Loaded 0 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 175.9 seconds!
+[2018-03-20 18:18:27] Client: Cloudcasterv triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58110/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+[2018-03-20 18:18:27] Client: Bluscout78 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52025/tmp9240/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:18:27] Client: Dnexus triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50098/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0E; .NET4.0C)
+[2018-03-20 18:18:27] Client: Cencere triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64262/tmp9064/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:18:27] Client: Datmanisdumb triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:63483/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-03-20 18:18:27] Client: Hexob triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:5323/tmp4524/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; MAARJS)
+[2018-03-20 18:18:27] Client: Sikekiz triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64680/tmp10784/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:18:27] Client: XEvilXHybridX triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:17704/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; connectpro; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:18:27] Client: Cremation triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49804/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee; LCTE)
+[2018-03-20 18:18:27] Client: Ntaede triggered JS error: Error: El identificador URI para descodificar no tiene una codificación válida | url: http://127.0.0.1:54522/browserOutput.js | line: 116 | column: 2 | error: URIError: El identificador URI para descodificar no tiene una codificación válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-03-20 18:18:27] Client: Archimage triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53586/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:18:27] Client: Snipay triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:10994/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E)
+[2018-03-20 18:18:27] Client: Jathomar triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49821/tmp8024/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:18:27] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:18:27] Client: Aira23445 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:49359/tmp18772/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:18:27] Client: XXROBOKILLERXx triggered JS error: Error: The URI to be decoded is not a valid encoding | url: file:///C:/Users/battl/OneDrive/Documents/BYOND/cache/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-03-20 18:19:18] Client: Snipay triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:10994/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E)
+[2018-03-20 18:19:18] Client: Cloudcasterv triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58110/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+[2018-03-20 18:19:18] Client: Jathomar triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49821/tmp8024/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:19:18] Client: Dnexus triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50098/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0E; .NET4.0C)
+[2018-03-20 18:19:18] Client: Datmanisdumb triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:63483/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-03-20 18:19:18] Client: Bluscout78 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52025/tmp9240/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:19:18] Client: XEvilXHybridX triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:17704/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; connectpro; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:19:18] Client: Cencere triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64262/tmp9064/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:19:18] Client: Sikekiz triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64680/tmp10784/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:19:18] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:19:18] Client: Hexob triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:5323/tmp4524/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; MAARJS)
+[2018-03-20 18:19:18] Client: Archimage triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53586/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:19:18] Client: Aira23445 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:49359/tmp18772/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:19:18] Client: Cremation triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49804/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee; LCTE)
+[2018-03-20 18:19:18] Client: Streex triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:59226/tmp1220/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:19:18] Client: XXROBOKILLERXx triggered JS error: Error: The URI to be decoded is not a valid encoding | url: file:///C:/Users/battl/OneDrive/Documents/BYOND/cache/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+runtime error: 
+[18:19:18]Cannot read null.species
+[18:19:18]proc name: update body (/mob/living/carbon/human/update_body)
+[18:19:18]  source file: update_icons.dm,62
+[18:19:18]  usr: null
+[18:19:18]  src:  (/mob/living/carbon/human)
+[18:19:18]  src.loc: null
+[18:19:18]  call stack:
+[18:19:18] (/mob/living/carbon/human): update body()
+[18:19:18]the surplus prosthetic left le... (/obj/item/bodypart/l_leg/robot/surplus): attach limb( (/mob/living/carbon/human), null)
+[18:19:18]the surplus prosthetic left le... (/obj/item/bodypart/l_leg/robot/surplus): replace limb( (/mob/living/carbon/human), null)
+[18:19:18]Prosthetic Limb (/datum/trait/prosthetic_limb): on spawn()
+[18:19:18]Prosthetic Limb (/datum/trait/prosthetic_limb): New( (/mob/living/carbon/human), 1)
+[18:19:18] (/mob/living/carbon/human): add trait datum("Prosthetic Limb", 1)
+[18:19:18]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), XEvilXHybridX (/client), 1)
+[18:19:18]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[18:19:18]Ticker (/datum/controller/subsystem/ticker): setup()
+[18:19:18]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[18:19:18]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+runtime error: 
+[18:19:18]Cannot read null.species
+[18:19:18]proc name: update hair (/mob/living/carbon/human/update_hair)
+[18:19:18]  source file: update_icons.dm,53
+[18:19:18]  usr: null
+[18:19:18]  src:  (/mob/living/carbon/human)
+[18:19:18]  src.loc: null
+[18:19:18]  call stack:
+[18:19:18] (/mob/living/carbon/human): update hair()
+[18:19:18]the surplus prosthetic left le... (/obj/item/bodypart/l_leg/robot/surplus): attach limb( (/mob/living/carbon/human), null)
+[18:19:18]the surplus prosthetic left le... (/obj/item/bodypart/l_leg/robot/surplus): replace limb( (/mob/living/carbon/human), null)
+[18:19:18]Prosthetic Limb (/datum/trait/prosthetic_limb): on spawn()
+[18:19:18]Prosthetic Limb (/datum/trait/prosthetic_limb): New( (/mob/living/carbon/human), 1)
+[18:19:18] (/mob/living/carbon/human): add trait datum("Prosthetic Limb", 1)
+[18:19:18]Traits (/datum/controller/subsystem/processing/traits): AssignTraits( (/mob/living/carbon/human), XEvilXHybridX (/client), 1)
+[18:19:18]Ticker (/datum/controller/subsystem/ticker): equip characters()
+[18:19:18]Ticker (/datum/controller/subsystem/ticker): setup()
+[18:19:18]Ticker (/datum/controller/subsystem/ticker): fire(0)
+[18:19:18]Ticker (/datum/controller/subsystem/ticker): ignite(0)
+[2018-03-20 18:19:18] Client: Ntaede triggered JS error: Error: El identificador URI para descodificar no tiene una codificación válida | url: http://127.0.0.1:54522/browserOutput.js | line: 116 | column: 2 | error: URIError: El identificador URI para descodificar no tiene una codificación válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+Game start took 19.3s
+[2018-03-20 18:20:09] Client: Cencere triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64262/tmp9064/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:20:09] Client: Bluscout78 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52025/tmp9240/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:20:09] Client: Sikekiz triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64680/tmp10784/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:20:09] Client: Dnexus triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50098/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0E; .NET4.0C)
+[2018-03-20 18:20:09] Client: XXROBOKILLERXx triggered JS error: Error: The URI to be decoded is not a valid encoding | url: file:///C:/Users/battl/OneDrive/Documents/BYOND/cache/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-03-20 18:20:09] Client: Jathomar triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49821/tmp8024/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:20:09] Client: XEvilXHybridX triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:17704/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; connectpro; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:20:09] Client: Cloudcasterv triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58110/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+[2018-03-20 18:20:09] Client: Cremation triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49804/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee; LCTE)
+[2018-03-20 18:20:09] Client: Datmanisdumb triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:63483/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-03-20 18:20:09] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:20:09] Client: Archimage triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53586/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:20:09] Client: Aira23445 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:49359/tmp18772/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:20:09] Client: Snipay triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:10994/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E)
+[2018-03-20 18:20:09] Client: Hexob triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:5323/tmp4524/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; MAARJS)
+[2018-03-20 18:20:09] Client: Ntaede triggered JS error: Error: El identificador URI para descodificar no tiene una codificación válida | url: http://127.0.0.1:54522/browserOutput.js | line: 116 | column: 2 | error: URIError: El identificador URI para descodificar no tiene una codificación válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)
+[2018-03-20 18:20:09] Client: Babymen triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:49394/tmp3172/browserOutput.js | line: 116 | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; byond_5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET4.0C; .NET4.0E)
+[2018-03-20 18:20:09] Client: Bluscout78 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52025/tmp9240/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:20:09] Client: XEvilXHybridX triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:17704/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; connectpro; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:20:09] Client: Cencere triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64262/tmp9064/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:20:09] Client: Sikekiz triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64680/tmp10784/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:20:09] Client: Datmanisdumb triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:63483/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-03-20 18:20:09] Client: Jathomar triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49821/tmp8024/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:20:09] Client: Cremation triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49804/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee; LCTE)
+[2018-03-20 18:20:09] Client: Hexob triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:5323/tmp4524/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; MAARJS)
+[2018-03-20 18:20:09] Client: Snipay triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:10994/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E)
+[2018-03-20 18:20:09] Client: XXROBOKILLERXx triggered JS error: Error: The URI to be decoded is not a valid encoding | url: file:///C:/Users/battl/OneDrive/Documents/BYOND/cache/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-03-20 18:20:09] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:20:09] Client: Archimage triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53586/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:20:09] Client: Aira23445 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:49359/tmp18772/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:20:09] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:21:00] Client: Bluscout78 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52025/tmp9240/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:00] Client: Cencere triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64262/tmp9064/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:00] Client: Datmanisdumb triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:63483/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-03-20 18:21:00] Client: XEvilXHybridX triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:17704/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; connectpro; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:00] Client: Jathomar triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49821/tmp8024/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:00] Client: Sikekiz triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64680/tmp10784/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:00] Client: Cremation triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49804/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee; LCTE)
+[2018-03-20 18:21:00] Client: Hexob triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:5323/tmp4524/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; MAARJS)
+[2018-03-20 18:21:00] Client: XXROBOKILLERXx triggered JS error: Error: The URI to be decoded is not a valid encoding | url: file:///C:/Users/battl/OneDrive/Documents/BYOND/cache/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-03-20 18:21:00] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:21:00] Client: Aira23445 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:49359/tmp18772/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:21:00] Client: Snipay triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:10994/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E)
+[2018-03-20 18:21:00] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:21:00] Client: Archimage triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53586/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:00] Client: Cloudcasterv triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:58110/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+[2018-03-20 18:21:00] Client: Dnexus triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:50098/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0E; .NET4.0C)
+[2018-03-20 18:21:00] Client: Bluscout78 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52025/tmp9240/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:00] Client: Cencere triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64262/tmp9064/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:00] Client: Snipay triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:10994/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E)
+[2018-03-20 18:21:00] Client: Jathomar triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49821/tmp8024/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:00] Client: Datmanisdumb triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:63483/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-03-20 18:21:00] Client: XEvilXHybridX triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:17704/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; connectpro; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:00] Client: Sikekiz triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64680/tmp10784/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:00] Client: Cremation triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49804/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee; LCTE)
+[2018-03-20 18:21:00] Client: Hexob triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:5323/tmp4524/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; MAARJS)
+[2018-03-20 18:21:00] Client: Archimage triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53586/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:00] Client: Aira23445 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:49359/tmp18772/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:21:00] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:21:00] Client: XXROBOKILLERXx triggered JS error: Error: The URI to be decoded is not a valid encoding | url: file:///C:/Users/battl/OneDrive/Documents/BYOND/cache/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-03-20 18:21:00] Client: Babymen triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:49394/tmp3172/browserOutput.js | line: 116 | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; byond_5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET4.0C; .NET4.0E)
+[2018-03-20 18:21:52] Client: Cencere triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64262/tmp9064/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:52] Client: Bluscout78 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52025/tmp9240/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:52] Client: Sikekiz triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64680/tmp10784/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:52] Client: XEvilXHybridX triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:17704/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; connectpro; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:52] Client: Datmanisdumb triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:63483/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-03-20 18:21:52] Client: Snipay triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:10994/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E)
+[2018-03-20 18:21:52] Client: Cremation triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49804/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee; LCTE)
+[2018-03-20 18:21:52] Client: Jathomar triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49821/tmp8024/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:52] Client: Hexob triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:5323/tmp4524/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; MAARJS)
+[2018-03-20 18:21:52] Client: XXROBOKILLERXx triggered JS error: Error: The URI to be decoded is not a valid encoding | url: file:///C:/Users/battl/OneDrive/Documents/BYOND/cache/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-03-20 18:21:52] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:21:52] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:21:52] Client: Archimage triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53586/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:52] Client: Aira23445 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:49359/tmp18772/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:21:52] Client: Bluscout78 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52025/tmp9240/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:52] Client: Cencere triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64262/tmp9064/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:52] Client: Datmanisdumb triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:63483/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-03-20 18:21:52] Client: Sikekiz triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64680/tmp10784/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:52] Client: Cremation triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49804/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee; LCTE)
+[2018-03-20 18:21:52] Client: XEvilXHybridX triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:17704/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; connectpro; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:52] Client: Jathomar triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49821/tmp8024/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:21:52] Client: Hexob triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:5323/tmp4524/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; MAARJS)
+[2018-03-20 18:21:52] Client: Snipay triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:10994/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E)
+[2018-03-20 18:21:52] Client: XXROBOKILLERXx triggered JS error: Error: The URI to be decoded is not a valid encoding | url: file:///C:/Users/battl/OneDrive/Documents/BYOND/cache/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-03-20 18:21:52] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:21:52] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:21:52] Client: Aira23445 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:49359/tmp18772/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:23:34] Client: Snipay triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:10994/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E)
+[2018-03-20 18:23:34] Client: Bluscout78 triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:52025/tmp9240/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:23:34] Client: Cencere triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64262/tmp9064/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:23:34] Client: XEvilXHybridX triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:17704/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; connectpro; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:23:34] Client: Datmanisdumb triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:63483/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3)
+[2018-03-20 18:23:34] Client: Sikekiz triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:64680/tmp10784/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:23:34] Client: Cremation triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49804/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee; LCTE)
+[2018-03-20 18:23:34] Client: Jathomar triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:49821/tmp8024/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:23:34] Client: Archimage triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:53586/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 18:23:34] Client: Hexob triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:5323/tmp4524/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; MAARJS)
+[2018-03-20 18:23:34] Client: XXROBOKILLERXx triggered JS error: Error: The URI to be decoded is not a valid encoding | url: file:///C:/Users/battl/OneDrive/Documents/BYOND/cache/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0)
+[2018-03-20 18:23:34] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:23:34] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+[2018-03-20 18:23:34] Client: Aira23445 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:49359/tmp18772/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+runtime error: 
+[18:29:02]addtimer called with a callback assigned to a qdeleted object
+[18:29:02]proc name: stack trace (/proc/stack_trace)
+[18:29:02]  source file: unsorted.dm,1254
+[18:29:02]  usr: (src)
+[18:29:02]  src: null
+[18:29:02]  call stack:
+[18:29:02]stack trace("addtimer called with a callbac...")
+[18:29:02]addtimer(/datum/callback (/datum/callback), 20, 0)
+[18:29:02]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[18:29:02]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[18:29:28]Cannot read null.client
+[18:29:28]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[18:29:28]  source file: vote.dm,321
+[18:29:28]  usr: null
+[18:29:28]  src: Vote! (/datum/action/vote)
+[18:29:28]  call stack:
+[18:29:28]Vote! (/datum/action/vote): remove from client()
+[18:29:28]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[18:29:28]Vote (/datum/controller/subsystem/vote): announce result()
+[18:29:28]Vote (/datum/controller/subsystem/vote): result()
+[18:29:28]Vote (/datum/controller/subsystem/vote): fire(0)
+[18:29:28]Vote (/datum/controller/subsystem/vote): ignite(0)
+[18:29:28]Master (/datum/controller/master): RunQueue()
+[18:29:28]Master (/datum/controller/master): Loop()
+[18:29:28]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[18:29:28]Cannot read null.client
+[18:29:28]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[18:29:28]  source file: vote.dm,321
+[18:29:28]  usr: null
+[18:29:28]  src: Vote! (/datum/action/vote)
+[18:29:28]  call stack:
+[18:29:28]Vote! (/datum/action/vote): remove from client()
+[18:29:28]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[18:29:28]Vote (/datum/controller/subsystem/vote): announce result()
+[18:29:28]Vote (/datum/controller/subsystem/vote): result()
+[18:29:28]Vote (/datum/controller/subsystem/vote): fire(0)
+[18:29:28]Vote (/datum/controller/subsystem/vote): ignite(0)
+[18:29:28]Master (/datum/controller/master): RunQueue()
+[18:29:28]Master (/datum/controller/master): Loop()
+[18:29:28]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[18:29:53]Cannot create objects of type null.
+[18:29:53]proc name: add event (/datum/component/mood/proc/add_event)
+[18:29:53]  source file: mood.dm,91
+[18:29:53]  usr: Alexander Lloyd (/mob/living/carbon/human)
+[18:29:53]  src: /datum/component/mood (/datum/component/mood)
+[18:29:53]  usr.loc: the floor (154,114,2) (/turf/open/floor/plasteel/white)
+[18:29:53]  call stack:
+[18:29:53]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[18:29:53]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[18:29:53]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[18:29:53]the cloning pod (/obj/machinery/clonepod): maim clone(Coreen Boyer (/mob/living/carbon/human))
+[18:29:53]the cloning pod (/obj/machinery/clonepod): growclone("aira23445", "Payton Seidner", "39e39eccf9990c82ee0a6", "623365332535606333416652224212...", "\[0x2102ca07]", Human (/datum/species/human), /list (/list), /list (/list), /list (/list))
+[18:29:53]the cloning console (/obj/machinery/computer/cloning): Topic("src=\[0x20058d8];clone=02cd", /list (/list))
+[18:29:53]Bobster7072 (/client): Topic("src=\[0x20058d8];clone=02cd", /list (/list), the cloning console (/obj/machinery/computer/cloning))
+[18:29:53]Bobster7072 (/client): Topic("src=\[0x20058d8];clone=02cd", /list (/list), the cloning console (/obj/machinery/computer/cloning))
+runtime error: 
+[18:29:53]Cannot create objects of type null.
+[18:29:53]proc name: add event (/datum/component/mood/proc/add_event)
+[18:29:53]  source file: mood.dm,91
+[18:29:53]  usr: Alexander Lloyd (/mob/living/carbon/human)
+[18:29:53]  src: /datum/component/mood (/datum/component/mood)
+[18:29:53]  usr.loc: the floor (154,114,2) (/turf/open/floor/plasteel/white)
+[18:29:53]  call stack:
+[18:29:53]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[18:29:53]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[18:29:53]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[18:29:53]the cloning pod (/obj/machinery/clonepod): maim clone(Coreen Boyer (/mob/living/carbon/human))
+[18:29:53]the cloning pod (/obj/machinery/clonepod): growclone("aira23445", "Payton Seidner", "39e39eccf9990c82ee0a6", "623365332535606333416652224212...", "\[0x2102ca07]", Human (/datum/species/human), /list (/list), /list (/list), /list (/list))
+[18:29:53]the cloning console (/obj/machinery/computer/cloning): Topic("src=\[0x20058d8];clone=02cd", /list (/list))
+[18:29:53]Bobster7072 (/client): Topic("src=\[0x20058d8];clone=02cd", /list (/list), the cloning console (/obj/machinery/computer/cloning))
+[18:29:53]Bobster7072 (/client): Topic("src=\[0x20058d8];clone=02cd", /list (/list), the cloning console (/obj/machinery/computer/cloning))
+runtime error: 
+[18:29:53]Cannot create objects of type null.
+[18:29:53]proc name: add event (/datum/component/mood/proc/add_event)
+[18:29:53]  source file: mood.dm,91
+[18:29:53]  usr: Alexander Lloyd (/mob/living/carbon/human)
+[18:29:53]  src: /datum/component/mood (/datum/component/mood)
+[18:29:53]  usr.loc: the floor (154,114,2) (/turf/open/floor/plasteel/white)
+[18:29:53]  call stack:
+[18:29:53]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[18:29:53]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[18:29:53]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[18:29:53]the cloning pod (/obj/machinery/clonepod): maim clone(Coreen Boyer (/mob/living/carbon/human))
+[18:29:53]the cloning pod (/obj/machinery/clonepod): growclone("aira23445", "Payton Seidner", "39e39eccf9990c82ee0a6", "623365332535606333416652224212...", "\[0x2102ca07]", Human (/datum/species/human), /list (/list), /list (/list), /list (/list))
+[18:29:53]the cloning console (/obj/machinery/computer/cloning): Topic("src=\[0x20058d8];clone=02cd", /list (/list))
+[18:29:53]Bobster7072 (/client): Topic("src=\[0x20058d8];clone=02cd", /list (/list), the cloning console (/obj/machinery/computer/cloning))
+[18:29:53]Bobster7072 (/client): Topic("src=\[0x20058d8];clone=02cd", /list (/list), the cloning console (/obj/machinery/computer/cloning))
+runtime error: 
+[18:29:53]Cannot create objects of type null.
+[18:29:53]proc name: add event (/datum/component/mood/proc/add_event)
+[18:29:53]  source file: mood.dm,91
+[18:29:53]  usr: Alexander Lloyd (/mob/living/carbon/human)
+[18:29:53]  src: /datum/component/mood (/datum/component/mood)
+[18:29:53]  usr.loc: the floor (154,114,2) (/turf/open/floor/plasteel/white)
+[18:29:53]  call stack:
+[18:29:53]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[18:29:53]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[18:29:53]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[18:29:53]the cloning pod (/obj/machinery/clonepod): maim clone(Coreen Boyer (/mob/living/carbon/human))
+[18:29:53]the cloning pod (/obj/machinery/clonepod): growclone("aira23445", "Payton Seidner", "39e39eccf9990c82ee0a6", "623365332535606333416652224212...", "\[0x2102ca07]", Human (/datum/species/human), /list (/list), /list (/list), /list (/list))
+[18:29:53]the cloning console (/obj/machinery/computer/cloning): Topic("src=\[0x20058d8];clone=02cd", /list (/list))
+[18:29:53]Bobster7072 (/client): Topic("src=\[0x20058d8];clone=02cd", /list (/list), the cloning console (/obj/machinery/computer/cloning))
+[18:29:53]Bobster7072 (/client): Topic("src=\[0x20058d8];clone=02cd", /list (/list), the cloning console (/obj/machinery/computer/cloning))
+runtime error: 
+[18:30:10]Cannot create objects of type null.
+[18:30:10]proc name: add event (/datum/component/mood/proc/add_event)
+[18:30:10]  source file: mood.dm,91
+[18:30:10]  usr: Lane Murray (/mob/living/carbon/human)
+[18:30:10]  src: /datum/component/mood (/datum/component/mood)
+[18:30:10]  usr.loc: the floor (139,122,2) (/turf/open/floor/plasteel/white)
+[18:30:10]  call stack:
+[18:30:10]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[18:30:10]Baum-Mobareed\'s head (/obj/item/bodypart/head): drop limb(null)
+[18:30:10]Baum-Mobareed\'s head (/obj/item/bodypart/head): drop limb(null)
+[18:30:10]Baum-Mobareed\'s head (/obj/item/bodypart/head): dismember("brute")
+[18:30:10]Lizardperson (/datum/species/lizard): spec attacked by(the dark blessing (/obj/item/nullrod/armblade), Lane Murray (/mob/living/carbon/human), Baum-Mobareed\'s head (/obj/item/bodypart/head), "help", Baum-Mobareed (/mob/living/carbon/human))
+[18:30:10]Baum-Mobareed (/mob/living/carbon/human): attacked by(the dark blessing (/obj/item/nullrod/armblade), Lane Murray (/mob/living/carbon/human))
+[18:30:10]the dark blessing (/obj/item/nullrod/armblade): attack(Baum-Mobareed (/mob/living/carbon/human), Lane Murray (/mob/living/carbon/human))
+[18:30:10]Baum-Mobareed (/mob/living/carbon/human): attackby(the dark blessing (/obj/item/nullrod/armblade), Lane Murray (/mob/living/carbon/human), "icon-x=18;icon-y=14;left=1;scr...")
+[18:30:10]Baum-Mobareed (/mob/living/carbon/human): attackby(the dark blessing (/obj/item/nullrod/armblade), Lane Murray (/mob/living/carbon/human), "icon-x=18;icon-y=14;left=1;scr...")
+[18:30:10]the dark blessing (/obj/item/nullrod/armblade): melee attack chain(Lane Murray (/mob/living/carbon/human), Baum-Mobareed (/mob/living/carbon/human), "icon-x=18;icon-y=14;left=1;scr...")
+[18:30:10]Lane Murray (/mob/living/carbon/human): ClickOn(Baum-Mobareed (/mob/living/carbon/human), "icon-x=18;icon-y=14;left=1;scr...")
+[18:30:10]Baum-Mobareed (/mob/living/carbon/human): Click(the floor (139,123,2) (/turf/open/floor/plasteel/white), "mapwindow.map", "icon-x=18;icon-y=14;left=1;scr...")
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 18:31:04

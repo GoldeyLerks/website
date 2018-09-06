@@ -1,0 +1,695 @@
+
+
+Starting up round ID 91. 20:03:33
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0.1 seconds!
+Loading Box Station...
+Loaded Station in 5.7s!
+Loaded Lavaland in 4.9s!
+Loaded Reebe in 4.6s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 21.2 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 40.8 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.2 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 17 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 17 turf(s) (connected to 22017 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 13.7 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.9 seconds!
+Initialized Icon Smoothing subsystem within 7 seconds!
+Initialized Overlay subsystem within 27.9 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Lighting subsystem within 14 seconds!
+Initialized Shuttle subsystem within 20 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Loaded 0 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 146.2 seconds!
+runtime error: 
+[20:07:04]Cannot read null.client
+[20:07:04]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[20:07:04]  source file: vote.dm,321
+[20:07:04]  usr: null
+[20:07:04]  src: Vote! (/datum/action/vote)
+[20:07:04]  call stack:
+[20:07:04]Vote! (/datum/action/vote): remove from client()
+[20:07:04]Vote (/datum/controller/subsystem/vote): remove action buttons()
+[20:07:04]Vote (/datum/controller/subsystem/vote): announce result()
+[20:07:04]Vote (/datum/controller/subsystem/vote): result()
+[20:07:04]Vote (/datum/controller/subsystem/vote): fire(0)
+[20:07:04]Vote (/datum/controller/subsystem/vote): ignite(0)
+[20:07:04]Master (/datum/controller/master): RunQueue()
+[20:07:04]Master (/datum/controller/master): Loop()
+[20:07:04]Master (/datum/controller/master): StartProcessing(0)
+Game start took 8.4s
+runtime error: 
+[20:18:29]Cannot read null.parents
+[20:18:29]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[20:18:29]  source file: components_base.dm,91
+[20:18:29]  usr: Darell Shafer (/mob/living/carbon/human)
+[20:18:29]  src: the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible)
+[20:18:29]  usr.loc: the floor (131,90,2) (/turf/open/floor/plasteel)
+[20:18:29]  src.loc: the floor (133,90,2) (/turf/open/floor/plasteel)
+[20:18:29]  call stack:
+[20:18:29]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): returnPipenet(4-way pipe manifold (/obj/machinery/atmospherics/pipe/manifold4w))
+[20:18:29]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): addMember(4-way pipe manifold (/obj/machinery/atmospherics/pipe/manifold4w))
+[20:18:29]4-way pipe manifold (/obj/machinery/atmospherics/pipe/manifold4w): on construction(null, 2)
+[20:18:29]4-way pipe manifold fitting (/obj/item/pipe): wrench act(Darell Shafer (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[20:18:29]4-way pipe manifold fitting (/obj/item/pipe): tool act(Darell Shafer (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[20:18:29]the wrench (/obj/item/wrench): tool attack chain(Darell Shafer (/mob/living/carbon/human), 4-way pipe manifold fitting (/obj/item/pipe))
+[20:18:29]the wrench (/obj/item/wrench): melee attack chain(Darell Shafer (/mob/living/carbon/human), 4-way pipe manifold fitting (/obj/item/pipe), "icon-x=5;icon-y=14;left=1;scre...")
+[20:18:29]Darell Shafer (/mob/living/carbon/human): ClickOn(4-way pipe manifold fitting (/obj/item/pipe), "icon-x=5;icon-y=14;left=1;scre...")
+[20:18:29]4-way pipe manifold fitting (/obj/item/pipe): Click(the floor (132,90,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=5;icon-y=14;left=1;scre...")
+runtime error: 
+[20:18:29]Cannot execute null.addMember().
+[20:18:29]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[20:18:29]  source file: datum_pipeline.dm,130
+[20:18:29]  usr: Darell Shafer (/mob/living/carbon/human)
+[20:18:29]  src: the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible)
+[20:18:29]  usr.loc: the floor (131,90,2) (/turf/open/floor/plasteel)
+[20:18:29]  src.loc: the floor (133,90,2) (/turf/open/floor/plasteel)
+[20:18:29]  call stack:
+[20:18:29]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): addMember(4-way pipe manifold (/obj/machinery/atmospherics/pipe/manifold4w))
+[20:18:29]4-way pipe manifold (/obj/machinery/atmospherics/pipe/manifold4w): on construction(null, 2)
+[20:18:29]4-way pipe manifold fitting (/obj/item/pipe): wrench act(Darell Shafer (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[20:18:29]4-way pipe manifold fitting (/obj/item/pipe): tool act(Darell Shafer (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[20:18:29]the wrench (/obj/item/wrench): tool attack chain(Darell Shafer (/mob/living/carbon/human), 4-way pipe manifold fitting (/obj/item/pipe))
+[20:18:29]the wrench (/obj/item/wrench): melee attack chain(Darell Shafer (/mob/living/carbon/human), 4-way pipe manifold fitting (/obj/item/pipe), "icon-x=5;icon-y=14;left=1;scre...")
+[20:18:29]Darell Shafer (/mob/living/carbon/human): ClickOn(4-way pipe manifold fitting (/obj/item/pipe), "icon-x=5;icon-y=14;left=1;scre...")
+[20:18:29]4-way pipe manifold fitting (/obj/item/pipe): Click(the floor (132,90,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=5;icon-y=14;left=1;scre...")
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/general/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (132, 91, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/general/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (132, 89, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/general/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (132, 92, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/general/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (132, 88, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/layer_manifold added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (131, 89, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold4w added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (132, 90, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/general/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (132, 91, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/general/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (132, 89, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/general/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (132, 92, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/general/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (132, 88, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+runtime error: 
+[20:19:31]Cannot read null.parents
+[20:19:31]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[20:19:31]  source file: components_base.dm,91
+[20:19:31]  usr: Darell Shafer (/mob/living/carbon/human)
+[20:19:31]  src: the gas pump (/obj/machinery/atmospherics/components/binary/pump)
+[20:19:31]  usr.loc: the floor (131,86,2) (/turf/open/floor/plasteel)
+[20:19:31]  src.loc: the floor (131,88,2) (/turf/open/floor/plasteel)
+[20:19:31]  call stack:
+[20:19:31]the gas pump (/obj/machinery/atmospherics/components/binary/pump): returnPipenet(the pipe (/obj/machinery/atmospherics/pipe/simple))
+[20:19:31]the gas pump (/obj/machinery/atmospherics/components/binary/pump): addMember(the pipe (/obj/machinery/atmospherics/pipe/simple))
+[20:19:31]the pipe (/obj/machinery/atmospherics/pipe/simple): on construction(null, 1)
+[20:19:31]the pipe fitting (/obj/item/pipe): wrench act(Darell Shafer (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[20:19:31]the pipe fitting (/obj/item/pipe): tool act(Darell Shafer (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[20:19:31]the wrench (/obj/item/wrench): tool attack chain(Darell Shafer (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe))
+[20:19:31]the wrench (/obj/item/wrench): melee attack chain(Darell Shafer (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe), "icon-x=15;icon-y=21;left=1;scr...")
+[20:19:31]Darell Shafer (/mob/living/carbon/human): ClickOn(the pipe fitting (/obj/item/pipe), "icon-x=15;icon-y=21;left=1;scr...")
+[20:19:31]the pipe fitting (/obj/item/pipe): Click(the floor (131,87,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=15;icon-y=21;left=1;scr...")
+runtime error: 
+[20:19:31]Cannot execute null.addMember().
+[20:19:31]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[20:19:31]  source file: datum_pipeline.dm,130
+[20:19:31]  usr: Darell Shafer (/mob/living/carbon/human)
+[20:19:31]  src: the gas pump (/obj/machinery/atmospherics/components/binary/pump)
+[20:19:31]  usr.loc: the floor (131,86,2) (/turf/open/floor/plasteel)
+[20:19:31]  src.loc: the floor (131,88,2) (/turf/open/floor/plasteel)
+[20:19:31]  call stack:
+[20:19:31]the gas pump (/obj/machinery/atmospherics/components/binary/pump): addMember(the pipe (/obj/machinery/atmospherics/pipe/simple))
+[20:19:31]the pipe (/obj/machinery/atmospherics/pipe/simple): on construction(null, 1)
+[20:19:31]the pipe fitting (/obj/item/pipe): wrench act(Darell Shafer (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[20:19:31]the pipe fitting (/obj/item/pipe): tool act(Darell Shafer (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[20:19:31]the wrench (/obj/item/wrench): tool attack chain(Darell Shafer (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe))
+[20:19:31]the wrench (/obj/item/wrench): melee attack chain(Darell Shafer (/mob/living/carbon/human), the pipe fitting (/obj/item/pipe), "icon-x=15;icon-y=21;left=1;scr...")
+[20:19:31]Darell Shafer (/mob/living/carbon/human): ClickOn(the pipe fitting (/obj/item/pipe), "icon-x=15;icon-y=21;left=1;scr...")
+[20:19:31]the pipe fitting (/obj/item/pipe): Click(the floor (131,87,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=15;icon-y=21;left=1;scr...")
+runtime error: 
+[20:20:11]Cannot read null.parents
+[20:20:11]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[20:20:11]  source file: components_base.dm,91
+[20:20:11]  usr: Darell Shafer (/mob/living/carbon/human)
+[20:20:11]  src: the gas filter (/obj/machinery/atmospherics/components/trinary/filter)
+[20:20:11]  usr.loc: the floor (128,86,2) (/turf/open/floor/plasteel)
+[20:20:11]  src.loc: the floor (127,84,2) (/turf/open/floor/plasteel)
+[20:20:11]  call stack:
+[20:20:11]the gas filter (/obj/machinery/atmospherics/components/trinary/filter): returnPipenet(the pipe-layer manifold (/obj/machinery/atmospherics/pipe/layer_manifold))
+[20:20:11]the gas filter (/obj/machinery/atmospherics/components/trinary/filter): addMember(the pipe-layer manifold (/obj/machinery/atmospherics/pipe/layer_manifold))
+[20:20:11]the pipe-layer manifold (/obj/machinery/atmospherics/pipe/layer_manifold): on construction(null, 2)
+[20:20:11]the pipe-layer manifold fittin... (/obj/item/pipe): wrench act(Darell Shafer (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[20:20:11]the pipe-layer manifold fittin... (/obj/item/pipe): tool act(Darell Shafer (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[20:20:11]the wrench (/obj/item/wrench): tool attack chain(Darell Shafer (/mob/living/carbon/human), the pipe-layer manifold fittin... (/obj/item/pipe))
+[20:20:11]the wrench (/obj/item/wrench): melee attack chain(Darell Shafer (/mob/living/carbon/human), the pipe-layer manifold fittin... (/obj/item/pipe), "icon-x=22;icon-y=18;left=1;scr...")
+[20:20:11]Darell Shafer (/mob/living/carbon/human): ClickOn(the pipe-layer manifold fittin... (/obj/item/pipe), "icon-x=22;icon-y=18;left=1;scr...")
+[20:20:11]the pipe-layer manifold fittin... (/obj/item/pipe): Click(the floor (127,85,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=22;icon-y=18;left=1;scr...")
+runtime error: 
+[20:20:11]Cannot execute null.addMember().
+[20:20:11]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[20:20:11]  source file: datum_pipeline.dm,130
+[20:20:11]  usr: Darell Shafer (/mob/living/carbon/human)
+[20:20:11]  src: the gas filter (/obj/machinery/atmospherics/components/trinary/filter)
+[20:20:11]  usr.loc: the floor (128,86,2) (/turf/open/floor/plasteel)
+[20:20:11]  src.loc: the floor (127,84,2) (/turf/open/floor/plasteel)
+[20:20:11]  call stack:
+[20:20:11]the gas filter (/obj/machinery/atmospherics/components/trinary/filter): addMember(the pipe-layer manifold (/obj/machinery/atmospherics/pipe/layer_manifold))
+[20:20:11]the pipe-layer manifold (/obj/machinery/atmospherics/pipe/layer_manifold): on construction(null, 2)
+[20:20:11]the pipe-layer manifold fittin... (/obj/item/pipe): wrench act(Darell Shafer (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[20:20:11]the pipe-layer manifold fittin... (/obj/item/pipe): tool act(Darell Shafer (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[20:20:11]the wrench (/obj/item/wrench): tool attack chain(Darell Shafer (/mob/living/carbon/human), the pipe-layer manifold fittin... (/obj/item/pipe))
+[20:20:11]the wrench (/obj/item/wrench): melee attack chain(Darell Shafer (/mob/living/carbon/human), the pipe-layer manifold fittin... (/obj/item/pipe), "icon-x=22;icon-y=18;left=1;scr...")
+[20:20:11]Darell Shafer (/mob/living/carbon/human): ClickOn(the pipe-layer manifold fittin... (/obj/item/pipe), "icon-x=22;icon-y=18;left=1;scr...")
+[20:20:11]the pipe-layer manifold fittin... (/obj/item/pipe): Click(the floor (127,85,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=22;icon-y=18;left=1;scr...")
+runtime error: 
+[20:38:25]Cannot create objects of type null.
+[20:38:25]proc name: add event (/datum/component/mood/proc/add_event)
+[20:38:25]  source file: mood.dm,91
+[20:38:25]  usr: 0
+[20:38:25]  src: /datum/component/mood (/datum/component/mood)
+[20:38:25]  call stack:
+[20:38:25]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:38:25]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[20:38:25]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[20:38:25]the left leg (/obj/item/bodypart/l_leg): dismember("brute")
+[20:38:25]Marc Larson (/mob/living/carbon/human): ex act(3, null, null)
+[20:38:25]space (45,165,2) (/turf/open/space/basic): contents explosion(3, null)
+[20:38:25]space (45,165,2) (/turf/open/space/basic): ex act(3, null)
+[20:38:25]the space dust (/obj/effect/meteor/dust): ram turf(space (45,165,2) (/turf/open/space/basic))
+[20:38:25]the space dust (/obj/effect/meteor/dust): Move(space (45,165,2) (/turf/open/space/basic), 2)
+runtime error: 
+[20:40:54]Cannot create objects of type null.
+[20:40:54]proc name: add event (/datum/component/mood/proc/add_event)
+[20:40:54]  source file: mood.dm,91
+[20:40:54]  usr: Bwoink (/mob/dead/observer)
+[20:40:54]  src: /datum/component/mood (/datum/component/mood)
+[20:40:54]  usr.loc: the lava (74,208,5) (/turf/open/lava/smooth)
+[20:40:54]  call stack:
+[20:40:54]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:40:54]the right leg (/obj/item/bodypart/r_leg): drop limb(1)
+[20:40:54]the right leg (/obj/item/bodypart/r_leg): drop limb(1)
+[20:40:54]Eliott Clewett (/mob/living/carbon/human): Digitigrade Leg Swap(0)
+[20:40:54]Ash Walker (/datum/species/lizard/ashwalker): on species gain(Eliott Clewett (/mob/living/carbon/human), Human (/datum/species/human))
+[20:40:54]Eliott Clewett (/mob/living/carbon/human): set species(/datum/species/lizard/ashwalke... (/datum/species/lizard/ashwalker), 1)
+[20:40:54]Eliott Clewett (/mob/living/carbon/human): set species(/datum/species/lizard/ashwalke... (/datum/species/lizard/ashwalker), 1)
+[20:40:54]the ash walker egg (/obj/effect/mob_spawn/human/ash_walker): equip(Eliott Clewett (/mob/living/carbon/human))
+[20:40:54]the ash walker egg (/obj/effect/mob_spawn/human/ash_walker): create("luigiboiby", null)
+[20:40:54]the ash walker egg (/obj/effect/mob_spawn/human/ash_walker): attack ghost(Bwoink (/mob/dead/observer))
+[20:40:54]/datum/spawners_menu (/datum/spawners_menu): ui act("spawn", /list (/list), /datum/tgui (/datum/tgui), /datum/ui_state/observer_state (/datum/ui_state/observer_state))
+[20:40:54]/datum/tgui (/datum/tgui): Topic("src=%5B0x2103bde5%5D&action=sp...", /list (/list))
+[20:40:54]LuigiBoiBY (/client): Topic("src=%5B0x2103bde5%5D&action=sp...", /list (/list), /datum/tgui (/datum/tgui))
+[20:40:54]LuigiBoiBY (/client): Topic("src=%5B0x2103bde5%5D&action=sp...", /list (/list), /datum/tgui (/datum/tgui))
+runtime error: 
+[20:40:54]Cannot create objects of type null.
+[20:40:54]proc name: add event (/datum/component/mood/proc/add_event)
+[20:40:54]  source file: mood.dm,91
+[20:40:54]  usr: Bwoink (/mob/dead/observer)
+[20:40:54]  src: /datum/component/mood (/datum/component/mood)
+[20:40:54]  usr.loc: the lava (74,208,5) (/turf/open/lava/smooth)
+[20:40:54]  call stack:
+[20:40:54]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:40:54]the left leg (/obj/item/bodypart/l_leg): drop limb(1)
+[20:40:54]the left leg (/obj/item/bodypart/l_leg): drop limb(1)
+[20:40:54]Eliott Clewett (/mob/living/carbon/human): Digitigrade Leg Swap(0)
+[20:40:54]Ash Walker (/datum/species/lizard/ashwalker): on species gain(Eliott Clewett (/mob/living/carbon/human), Human (/datum/species/human))
+[20:40:54]Eliott Clewett (/mob/living/carbon/human): set species(/datum/species/lizard/ashwalke... (/datum/species/lizard/ashwalker), 1)
+[20:40:54]Eliott Clewett (/mob/living/carbon/human): set species(/datum/species/lizard/ashwalke... (/datum/species/lizard/ashwalker), 1)
+[20:40:54]the ash walker egg (/obj/effect/mob_spawn/human/ash_walker): equip(Eliott Clewett (/mob/living/carbon/human))
+[20:40:54]the ash walker egg (/obj/effect/mob_spawn/human/ash_walker): create("luigiboiby", null)
+[20:40:54]the ash walker egg (/obj/effect/mob_spawn/human/ash_walker): attack ghost(Bwoink (/mob/dead/observer))
+[20:40:54]/datum/spawners_menu (/datum/spawners_menu): ui act("spawn", /list (/list), /datum/tgui (/datum/tgui), /datum/ui_state/observer_state (/datum/ui_state/observer_state))
+[20:40:54]/datum/tgui (/datum/tgui): Topic("src=%5B0x2103bde5%5D&action=sp...", /list (/list))
+[20:40:54]LuigiBoiBY (/client): Topic("src=%5B0x2103bde5%5D&action=sp...", /list (/list), /datum/tgui (/datum/tgui))
+[20:40:54]LuigiBoiBY (/client): Topic("src=%5B0x2103bde5%5D&action=sp...", /list (/list), /datum/tgui (/datum/tgui))
+runtime error: 
+[20:41:06]Cannot create objects of type null.
+[20:41:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:41:06]  source file: mood.dm,91
+[20:41:06]  usr: null
+[20:41:06]  src: /datum/component/mood (/datum/component/mood)
+[20:41:06]  call stack:
+[20:41:06]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:41:06]Harvey Judge\'s head (/obj/item/bodypart/head): drop limb(null)
+[20:41:06]Harvey Judge\'s head (/obj/item/bodypart/head): drop limb(null)
+[20:41:06]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:41:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:41:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:41:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): consume()
+[20:41:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): Life(2, 999)
+[20:41:06]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[20:41:06]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[20:41:06]Master (/datum/controller/master): RunQueue()
+[20:41:06]Master (/datum/controller/master): Loop()
+[20:41:06]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:41:06]Cannot create objects of type null.
+[20:41:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:41:06]  source file: mood.dm,91
+[20:41:06]  usr: null
+[20:41:06]  src: /datum/component/mood (/datum/component/mood)
+[20:41:06]  call stack:
+[20:41:06]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:41:06]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[20:41:06]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[20:41:06]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:41:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:41:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:41:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): consume()
+[20:41:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): Life(2, 999)
+[20:41:06]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[20:41:06]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[20:41:06]Master (/datum/controller/master): RunQueue()
+[20:41:06]Master (/datum/controller/master): Loop()
+[20:41:06]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:41:06]Cannot create objects of type null.
+[20:41:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:41:06]  source file: mood.dm,91
+[20:41:06]  usr: null
+[20:41:06]  src: /datum/component/mood (/datum/component/mood)
+[20:41:06]  call stack:
+[20:41:06]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:41:06]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[20:41:06]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[20:41:06]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:41:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:41:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:41:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): consume()
+[20:41:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): Life(2, 999)
+[20:41:06]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[20:41:06]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[20:41:06]Master (/datum/controller/master): RunQueue()
+[20:41:06]Master (/datum/controller/master): Loop()
+[20:41:06]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:41:06]Cannot create objects of type null.
+[20:41:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:41:06]  source file: mood.dm,91
+[20:41:06]  usr: null
+[20:41:06]  src: /datum/component/mood (/datum/component/mood)
+[20:41:06]  call stack:
+[20:41:06]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:41:06]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[20:41:06]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[20:41:06]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:41:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:41:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:41:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): consume()
+[20:41:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): Life(2, 999)
+[20:41:06]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[20:41:06]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[20:41:06]Master (/datum/controller/master): RunQueue()
+[20:41:06]Master (/datum/controller/master): Loop()
+[20:41:06]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:41:06]Cannot create objects of type null.
+[20:41:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:41:06]  source file: mood.dm,91
+[20:41:06]  usr: null
+[20:41:06]  src: /datum/component/mood (/datum/component/mood)
+[20:41:06]  call stack:
+[20:41:06]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:41:06]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[20:41:06]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[20:41:06]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:41:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:41:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:41:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): consume()
+[20:41:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): Life(2, 999)
+[20:41:06]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[20:41:06]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[20:41:06]Master (/datum/controller/master): RunQueue()
+[20:41:06]Master (/datum/controller/master): Loop()
+[20:41:06]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:42:06]Cannot create objects of type null.
+[20:42:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:42:06]  source file: mood.dm,91
+[20:42:06]  usr: null
+[20:42:06]  src: /datum/component/mood (/datum/component/mood)
+[20:42:06]  call stack:
+[20:42:06]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:42:06]Kendra Matthews\'s head (/obj/item/bodypart/head): drop limb(null)
+[20:42:06]Kendra Matthews\'s head (/obj/item/bodypart/head): drop limb(null)
+[20:42:06]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:42:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:42:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:42:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): consume()
+[20:42:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): Life(2, 1029)
+[20:42:06]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[20:42:06]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[20:42:06]Master (/datum/controller/master): RunQueue()
+[20:42:06]Master (/datum/controller/master): Loop()
+[20:42:06]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:42:06]Cannot create objects of type null.
+[20:42:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:42:06]  source file: mood.dm,91
+[20:42:06]  usr: null
+[20:42:06]  src: /datum/component/mood (/datum/component/mood)
+[20:42:06]  call stack:
+[20:42:06]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:42:06]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[20:42:06]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[20:42:06]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:42:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:42:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:42:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): consume()
+[20:42:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): Life(2, 1029)
+[20:42:06]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[20:42:06]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[20:42:06]Master (/datum/controller/master): RunQueue()
+[20:42:06]Master (/datum/controller/master): Loop()
+[20:42:06]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:42:06]Cannot create objects of type null.
+[20:42:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:42:06]  source file: mood.dm,91
+[20:42:06]  usr: null
+[20:42:06]  src: /datum/component/mood (/datum/component/mood)
+[20:42:06]  call stack:
+[20:42:06]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:42:06]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[20:42:06]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[20:42:06]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:42:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:42:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:42:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): consume()
+[20:42:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): Life(2, 1029)
+[20:42:06]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[20:42:06]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[20:42:06]Master (/datum/controller/master): RunQueue()
+[20:42:06]Master (/datum/controller/master): Loop()
+[20:42:06]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:42:06]Cannot create objects of type null.
+[20:42:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:42:06]  source file: mood.dm,91
+[20:42:06]  usr: null
+[20:42:06]  src: /datum/component/mood (/datum/component/mood)
+[20:42:06]  call stack:
+[20:42:06]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:42:06]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[20:42:06]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[20:42:06]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:42:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:42:06]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:42:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): consume()
+[20:42:06]the necropolis tendril nest (/mob/living/simple_animal/hostile/spawner/lavaland/ash_walker): Life(2, 1029)
+[20:42:06]Mobs (/datum/controller/subsystem/mobs): fire(0)
+[20:42:06]Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[20:42:06]Master (/datum/controller/master): RunQueue()
+[20:42:06]Master (/datum/controller/master): Loop()
+[20:42:06]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:42:06]Cannot create objects of type null.
+[20:42:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:42:06]  source file: mood.dm,91
+runtime error: 
+[20:43:55]Cannot create objects of type null.
+[20:43:55]proc name: add event (/datum/component/mood/proc/add_event)
+[20:43:55]  source file: mood.dm,91
+runtime error: 
+[20:43:55]Cannot create objects of type null.
+[20:43:55]proc name: add event (/datum/component/mood/proc/add_event)
+[20:43:55]  source file: mood.dm,91
+runtime error: 
+[20:43:55]Cannot create objects of type null.
+[20:43:55]proc name: add event (/datum/component/mood/proc/add_event)
+[20:43:55]  source file: mood.dm,91
+runtime error: 
+[20:43:55]Cannot create objects of type null.
+[20:43:55]proc name: add event (/datum/component/mood/proc/add_event)
+[20:43:55]  source file: mood.dm,91
+runtime error: 
+[20:43:55]Cannot create objects of type null.
+[20:43:55]proc name: add event (/datum/component/mood/proc/add_event)
+[20:43:55]  source file: mood.dm,91
+runtime error: 
+[20:44:36]Cannot create objects of type null.
+[20:44:36]proc name: add event (/datum/component/mood/proc/add_event)
+[20:44:36]  source file: mood.dm,91
+runtime error: 
+[20:44:36]Cannot create objects of type null.
+[20:44:36]proc name: add event (/datum/component/mood/proc/add_event)
+[20:44:36]  source file: mood.dm,91
+runtime error: 
+[20:44:36]Cannot create objects of type null.
+[20:44:36]proc name: add event (/datum/component/mood/proc/add_event)
+[20:44:36]  source file: mood.dm,91
+runtime error: 
+[20:44:36]Cannot create objects of type null.
+[20:44:36]proc name: add event (/datum/component/mood/proc/add_event)
+[20:44:36]  source file: mood.dm,91
+runtime error: 
+[20:44:36]Cannot create objects of type null.
+[20:44:36]proc name: add event (/datum/component/mood/proc/add_event)
+[20:44:36]  source file: mood.dm,91
+runtime error: 
+[20:45:38]Cannot create objects of type null.
+[20:45:38]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:38]  source file: mood.dm,91
+runtime error: 
+[20:45:38]Cannot create objects of type null.
+[20:45:38]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:38]  source file: mood.dm,91
+runtime error: 
+[20:45:38]Cannot create objects of type null.
+[20:45:38]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:38]  source file: mood.dm,91
+runtime error: 
+[20:45:38]Cannot create objects of type null.
+[20:45:38]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:38]  source file: mood.dm,91
+runtime error: 
+[20:45:38]Cannot create objects of type null.
+[20:45:38]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:38]  source file: mood.dm,91
+runtime error: 
+[20:46:15]Cannot create objects of type null.
+[20:46:15]proc name: add event (/datum/component/mood/proc/add_event)
+[20:46:15]  source file: mood.dm,91
+runtime error: 
+[20:46:47]Cannot create objects of type null.
+[20:46:47]proc name: add event (/datum/component/mood/proc/add_event)
+[20:46:47]  source file: mood.dm,91
+runtime error: 
+[20:46:52]Cannot create objects of type null.
+[20:46:52]proc name: add event (/datum/component/mood/proc/add_event)
+[20:46:52]  source file: mood.dm,91
+runtime error: 
+[20:47:06]Cannot create objects of type null.
+[20:47:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:47:06]  source file: mood.dm,91
+runtime error: 
+[20:47:13]Cannot create objects of type null.
+[20:47:13]proc name: add event (/datum/component/mood/proc/add_event)
+[20:47:13]  source file: mood.dm,91
+runtime error: 
+[20:48:41]Cannot create objects of type null.
+[20:48:41]proc name: add event (/datum/component/mood/proc/add_event)
+[20:48:41]  source file: mood.dm,91
+runtime error: 
+[20:48:41]Cannot create objects of type null.
+[20:48:41]proc name: add event (/datum/component/mood/proc/add_event)
+[20:48:41]  source file: mood.dm,91
+runtime error: 
+[20:49:57]Cannot create objects of type null.
+[20:49:57]proc name: add event (/datum/component/mood/proc/add_event)
+[20:49:57]  source file: mood.dm,91
+runtime error: 
+[20:49:57]Cannot create objects of type null.
+[20:49:57]proc name: add event (/datum/component/mood/proc/add_event)
+[20:49:57]  source file: mood.dm,91
+runtime error: 
+[20:49:57]Cannot create objects of type null.
+[20:49:57]proc name: add event (/datum/component/mood/proc/add_event)
+[20:49:57]  source file: mood.dm,91
+runtime error: 
+[20:49:57]Cannot create objects of type null.
+[20:49:57]proc name: add event (/datum/component/mood/proc/add_event)
+[20:49:57]  source file: mood.dm,91
+runtime error: 
+[20:49:57]Cannot create objects of type null.
+[20:49:57]proc name: add event (/datum/component/mood/proc/add_event)
+[20:49:57]  source file: mood.dm,91
+runtime error: 
+[20:54:15]list index out of bounds
+[20:54:15]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[20:54:15]  source file: aurora_caelus.dm,39
+runtime error: 
+[21:21:19]Cannot read null.parents
+[21:21:19]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[21:21:19]  source file: components_base.dm,91
+runtime error: 
+[21:21:19]Cannot execute null.addMember().
+[21:21:19]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[21:21:19]  source file: datum_pipeline.dm,130
+runtime error: 
+[21:21:51]Cannot read null.parents
+[21:21:51]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[21:21:51]  source file: components_base.dm,91
+runtime error: 
+[21:21:51]Cannot execute null.addMember().
+[21:21:51]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[21:21:51]  source file: datum_pipeline.dm,130
+runtime error: 
+[21:21:51]Cannot read null.parents
+[21:21:51]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[21:21:51]  source file: components_base.dm,91
+runtime error: 
+[21:21:51]Cannot execute null.addMember().
+[21:21:51]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[21:21:51]  source file: datum_pipeline.dm,130
+runtime error: 
+[21:22:44]Cannot create objects of type null.
+[21:22:44]proc name: add event (/datum/component/mood/proc/add_event)
+[21:22:44]  source file: mood.dm,91
+runtime error: 
+[21:22:46]Cannot create objects of type null.
+[21:22:46]proc name: add event (/datum/component/mood/proc/add_event)
+[21:22:46]  source file: mood.dm,91
+runtime error: 
+[21:22:53]Cannot create objects of type null.
+[21:22:53]proc name: add event (/datum/component/mood/proc/add_event)
+[21:22:53]  source file: mood.dm,91
+runtime error: 
+[21:22:54]Cannot create objects of type null.
+[21:22:54]proc name: add event (/datum/component/mood/proc/add_event)
+[21:22:54]  source file: mood.dm,91
+runtime error: 
+[21:23:46]Cannot create objects of type null.
+[21:23:46]proc name: add event (/datum/component/mood/proc/add_event)
+[21:23:46]  source file: mood.dm,91
+runtime error: 
+[21:23:49]Cannot create objects of type null.
+[21:23:49]proc name: add event (/datum/component/mood/proc/add_event)
+[21:23:49]  source file: mood.dm,91
+runtime error: 
+[21:23:54]Cannot create objects of type null.
+[21:23:54]proc name: add event (/datum/component/mood/proc/add_event)
+[21:23:54]  source file: mood.dm,91
+runtime error: 
+[21:23:55]Cannot create objects of type null.
+[21:23:55]proc name: add event (/datum/component/mood/proc/add_event)
+[21:23:55]  source file: mood.dm,91
+runtime error: 
+[21:24:31]Cannot create objects of type null.
+[21:24:31]proc name: add event (/datum/component/mood/proc/add_event)
+[21:24:31]  source file: mood.dm,91
+runtime error: 
+[21:25:36]Cannot create objects of type null.
+[21:25:36]proc name: add event (/datum/component/mood/proc/add_event)
+[21:25:36]  source file: mood.dm,91
+runtime error: 
+[21:25:57]Cannot create objects of type null.
+[21:25:57]proc name: add event (/datum/component/mood/proc/add_event)
+[21:25:57]  source file: mood.dm,91
+runtime error: 
+[21:25:58]Cannot create objects of type null.
+[21:25:58]proc name: add event (/datum/component/mood/proc/add_event)
+[21:25:58]  source file: mood.dm,91
+runtime error: 
+[21:25:59]Cannot create objects of type null.
+[21:25:59]proc name: add event (/datum/component/mood/proc/add_event)
+[21:25:59]  source file: mood.dm,91
+runtime error: 
+[21:26:01]Cannot read null.revivecost
+[21:26:01]proc name: update power (/obj/item/defibrillator/proc/update_power)
+[21:26:01]  source file: defib.dm,50
+runtime error: 
+[21:26:01]Cannot create objects of type null.
+[21:26:01]proc name: add event (/datum/component/mood/proc/add_event)
+[21:26:01]  source file: mood.dm,91
+runtime error: 
+[21:26:01]Cannot create objects of type null.
+[21:26:01]proc name: add event (/datum/component/mood/proc/add_event)
+[21:26:01]  source file: mood.dm,91
+runtime error: 
+[21:26:01]Cannot create objects of type null.
+[21:26:01]proc name: add event (/datum/component/mood/proc/add_event)
+[21:26:01]  source file: mood.dm,91
+runtime error: 
+[21:26:02]addtimer called with a callback assigned to a qdeleted object
+[21:26:02]proc name: stack trace (/proc/stack_trace)
+[21:26:02]  source file: unsorted.dm,1254
+runtime error: 
+[21:26:03]addtimer called with a callback assigned to a qdeleted object
+[21:26:03]proc name: stack trace (/proc/stack_trace)
+[21:26:03]  source file: unsorted.dm,1254
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 21:27:29

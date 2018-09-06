@@ -1,0 +1,1545 @@
+
+
+Starting up round ID 366. 06:25:18
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 5.4s!
+Loaded Lavaland in 6.1s!
+Loaded Reebe in 5s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 24.6 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 40.8 seconds!
+Initialized Language subsystem within 0.1 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+Initialized Atmospherics subsystem within 11.4 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 4.9 seconds!
+Initialized Overlay subsystem within 33.6 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 11.6 seconds!
+Initialized Shuttle subsystem within 20 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 2 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 148.4 seconds!
+Game start took 6s
+runtime error: 
+[06:30:18]Cannot read null.loc
+[06:30:18]proc name: update parallax (/datum/hud/proc/update_parallax)
+[06:30:18]  source file: parallax.dm,170
+[06:30:18]  usr: Kayla Moore (/mob/living/brain)
+[06:30:18]  src: /datum/hud (/datum/hud)
+[06:30:18]  usr.loc: Kayla Moore\'s brain (/obj/item/organ/brain)
+[06:30:18]  call stack:
+[06:30:18]/datum/hud (/datum/hud): update parallax()
+[06:30:18]/datum/hud (/datum/hud): update parallax pref(Kayla Moore (/mob/living/brain))
+[06:30:18]/datum/hud (/datum/hud): show hud(1, null)
+[06:30:18]Kayla Moore (/mob/living/brain): Login()
+[06:30:18]Kayla Moore (/mob/living/brain): Login()
+[06:30:18]Kayla Moore (/datum/mind): transfer to(Kayla Moore (/mob/living/brain), 0)
+[06:30:18]Kayla Moore\'s brain (/obj/item/organ/brain): transfer identity(Kayla Moore (/mob/living/carbon/human))
+[06:30:18]Kayla Moore\'s brain (/obj/item/organ/brain): Remove(Kayla Moore (/mob/living/carbon/human), 0, 0)
+[06:30:18]Kayla Moore\'s brain (/obj/item/organ/brain): transfer to limb(Kayla Moore\'s head (/obj/item/bodypart/head), Kayla Moore (/mob/living/carbon/human))
+[06:30:18]Kayla Moore\'s head (/obj/item/bodypart/head): drop limb(null)
+[06:30:18]Kayla Moore\'s head (/obj/item/bodypart/head): drop limb(null)
+[06:30:18]Kayla Moore (/mob/living/carbon/human): spread bodyparts()
+[06:30:18]the oxygen tank (/obj/item/tank/internals/oxygen): suicide act(Kayla Moore (/mob/living/carbon/human))
+[06:30:18]Kayla Moore (/mob/living/carbon/human): suicide()
+runtime error: 
+[06:37:11]list index out of bounds
+[06:37:11]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[06:37:11]  source file: aurora_caelus.dm,39
+[06:37:11]  usr: null
+[06:37:11]  src: /datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus)
+[06:37:11]  call stack:
+[06:37:11]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): tick()
+[06:37:11]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): process()
+[06:37:11]Events (/datum/controller/subsystem/events): fire(0)
+[06:37:11]Events (/datum/controller/subsystem/events): ignite(0)
+[06:37:11]Master (/datum/controller/master): RunQueue()
+[06:37:11]Master (/datum/controller/master): Loop()
+[06:37:11]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[06:49:06]addtimer called with a callback assigned to a qdeleted object
+[06:49:06]proc name: stack trace (/proc/stack_trace)
+[06:49:06]  source file: unsorted.dm,1254
+[06:49:06]  usr: Little Fucker (/mob/living/simple_animal/hostile/swarmer)
+[06:49:06]  src: null
+[06:49:06]  usr.loc: the floor (125,128,2) (/turf/open/floor/wood)
+[06:49:06]  call stack:
+[06:49:06]stack trace("addtimer called with a callbac...")
+[06:49:06]addtimer(/datum/callback (/datum/callback), 100, 0)
+[06:49:06]the security camera (/obj/machinery/camera): toggle cam(Little Fucker (/mob/living/simple_animal/hostile/swarmer), 0)
+[06:49:06]the security camera (/obj/machinery/camera): swarmer act(Little Fucker (/mob/living/simple_animal/hostile/swarmer))
+[06:49:06]Little Fucker (/mob/living/simple_animal/hostile/swarmer): AttackingTarget()
+[06:49:06]Little Fucker (/mob/living/simple_animal/hostile/swarmer): UnarmedAttack(the security camera (/obj/machinery/camera), 1)
+[06:49:06]Little Fucker (/mob/living/simple_animal/hostile/swarmer): ClickOn(the security camera (/obj/machinery/camera), "icon-x=24;icon-y=27;left=1;scr...")
+[06:49:06]the security camera (/obj/machinery/camera): Click(the floor (126,128,2) (/turf/open/floor/wood), "mapwindow.map", "icon-x=24;icon-y=27;left=1;scr...")
+runtime error: 
+[06:51:00]addtimer called with a callback assigned to a qdeleted object
+[06:51:00]proc name: stack trace (/proc/stack_trace)
+[06:51:00]  source file: unsorted.dm,1254
+[06:51:00]  usr: Little Fucker (/mob/living/simple_animal/hostile/swarmer)
+[06:51:00]  src: null
+[06:51:00]  usr.loc: the floor (126,124,2) (/turf/open/floor/wood)
+[06:51:00]  call stack:
+[06:51:00]stack trace("addtimer called with a callbac...")
+[06:51:00]addtimer(/datum/callback (/datum/callback), 20, 0)
+[06:51:00]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[06:51:00]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[06:56:53]addtimer called with a callback assigned to a qdeleted object
+[06:56:53]proc name: stack trace (/proc/stack_trace)
+[06:56:53]  source file: unsorted.dm,1254
+[06:56:53]  usr: Little Fucker (/mob/living/simple_animal/hostile/swarmer)
+[06:56:53]  src: null
+[06:56:53]  usr.loc: the floor (157,130,2) (/turf/open/floor/plasteel)
+[06:56:53]  call stack:
+[06:56:53]stack trace("addtimer called with a callbac...")
+[06:56:53]addtimer(/datum/callback (/datum/callback), 20, 0)
+[06:56:53]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[06:56:53]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[06:56:53]addtimer called with a callback assigned to a qdeleted object
+[06:56:53]proc name: stack trace (/proc/stack_trace)
+[06:56:53]  source file: unsorted.dm,1254
+[06:56:53]  usr: Little Fucker (/mob/living/simple_animal/hostile/swarmer)
+[06:56:53]  src: null
+[06:56:53]  usr.loc: the floor (157,130,2) (/turf/open/floor/plasteel)
+[06:56:53]  call stack:
+[06:56:53]stack trace("addtimer called with a callbac...")
+[06:56:53]addtimer(/datum/callback (/datum/callback), 20, 0)
+[06:56:53]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[06:56:53]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[07:00:07]addtimer called with a callback assigned to a qdeleted object
+[07:00:07]proc name: stack trace (/proc/stack_trace)
+[07:00:07]  source file: unsorted.dm,1254
+[07:00:07]  usr: (src)
+[07:00:07]  src: null
+[07:00:07]  call stack:
+[07:00:07]stack trace("addtimer called with a callbac...")
+[07:00:07]addtimer(/datum/callback (/datum/callback), 100, 0)
+[07:00:07]the security camera (/obj/machinery/camera): toggle cam(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource), 0)
+[07:00:07]the security camera (/obj/machinery/camera): swarmer act(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource))
+[07:00:07]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): AttackingTarget()
+[07:00:07]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): MoveToTarget(/list (/list))
+[07:00:07]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:00:07]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:00:07]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:00:07]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[07:00:07]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[07:00:07]Master (/datum/controller/master): RunQueue()
+[07:00:07]Master (/datum/controller/master): Loop()
+[07:00:07]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:00:36]addtimer called with a callback assigned to a qdeleted object
+[07:00:36]proc name: stack trace (/proc/stack_trace)
+[07:00:36]  source file: unsorted.dm,1254
+[07:00:36]  usr: (src)
+[07:00:36]  src: null
+[07:00:36]  call stack:
+[07:00:36]stack trace("addtimer called with a callbac...")
+[07:00:36]addtimer(/datum/callback (/datum/callback), 100, 0)
+[07:00:36]the security camera (/obj/machinery/camera): toggle cam(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource), 0)
+[07:00:36]the security camera (/obj/machinery/camera): swarmer act(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource))
+[07:00:36]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): AttackingTarget()
+[07:00:36]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): MoveToTarget(/list (/list))
+[07:00:36]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:00:36]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:00:36]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:00:36]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[07:00:36]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[07:00:36]Master (/datum/controller/master): RunQueue()
+[07:00:36]Master (/datum/controller/master): Loop()
+[07:00:36]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:01:02]addtimer called with a callback assigned to a qdeleted object
+[07:01:02]proc name: stack trace (/proc/stack_trace)
+[07:01:02]  source file: unsorted.dm,1254
+[07:01:02]  usr: (src)
+[07:01:02]  src: null
+[07:01:02]  call stack:
+[07:01:02]stack trace("addtimer called with a callbac...")
+[07:01:02]addtimer(/datum/callback (/datum/callback), 100, 0)
+[07:01:02]the security camera (/obj/machinery/camera): toggle cam(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource), 0)
+[07:01:02]the security camera (/obj/machinery/camera): swarmer act(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource))
+[07:01:02]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): AttackingTarget()
+[07:01:02]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): MoveToTarget(/list (/list))
+[07:01:02]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:01:02]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:01:02]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:01:02]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[07:01:02]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[07:01:02]Master (/datum/controller/master): RunQueue()
+[07:01:02]Master (/datum/controller/master): Loop()
+[07:01:02]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:02:09]addtimer called with a callback assigned to a qdeleted object
+[07:02:09]proc name: stack trace (/proc/stack_trace)
+[07:02:09]  source file: unsorted.dm,1254
+[07:02:09]  usr: (src)
+[07:02:09]  src: null
+[07:02:09]  call stack:
+[07:02:09]stack trace("addtimer called with a callbac...")
+[07:02:09]addtimer(/datum/callback (/datum/callback), 100, 0)
+[07:02:09]the security camera (/obj/machinery/camera): toggle cam(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource), 0)
+[07:02:09]the security camera (/obj/machinery/camera): swarmer act(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource))
+[07:02:09]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): AttackingTarget()
+[07:02:09]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): MoveToTarget(/list (/list))
+[07:02:09]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:02:09]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:02:09]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:02:09]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[07:02:09]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[07:02:09]Master (/datum/controller/master): RunQueue()
+[07:02:09]Master (/datum/controller/master): Loop()
+[07:02:09]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:03:44]addtimer called with a callback assigned to a qdeleted object
+[07:03:44]proc name: stack trace (/proc/stack_trace)
+[07:03:44]  source file: unsorted.dm,1254
+[07:03:44]  usr: (src)
+[07:03:44]  src: null
+[07:03:44]  call stack:
+[07:03:44]stack trace("addtimer called with a callbac...")
+[07:03:44]addtimer(/datum/callback (/datum/callback), 100, 0)
+[07:03:44]the security camera (/obj/machinery/camera): toggle cam(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource), 0)
+[07:03:44]the security camera (/obj/machinery/camera): swarmer act(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource))
+[07:03:44]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): AttackingTarget()
+[07:03:44]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): MoveToTarget(/list (/list))
+[07:03:44]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:03:44]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:03:44]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:03:44]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[07:03:44]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[07:03:44]Master (/datum/controller/master): RunQueue()
+[07:03:44]Master (/datum/controller/master): Loop()
+[07:03:44]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:03:46]addtimer called with a callback assigned to a qdeleted object
+[07:03:46]proc name: stack trace (/proc/stack_trace)
+[07:03:46]  source file: unsorted.dm,1254
+[07:03:46]  usr: (src)
+[07:03:46]  src: null
+[07:03:46]  call stack:
+[07:03:46]stack trace("addtimer called with a callbac...")
+[07:03:46]addtimer(/datum/callback (/datum/callback), 100, 0)
+[07:03:46]the security camera (/obj/machinery/camera): toggle cam(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource), 0)
+[07:03:46]the security camera (/obj/machinery/camera): swarmer act(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource))
+[07:03:46]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): AttackingTarget()
+[07:03:46]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): MoveToTarget(/list (/list))
+[07:03:46]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:03:46]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:03:46]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:03:46]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[07:03:46]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[07:03:46]Master (/datum/controller/master): RunQueue()
+[07:03:46]Master (/datum/controller/master): Loop()
+[07:03:46]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:04:51]addtimer called with a callback assigned to a qdeleted object
+[07:04:51]proc name: stack trace (/proc/stack_trace)
+[07:04:51]  source file: unsorted.dm,1254
+[07:04:51]  usr: (src)
+[07:04:51]  src: null
+[07:04:51]  call stack:
+[07:04:51]stack trace("addtimer called with a callbac...")
+[07:04:51]addtimer(/datum/callback (/datum/callback), 100, 0)
+[07:04:51]the security camera (/obj/machinery/camera): toggle cam(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource), 0)
+[07:04:51]the security camera (/obj/machinery/camera): swarmer act(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource))
+[07:04:51]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): AttackingTarget()
+[07:04:51]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): MoveToTarget(/list (/list))
+[07:04:51]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:04:51]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:04:51]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:04:51]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[07:04:51]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[07:04:51]Master (/datum/controller/master): RunQueue()
+[07:04:51]Master (/datum/controller/master): Loop()
+[07:04:51]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:06:34]addtimer called with a callback assigned to a qdeleted object
+[07:06:34]proc name: stack trace (/proc/stack_trace)
+[07:06:34]  source file: unsorted.dm,1254
+[07:06:34]  usr: (src)
+[07:06:34]  src: null
+[07:06:34]  call stack:
+[07:06:34]stack trace("addtimer called with a callbac...")
+[07:06:34]addtimer(/datum/callback (/datum/callback), 100, 0)
+[07:06:34]the security camera (/obj/machinery/camera): toggle cam(the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource), 0)
+[07:06:34]the security camera (/obj/machinery/camera): swarmer act(the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource))
+[07:06:34]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): AttackingTarget()
+[07:06:34]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): MoveToTarget(/list (/list))
+[07:06:34]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:06:34]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:06:34]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:06:34]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[07:06:34]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[07:06:34]Master (/datum/controller/master): RunQueue()
+[07:06:34]Master (/datum/controller/master): Loop()
+[07:06:34]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:06:45]addtimer called with a callback assigned to a qdeleted object
+[07:06:45]proc name: stack trace (/proc/stack_trace)
+[07:06:45]  source file: unsorted.dm,1254
+[07:06:45]  usr: (src)
+[07:06:45]  src: null
+[07:06:45]  call stack:
+[07:06:45]stack trace("addtimer called with a callbac...")
+[07:06:45]addtimer(/datum/callback (/datum/callback), 100, 0)
+[07:06:45]the security camera (/obj/machinery/camera): toggle cam(the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource), 0)
+[07:06:45]the security camera (/obj/machinery/camera): swarmer act(the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource))
+[07:06:45]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): AttackingTarget()
+[07:06:45]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): MoveToTarget(/list (/list))
+[07:06:45]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:06:45]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:06:45]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:06:45]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[07:06:45]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[07:06:45]Master (/datum/controller/master): RunQueue()
+[07:06:45]Master (/datum/controller/master): Loop()
+[07:06:45]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:07:07]addtimer called with a callback assigned to a qdeleted object
+[07:07:07]proc name: stack trace (/proc/stack_trace)
+[07:07:07]  source file: unsorted.dm,1254
+[07:07:07]  usr: (src)
+[07:07:07]  src: null
+[07:07:07]  call stack:
+[07:07:07]stack trace("addtimer called with a callbac...")
+[07:07:07]addtimer(/datum/callback (/datum/callback), 100, 0)
+[07:07:07]the security camera (/obj/machinery/camera): toggle cam(the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource), 0)
+[07:07:07]the security camera (/obj/machinery/camera): swarmer act(the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource))
+[07:07:07]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): AttackingTarget()
+[07:07:07]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): MoveToTarget(/list (/list))
+[07:07:07]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:07:07]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:07:07]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:07:07]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[07:07:07]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[07:07:07]Master (/datum/controller/master): RunQueue()
+[07:07:07]Master (/datum/controller/master): Loop()
+[07:07:07]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:07:15]addtimer called with a callback assigned to a qdeleted object
+[07:07:15]proc name: stack trace (/proc/stack_trace)
+[07:07:15]  source file: unsorted.dm,1254
+[07:07:15]  usr: (src)
+[07:07:15]  src: null
+[07:07:15]  call stack:
+[07:07:15]stack trace("addtimer called with a callbac...")
+[07:07:15]addtimer(/datum/callback (/datum/callback), 100, 0)
+[07:07:15]the security camera (/obj/machinery/camera): toggle cam(the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource), 0)
+[07:07:15]the security camera (/obj/machinery/camera): swarmer act(the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource))
+[07:07:15]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): AttackingTarget()
+[07:07:15]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): MoveToTarget(/list (/list))
+[07:07:15]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:07:15]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:07:15]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:07:15]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[07:07:15]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[07:07:15]Master (/datum/controller/master): RunQueue()
+[07:07:15]Master (/datum/controller/master): Loop()
+[07:07:15]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:07:26]addtimer called with a callback assigned to a qdeleted object
+[07:07:26]proc name: stack trace (/proc/stack_trace)
+[07:07:26]  source file: unsorted.dm,1254
+[07:07:26]  usr: (src)
+[07:07:26]  src: null
+[07:07:26]  call stack:
+[07:07:26]stack trace("addtimer called with a callbac...")
+[07:07:26]addtimer(/datum/callback (/datum/callback), 100, 0)
+[07:07:26]the security camera (/obj/machinery/camera): toggle cam(the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource), 0)
+[07:07:26]the security camera (/obj/machinery/camera): swarmer act(the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource))
+[07:07:26]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): AttackingTarget()
+[07:07:26]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): MoveToTarget(/list (/list))
+[07:07:26]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:07:26]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:07:26]the swarm (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:07:26]NPC Pool (/datum/controller/subsystem/npcpool): fire(1)
+[07:07:26]NPC Pool (/datum/controller/subsystem/npcpool): ignite(1)
+[07:07:26]Master (/datum/controller/master): RunQueue()
+[07:07:26]Master (/datum/controller/master): Loop()
+[07:07:26]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:07:39]addtimer called with a callback assigned to a qdeleted object
+[07:07:39]proc name: stack trace (/proc/stack_trace)
+[07:07:39]  source file: unsorted.dm,1254
+[07:07:39]  usr: (src)
+[07:07:39]  src: null
+[07:07:39]  call stack:
+[07:07:39]stack trace("addtimer called with a callbac...")
+[07:07:39]addtimer(/datum/callback (/datum/callback), 100, 0)
+[07:07:39]the security camera (/obj/machinery/camera): toggle cam(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource), 0)
+[07:07:39]the security camera (/obj/machinery/camera): swarmer act(Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource))
+[07:07:39]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): AttackingTarget()
+[07:07:39]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): MoveToTarget(/list (/list))
+[07:07:39]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:07:39]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:07:39]Swarmer (/mob/living/simple_animal/hostile/swarmer/ai/resource): handle automated action()
+[07:07:39]NPC Pool (/datum/controller/subsystem/npcpool): fire(1)
+[07:07:39]NPC Pool (/datum/controller/subsystem/npcpool): ignite(1)
+[07:07:39]Master (/datum/controller/master): RunQueue()
+[07:07:39]Master (/datum/controller/master): Loop()
+[07:07:39]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[07:08:07]addtimer called with a callback assigned to a qdeleted object
+[07:08:07]proc name: stack trace (/proc/stack_trace)
+[07:08:07]  source file: unsorted.dm,1254
+runtime error: 
+[07:08:15]addtimer called with a callback assigned to a qdeleted object
+[07:08:15]proc name: stack trace (/proc/stack_trace)
+[07:08:15]  source file: unsorted.dm,1254
+runtime error: 
+[07:08:22]addtimer called with a callback assigned to a qdeleted object
+[07:08:22]proc name: stack trace (/proc/stack_trace)
+[07:08:22]  source file: unsorted.dm,1254
+runtime error: 
+[07:08:24]addtimer called with a callback assigned to a qdeleted object
+[07:08:24]proc name: stack trace (/proc/stack_trace)
+[07:08:24]  source file: unsorted.dm,1254
+runtime error: 
+[07:08:30]addtimer called with a callback assigned to a qdeleted object
+[07:08:30]proc name: stack trace (/proc/stack_trace)
+[07:08:30]  source file: unsorted.dm,1254
+runtime error: 
+[07:08:48]Cannot read null.ckey
+[07:08:48]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:08:48]  source file: npcpool.dm,26
+runtime error: 
+[07:08:50]Cannot read null.ckey
+[07:08:50]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:08:50]  source file: npcpool.dm,26
+runtime error: 
+[07:08:52]Cannot read null.ckey
+[07:08:52]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:08:52]  source file: npcpool.dm,26
+runtime error: 
+[07:08:54]Cannot read null.ckey
+[07:08:54]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:08:54]  source file: npcpool.dm,26
+runtime error: 
+[07:08:57]Cannot read null.ckey
+[07:08:57]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:08:57]  source file: npcpool.dm,26
+runtime error: 
+[07:08:59]Cannot read null.ckey
+[07:08:59]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:08:59]  source file: npcpool.dm,26
+runtime error: 
+[07:09:01]Cannot read null.ckey
+[07:09:01]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:01]  source file: npcpool.dm,26
+runtime error: 
+[07:09:03]Cannot read null.ckey
+[07:09:03]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:03]  source file: npcpool.dm,26
+runtime error: 
+[07:09:05]Cannot read null.ckey
+[07:09:05]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:05]  source file: npcpool.dm,26
+runtime error: 
+[07:09:07]Cannot read null.ckey
+[07:09:07]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:07]  source file: npcpool.dm,26
+runtime error: 
+[07:09:09]Cannot read null.ckey
+[07:09:09]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:09]  source file: npcpool.dm,26
+runtime error: 
+[07:09:11]Cannot read null.ckey
+[07:09:11]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:11]  source file: npcpool.dm,26
+runtime error: 
+[07:09:13]Cannot read null.ckey
+[07:09:13]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:13]  source file: npcpool.dm,26
+runtime error: 
+[07:09:15]Cannot read null.ckey
+[07:09:15]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:15]  source file: npcpool.dm,26
+runtime error: 
+[07:09:17]Cannot read null.ckey
+[07:09:17]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:17]  source file: npcpool.dm,26
+runtime error: 
+[07:09:19]Cannot read null.ckey
+[07:09:19]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:19]  source file: npcpool.dm,26
+runtime error: 
+[07:09:21]addtimer called with a callback assigned to a qdeleted object
+[07:09:21]proc name: stack trace (/proc/stack_trace)
+[07:09:21]  source file: unsorted.dm,1254
+runtime error: 
+[07:09:21]Cannot read null.ckey
+[07:09:21]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:21]  source file: npcpool.dm,26
+runtime error: 
+[07:09:23]Cannot read null.ckey
+[07:09:23]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:23]  source file: npcpool.dm,26
+runtime error: 
+[07:09:26]Cannot read null.ckey
+[07:09:26]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:26]  source file: npcpool.dm,26
+runtime error: 
+[07:09:28]Cannot read null.ckey
+[07:09:28]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:28]  source file: npcpool.dm,26
+runtime error: 
+[07:09:30]Cannot read null.ckey
+[07:09:30]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:30]  source file: npcpool.dm,26
+runtime error: 
+[07:09:32]Cannot read null.ckey
+[07:09:32]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:32]  source file: npcpool.dm,26
+runtime error: 
+[07:09:34]Cannot read null.ckey
+[07:09:34]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:34]  source file: npcpool.dm,26
+runtime error: 
+[07:09:36]Cannot read null.ckey
+[07:09:36]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:36]  source file: npcpool.dm,26
+runtime error: 
+[07:09:38]Cannot read null.ckey
+[07:09:38]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:38]  source file: npcpool.dm,26
+runtime error: 
+[07:09:40]Cannot read null.ckey
+[07:09:40]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:40]  source file: npcpool.dm,26
+runtime error: 
+[07:09:42]Cannot read null.ckey
+[07:09:42]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:42]  source file: npcpool.dm,26
+runtime error: 
+[07:09:44]Cannot read null.ckey
+[07:09:44]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:44]  source file: npcpool.dm,26
+runtime error: 
+[07:09:46]Cannot read null.ckey
+[07:09:46]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:46]  source file: npcpool.dm,26
+runtime error: 
+[07:09:48]Cannot read null.ckey
+[07:09:48]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:48]  source file: npcpool.dm,26
+runtime error: 
+[07:09:50]Cannot read null.ckey
+[07:09:50]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:50]  source file: npcpool.dm,26
+runtime error: 
+[07:09:52]Cannot read null.ckey
+[07:09:52]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:52]  source file: npcpool.dm,26
+runtime error: 
+[07:09:54]Cannot read null.ckey
+[07:09:54]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:54]  source file: npcpool.dm,26
+runtime error: 
+[07:09:56]addtimer called with a callback assigned to a qdeleted object
+[07:09:56]proc name: stack trace (/proc/stack_trace)
+[07:09:56]  source file: unsorted.dm,1254
+runtime error: 
+[07:09:57]Cannot read null.ckey
+[07:09:57]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:57]  source file: npcpool.dm,26
+runtime error: 
+[07:09:59]Cannot read null.ckey
+[07:09:59]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:09:59]  source file: npcpool.dm,26
+runtime error: 
+[07:10:01]Cannot read null.ckey
+[07:10:01]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:01]  source file: npcpool.dm,26
+runtime error: 
+[07:10:03]Cannot read null.ckey
+[07:10:03]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:03]  source file: npcpool.dm,26
+runtime error: 
+[07:10:05]Cannot read null.ckey
+[07:10:05]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:05]  source file: npcpool.dm,26
+runtime error: 
+[07:10:07]Cannot read null.ckey
+[07:10:07]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:07]  source file: npcpool.dm,26
+runtime error: 
+[07:10:09]Cannot read null.ckey
+[07:10:09]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:09]  source file: npcpool.dm,26
+runtime error: 
+[07:10:11]Cannot read null.ckey
+[07:10:11]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:11]  source file: npcpool.dm,26
+runtime error: 
+[07:10:13]Cannot read null.ckey
+[07:10:13]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:13]  source file: npcpool.dm,26
+runtime error: 
+[07:10:15]Cannot read null.ckey
+[07:10:15]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:15]  source file: npcpool.dm,26
+runtime error: 
+[07:10:17]Cannot read null.ckey
+[07:10:17]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:17]  source file: npcpool.dm,26
+runtime error: 
+[07:10:19]Cannot read null.ckey
+[07:10:19]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:19]  source file: npcpool.dm,26
+runtime error: 
+[07:10:21]Cannot read null.ckey
+[07:10:21]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:21]  source file: npcpool.dm,26
+runtime error: 
+[07:10:23]Cannot read null.ckey
+[07:10:23]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:23]  source file: npcpool.dm,26
+runtime error: 
+[07:10:25]Cannot read null.ckey
+[07:10:25]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:25]  source file: npcpool.dm,26
+runtime error: 
+[07:10:27]Cannot read null.ckey
+[07:10:27]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:27]  source file: npcpool.dm,26
+runtime error: 
+[07:10:30]addtimer called with a callback assigned to a qdeleted object
+[07:10:30]proc name: stack trace (/proc/stack_trace)
+[07:10:30]  source file: unsorted.dm,1254
+runtime error: 
+[07:10:30]Cannot read null.ckey
+[07:10:30]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:30]  source file: npcpool.dm,26
+runtime error: 
+[07:10:32]Cannot read null.ckey
+[07:10:32]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:32]  source file: npcpool.dm,26
+runtime error: 
+[07:10:34]Cannot read null.ckey
+[07:10:34]proc name: fire (/datum/controller/subsystem/npcpool/fire)
+[07:10:34]  source file: npcpool.dm,26
+runtime error: 
+[07:11:50]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:12:21]No valid destination passed into forceMove
+runtime error: 
+[07:12:21]No valid destination passed into forceMove
+runtime error: 
+[07:12:40]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:14:23]Cannot read null.y
+runtime error: 
+[07:14:23]Cannot read null.y
+runtime error: 
+[07:14:27]Cannot execute null.handle fall().
+runtime error: 
+[07:14:27]Cannot read null.occupant
+runtime error: 
+[07:14:28]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:14:28]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:14:28]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:14:28]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:14:28]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:14:29]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:14:29]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:14:29]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:14:30]Cannot read null.y
+runtime error: 
+[07:14:32]Cannot execute null.handle fall().
+runtime error: 
+[07:14:32]Cannot execute null.return pressure().
+runtime error: 
+[07:14:34]Cannot execute null.return pressure().
+runtime error: 
+[07:14:35]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:14:36]Cannot execute null.return pressure().
+runtime error: 
+[07:14:38]Cannot execute null.return pressure().
+runtime error: 
+[07:14:41]Cannot execute null.return pressure().
+runtime error: 
+[07:14:41]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:14:43]Cannot execute null.return pressure().
+runtime error: 
+[07:14:44]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:14:45]Cannot execute null.return pressure().
+runtime error: 
+[07:14:47]Cannot execute null.return pressure().
+runtime error: 
+[07:14:49]Cannot execute null.return pressure().
+runtime error: 
+[07:14:51]Cannot execute null.return pressure().
+runtime error: 
+[07:14:52]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:14:53]Cannot execute null.return pressure().
+runtime error: 
+[07:14:55]Cannot execute null.return pressure().
+runtime error: 
+[07:14:57]Cannot execute null.return pressure().
+runtime error: 
+[07:15:03]Cannot execute null.copy to().
+runtime error: 
+[07:15:07]Cannot execute null.has antag datum().
+runtime error: 
+[07:15:28]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:15:28]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:15:28]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:17:50]No valid destination passed into forceMove
+runtime error: 
+[07:17:50]No valid destination passed into forceMove
+runtime error: 
+[07:18:13]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:18:13]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:18:17]Cannot read null.revivecost
+runtime error: 
+[07:18:49]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:20:40]Cannot read null.ckey
+runtime error: 
+[07:20:43]Cannot read null.ckey
+runtime error: 
+[07:20:45]Cannot read null.ckey
+runtime error: 
+[07:20:47]Cannot read null.ckey
+runtime error: 
+[07:20:49]Cannot read null.ckey
+runtime error: 
+[07:20:51]Cannot read null.ckey
+runtime error: 
+[07:20:53]Cannot read null.ckey
+runtime error: 
+[07:20:55]Cannot read null.ckey
+runtime error: 
+[07:20:57]Cannot read null.ckey
+runtime error: 
+[07:20:59]Cannot read null.ckey
+runtime error: 
+[07:21:01]Cannot read null.ckey
+runtime error: 
+[07:21:03]Cannot read null.ckey
+runtime error: 
+[07:21:05]Cannot read null.ckey
+runtime error: 
+[07:21:07]Cannot read null.ckey
+runtime error: 
+[07:21:09]Cannot read null.ckey
+runtime error: 
+[07:21:11]Cannot read null.ckey
+runtime error: 
+[07:21:13]Cannot read null.ckey
+runtime error: 
+[07:21:15]Cannot read null.ckey
+runtime error: 
+[07:21:17]Cannot read null.ckey
+runtime error: 
+[07:21:19]Cannot read null.ckey
+runtime error: 
+[07:21:20]Cannot execute 0.greet().
+runtime error: 
+[07:21:22]Cannot read null.ckey
+runtime error: 
+[07:21:25]Cannot read null.ckey
+runtime error: 
+[07:21:27]Cannot read null.ckey
+runtime error: 
+[07:21:29]Cannot read null.ckey
+runtime error: 
+[07:21:30]list index out of bounds
+runtime error: 
+[07:21:31]Cannot read null.ckey
+runtime error: 
+[07:21:34]Cannot read null.ckey
+runtime error: 
+[07:21:37]Cannot read null.ckey
+runtime error: 
+[07:21:39]Cannot read null.ckey
+runtime error: 
+[07:21:41]Cannot execute 0.greet().
+runtime error: 
+[07:21:43]Cannot read null.ckey
+runtime error: 
+[07:21:45]Cannot read null.y
+runtime error: 
+[07:21:45]Cannot read null.y
+runtime error: 
+[07:21:45]Cannot read null.y
+runtime error: 
+[07:21:45]Cannot read null.ckey
+runtime error: 
+[07:21:47]Cannot read null.ckey
+runtime error: 
+[07:21:47]Cannot read null.y
+runtime error: 
+[07:21:49]Cannot read null.ckey
+runtime error: 
+[07:21:51]Cannot read null.ckey
+runtime error: 
+[07:21:53]Cannot read null.ckey
+runtime error: 
+[07:21:55]Cannot read null.ckey
+runtime error: 
+[07:21:57]Cannot read null.ckey
+runtime error: 
+[07:21:59]Cannot read null.ckey
+runtime error: 
+[07:22:02]Cannot read null.ckey
+runtime error: 
+[07:22:04]Cannot read null.ckey
+runtime error: 
+[07:22:06]Cannot read null.ckey
+runtime error: 
+[07:22:08]Cannot read null.ckey
+runtime error: 
+[07:22:10]Cannot read null.ckey
+runtime error: 
+[07:22:12]Cannot read null.ckey
+runtime error: 
+[07:22:14]Cannot read null.ckey
+runtime error: 
+[07:22:16]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:22:16]Cannot read null.ckey
+runtime error: 
+[07:22:18]Cannot read null.ckey
+runtime error: 
+[07:22:20]Cannot read null.ckey
+runtime error: 
+[07:22:22]Cannot read null.ckey
+runtime error: 
+[07:22:24]Cannot read null.ckey
+runtime error: 
+[07:22:26]Cannot read null.ckey
+runtime error: 
+[07:22:29]Cannot read null.ckey
+runtime error: 
+[07:22:31]Cannot read null.ckey
+runtime error: 
+[07:24:01]Cannot read null.y
+runtime error: 
+[07:24:01]Cannot read null.y
+runtime error: 
+[07:24:01]Cannot read null.y
+runtime error: 
+[07:24:01]Cannot read null.y
+runtime error: 
+[07:24:01]Cannot read null.y
+runtime error: 
+[07:24:01]Cannot read null.y
+runtime error: 
+[07:24:01]Cannot read null.y
+runtime error: 
+[07:24:01]Cannot read null.y
+runtime error: 
+[07:24:01]Cannot read null.y
+runtime error: 
+[07:24:01]Cannot read null.y
+runtime error: 
+[07:24:02]Cannot read null.y
+runtime error: 
+[07:24:02]Cannot read null.y
+runtime error: 
+[07:24:02]Cannot read null.y
+runtime error: 
+[07:24:02]Cannot read null.y
+runtime error: 
+[07:24:02]Cannot read null.y
+runtime error: 
+[07:24:02]Cannot read null.y
+runtime error: 
+[07:24:02]Cannot read null.y
+runtime error: 
+[07:24:02]Cannot read null.y
+runtime error: 
+[07:24:02]Cannot read null.y
+runtime error: 
+[07:24:02]Cannot read null.y
+runtime error: 
+[07:24:03]Cannot read null.y
+runtime error: 
+[07:24:03]Cannot read null.y
+runtime error: 
+[07:24:03]Cannot read null.y
+runtime error: 
+[07:24:03]Cannot read null.y
+runtime error: 
+[07:24:03]Cannot read null.y
+runtime error: 
+[07:24:03]Cannot read null.y
+runtime error: 
+[07:24:03]Cannot read null.y
+runtime error: 
+[07:24:03]Cannot read null.y
+runtime error: 
+[07:24:03]Cannot read null.y
+runtime error: 
+[07:24:04]Cannot read null.y
+runtime error: 
+[07:24:04]Cannot read null.y
+runtime error: 
+[07:24:04]Cannot read null.y
+runtime error: 
+[07:24:04]Cannot read null.y
+runtime error: 
+[07:24:04]Cannot read null.y
+runtime error: 
+[07:24:04]Cannot read null.y
+runtime error: 
+[07:24:04]Cannot read null.y
+runtime error: 
+[07:24:04]Cannot read null.y
+runtime error: 
+[07:24:05]Cannot read null.y
+runtime error: 
+[07:24:05]Cannot read null.y
+runtime error: 
+[07:24:05]Cannot read null.y
+runtime error: 
+[07:24:05]Cannot read null.y
+runtime error: 
+[07:24:05]Cannot read null.y
+runtime error: 
+[07:24:06]Cannot read null.y
+runtime error: 
+[07:24:06]Cannot read null.y
+runtime error: 
+[07:24:06]Cannot read null.y
+runtime error: 
+[07:24:06]Cannot read null.y
+runtime error: 
+[07:24:06]Cannot read null.y
+runtime error: 
+[07:24:06]Cannot read null.y
+runtime error: 
+[07:24:06]Cannot read null.y
+runtime error: 
+[07:24:09]Cannot read null.armor
+runtime error: 
+[07:24:09]Cannot read null.species
+runtime error: 
+[07:24:09]Cannot read null.armor
+runtime error: 
+[07:24:09]Cannot read null.species
+runtime error: 
+[07:24:10]Cannot read null.armor
+runtime error: 
+[07:24:10]Cannot read null.species
+runtime error: 
+[07:24:10]Cannot read null.armor
+runtime error: 
+[07:24:10]Cannot read null.species
+runtime error: 
+[07:24:10]Cannot read null.species
+runtime error: 
+[07:24:10]Cannot read null.armor
+runtime error: 
+[07:24:10]Cannot read null.species
+runtime error: 
+[07:24:10]Cannot read null.species
+runtime error: 
+[07:24:10]Cannot read null.armor
+runtime error: 
+[07:24:10]Cannot read null.species
+runtime error: 
+[07:24:10]Cannot read null.species
+runtime error: 
+[07:24:11]Cannot read null.armor
+runtime error: 
+[07:24:11]Cannot read null.species
+runtime error: 
+[07:24:11]Cannot read null.species
+runtime error: 
+[07:24:13]Cannot read null.armor
+runtime error: 
+[07:24:13]Cannot read null.species
+runtime error: 
+[07:24:18]No valid destination passed into forceMove
+runtime error: 
+[07:24:18]No valid destination passed into forceMove
+runtime error: 
+[07:24:18]Cannot read null.x
+runtime error: 
+[07:24:18]No valid destination passed into forceMove
+runtime error: 
+[07:24:18]No valid destination passed into forceMove
+runtime error: 
+[07:24:18]Cannot read null.x
+runtime error: 
+[07:24:18]No valid destination passed into forceMove
+runtime error: 
+[07:24:18]No valid destination passed into forceMove
+runtime error: 
+[07:24:18]Cannot read null.x
+runtime error: 
+[07:24:18]No valid destination passed into forceMove
+runtime error: 
+[07:24:18]No valid destination passed into forceMove
+runtime error: 
+[07:24:18]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]No valid destination passed into forceMove
+runtime error: 
+[07:24:19]Cannot read null.x
+runtime error: 
+[07:24:20]No valid destination passed into forceMove
+runtime error: 
+[07:24:20]No valid destination passed into forceMove
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]No valid destination passed into forceMove
+runtime error: 
+[07:24:20]No valid destination passed into forceMove
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:24:20]No valid destination passed into forceMove
+runtime error: 
+[07:24:20]No valid destination passed into forceMove
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot execute null.CanPass().
+runtime error: 
+[07:24:20]Cannot execute null.CanPass().
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:20]Cannot read null.x
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.x
+runtime error: 
+[07:24:21]Cannot read null.x
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.x
+runtime error: 
+[07:24:21]Cannot read null.x
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.x
+runtime error: 
+[07:24:21]Cannot read null.x
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.x
+runtime error: 
+[07:24:21]Cannot read null.x
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.x
+runtime error: 
+[07:24:21]Cannot read null.x
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.x
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:21]Cannot read null.armor
+runtime error: 
+[07:24:21]Cannot read null.species
+runtime error: 
+[07:24:22]Cannot read null.armor
+runtime error: 
+[07:24:22]Cannot read null.species
+runtime error: 
+[07:24:22]Cannot execute null.CanPass().
+runtime error: 
+[07:24:22]Cannot execute null.CanPass().
+runtime error: 
+[07:24:22]Cannot execute null.CanPass().
+runtime error: 
+[07:24:22]Cannot read null.armor
+runtime error: 
+[07:24:22]Cannot read null.species
+runtime error: 
+[07:24:22]Cannot read null.armor
+runtime error: 
+[07:24:22]Cannot read null.species
+runtime error: 
+[07:24:23]Cannot read null.armor
+runtime error: 
+[07:24:23]Cannot read null.species
+runtime error: 
+[07:24:23]Cannot read null.species
+runtime error: 
+[07:24:23]Cannot read null.armor
+runtime error: 
+[07:24:23]Cannot read null.species
+runtime error: 
+[07:24:23]Cannot read null.species
+runtime error: 
+[07:24:23]Cannot read null.armor
+runtime error: 
+[07:24:23]Cannot read null.species
+runtime error: 
+[07:24:23]Cannot read null.armor
+runtime error: 
+[07:24:23]Cannot read null.species
+runtime error: 
+[07:24:23]Cannot read null.armor
+runtime error: 
+[07:24:23]Cannot read null.species
+runtime error: 
+[07:24:23]Cannot read null.armor
+runtime error: 
+[07:24:23]Cannot read null.species
+runtime error: 
+[07:24:23]Cannot read null.armor
+runtime error: 
+[07:24:23]Cannot read null.species
+runtime error: 
+[07:24:23]Cannot read null.species
+runtime error: 
+[07:24:23]Cannot read null.armor
+runtime error: 
+[07:24:23]Cannot read null.species
+runtime error: 
+[07:24:23]Cannot read null.armor
+runtime error: 
+[07:24:23]Cannot read null.species
+runtime error: 
+[07:24:23]Cannot read null.armor
+runtime error: 
+[07:24:23]Cannot read null.species
+runtime error: 
+[07:24:24]Cannot read null.armor
+runtime error: 
+[07:24:24]Cannot read null.species
+runtime error: 
+[07:24:24]Cannot read null.armor
+runtime error: 
+[07:24:24]Cannot read null.species
+runtime error: 
+[07:24:24]Cannot read null.armor
+runtime error: 
+[07:24:24]Cannot read null.species
+runtime error: 
+[07:24:25]Cannot read null.armor
+runtime error: 
+[07:24:25]Cannot read null.species
+runtime error: 
+[07:24:25]Cannot read null.species
+runtime error: 
+[07:24:26]Cannot read null.armor
+runtime error: 
+[07:24:26]Cannot read null.species
+runtime error: 
+[07:24:35]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:31:12]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:32:52]Cannot read null.ckey
+runtime error: 
+[07:32:54]Cannot read null.ckey
+runtime error: 
+[07:32:56]Cannot read null.ckey
+runtime error: 
+[07:32:59]Cannot read null.ckey
+runtime error: 
+[07:33:01]Cannot read null.ckey
+runtime error: 
+[07:33:03]Cannot read null.ckey
+runtime error: 
+[07:33:05]Cannot read null.ckey
+runtime error: 
+[07:33:07]Cannot read null.ckey
+runtime error: 
+[07:33:09]Cannot read null.ckey
+runtime error: 
+[07:33:11]Cannot read null.ckey
+runtime error: 
+[07:33:13]Cannot read null.ckey
+runtime error: 
+[07:33:15]Cannot read null.ckey
+runtime error: 
+[07:33:17]Cannot read null.ckey
+runtime error: 
+[07:33:19]Cannot read null.ckey
+runtime error: 
+[07:33:21]Cannot read null.ckey
+runtime error: 
+[07:33:24]Cannot read null.ckey
+runtime error: 
+[07:33:26]Cannot read null.ckey
+runtime error: 
+[07:33:28]Cannot read null.ckey
+runtime error: 
+[07:33:30]Cannot read null.ckey
+runtime error: 
+[07:33:32]Cannot read null.ckey
+runtime error: 
+[07:33:34]Cannot read null.ckey
+runtime error: 
+[07:33:36]Cannot read null.ckey
+runtime error: 
+[07:33:38]Cannot read null.ckey
+runtime error: 
+[07:33:41]Cannot read null.ckey
+runtime error: 
+[07:33:43]Cannot read null.ckey
+runtime error: 
+[07:33:45]Cannot read null.ckey
+runtime error: 
+[07:33:47]Cannot read null.ckey
+runtime error: 
+[07:33:49]Cannot read null.ckey
+runtime error: 
+[07:33:51]Cannot read null.ckey
+runtime error: 
+[07:33:53]Cannot read null.ckey
+runtime error: 
+[07:33:55]Cannot read null.ckey
+runtime error: 
+[07:33:57]Cannot read null.ckey
+runtime error: 
+[07:33:59]Cannot read null.ckey
+runtime error: 
+[07:34:01]Cannot read null.ckey
+runtime error: 
+[07:34:03]Cannot read null.ckey
+runtime error: 
+[07:34:05]Cannot read null.ckey
+runtime error: 
+[07:34:08]Cannot read null.ckey
+runtime error: 
+[07:34:10]Cannot read null.ckey
+runtime error: 
+[07:34:12]Cannot read null.ckey
+runtime error: 
+[07:34:14]Cannot read null.ckey
+runtime error: 
+[07:34:16]Cannot read null.ckey
+runtime error: 
+[07:34:18]Cannot read null.ckey
+runtime error: 
+[07:34:20]Cannot read null.ckey
+runtime error: 
+[07:34:22]Cannot read null.ckey
+runtime error: 
+[07:34:24]Cannot read null.ckey
+runtime error: 
+[07:34:26]Cannot read null.ckey
+runtime error: 
+[07:34:28]Cannot read null.ckey
+runtime error: 
+[07:34:30]Cannot read null.ckey
+runtime error: 
+[07:34:33]Cannot read null.ckey
+runtime error: 
+[07:34:35]Cannot read null.ckey
+runtime error: 
+[07:34:37]Cannot read null.ckey
+runtime error: 
+[07:34:39]Cannot read null.ckey
+runtime error: 
+[07:37:16]Cannot execute null.Adjacent().
+runtime error: 
+[07:37:16]No valid destination passed into forceMove
+runtime error: 
+[07:37:17]addtimer called with a callback assigned to a qdeleted object
+runtime error: 
+[07:37:17]addtimer called with a callback assigned to a qdeleted object
+Saved 2 engraved messages on map Box Station
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 07:42:56

@@ -1,0 +1,400 @@
+
+
+Starting up round ID 562. 19:05:09
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 5.1s!
+Loaded Lavaland in 4.8s!
+Loaded Reebe in 4.5s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 20.8 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 47.4 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.2 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 15 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 15 turf(s) (connected to 19483 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 14.7 seconds!
+Initialized Minimap subsystem within 0.3 seconds!
+Initialized Assets subsystem within 0.8 seconds!
+Initialized Icon Smoothing subsystem within 6.5 seconds!
+Initialized Overlay subsystem within 19.1 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 12.9 seconds!
+Initialized Shuttle subsystem within 23.1 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 98 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 146.5 seconds!
+Game start took 13.4s
+runtime error: 
+[19:10:18]nothing to animate
+[19:10:18]proc name: shake camera (/proc/shake_camera)
+[19:10:18]  source file: mob_helpers.dm,270
+[19:10:18]  usr: (src)
+[19:10:18]  src: null
+[19:10:18]  call stack:
+[19:10:18]shake camera(Isabelle Flyer (/mob/living/carbon/human), 0.75, 1)
+[19:10:18]Isabelle Flyer (/mob/living/carbon/human): afterShuttleMove(space (25,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:10:18]Isabelle Flyer (/mob/living/carbon/human): afterShuttleMove(space (25,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:10:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[19:10:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[19:10:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[19:10:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:10:18]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:10:18]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:10:18]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:12:25]addtimer called with a callback assigned to a qdeleted object
+[19:12:25]proc name: stack trace (/proc/stack_trace)
+[19:12:25]  source file: unsorted.dm,1254
+[19:12:25]  usr: (src)
+[19:12:25]  src: null
+[19:12:25]  call stack:
+[19:12:25]stack trace("addtimer called with a callbac...")
+[19:12:25]addtimer(/datum/callback (/datum/callback), 20, 0)
+[19:12:25]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[19:12:25]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[19:12:25]addtimer called with a callback assigned to a qdeleted object
+[19:12:25]proc name: stack trace (/proc/stack_trace)
+[19:12:25]  source file: unsorted.dm,1254
+[19:12:25]  usr: (src)
+[19:12:25]  src: null
+[19:12:25]  call stack:
+[19:12:25]stack trace("addtimer called with a callbac...")
+[19:12:25]addtimer(/datum/callback (/datum/callback), 20, 0)
+[19:12:25]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[19:12:25]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[19:12:33]addtimer called with a callback assigned to a qdeleted object
+[19:12:33]proc name: stack trace (/proc/stack_trace)
+[19:12:33]  source file: unsorted.dm,1254
+[19:12:33]  usr: (src)
+[19:12:33]  src: null
+[19:12:33]  call stack:
+[19:12:33]stack trace("addtimer called with a callbac...")
+[19:12:33]addtimer(/datum/callback (/datum/callback), 20, 0)
+[19:12:33]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[19:12:33]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[19:12:34]addtimer called with a callback assigned to a qdeleted object
+[19:12:34]proc name: stack trace (/proc/stack_trace)
+[19:12:34]  source file: unsorted.dm,1254
+[19:12:34]  usr: (src)
+[19:12:34]  src: null
+[19:12:34]  call stack:
+[19:12:34]stack trace("addtimer called with a callbac...")
+[19:12:34]addtimer(/datum/callback (/datum/callback), 20, 0)
+[19:12:34]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[19:12:34]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[19:12:34]addtimer called with a callback assigned to a qdeleted object
+[19:12:34]proc name: stack trace (/proc/stack_trace)
+[19:12:34]  source file: unsorted.dm,1254
+[19:12:34]  usr: (src)
+[19:12:34]  src: null
+[19:12:34]  call stack:
+[19:12:34]stack trace("addtimer called with a callbac...")
+[19:12:34]addtimer(/datum/callback (/datum/callback), 20, 0)
+[19:12:34]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[19:12:34]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[19:12:34]addtimer called with a callback assigned to a qdeleted object
+[19:12:34]proc name: stack trace (/proc/stack_trace)
+[19:12:34]  source file: unsorted.dm,1254
+[19:12:34]  usr: (src)
+[19:12:34]  src: null
+[19:12:34]  call stack:
+[19:12:34]stack trace("addtimer called with a callbac...")
+[19:12:34]addtimer(/datum/callback (/datum/callback), 20, 0)
+[19:12:34]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[19:12:34]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[19:13:57]addtimer called with a callback assigned to a qdeleted object
+[19:13:57]proc name: stack trace (/proc/stack_trace)
+[19:13:57]  source file: unsorted.dm,1254
+[19:13:57]  usr: (src)
+[19:13:57]  src: null
+[19:13:57]  call stack:
+[19:13:57]stack trace("addtimer called with a callbac...")
+[19:13:57]addtimer(/datum/callback (/datum/callback), 20, 0)
+[19:13:57]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[19:13:57]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[19:13:57]addtimer called with a callback assigned to a qdeleted object
+[19:13:57]proc name: stack trace (/proc/stack_trace)
+[19:13:57]  source file: unsorted.dm,1254
+[19:13:57]  usr: (src)
+[19:13:57]  src: null
+[19:13:57]  call stack:
+[19:13:57]stack trace("addtimer called with a callbac...")
+[19:13:57]addtimer(/datum/callback (/datum/callback), 20, 0)
+[19:13:57]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[19:13:57]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[19:14:01]nothing to animate
+[19:14:01]proc name: shake camera (/proc/shake_camera)
+[19:14:01]  source file: mob_helpers.dm,270
+[19:14:01]  usr: (src)
+[19:14:01]  src: null
+[19:14:01]  call stack:
+[19:14:01]shake camera(Chuckles-The-Fuck (/mob/living/carbon/human), 0.75, 1)
+[19:14:01]Chuckles-The-Fuck (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:14:01]Chuckles-The-Fuck (/mob/living/carbon/human): afterShuttleMove(space (27,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:14:01]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[19:14:01]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[19:14:01]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[19:14:01]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:14:01]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:14:01]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:14:01]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:26:24]undefined proc or verb /turf/closed/wall/mineral/titanium/high pressure movements().
+
+[19:26:24]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[19:26:24]  source file: air.dm,205
+[19:26:24]  usr: null
+[19:26:24]  src: Atmospherics (/datum/controller/subsystem/air)
+[19:26:24]  call stack:
+[19:26:24]Atmospherics (/datum/controller/subsystem/air): process high pressure delta(0)
+[19:26:24]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[19:26:24]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:26:24]Master (/datum/controller/master): RunQueue()
+[19:26:24]Master (/datum/controller/master): Loop()
+[19:26:24]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:26:25]undefined proc or verb /turf/closed/wall/mineral/titanium/high pressure movements().
+
+[19:26:25]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[19:26:25]  source file: air.dm,205
+[19:26:25]  usr: null
+[19:26:25]  src: Atmospherics (/datum/controller/subsystem/air)
+[19:26:25]  call stack:
+[19:26:25]Atmospherics (/datum/controller/subsystem/air): process high pressure delta(0)
+[19:26:25]Atmospherics (/datum/controller/subsystem/air): fire(0)
+[19:26:25]Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[19:26:25]Master (/datum/controller/master): RunQueue()
+[19:26:25]Master (/datum/controller/master): Loop()
+[19:26:25]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[19:26:43]nothing to animate
+[19:26:43]proc name: shake camera (/proc/shake_camera)
+[19:26:43]  source file: mob_helpers.dm,270
+[19:26:43]  usr: (src)
+[19:26:43]  src: null
+[19:26:43]  call stack:
+[19:26:43]shake camera(Sigerthe-Meen (/mob/living/carbon/human), 0.75, 1)
+[19:26:43]Sigerthe-Meen (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[19:26:43]Sigerthe-Meen (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[19:26:43]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the mining shuttle bay (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[19:26:43]the mining shuttle (/obj/docking_port/mobile): initiate docking(the mining shuttle bay (/obj/docking_port/stationary), 1, 0)
+[19:26:43]the mining shuttle (/obj/docking_port/mobile): check()
+[19:26:43]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:26:43]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:27:03]nothing to animate
+[19:27:03]proc name: shake camera (/proc/shake_camera)
+[19:27:03]  source file: mob_helpers.dm,270
+[19:27:03]  usr: (src)
+[19:27:03]  src: null
+[19:27:03]  call stack:
+[19:27:03]shake camera(Sigerthe-Meen (/mob/living/carbon/human), 0.75, 1)
+[19:27:03]Sigerthe-Meen (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[19:27:03]Sigerthe-Meen (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[19:27:03]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[19:27:03]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[19:27:03]the mining shuttle (/obj/docking_port/mobile): check()
+[19:27:03]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:27:03]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:29:53]nothing to animate
+[19:29:53]proc name: shake camera (/proc/shake_camera)
+[19:29:53]  source file: mob_helpers.dm,270
+[19:29:53]  usr: (src)
+[19:29:53]  src: null
+[19:29:53]  call stack:
+[19:29:53]shake camera(Popeye Spinachson (/mob/living/carbon/human), 0.75, 1)
+[19:29:53]Popeye Spinachson (/mob/living/carbon/human): afterShuttleMove(space (25,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:29:53]Popeye Spinachson (/mob/living/carbon/human): afterShuttleMove(space (25,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:29:53]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[19:29:53]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[19:29:53]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[19:29:53]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:29:53]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:29:53]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:29:53]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:30:57]nothing to animate
+[19:30:57]proc name: shake camera (/proc/shake_camera)
+[19:30:57]  source file: mob_helpers.dm,270
+[19:30:57]  usr: (src)
+[19:30:57]  src: null
+[19:30:57]  call stack:
+[19:30:57]shake camera(Dustin Randolph (/mob/living/carbon/human), 0.75, 1)
+[19:30:57]Dustin Randolph (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:30:57]Dustin Randolph (/mob/living/carbon/human): afterShuttleMove(space (17,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:30:57]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[19:30:57]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[19:30:57]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[19:30:57]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:30:57]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:30:57]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:30:57]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:33:12]nothing to animate
+[19:33:12]proc name: shake camera (/proc/shake_camera)
+[19:33:12]  source file: mob_helpers.dm,270
+[19:33:12]  usr: (src)
+[19:33:12]  src: null
+[19:33:12]  call stack:
+[19:33:12]shake camera(Mario Ellis (/mob/living/carbon/human), 0.75, 1)
+[19:33:12]Mario Ellis (/mob/living/carbon/human): afterShuttleMove(space (23,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:33:12]Mario Ellis (/mob/living/carbon/human): afterShuttleMove(space (23,19,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[19:33:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[19:33:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[19:33:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[19:33:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:33:12]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[19:33:12]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:33:12]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:33:39]nothing to animate
+[19:33:39]proc name: shake camera (/proc/shake_camera)
+[19:33:39]  source file: mob_helpers.dm,270
+[19:33:39]  usr: (src)
+[19:33:39]  src: null
+[19:33:39]  call stack:
+[19:33:39]shake camera(Smoke Snyder (/mob/living/carbon/human), 0.75, 1)
+[19:33:39]Smoke Snyder (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[19:33:39]Smoke Snyder (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[19:33:39]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[19:33:39]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[19:33:39]the mining shuttle (/obj/docking_port/mobile): check()
+[19:33:39]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[19:33:39]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[19:38:03]addtimer called with a callback assigned to a qdeleted object
+[19:38:03]proc name: stack trace (/proc/stack_trace)
+[19:38:03]  source file: unsorted.dm,1254
+[19:38:03]  usr: Asheemar-Mudeska (/mob/living/carbon/human)
+[19:38:03]  src: null
+[19:38:03]  usr.loc: the floor (181,144,2) (/turf/open/floor/plasteel/dark)
+[19:38:03]  call stack:
+[19:38:03]stack trace("addtimer called with a callbac...")
+[19:38:03]addtimer(/datum/callback (/datum/callback), 20, 0)
+[19:38:03]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[19:38:03]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[19:41:26]nothing to animate
+[19:41:26]proc name: shake camera (/proc/shake_camera)
+[19:41:26]  source file: mob_helpers.dm,270
+runtime error: 
+[19:43:42]Cannot execute null.force give().
+[19:43:42]proc name: randmut (/mob/living/carbon/proc/randmut)
+[19:43:42]  source file: dna.dm,325
+runtime error: 
+[19:45:34]Cannot execute null.force give().
+[19:45:34]proc name: randmut (/mob/living/carbon/proc/randmut)
+[19:45:34]  source file: dna.dm,325
+runtime error: 
+[19:45:53]type mismatch: -20 + 'sound/weapons/bladeslice.ogg'
+[19:45:53]proc name: Butcher (/datum/component/butchering/proc/Butcher)
+[19:45:53]  source file: butchering.dm,23
+runtime error: 
+[19:46:09]nothing to animate
+[19:46:09]proc name: shake camera (/proc/shake_camera)
+[19:46:09]  source file: mob_helpers.dm,270
+runtime error: 
+[19:46:30]nothing to animate
+[19:46:30]proc name: shake camera (/proc/shake_camera)
+[19:46:30]  source file: mob_helpers.dm,270
+runtime error: 
+[19:47:31]Cannot read null.client
+[19:47:31]proc name: remove from client (/datum/action/vote/proc/remove_from_client)
+[19:47:31]  source file: vote.dm,321
+Saved 98 engraved messages on map Box Station
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 19:50:36

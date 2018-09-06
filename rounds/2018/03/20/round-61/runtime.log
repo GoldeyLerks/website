@@ -1,0 +1,775 @@
+
+
+Starting up round ID 61. 20:14:22
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0.1 seconds!
+Loading Box Station...
+Loaded Station in 7.4s!
+Loaded Lavaland in 5.7s!
+Loaded Reebe in 4.5s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 24.5 seconds!
+Initialized Networks subsystem within 0 seconds!
+Initialized Atoms subsystem within 44.7 seconds!
+Initialized Language subsystem within 0.1 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 4 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 4 turf(s) (connected to 20867 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 15.3 seconds!
+Initialized Minimap subsystem within 0.1 seconds!
+Initialized Assets subsystem within 1.1 seconds!
+Initialized Icon Smoothing subsystem within 5.2 seconds!
+Initialized Overlay subsystem within 16.7 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Lighting subsystem within 12.2 seconds!
+Initialized Shuttle subsystem within 22.8 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Loaded 0 engraved messages on map Box Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 143.4 seconds!
+Game start took 7.5s
+runtime error: 
+[20:22:15]Cannot read null.parents
+[20:22:15]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[20:22:15]  source file: components_base.dm,91
+[20:22:15]  usr: Nikolas Hoover (/mob/living/carbon/human)
+[20:22:15]  src: the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible)
+[20:22:15]  usr.loc: the reinforced floor (186,97,2) (/turf/open/floor/engine)
+[20:22:15]  src.loc: the reinforced floor (187,97,2) (/turf/open/floor/engine)
+[20:22:15]  call stack:
+[20:22:15]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): returnPipenet(the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible))
+[20:22:15]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): addMember(the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible))
+[20:22:15]the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible): on construction(null, 2)
+[20:22:15]the pipe manifold fitting (/obj/item/pipe/trinary): wrench act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[20:22:15]the pipe manifold fitting (/obj/item/pipe/trinary): tool act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[20:22:15]the wrench (/obj/item/wrench): tool attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe manifold fitting (/obj/item/pipe/trinary))
+[20:22:15]the wrench (/obj/item/wrench): melee attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe manifold fitting (/obj/item/pipe/trinary), "icon-x=15;icon-y=16;left=1;scr...")
+[20:22:15]Nikolas Hoover (/mob/living/carbon/human): ClickOn(the pipe manifold fitting (/obj/item/pipe/trinary), "icon-x=15;icon-y=16;left=1;scr...")
+[20:22:15]the pipe manifold fitting (/obj/item/pipe/trinary): Click(the reinforced floor (187,98,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=15;icon-y=16;left=1;scr...")
+runtime error: 
+[20:22:15]Cannot execute null.addMember().
+[20:22:15]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[20:22:15]  source file: datum_pipeline.dm,130
+[20:22:15]  usr: Nikolas Hoover (/mob/living/carbon/human)
+[20:22:15]  src: the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible)
+[20:22:15]  usr.loc: the reinforced floor (186,97,2) (/turf/open/floor/engine)
+[20:22:15]  src.loc: the reinforced floor (187,97,2) (/turf/open/floor/engine)
+[20:22:15]  call stack:
+[20:22:15]the connector port (/obj/machinery/atmospherics/components/unary/portables_connector/visible): addMember(the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible))
+[20:22:15]the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible): on construction(null, 2)
+[20:22:15]the pipe manifold fitting (/obj/item/pipe/trinary): wrench act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[20:22:15]the pipe manifold fitting (/obj/item/pipe/trinary): tool act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[20:22:15]the wrench (/obj/item/wrench): tool attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe manifold fitting (/obj/item/pipe/trinary))
+[20:22:15]the wrench (/obj/item/wrench): melee attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe manifold fitting (/obj/item/pipe/trinary), "icon-x=15;icon-y=16;left=1;scr...")
+[20:22:15]Nikolas Hoover (/mob/living/carbon/human): ClickOn(the pipe manifold fitting (/obj/item/pipe/trinary), "icon-x=15;icon-y=16;left=1;scr...")
+[20:22:15]the pipe manifold fitting (/obj/item/pipe/trinary): Click(the reinforced floor (187,98,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=15;icon-y=16;left=1;scr...")
+runtime error: 
+[20:22:15]Cannot read null.parents
+[20:22:15]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[20:22:15]  source file: components_base.dm,91
+[20:22:15]  usr: Nikolas Hoover (/mob/living/carbon/human)
+[20:22:15]  src: the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer)
+[20:22:15]  usr.loc: the reinforced floor (186,97,2) (/turf/open/floor/engine)
+[20:22:15]  src.loc: the reinforced floor (188,98,2) (/turf/open/floor/engine)
+[20:22:15]  call stack:
+[20:22:15]the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer): returnPipenet(the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible))
+[20:22:15]the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer): addMember(the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible))
+[20:22:15]the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible): on construction(null, 2)
+[20:22:15]the pipe manifold fitting (/obj/item/pipe/trinary): wrench act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[20:22:15]the pipe manifold fitting (/obj/item/pipe/trinary): tool act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[20:22:15]the wrench (/obj/item/wrench): tool attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe manifold fitting (/obj/item/pipe/trinary))
+[20:22:15]the wrench (/obj/item/wrench): melee attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe manifold fitting (/obj/item/pipe/trinary), "icon-x=15;icon-y=16;left=1;scr...")
+[20:22:15]Nikolas Hoover (/mob/living/carbon/human): ClickOn(the pipe manifold fitting (/obj/item/pipe/trinary), "icon-x=15;icon-y=16;left=1;scr...")
+[20:22:15]the pipe manifold fitting (/obj/item/pipe/trinary): Click(the reinforced floor (187,98,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=15;icon-y=16;left=1;scr...")
+runtime error: 
+[20:22:15]Cannot execute null.addMember().
+[20:22:15]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[20:22:15]  source file: datum_pipeline.dm,130
+[20:22:15]  usr: Nikolas Hoover (/mob/living/carbon/human)
+[20:22:15]  src: the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer)
+[20:22:15]  usr.loc: the reinforced floor (186,97,2) (/turf/open/floor/engine)
+[20:22:15]  src.loc: the reinforced floor (188,98,2) (/turf/open/floor/engine)
+[20:22:15]  call stack:
+[20:22:15]the freezer (/obj/machinery/atmospherics/components/unary/thermomachine/freezer): addMember(the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible))
+[20:22:15]the pipe manifold (/obj/machinery/atmospherics/pipe/manifold/general/visible): on construction(null, 2)
+[20:22:15]the pipe manifold fitting (/obj/item/pipe/trinary): wrench act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench))
+[20:22:15]the pipe manifold fitting (/obj/item/pipe/trinary): tool act(Nikolas Hoover (/mob/living/carbon/human), the wrench (/obj/item/wrench), "wrench")
+[20:22:15]the wrench (/obj/item/wrench): tool attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe manifold fitting (/obj/item/pipe/trinary))
+[20:22:15]the wrench (/obj/item/wrench): melee attack chain(Nikolas Hoover (/mob/living/carbon/human), the pipe manifold fitting (/obj/item/pipe/trinary), "icon-x=15;icon-y=16;left=1;scr...")
+[20:22:15]Nikolas Hoover (/mob/living/carbon/human): ClickOn(the pipe manifold fitting (/obj/item/pipe/trinary), "icon-x=15;icon-y=16;left=1;scr...")
+[20:22:15]the pipe manifold fitting (/obj/item/pipe/trinary): Click(the reinforced floor (187,98,2) (/turf/open/floor/engine), "mapwindow.map", "icon-x=15;icon-y=16;left=1;scr...")
+runtime error: 
+[20:43:11]Cannot create objects of type null.
+[20:43:11]proc name: add event (/datum/component/mood/proc/add_event)
+[20:43:11]  source file: mood.dm,91
+[20:43:11]  usr: Cristopher Digson (/mob/living/carbon/human)
+[20:43:11]  src: /datum/component/mood (/datum/component/mood)
+[20:43:11]  usr.loc: the volcanic floor (134,55,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[20:43:11]  call stack:
+[20:43:11]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:43:11]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[20:43:11]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[20:43:11]the right leg (/obj/item/bodypart/r_leg): dismember("brute")
+[20:43:11]Lizardperson (/datum/species/lizard): spec attacked by(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human), the right leg (/obj/item/bodypart/r_leg), "help", Unknown (/mob/living/carbon/human))
+[20:43:11]Unknown (/mob/living/carbon/human): attacked by(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human))
+[20:43:11]the officer\'s sabre (/obj/item/melee/sabre): attack(Unknown (/mob/living/carbon/human), Cristopher Digson (/mob/living/carbon/human))
+[20:43:11]Unknown (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human), "icon-x=15;icon-y=20;left=1;scr...")
+[20:43:11]Unknown (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human), "icon-x=15;icon-y=20;left=1;scr...")
+[20:43:11]the officer\'s sabre (/obj/item/melee/sabre): melee attack chain(Cristopher Digson (/mob/living/carbon/human), Unknown (/mob/living/carbon/human), "icon-x=15;icon-y=20;left=1;scr...")
+[20:43:11]Cristopher Digson (/mob/living/carbon/human): ClickOn(Unknown (/mob/living/carbon/human), "icon-x=15;icon-y=20;left=1;scr...")
+[20:43:11]Unknown (/mob/living/carbon/human): Click(the volcanic floor (134,56,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), "mapwindow.map", "icon-x=15;icon-y=20;left=1;scr...")
+runtime error: 
+[20:43:15]Cannot create objects of type null.
+[20:43:15]proc name: add event (/datum/component/mood/proc/add_event)
+[20:43:15]  source file: mood.dm,91
+[20:43:15]  usr: Cristopher Digson (/mob/living/carbon/human)
+[20:43:15]  src: /datum/component/mood (/datum/component/mood)
+[20:43:15]  usr.loc: the volcanic floor (134,55,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[20:43:15]  call stack:
+[20:43:15]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:43:15]Janiyah Aggley\'s head (/obj/item/bodypart/head): drop limb(null)
+[20:43:15]Janiyah Aggley\'s head (/obj/item/bodypart/head): drop limb(null)
+[20:43:15]Janiyah Aggley\'s head (/obj/item/bodypart/head): dismember("brute")
+[20:43:15]Lizardperson (/datum/species/lizard): spec attacked by(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human), Janiyah Aggley\'s head (/obj/item/bodypart/head), "help", Unknown (/mob/living/carbon/human))
+[20:43:15]Unknown (/mob/living/carbon/human): attacked by(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human))
+[20:43:15]the officer\'s sabre (/obj/item/melee/sabre): attack(Unknown (/mob/living/carbon/human), Cristopher Digson (/mob/living/carbon/human))
+[20:43:15]Unknown (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human), "icon-x=15;icon-y=20;left=1;scr...")
+[20:43:15]Unknown (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human), "icon-x=15;icon-y=20;left=1;scr...")
+[20:43:15]the officer\'s sabre (/obj/item/melee/sabre): melee attack chain(Cristopher Digson (/mob/living/carbon/human), Unknown (/mob/living/carbon/human), "icon-x=15;icon-y=20;left=1;scr...")
+[20:43:15]Cristopher Digson (/mob/living/carbon/human): ClickOn(Unknown (/mob/living/carbon/human), "icon-x=15;icon-y=20;left=1;scr...")
+[20:43:15]Unknown (/mob/living/carbon/human): Click(the volcanic floor (134,56,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), "mapwindow.map", "icon-x=15;icon-y=20;left=1;scr...")
+runtime error: 
+[20:43:32]Cannot create objects of type null.
+[20:43:32]proc name: add event (/datum/component/mood/proc/add_event)
+[20:43:32]  source file: mood.dm,91
+[20:43:32]  usr: Cristopher Digson (/mob/living/carbon/human)
+[20:43:32]  src: /datum/component/mood (/datum/component/mood)
+[20:43:32]  usr.loc: the volcanic floor (134,55,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[20:43:32]  call stack:
+[20:43:32]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:43:32]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[20:43:32]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[20:43:32]the left arm (/obj/item/bodypart/l_arm): dismember("brute")
+[20:43:32]Lizardperson (/datum/species/lizard): spec attacked by(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human), the left arm (/obj/item/bodypart/l_arm), "help", Unknown (/mob/living/carbon/human))
+[20:43:32]Unknown (/mob/living/carbon/human): attacked by(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human))
+[20:43:32]the officer\'s sabre (/obj/item/melee/sabre): attack(Unknown (/mob/living/carbon/human), Cristopher Digson (/mob/living/carbon/human))
+[20:43:32]Unknown (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human), "icon-x=21;icon-y=3;left=1;scre...")
+[20:43:32]Unknown (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human), "icon-x=21;icon-y=3;left=1;scre...")
+[20:43:32]the officer\'s sabre (/obj/item/melee/sabre): melee attack chain(Cristopher Digson (/mob/living/carbon/human), Unknown (/mob/living/carbon/human), "icon-x=21;icon-y=3;left=1;scre...")
+[20:43:32]Cristopher Digson (/mob/living/carbon/human): ClickOn(Unknown (/mob/living/carbon/human), "icon-x=21;icon-y=3;left=1;scre...")
+[20:43:32]Unknown (/mob/living/carbon/human): Click(the volcanic floor (134,56,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), "mapwindow.map", "icon-x=21;icon-y=3;left=1;scre...")
+runtime error: 
+[20:43:33]Cannot create objects of type null.
+[20:43:33]proc name: add event (/datum/component/mood/proc/add_event)
+[20:43:33]  source file: mood.dm,91
+[20:43:33]  usr: 0
+[20:43:33]  src: /datum/component/mood (/datum/component/mood)
+[20:43:33]  call stack:
+[20:43:33]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:43:33]the right leg (/obj/item/bodypart/r_leg): drop limb(1)
+[20:43:33]the right leg (/obj/item/bodypart/r_leg): drop limb(1)
+[20:43:33]Flint Armstrong (/mob/living/carbon/human): Digitigrade Leg Swap(0)
+[20:43:33]Ash Walker (/datum/species/lizard/ashwalker): on species gain(Flint Armstrong (/mob/living/carbon/human), Human (/datum/species/human))
+[20:43:33]Flint Armstrong (/mob/living/carbon/human): set species(/datum/species/lizard/ashwalke... (/datum/species/lizard/ashwalker), 1)
+[20:43:33]Flint Armstrong (/mob/living/carbon/human): set species(/datum/species/lizard/ashwalke... (/datum/species/lizard/ashwalker), 1)
+[20:43:33]Unknown (/obj/effect/mob_spawn/human/corpse/damaged/legioninfested): equip(Flint Armstrong (/mob/living/carbon/human))
+[20:43:33]Unknown (/obj/effect/mob_spawn/human/corpse/damaged/legioninfested): create(null, null)
+[20:43:33]Unknown (/obj/effect/mob_spawn/human/corpse/damaged/legioninfested): Initialize(0)
+[20:43:33]...
+[20:43:33]the legion (/mob/living/simple_animal/hostile/asteroid/hivelord/legion/random): adjustHealth(40, 1, 0)
+[20:43:33]the legion (/mob/living/simple_animal/hostile/asteroid/hivelord/legion/random): adjustBruteLoss(40, 1, 0)
+[20:43:33]the legion (/mob/living/simple_animal/hostile/asteroid/hivelord/legion/random): bullet act(the kinetic force (/obj/item/projectile/kinetic), "head")
+[20:43:33]the legion (/mob/living/simple_animal/hostile/asteroid/hivelord/legion/random): bullet act(the kinetic force (/obj/item/projectile/kinetic), "head")
+[20:43:33]the volcanic floor (135,63,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface): Enter(the kinetic force (/obj/item/projectile/kinetic), the volcanic floor (135,62,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface))
+[20:43:33]the kinetic force (/obj/item/projectile/kinetic): pixel move(2, 1, 0)
+[20:43:33]Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[20:43:33]Master (/datum/controller/master): RunQueue()
+[20:43:33]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:43:33]Cannot create objects of type null.
+[20:43:33]proc name: add event (/datum/component/mood/proc/add_event)
+[20:43:33]  source file: mood.dm,91
+[20:43:33]  usr: 0
+[20:43:33]  src: /datum/component/mood (/datum/component/mood)
+[20:43:33]  call stack:
+[20:43:33]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:43:33]the left leg (/obj/item/bodypart/l_leg): drop limb(1)
+[20:43:33]the left leg (/obj/item/bodypart/l_leg): drop limb(1)
+[20:43:33]Flint Armstrong (/mob/living/carbon/human): Digitigrade Leg Swap(0)
+[20:43:33]Ash Walker (/datum/species/lizard/ashwalker): on species gain(Flint Armstrong (/mob/living/carbon/human), Human (/datum/species/human))
+[20:43:33]Flint Armstrong (/mob/living/carbon/human): set species(/datum/species/lizard/ashwalke... (/datum/species/lizard/ashwalker), 1)
+[20:43:33]Flint Armstrong (/mob/living/carbon/human): set species(/datum/species/lizard/ashwalke... (/datum/species/lizard/ashwalker), 1)
+[20:43:33]Unknown (/obj/effect/mob_spawn/human/corpse/damaged/legioninfested): equip(Flint Armstrong (/mob/living/carbon/human))
+[20:43:33]Unknown (/obj/effect/mob_spawn/human/corpse/damaged/legioninfested): create(null, null)
+[20:43:33]Unknown (/obj/effect/mob_spawn/human/corpse/damaged/legioninfested): Initialize(0)
+[20:43:33]...
+[20:43:33]the legion (/mob/living/simple_animal/hostile/asteroid/hivelord/legion/random): adjustHealth(40, 1, 0)
+[20:43:33]the legion (/mob/living/simple_animal/hostile/asteroid/hivelord/legion/random): adjustBruteLoss(40, 1, 0)
+[20:43:33]the legion (/mob/living/simple_animal/hostile/asteroid/hivelord/legion/random): bullet act(the kinetic force (/obj/item/projectile/kinetic), "head")
+[20:43:33]the legion (/mob/living/simple_animal/hostile/asteroid/hivelord/legion/random): bullet act(the kinetic force (/obj/item/projectile/kinetic), "head")
+[20:43:33]the volcanic floor (135,63,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface): Enter(the kinetic force (/obj/item/projectile/kinetic), the volcanic floor (135,62,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface))
+[20:43:33]the kinetic force (/obj/item/projectile/kinetic): pixel move(2, 1, 0)
+[20:43:33]Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[20:43:33]Master (/datum/controller/master): RunQueue()
+[20:43:33]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:43:37]Cannot create objects of type null.
+[20:43:37]proc name: add event (/datum/component/mood/proc/add_event)
+[20:43:37]  source file: mood.dm,91
+[20:43:37]  usr: Cristopher Digson (/mob/living/carbon/human)
+[20:43:37]  src: /datum/component/mood (/datum/component/mood)
+[20:43:37]  usr.loc: the volcanic floor (134,62,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[20:43:37]  call stack:
+[20:43:37]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:43:37]Flint Armstrong\'s head (/obj/item/bodypart/head): drop limb(null)
+[20:43:37]Flint Armstrong\'s head (/obj/item/bodypart/head): drop limb(null)
+[20:43:37]Flint Armstrong\'s head (/obj/item/bodypart/head): dismember("brute")
+[20:43:37]Ash Walker (/datum/species/lizard/ashwalker): spec attacked by(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human), Flint Armstrong\'s head (/obj/item/bodypart/head), "help", Unknown (/mob/living/carbon/human))
+[20:43:37]Unknown (/mob/living/carbon/human): attacked by(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human))
+[20:43:37]the officer\'s sabre (/obj/item/melee/sabre): attack(Unknown (/mob/living/carbon/human), Cristopher Digson (/mob/living/carbon/human))
+[20:43:37]Unknown (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human), "icon-x=15;icon-y=25;left=1;scr...")
+[20:43:37]Unknown (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Cristopher Digson (/mob/living/carbon/human), "icon-x=15;icon-y=25;left=1;scr...")
+[20:43:37]the officer\'s sabre (/obj/item/melee/sabre): melee attack chain(Cristopher Digson (/mob/living/carbon/human), Unknown (/mob/living/carbon/human), "icon-x=15;icon-y=25;left=1;scr...")
+[20:43:37]Cristopher Digson (/mob/living/carbon/human): ClickOn(Unknown (/mob/living/carbon/human), "icon-x=15;icon-y=25;left=1;scr...")
+[20:43:37]Unknown (/mob/living/carbon/human): Click(the volcanic floor (135,63,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), "mapwindow.map", "icon-x=15;icon-y=25;left=1;scr...")
+runtime error: 
+[20:45:04]Cannot create objects of type null.
+[20:45:04]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:04]  source file: mood.dm,91
+[20:45:04]  usr: null
+[20:45:04]  src: /datum/component/mood (/datum/component/mood)
+[20:45:04]  call stack:
+[20:45:04]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:45:04]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[20:45:04]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[20:45:04]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:45:04]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:45:04]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:45:04]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): devour(Unknown (/mob/living/carbon/human))
+[20:45:04]/datum/callback (/datum/callback): InvokeAsync()
+[20:45:04]Timer (/datum/controller/subsystem/timer): fire(0)
+[20:45:04]Timer (/datum/controller/subsystem/timer): ignite(0)
+[20:45:04]Master (/datum/controller/master): RunQueue()
+[20:45:04]Master (/datum/controller/master): Loop()
+[20:45:04]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:45:04]Cannot create objects of type null.
+[20:45:04]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:04]  source file: mood.dm,91
+[20:45:04]  usr: null
+[20:45:04]  src: /datum/component/mood (/datum/component/mood)
+[20:45:04]  call stack:
+[20:45:04]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:45:04]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[20:45:04]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[20:45:04]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:45:04]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:45:04]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:45:04]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): devour(Unknown (/mob/living/carbon/human))
+[20:45:04]/datum/callback (/datum/callback): InvokeAsync()
+[20:45:04]Timer (/datum/controller/subsystem/timer): fire(0)
+[20:45:04]Timer (/datum/controller/subsystem/timer): ignite(0)
+[20:45:04]Master (/datum/controller/master): RunQueue()
+[20:45:04]Master (/datum/controller/master): Loop()
+[20:45:04]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:45:12]Cannot create objects of type null.
+[20:45:12]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:12]  source file: mood.dm,91
+[20:45:12]  usr: null
+[20:45:12]  src: /datum/component/mood (/datum/component/mood)
+[20:45:12]  call stack:
+[20:45:12]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:45:12]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[20:45:12]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[20:45:12]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:45:12]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:45:12]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): devour(Unknown (/mob/living/carbon/human))
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): AttackingTarget()
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): AttackingTarget()
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): MoveToTarget(/list (/list))
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): handle automated action()
+[20:45:12]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[20:45:12]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[20:45:12]Master (/datum/controller/master): RunQueue()
+[20:45:12]Master (/datum/controller/master): Loop()
+[20:45:12]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:45:12]Cannot create objects of type null.
+[20:45:12]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:12]  source file: mood.dm,91
+[20:45:12]  usr: null
+[20:45:12]  src: /datum/component/mood (/datum/component/mood)
+[20:45:12]  call stack:
+[20:45:12]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:45:12]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[20:45:12]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[20:45:12]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:45:12]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:45:12]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): devour(Unknown (/mob/living/carbon/human))
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): AttackingTarget()
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): AttackingTarget()
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): MoveToTarget(/list (/list))
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): handle automated action()
+[20:45:12]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[20:45:12]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[20:45:12]Master (/datum/controller/master): RunQueue()
+[20:45:12]Master (/datum/controller/master): Loop()
+[20:45:12]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:45:12]Cannot create objects of type null.
+[20:45:12]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:12]  source file: mood.dm,91
+[20:45:12]  usr: null
+[20:45:12]  src: /datum/component/mood (/datum/component/mood)
+[20:45:12]  call stack:
+[20:45:12]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:45:12]the right digitigrade leg (/obj/item/bodypart/r_leg/digitigrade): drop limb(null)
+[20:45:12]the right digitigrade leg (/obj/item/bodypart/r_leg/digitigrade): drop limb(null)
+[20:45:12]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:45:12]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:45:12]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): devour(Unknown (/mob/living/carbon/human))
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): AttackingTarget()
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): AttackingTarget()
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): MoveToTarget(/list (/list))
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): handle automated action()
+[20:45:12]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[20:45:12]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[20:45:12]Master (/datum/controller/master): RunQueue()
+[20:45:12]Master (/datum/controller/master): Loop()
+[20:45:12]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:45:12]Cannot create objects of type null.
+[20:45:12]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:12]  source file: mood.dm,91
+[20:45:12]  usr: null
+[20:45:12]  src: /datum/component/mood (/datum/component/mood)
+[20:45:12]  call stack:
+[20:45:12]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:45:12]the left digitigrade leg (/obj/item/bodypart/l_leg/digitigrade): drop limb(null)
+[20:45:12]the left digitigrade leg (/obj/item/bodypart/l_leg/digitigrade): drop limb(null)
+[20:45:12]Unknown (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:45:12]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:45:12]Unknown (/mob/living/carbon/human): gib(null, null, null)
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): devour(Unknown (/mob/living/carbon/human))
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): AttackingTarget()
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): AttackingTarget()
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): MoveToTarget(/list (/list))
+[20:45:12]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): handle automated action()
+[20:45:12]NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[20:45:12]NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[20:45:12]Master (/datum/controller/master): RunQueue()
+[20:45:12]Master (/datum/controller/master): Loop()
+[20:45:12]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:45:24]addtimer called with a callback assigned to a qdeleted object
+[20:45:24]proc name: stack trace (/proc/stack_trace)
+[20:45:24]  source file: unsorted.dm,1254
+[20:45:24]  usr: (src)
+[20:45:24]  src: null
+[20:45:24]  call stack:
+[20:45:24]stack trace("addtimer called with a callbac...")
+[20:45:24]addtimer(/datum/callback (/datum/callback), 20, 0)
+[20:45:24]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[20:45:24]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[20:45:25]addtimer called with a callback assigned to a qdeleted object
+[20:45:25]proc name: stack trace (/proc/stack_trace)
+[20:45:25]  source file: unsorted.dm,1254
+[20:45:25]  usr: (src)
+[20:45:25]  src: null
+[20:45:25]  call stack:
+[20:45:25]stack trace("addtimer called with a callbac...")
+[20:45:25]addtimer(/datum/callback (/datum/callback), 20, 0)
+[20:45:25]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[20:45:25]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[20:45:51]Cannot create objects of type null.
+[20:45:51]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:51]  source file: mood.dm,91
+[20:45:51]  usr: null
+[20:45:51]  src: /datum/component/mood (/datum/component/mood)
+[20:45:51]  call stack:
+[20:45:51]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[20:45:51]Cristopher Digson\'s head (/obj/item/bodypart/head): drop limb(null)
+[20:45:51]Cristopher Digson\'s head (/obj/item/bodypart/head): drop limb(null)
+[20:45:51]Cristopher Digson (/mob/living/carbon/human): spread bodyparts(null, null)
+[20:45:51]Cristopher Digson (/mob/living/carbon/human): gib(null, null, null)
+[20:45:51]Cristopher Digson (/mob/living/carbon/human): gib(null, null, null)
+[20:45:51]the bubblegum (/mob/living/simple_animal/hostile/megafauna/bubblegum): devour(Cristopher Digson (/mob/living/carbon/human))
+[20:45:51]/datum/callback (/datum/callback): InvokeAsync()
+[20:45:51]Timer (/datum/controller/subsystem/timer): fire(0)
+[20:45:51]Timer (/datum/controller/subsystem/timer): ignite(0)
+[20:45:51]Master (/datum/controller/master): RunQueue()
+[20:45:51]Master (/datum/controller/master): Loop()
+[20:45:51]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[20:45:51]Cannot create objects of type null.
+[20:45:51]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:51]  source file: mood.dm,91
+runtime error: 
+[20:45:51]Cannot create objects of type null.
+[20:45:51]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:51]  source file: mood.dm,91
+runtime error: 
+[20:45:51]Cannot create objects of type null.
+[20:45:51]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:51]  source file: mood.dm,91
+runtime error: 
+[20:45:51]Cannot create objects of type null.
+[20:45:51]proc name: add event (/datum/component/mood/proc/add_event)
+[20:45:51]  source file: mood.dm,91
+runtime error: 
+[20:46:12]Cannot execute null.CanPass().
+[20:46:12]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[20:46:12]  source file: reagent_containers.dm,83
+runtime error: 
+[20:49:06]Cannot create objects of type null.
+[20:49:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:49:06]  source file: mood.dm,91
+runtime error: 
+[20:49:06]Cannot create objects of type null.
+[20:49:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:49:06]  source file: mood.dm,91
+runtime error: 
+[20:49:06]Cannot create objects of type null.
+[20:49:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:49:06]  source file: mood.dm,91
+runtime error: 
+[20:49:06]Cannot create objects of type null.
+[20:49:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:49:06]  source file: mood.dm,91
+runtime error: 
+[20:49:06]Cannot create objects of type null.
+[20:49:06]proc name: add event (/datum/component/mood/proc/add_event)
+[20:49:06]  source file: mood.dm,91
+[2018-03-20 21:13:23] Client: XEvilXHybridX triggered JS error: Error: The URI to be decoded is not a valid encoding | url: http://127.0.0.1:18451/tmp41076/browserOutput.js | line: 116 | column: 2 | error: URIError: The URI to be decoded is not a valid encoding | user agent: Mozilla/4.0 (compatible; MSIE 7.0; connectpro; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+[2018-03-20 21:13:23] Client: BRhunter45 triggered JS error: Error: O URI a ser decodificado não é uma codificação válida | url: http://127.0.0.1:50627/tmp6320/browserOutput.js | line: 116 | column: 2 | error: URIError: O URI a ser decodificado não é uma codificação válida | user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+runtime error: 
+[21:22:03]undefined proc or verb /turf/open/floor/plating/try destroy().
+
+[21:22:03]proc name: attackby (/turf/closed/wall/attackby)
+[21:22:03]  source file: walls.dm,187
+runtime error: 
+[21:23:01]Cannot create objects of type null.
+[21:23:01]proc name: add event (/datum/component/mood/proc/add_event)
+[21:23:01]  source file: mood.dm,91
+runtime error: 
+[21:23:01]Cannot create objects of type null.
+[21:23:01]proc name: add event (/datum/component/mood/proc/add_event)
+[21:23:01]  source file: mood.dm,91
+runtime error: 
+[21:23:01]Cannot create objects of type null.
+[21:23:01]proc name: add event (/datum/component/mood/proc/add_event)
+[21:23:01]  source file: mood.dm,91
+runtime error: 
+[21:23:01]Cannot create objects of type null.
+[21:23:01]proc name: add event (/datum/component/mood/proc/add_event)
+[21:23:01]  source file: mood.dm,91
+runtime error: 
+[21:23:01]Cannot create objects of type null.
+[21:23:01]proc name: add event (/datum/component/mood/proc/add_event)
+[21:23:01]  source file: mood.dm,91
+runtime error: 
+[21:43:35]Cannot create objects of type null.
+[21:43:35]proc name: add event (/datum/component/mood/proc/add_event)
+[21:43:35]  source file: mood.dm,91
+runtime error: 
+[21:43:35]Cannot create objects of type null.
+[21:43:35]proc name: add event (/datum/component/mood/proc/add_event)
+[21:43:35]  source file: mood.dm,91
+runtime error: 
+[21:43:35]Cannot create objects of type null.
+[21:43:35]proc name: add event (/datum/component/mood/proc/add_event)
+[21:43:35]  source file: mood.dm,91
+runtime error: 
+[21:43:35]Cannot create objects of type null.
+[21:43:35]proc name: add event (/datum/component/mood/proc/add_event)
+[21:43:35]  source file: mood.dm,91
+runtime error: 
+[21:46:43]file not found: strings/brain_damage_lines.json
+[21:46:43]proc name: load strings file (/proc/load_strings_file)
+[21:46:43]  source file: _string_lists.dm,41
+runtime error: 
+[21:46:43]strings list not found: strings/brain_damage_lines.json, index=brain_damage
+[21:46:43]proc name: strings replacement (/proc/strings_replacement)
+[21:46:43]  source file: _string_lists.dm,18
+runtime error: 
+[21:53:48]list index out of bounds
+[21:53:48]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[21:53:48]  source file: aurora_caelus.dm,39
+runtime error: 
+[21:55:37]No valid destination passed into forceMove
+[21:55:37]proc name: forceMove (/atom/movable/proc/forceMove)
+[21:55:37]  source file: atoms_movable.dm,314
+runtime error: 
+[21:55:37]Cannot read null.x
+[21:55:37]proc name: fire (/obj/item/projectile/proc/fire)
+[21:55:37]  source file: projectile.dm,353
+runtime error: 
+[21:55:39]No valid destination passed into forceMove
+[21:55:39]proc name: forceMove (/atom/movable/proc/forceMove)
+[21:55:39]  source file: atoms_movable.dm,314
+runtime error: 
+[21:55:39]Cannot read null.x
+[21:55:39]proc name: fire (/obj/item/projectile/proc/fire)
+[21:55:39]  source file: projectile.dm,353
+runtime error: 
+[21:55:43]No valid destination passed into forceMove
+[21:55:43]proc name: forceMove (/atom/movable/proc/forceMove)
+[21:55:43]  source file: atoms_movable.dm,314
+runtime error: 
+[21:55:43]Cannot read null.x
+[21:55:43]proc name: fire (/obj/item/projectile/proc/fire)
+[21:55:43]  source file: projectile.dm,353
+runtime error: 
+[21:55:45]No valid destination passed into forceMove
+[21:55:45]proc name: forceMove (/atom/movable/proc/forceMove)
+[21:55:45]  source file: atoms_movable.dm,314
+runtime error: 
+[21:55:45]Cannot read null.x
+[21:55:45]proc name: fire (/obj/item/projectile/proc/fire)
+[21:55:45]  source file: projectile.dm,353
+runtime error: 
+[21:55:49]No valid destination passed into forceMove
+[21:55:49]proc name: forceMove (/atom/movable/proc/forceMove)
+[21:55:49]  source file: atoms_movable.dm,314
+runtime error: 
+[21:55:49]Cannot read null.x
+[21:55:49]proc name: fire (/obj/item/projectile/proc/fire)
+[21:55:49]  source file: projectile.dm,353
+runtime error: 
+[21:55:51]No valid destination passed into forceMove
+[21:55:51]proc name: forceMove (/atom/movable/proc/forceMove)
+[21:55:51]  source file: atoms_movable.dm,314
+runtime error: 
+[21:55:51]Cannot read null.x
+[21:55:51]proc name: fire (/obj/item/projectile/proc/fire)
+[21:55:51]  source file: projectile.dm,353
+runtime error: 
+[21:55:53]No valid destination passed into forceMove
+[21:55:53]proc name: forceMove (/atom/movable/proc/forceMove)
+[21:55:53]  source file: atoms_movable.dm,314
+runtime error: 
+[21:55:53]Cannot read null.x
+[21:55:53]proc name: fire (/obj/item/projectile/proc/fire)
+[21:55:53]  source file: projectile.dm,353
+runtime error: 
+[21:55:57]No valid destination passed into forceMove
+[21:55:57]proc name: forceMove (/atom/movable/proc/forceMove)
+[21:55:57]  source file: atoms_movable.dm,314
+runtime error: 
+[21:55:57]Cannot read null.x
+[21:55:57]proc name: fire (/obj/item/projectile/proc/fire)
+[21:55:57]  source file: projectile.dm,353
+runtime error: 
+[21:57:26]Cannot read null.revivecost
+[21:57:26]proc name: update power (/obj/item/defibrillator/proc/update_power)
+[21:57:26]  source file: defib.dm,50
+runtime error: 
+[22:01:04]Cannot create objects of type null.
+[22:01:04]proc name: add event (/datum/component/mood/proc/add_event)
+[22:01:04]  source file: mood.dm,91
+runtime error: 
+[22:01:04]Cannot create objects of type null.
+[22:01:04]proc name: add event (/datum/component/mood/proc/add_event)
+[22:01:04]  source file: mood.dm,91
+runtime error: 
+[22:01:08]Cannot create objects of type null.
+[22:01:08]proc name: add event (/datum/component/mood/proc/add_event)
+[22:01:08]  source file: mood.dm,91
+runtime error: 
+[22:01:08]Cannot create objects of type null.
+[22:01:08]proc name: add event (/datum/component/mood/proc/add_event)
+[22:01:08]  source file: mood.dm,91
+runtime error: 
+[22:01:08]Cannot create objects of type null.
+[22:01:08]proc name: add event (/datum/component/mood/proc/add_event)
+[22:01:08]  source file: mood.dm,91
+runtime error: 
+[22:01:08]Cannot create objects of type null.
+[22:01:08]proc name: add event (/datum/component/mood/proc/add_event)
+[22:01:08]  source file: mood.dm,91
+runtime error: 
+[22:01:44]Cannot create objects of type null.
+[22:01:44]proc name: add event (/datum/component/mood/proc/add_event)
+[22:01:44]  source file: mood.dm,91
+runtime error: 
+[22:01:44]Cannot create objects of type null.
+[22:01:44]proc name: add event (/datum/component/mood/proc/add_event)
+[22:01:44]  source file: mood.dm,91
+runtime error: 
+[22:01:44]Cannot create objects of type null.
+[22:01:44]proc name: add event (/datum/component/mood/proc/add_event)
+[22:01:44]  source file: mood.dm,91
+runtime error: 
+[22:01:44]Cannot create objects of type null.
+[22:01:44]proc name: add event (/datum/component/mood/proc/add_event)
+[22:01:44]  source file: mood.dm,91
+runtime error: 
+[22:13:37]Cannot create objects of type null.
+[22:13:37]proc name: add event (/datum/component/mood/proc/add_event)
+[22:13:37]  source file: mood.dm,91
+runtime error: 
+[22:13:37]Cannot create objects of type null.
+[22:13:37]proc name: add event (/datum/component/mood/proc/add_event)
+[22:13:37]  source file: mood.dm,91
+runtime error: 
+[22:25:23]Cannot create objects of type null.
+[22:25:23]proc name: add event (/datum/component/mood/proc/add_event)
+[22:25:23]  source file: mood.dm,91
+runtime error: 
+[22:25:23]Cannot create objects of type null.
+[22:25:23]proc name: add event (/datum/component/mood/proc/add_event)
+[22:25:23]  source file: mood.dm,91
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/cyan/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (118, 70, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/cyan/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (117, 71, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/cyan/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (118, 69, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/cyan/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (116, 71, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/cyan/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (118, 68, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/cyan/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (115, 71, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/cyan/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (118, 67, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/cyan/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (114, 71, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/cyan/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (118, 66, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/cyan/visible added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (114, 70, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+runtime error: 
+[22:31:28]Cannot read null.parents
+[22:31:28]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[22:31:28]  source file: components_base.dm,91
+runtime error: 
+[22:31:28]Cannot execute null.addMember().
+[22:31:28]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[22:31:28]  source file: datum_pipeline.dm,130
+runtime error: 
+[22:33:34]Cannot read null.parents
+[22:33:34]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[22:33:34]  source file: components_base.dm,91
+runtime error: 
+[22:33:34]Cannot execute null.addMember().
+[22:33:34]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[22:33:34]  source file: datum_pipeline.dm,130
+runtime error: 
+[22:35:46]Cannot read null.parents
+[22:35:46]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[22:35:46]  source file: components_base.dm,91
+runtime error: 
+[22:35:46]Cannot execute null.addMember().
+[22:35:46]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[22:35:46]  source file: datum_pipeline.dm,130
+runtime error: 
+[22:36:24]Cannot execute null.remove reagent().
+[22:36:24]proc name: on mob life (/datum/reagent/consumable/on_mob_life)
+[22:36:24]  source file: food_reagents.dm,20
+runtime error: 
+[22:37:24]Cannot read null.parents
+[22:37:24]proc name: returnPipenet (/obj/machinery/atmospherics/components/returnPipenet)
+[22:37:24]  source file: components_base.dm,91
+runtime error: 
+[22:37:24]Cannot execute null.addMember().
+[22:37:24]proc name: addMember (/obj/machinery/atmospherics/components/addMember)
+[22:37:24]  source file: datum_pipeline.dm,130
+runtime error: 
+[22:38:13]Cannot execute null.remove reagent().
+[22:38:13]proc name: on mob life (/datum/reagent/consumable/on_mob_life)
+[22:38:13]  source file: food_reagents.dm,20
+runtime error: 
+[22:57:08]Cannot create objects of type null.
+[22:57:08]proc name: add event (/datum/component/mood/proc/add_event)
+[22:57:08]  source file: mood.dm,91
+runtime error: 
+[22:57:08]Cannot create objects of type null.
+[22:57:08]proc name: add event (/datum/component/mood/proc/add_event)
+[22:57:08]  source file: mood.dm,91
+runtime error: 
+[22:57:08]Cannot create objects of type null.
+[22:57:08]proc name: add event (/datum/component/mood/proc/add_event)
+[22:57:08]  source file: mood.dm,91
+runtime error: 
+[22:57:08]Cannot create objects of type null.
+[22:57:08]proc name: add event (/datum/component/mood/proc/add_event)
+[22:57:08]  source file: mood.dm,91
+runtime error: 
+[22:57:08]Cannot create objects of type null.
+[22:57:08]proc name: add event (/datum/component/mood/proc/add_event)
+[22:57:08]  source file: mood.dm,91
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 22:58:13

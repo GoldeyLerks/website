@@ -1,0 +1,705 @@
+
+
+Starting up round ID 54. 14:25:34
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0.1 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Box Station...
+Loaded Station in 6.5s!
+Loaded Lavaland in 6.3s!
+Loaded Reebe in 7.1s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 31 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[14:26:34]Cannot execute null.copy from().
+[14:26:34]proc name: Assimilate Air (/turf/open/proc/Assimilate_Air)
+[14:26:34]  source file: ChangeTurf.dm,263
+[14:26:34]  usr: null
+[14:26:34]  src: the asteroid sand (70,61,4) (/turf/open/floor/plating/asteroid/airless/cave)
+[14:26:34]  call stack:
+[14:26:34]the asteroid sand (70,61,4) (/turf/open/floor/plating/asteroid/airless/cave): Assimilate Air()
+[14:26:34]the asteroid sand (70,61,4) (/turf/open/floor/plating/asteroid/airless/cave): AfterChange(0)
+[14:26:34]the asteroid sand (70,61,4) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[14:26:34]the asteroid sand (70,61,4) (/turf/open/floor/plating/asteroid/airless/cave): ChangeTurf(/turf/open/floor/plating/aster... (/turf/open/floor/plating/asteroid/airless/cave), 0, 0, 1)
+[14:26:34]the asteroid sand (70,61,4) (/turf/open/floor/plating/asteroid/airless/cave): Initialize(1)
+[14:26:34]Atoms (/datum/controller/subsystem/atoms): InitAtom(the asteroid sand (70,61,4) (/turf/open/floor/plating/asteroid/airless/cave), /list (/list))
+[14:26:34]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[14:26:34]Atoms (/datum/controller/subsystem/atoms): Initialize(663676)
+[14:26:34]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 47.8 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.3 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Weather subsystem within 0 seconds!
+runtime error: 
+[14:27:00]Cannot execute null.compare().
+[14:27:00]proc name: Initalize Atmos (/turf/open/Initalize_Atmos)
+[14:27:00]  source file: open.dm,137
+[14:27:00]  usr: null
+[14:27:00]  src: the asteroid sand (70,61,4) (/turf/open/floor/plating/asteroid/airless/cave)
+[14:27:00]  call stack:
+[14:27:00]the asteroid sand (70,61,4) (/turf/open/floor/plating/asteroid/airless/cave): Initalize Atmos(1)
+[14:27:00]Atmospherics (/datum/controller/subsystem/air): setup allturfs()
+[14:27:00]Atmospherics (/datum/controller/subsystem/air): Initialize(664159)
+[14:27:00]Master (/datum/controller/master): Initialize(10, 0)
+## WARNING: There are 11 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 11 turf(s) (connected to 20192 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 15.8 seconds!
+Initialized Minimap subsystem within 0.1 seconds!
+Initialized Assets subsystem within 0.9 seconds!
+Initialized Icon Smoothing subsystem within 6.1 seconds!
+Initialized Overlay subsystem within 19.4 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Lighting subsystem within 14.1 seconds!
+Initialized Shuttle subsystem within 24.1 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Loaded 0 engraved messages on map Box Station
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 160.4 seconds!
+Game start took 4.9s
+runtime error: 
+[14:38:00]list index out of bounds
+[14:38:00]proc name: tick (/datum/round_event/aurora_caelus/tick)
+[14:38:00]  source file: aurora_caelus.dm,39
+[14:38:00]  usr: null
+[14:38:00]  src: /datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus)
+[14:38:00]  call stack:
+[14:38:00]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): tick()
+[14:38:00]/datum/round_event/aurora_cael... (/datum/round_event/aurora_caelus): process()
+[14:38:00]Events (/datum/controller/subsystem/events): fire(0)
+[14:38:00]Events (/datum/controller/subsystem/events): ignite(0)
+[14:38:00]Master (/datum/controller/master): RunQueue()
+[14:38:00]Master (/datum/controller/master): Loop()
+[14:38:00]Master (/datum/controller/master): StartProcessing(0)
+runtime error: 
+[15:06:46]Cannot create objects of type null.
+[15:06:46]proc name: add event (/datum/component/mood/proc/add_event)
+[15:06:46]  source file: mood.dm,91
+[15:06:46]  usr: Melvin Lombardi (/mob/living/carbon/human)
+[15:06:46]  src: /datum/component/mood (/datum/component/mood)
+[15:06:46]  usr.loc: the plating (109,57,2) (/turf/open/floor/plating)
+[15:06:46]  call stack:
+[15:06:46]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[15:06:46]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[15:06:46]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[15:06:46]the left leg (/obj/item/bodypart/l_leg): dismember("brute")
+[15:06:46]Human (/datum/species/human): spec attacked by(the officer\'s sabre (/obj/item/melee/sabre), Melvin Lombardi (/mob/living/carbon/human), the left leg (/obj/item/bodypart/l_leg), "disarm", Nikolas Hoover (/mob/living/carbon/human))
+[15:06:46]Nikolas Hoover (/mob/living/carbon/human): attacked by(the officer\'s sabre (/obj/item/melee/sabre), Melvin Lombardi (/mob/living/carbon/human))
+[15:06:46]the officer\'s sabre (/obj/item/melee/sabre): attack(Nikolas Hoover (/mob/living/carbon/human), Melvin Lombardi (/mob/living/carbon/human))
+[15:06:46]Nikolas Hoover (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Melvin Lombardi (/mob/living/carbon/human), "icon-x=15;icon-y=14;left=1;scr...")
+[15:06:46]Nikolas Hoover (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Melvin Lombardi (/mob/living/carbon/human), "icon-x=15;icon-y=14;left=1;scr...")
+[15:06:46]the officer\'s sabre (/obj/item/melee/sabre): melee attack chain(Melvin Lombardi (/mob/living/carbon/human), Nikolas Hoover (/mob/living/carbon/human), "icon-x=15;icon-y=14;left=1;scr...")
+[15:06:46]Melvin Lombardi (/mob/living/carbon/human): ClickOn(Nikolas Hoover (/mob/living/carbon/human), "icon-x=15;icon-y=14;left=1;scr...")
+[15:06:46]Nikolas Hoover (/mob/living/carbon/human): Click(the floor (108,58,2) (/turf/open/floor/plasteel/dark), "mapwindow.map", "icon-x=15;icon-y=14;left=1;scr...")
+runtime error: 
+[15:06:47]Cannot create objects of type null.
+[15:06:47]proc name: add event (/datum/component/mood/proc/add_event)
+[15:06:47]  source file: mood.dm,91
+[15:06:47]  usr: Melvin Lombardi (/mob/living/carbon/human)
+[15:06:47]  src: /datum/component/mood (/datum/component/mood)
+[15:06:47]  usr.loc: the plating (109,57,2) (/turf/open/floor/plating)
+[15:06:47]  call stack:
+[15:06:47]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[15:06:47]Nikolas Hoover\'s head (/obj/item/bodypart/head): drop limb(null)
+[15:06:47]Nikolas Hoover\'s head (/obj/item/bodypart/head): drop limb(null)
+[15:06:47]Nikolas Hoover\'s head (/obj/item/bodypart/head): dismember("brute")
+[15:06:47]Human (/datum/species/human): spec attacked by(the officer\'s sabre (/obj/item/melee/sabre), Melvin Lombardi (/mob/living/carbon/human), Nikolas Hoover\'s head (/obj/item/bodypart/head), "disarm", Nikolas Hoover (/mob/living/carbon/human))
+[15:06:47]Nikolas Hoover (/mob/living/carbon/human): attacked by(the officer\'s sabre (/obj/item/melee/sabre), Melvin Lombardi (/mob/living/carbon/human))
+[15:06:47]the officer\'s sabre (/obj/item/melee/sabre): attack(Nikolas Hoover (/mob/living/carbon/human), Melvin Lombardi (/mob/living/carbon/human))
+[15:06:47]Nikolas Hoover (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Melvin Lombardi (/mob/living/carbon/human), "icon-x=15;icon-y=16;left=1;scr...")
+[15:06:47]Nikolas Hoover (/mob/living/carbon/human): attackby(the officer\'s sabre (/obj/item/melee/sabre), Melvin Lombardi (/mob/living/carbon/human), "icon-x=15;icon-y=16;left=1;scr...")
+[15:06:47]the officer\'s sabre (/obj/item/melee/sabre): melee attack chain(Melvin Lombardi (/mob/living/carbon/human), Nikolas Hoover (/mob/living/carbon/human), "icon-x=15;icon-y=16;left=1;scr...")
+[15:06:47]Melvin Lombardi (/mob/living/carbon/human): ClickOn(Nikolas Hoover (/mob/living/carbon/human), "icon-x=15;icon-y=16;left=1;scr...")
+[15:06:47]Nikolas Hoover (/mob/living/carbon/human): Click(the floor (108,58,2) (/turf/open/floor/plasteel/dark), "mapwindow.map", "icon-x=15;icon-y=16;left=1;scr...")
+## WARNING: couldn't find shuttle with id: syndie_cargo in code/controllers/subsystem/shuttle.dm at line 209 src: Shuttle usr: Sean Dennis.
+runtime error: 
+[15:21:25]addtimer called with a callback assigned to a qdeleted object
+[15:21:25]proc name: stack trace (/proc/stack_trace)
+[15:21:25]  source file: unsorted.dm,1254
+[15:21:25]  usr: (src)
+[15:21:25]  src: null
+[15:21:25]  call stack:
+[15:21:25]stack trace("addtimer called with a callbac...")
+[15:21:25]addtimer(/datum/callback (/datum/callback), 20, 0)
+[15:21:25]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[15:21:25]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[15:21:25]Cannot create objects of type null.
+[15:21:25]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:25]  source file: mood.dm,91
+[15:21:25]  usr: null
+[15:21:25]  src: /datum/component/mood (/datum/component/mood)
+[15:21:25]  call stack:
+[15:21:25]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[15:21:25]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[15:21:25]the left leg (/obj/item/bodypart/l_leg): drop limb(null)
+[15:21:25]the left leg (/obj/item/bodypart/l_leg): dismember("brute")
+[15:21:25]Jadon Gray (/mob/living/carbon/human): ex act(3, null, null)
+[15:21:25]the floor (155,131,5) (/turf/open/floor/plasteel/white/side): contents explosion(3, null)
+[15:21:25]the floor (155,131,5) (/turf/open/floor/plasteel/white/side): ex act(3, null)
+[15:21:25]the floor (155,131,5) (/turf/open/floor/plasteel/white/side): ex act(3, null)
+[15:21:25]/datum/explosion (/datum/explosion): New(the volcanic floor (160,140,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), 5, 10, 20, 5, 1, 0, 20, 0, 0)
+runtime error: 
+[15:21:26]addtimer called with a callback assigned to a qdeleted object
+[15:21:26]proc name: stack trace (/proc/stack_trace)
+[15:21:26]  source file: unsorted.dm,1254
+[15:21:26]  usr: (src)
+[15:21:26]  src: null
+[15:21:26]  call stack:
+[15:21:26]stack trace("addtimer called with a callbac...")
+[15:21:26]addtimer(/datum/callback (/datum/callback), 20, 0)
+[15:21:26]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[15:21:26]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[15:21:28]addtimer called with a callback assigned to a qdeleted object
+[15:21:28]proc name: stack trace (/proc/stack_trace)
+[15:21:28]  source file: unsorted.dm,1254
+[15:21:28]  usr: (src)
+[15:21:28]  src: null
+[15:21:28]  call stack:
+[15:21:28]stack trace("addtimer called with a callbac...")
+[15:21:28]addtimer(/datum/callback (/datum/callback), 20, 0)
+[15:21:28]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[15:21:28]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[15:21:29]addtimer called with a callback assigned to a qdeleted object
+[15:21:29]proc name: stack trace (/proc/stack_trace)
+[15:21:29]  source file: unsorted.dm,1254
+[15:21:29]  usr: (src)
+[15:21:29]  src: null
+[15:21:29]  call stack:
+[15:21:29]stack trace("addtimer called with a callbac...")
+[15:21:29]addtimer(/datum/callback (/datum/callback), 20, 0)
+[15:21:29]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[15:21:29]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[15:21:29]addtimer called with a callback assigned to a qdeleted object
+[15:21:29]proc name: stack trace (/proc/stack_trace)
+[15:21:29]  source file: unsorted.dm,1254
+[15:21:29]  usr: (src)
+[15:21:29]  src: null
+[15:21:29]  call stack:
+[15:21:29]stack trace("addtimer called with a callbac...")
+[15:21:29]addtimer(/datum/callback (/datum/callback), 20, 0)
+[15:21:29]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[15:21:29]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[15:21:29]Cannot create objects of type null.
+[15:21:29]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:29]  source file: mood.dm,91
+[15:21:29]  usr: null
+[15:21:29]  src: /datum/component/mood (/datum/component/mood)
+[15:21:29]  call stack:
+[15:21:29]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[15:21:29]Jadon Gray\'s head (/obj/item/bodypart/head): drop limb(null)
+[15:21:29]Jadon Gray\'s head (/obj/item/bodypart/head): drop limb(null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): spread bodyparts(null, null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): gib(null, null, null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): gib(null, null, null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): ex act(1, null, null)
+[15:21:29]the plating (155,131,5) (/turf/open/floor/plating): contents explosion(1, null)
+[15:21:29]the plating (155,131,5) (/turf/open/floor/plating): ex act(1, null)
+[15:21:29]the plating (155,131,5) (/turf/open/floor/plating): ex act(1, null)
+[15:21:29]/datum/explosion (/datum/explosion): New(the volcanic floor (158,129,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), 5, 10, 20, 5, 1, 0, 20, 0, 0)
+runtime error: 
+[15:21:29]Cannot create objects of type null.
+[15:21:29]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:29]  source file: mood.dm,91
+[15:21:29]  usr: null
+[15:21:29]  src: /datum/component/mood (/datum/component/mood)
+[15:21:29]  call stack:
+[15:21:29]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[15:21:29]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[15:21:29]the left arm (/obj/item/bodypart/l_arm): drop limb(null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): spread bodyparts(null, null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): gib(null, null, null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): gib(null, null, null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): ex act(1, null, null)
+[15:21:29]the plating (155,131,5) (/turf/open/floor/plating): contents explosion(1, null)
+[15:21:29]the plating (155,131,5) (/turf/open/floor/plating): ex act(1, null)
+[15:21:29]the plating (155,131,5) (/turf/open/floor/plating): ex act(1, null)
+[15:21:29]/datum/explosion (/datum/explosion): New(the volcanic floor (158,129,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), 5, 10, 20, 5, 1, 0, 20, 0, 0)
+runtime error: 
+[15:21:29]Cannot create objects of type null.
+[15:21:29]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:29]  source file: mood.dm,91
+[15:21:29]  usr: null
+[15:21:29]  src: /datum/component/mood (/datum/component/mood)
+[15:21:29]  call stack:
+[15:21:29]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[15:21:29]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[15:21:29]the right arm (/obj/item/bodypart/r_arm): drop limb(null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): spread bodyparts(null, null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): gib(null, null, null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): gib(null, null, null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): ex act(1, null, null)
+[15:21:29]the plating (155,131,5) (/turf/open/floor/plating): contents explosion(1, null)
+[15:21:29]the plating (155,131,5) (/turf/open/floor/plating): ex act(1, null)
+[15:21:29]the plating (155,131,5) (/turf/open/floor/plating): ex act(1, null)
+[15:21:29]/datum/explosion (/datum/explosion): New(the volcanic floor (158,129,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), 5, 10, 20, 5, 1, 0, 20, 0, 0)
+runtime error: 
+[15:21:29]Cannot create objects of type null.
+[15:21:29]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:29]  source file: mood.dm,91
+[15:21:29]  usr: null
+[15:21:29]  src: /datum/component/mood (/datum/component/mood)
+[15:21:29]  call stack:
+[15:21:29]/datum/component/mood (/datum/component/mood): add event("embedded", null, null)
+[15:21:29]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[15:21:29]the right leg (/obj/item/bodypart/r_leg): drop limb(null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): spread bodyparts(null, null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): gib(null, null, null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): gib(null, null, null)
+[15:21:29]Jadon Gray (/mob/living/carbon/human): ex act(1, null, null)
+[15:21:29]the plating (155,131,5) (/turf/open/floor/plating): contents explosion(1, null)
+[15:21:29]the plating (155,131,5) (/turf/open/floor/plating): ex act(1, null)
+[15:21:29]the plating (155,131,5) (/turf/open/floor/plating): ex act(1, null)
+[15:21:29]/datum/explosion (/datum/explosion): New(the volcanic floor (158,129,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), 5, 10, 20, 5, 1, 0, 20, 0, 0)
+runtime error: 
+[15:21:30]addtimer called with a callback assigned to a qdeleted object
+[15:21:30]proc name: stack trace (/proc/stack_trace)
+[15:21:30]  source file: unsorted.dm,1254
+[15:21:30]  usr: (src)
+[15:21:30]  src: null
+[15:21:30]  call stack:
+[15:21:30]stack trace("addtimer called with a callbac...")
+[15:21:30]addtimer(/datum/callback (/datum/callback), 20, 0)
+[15:21:30]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[15:21:30]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[15:21:30]addtimer called with a callback assigned to a qdeleted object
+[15:21:30]proc name: stack trace (/proc/stack_trace)
+[15:21:30]  source file: unsorted.dm,1254
+[15:21:30]  usr: (src)
+[15:21:30]  src: null
+[15:21:30]  call stack:
+[15:21:30]stack trace("addtimer called with a callbac...")
+[15:21:30]addtimer(/datum/callback (/datum/callback), 20, 0)
+[15:21:30]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[15:21:30]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[15:21:30]addtimer called with a callback assigned to a qdeleted object
+[15:21:30]proc name: stack trace (/proc/stack_trace)
+[15:21:30]  source file: unsorted.dm,1254
+[15:21:30]  usr: (src)
+[15:21:30]  src: null
+[15:21:30]  call stack:
+[15:21:30]stack trace("addtimer called with a callbac...")
+[15:21:30]addtimer(/datum/callback (/datum/callback), 20, 0)
+[15:21:30]/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[15:21:30]world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+runtime error: 
+[15:21:31]Cannot execute null.CanPass().
+[15:21:31]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:31]  source file: reagent_containers.dm,83
+[15:21:31]  usr: null
+[15:21:31]  src: Dutch hot coco (/obj/item/reagent_containers/food/drinks/mug/coco)
+[15:21:31]  src.loc: null
+[15:21:31]  call stack:
+[15:21:31]Dutch hot coco (/obj/item/reagent_containers/food/drinks/mug/coco): bartender check(null)
+[15:21:31]Dutch hot coco (/obj/item/reagent_containers/food/drinks/mug/coco): smash(null, null, 1)
+[15:21:31]Dutch hot coco (/obj/item/reagent_containers/food/drinks/mug/coco): throw impact(null, /datum/thrownthing (/datum/thrownthing))
+[15:21:31]/datum/thrownthing (/datum/thrownthing): finalize(0, null)
+[15:21:31]/datum/thrownthing (/datum/thrownthing): tick()
+[15:21:31]Dutch hot coco (/obj/item/reagent_containers/food/drinks/mug/coco): throw at(the lava (131,118,5) (/turf/open/lava/smooth/lava_land_surface), 16, 4, null, 1, 0, /datum/callback (/datum/callback))
+[15:21:31]Dutch hot coco (/obj/item/reagent_containers/food/drinks/mug/coco): throw at(the lava (131,118,5) (/turf/open/lava/smooth/lava_land_surface), 16, 4, null, 1, 0, /datum/callback (/datum/callback))
+[15:21:31]Dutch hot coco (/obj/item/reagent_containers/food/drinks/mug/coco): throw at(the lava (131,118,5) (/turf/open/lava/smooth/lava_land_surface), 16, 4, null, 1, 0, /datum/callback (/datum/callback))
+[15:21:31]/datum/explosion (/datum/explosion): New(the volcanic floor (157,147,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), 5, 10, 20, 5, 1, 0, 20, 0, 0)
+runtime error: 
+[15:21:33]Cannot execute null.CanPass().
+[15:21:33]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:33]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:34]addtimer called with a callback assigned to a qdeleted object
+[15:21:34]proc name: stack trace (/proc/stack_trace)
+[15:21:34]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:34]addtimer called with a callback assigned to a qdeleted object
+[15:21:34]proc name: stack trace (/proc/stack_trace)
+[15:21:34]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:35]addtimer called with a callback assigned to a qdeleted object
+[15:21:35]proc name: stack trace (/proc/stack_trace)
+[15:21:35]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:35]Cannot execute null.CanPass().
+[15:21:35]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:35]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:36]addtimer called with a callback assigned to a qdeleted object
+[15:21:36]proc name: stack trace (/proc/stack_trace)
+[15:21:36]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:36]Cannot execute null.CanPass().
+[15:21:36]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:36]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:38]addtimer called with a callback assigned to a qdeleted object
+[15:21:38]proc name: stack trace (/proc/stack_trace)
+[15:21:38]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:38]addtimer called with a callback assigned to a qdeleted object
+[15:21:38]proc name: stack trace (/proc/stack_trace)
+[15:21:38]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:38]addtimer called with a callback assigned to a qdeleted object
+[15:21:38]proc name: stack trace (/proc/stack_trace)
+[15:21:38]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:38]addtimer called with a callback assigned to a qdeleted object
+[15:21:38]proc name: stack trace (/proc/stack_trace)
+[15:21:38]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:39]Cannot create objects of type null.
+[15:21:39]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:39]  source file: mood.dm,91
+runtime error: 
+[15:21:39]Cannot create objects of type null.
+[15:21:39]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:39]  source file: mood.dm,91
+runtime error: 
+[15:21:39]Cannot create objects of type null.
+[15:21:39]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:39]  source file: mood.dm,91
+runtime error: 
+[15:21:39]Cannot create objects of type null.
+[15:21:39]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:39]  source file: mood.dm,91
+runtime error: 
+[15:21:39]Cannot create objects of type null.
+[15:21:39]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:39]  source file: mood.dm,91
+runtime error: 
+[15:21:40]addtimer called with a callback assigned to a qdeleted object
+[15:21:40]proc name: stack trace (/proc/stack_trace)
+[15:21:40]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:40]addtimer called with a callback assigned to a qdeleted object
+[15:21:40]proc name: stack trace (/proc/stack_trace)
+[15:21:40]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:40]addtimer called with a callback assigned to a qdeleted object
+[15:21:40]proc name: stack trace (/proc/stack_trace)
+[15:21:40]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:40]Cannot create objects of type null.
+[15:21:40]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:40]  source file: mood.dm,91
+runtime error: 
+[15:21:40]addtimer called with a callback assigned to a qdeleted object
+[15:21:40]proc name: stack trace (/proc/stack_trace)
+[15:21:40]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:40]addtimer called with a callback assigned to a qdeleted object
+[15:21:40]proc name: stack trace (/proc/stack_trace)
+[15:21:40]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:40]addtimer called with a callback assigned to a qdeleted object
+[15:21:40]proc name: stack trace (/proc/stack_trace)
+[15:21:40]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:40]addtimer called with a callback assigned to a qdeleted object
+[15:21:40]proc name: stack trace (/proc/stack_trace)
+[15:21:40]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:40]addtimer called with a callback assigned to a qdeleted object
+[15:21:40]proc name: stack trace (/proc/stack_trace)
+[15:21:40]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:40]addtimer called with a callback assigned to a qdeleted object
+[15:21:40]proc name: stack trace (/proc/stack_trace)
+[15:21:40]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:40]addtimer called with a callback assigned to a qdeleted object
+[15:21:40]proc name: stack trace (/proc/stack_trace)
+[15:21:40]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:42]addtimer called with a callback assigned to a qdeleted object
+[15:21:42]proc name: stack trace (/proc/stack_trace)
+[15:21:42]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:42]addtimer called with a callback assigned to a qdeleted object
+[15:21:42]proc name: stack trace (/proc/stack_trace)
+[15:21:42]  source file: unsorted.dm,1254
+runtime error: 
+[15:21:42]Cannot create objects of type null.
+[15:21:42]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:42]  source file: mood.dm,91
+runtime error: 
+[15:21:43]Cannot create objects of type null.
+[15:21:43]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:43]  source file: mood.dm,91
+runtime error: 
+[15:21:44]Cannot create objects of type null.
+[15:21:44]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:44]  source file: mood.dm,91
+runtime error: 
+[15:21:44]Cannot create objects of type null.
+[15:21:44]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:44]  source file: mood.dm,91
+runtime error: 
+[15:21:44]Cannot create objects of type null.
+[15:21:44]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:44]  source file: mood.dm,91
+runtime error: 
+[15:21:44]Cannot create objects of type null.
+[15:21:44]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:44]  source file: mood.dm,91
+runtime error: 
+[15:21:44]Cannot create objects of type null.
+[15:21:44]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:44]  source file: mood.dm,91
+runtime error: 
+[15:21:45]Cannot create objects of type null.
+[15:21:45]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:45]  source file: mood.dm,91
+runtime error: 
+[15:21:46]Cannot create objects of type null.
+[15:21:46]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:46]  source file: mood.dm,91
+runtime error: 
+[15:21:47]Cannot create objects of type null.
+[15:21:47]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:47]  source file: mood.dm,91
+runtime error: 
+[15:21:50]Cannot create objects of type null.
+[15:21:50]proc name: add event (/datum/component/mood/proc/add_event)
+[15:21:50]  source file: mood.dm,91
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:21:56]Cannot execute null.CanPass().
+[15:21:56]proc name: bartender check (/obj/item/reagent_containers/proc/bartender_check)
+[15:21:56]  source file: reagent_containers.dm,83
+runtime error: 
+[15:26:05]Cannot create objects of type null.
+[15:26:05]proc name: add event (/datum/component/mood/proc/add_event)
+[15:26:05]  source file: mood.dm,91
+runtime error: 
+[15:26:05]Cannot create objects of type null.
+[15:26:05]proc name: add event (/datum/component/mood/proc/add_event)
+[15:26:05]  source file: mood.dm,91
+runtime error: 
+[15:26:05]Cannot create objects of type null.
+[15:26:05]proc name: add event (/datum/component/mood/proc/add_event)
+[15:26:05]  source file: mood.dm,91
+runtime error: 
+[15:26:05]Cannot create objects of type null.
+[15:26:05]proc name: add event (/datum/component/mood/proc/add_event)
+[15:26:05]  source file: mood.dm,91
+runtime error: 
+[15:26:05]Cannot create objects of type null.
+[15:26:05]proc name: add event (/datum/component/mood/proc/add_event)
+[15:26:05]  source file: mood.dm,91
+Saved 0 engraved messages on map Box Station
+runtime error: 
+[15:31:59]undefined proc or verb /turf/closed/wall/mineral/titanium/survival/pod/high pressure movements().
+
+[15:31:59]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[15:31:59]  source file: air.dm,205
+runtime error: 
+[15:31:59]undefined proc or verb /turf/closed/wall/mineral/titanium/survival/pod/high pressure movements().
+
+[15:31:59]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[15:31:59]  source file: air.dm,205
+runtime error: 
+[15:32:01]undefined proc or verb /turf/closed/wall/mineral/titanium/survival/pod/high pressure movements().
+
+[15:32:01]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[15:32:01]  source file: air.dm,205
+runtime error: 
+[15:32:02]undefined proc or verb /turf/closed/wall/mineral/titanium/survival/pod/high pressure movements().
+
+[15:32:02]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[15:32:02]  source file: air.dm,205
+runtime error: 
+[15:32:02]undefined proc or verb /turf/closed/wall/mineral/titanium/survival/pod/high pressure movements().
+
+[15:32:02]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[15:32:02]  source file: air.dm,205
+runtime error: 
+[15:32:03]undefined proc or verb /turf/closed/wall/mineral/titanium/survival/pod/high pressure movements().
+
+[15:32:03]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[15:32:03]  source file: air.dm,205
+runtime error: 
+[15:32:07]undefined proc or verb /turf/closed/wall/mineral/titanium/survival/pod/high pressure movements().
+
+[15:32:07]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[15:32:07]  source file: air.dm,205
+runtime error: 
+[15:32:08]undefined proc or verb /turf/closed/wall/mineral/titanium/survival/pod/high pressure movements().
+
+[15:32:08]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[15:32:08]  source file: air.dm,205
+runtime error: 
+[15:32:08]undefined proc or verb /turf/closed/wall/mineral/titanium/survival/pod/high pressure movements().
+
+[15:32:08]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[15:32:08]  source file: air.dm,205
+runtime error: 
+[15:32:10]undefined proc or verb /turf/closed/wall/mineral/titanium/survival/pod/high pressure movements().
+
+[15:32:10]proc name: process high pressure delta (/datum/controller/subsystem/air/proc/process_high_pressure_delta)
+[15:32:10]  source file: air.dm,205
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 15:32:59

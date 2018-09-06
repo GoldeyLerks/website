@@ -1,0 +1,488 @@
+[2018-07-07 16:03:47.698] Starting up round ID 1451.
+[2018-07-07 16:03:47.698] -------------------------
+[2018-07-07 16:03:49.594] Initialized Database subsystem within 0 seconds!
+[2018-07-07 16:03:49.594] Initialized Blackbox subsystem within 0 seconds!
+[2018-07-07 16:03:49.595] Initialized Server Tasks subsystem within 0 seconds!
+[2018-07-07 16:03:49.595] Initialized Input subsystem within 0 seconds!
+[2018-07-07 16:03:49.625] Initialized Research subsystem within 0.1 seconds!
+[2018-07-07 16:03:49.630] Initialized Events subsystem within 0 seconds!
+[2018-07-07 16:03:49.633] Initialized Jobs subsystem within 0 seconds!
+[2018-07-07 16:03:49.634] Initialized Quirks subsystem within 0 seconds!
+[2018-07-07 16:03:49.646] Initialized Ticker subsystem within 0 seconds!
+[2018-07-07 16:03:49.646] Loading Box Station...
+[2018-07-07 16:03:56.101] Loaded Station in 6.5s!
+[2018-07-07 16:04:02.141] Loaded Lavaland in 5.6s!
+[2018-07-07 16:04:17.790] Ruin loader finished with 0 left to spend.
+[2018-07-07 16:04:18.979] Ruin loader finished with 0 left to spend.
+[2018-07-07 16:04:28.836] Initialized Mapping subsystem within 39.2 seconds!
+[2018-07-07 16:04:28.838] Initialized Networks subsystem within 0 seconds!
+[2018-07-07 16:05:14.802] Initialized Atoms subsystem within 46 seconds!
+[2018-07-07 16:05:14.963] Initialized Language subsystem within 0 seconds!
+[2018-07-07 16:05:15.267] Initialized Machines subsystem within 0.3 seconds!
+[2018-07-07 16:05:15.319] Initialized Circuit subsystem within 0.1 seconds!
+[2018-07-07 16:05:15.321] Initialized Disease subsystem within 0 seconds!
+[2018-07-07 16:05:15.321] Initialized Medals subsystem within 0 seconds!
+[2018-07-07 16:05:15.322] Initialized Night Shift subsystem within 0 seconds!
+[2018-07-07 16:05:15.322] Initialized Parallax subsystem within 0 seconds!
+[2018-07-07 16:05:15.448] Initialized Traumas subsystem within 0.1 seconds!
+[2018-07-07 16:05:15.449] Initialized Weather subsystem within 0 seconds!
+[2018-07-07 16:06:36.531] Initialized Atmospherics subsystem within 81.1 seconds!
+[2018-07-07 16:06:36.548] Initialized Minimap subsystem within 0 seconds!
+[2018-07-07 16:06:38.471] Initialized Assets subsystem within 1.9 seconds!
+[2018-07-07 16:06:46.729] Initialized Icon Smoothing subsystem within 8.3 seconds!
+[2018-07-07 16:06:48.342] Initialized Overlay subsystem within 1.6 seconds!
+[2018-07-07 16:06:48.343] Initialized XKeyScore subsystem within 0 seconds!
+[2018-07-07 16:06:48.353] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-07-07 16:07:05.688] Initialized Lighting subsystem within 17.3 seconds!
+[2018-07-07 16:07:08.375] Initialized Shuttle subsystem within 2.7 seconds!
+[2018-07-07 16:07:08.428] Initialized Squeak subsystem within 0.1 seconds!
+[2018-07-07 16:07:08.430] Initialized Pathfinder subsystem within 0 seconds!
+[2018-07-07 16:07:08.487] Loaded 6 engraved messages on map Box Station
+[2018-07-07 16:07:08.515] Initialized Persistence subsystem within 0.1 seconds!
+[2018-07-07 16:07:08.516] Initializations complete within 199 seconds!
+[2018-07-07 16:08:17.932] Game start took 1.8s
+[2018-07-07 16:32:19.683] ## WARNING: couldn't find shuttle with id: syndie_cargo in code/controllers/subsystem/shuttle.dm at line 159 src: Shuttle usr: Kingston Tireman.
+[2018-07-07 16:39:02.557] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:39:02.557] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:39:02.557]   source file: unsorted.dm,1240
+[2018-07-07 16:39:02.557]   usr: (src)
+[2018-07-07 16:39:02.557]   src: null
+[2018-07-07 16:39:02.557]   call stack:
+[2018-07-07 16:39:02.557] stack trace("addtimer called with a callbac...")
+[2018-07-07 16:39:02.557] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-07 16:39:02.557] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-07 16:39:02.557] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-07 16:39:02.557] 
+[2018-07-07 16:41:16.674] runtime error: special list may not be cut
+[2018-07-07 16:41:16.674] proc name: New (/datum/camerachunk/New)
+[2018-07-07 16:41:16.674]   source file: chunk.dm,131
+[2018-07-07 16:41:16.674]   usr: null
+[2018-07-07 16:41:16.674]   src: /datum/camerachunk (/datum/camerachunk)
+[2018-07-07 16:41:16.674]   call stack:
+[2018-07-07 16:41:16.674] /datum/camerachunk (/datum/camerachunk): New(0, 0, 2)
+[2018-07-07 16:41:16.674] Camera Net (/datum/cameranet): getCameraChunk(0, 0, 2)
+[2018-07-07 16:41:16.674] Camera Net (/datum/cameranet): visibility(/list (/list), ManNardo (/client), /list (/list))
+[2018-07-07 16:41:16.674] Camera Eye (Valary Yeskey) (/mob/camera/aiEye/remote): setLoc(space (31,16,2) (/turf/open/space/basic))
+[2018-07-07 16:41:16.674] Camera Eye (Valary Yeskey) (/mob/camera/aiEye/remote): relaymove(Valary Yeskey (/mob/living/carbon/human), 8)
+[2018-07-07 16:41:16.674] ManNardo (/client): Move(the floor (136,142,4) (/turf/open/floor/plasteel/dark), 8)
+[2018-07-07 16:41:16.674] Valary Yeskey (/mob/living/carbon/human): keyLoop(ManNardo (/client))
+[2018-07-07 16:41:16.674] ManNardo (/client): keyLoop()
+[2018-07-07 16:41:16.674] Input (/datum/controller/subsystem/input): fire(0)
+[2018-07-07 16:41:16.674] Input (/datum/controller/subsystem/input): ignite(0)
+[2018-07-07 16:41:16.674] Master (/datum/controller/master): RunQueue()
+[2018-07-07 16:41:16.674] Master (/datum/controller/master): Loop()
+[2018-07-07 16:41:16.674] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-07 16:41:16.674] 
+[2018-07-07 16:45:36.332] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:36.332] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:36.332]   source file: unsorted.dm,1240
+[2018-07-07 16:45:36.332]   usr: 0
+[2018-07-07 16:45:36.332]   src: null
+[2018-07-07 16:45:36.332]   call stack:
+[2018-07-07 16:45:36.332] stack trace("addtimer called with a callbac...")
+[2018-07-07 16:45:36.332] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-07 16:45:36.332] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-07 16:45:36.332] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-07 16:45:36.332] 
+[2018-07-07 16:45:36.912] runtime error: The tactical turtleneck taking damage after deletion
+[2018-07-07 16:45:36.912] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:36.912]   source file: unsorted.dm,1243
+[2018-07-07 16:45:36.912]   usr: null
+[2018-07-07 16:45:36.912]   src: the tactical turtleneck (/obj/item/clothing/under/syndicate)
+[2018-07-07 16:45:36.912]   src.loc: null
+[2018-07-07 16:45:36.912]   call stack:
+[2018-07-07 16:45:36.912] the tactical turtleneck (/obj/item/clothing/under/syndicate): stack trace("The tactical turtleneck taking...")
+[2018-07-07 16:45:36.912] the tactical turtleneck (/obj/item/clothing/under/syndicate): take damage(96.875, "brute", "bomb", 0, null, 0)
+[2018-07-07 16:45:36.912] Aaliyah Moon (/mob/living/carbon/human): damage clothes(96.875, "brute", "bomb", null)
+[2018-07-07 16:45:36.912] Aaliyah Moon (/mob/living/carbon/human): ex act(2, null, null)
+[2018-07-07 16:45:36.912] the volcanic floor (161,129,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface): contents explosion(2, null)
+[2018-07-07 16:45:36.912] the volcanic floor (161,129,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface): ex act(2, null)
+[2018-07-07 16:45:36.912] /datum/explosion (/datum/explosion): New(the lava (161,124,5) (/turf/open/lava/smooth/lava_land_surface), 5, 10, 20, 5, 1, 0, 20, 0, 0)
+[2018-07-07 16:45:36.912] 
+[2018-07-07 16:45:37.331] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:37.331] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:37.331]   source file: unsorted.dm,1240
+[2018-07-07 16:45:37.331]   usr: 0
+[2018-07-07 16:45:37.331]   src: null
+[2018-07-07 16:45:37.331]   call stack:
+[2018-07-07 16:45:37.331] stack trace("addtimer called with a callbac...")
+[2018-07-07 16:45:37.331] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-07 16:45:37.331] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-07 16:45:37.331] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-07 16:45:37.332] 
+[2018-07-07 16:45:38.481] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:38.481] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:38.481]   source file: unsorted.dm,1240
+[2018-07-07 16:45:38.481] 
+[2018-07-07 16:45:38.482] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:38.482] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:38.482]   source file: unsorted.dm,1240
+[2018-07-07 16:45:38.482] 
+[2018-07-07 16:45:38.631] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:38.631] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:38.631]   source file: unsorted.dm,1240
+[2018-07-07 16:45:38.631] 
+[2018-07-07 16:45:40.097] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:40.097] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:40.097]   source file: unsorted.dm,1240
+[2018-07-07 16:45:40.097] 
+[2018-07-07 16:45:40.349] runtime error: The box of donk-pockets taking damage after deletion
+[2018-07-07 16:45:40.349] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:40.349]   source file: unsorted.dm,1243
+[2018-07-07 16:45:40.349] 
+[2018-07-07 16:45:40.349] runtime error: The box of donk-pockets taking damage after deletion
+[2018-07-07 16:45:40.349] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:40.349]   source file: unsorted.dm,1243
+[2018-07-07 16:45:40.349] 
+[2018-07-07 16:45:40.349] runtime error: The box of donk-pockets taking damage after deletion
+[2018-07-07 16:45:40.349] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:40.349]   source file: unsorted.dm,1243
+[2018-07-07 16:45:40.349] 
+[2018-07-07 16:45:40.599] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:40.599] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:40.599]   source file: unsorted.dm,1240
+[2018-07-07 16:45:40.599] 
+[2018-07-07 16:45:41.599] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:41.599] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:41.599]   source file: unsorted.dm,1240
+[2018-07-07 16:45:41.599] 
+[2018-07-07 16:45:41.600] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:41.600] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:41.600]   source file: unsorted.dm,1240
+[2018-07-07 16:45:41.600] 
+[2018-07-07 16:45:41.949] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:41.949] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:41.949]   source file: unsorted.dm,1240
+[2018-07-07 16:45:41.949] 
+[2018-07-07 16:45:42.449] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:42.449] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:42.449]   source file: unsorted.dm,1240
+[2018-07-07 16:45:42.449] 
+[2018-07-07 16:45:42.449] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:42.449] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:42.449]   source file: unsorted.dm,1240
+[2018-07-07 16:45:42.449] 
+[2018-07-07 16:45:42.957] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:42.957] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:42.957]   source file: unsorted.dm,1240
+[2018-07-07 16:45:42.957] 
+[2018-07-07 16:45:42.958] runtime error: The wrench taking damage after deletion
+[2018-07-07 16:45:42.958] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:42.958]   source file: unsorted.dm,1243
+[2018-07-07 16:45:42.958] 
+[2018-07-07 16:45:42.958] runtime error: The industrial welding tool taking damage after deletion
+[2018-07-07 16:45:42.958] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:42.958]   source file: unsorted.dm,1243
+[2018-07-07 16:45:42.958] 
+[2018-07-07 16:45:42.959] runtime error: The pocket crowbar taking damage after deletion
+[2018-07-07 16:45:42.959] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:42.959]   source file: unsorted.dm,1243
+[2018-07-07 16:45:42.959] 
+[2018-07-07 16:45:42.959] runtime error: The wirecutters taking damage after deletion
+[2018-07-07 16:45:42.959] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:42.959]   source file: unsorted.dm,1243
+[2018-07-07 16:45:42.959] 
+[2018-07-07 16:45:42.960] runtime error: The multitool taking damage after deletion
+[2018-07-07 16:45:42.960] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:42.960]   source file: unsorted.dm,1243
+[2018-07-07 16:45:42.960] 
+[2018-07-07 16:45:42.960] runtime error: The combat gloves taking damage after deletion
+[2018-07-07 16:45:42.960] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:42.960]   source file: unsorted.dm,1243
+[2018-07-07 16:45:42.960] 
+[2018-07-07 16:45:43.214] runtime error: The cigarette taking damage after deletion
+[2018-07-07 16:45:43.214] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:43.214]   source file: unsorted.dm,1243
+[2018-07-07 16:45:43.214] 
+[2018-07-07 16:45:43.214] runtime error: The cigarette taking damage after deletion
+[2018-07-07 16:45:43.214] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:43.214]   source file: unsorted.dm,1243
+[2018-07-07 16:45:43.214] 
+[2018-07-07 16:45:43.215] runtime error: The cigarette taking damage after deletion
+[2018-07-07 16:45:43.215] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:43.215]   source file: unsorted.dm,1243
+[2018-07-07 16:45:43.215] 
+[2018-07-07 16:45:43.215] runtime error: The cigarette taking damage after deletion
+[2018-07-07 16:45:43.215] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:43.215]   source file: unsorted.dm,1243
+[2018-07-07 16:45:43.215] 
+[2018-07-07 16:45:43.664] runtime error: The cigarette taking damage after deletion
+[2018-07-07 16:45:43.664] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:43.664]   source file: unsorted.dm,1243
+[2018-07-07 16:45:43.664] 
+[2018-07-07 16:45:43.664] runtime error: The cigarette taking damage after deletion
+[2018-07-07 16:45:43.664] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:43.664]   source file: unsorted.dm,1243
+[2018-07-07 16:45:43.664] 
+[2018-07-07 16:45:43.665] runtime error: The cigarette taking damage after deletion
+[2018-07-07 16:45:43.665] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:43.665]   source file: unsorted.dm,1243
+[2018-07-07 16:45:43.665] 
+[2018-07-07 16:45:43.665] runtime error: The cigarette taking damage after deletion
+[2018-07-07 16:45:43.665] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:43.665]   source file: unsorted.dm,1243
+[2018-07-07 16:45:43.665] 
+[2018-07-07 16:45:44.707] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:44.707] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:44.707]   source file: unsorted.dm,1240
+[2018-07-07 16:45:44.707] 
+[2018-07-07 16:45:44.708] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:44.708] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:44.708]   source file: unsorted.dm,1240
+[2018-07-07 16:45:44.708] 
+[2018-07-07 16:45:45.191] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:45.191] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:45.191]   source file: unsorted.dm,1240
+[2018-07-07 16:45:45.191] 
+[2018-07-07 16:45:45.194] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:45.194] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:45.194]   source file: unsorted.dm,1240
+[2018-07-07 16:45:45.194] 
+[2018-07-07 16:45:45.618] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:45.618] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:45.618]   source file: unsorted.dm,1240
+[2018-07-07 16:45:45.618] 
+[2018-07-07 16:45:45.807] runtime error: The gas mask taking damage after deletion
+[2018-07-07 16:45:45.807] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:45:45.807]   source file: unsorted.dm,1243
+[2018-07-07 16:45:45.807] 
+[2018-07-07 16:45:46.257] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:46.258] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:46.258]   source file: unsorted.dm,1240
+[2018-07-07 16:45:46.258] 
+[2018-07-07 16:45:46.390] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:46.390] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:46.390]   source file: unsorted.dm,1240
+[2018-07-07 16:45:46.390] 
+[2018-07-07 16:45:46.954] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:46.954] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:46.954]   source file: unsorted.dm,1240
+[2018-07-07 16:45:46.954] 
+[2018-07-07 16:45:47.554] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:47.554] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:47.554]   source file: unsorted.dm,1240
+[2018-07-07 16:45:47.554] 
+[2018-07-07 16:45:47.794] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:47.794] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:47.794]   source file: unsorted.dm,1240
+[2018-07-07 16:45:47.794] 
+[2018-07-07 16:45:47.795] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:47.795] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:47.795]   source file: unsorted.dm,1240
+[2018-07-07 16:45:47.795] 
+[2018-07-07 16:45:50.204] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:50.204] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:50.204]   source file: unsorted.dm,1240
+[2018-07-07 16:45:50.204] 
+[2018-07-07 16:45:50.704] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:50.704] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:50.704]   source file: unsorted.dm,1240
+[2018-07-07 16:45:50.704] 
+[2018-07-07 16:45:50.754] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:50.754] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:50.754]   source file: unsorted.dm,1240
+[2018-07-07 16:45:50.754] 
+[2018-07-07 16:45:51.254] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:51.254] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:51.254]   source file: unsorted.dm,1240
+[2018-07-07 16:45:51.254] 
+[2018-07-07 16:45:51.255] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:51.255] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:51.255]   source file: unsorted.dm,1240
+[2018-07-07 16:45:51.255] 
+[2018-07-07 16:45:51.255] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 16:45:51.255] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 16:45:51.255]   source file: unsorted.dm,1240
+[2018-07-07 16:45:51.255] 
+[2018-07-07 16:47:13.409] runtime error: /turf/open/floor/plating destroy proc was called multiple times, likely due to a qdel loop in the Destroy logic
+[2018-07-07 16:47:13.409] proc name: qdel (/proc/qdel)
+[2018-07-07 16:47:13.409]   source file: garbage.dm,354
+[2018-07-07 16:47:13.409] 
+[2018-07-07 16:47:13.410] runtime error: Incorrect turf deletion
+[2018-07-07 16:47:13.410] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:47:13.410]   source file: unsorted.dm,1243
+[2018-07-07 16:47:13.411] 
+[2018-07-07 16:55:50.250] runtime error: The grille taking damage after deletion
+[2018-07-07 16:55:50.250] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 16:55:50.250]   source file: unsorted.dm,1243
+[2018-07-07 16:55:50.250] 
+[2018-07-07 17:13:52.060] runtime error: The grille taking damage after deletion
+[2018-07-07 17:13:52.061] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 17:13:52.061]   source file: unsorted.dm,1243
+[2018-07-07 17:13:52.061] 
+[2018-07-07 17:14:29.082] runtime error: Cannot create objects of type null.
+[2018-07-07 17:14:29.082] proc name: dismantleFloor (/obj/item/mecha_parts/mecha_equipment/cable_layer/proc/dismantleFloor)
+[2018-07-07 17:14:29.082]   source file: work_tools.dm,429
+[2018-07-07 17:14:29.082] 
+[2018-07-07 17:41:36.821] runtime error: Cannot execute null.Remove().
+[2018-07-07 17:41:36.821] proc name: check dropped (/obj/item/borg/upgrade/selfrepair/proc/check_dropped)
+[2018-07-07 17:41:36.821]   source file: robot_upgrades.dm,328
+[2018-07-07 17:41:36.821] 
+[2018-07-07 17:41:39.775] runtime error: list index out of bounds
+[2018-07-07 17:41:39.775] proc name: process queue (/obj/machinery/mecha_part_fabricator/proc/process_queue)
+[2018-07-07 17:41:39.775]   source file: mech_fabricator.dm,183
+[2018-07-07 17:41:39.775] 
+[2018-07-07 17:50:18.442] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:50:18.442] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:50:18.442]   source file: unsorted.dm,1240
+[2018-07-07 17:50:18.442] 
+[2018-07-07 17:50:43.023] runtime error: A ref was requested of an object with DF_USE_TAG set but no tag: Morgan Clewett
+[2018-07-07 17:50:43.023] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:50:43.023]   source file: unsorted.dm,1240
+[2018-07-07 17:50:43.023] 
+[2018-07-07 17:54:16.200] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:54:16.200] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:54:16.200]   source file: unsorted.dm,1240
+[2018-07-07 17:54:16.200] 
+[2018-07-07 17:54:16.200] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:54:16.200] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:54:16.200]   source file: unsorted.dm,1240
+[2018-07-07 17:54:16.200] 
+[2018-07-07 17:55:24.819] runtime error: The shaft miner's jumpsuit taking damage after deletion
+[2018-07-07 17:55:24.819] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-07 17:55:24.819]   source file: unsorted.dm,1243
+[2018-07-07 17:55:24.819] 
+[2018-07-07 17:55:51.326] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:55:51.326] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:55:51.326]   source file: unsorted.dm,1240
+[2018-07-07 17:55:51.326] 
+[2018-07-07 17:55:51.826] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:55:51.826] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:55:51.826]   source file: unsorted.dm,1240
+[2018-07-07 17:55:51.826] 
+[2018-07-07 17:55:57.385] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:55:57.385] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:55:57.385]   source file: unsorted.dm,1240
+[2018-07-07 17:55:57.385] 
+[2018-07-07 17:55:57.886] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:55:57.886] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:55:57.886]   source file: unsorted.dm,1240
+[2018-07-07 17:55:57.886] 
+[2018-07-07 17:56:27.184] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:56:27.184] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:56:27.184]   source file: unsorted.dm,1240
+[2018-07-07 17:56:27.184] 
+[2018-07-07 17:56:27.685] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:56:27.685] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:56:27.685]   source file: unsorted.dm,1240
+[2018-07-07 17:56:27.685] 
+[2018-07-07 17:56:54.868] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:56:54.868] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:56:54.868]   source file: unsorted.dm,1240
+[2018-07-07 17:56:54.868] 
+[2018-07-07 17:56:59.340] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:56:59.340] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:56:59.340]   source file: unsorted.dm,1240
+[2018-07-07 17:56:59.340] 
+[2018-07-07 17:57:05.002] runtime error: Cannot read null.name
+[2018-07-07 17:57:05.002] proc name: cancelAlarm (/mob/living/silicon/ai/cancelAlarm)
+[2018-07-07 17:57:05.002]   source file: ai.dm,551
+[2018-07-07 17:57:05.002] 
+[2018-07-07 17:57:29.996] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:57:29.996] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:57:29.996]   source file: unsorted.dm,1240
+[2018-07-07 17:57:29.996] 
+[2018-07-07 17:57:29.997] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:57:29.997] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:57:29.997]   source file: unsorted.dm,1240
+[2018-07-07 17:57:29.997] 
+[2018-07-07 17:59:06.913] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 17:59:06.913] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 17:59:06.913]   source file: unsorted.dm,1240
+[2018-07-07 17:59:06.913] 
+[2018-07-07 18:01:22.291] runtime error: Cannot execute null.GetComponent().
+[2018-07-07 18:01:22.291] proc name: remove (/datum/quirk/apathetic/remove)
+[2018-07-07 18:01:22.291]   source file: good.dm,26
+[2018-07-07 18:01:22.291] 
+[2018-07-07 18:02:19.283] ## WARNING: couldn't find shuttle with id:  in code/controllers/subsystem/shuttle.dm at line 159 src: Shuttle usr: Beau Richards.
+[2018-07-07 18:02:40.324] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 18:02:40.324] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 18:02:40.324]   source file: unsorted.dm,1240
+[2018-07-07 18:02:40.324] 
+[2018-07-07 18:02:40.325] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 18:02:40.325] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 18:02:40.325]   source file: unsorted.dm,1240
+[2018-07-07 18:02:40.325] 
+[2018-07-07 18:02:54.324] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 18:02:54.325] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 18:02:54.325]   source file: unsorted.dm,1240
+[2018-07-07 18:02:54.325] 
+[2018-07-07 18:03:00.724] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 18:03:00.724] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 18:03:00.724]   source file: unsorted.dm,1240
+[2018-07-07 18:03:00.724] 
+[2018-07-07 18:03:14.470] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 18:03:14.470] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 18:03:14.470]   source file: unsorted.dm,1240
+[2018-07-07 18:03:14.470] 
+[2018-07-07 18:04:38.501] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-07 18:04:38.501] proc name: stack trace (/proc/stack_trace)
+[2018-07-07 18:04:38.501]   source file: unsorted.dm,1240
+[2018-07-07 18:04:38.501] 
+[2018-07-07 18:04:48.500] Saved 6 engraved messages on map Box Station
+[2018-07-07 18:04:57.844] Shutting down Persistence subsystem...
+[2018-07-07 18:04:57.844] Shutting down Pathfinder subsystem...
+[2018-07-07 18:04:57.844] Shutting down Squeak subsystem...
+[2018-07-07 18:04:57.845] Shutting down Shuttle subsystem...
+[2018-07-07 18:04:57.845] Shutting down Lighting subsystem...
+[2018-07-07 18:04:57.845] Shutting down XKeyScore subsystem...
+[2018-07-07 18:04:57.845] Shutting down Sticky Ban subsystem...
+[2018-07-07 18:04:57.845] Shutting down Overlay subsystem...
+[2018-07-07 18:04:57.885] Shutting down Icon Smoothing subsystem...
+[2018-07-07 18:04:57.885] Shutting down Assets subsystem...
+[2018-07-07 18:04:57.885] Shutting down Minimap subsystem...
+[2018-07-07 18:04:57.885] Shutting down Atmospherics subsystem...
+[2018-07-07 18:04:57.885] Shutting down Wet floors subsystem...
+[2018-07-07 18:04:57.885] Shutting down Weather subsystem...
+[2018-07-07 18:04:57.885] Shutting down Vote subsystem...
+[2018-07-07 18:04:57.885] Shutting down Traumas subsystem...
+[2018-07-07 18:04:57.885] Shutting down Title Screen subsystem...
+[2018-07-07 18:04:57.886] Shutting down Time Tracking subsystem...
+[2018-07-07 18:04:57.886] Shutting down Throwing subsystem...
+[2018-07-07 18:04:57.886] Shutting down tgui subsystem...
+[2018-07-07 18:04:57.887] Shutting down Sun subsystem...
+[2018-07-07 18:04:57.887] Shutting down Space Drift subsystem...
+[2018-07-07 18:04:57.887] Shutting down Religion subsystem...
+[2018-07-07 18:04:57.887] Shutting down Radio subsystem...
+[2018-07-07 18:04:57.887] Shutting down Radiation subsystem...
+[2018-07-07 18:04:57.887] Shutting down Projectiles subsystem...
+[2018-07-07 18:04:57.887] Shutting down Processing subsystem...
+[2018-07-07 18:04:57.887] Shutting down Ping subsystem...
+[2018-07-07 18:04:57.887] Shutting down Parallax subsystem...
+[2018-07-07 18:04:57.887] Shutting down pAI subsystem...
+[2018-07-07 18:04:57.887] Shutting down Orbits subsystem...
+[2018-07-07 18:04:57.887] Shutting down Objects subsystem...
+[2018-07-07 18:04:57.887] Shutting down NPC Pool subsystem...
+[2018-07-07 18:04:57.888] Shutting down Night Shift subsystem...
+[2018-07-07 18:04:57.888] Shutting down Mood subsystem...
+[2018-07-07 18:04:57.888] Shutting down Mobs subsystem...
+[2018-07-07 18:04:57.888] Shutting down Medals subsystem...
+[2018-07-07 18:04:57.888] Shutting down Idling NPC Pool subsystem...
+[2018-07-07 18:04:57.888] Shutting down Flightpack Movement subsystem...
+[2018-07-07 18:04:57.888] Shutting down Fire Burning subsystem...
+[2018-07-07 18:04:57.888] Shutting down Fields subsystem...
+[2018-07-07 18:04:57.888] Shutting down Fast Processing subsystem...
+[2018-07-07 18:04:57.888] Shutting down Disease subsystem...
+[2018-07-07 18:04:57.888] Shutting down Datum Component System subsystem...
+[2018-07-07 18:04:57.888] Shutting down Communications subsystem...
+[2018-07-07 18:04:57.889] Shutting down Augury subsystem...
+[2018-07-07 18:04:57.889] Shutting down Acid subsystem...
+[2018-07-07 18:04:57.889] Shutting down Timer subsystem...
+[2018-07-07 18:04:57.889] Shutting down Circuit subsystem...
+[2018-07-07 18:04:57.889] Shutting down Machines subsystem...
+[2018-07-07 18:04:57.889] Shutting down Language subsystem...
+[2018-07-07 18:04:57.889] Shutting down Atoms subsystem...
+[2018-07-07 18:04:57.890] Shutting down Networks subsystem...
+[2018-07-07 18:04:57.890] Shutting down Mapping subsystem...
+[2018-07-07 18:04:57.890] Shutting down Ticker subsystem...
+[2018-07-07 18:04:58.012] Shutting down Quirks subsystem...
+[2018-07-07 18:04:58.012] Shutting down Jobs subsystem...
+[2018-07-07 18:04:58.012] Shutting down Events subsystem...
+[2018-07-07 18:04:58.012] Shutting down Research subsystem...
+[2018-07-07 18:04:58.012] Shutting down Input subsystem...
+[2018-07-07 18:04:58.012] Shutting down Server Tasks subsystem...
+[2018-07-07 18:04:58.012] Shutting down Blackbox subsystem...
+[2018-07-07 18:04:58.152] Shutting down Database subsystem...
+[2018-07-07 18:04:58.187] Shutting down Garbage subsystem...
+[2018-07-07 18:04:58.302] Shutdown complete
+[2018-07-07 18:04:58.303] World rebooted at 18:04:58

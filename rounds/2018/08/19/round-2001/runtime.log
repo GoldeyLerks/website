@@ -1,0 +1,1125 @@
+[2018-08-19 14:44:47.132] Starting up round ID 2001.
+[2018-08-19 14:44:47.132] -------------------------
+[2018-08-19 14:44:48.198] Initialized Database subsystem within 0 seconds!
+[2018-08-19 14:44:48.198] Initialized Blackbox subsystem within 0 seconds!
+[2018-08-19 14:44:48.198] Initialized Server Tasks subsystem within 0 seconds!
+[2018-08-19 14:44:48.199] Initialized Input subsystem within 0 seconds!
+[2018-08-19 14:44:48.230] Initialized Research subsystem within 0.1 seconds!
+[2018-08-19 14:44:48.235] Initialized Events subsystem within 0 seconds!
+[2018-08-19 14:44:48.239] Initialized Jobs subsystem within 0 seconds!
+[2018-08-19 14:44:48.240] Initialized Quirks subsystem within 0 seconds!
+[2018-08-19 14:44:48.249] Initialized Ticker subsystem within 0 seconds!
+[2018-08-19 14:44:48.250] Loading Box Station...
+[2018-08-19 14:44:54.865] Loaded Station in 6.6s!
+[2018-08-19 14:45:00.468] Loaded Lavaland in 5.3s!
+[2018-08-19 14:45:03.907] Ruin loader finished with 0 left to spend.
+[2018-08-19 14:45:06.072] Ruin loader finished with 0 left to spend.
+[2018-08-19 14:45:15.759] Initialized Mapping subsystem within 27.5 seconds!
+[2018-08-19 14:45:15.761] Initialized Networks subsystem within 0 seconds!
+[2018-08-19 14:46:00.245] Initialized Atoms subsystem within 44.5 seconds!
+[2018-08-19 14:46:00.262] Initialized Language subsystem within 0 seconds!
+[2018-08-19 14:46:00.666] Initialized Machines subsystem within 0.4 seconds!
+[2018-08-19 14:46:00.720] Initialized Circuit subsystem within 0.1 seconds!
+[2018-08-19 14:46:00.722] Initialized Disease subsystem within 0 seconds!
+[2018-08-19 14:46:00.722] Initialized Medals subsystem within 0 seconds!
+[2018-08-19 14:46:00.723] Initialized Night Shift subsystem within 0 seconds!
+[2018-08-19 14:46:00.723] Initialized Parallax subsystem within 0 seconds!
+[2018-08-19 14:46:00.853] Initialized Traumas subsystem within 0.1 seconds!
+[2018-08-19 14:46:00.854] Initialized Weather subsystem within 0 seconds!
+[2018-08-19 14:47:19.354] ## WARNING: There are 1 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+[2018-08-19 14:47:19.360] ## WARNING: HEY! LISTEN! 0 seconds were wasted processing 1 turf(s) (connected to 2 other turfs) with atmos differences at round start.
+[2018-08-19 14:47:19.927] Initialized Atmospherics subsystem within 79.1 seconds!
+[2018-08-19 14:47:19.954] Initialized Minimap subsystem within 0 seconds!
+[2018-08-19 14:47:22.056] Initialized Assets subsystem within 2.1 seconds!
+[2018-08-19 14:47:28.189] Initialized Icon Smoothing subsystem within 6.1 seconds!
+[2018-08-19 14:47:29.689] Initialized Overlay subsystem within 1.5 seconds!
+[2018-08-19 14:47:29.690] Initialized XKeyScore subsystem within 0 seconds!
+[2018-08-19 14:47:29.691] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-08-19 14:47:42.655] Initialized Lighting subsystem within 13 seconds!
+[2018-08-19 14:47:45.476] Initialized Shuttle subsystem within 2.8 seconds!
+[2018-08-19 14:47:45.511] Initialized Squeak subsystem within 0.1 seconds!
+[2018-08-19 14:47:45.513] Initialized Pathfinder subsystem within 0 seconds!
+[2018-08-19 14:47:45.565] Loaded 22 engraved messages on map Box Station
+[2018-08-19 14:47:45.595] Initialized Persistence subsystem within 0 seconds!
+[2018-08-19 14:47:45.595] Initializations complete within 177.4 seconds!
+[2018-08-19 14:47:55.322] Game start took 2.1s
+[2018-08-19 14:47:58.437] runtime error: Cannot modify null.icon_state.
+[2018-08-19 14:47:58.438] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-19 14:47:58.438]   source file: mood.dm,122
+[2018-08-19 14:47:58.438]   usr:  (/mob/living/carbon/human)
+[2018-08-19 14:47:58.438]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-19 14:47:58.438]   usr.loc: the floor (87,106,2) (/turf/open/floor/plasteel)
+[2018-08-19 14:47:58.438]   call stack:
+[2018-08-19 14:47:58.438] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-19 14:47:58.438] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-19 14:47:58.438] /datum/component/mood (/datum/component/mood): add event("antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused), null)
+[2018-08-19 14:47:58.438] /datum/callback (/datum/callback): Invoke("antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused))
+[2018-08-19 14:47:58.438] world: PushUsr( (/mob/living/carbon/human), /datum/callback (/datum/callback), "antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused))
+[2018-08-19 14:47:58.438] /datum/callback (/datum/callback): InvokeAsync("antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused))
+[2018-08-19 14:47:58.438]  (/mob/living/carbon/human):  SendSignal("add_mood", /list (/list))
+[2018-08-19 14:47:58.438] Traitor (/datum/antagonist/traitor): give antag moodies()
+[2018-08-19 14:47:58.438] Traitor (/datum/antagonist/traitor): on gain()
+[2018-08-19 14:47:58.438] Traitor (/datum/antagonist/traitor): on gain()
+[2018-08-19 14:47:58.438] Jetra Norlan (/datum/mind): add antag datum(Traitor (/datum/antagonist/traitor), null)
+[2018-08-19 14:47:58.438] /datum/callback (/datum/callback): InvokeAsync()
+[2018-08-19 14:47:58.438] Timer (/datum/controller/subsystem/timer): fire(0)
+[2018-08-19 14:47:58.438] Timer (/datum/controller/subsystem/timer): ignite(0)
+[2018-08-19 14:47:58.438] Master (/datum/controller/master): RunQueue()
+[2018-08-19 14:47:58.438] Master (/datum/controller/master): Loop()
+[2018-08-19 14:47:58.438] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-19 14:47:58.438] 
+[2018-08-19 14:49:39.756] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 14:49:39.756] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-19 14:49:39.756]   source file: unsorted.dm,1169
+[2018-08-19 14:49:39.756]   usr: (src)
+[2018-08-19 14:49:39.756]   src: Harlow Moriarty (/mob/living/carbon/human)
+[2018-08-19 14:49:39.756]   src.loc: the shuttle floor (49,20,12) (/turf/open/floor/mineral/titanium/blue)
+[2018-08-19 14:49:39.756]   call stack:
+[2018-08-19 14:49:39.756] Harlow Moriarty (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-19 14:49:39.756] Harlow Moriarty (/mob/living/carbon/human): log message("(LOCAL): If the RNG isn&#39;t ...", 1536, null, 1)
+[2018-08-19 14:49:39.756] Harlow Moriarty (/mob/living/carbon/human): log message("(LOCAL): If the RNG isn&#39;t ...", 1536, null, 1)
+[2018-08-19 14:49:39.756] Wicker0 (/client): LOOC("If the RNG isn&#39;t being a b...")
+[2018-08-19 14:49:39.756] 
+[2018-08-19 14:49:43.291] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 14:49:43.291] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-19 14:49:43.291]   source file: unsorted.dm,1169
+[2018-08-19 14:49:43.291]   usr: (src)
+[2018-08-19 14:49:43.291]   src: Jetra Norlan (/mob/living/carbon/human)
+[2018-08-19 14:49:43.291]   src.loc: the shuttle floor (49,18,12) (/turf/open/floor/mineral/titanium/blue)
+[2018-08-19 14:49:43.291]   call stack:
+[2018-08-19 14:49:43.291] Jetra Norlan (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-19 14:49:43.291] Jetra Norlan (/mob/living/carbon/human): log message("(LOCAL): true", 1536, null, 1)
+[2018-08-19 14:49:43.291] Jetra Norlan (/mob/living/carbon/human): log message("(LOCAL): true", 1536, null, 1)
+[2018-08-19 14:49:43.291] AzlanonPc (/client): LOOC("true")
+[2018-08-19 14:49:43.291] 
+[2018-08-19 14:49:48.673] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 14:49:48.673] proc name: stack trace (/datum/proc/stack_trace)
+[2018-08-19 14:49:48.673]   source file: unsorted.dm,1169
+[2018-08-19 14:49:48.673]   usr: (src)
+[2018-08-19 14:49:48.673]   src: Jetra Norlan (/mob/living/carbon/human)
+[2018-08-19 14:49:48.673]   src.loc: the shuttle floor (52,35,5) (/turf/open/floor/mineral/titanium/blue)
+[2018-08-19 14:49:48.673]   call stack:
+[2018-08-19 14:49:48.673] Jetra Norlan (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-08-19 14:49:48.673] Jetra Norlan (/mob/living/carbon/human): log message("(LOCAL): MY RESONANTS REE", 1536, null, 1)
+[2018-08-19 14:49:48.673] Jetra Norlan (/mob/living/carbon/human): log message("(LOCAL): MY RESONANTS REE", 1536, null, 1)
+[2018-08-19 14:49:48.673] AzlanonPc (/client): LOOC("MY RESONANTS REE")
+[2018-08-19 14:49:48.673] 
+[2018-08-19 14:50:49.925] runtime error: Cannot modify null.icon_state.
+[2018-08-19 14:50:49.925] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-19 14:50:49.925]   source file: mood.dm,122
+[2018-08-19 14:50:49.925]   usr: null
+[2018-08-19 14:50:49.925]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-19 14:50:49.925]   call stack:
+[2018-08-19 14:50:49.925] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-19 14:50:49.925] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-19 14:50:49.925] /datum/component/mood (/datum/component/mood): add event("nutrition", /datum/mood_event/nutrition/fe... (/datum/mood_event/nutrition/fed), null)
+[2018-08-19 14:50:49.925] /datum/component/mood (/datum/component/mood): HandleNutrition( (/mob/living/carbon/human))
+[2018-08-19 14:50:49.926] /datum/component/mood (/datum/component/mood): process(10)
+[2018-08-19 14:50:49.926] Mood (/datum/controller/subsystem/processing/mood): fire(0)
+[2018-08-19 14:50:49.926] Mood (/datum/controller/subsystem/processing/mood): ignite(0)
+[2018-08-19 14:50:49.926] Master (/datum/controller/master): RunQueue()
+[2018-08-19 14:50:49.926] Master (/datum/controller/master): Loop()
+[2018-08-19 14:50:49.926] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-19 14:50:49.926] 
+[2018-08-19 14:50:50.542] runtime error: Cannot modify null.icon_state.
+[2018-08-19 14:50:50.542] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-19 14:50:50.542]   source file: mood.dm,122
+[2018-08-19 14:50:50.542] 
+[2018-08-19 14:54:04.177] runtime error: Cannot modify null.icon_state.
+[2018-08-19 14:54:04.177] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-19 14:54:04.177]   source file: mood.dm,122
+[2018-08-19 14:54:04.177] 
+[2018-08-19 14:54:06.222] runtime error: Cannot modify null.icon_state.
+[2018-08-19 14:54:06.222] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-19 14:54:06.222]   source file: mood.dm,122
+[2018-08-19 14:54:06.222] 
+[2018-08-19 14:55:11.392] runtime error: Cannot modify null.icon_state.
+[2018-08-19 14:55:11.392] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-19 14:55:11.392]   source file: mood.dm,122
+[2018-08-19 14:55:11.392] 
+[2018-08-19 14:58:24.589] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.589] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.589]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.589] 
+[2018-08-19 14:58:24.590] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.590] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.590]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.590] 
+[2018-08-19 14:58:24.590] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.590] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.590]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.590] 
+[2018-08-19 14:58:24.590] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.590] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.590]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.590] 
+[2018-08-19 14:58:24.591] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.591] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.591]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.591] 
+[2018-08-19 14:58:24.591] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.591] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.591]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.591] 
+[2018-08-19 14:58:24.592] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.592] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.592]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.592] 
+[2018-08-19 14:58:24.592] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.592] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.592]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.592] 
+[2018-08-19 14:58:24.593] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:24.593] proc name: process cell (/turf/open/process_cell)
+[2018-08-19 14:58:24.593]   source file: LINDA_turf_tile.dm,178
+[2018-08-19 14:58:24.593] 
+[2018-08-19 14:58:24.593] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:24.593] proc name: process cell (/turf/open/process_cell)
+[2018-08-19 14:58:24.593]   source file: LINDA_turf_tile.dm,178
+[2018-08-19 14:58:24.593] 
+[2018-08-19 14:58:24.593] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.593] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.593]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.593] 
+[2018-08-19 14:58:24.594] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.594] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.594]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.594] 
+[2018-08-19 14:58:24.594] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.594] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.594]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.595] 
+[2018-08-19 14:58:24.595] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.595] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.595]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.595] 
+[2018-08-19 14:58:24.595] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.595] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.595]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.595] 
+[2018-08-19 14:58:24.596] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.596] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.596]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.596] 
+[2018-08-19 14:58:24.597] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.597] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.597]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.597] 
+[2018-08-19 14:58:24.597] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.597] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.597]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.597] 
+[2018-08-19 14:58:24.597] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.597] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.597]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.597] 
+[2018-08-19 14:58:24.598] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.598] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.598]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.598] 
+[2018-08-19 14:58:24.598] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.599] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.599]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.599] 
+[2018-08-19 14:58:24.599] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.599] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.599]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.599] 
+[2018-08-19 14:58:24.599] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.599] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.599]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.599] 
+[2018-08-19 14:58:24.599] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.599] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.599]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.600] 
+[2018-08-19 14:58:24.600] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.600] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.600]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.600] 
+[2018-08-19 14:58:24.600] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.600] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.600]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.600] 
+[2018-08-19 14:58:24.600] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.600] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.600]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.600] 
+[2018-08-19 14:58:24.601] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.601] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.601]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.601] 
+[2018-08-19 14:58:24.601] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.601] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.601]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.601] 
+[2018-08-19 14:58:24.601] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.601] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.601]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.601] 
+[2018-08-19 14:58:24.602] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.602] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.602]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.602] 
+[2018-08-19 14:58:24.602] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.602] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.602]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.602] 
+[2018-08-19 14:58:24.602] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.602] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.602]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.602] 
+[2018-08-19 14:58:24.602] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.602] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.602]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.602] 
+[2018-08-19 14:58:24.603] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.603] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.603]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.603] 
+[2018-08-19 14:58:24.603] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.603] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.603]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.603] 
+[2018-08-19 14:58:24.603] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.603] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.603]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.603] 
+[2018-08-19 14:58:24.604] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.604] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.604]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.604] 
+[2018-08-19 14:58:24.604] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:24.604] proc name: process cell (/turf/open/process_cell)
+[2018-08-19 14:58:24.604]   source file: LINDA_turf_tile.dm,178
+[2018-08-19 14:58:24.604] 
+[2018-08-19 14:58:24.604] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.604] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.604]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.604] 
+[2018-08-19 14:58:24.605] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.605] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.605]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.605] 
+[2018-08-19 14:58:24.605] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.605] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.605]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.605] 
+[2018-08-19 14:58:24.605] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.605] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.605]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.605] 
+[2018-08-19 14:58:24.605] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.605] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.605]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.605] 
+[2018-08-19 14:58:24.606] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.606] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.606]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.606] 
+[2018-08-19 14:58:24.606] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.606] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.606]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.606] 
+[2018-08-19 14:58:24.606] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.606] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.606]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.606] 
+[2018-08-19 14:58:24.606] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.606] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.606]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.606] 
+[2018-08-19 14:58:24.607] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.607] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.607]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.607] 
+[2018-08-19 14:58:24.607] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.607] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.607]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.607] 
+[2018-08-19 14:58:24.607] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.607] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.607]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.607] 
+[2018-08-19 14:58:24.607] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.607] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.607]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.607] 
+[2018-08-19 14:58:24.608] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.608] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.608]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.608] 
+[2018-08-19 14:58:24.608] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.608] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.608]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.608] 
+[2018-08-19 14:58:24.608] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.608] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.608]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.608] 
+[2018-08-19 14:58:24.608] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.608] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.608]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.608] 
+[2018-08-19 14:58:24.609] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.609] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.609]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.609] 
+[2018-08-19 14:58:24.609] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.609] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.609]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.609] 
+[2018-08-19 14:58:24.609] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.609] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.609]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.609] 
+[2018-08-19 14:58:24.609] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.609] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.609]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.609] 
+[2018-08-19 14:58:24.610] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.610] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.610]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.610] 
+[2018-08-19 14:58:24.610] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.610] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.610]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.610] 
+[2018-08-19 14:58:24.610] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.610] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.610]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.610] 
+[2018-08-19 14:58:24.611] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.611] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.611]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.611] 
+[2018-08-19 14:58:24.611] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.611] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.611]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.611] 
+[2018-08-19 14:58:24.611] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.611] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.611]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.611] 
+[2018-08-19 14:58:24.611] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.611] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.611]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.611] 
+[2018-08-19 14:58:24.612] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.612] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.612]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.612] 
+[2018-08-19 14:58:24.612] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.612] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.612]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.612] 
+[2018-08-19 14:58:24.612] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.612] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.612]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.612] 
+[2018-08-19 14:58:24.612] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.612] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.612]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.612] 
+[2018-08-19 14:58:24.613] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.613] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.613]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.613] 
+[2018-08-19 14:58:24.613] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.613] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.613]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.613] 
+[2018-08-19 14:58:24.613] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.613] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.613]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.613] 
+[2018-08-19 14:58:24.613] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.613] proc name: compare (/datum/gas_mixture/compare)
+[2018-08-19 14:58:24.613]   source file: gas_mixture.dm,385
+[2018-08-19 14:58:24.613] 
+[2018-08-19 14:58:24.614] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.614] proc name: archive (/turf/open/archive)
+[2018-08-19 14:58:24.614]   source file: LINDA_turf_tile.dm,91
+[2018-08-19 14:58:24.614] 
+[2018-08-19 14:58:24.614] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.614] Warning: further proc crash messages are being suppressed to prevent overload...
+[2018-08-19 14:58:24.614] 
+[2018-08-19 14:58:24.614] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:24.614] 
+[2018-08-19 14:58:24.614] runtime error: Cannot read null.gases
+[2018-08-19 14:58:24.614] 
+[2018-08-19 14:58:25.056] runtime error: Cannot execute null.return pressure().
+[2018-08-19 14:58:25.056] 
+[2018-08-19 14:58:25.057] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.057] 
+[2018-08-19 14:58:25.084] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:25.084] 
+[2018-08-19 14:58:25.085] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.085] 
+[2018-08-19 14:58:25.085] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:25.085] 
+[2018-08-19 14:58:25.085] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.085] 
+[2018-08-19 14:58:25.085] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:25.085] 
+[2018-08-19 14:58:25.085] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.086] 
+[2018-08-19 14:58:25.086] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:25.086] 
+[2018-08-19 14:58:25.086] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.086] 
+[2018-08-19 14:58:25.086] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:25.086] 
+[2018-08-19 14:58:25.087] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.087] 
+[2018-08-19 14:58:25.087] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:25.087] 
+[2018-08-19 14:58:25.087] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.087] 
+[2018-08-19 14:58:25.087] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.087] 
+[2018-08-19 14:58:25.088] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.088] 
+[2018-08-19 14:58:25.088] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:25.088] 
+[2018-08-19 14:58:25.088] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.088] 
+[2018-08-19 14:58:25.088] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:25.088] 
+[2018-08-19 14:58:25.088] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.088] 
+[2018-08-19 14:58:25.089] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:25.089] 
+[2018-08-19 14:58:25.089] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.089] 
+[2018-08-19 14:58:25.089] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:25.089] 
+[2018-08-19 14:58:25.089] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.089] 
+[2018-08-19 14:58:25.090] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:25.090] 
+[2018-08-19 14:58:25.090] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.090] 
+[2018-08-19 14:58:25.090] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:25.090] 
+[2018-08-19 14:58:25.090] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.090] 
+[2018-08-19 14:58:25.091] runtime error: Cannot execute null.archive().
+[2018-08-19 14:58:25.091] 
+[2018-08-19 14:58:25.091] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.091] 
+[2018-08-19 14:58:25.092] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.092] 
+[2018-08-19 14:58:25.093] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.093] 
+[2018-08-19 14:58:25.093] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.093] 
+[2018-08-19 14:58:25.094] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.094] 
+[2018-08-19 14:58:25.094] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.094] 
+[2018-08-19 14:58:25.094] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.094] 
+[2018-08-19 14:58:25.548] runtime error: Cannot modify null.update.
+[2018-08-19 14:58:25.548] 
+[2018-08-19 14:58:25.555] runtime error: Cannot execute null.return pressure().
+[2018-08-19 14:58:25.555] 
+[2018-08-19 14:58:25.555] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.555] 
+[2018-08-19 14:58:25.587] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.587] 
+[2018-08-19 14:58:25.588] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.588] 
+[2018-08-19 14:58:25.588] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.588] 
+[2018-08-19 14:58:25.589] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.589] 
+[2018-08-19 14:58:25.589] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.589] 
+[2018-08-19 14:58:25.590] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.590] 
+[2018-08-19 14:58:25.590] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.590] 
+[2018-08-19 14:58:25.590] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.590] 
+[2018-08-19 14:58:25.590] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/nodiagonal/var/air
+[2018-08-19 14:58:25.591] 
+[2018-08-19 14:58:25.996] runtime error: Cannot read null.gases
+[2018-08-19 14:58:25.996] 
+[2018-08-19 14:58:26.698] runtime error: Cannot modify null.update.
+[2018-08-19 14:58:26.698] 
+[2018-08-19 14:58:27.450] runtime error: Cannot modify null.update.
+[2018-08-19 14:58:27.450] 
+[2018-08-19 14:58:28.106] runtime error: Cannot modify null.update.
+[2018-08-19 14:58:28.107] 
+[2018-08-19 14:58:29.011] runtime error: Cannot modify null.update.
+[2018-08-19 14:58:29.011] 
+[2018-08-19 14:58:29.707] runtime error: Cannot modify null.update.
+[2018-08-19 14:58:29.707] 
+[2018-08-19 14:58:30.257] runtime error: Cannot modify null.update.
+[2018-08-19 14:58:30.257] 
+[2018-08-19 14:58:30.914] runtime error: Cannot modify null.update.
+[2018-08-19 14:58:30.914] 
+[2018-08-19 14:58:31.352] runtime error: Cannot modify null.update.
+[2018-08-19 14:58:31.352] 
+[2018-08-19 14:58:31.868] runtime error: Cannot modify null.update.
+[2018-08-19 14:58:31.868] 
+[2018-08-19 15:00:10.832] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:00:10.833] 
+[2018-08-19 15:01:54.861] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:01:54.861] 
+[2018-08-19 15:02:20.923] runtime error: Cannot execute null.log message().
+[2018-08-19 15:02:20.923] 
+[2018-08-19 15:02:21.297] runtime error: Cannot execute null.log message().
+[2018-08-19 15:02:21.297] 
+[2018-08-19 15:02:21.589] runtime error: Cannot execute null.log message().
+[2018-08-19 15:02:21.589] 
+[2018-08-19 15:02:28.630] runtime error: Cannot execute null.log message().
+[2018-08-19 15:02:28.630] 
+[2018-08-19 15:02:29.078] runtime error: Cannot execute null.log message().
+[2018-08-19 15:02:29.078] 
+[2018-08-19 15:02:29.359] runtime error: Cannot execute null.log message().
+[2018-08-19 15:02:29.359] 
+[2018-08-19 15:02:38.009] runtime error: Cannot execute null.log message().
+[2018-08-19 15:02:38.009] 
+[2018-08-19 15:02:38.167] runtime error: Cannot execute null.log message().
+[2018-08-19 15:02:38.167] 
+[2018-08-19 15:02:38.389] runtime error: Cannot execute null.log message().
+[2018-08-19 15:02:38.389] 
+[2018-08-19 15:02:49.244] runtime error: Cannot execute null.log message().
+[2018-08-19 15:02:49.244] 
+[2018-08-19 15:02:49.364] runtime error: Cannot execute null.log message().
+[2018-08-19 15:02:49.364] 
+[2018-08-19 15:02:49.579] runtime error: Cannot execute null.log message().
+[2018-08-19 15:02:49.579] 
+[2018-08-19 15:03:00.134] runtime error: Cannot execute null.log message().
+[2018-08-19 15:03:00.134] 
+[2018-08-19 15:03:00.379] runtime error: Cannot execute null.log message().
+[2018-08-19 15:03:00.379] 
+[2018-08-19 15:03:00.659] runtime error: Cannot execute null.log message().
+[2018-08-19 15:03:00.659] 
+[2018-08-19 15:03:07.059] runtime error: Cannot execute null.log message().
+[2018-08-19 15:03:07.059] 
+[2018-08-19 15:03:07.510] runtime error: Cannot execute null.log message().
+[2018-08-19 15:03:07.510] 
+[2018-08-19 15:03:07.839] runtime error: Cannot execute null.log message().
+[2018-08-19 15:03:07.840] 
+[2018-08-19 15:06:55.200] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:06:55.200] 
+[2018-08-19 15:08:53.448] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:08:53.448] 
+[2018-08-19 15:09:14.434] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:09:14.434] 
+[2018-08-19 15:09:38.320] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:09:38.320] 
+[2018-08-19 15:10:03.634] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:10:03.634] 
+[2018-08-19 15:10:12.702] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:10:12.703] 
+[2018-08-19 15:10:30.707] ### VarEdit by Wicker0/(Harlow Moriarty): /obj/machinery/artillerycontrol name=bluespace artillery control => bluespace warp control
+[2018-08-19 15:10:44.808] ### VarEdit by Wicker0/(Harlow Moriarty): /obj/machinery/artillerycontrol desc=Some kind of machine. => Teleports this entire place somewhere else.
+[2018-08-19 15:12:44.188] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:12:44.188] 
+[2018-08-19 15:12:45.179] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:12:45.179] 
+[2018-08-19 15:13:33.681] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:13:33.681] 
+[2018-08-19 15:16:52.055] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:16:52.055] 
+[2018-08-19 15:17:07.220] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:17:07.220] 
+[2018-08-19 15:17:09.064] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:17:09.064] 
+[2018-08-19 15:17:28.737] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:17:28.737] 
+[2018-08-19 15:17:56.376] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:17:56.376] 
+[2018-08-19 15:17:56.376] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:17:56.376] 
+[2018-08-19 15:18:19.114] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:18:19.114] 
+[2018-08-19 15:18:29.391] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:18:29.391] 
+[2018-08-19 15:18:31.671] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:18:31.671] 
+[2018-08-19 15:18:31.671] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:18:31.671] 
+[2018-08-19 15:19:08.494] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:08.494] 
+[2018-08-19 15:19:08.495] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:08.495] 
+[2018-08-19 15:19:08.495] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:08.495] 
+[2018-08-19 15:19:09.756] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:09.756] 
+[2018-08-19 15:19:09.756] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:09.756] 
+[2018-08-19 15:19:09.757] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:09.757] 
+[2018-08-19 15:19:09.757] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:09.757] 
+[2018-08-19 15:19:10.626] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:10.626] 
+[2018-08-19 15:19:10.626] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:10.626] 
+[2018-08-19 15:19:10.627] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:10.627] 
+[2018-08-19 15:19:10.628] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:10.628] 
+[2018-08-19 15:19:11.535] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:11.535] 
+[2018-08-19 15:19:11.535] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:11.535] 
+[2018-08-19 15:19:11.536] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:11.536] 
+[2018-08-19 15:19:11.537] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:11.537] 
+[2018-08-19 15:19:12.437] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:12.437] 
+[2018-08-19 15:19:12.438] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:12.438] 
+[2018-08-19 15:19:12.438] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:12.439] 
+[2018-08-19 15:19:12.439] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:12.439] 
+[2018-08-19 15:19:13.333] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:13.333] 
+[2018-08-19 15:19:13.334] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:13.334] 
+[2018-08-19 15:19:13.334] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:13.334] 
+[2018-08-19 15:19:13.335] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:13.335] 
+[2018-08-19 15:19:14.188] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:14.188] 
+[2018-08-19 15:19:14.189] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:14.189] 
+[2018-08-19 15:19:14.190] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:14.190] 
+[2018-08-19 15:19:14.190] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:14.190] 
+[2018-08-19 15:19:15.077] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:15.077] 
+[2018-08-19 15:19:15.078] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:15.078] 
+[2018-08-19 15:19:15.078] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:15.078] 
+[2018-08-19 15:19:15.079] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:15.079] 
+[2018-08-19 15:19:15.494] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:15.494] 
+[2018-08-19 15:19:15.977] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:15.977] 
+[2018-08-19 15:19:15.977] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:15.978] 
+[2018-08-19 15:19:15.978] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:15.978] 
+[2018-08-19 15:19:15.979] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:15.979] 
+[2018-08-19 15:19:17.033] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:17.033] 
+[2018-08-19 15:19:17.034] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:17.034] 
+[2018-08-19 15:19:17.035] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:17.035] 
+[2018-08-19 15:19:17.035] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:17.035] 
+[2018-08-19 15:19:20.853] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:19:20.853] 
+[2018-08-19 15:21:02.252] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:21:02.252] 
+[2018-08-19 15:21:03.232] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:21:03.232] 
+[2018-08-19 15:21:03.233] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:21:03.233] 
+[2018-08-19 15:31:17.965] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:31:17.965] 
+[2018-08-19 15:32:09.838] runtime error: Cannot execute null.log message().
+[2018-08-19 15:32:09.838] 
+[2018-08-19 15:32:10.529] runtime error: Cannot execute null.log message().
+[2018-08-19 15:32:10.529] 
+[2018-08-19 15:32:12.642] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:32:12.642] 
+[2018-08-19 15:32:33.945] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:32:33.945] 
+[2018-08-19 15:32:53.709] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:32:53.709] 
+[2018-08-19 15:33:21.754] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:33:21.754] 
+[2018-08-19 15:33:34.022] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:33:34.022] 
+[2018-08-19 15:33:55.901] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:33:55.901] 
+[2018-08-19 15:33:55.901] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:33:55.901] 
+[2018-08-19 15:36:00.765] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:36:00.765] 
+[2018-08-19 15:36:31.894] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:36:31.894] 
+[2018-08-19 15:36:36.960] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:36:36.960] 
+[2018-08-19 15:37:21.997] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:37:21.997] 
+[2018-08-19 15:37:23.013] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:37:23.013] 
+[2018-08-19 15:37:25.998] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:37:25.998] 
+[2018-08-19 15:37:27.013] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:37:27.013] 
+[2018-08-19 15:37:37.464] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:37:37.464] 
+[2018-08-19 15:37:39.623] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:37:39.624] 
+[2018-08-19 15:37:39.624] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:37:39.624] 
+[2018-08-19 15:38:24.795] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:38:24.795] 
+[2018-08-19 15:38:32.977] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:38:32.978] 
+[2018-08-19 15:39:13.894] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:39:13.895] 
+[2018-08-19 15:39:34.317] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:39:34.317] 
+[2018-08-19 15:39:34.542] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:39:34.542] 
+[2018-08-19 15:40:00.474] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:00.474] 
+[2018-08-19 15:40:17.906] runtime error: The flashbang taking damage after deletion
+[2018-08-19 15:40:17.907] 
+[2018-08-19 15:40:17.907] runtime error: The flashbang taking damage after deletion
+[2018-08-19 15:40:17.907] 
+[2018-08-19 15:40:18.093] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:18.093] 
+[2018-08-19 15:40:18.096] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-19 15:40:18.096] 
+[2018-08-19 15:40:19.032] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:19.032] 
+[2018-08-19 15:40:20.912] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:20.912] 
+[2018-08-19 15:40:25.910] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:25.910] 
+[2018-08-19 15:40:36.865] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:36.865] 
+[2018-08-19 15:40:40.918] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:40.918] 
+[2018-08-19 15:40:43.330] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:43.330] 
+[2018-08-19 15:40:48.416] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:48.416] 
+[2018-08-19 15:40:49.431] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:49.431] 
+[2018-08-19 15:40:50.417] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:50.417] 
+[2018-08-19 15:40:51.434] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:51.434] 
+[2018-08-19 15:40:52.476] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:52.476] 
+[2018-08-19 15:40:53.555] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:53.555] 
+[2018-08-19 15:40:54.591] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:54.591] 
+[2018-08-19 15:40:55.657] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:55.657] 
+[2018-08-19 15:40:56.646] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:56.646] 
+[2018-08-19 15:40:57.683] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:57.683] 
+[2018-08-19 15:40:58.672] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:58.672] 
+[2018-08-19 15:40:59.734] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:40:59.734] 
+[2018-08-19 15:41:00.735] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:00.735] 
+[2018-08-19 15:41:01.743] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:01.743] 
+[2018-08-19 15:41:02.743] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:02.743] 
+[2018-08-19 15:41:03.743] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:03.743] 
+[2018-08-19 15:41:04.166] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:04.166] 
+[2018-08-19 15:41:04.743] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:04.743] 
+[2018-08-19 15:41:05.772] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:05.772] 
+[2018-08-19 15:41:06.775] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:06.775] 
+[2018-08-19 15:41:07.774] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:07.774] 
+[2018-08-19 15:41:08.772] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:08.772] 
+[2018-08-19 15:41:09.773] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:09.773] 
+[2018-08-19 15:41:10.773] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:10.773] 
+[2018-08-19 15:41:11.789] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:11.789] 
+[2018-08-19 15:41:12.791] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:12.791] 
+[2018-08-19 15:41:13.172] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:13.172] 
+[2018-08-19 15:41:13.791] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:13.791] 
+[2018-08-19 15:41:14.790] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:14.790] 
+[2018-08-19 15:41:15.794] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:15.794] 
+[2018-08-19 15:41:16.796] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:16.796] 
+[2018-08-19 15:41:17.794] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:17.794] 
+[2018-08-19 15:41:18.793] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:18.793] 
+[2018-08-19 15:41:19.796] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:19.796] 
+[2018-08-19 15:41:20.795] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:20.795] 
+[2018-08-19 15:41:21.797] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:21.797] 
+[2018-08-19 15:41:22.798] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:22.798] 
+[2018-08-19 15:41:23.846] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:23.846] 
+[2018-08-19 15:41:24.846] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:24.846] 
+[2018-08-19 15:41:25.847] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:25.847] 
+[2018-08-19 15:41:26.846] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:26.846] 
+[2018-08-19 15:41:27.845] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:27.845] 
+[2018-08-19 15:41:28.850] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:28.850] 
+[2018-08-19 15:41:29.857] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:29.858] 
+[2018-08-19 15:41:30.858] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:30.858] 
+[2018-08-19 15:41:31.860] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:31.860] 
+[2018-08-19 15:41:32.863] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:32.863] 
+[2018-08-19 15:41:33.199] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:33.199] 
+[2018-08-19 15:41:33.858] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:33.858] 
+[2018-08-19 15:41:34.862] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:34.862] 
+[2018-08-19 15:41:35.858] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:35.858] 
+[2018-08-19 15:41:36.858] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:36.858] 
+[2018-08-19 15:41:59.911] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:59.911] 
+[2018-08-19 15:41:59.911] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:41:59.911] 
+[2018-08-19 15:42:31.461] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:42:31.461] 
+[2018-08-19 15:42:36.710] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:42:36.710] 
+[2018-08-19 15:42:49.152] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:42:49.152] 
+[2018-08-19 15:42:52.778] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:42:52.778] 
+[2018-08-19 15:43:15.496] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:43:15.496] 
+[2018-08-19 15:43:44.645] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:43:44.645] 
+[2018-08-19 15:44:32.995] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:44:32.995] 
+[2018-08-19 15:44:32.996] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:44:32.996] 
+[2018-08-19 15:44:47.217] ## WARNING: couldn't find shuttle with id: syndie_cargo in code/controllers/subsystem/shuttle.dm at line 159 src: Shuttle usr: Fernanda Lewis.
+[2018-08-19 15:44:54.668] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:44:54.668] 
+[2018-08-19 15:45:04.668] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-19 15:45:04.668] 
+[2018-08-19 15:45:04.669] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-19 15:45:04.669] 
+[2018-08-19 15:45:05.169] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-19 15:45:05.169] 
+[2018-08-19 15:45:05.670] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-19 15:45:05.670] 
+[2018-08-19 15:45:05.671] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-19 15:45:05.671] 
+[2018-08-19 15:45:06.198] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:45:06.198] 
+[2018-08-19 15:45:35.234] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:45:35.234] 
+[2018-08-19 15:46:42.755] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:46:42.755] 
+[2018-08-19 15:47:06.228] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:47:06.228] 
+[2018-08-19 15:47:10.713] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:47:10.713] 
+[2018-08-19 15:47:10.716] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-19 15:47:10.717] 
+[2018-08-19 15:47:12.279] runtime error: The wired network card taking damage after deletion
+[2018-08-19 15:47:12.279] 
+[2018-08-19 15:47:12.284] runtime error: The command console taking damage after deletion
+[2018-08-19 15:47:12.284] 
+[2018-08-19 15:47:34.985] runtime error: Cannot execute null.log message().
+[2018-08-19 15:47:34.985] 
+[2018-08-19 15:47:36.988] runtime error: Cannot execute null.log message().
+[2018-08-19 15:47:36.988] 
+[2018-08-19 15:48:12.144] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:48:12.145] 
+[2018-08-19 15:48:22.726] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:48:22.726] 
+[2018-08-19 15:48:34.701] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:48:34.701] 
+[2018-08-19 15:49:12.226] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:49:12.226] 
+[2018-08-19 15:49:20.151] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:49:20.151] 
+[2018-08-19 15:49:21.599] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-19 15:49:21.599] 
+[2018-08-19 15:49:22.854] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-19 15:49:22.854] 
+[2018-08-19 15:49:23.260] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-19 15:49:23.260] 
+[2018-08-19 15:49:23.620] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-19 15:49:23.620] 
+[2018-08-19 15:49:23.772] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-19 15:49:23.773] 
+[2018-08-19 15:49:24.141] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-08-19 15:49:24.141] 
+[2018-08-19 15:51:17.846] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:51:17.846] 
+[2018-08-19 15:51:22.887] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:51:22.887] 
+[2018-08-19 15:51:31.990] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:51:31.990] 
+[2018-08-19 15:53:37.464] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:53:37.464] 
+[2018-08-19 15:53:48.873] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:53:48.873] 
+[2018-08-19 15:54:00.981] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:54:00.981] 
+[2018-08-19 15:54:14.001] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:54:14.001] 
+[2018-08-19 15:54:39.817] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:54:39.817] 
+[2018-08-19 15:54:40.827] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:54:40.827] 
+[2018-08-19 15:54:46.888] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:54:46.888] 
+[2018-08-19 15:54:47.284] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:54:47.284] 
+[2018-08-19 15:54:48.205] runtime error: bad index
+[2018-08-19 15:54:48.205] 
+[2018-08-19 15:54:51.637] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:54:51.637] 
+[2018-08-19 15:55:02.977] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:55:02.977] 
+[2018-08-19 15:55:06.093] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:55:06.093] 
+[2018-08-19 15:55:16.240] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:55:16.240] 
+[2018-08-19 15:55:24.801] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:55:24.801] 
+[2018-08-19 15:55:25.388] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 15:55:25.388] 
+[2018-08-19 15:56:01.178] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:56:01.178] 
+[2018-08-19 15:56:15.996] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:56:15.996] 
+[2018-08-19 15:56:35.591] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 15:56:35.591] 
+[2018-08-19 15:56:41.743] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 15:56:41.743] 
+[2018-08-19 15:56:41.804] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:56:41.804] 
+[2018-08-19 15:56:41.940] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 15:56:41.940] 
+[2018-08-19 15:56:42.785] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:56:42.785] 
+[2018-08-19 15:56:46.577] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 15:56:46.577] 
+[2018-08-19 15:56:48.081] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 15:56:48.081] 
+[2018-08-19 15:56:57.237] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:56:57.237] 
+[2018-08-19 15:57:02.185] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 15:57:02.185] 
+[2018-08-19 15:57:02.238] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:57:02.238] 
+[2018-08-19 15:57:09.887] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 15:57:09.887] 
+[2018-08-19 15:57:13.543] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 15:57:13.543] 
+[2018-08-19 15:57:20.960] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 15:57:20.960] 
+[2018-08-19 15:57:59.981] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-08-19 15:57:59.981] 
+[2018-08-19 15:58:01.789] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:58:01.790] 
+[2018-08-19 15:58:57.911] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:58:57.911] 
+[2018-08-19 15:59:02.925] runtime error: Cannot modify null.icon_state.
+[2018-08-19 15:59:02.925] 
+[2018-08-19 15:59:36.540] Saved 22 engraved messages on map Box Station
+[2018-08-19 16:01:12.260] Shutting down Persistence subsystem...
+[2018-08-19 16:01:12.260] Shutting down Pathfinder subsystem...
+[2018-08-19 16:01:12.260] Shutting down Squeak subsystem...
+[2018-08-19 16:01:12.260] Shutting down Shuttle subsystem...
+[2018-08-19 16:01:12.260] Shutting down Lighting subsystem...
+[2018-08-19 16:01:12.260] Shutting down XKeyScore subsystem...
+[2018-08-19 16:01:12.260] Shutting down Sticky Ban subsystem...
+[2018-08-19 16:01:12.260] Shutting down Overlay subsystem...
+[2018-08-19 16:01:12.302] Shutting down Icon Smoothing subsystem...
+[2018-08-19 16:01:12.303] Shutting down Assets subsystem...
+[2018-08-19 16:01:12.303] Shutting down Minimap subsystem...
+[2018-08-19 16:01:12.303] Shutting down Atmospherics subsystem...
+[2018-08-19 16:01:12.303] Shutting down Wet floors subsystem...
+[2018-08-19 16:01:12.303] Shutting down Weather subsystem...
+[2018-08-19 16:01:12.303] Shutting down Vote subsystem...
+[2018-08-19 16:01:12.303] Shutting down Traumas subsystem...
+[2018-08-19 16:01:12.303] Shutting down Title Screen subsystem...
+[2018-08-19 16:01:12.304] Shutting down Time Tracking subsystem...
+[2018-08-19 16:01:12.304] Shutting down Throwing subsystem...
+[2018-08-19 16:01:12.304] Shutting down tgui subsystem...
+[2018-08-19 16:01:12.304] Shutting down Sun subsystem...
+[2018-08-19 16:01:12.304] Shutting down Space Drift subsystem...
+[2018-08-19 16:01:12.304] Shutting down Religion subsystem...
+[2018-08-19 16:01:12.304] Shutting down Radio subsystem...
+[2018-08-19 16:01:12.304] Shutting down Radiation subsystem...
+[2018-08-19 16:01:12.304] Shutting down Projectiles subsystem...
+[2018-08-19 16:01:12.304] Shutting down Processing subsystem...
+[2018-08-19 16:01:12.304] Shutting down Ping subsystem...
+[2018-08-19 16:01:12.304] Shutting down Parallax subsystem...
+[2018-08-19 16:01:12.304] Shutting down pAI subsystem...
+[2018-08-19 16:01:12.304] Shutting down Orbits subsystem...
+[2018-08-19 16:01:12.304] Shutting down Objects subsystem...
+[2018-08-19 16:01:12.304] Shutting down NPC Pool subsystem...
+[2018-08-19 16:01:12.304] Shutting down Night Shift subsystem...
+[2018-08-19 16:01:12.304] Shutting down Mood subsystem...
+[2018-08-19 16:01:12.304] Shutting down Mobs subsystem...
+[2018-08-19 16:01:12.304] Shutting down Medals subsystem...
+[2018-08-19 16:01:12.305] Shutting down Idling NPC Pool subsystem...
+[2018-08-19 16:01:12.305] Shutting down Fire Burning subsystem...
+[2018-08-19 16:01:12.305] Shutting down Fields subsystem...
+[2018-08-19 16:01:12.305] Shutting down Fast Processing subsystem...
+[2018-08-19 16:01:12.305] Shutting down Disease subsystem...
+[2018-08-19 16:01:12.305] Shutting down Datum Component System subsystem...
+[2018-08-19 16:01:12.305] Shutting down Communications subsystem...
+[2018-08-19 16:01:12.305] Shutting down Augury subsystem...
+[2018-08-19 16:01:12.305] Shutting down Acid subsystem...
+[2018-08-19 16:01:12.305] Shutting down Timer subsystem...
+[2018-08-19 16:01:12.305] Shutting down Circuit subsystem...
+[2018-08-19 16:01:12.305] Shutting down Machines subsystem...
+[2018-08-19 16:01:12.305] Shutting down Language subsystem...
+[2018-08-19 16:01:12.305] Shutting down Atoms subsystem...
+[2018-08-19 16:01:12.306] Shutting down Networks subsystem...
+[2018-08-19 16:01:12.306] Shutting down Mapping subsystem...
+[2018-08-19 16:01:12.306] Shutting down Ticker subsystem...
+[2018-08-19 16:01:12.557] Shutting down Quirks subsystem...
+[2018-08-19 16:01:12.557] Shutting down Jobs subsystem...
+[2018-08-19 16:01:12.557] Shutting down Events subsystem...
+[2018-08-19 16:01:12.558] Shutting down Research subsystem...
+[2018-08-19 16:01:12.558] Shutting down Input subsystem...
+[2018-08-19 16:01:12.558] Shutting down Server Tasks subsystem...
+[2018-08-19 16:01:12.558] Shutting down Blackbox subsystem...
+[2018-08-19 16:01:12.834] Shutting down Database subsystem...
+[2018-08-19 16:01:12.870] Shutting down Garbage subsystem...
+[2018-08-19 16:01:12.956] Shutdown complete
+[2018-08-19 16:01:12.956] World rebooted at 16:01:12

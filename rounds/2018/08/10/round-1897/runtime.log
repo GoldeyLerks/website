@@ -1,0 +1,380 @@
+[2018-08-10 14:06:12.185] Starting up round ID 1897.
+[2018-08-10 14:06:12.185] -------------------------
+[2018-08-10 14:06:13.695] Initialized Database subsystem within 0 seconds!
+[2018-08-10 14:06:13.696] Initialized Blackbox subsystem within 0 seconds!
+[2018-08-10 14:06:13.696] Initialized Server Tasks subsystem within 0 seconds!
+[2018-08-10 14:06:13.696] Initialized Input subsystem within 0 seconds!
+[2018-08-10 14:06:13.728] Initialized Research subsystem within 0.1 seconds!
+[2018-08-10 14:06:13.732] Initialized Events subsystem within 0 seconds!
+[2018-08-10 14:06:13.737] Initialized Jobs subsystem within 0 seconds!
+[2018-08-10 14:06:13.739] Initialized Quirks subsystem within 0 seconds!
+[2018-08-10 14:06:13.753] Initialized Ticker subsystem within 0 seconds!
+[2018-08-10 14:06:13.754] Loading Box Station...
+[2018-08-10 14:06:18.544] Loaded Station in 4.8s!
+[2018-08-10 14:06:23.368] Loaded Lavaland in 4.6s!
+[2018-08-10 14:06:25.899] Ruin loader finished with 0 left to spend.
+[2018-08-10 14:06:28.445] Ruin loader finished with 0 left to spend.
+[2018-08-10 14:06:38.511] Initialized Mapping subsystem within 24.8 seconds!
+[2018-08-10 14:06:38.513] Initialized Networks subsystem within 0 seconds!
+[2018-08-10 14:07:27.151] Initialized Atoms subsystem within 48.6 seconds!
+[2018-08-10 14:07:27.168] Initialized Language subsystem within 0 seconds!
+[2018-08-10 14:07:27.552] Initialized Machines subsystem within 0.4 seconds!
+[2018-08-10 14:07:27.610] Initialized Circuit subsystem within 0.1 seconds!
+[2018-08-10 14:07:27.612] Initialized Disease subsystem within 0 seconds!
+[2018-08-10 14:07:27.612] Initialized Medals subsystem within 0 seconds!
+[2018-08-10 14:07:27.612] Initialized Night Shift subsystem within 0 seconds!
+[2018-08-10 14:07:27.612] Initialized Parallax subsystem within 0 seconds!
+[2018-08-10 14:07:27.751] Initialized Traumas subsystem within 0.1 seconds!
+[2018-08-10 14:07:27.752] Initialized Weather subsystem within 0 seconds!
+[2018-08-10 14:08:47.398] ## WARNING: There are 1 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+[2018-08-10 14:08:47.403] ## WARNING: HEY! LISTEN! 0.1 seconds were wasted processing 1 turf(s) (connected to 2 other turfs) with atmos differences at round start.
+[2018-08-10 14:08:47.926] Initialized Atmospherics subsystem within 80.2 seconds!
+[2018-08-10 14:08:47.945] Initialized Minimap subsystem within 0 seconds!
+[2018-08-10 14:08:50.071] Initialized Assets subsystem within 2.1 seconds!
+[2018-08-10 14:08:56.392] Initialized Icon Smoothing subsystem within 6.3 seconds!
+[2018-08-10 14:08:57.843] Initialized Overlay subsystem within 1.5 seconds!
+[2018-08-10 14:08:57.844] Initialized XKeyScore subsystem within 0 seconds!
+[2018-08-10 14:08:57.845] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-08-10 14:09:12.053] Initialized Lighting subsystem within 14.2 seconds!
+[2018-08-10 14:09:16.459] Initialized Shuttle subsystem within 4.4 seconds!
+[2018-08-10 14:09:16.497] Initialized Squeak subsystem within 0 seconds!
+[2018-08-10 14:09:16.498] Initialized Pathfinder subsystem within 0 seconds!
+[2018-08-10 14:09:16.552] Loaded 24 engraved messages on map Box Station
+[2018-08-10 14:09:16.567] Initialized Persistence subsystem within 0.1 seconds!
+[2018-08-10 14:09:16.568] Initializations complete within 182.9 seconds!
+[2018-08-10 14:10:26.033] Game start took 1s
+[2018-08-10 14:10:28.715] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:10:28.715] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:10:28.715]   source file: mood.dm,122
+[2018-08-10 14:10:28.715]   usr:  (/mob/living/carbon/human)
+[2018-08-10 14:10:28.715]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-10 14:10:28.715]   usr.loc: the floor (134,109,2) (/turf/open/floor/plasteel/white)
+[2018-08-10 14:10:28.715]   call stack:
+[2018-08-10 14:10:28.715] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-10 14:10:28.715] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-10 14:10:28.715] /datum/component/mood (/datum/component/mood): add event("family_heirloom", /datum/mood_event/family_heirl... (/datum/mood_event/family_heirloom), null)
+[2018-08-10 14:10:28.715] /datum/callback (/datum/callback): Invoke("family_heirloom", /datum/mood_event/family_heirl... (/datum/mood_event/family_heirloom))
+[2018-08-10 14:10:28.715] world: PushUsr( (/mob/living/carbon/human), /datum/callback (/datum/callback), "family_heirloom", /datum/mood_event/family_heirl... (/datum/mood_event/family_heirloom))
+[2018-08-10 14:10:28.715] /datum/callback (/datum/callback): InvokeAsync("family_heirloom", /datum/mood_event/family_heirl... (/datum/mood_event/family_heirloom))
+[2018-08-10 14:10:28.715]  (/mob/living/carbon/human):  SendSignal("add_mood", /list (/list))
+[2018-08-10 14:10:28.715] Family Heirloom (/datum/quirk/family_heirloom): on process()
+[2018-08-10 14:10:28.715] Family Heirloom (/datum/quirk/family_heirloom): process(10)
+[2018-08-10 14:10:28.715] Quirks (/datum/controller/subsystem/processing/quirks): fire(0)
+[2018-08-10 14:10:28.715] Quirks (/datum/controller/subsystem/processing/quirks): ignite(0)
+[2018-08-10 14:10:28.715] Master (/datum/controller/master): RunQueue()
+[2018-08-10 14:10:28.715] Master (/datum/controller/master): Loop()
+[2018-08-10 14:10:28.715] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-10 14:10:28.715] 
+[2018-08-10 14:10:30.505] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:10:30.505] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:10:30.505]   source file: mood.dm,122
+[2018-08-10 14:10:30.505]   usr:  (/mob/living/carbon/human)
+[2018-08-10 14:10:30.505]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-10 14:10:30.505]   usr.loc: the floor (134,109,2) (/turf/open/floor/plasteel/white)
+[2018-08-10 14:10:30.505]   call stack:
+[2018-08-10 14:10:30.505] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-10 14:10:30.505] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-10 14:10:30.505] /datum/component/mood (/datum/component/mood): add event("antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused), null)
+[2018-08-10 14:10:30.505] /datum/callback (/datum/callback): Invoke("antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused))
+[2018-08-10 14:10:30.505] world: PushUsr( (/mob/living/carbon/human), /datum/callback (/datum/callback), "antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused))
+[2018-08-10 14:10:30.505] /datum/callback (/datum/callback): InvokeAsync("antag_moodlet", /datum/mood_event/focused (/datum/mood_event/focused))
+[2018-08-10 14:10:30.505]  (/mob/living/carbon/human):  SendSignal("add_mood", /list (/list))
+[2018-08-10 14:10:30.505] Traitor (/datum/antagonist/traitor): give antag moodies()
+[2018-08-10 14:10:30.505] Traitor (/datum/antagonist/traitor): on gain()
+[2018-08-10 14:10:30.505] Traitor (/datum/antagonist/traitor): on gain()
+[2018-08-10 14:10:30.505] Lara Black (/datum/mind): add antag datum(Traitor (/datum/antagonist/traitor), null)
+[2018-08-10 14:10:30.505] /datum/callback (/datum/callback): InvokeAsync()
+[2018-08-10 14:10:30.505] Timer (/datum/controller/subsystem/timer): fire(1)
+[2018-08-10 14:10:30.505] Timer (/datum/controller/subsystem/timer): ignite(1)
+[2018-08-10 14:10:30.505] Master (/datum/controller/master): RunQueue()
+[2018-08-10 14:10:30.505] Master (/datum/controller/master): Loop()
+[2018-08-10 14:10:30.505] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-10 14:10:30.505] 
+[2018-08-10 14:10:32.410] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:10:32.411] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:10:32.411]   source file: mood.dm,122
+[2018-08-10 14:10:32.411]   usr:  (/mob/living/carbon/human)
+[2018-08-10 14:10:32.411]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-10 14:10:32.411]   usr.loc: the floor (134,109,2) (/turf/open/floor/plasteel/white)
+[2018-08-10 14:10:32.411]   call stack:
+[2018-08-10 14:10:32.411] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-10 14:10:32.411] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-10 14:10:32.411] /datum/component/mood (/datum/component/mood): add event("nutrition", /datum/mood_event/nutrition/fe... (/datum/mood_event/nutrition/fed), null)
+[2018-08-10 14:10:32.411] /datum/callback (/datum/callback): Invoke("nutrition", /datum/mood_event/nutrition/fe... (/datum/mood_event/nutrition/fed))
+[2018-08-10 14:10:32.411] world: PushUsr( (/mob/living/carbon/human), /datum/callback (/datum/callback), "nutrition", /datum/mood_event/nutrition/fe... (/datum/mood_event/nutrition/fed))
+[2018-08-10 14:10:32.411] /datum/callback (/datum/callback): InvokeAsync("nutrition", /datum/mood_event/nutrition/fe... (/datum/mood_event/nutrition/fed))
+[2018-08-10 14:10:32.411]  (/mob/living/carbon/human):  SendSignal("add_mood", /list (/list))
+[2018-08-10 14:10:32.411] Human (/datum/species/human): handle digestion( (/mob/living/carbon/human))
+[2018-08-10 14:10:32.411] the stomach (/obj/item/organ/stomach): on life()
+[2018-08-10 14:10:32.411]  (/mob/living/carbon/human): handle organs()
+[2018-08-10 14:10:32.411]  (/mob/living/carbon/human): Life(2, 2)
+[2018-08-10 14:10:32.411]  (/mob/living/carbon/human): Life(2, 2)
+[2018-08-10 14:10:32.411] Mobs (/datum/controller/subsystem/mobs): fire(0)
+[2018-08-10 14:10:32.411] Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[2018-08-10 14:10:32.411] Master (/datum/controller/master): RunQueue()
+[2018-08-10 14:10:32.411] Master (/datum/controller/master): Loop()
+[2018-08-10 14:10:32.411] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-10 14:10:32.411] 
+[2018-08-10 14:16:32.641] ## WARNING: shuttle "arrivals" could not enter transit space. Docked at arrivals_stationary. Transit dock 37. in code/modules/shuttle/shuttle.dm at line 422 src: the arrivals shuttle usr: .
+[2018-08-10 14:17:30.320] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:17:30.320] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:17:30.320]   source file: mood.dm,122
+[2018-08-10 14:17:30.320]   usr: Lara Black (/mob/living/carbon/human)
+[2018-08-10 14:17:30.320]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-10 14:17:30.320]   usr.loc: the plating (159,87,2) (/turf/open/floor/plating)
+[2018-08-10 14:17:30.320]   call stack:
+[2018-08-10 14:17:30.320] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-10 14:17:30.320] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-10 14:17:30.320] /datum/component/mood (/datum/component/mood): clear event("nutrition")
+[2018-08-10 14:17:30.320] /datum/callback (/datum/callback): Invoke("nutrition")
+[2018-08-10 14:17:30.320] world: PushUsr(Lara Black (/mob/living/carbon/human), /datum/callback (/datum/callback), "nutrition")
+[2018-08-10 14:17:30.320] /datum/callback (/datum/callback): InvokeAsync("nutrition")
+[2018-08-10 14:17:30.320] Lara Black (/mob/living/carbon/human):  SendSignal("clear_mood", /list (/list))
+[2018-08-10 14:17:30.320] Human (/datum/species/human): handle digestion(Lara Black (/mob/living/carbon/human))
+[2018-08-10 14:17:30.320] the stomach (/obj/item/organ/stomach): on life()
+[2018-08-10 14:17:30.320] Lara Black (/mob/living/carbon/human): handle organs()
+[2018-08-10 14:17:30.320] Lara Black (/mob/living/carbon/human): Life(2, 208)
+[2018-08-10 14:17:30.320] Lara Black (/mob/living/carbon/human): Life(2, 208)
+[2018-08-10 14:17:30.320] Mobs (/datum/controller/subsystem/mobs): fire(0)
+[2018-08-10 14:17:30.320] Mobs (/datum/controller/subsystem/mobs): ignite(0)
+[2018-08-10 14:17:30.320] Master (/datum/controller/master): RunQueue()
+[2018-08-10 14:17:30.320] Master (/datum/controller/master): Loop()
+[2018-08-10 14:17:30.320] Master (/datum/controller/master): StartProcessing(0)
+[2018-08-10 14:17:30.320] 
+[2018-08-10 14:18:21.372] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:18:21.372] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:18:21.372]   source file: mood.dm,122
+[2018-08-10 14:18:21.372]   usr: Beau Richards (/mob/living/carbon/human)
+[2018-08-10 14:18:21.372]   src: /datum/component/mood (/datum/component/mood)
+[2018-08-10 14:18:21.372]   usr.loc: the floor (65,38,5) (/turf/open/floor/plasteel)
+[2018-08-10 14:18:21.372]   call stack:
+[2018-08-10 14:18:21.372] /datum/component/mood (/datum/component/mood): update mood icon()
+[2018-08-10 14:18:21.372] /datum/component/mood (/datum/component/mood): update mood()
+[2018-08-10 14:18:21.372] Beau Richards (/mob/living/carbon/human): fully heal(0)
+[2018-08-10 14:18:21.372] Beau Richards (/mob/living/carbon/human): fully heal(0)
+[2018-08-10 14:18:21.372] Beau Richards (/mob/living/carbon/human): fully heal(0)
+[2018-08-10 14:18:21.372] Beau Richards (/mob/living/carbon/human): revive(1, 0)
+[2018-08-10 14:18:21.372] the regenerative core (/obj/item/organ/regenerative_core/legion): afterattack(Beau Richards (/mob/living/carbon/human), Beau Richards (/mob/living/carbon/human), 1, "icon-x=15;icon-y=29;left=1;scr...")
+[2018-08-10 14:18:21.372] the regenerative core (/obj/item/organ/regenerative_core/legion): melee attack chain(Beau Richards (/mob/living/carbon/human), Beau Richards (/mob/living/carbon/human), "icon-x=15;icon-y=29;left=1;scr...")
+[2018-08-10 14:18:21.372] Beau Richards (/mob/living/carbon/human): ClickOn(Beau Richards (/mob/living/carbon/human), "icon-x=15;icon-y=29;left=1;scr...")
+[2018-08-10 14:18:21.372] Beau Richards (/mob/living/carbon/human): Click(the floor (65,38,5) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=15;icon-y=29;left=1;scr...")
+[2018-08-10 14:18:21.372] BuckyBoy (/client): Click(Beau Richards (/mob/living/carbon/human), the floor (65,38,5) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=15;icon-y=29;left=1;scr...")
+[2018-08-10 14:18:21.372] 
+[2018-08-10 14:18:22.516] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:18:22.516] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:18:22.516]   source file: mood.dm,122
+[2018-08-10 14:18:22.516] 
+[2018-08-10 14:18:58.177] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:18:58.177] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:18:58.177]   source file: mood.dm,122
+[2018-08-10 14:18:58.177] 
+[2018-08-10 14:19:16.686] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:19:16.687] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:19:16.687]   source file: mood.dm,122
+[2018-08-10 14:19:16.687] 
+[2018-08-10 14:20:59.143] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:20:59.143] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:20:59.143]   source file: mood.dm,122
+[2018-08-10 14:20:59.144] 
+[2018-08-10 14:26:54.072] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:26:54.072] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:26:54.072]   source file: mood.dm,122
+[2018-08-10 14:26:54.072] 
+[2018-08-10 14:27:50.283] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:27:50.283] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:27:50.283]   source file: mood.dm,122
+[2018-08-10 14:27:50.283] 
+[2018-08-10 14:30:46.015] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:30:46.015] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:30:46.015]   source file: mood.dm,122
+[2018-08-10 14:30:46.015] 
+[2018-08-10 14:33:03.779] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:33:03.780] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:33:03.780]   source file: mood.dm,122
+[2018-08-10 14:33:03.780] 
+[2018-08-10 14:35:05.010] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:35:05.010] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:35:05.010]   source file: mood.dm,122
+[2018-08-10 14:35:05.010] 
+[2018-08-10 14:35:36.229] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:35:36.229] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:35:36.229]   source file: mood.dm,122
+[2018-08-10 14:35:36.229] 
+[2018-08-10 14:35:36.230] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:35:36.230] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:35:36.230]   source file: mood.dm,122
+[2018-08-10 14:35:36.230] 
+[2018-08-10 14:36:42.650] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:36:42.650] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:36:42.650]   source file: mood.dm,122
+[2018-08-10 14:36:42.650] 
+[2018-08-10 14:36:55.639] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:36:55.639] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:36:55.639]   source file: mood.dm,122
+[2018-08-10 14:36:55.639] 
+[2018-08-10 14:38:19.900] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:38:19.900] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:38:19.900]   source file: mood.dm,122
+[2018-08-10 14:38:19.900] 
+[2018-08-10 14:38:57.183] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:38:57.183] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:38:57.183]   source file: mood.dm,122
+[2018-08-10 14:38:57.183] 
+[2018-08-10 14:40:07.202] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:40:07.203] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:40:07.203]   source file: mood.dm,122
+[2018-08-10 14:40:07.203] 
+[2018-08-10 14:41:22.074] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:41:22.074] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:41:22.075]   source file: mood.dm,122
+[2018-08-10 14:41:22.075] 
+[2018-08-10 14:41:30.101] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:41:30.101] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:41:30.101]   source file: mood.dm,122
+[2018-08-10 14:41:30.101] 
+[2018-08-10 14:47:54.795] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:47:54.795] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:47:54.795]   source file: mood.dm,122
+[2018-08-10 14:47:54.795] 
+[2018-08-10 14:49:56.193] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:49:56.193] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:49:56.193]   source file: mood.dm,122
+[2018-08-10 14:49:56.193] 
+[2018-08-10 14:50:17.535] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:50:17.535] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:50:17.535]   source file: mood.dm,122
+[2018-08-10 14:50:17.535] 
+[2018-08-10 14:50:51.766] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:50:51.766] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:50:51.766]   source file: mood.dm,122
+[2018-08-10 14:50:51.766] 
+[2018-08-10 14:50:53.804] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:50:53.804] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:50:53.804]   source file: mood.dm,122
+[2018-08-10 14:50:53.804] 
+[2018-08-10 14:52:44.689] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:52:44.689] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:52:44.689]   source file: mood.dm,122
+[2018-08-10 14:52:44.689] 
+[2018-08-10 14:54:21.463] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:54:21.463] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:54:21.463]   source file: mood.dm,122
+[2018-08-10 14:54:21.464] 
+[2018-08-10 14:54:21.464] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:54:21.464] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:54:21.464]   source file: mood.dm,122
+[2018-08-10 14:54:21.464] 
+[2018-08-10 14:56:59.622] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:56:59.622] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:56:59.622]   source file: mood.dm,122
+[2018-08-10 14:56:59.622] 
+[2018-08-10 14:57:02.856] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:57:02.856] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:57:02.856]   source file: mood.dm,122
+[2018-08-10 14:57:02.856] 
+[2018-08-10 14:57:02.857] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:57:02.857] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:57:02.857]   source file: mood.dm,122
+[2018-08-10 14:57:02.857] 
+[2018-08-10 14:57:22.984] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:57:22.984] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:57:22.984]   source file: mood.dm,122
+[2018-08-10 14:57:22.984] 
+[2018-08-10 14:57:49.240] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:57:49.240] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:57:49.240]   source file: mood.dm,122
+[2018-08-10 14:57:49.240] 
+[2018-08-10 14:58:23.413] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:58:23.413] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:58:23.413]   source file: mood.dm,122
+[2018-08-10 14:58:23.413] 
+[2018-08-10 14:58:23.413] runtime error: Cannot modify null.icon_state.
+[2018-08-10 14:58:23.413] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 14:58:23.413]   source file: mood.dm,122
+[2018-08-10 14:58:23.413] 
+[2018-08-10 15:01:01.157] runtime error: Cannot modify null.icon_state.
+[2018-08-10 15:01:01.157] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 15:01:01.157]   source file: mood.dm,122
+[2018-08-10 15:01:01.157] 
+[2018-08-10 15:02:53.343] runtime error: Cannot modify null.icon_state.
+[2018-08-10 15:02:53.343] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 15:02:53.343]   source file: mood.dm,122
+[2018-08-10 15:02:53.343] 
+[2018-08-10 15:02:53.344] runtime error: Cannot modify null.icon_state.
+[2018-08-10 15:02:53.344] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 15:02:53.344]   source file: mood.dm,122
+[2018-08-10 15:02:53.344] 
+[2018-08-10 15:05:14.549] runtime error: Cannot modify null.icon_state.
+[2018-08-10 15:05:14.549] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 15:05:14.549]   source file: mood.dm,122
+[2018-08-10 15:05:14.549] 
+[2018-08-10 15:05:48.693] runtime error: Cannot modify null.icon_state.
+[2018-08-10 15:05:48.693] proc name: update mood icon (/datum/component/mood/proc/update_mood_icon)
+[2018-08-10 15:05:48.693]   source file: mood.dm,122
+[2018-08-10 15:05:48.693] 
+[2018-08-10 15:16:00.983] Saved 24 engraved messages on map Box Station
+[2018-08-10 15:17:37.676] Shutting down Persistence subsystem...
+[2018-08-10 15:17:37.676] Shutting down Pathfinder subsystem...
+[2018-08-10 15:17:37.676] Shutting down Squeak subsystem...
+[2018-08-10 15:17:37.676] Shutting down Shuttle subsystem...
+[2018-08-10 15:17:37.676] Shutting down Lighting subsystem...
+[2018-08-10 15:17:37.676] Shutting down XKeyScore subsystem...
+[2018-08-10 15:17:37.676] Shutting down Sticky Ban subsystem...
+[2018-08-10 15:17:37.676] Shutting down Overlay subsystem...
+[2018-08-10 15:17:37.719] Shutting down Icon Smoothing subsystem...
+[2018-08-10 15:17:37.719] Shutting down Assets subsystem...
+[2018-08-10 15:17:37.719] Shutting down Minimap subsystem...
+[2018-08-10 15:17:37.719] Shutting down Atmospherics subsystem...
+[2018-08-10 15:17:37.719] Shutting down Wet floors subsystem...
+[2018-08-10 15:17:37.719] Shutting down Weather subsystem...
+[2018-08-10 15:17:37.719] Shutting down Vote subsystem...
+[2018-08-10 15:17:37.720] Shutting down Traumas subsystem...
+[2018-08-10 15:17:37.720] Shutting down Title Screen subsystem...
+[2018-08-10 15:17:37.720] Shutting down Time Tracking subsystem...
+[2018-08-10 15:17:37.720] Shutting down Throwing subsystem...
+[2018-08-10 15:17:37.720] Shutting down tgui subsystem...
+[2018-08-10 15:17:37.720] Shutting down Sun subsystem...
+[2018-08-10 15:17:37.720] Shutting down Space Drift subsystem...
+[2018-08-10 15:17:37.720] Shutting down Religion subsystem...
+[2018-08-10 15:17:37.720] Shutting down Radio subsystem...
+[2018-08-10 15:17:37.721] Shutting down Radiation subsystem...
+[2018-08-10 15:17:37.721] Shutting down Projectiles subsystem...
+[2018-08-10 15:17:37.721] Shutting down Processing subsystem...
+[2018-08-10 15:17:37.721] Shutting down Ping subsystem...
+[2018-08-10 15:17:37.721] Shutting down Parallax subsystem...
+[2018-08-10 15:17:37.721] Shutting down pAI subsystem...
+[2018-08-10 15:17:37.721] Shutting down Orbits subsystem...
+[2018-08-10 15:17:37.721] Shutting down Objects subsystem...
+[2018-08-10 15:17:37.721] Shutting down NPC Pool subsystem...
+[2018-08-10 15:17:37.721] Shutting down Night Shift subsystem...
+[2018-08-10 15:17:37.721] Shutting down Mood subsystem...
+[2018-08-10 15:17:37.721] Shutting down Mobs subsystem...
+[2018-08-10 15:17:37.721] Shutting down Medals subsystem...
+[2018-08-10 15:17:37.721] Shutting down Idling NPC Pool subsystem...
+[2018-08-10 15:17:37.721] Shutting down Fire Burning subsystem...
+[2018-08-10 15:17:37.721] Shutting down Fields subsystem...
+[2018-08-10 15:17:37.721] Shutting down Fast Processing subsystem...
+[2018-08-10 15:17:37.721] Shutting down Disease subsystem...
+[2018-08-10 15:17:37.721] Shutting down Datum Component System subsystem...
+[2018-08-10 15:17:37.722] Shutting down Communications subsystem...
+[2018-08-10 15:17:37.722] Shutting down Augury subsystem...
+[2018-08-10 15:17:37.722] Shutting down Acid subsystem...
+[2018-08-10 15:17:37.722] Shutting down Timer subsystem...
+[2018-08-10 15:17:37.722] Shutting down Circuit subsystem...
+[2018-08-10 15:17:37.722] Shutting down Machines subsystem...
+[2018-08-10 15:17:37.722] Shutting down Language subsystem...
+[2018-08-10 15:17:37.722] Shutting down Atoms subsystem...
+[2018-08-10 15:17:37.722] Shutting down Networks subsystem...
+[2018-08-10 15:17:37.722] Shutting down Mapping subsystem...
+[2018-08-10 15:17:37.722] Shutting down Ticker subsystem...
+[2018-08-10 15:17:37.980] Shutting down Quirks subsystem...
+[2018-08-10 15:17:37.980] Shutting down Jobs subsystem...
+[2018-08-10 15:17:37.980] Shutting down Events subsystem...
+[2018-08-10 15:17:37.980] Shutting down Research subsystem...
+[2018-08-10 15:17:37.980] Shutting down Input subsystem...
+[2018-08-10 15:17:37.980] Shutting down Server Tasks subsystem...
+[2018-08-10 15:17:37.980] Shutting down Blackbox subsystem...
+[2018-08-10 15:17:38.246] Shutting down Database subsystem...
+[2018-08-10 15:17:38.283] Shutting down Garbage subsystem...
+[2018-08-10 15:17:38.351] Shutdown complete
+[2018-08-10 15:17:38.351] World rebooted at 15:17:38

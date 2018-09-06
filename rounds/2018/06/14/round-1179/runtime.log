@@ -1,0 +1,448 @@
+
+
+Starting up round ID 1179. 17:51:30
+---------------------
+Initialized Database subsystem within 0 seconds!
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+Initialized Research subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+Initialized Jobs subsystem within 0 seconds!
+Initialized Traits subsystem within 0 seconds!
+Initialized Ticker subsystem within 0.1 seconds!
+Loading BoxStation...
+Loaded Station in 7.2s!
+Loaded Lavaland in 6.6s!
+runtime error: 
+[17:51:56]Cannot read null.melee
+[17:51:56]proc name: attachArmor (/datum/armor/proc/attachArmor)
+[17:51:56]  source file: armor.dm,59
+[17:51:56]  usr: PapaPutin (/mob/dead/new_player)
+[17:51:56]  src: /datum/armor (/datum/armor)
+[17:51:56]  usr.loc: the plating (8,174,1) (/turf/open/floor/plating)
+[17:51:56]  call stack:
+[17:51:56]/datum/armor (/datum/armor): attachArmor(null)
+[17:51:56]the medal of captaincy (/obj/item/clothing/accessory/medal/gold/captain): attach(the captain\'s jumpsuit (/obj/item/clothing/under/rank/captain), null)
+[17:51:56]the captain\'s jumpsuit (/obj/item/clothing/under/rank/captain): attach accessory(the medal of captaincy (/obj/item/clothing/accessory/medal/gold/captain), null, 1)
+[17:51:56]Captain (/datum/outfit/job/captain): equip(Indrick Boreale (/mob/living/carbon/human/dummy), 1)
+[17:51:56]Indrick Boreale (/mob/living/carbon/human/dummy): equipOutfit(/datum/outfit/job/captain (/datum/outfit/job/captain), 1)
+[17:51:56]/datum/job/captain (/datum/job/captain): equip(Indrick Boreale (/mob/living/carbon/human/dummy), 1, 1)
+[17:51:56]/datum/preferences (/datum/preferences): update preview icon()
+[17:51:56]/datum/preferences (/datum/preferences): ShowChoices(PapaPutin (/mob/dead/new_player))
+[17:51:56]PapaPutin (/mob/dead/new_player): Topic("src=\[mob_7];show_preferences=...", /list (/list))
+[17:51:56]PapaPutin (/client): Topic("src=\[mob_7];show_preferences=...", /list (/list), PapaPutin (/mob/dead/new_player))
+[17:51:56]PapaPutin (/client): Topic("src=\[mob_7];show_preferences=...", /list (/list), PapaPutin (/mob/dead/new_player))
+Loaded Reebe in 7.3s!
+Ruin loader finished with 0 left to spend.
+Ruin loader finished with 0 left to spend.
+Initialized Mapping subsystem within 40.4 seconds!
+Initialized Networks subsystem within 0 seconds!
+runtime error: 
+[17:52:25]Bad areastring path for Vacant Office APC, area/security/vacantoffice
+[17:52:25]proc name: stack trace (/datum/proc/stack_trace)
+[17:52:25]  source file: unsorted.dm,1257
+[17:52:25]  usr: null
+[17:52:25]  src: Vacant Office APC (/obj/machinery/power/apc)
+[17:52:25]  src.loc: the floor (88,129,2) (/turf/open/floor/plasteel/grimy)
+[17:52:25]  call stack:
+[17:52:25]Vacant Office APC (/obj/machinery/power/apc): stack trace("Bad areastring path for Vacant...")
+[17:52:25]Vacant Office APC (/obj/machinery/power/apc): Initialize(1)
+[17:52:25]Atoms (/datum/controller/subsystem/atoms): InitAtom(Vacant Office APC (/obj/machinery/power/apc), /list (/list))
+[17:52:25]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[17:52:25]Atoms (/datum/controller/subsystem/atoms): Initialize(643362)
+[17:52:25]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Atoms subsystem within 54.3 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 0.4 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Disease subsystem within 0 seconds!
+Initialized Medals subsystem within 0 seconds!
+Initialized Night Shift subsystem within 0 seconds!
+Initialized Parallax subsystem within 0 seconds!
+Initialized Traumas subsystem within 0.2 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 12 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 12 turf(s) (connected to 19284 other turfs) with atmos differences at round start.
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (108, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/manifold/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (109, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (107, 118, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 119, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 117, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 120, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 116, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 121, 2)
+## WARNING: build_pipeline(): /obj/machinery/atmospherics/pipe/simple/supply/hidden added to a pipenet while still having one. (pipes leading to the same spot stacking in one turf) Nearby: (106, 115, 2)
+## WARNING: build_pipeline(): further messages about pipenets will be supressed
+Initialized Atmospherics subsystem within 17.5 seconds!
+Failed to find backup file for map BoxStation on zlevel 2.
+Initialized Assets subsystem within 0.9 seconds!
+Initialized Icon Smoothing subsystem within 8.4 seconds!
+Initialized Overlay subsystem within 25.8 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Sticky Ban subsystem within 0 seconds!
+Initialized Lighting subsystem within 18.8 seconds!
+Initialized Shuttle subsystem within 26.1 seconds!
+Initialized Squeak subsystem within 0.1 seconds!
+Initialized pathfinder subsystem within 0 seconds!
+Loaded 0 engraved messages on map BoxStation
+Initialized Persistence subsystem within 0 seconds!
+Initializations complete within 194.2 seconds!
+Game start took 9.1s
+runtime error: 
+[17:56:28]nothing to animate
+[17:56:28]proc name: shake camera (/proc/shake_camera)
+[17:56:28]  source file: mob_helpers.dm,270
+[17:56:28]  usr: (src)
+[17:56:28]  src: null
+[17:56:28]  call stack:
+[17:56:28]shake camera(Justice Richardson (/mob/living/carbon/human), 0.75, 1)
+[17:56:28]Justice Richardson (/mob/living/carbon/human): afterShuttleMove(space (25,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[17:56:28]Justice Richardson (/mob/living/carbon/human): afterShuttleMove(space (25,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[17:56:28]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[17:56:28]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[17:56:28]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[17:56:28]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[17:56:28]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[17:56:28]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[17:56:28]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+## WARNING: shuttle "arrivals" could not enter transit space. Docked at arrivals_stationary. Transit dock 35. in code/modules/shuttle/shuttle.dm at line 422 src: the arrivals shuttle usr: .
+runtime error: 
+[18:02:36]nothing to animate
+[18:02:36]proc name: shake camera (/proc/shake_camera)
+[18:02:36]  source file: mob_helpers.dm,270
+[18:02:36]  usr: (src)
+[18:02:36]  src: null
+[18:02:36]  call stack:
+[18:02:36]shake camera(Melvyn Muggins (/mob/living/carbon/human), 0.75, 1)
+[18:02:36]Melvyn Muggins (/mob/living/carbon/human): afterShuttleMove(space (18,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:02:36]Melvyn Muggins (/mob/living/carbon/human): afterShuttleMove(space (18,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:02:36]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[18:02:36]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[18:02:36]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[18:02:36]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:02:36]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:02:36]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:02:36]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:07:29]nothing to animate
+[18:07:29]proc name: shake camera (/proc/shake_camera)
+[18:07:29]  source file: mob_helpers.dm,270
+[18:07:29]  usr: (src)
+[18:07:29]  src: null
+[18:07:29]  call stack:
+[18:07:29]shake camera(Cadence Bullard (/mob/living/carbon/human), 0.75, 1)
+[18:07:29]Cadence Bullard (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:07:29]Cadence Bullard (/mob/living/carbon/human): afterShuttleMove(space (23,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:07:29]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[18:07:29]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[18:07:29]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[18:07:29]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:07:29]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:07:29]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:07:29]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:08:13]nothing to animate
+[18:08:13]proc name: shake camera (/proc/shake_camera)
+[18:08:13]  source file: mob_helpers.dm,270
+[18:08:13]  usr: (src)
+[18:08:13]  src: null
+[18:08:13]  call stack:
+[18:08:13]shake camera(Yuki Von (/mob/living/carbon/human), 0.75, 1)
+[18:08:13]Yuki Von (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:08:13]Yuki Von (/mob/living/carbon/human): afterShuttleMove(space (21,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:08:13]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[18:08:13]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[18:08:13]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[18:08:13]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:08:13]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:08:13]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:08:13]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:09:41]Cannot read null.loc
+[18:09:41]proc name: update parallax (/datum/hud/proc/update_parallax)
+[18:09:41]  source file: parallax.dm,170
+[18:09:41]  usr: Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/brain)
+[18:09:41]  src: /datum/hud (/datum/hud)
+[18:09:41]  usr.loc: Pull-Up-Wit-A-Choppa-Let-It-Ea... (/obj/item/organ/brain)
+[18:09:41]  call stack:
+[18:09:41]/datum/hud (/datum/hud): update parallax()
+[18:09:41]/datum/hud (/datum/hud): update parallax pref(Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/brain))
+[18:09:41]/datum/hud (/datum/hud): show hud(1, null)
+[18:09:41]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/brain): Login()
+[18:09:41]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/brain): Login()
+[18:09:41]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/datum/mind): transfer to(Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/brain), 0)
+[18:09:41]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/obj/item/organ/brain): transfer identity(Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human))
+[18:09:41]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/obj/item/organ/brain): Remove(Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human), 0, 0)
+[18:09:41]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/obj/item/organ/brain): transfer to limb(Pull-Up-Wit-A-Choppa-Let-It-Ea... (/obj/item/bodypart/head), Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human))
+[18:09:41]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/obj/item/bodypart/head): drop limb(null)
+[18:09:41]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/obj/item/bodypart/head): drop limb(null)
+[18:09:41]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human): spread bodyparts(null, null)
+[18:09:41]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human): gib(null, null, null)
+[18:09:41]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human): gib(null, null, null)
+[18:09:41]Pull-Up-Wit-A-Choppa-Let-It-Ea... (/mob/living/carbon/human): ex act(1, null, null)
+[18:09:41]/datum/explosion (/datum/explosion): New(the plating (173,161,2) (/turf/open/floor/plating), 1, 2, 4, 1, 1, 0, 2, 0, 0)
+runtime error: 
+[18:10:28]nothing to animate
+[18:10:28]proc name: shake camera (/proc/shake_camera)
+[18:10:28]  source file: mob_helpers.dm,270
+[18:10:28]  usr: (src)
+[18:10:28]  src: null
+[18:10:28]  call stack:
+[18:10:28]shake camera(Wicker Atmos (/mob/living/carbon/human), 0.75, 1)
+[18:10:28]Wicker Atmos (/mob/living/carbon/human): afterShuttleMove(space (25,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:10:28]Wicker Atmos (/mob/living/carbon/human): afterShuttleMove(space (25,18,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:10:28]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[18:10:28]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[18:10:28]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[18:10:28]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:10:28]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:10:28]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:10:28]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:10:42]nothing to animate
+[18:10:42]proc name: shake camera (/proc/shake_camera)
+[18:10:42]  source file: mob_helpers.dm,270
+[18:10:42]  usr: (src)
+[18:10:42]  src: null
+[18:10:42]  call stack:
+[18:10:42]shake camera(Cadence Bullard (/mob/living/carbon/human), 0.75, 1)
+[18:10:42]Cadence Bullard (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:10:42]Cadence Bullard (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:10:42]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[18:10:42]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[18:10:42]the mining shuttle (/obj/docking_port/mobile): check()
+[18:10:42]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:10:42]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:19:40]nothing to animate
+[18:19:40]proc name: shake camera (/proc/shake_camera)
+[18:19:40]  source file: mob_helpers.dm,270
+[18:19:40]  usr: (src)
+[18:19:40]  src: null
+[18:19:40]  call stack:
+[18:19:40]shake camera(Cadence Bullard (/mob/living/carbon/human), 0.75, 1)
+[18:19:40]Cadence Bullard (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:19:40]Cadence Bullard (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:19:40]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the mining shuttle bay (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[18:19:40]the mining shuttle (/obj/docking_port/mobile): initiate docking(the mining shuttle bay (/obj/docking_port/stationary), 1, 0)
+[18:19:40]the mining shuttle (/obj/docking_port/mobile): check()
+[18:19:40]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:19:40]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:25:42]nothing to animate
+[18:25:42]proc name: shake camera (/proc/shake_camera)
+[18:25:42]  source file: mob_helpers.dm,270
+[18:25:42]  usr: (src)
+[18:25:42]  src: null
+[18:25:42]  call stack:
+[18:25:42]shake camera(Cadence Bullard (/mob/living/carbon/human), 0.75, 1)
+[18:25:42]Cadence Bullard (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:25:42]Cadence Bullard (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:25:42]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the lavaland mine (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[18:25:42]the mining shuttle (/obj/docking_port/mobile): initiate docking(the lavaland mine (/obj/docking_port/stationary), 1, 0)
+[18:25:42]the mining shuttle (/obj/docking_port/mobile): check()
+[18:25:42]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:25:42]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:26:47]nothing to animate
+[18:26:47]proc name: shake camera (/proc/shake_camera)
+[18:26:47]  source file: mob_helpers.dm,270
+[18:26:47]  usr: (src)
+[18:26:47]  src: null
+[18:26:47]  call stack:
+[18:26:47]shake camera(Wih-Skee (/mob/living/carbon/human), 0.75, 1)
+[18:26:47]Wih-Skee (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:26:47]Wih-Skee (/mob/living/carbon/human): afterShuttleMove(space (18,20,13) (/turf/open/space/transit/west), /list (/list), 8, 8, 8, 0)
+[18:26:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): cleanup runway(the arrivals (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 8, Space (/area/space), /turf/open/space/transit/west (/turf/open/space/transit/west), /turf/open/space (/turf/open/space))
+[18:26:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8, 0)
+[18:26:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): initiate docking(the arrivals (/obj/docking_port/stationary), 8)
+[18:26:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:26:47]the arrivals shuttle (/obj/docking_port/mobile/arrivals): check()
+[18:26:47]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:26:47]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:36:16]Cannot read null.loc
+[18:36:16]proc name: update parallax (/datum/hud/proc/update_parallax)
+[18:36:16]  source file: parallax.dm,170
+[18:36:16]  usr: Melvyn Muggins (/mob/living/brain)
+[18:36:16]  src: /datum/hud (/datum/hud)
+[18:36:16]  usr.loc: Melvyn Muggins\'s brain (/obj/item/organ/brain)
+[18:36:16]  call stack:
+[18:36:16]/datum/hud (/datum/hud): update parallax()
+[18:36:16]/datum/hud (/datum/hud): update parallax pref(Melvyn Muggins (/mob/living/brain))
+[18:36:16]/datum/hud (/datum/hud): show hud(1, null)
+[18:36:16]Melvyn Muggins (/mob/living/brain): Login()
+[18:36:16]Melvyn Muggins (/mob/living/brain): Login()
+[18:36:16]Melvyn Muggins (/datum/mind): transfer to(Melvyn Muggins (/mob/living/brain), 0)
+[18:36:16]Melvyn Muggins\'s brain (/obj/item/organ/brain): transfer identity(Melvyn Muggins (/mob/living/carbon/human))
+[18:36:16]Melvyn Muggins\'s brain (/obj/item/organ/brain): Remove(Melvyn Muggins (/mob/living/carbon/human), 0, 0)
+[18:36:16]Melvyn Muggins\'s brain (/obj/item/organ/brain): transfer to limb(Melvyn Muggins\'s head (/obj/item/bodypart/head), Melvyn Muggins (/mob/living/carbon/human))
+[18:36:16]Melvyn Muggins\'s head (/obj/item/bodypart/head): drop limb(null)
+[18:36:16]Melvyn Muggins\'s head (/obj/item/bodypart/head): drop limb(null)
+[18:36:16]Melvyn Muggins\'s head (/obj/item/bodypart/head): dismember("brute")
+[18:36:16]Human (/datum/species/human): spec attacked by(Yeetblade (/obj/item/nullrod/scythe/talking/chainsword), Wicker Atmos (/mob/living/carbon/human), Melvyn Muggins\'s head (/obj/item/bodypart/head), "help", Melvyn Muggins (/mob/living/carbon/human))
+[18:36:16]Melvyn Muggins (/mob/living/carbon/human): attacked by(Yeetblade (/obj/item/nullrod/scythe/talking/chainsword), Wicker Atmos (/mob/living/carbon/human))
+[18:36:16]Yeetblade (/obj/item/nullrod/scythe/talking/chainsword): attack(Melvyn Muggins (/mob/living/carbon/human), Wicker Atmos (/mob/living/carbon/human))
+[18:36:16]Melvyn Muggins (/mob/living/carbon/human): attackby(Yeetblade (/obj/item/nullrod/scythe/talking/chainsword), Wicker Atmos (/mob/living/carbon/human), "icon-x=14;icon-y=20;left=1;scr...")
+[18:36:16]Melvyn Muggins (/mob/living/carbon/human): attackby(Yeetblade (/obj/item/nullrod/scythe/talking/chainsword), Wicker Atmos (/mob/living/carbon/human), "icon-x=14;icon-y=20;left=1;scr...")
+[18:36:16]Yeetblade (/obj/item/nullrod/scythe/talking/chainsword): melee attack chain(Wicker Atmos (/mob/living/carbon/human), Melvyn Muggins (/mob/living/carbon/human), "icon-x=14;icon-y=20;left=1;scr...")
+[18:36:16]Wicker Atmos (/mob/living/carbon/human): ClickOn(Melvyn Muggins (/mob/living/carbon/human), "icon-x=14;icon-y=20;left=1;scr...")
+[18:36:16]Melvyn Muggins (/mob/living/carbon/human): Click(the floor (168,119,2) (/turf/open/floor/plasteel/dark), "mapwindow.map", "icon-x=14;icon-y=20;left=1;scr...")
+runtime error: 
+[18:37:51]nothing to animate
+[18:37:51]proc name: shake camera (/proc/shake_camera)
+[18:37:51]  source file: mob_helpers.dm,270
+[18:37:51]  usr: (src)
+[18:37:51]  src: null
+[18:37:51]  call stack:
+[18:37:51]shake camera(Cadence Bullard (/mob/living/carbon/human), 0.75, 1)
+[18:37:51]Cadence Bullard (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:37:51]Cadence Bullard (/mob/living/carbon/human): afterShuttleMove(space (50,20,13) (/turf/open/space/transit/north), /list (/list), 8, 1, 1, 0)
+[18:37:51]the mining shuttle (/obj/docking_port/mobile): cleanup runway(the mining shuttle bay (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 1, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[18:37:51]the mining shuttle (/obj/docking_port/mobile): initiate docking(the mining shuttle bay (/obj/docking_port/stationary), 1, 0)
+[18:37:51]the mining shuttle (/obj/docking_port/mobile): check()
+[18:37:51]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:37:51]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:42:20]nothing to animate
+[18:42:20]proc name: shake camera (/proc/shake_camera)
+[18:42:20]  source file: mob_helpers.dm,270
+[18:42:20]  usr: (src)
+[18:42:20]  src: null
+[18:42:20]  call stack:
+[18:42:20]shake camera(Wih-Skee (/mob/living/carbon/human), 0.75, 1)
+[18:42:20]Wih-Skee (/mob/living/carbon/human): afterShuttleMove(space (70,18,13) (/turf/open/space/transit/north), /list (/list), 1, 1, 2, 90)
+[18:42:20]Wih-Skee (/mob/living/carbon/human): afterShuttleMove(space (70,18,13) (/turf/open/space/transit/north), /list (/list), 1, 1, 2, 90)
+[18:42:20]the escape pod 2 (/obj/docking_port/mobile/pod): cleanup runway(the recovery ship (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 90, 2, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[18:42:20]the escape pod 2 (/obj/docking_port/mobile/pod): initiate docking(the recovery ship (/obj/docking_port/stationary), 2, 0)
+[18:42:20]the escape pod 2 (/obj/docking_port/mobile/pod): on emergency dock()
+[18:42:20]Box emergency shuttle (/obj/docking_port/mobile/emergency): check()
+[18:42:20]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:42:20]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:42:21]nothing to animate
+[18:42:21]proc name: shake camera (/proc/shake_camera)
+[18:42:21]  source file: mob_helpers.dm,270
+[18:42:21]  usr: (src)
+[18:42:21]  src: null
+[18:42:21]  call stack:
+[18:42:21]shake camera(Gragnir Grolob (/mob/living/carbon/human), 0.75, 1)
+[18:42:21]Gragnir Grolob (/mob/living/carbon/human): afterShuttleMove(space (133,34,13) (/turf/open/space/transit/north), /list (/list), 4, 1, 2, 0)
+[18:42:21]Gragnir Grolob (/mob/living/carbon/human): afterShuttleMove(space (133,34,13) (/turf/open/space/transit/north), /list (/list), 4, 1, 2, 0)
+[18:42:21]Box emergency shuttle (/obj/docking_port/mobile/emergency): cleanup runway(CentCom Emergency Shuttle Dock (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 2, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[18:42:21]Box emergency shuttle (/obj/docking_port/mobile/emergency): initiate docking(CentCom Emergency Shuttle Dock (/obj/docking_port/stationary), 2, 0)
+[18:42:21]Box emergency shuttle (/obj/docking_port/mobile/emergency): dock id("emergency_away")
+[18:42:21]Box emergency shuttle (/obj/docking_port/mobile/emergency): check()
+[18:42:21]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:42:21]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+runtime error: 
+[18:42:21]nothing to animate
+[18:42:21]proc name: shake camera (/proc/shake_camera)
+[18:42:21]  source file: mob_helpers.dm,270
+[18:42:21]  usr: (src)
+[18:42:21]  src: null
+[18:42:21]  call stack:
+[18:42:21]shake camera(Nadia Ali (/mob/living/carbon/human), 0.75, 1)
+[18:42:21]Nadia Ali (/mob/living/carbon/human): afterShuttleMove(space (136,30,13) (/turf/open/space/transit/north), /list (/list), 4, 1, 2, 0)
+[18:42:21]Nadia Ali (/mob/living/carbon/human): afterShuttleMove(space (136,30,13) (/turf/open/space/transit/north), /list (/list), 4, 1, 2, 0)
+[18:42:21]Box emergency shuttle (/obj/docking_port/mobile/emergency): cleanup runway(CentCom Emergency Shuttle Dock (/obj/docking_port/stationary), /list (/list), /list (/list), /list (/list), /list (/list), 0, 2, Space (/area/space), /turf/open/space/transit/north (/turf/open/space/transit/north), /turf/open/space (/turf/open/space))
+[18:42:21]Box emergency shuttle (/obj/docking_port/mobile/emergency): initiate docking(CentCom Emergency Shuttle Dock (/obj/docking_port/stationary), 2, 0)
+[18:42:21]Box emergency shuttle (/obj/docking_port/mobile/emergency): dock id("emergency_away")
+[18:42:21]Box emergency shuttle (/obj/docking_port/mobile/emergency): check()
+[18:42:21]Shuttle (/datum/controller/subsystem/shuttle): fire(0)
+[18:42:21]Shuttle (/datum/controller/subsystem/shuttle): ignite(0)
+Saved 0 engraved messages on map BoxStation
+runtime error: 
+[18:43:51]Cannot modify null.moved.
+[18:43:51]proc name: Remove (/datum/action/proc/Remove)
+[18:43:51]  source file: action.dm,79
+[18:43:51]  usr: null
+[18:43:51]  src: Toggle Gunlight (/datum/action/item_action/toggle_gunlight)
+[18:43:51]  call stack:
+[18:43:51]Toggle Gunlight (/datum/action/item_action/toggle_gunlight): Remove(Cadence Bullard (/mob/living/carbon/human))
+[18:43:51]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): dropped(Cadence Bullard (/mob/living/carbon/human))
+[18:43:51]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): dropped(Cadence Bullard (/mob/living/carbon/human))
+[18:43:51]the satchel (/obj/item/storage/backpack/satchel): remove from storage(the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator), null)
+[18:43:51]the satchel (/obj/item/storage/backpack/satchel): handle atom del(the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator))
+[18:43:51]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): Destroy(0)
+[18:43:51]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): Destroy(0)
+[18:43:51]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): Destroy(0)
+[18:43:51]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): Destroy(0)
+[18:43:51]the proto-kinetic accelerator (/obj/item/gun/energy/kinetic_accelerator): Destroy(0)
+[18:43:51]...
+[18:43:51]qdel(the satchel (/obj/item/storage/backpack/satchel), 0)
+[18:43:51]Cadence Bullard (/mob/living/carbon/human): Destroy(0)
+[18:43:51]Cadence Bullard (/mob/living/carbon/human): Destroy(0)
+[18:43:51]Cadence Bullard (/mob/living/carbon/human): Destroy(0)
+[18:43:51]Cadence Bullard (/mob/living/carbon/human): Destroy(0)
+[18:43:51]qdel(Cadence Bullard (/mob/living/carbon/human), 0)
+[18:43:51]Timer (/datum/controller/subsystem/timer): fire(0)
+[18:43:51]Master (/datum/controller/master): RunQueue()
+[18:43:51]Master (/datum/controller/master): StartProcessing(0)
+Shutting down Persistence subsystem...
+Shutting down pathfinder subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Wet floors subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Traumas subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Night Shift subsystem...
+Shutting down Mood subsystem...
+Shutting down Mobs subsystem...
+Shutting down Medals subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Networks subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Traits subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Research subsystem...
+Shutting down Input subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutting down Garbage subsystem...
+Shutdown complete
+World rebooted at 18:43:59

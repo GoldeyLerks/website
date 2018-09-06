@@ -1,0 +1,1022 @@
+[2018-07-04 00:48:01.776] Starting up round ID 1417.
+[2018-07-04 00:48:01.776] -------------------------
+[2018-07-04 00:48:02.843] Initialized Database subsystem within 0 seconds!
+[2018-07-04 00:48:02.843] Initialized Blackbox subsystem within 0 seconds!
+[2018-07-04 00:48:02.843] Initialized Server Tasks subsystem within 0 seconds!
+[2018-07-04 00:48:02.844] Initialized Input subsystem within 0 seconds!
+[2018-07-04 00:48:02.875] Initialized Research subsystem within 0 seconds!
+[2018-07-04 00:48:02.879] Initialized Events subsystem within 0 seconds!
+[2018-07-04 00:48:02.882] Initialized Jobs subsystem within 0 seconds!
+[2018-07-04 00:48:02.883] Initialized Quirks subsystem within 0 seconds!
+[2018-07-04 00:48:02.895] Initialized Ticker subsystem within 0 seconds!
+[2018-07-04 00:48:02.895] Loading Box Station...
+[2018-07-04 00:48:07.430] Loaded Station in 4.6s!
+[2018-07-04 00:48:12.750] Loaded Lavaland in 4.9s!
+[2018-07-04 00:48:15.916] Ruin loader finished with 0 left to spend.
+[2018-07-04 00:48:17.887] Ruin loader finished with 0 left to spend.
+[2018-07-04 00:48:28.168] Initialized Mapping subsystem within 25.3 seconds!
+[2018-07-04 00:48:28.169] Initialized Networks subsystem within 0 seconds!
+[2018-07-04 00:49:05.284] Initialized Atoms subsystem within 37.1 seconds!
+[2018-07-04 00:49:05.300] Initialized Language subsystem within 0.1 seconds!
+[2018-07-04 00:49:05.648] Initialized Machines subsystem within 0.3 seconds!
+[2018-07-04 00:49:05.695] Initialized Circuit subsystem within 0 seconds!
+[2018-07-04 00:49:05.697] Initialized Disease subsystem within 0 seconds!
+[2018-07-04 00:49:05.697] Initialized Medals subsystem within 0 seconds!
+[2018-07-04 00:49:05.697] Initialized Night Shift subsystem within 0 seconds!
+[2018-07-04 00:49:05.697] Initialized Parallax subsystem within 0 seconds!
+[2018-07-04 00:49:05.823] Initialized Traumas subsystem within 0.2 seconds!
+[2018-07-04 00:49:05.824] Initialized Weather subsystem within 0 seconds!
+[2018-07-04 00:50:21.075] ## WARNING: There are 19 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+[2018-07-04 00:50:22.128] ## WARNING: HEY! LISTEN! 1 second were wasted processing 19 turf(s) (connected to 16470 other turfs) with atmos differences at round start.
+[2018-07-04 00:50:22.584] Initialized Atmospherics subsystem within 76.7 seconds!
+[2018-07-04 00:50:22.600] Initialized Minimap subsystem within 0.1 seconds!
+[2018-07-04 00:50:24.616] Initialized Assets subsystem within 2 seconds!
+[2018-07-04 00:50:30.488] Initialized Icon Smoothing subsystem within 5.8 seconds!
+[2018-07-04 00:50:31.770] Initialized Overlay subsystem within 1.3 seconds!
+[2018-07-04 00:50:31.770] Initialized XKeyScore subsystem within 0 seconds!
+[2018-07-04 00:50:31.779] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-07-04 00:50:42.084] Initialized Lighting subsystem within 10.2 seconds!
+[2018-07-04 00:50:44.786] Initialized Shuttle subsystem within 2.7 seconds!
+[2018-07-04 00:50:44.821] Initialized Squeak subsystem within 0.1 seconds!
+[2018-07-04 00:50:44.822] Initialized Pathfinder subsystem within 0 seconds!
+[2018-07-04 00:50:44.893] Loaded 123 engraved messages on map Box Station
+[2018-07-04 00:50:44.923] Initialized Persistence subsystem within 0.1 seconds!
+[2018-07-04 00:50:44.924] Initializations complete within 162.1 seconds!
+[2018-07-04 00:51:57.268] Game start took 1.4s
+[2018-07-04 01:37:31.094] runtime error: The command airlock assembly taking damage after deletion
+[2018-07-04 01:37:31.094] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 01:37:31.094]   source file: unsorted.dm,1243
+[2018-07-04 01:37:31.094]   usr: null
+[2018-07-04 01:37:31.094]   src: the command airlock assembly (/obj/structure/door_assembly/door_assembly_com)
+[2018-07-04 01:37:31.094]   src.loc: null
+[2018-07-04 01:37:31.094]   call stack:
+[2018-07-04 01:37:31.094] the command airlock assembly (/obj/structure/door_assembly/door_assembly_com): stack trace("The command airlock assembly t...")
+[2018-07-04 01:37:31.094] the command airlock assembly (/obj/structure/door_assembly/door_assembly_com): take damage(20, "fire", "laser", 0, 2, 0)
+[2018-07-04 01:37:31.094] the command airlock assembly (/obj/structure/door_assembly/door_assembly_com): bullet act(the laser (/obj/item/projectile/beam/laser), "r_leg")
+[2018-07-04 01:37:31.094] the laser (/obj/item/projectile/beam/laser): Collide(the command airlock assembly (/obj/structure/door_assembly/door_assembly_com))
+[2018-07-04 01:37:31.094] the laser (/obj/item/projectile/beam/laser): pixel move(1, 1, 0)
+[2018-07-04 01:37:31.094] the laser (/obj/item/projectile/beam/laser): process(1)
+[2018-07-04 01:37:31.094] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-04 01:37:31.094] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-04 01:37:31.094] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:37:31.094] Master (/datum/controller/master): Loop()
+[2018-07-04 01:37:31.094] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:37:31.094] 
+[2018-07-04 01:38:37.044] runtime error: AI Upload Access taking damage after deletion
+[2018-07-04 01:38:37.044] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 01:38:37.044]   source file: unsorted.dm,1243
+[2018-07-04 01:38:37.044]   usr: null
+[2018-07-04 01:38:37.044]   src: AI Upload Access (/obj/machinery/door/airlock/highsecurity)
+[2018-07-04 01:38:37.044]   src.loc: null
+[2018-07-04 01:38:37.044]   call stack:
+[2018-07-04 01:38:37.044] AI Upload Access (/obj/machinery/door/airlock/highsecurity): stack trace("AI Upload Access taking damage...")
+[2018-07-04 01:38:37.044] AI Upload Access (/obj/machinery/door/airlock/highsecurity): take damage(20, "fire", "laser", 0, 1, 0)
+[2018-07-04 01:38:37.044] AI Upload Access (/obj/machinery/door/airlock/highsecurity): take damage(20, "fire", "laser", 0, 1, 0)
+[2018-07-04 01:38:37.044] AI Upload Access (/obj/machinery/door/airlock/highsecurity): take damage(20, "fire", "laser", 0, 1, 0)
+[2018-07-04 01:38:37.044] AI Upload Access (/obj/machinery/door/airlock/highsecurity): bullet act(the laser (/obj/item/projectile/beam/laser), "chest")
+[2018-07-04 01:38:37.044] the laser (/obj/item/projectile/beam/laser): Collide(AI Upload Access (/obj/machinery/door/airlock/highsecurity))
+[2018-07-04 01:38:37.044] the laser (/obj/item/projectile/beam/laser): pixel move(1, 1, 0)
+[2018-07-04 01:38:37.044] the laser (/obj/item/projectile/beam/laser): process(1)
+[2018-07-04 01:38:37.044] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-04 01:38:37.044] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-04 01:38:37.044] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:38:37.044] Master (/datum/controller/master): Loop()
+[2018-07-04 01:38:37.044] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:38:37.044] 
+[2018-07-04 01:38:37.940] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 01:38:37.940] proc name: stack trace (/proc/stack_trace)
+[2018-07-04 01:38:37.940]   source file: unsorted.dm,1240
+[2018-07-04 01:38:37.940]   usr: 0
+[2018-07-04 01:38:37.940]   src: null
+[2018-07-04 01:38:37.940]   call stack:
+[2018-07-04 01:38:37.940] stack trace("addtimer called with a callbac...")
+[2018-07-04 01:38:37.940] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-07-04 01:38:37.940] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-07-04 01:38:37.940] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-07-04 01:38:37.940] 
+[2018-07-04 01:38:51.042] runtime error: The wired high security airlock assembly taking damage after deletion
+[2018-07-04 01:38:51.042] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 01:38:51.042]   source file: unsorted.dm,1243
+[2018-07-04 01:38:51.042]   usr: null
+[2018-07-04 01:38:51.042]   src: the wired high security airloc... (/obj/structure/door_assembly/door_assembly_highsecurity)
+[2018-07-04 01:38:51.042]   src.loc: null
+[2018-07-04 01:38:51.042]   call stack:
+[2018-07-04 01:38:51.042] the wired high security airloc... (/obj/structure/door_assembly/door_assembly_highsecurity): stack trace("The wired high security airloc...")
+[2018-07-04 01:38:51.042] the wired high security airloc... (/obj/structure/door_assembly/door_assembly_highsecurity): take damage(20, "fire", "laser", 0, 1, 0)
+[2018-07-04 01:38:51.042] the wired high security airloc... (/obj/structure/door_assembly/door_assembly_highsecurity): bullet act(the laser (/obj/item/projectile/beam/laser), "r_arm")
+[2018-07-04 01:38:51.042] the laser (/obj/item/projectile/beam/laser): Collide(the wired high security airloc... (/obj/structure/door_assembly/door_assembly_highsecurity))
+[2018-07-04 01:38:51.042] the laser (/obj/item/projectile/beam/laser): pixel move(1, 1, 0)
+[2018-07-04 01:38:51.042] the laser (/obj/item/projectile/beam/laser): process(1)
+[2018-07-04 01:38:51.043] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-04 01:38:51.043] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-04 01:38:51.043] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:38:51.043] Master (/datum/controller/master): Loop()
+[2018-07-04 01:38:51.043] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:38:51.043] 
+[2018-07-04 01:39:37.600] runtime error: The turret taking damage after deletion
+[2018-07-04 01:39:37.600] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 01:39:37.600]   source file: unsorted.dm,1243
+[2018-07-04 01:39:37.600]   usr: null
+[2018-07-04 01:39:37.600]   src: the turret (/obj/machinery/porta_turret_cover)
+[2018-07-04 01:39:37.600]   src.loc: null
+[2018-07-04 01:39:37.600]   call stack:
+[2018-07-04 01:39:37.600] the turret (/obj/machinery/porta_turret_cover): stack trace("The turret taking damage after...")
+[2018-07-04 01:39:37.600] the turret (/obj/machinery/porta_turret_cover): take damage(20, "fire", "laser", 0, 1, 0)
+[2018-07-04 01:39:37.600] the turret (/obj/machinery/porta_turret_cover): bullet act(the laser (/obj/item/projectile/beam/laser), "r_leg")
+[2018-07-04 01:39:37.600] the laser (/obj/item/projectile/beam/laser): Collide(the turret (/obj/machinery/porta_turret_cover))
+[2018-07-04 01:39:37.600] the laser (/obj/item/projectile/beam/laser): pixel move(2, 1, 0)
+[2018-07-04 01:39:37.600] the laser (/obj/item/projectile/beam/laser): process(1)
+[2018-07-04 01:39:37.600] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-04 01:39:37.600] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-04 01:39:37.600] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:39:37.600] Master (/datum/controller/master): Loop()
+[2018-07-04 01:39:37.601] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:39:37.601] 
+[2018-07-04 01:39:38.347] runtime error: The turret taking damage after deletion
+[2018-07-04 01:39:38.347] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 01:39:38.347]   source file: unsorted.dm,1243
+[2018-07-04 01:39:38.347]   usr: null
+[2018-07-04 01:39:38.347]   src: the turret (/obj/machinery/porta_turret_cover)
+[2018-07-04 01:39:38.347]   src.loc: null
+[2018-07-04 01:39:38.347]   call stack:
+[2018-07-04 01:39:38.347] the turret (/obj/machinery/porta_turret_cover): stack trace("The turret taking damage after...")
+[2018-07-04 01:39:38.347] the turret (/obj/machinery/porta_turret_cover): take damage(20, "fire", "laser", 0, 1, 0)
+[2018-07-04 01:39:38.347] the turret (/obj/machinery/porta_turret_cover): bullet act(the laser (/obj/item/projectile/beam/laser), "l_arm")
+[2018-07-04 01:39:38.347] the laser (/obj/item/projectile/beam/laser): Collide(the turret (/obj/machinery/porta_turret_cover))
+[2018-07-04 01:39:38.347] the laser (/obj/item/projectile/beam/laser): pixel move(2, 1, 0)
+[2018-07-04 01:39:38.347] the laser (/obj/item/projectile/beam/laser): process(1)
+[2018-07-04 01:39:38.347] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-04 01:39:38.347] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-04 01:39:38.347] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:39:38.347] Master (/datum/controller/master): Loop()
+[2018-07-04 01:39:38.347] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:39:38.347] 
+[2018-07-04 01:39:45.043] runtime error: The turret taking damage after deletion
+[2018-07-04 01:39:45.043] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 01:39:45.043]   source file: unsorted.dm,1243
+[2018-07-04 01:39:45.043]   usr: null
+[2018-07-04 01:39:45.043]   src: the turret (/obj/machinery/porta_turret_cover)
+[2018-07-04 01:39:45.043]   src.loc: null
+[2018-07-04 01:39:45.043]   call stack:
+[2018-07-04 01:39:45.043] the turret (/obj/machinery/porta_turret_cover): stack trace("The turret taking damage after...")
+[2018-07-04 01:39:45.043] the turret (/obj/machinery/porta_turret_cover): take damage(20, "fire", "laser", 0, 4, 0)
+[2018-07-04 01:39:45.043] the turret (/obj/machinery/porta_turret_cover): bullet act(the laser (/obj/item/projectile/beam/laser), "r_leg")
+[2018-07-04 01:39:45.043] the laser (/obj/item/projectile/beam/laser): Collide(the turret (/obj/machinery/porta_turret_cover))
+[2018-07-04 01:39:45.043] the laser (/obj/item/projectile/beam/laser): pixel move(1, 1, 0)
+[2018-07-04 01:39:45.043] the laser (/obj/item/projectile/beam/laser): process(1)
+[2018-07-04 01:39:45.043] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-04 01:39:45.044] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-04 01:39:45.044] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:39:45.044] Master (/datum/controller/master): Loop()
+[2018-07-04 01:39:45.044] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:39:45.044] 
+[2018-07-04 01:40:00.445] runtime error: The turret taking damage after deletion
+[2018-07-04 01:40:00.445] proc name: stack trace (/datum/proc/stack_trace)
+[2018-07-04 01:40:00.446]   source file: unsorted.dm,1243
+[2018-07-04 01:40:00.446]   usr: null
+[2018-07-04 01:40:00.446]   src: the turret (/obj/machinery/porta_turret/ai)
+[2018-07-04 01:40:00.446]   src.loc: null
+[2018-07-04 01:40:00.446]   call stack:
+[2018-07-04 01:40:00.446] the turret (/obj/machinery/porta_turret/ai): stack trace("The turret taking damage after...")
+[2018-07-04 01:40:00.446] the turret (/obj/machinery/porta_turret/ai): take damage(20, "fire", "laser", 0, 1, 0)
+[2018-07-04 01:40:00.446] the turret (/obj/machinery/porta_turret/ai): take damage(20, "fire", "laser", 0, 1, 0)
+[2018-07-04 01:40:00.446] the turret (/obj/machinery/porta_turret/ai): bullet act(the laser (/obj/item/projectile/beam/laser), "l_arm")
+[2018-07-04 01:40:00.446] the laser (/obj/item/projectile/beam/laser): Collide(the turret (/obj/machinery/porta_turret/ai))
+[2018-07-04 01:40:00.446] the laser (/obj/item/projectile/beam/laser): pixel move(2, 1, 0)
+[2018-07-04 01:40:00.446] the laser (/obj/item/projectile/beam/laser): process(1)
+[2018-07-04 01:40:00.446] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-07-04 01:40:00.446] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-07-04 01:40:00.446] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:40:00.446] Master (/datum/controller/master): Loop()
+[2018-07-04 01:40:00.446] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:40:00.446] 
+[2018-07-04 01:46:27.602] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.602] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.602]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.602]   usr: null
+[2018-07-04 01:46:27.602]   src: space (91,207,1) (/turf/open/space)
+[2018-07-04 01:46:27.602]   call stack:
+[2018-07-04 01:46:27.602] space (91,207,1) (/turf/open/space): process cell(6516)
+[2018-07-04 01:46:27.602] Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[2018-07-04 01:46:27.602] Atmospherics (/datum/controller/subsystem/air): fire(0)
+[2018-07-04 01:46:27.602] Atmospherics (/datum/controller/subsystem/air): ignite(0)
+[2018-07-04 01:46:27.602] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:46:27.602] Master (/datum/controller/master): Loop()
+[2018-07-04 01:46:27.602] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:46:27.602] 
+[2018-07-04 01:46:27.613] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.613] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.613]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.613]   usr: null
+[2018-07-04 01:46:27.613]   src: space (92,208,1) (/turf/open/space)
+[2018-07-04 01:46:27.613]   call stack:
+[2018-07-04 01:46:27.613] space (92,208,1) (/turf/open/space): process cell(6516)
+[2018-07-04 01:46:27.613] Atmospherics (/datum/controller/subsystem/air): process active turfs(1)
+[2018-07-04 01:46:27.613] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-07-04 01:46:27.613] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-07-04 01:46:27.613] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:46:27.613] Master (/datum/controller/master): Loop()
+[2018-07-04 01:46:27.613] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:46:27.613] 
+[2018-07-04 01:46:27.614] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.614] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.614]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.614]   usr: null
+[2018-07-04 01:46:27.614]   src: space (92,209,1) (/turf/open/space)
+[2018-07-04 01:46:27.614]   call stack:
+[2018-07-04 01:46:27.614] space (92,209,1) (/turf/open/space): process cell(6516)
+[2018-07-04 01:46:27.614] Atmospherics (/datum/controller/subsystem/air): process active turfs(1)
+[2018-07-04 01:46:27.614] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-07-04 01:46:27.614] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-07-04 01:46:27.614] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:46:27.614] Master (/datum/controller/master): Loop()
+[2018-07-04 01:46:27.614] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:46:27.614] 
+[2018-07-04 01:46:27.614] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.614] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.614]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.614]   usr: null
+[2018-07-04 01:46:27.614]   src: the plating (91,210,1) (/turf/open/floor/plating)
+[2018-07-04 01:46:27.614]   call stack:
+[2018-07-04 01:46:27.614] the plating (91,210,1) (/turf/open/floor/plating): archive()
+[2018-07-04 01:46:27.614] space (92,210,1) (/turf/open/space): process cell(6516)
+[2018-07-04 01:46:27.614] Atmospherics (/datum/controller/subsystem/air): process active turfs(1)
+[2018-07-04 01:46:27.614] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-07-04 01:46:27.614] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-07-04 01:46:27.614] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:46:27.614] Master (/datum/controller/master): Loop()
+[2018-07-04 01:46:27.614] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:46:27.614] 
+[2018-07-04 01:46:27.615] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.615] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.615]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.615]   usr: null
+[2018-07-04 01:46:27.615]   src: /datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space)
+[2018-07-04 01:46:27.615]   call stack:
+[2018-07-04 01:46:27.615] /datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space): compare(null)
+[2018-07-04 01:46:27.615] space (92,210,1) (/turf/open/space): process cell(6516)
+[2018-07-04 01:46:27.615] Atmospherics (/datum/controller/subsystem/air): process active turfs(1)
+[2018-07-04 01:46:27.615] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-07-04 01:46:27.615] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-07-04 01:46:27.615] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:46:27.615] Master (/datum/controller/master): Loop()
+[2018-07-04 01:46:27.615] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:46:27.615] 
+[2018-07-04 01:46:27.615] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.615] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.615]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.615]   usr: null
+[2018-07-04 01:46:27.615]   src: space (92,211,1) (/turf/open/space)
+[2018-07-04 01:46:27.615]   call stack:
+[2018-07-04 01:46:27.615] space (92,211,1) (/turf/open/space): process cell(6516)
+[2018-07-04 01:46:27.615] Atmospherics (/datum/controller/subsystem/air): process active turfs(1)
+[2018-07-04 01:46:27.615] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-07-04 01:46:27.615] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-07-04 01:46:27.615] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:46:27.615] Master (/datum/controller/master): Loop()
+[2018-07-04 01:46:27.615] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:46:27.615] 
+[2018-07-04 01:46:27.616] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.616] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.616]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.616]   usr: null
+[2018-07-04 01:46:27.616]   src: the plating (91,212,1) (/turf/open/floor/plating)
+[2018-07-04 01:46:27.616]   call stack:
+[2018-07-04 01:46:27.616] the plating (91,212,1) (/turf/open/floor/plating): archive()
+[2018-07-04 01:46:27.616] space (92,212,1) (/turf/open/space): process cell(6516)
+[2018-07-04 01:46:27.616] Atmospherics (/datum/controller/subsystem/air): process active turfs(1)
+[2018-07-04 01:46:27.616] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-07-04 01:46:27.616] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-07-04 01:46:27.616] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:46:27.616] Master (/datum/controller/master): Loop()
+[2018-07-04 01:46:27.616] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:46:27.616] 
+[2018-07-04 01:46:27.616] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.616] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.616]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.616]   usr: null
+[2018-07-04 01:46:27.616]   src: /datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space)
+[2018-07-04 01:46:27.616]   call stack:
+[2018-07-04 01:46:27.616] /datum/gas_mixture/immutable/s... (/datum/gas_mixture/immutable/space): compare(null)
+[2018-07-04 01:46:27.616] space (92,212,1) (/turf/open/space): process cell(6516)
+[2018-07-04 01:46:27.616] Atmospherics (/datum/controller/subsystem/air): process active turfs(1)
+[2018-07-04 01:46:27.616] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-07-04 01:46:27.616] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-07-04 01:46:27.616] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:46:27.616] Master (/datum/controller/master): Loop()
+[2018-07-04 01:46:27.616] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:46:27.616] 
+[2018-07-04 01:46:27.617] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.617] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.617]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.617]   usr: null
+[2018-07-04 01:46:27.617]   src: space (92,213,1) (/turf/open/space)
+[2018-07-04 01:46:27.617]   call stack:
+[2018-07-04 01:46:27.617] space (92,213,1) (/turf/open/space): process cell(6516)
+[2018-07-04 01:46:27.617] Atmospherics (/datum/controller/subsystem/air): process active turfs(1)
+[2018-07-04 01:46:27.617] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-07-04 01:46:27.617] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-07-04 01:46:27.617] Master (/datum/controller/master): RunQueue()
+[2018-07-04 01:46:27.617] Master (/datum/controller/master): Loop()
+[2018-07-04 01:46:27.617] Master (/datum/controller/master): StartProcessing(0)
+[2018-07-04 01:46:27.617] 
+[2018-07-04 01:46:27.617] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.617] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.617]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.617] 
+[2018-07-04 01:46:27.617] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.617] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.617]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.617] 
+[2018-07-04 01:46:27.618] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.618] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.618]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.618] 
+[2018-07-04 01:46:27.618] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.618] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.618]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.618] 
+[2018-07-04 01:46:27.618] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.618] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.618]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.618] 
+[2018-07-04 01:46:27.618] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.618] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.618]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.618] 
+[2018-07-04 01:46:27.619] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.619] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.619]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.619] 
+[2018-07-04 01:46:27.619] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.619] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.619]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.619] 
+[2018-07-04 01:46:27.619] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.619] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.619]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.619] 
+[2018-07-04 01:46:27.619] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.619] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.619]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.619] 
+[2018-07-04 01:46:27.619] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.619] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.619]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.619] 
+[2018-07-04 01:46:27.620] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.620] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.620]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.620] 
+[2018-07-04 01:46:27.620] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.620] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.620]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.620] 
+[2018-07-04 01:46:27.620] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.620] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.620]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.620] 
+[2018-07-04 01:46:27.620] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.620] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.620]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.620] 
+[2018-07-04 01:46:27.620] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.620] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.620]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.620] 
+[2018-07-04 01:46:27.621] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.621] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.621]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.621] 
+[2018-07-04 01:46:27.621] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.621] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.621]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.621] 
+[2018-07-04 01:46:27.621] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.621] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.621]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.621] 
+[2018-07-04 01:46:27.621] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.621] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.621]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.621] 
+[2018-07-04 01:46:27.621] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.621] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.621]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.621] 
+[2018-07-04 01:46:27.622] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.622] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.622]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.622] 
+[2018-07-04 01:46:27.622] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.622] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.622]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.622] 
+[2018-07-04 01:46:27.622] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.622] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.622]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.622] 
+[2018-07-04 01:46:27.622] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.622] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.622]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.622] 
+[2018-07-04 01:46:27.622] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.622] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.622]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.622] 
+[2018-07-04 01:46:27.622] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.622] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.622]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.623] 
+[2018-07-04 01:46:27.623] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.623] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.623]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.623] 
+[2018-07-04 01:46:27.623] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.623] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.623]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.623] 
+[2018-07-04 01:46:27.623] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.623] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.623]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.623] 
+[2018-07-04 01:46:27.623] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.623] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.623]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.623] 
+[2018-07-04 01:46:27.623] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.623] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.623]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.623] 
+[2018-07-04 01:46:27.624] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.624] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.624]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.624] 
+[2018-07-04 01:46:27.624] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.624] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.624]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.624] 
+[2018-07-04 01:46:27.624] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.624] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.624]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.624] 
+[2018-07-04 01:46:27.624] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.624] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.624]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.624] 
+[2018-07-04 01:46:27.624] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.624] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.624]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.624] 
+[2018-07-04 01:46:27.625] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.625] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.625]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.625] 
+[2018-07-04 01:46:27.625] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.625] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.625]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.625] 
+[2018-07-04 01:46:27.625] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.625] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.625]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.625] 
+[2018-07-04 01:46:27.625] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.625] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.625]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.625] 
+[2018-07-04 01:46:27.625] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.625] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.625]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.625] 
+[2018-07-04 01:46:27.626] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.626] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.626]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.626] 
+[2018-07-04 01:46:27.626] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.626] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.626]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.626] 
+[2018-07-04 01:46:27.626] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.626] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.626]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.626] 
+[2018-07-04 01:46:27.626] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.626] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.626]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.626] 
+[2018-07-04 01:46:27.626] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.626] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.626]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.626] 
+[2018-07-04 01:46:27.627] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.627] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.627]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.627] 
+[2018-07-04 01:46:27.627] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.627] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.627]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.627] 
+[2018-07-04 01:46:27.627] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.627] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.627]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.627] 
+[2018-07-04 01:46:27.627] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.627] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.627]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.627] 
+[2018-07-04 01:46:27.627] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.627] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.627]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.627] 
+[2018-07-04 01:46:27.628] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.628] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.628]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.628] 
+[2018-07-04 01:46:27.628] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.628] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.628]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.628] 
+[2018-07-04 01:46:27.628] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.628] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.628]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.628] 
+[2018-07-04 01:46:27.628] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.628] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.628]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.628] 
+[2018-07-04 01:46:27.628] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.628] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.628]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.628] 
+[2018-07-04 01:46:27.629] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.629] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.629]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.629] 
+[2018-07-04 01:46:27.629] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.629] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.629]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.629] 
+[2018-07-04 01:46:27.629] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.629] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.629]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.629] 
+[2018-07-04 01:46:27.629] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.629] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.629]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.629] 
+[2018-07-04 01:46:27.629] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.629] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.629]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.629] 
+[2018-07-04 01:46:27.630] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.630] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.630]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.630] 
+[2018-07-04 01:46:27.630] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.630] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.630]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.630] 
+[2018-07-04 01:46:27.630] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.630] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.630]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.630] 
+[2018-07-04 01:46:27.630] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:27.630] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:27.630]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:27.630] 
+[2018-07-04 01:46:27.630] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:27.630] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:27.630]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:27.630] 
+[2018-07-04 01:46:27.631] runtime error: Cannot read null.gases
+[2018-07-04 01:46:27.631] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:27.631]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:27.631] 
+[2018-07-04 01:46:28.523] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:28.524] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:28.524]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:28.524] 
+[2018-07-04 01:46:28.524] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:28.524] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:28.524]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:28.524] 
+[2018-07-04 01:46:28.524] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:28.524] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:28.524]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:28.524] 
+[2018-07-04 01:46:28.526] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.526] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:28.526]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:28.526] 
+[2018-07-04 01:46:28.526] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.526] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:28.526]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:28.526] 
+[2018-07-04 01:46:28.526] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.526] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:28.526]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:28.526] 
+[2018-07-04 01:46:28.526] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.526] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:28.526]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:28.526] 
+[2018-07-04 01:46:28.526] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.526] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:28.526]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:28.526] 
+[2018-07-04 01:46:28.527] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.527] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:28.527]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:28.527] 
+[2018-07-04 01:46:28.527] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.527] proc name: archive (/turf/open/archive)
+[2018-07-04 01:46:28.527]   source file: LINDA_turf_tile.dm,91
+[2018-07-04 01:46:28.527] 
+[2018-07-04 01:46:28.527] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.527] proc name: compare (/datum/gas_mixture/compare)
+[2018-07-04 01:46:28.527]   source file: gas_mixture.dm,384
+[2018-07-04 01:46:28.527] 
+[2018-07-04 01:46:28.527] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:28.527] proc name: process cell (/turf/open/process_cell)
+[2018-07-04 01:46:28.527]   source file: LINDA_turf_tile.dm,178
+[2018-07-04 01:46:28.527] 
+[2018-07-04 01:46:28.528] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:28.528] Warning: further proc crash messages are being suppressed to prevent overload...
+[2018-07-04 01:46:28.528] 
+[2018-07-04 01:46:28.528] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.528] 
+[2018-07-04 01:46:28.528] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.528] 
+[2018-07-04 01:46:28.528] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.528] 
+[2018-07-04 01:46:28.528] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.528] 
+[2018-07-04 01:46:28.528] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.528] 
+[2018-07-04 01:46:28.529] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.529] 
+[2018-07-04 01:46:28.529] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.529] 
+[2018-07-04 01:46:28.529] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.529] 
+[2018-07-04 01:46:28.547] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.547] 
+[2018-07-04 01:46:28.547] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.547] 
+[2018-07-04 01:46:28.548] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.548] 
+[2018-07-04 01:46:28.548] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.548] 
+[2018-07-04 01:46:28.548] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.548] 
+[2018-07-04 01:46:28.548] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.548] 
+[2018-07-04 01:46:28.548] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.548] 
+[2018-07-04 01:46:28.548] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.548] 
+[2018-07-04 01:46:28.549] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:28.549] 
+[2018-07-04 01:46:28.549] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.549] 
+[2018-07-04 01:46:28.549] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.549] 
+[2018-07-04 01:46:28.549] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:28.549] 
+[2018-07-04 01:46:28.549] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.549] 
+[2018-07-04 01:46:28.549] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.549] 
+[2018-07-04 01:46:28.550] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.550] 
+[2018-07-04 01:46:28.550] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.550] 
+[2018-07-04 01:46:28.550] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.550] 
+[2018-07-04 01:46:28.550] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.550] 
+[2018-07-04 01:46:28.550] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.550] 
+[2018-07-04 01:46:28.550] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.550] 
+[2018-07-04 01:46:28.551] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.551] 
+[2018-07-04 01:46:28.551] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.551] 
+[2018-07-04 01:46:28.551] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.551] 
+[2018-07-04 01:46:28.551] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.551] 
+[2018-07-04 01:46:28.551] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.551] 
+[2018-07-04 01:46:28.551] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.551] 
+[2018-07-04 01:46:28.552] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.552] 
+[2018-07-04 01:46:28.552] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.552] 
+[2018-07-04 01:46:28.552] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.552] 
+[2018-07-04 01:46:28.552] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.552] 
+[2018-07-04 01:46:28.552] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.552] 
+[2018-07-04 01:46:28.553] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.553] 
+[2018-07-04 01:46:28.553] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.553] 
+[2018-07-04 01:46:28.553] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.553] 
+[2018-07-04 01:46:28.553] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.553] 
+[2018-07-04 01:46:28.553] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.553] 
+[2018-07-04 01:46:28.553] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.553] 
+[2018-07-04 01:46:28.553] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.553] 
+[2018-07-04 01:46:28.554] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.554] 
+[2018-07-04 01:46:28.554] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.554] 
+[2018-07-04 01:46:28.554] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.554] 
+[2018-07-04 01:46:28.554] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.554] 
+[2018-07-04 01:46:28.554] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.554] 
+[2018-07-04 01:46:28.555] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.555] 
+[2018-07-04 01:46:28.555] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.555] 
+[2018-07-04 01:46:28.555] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.555] 
+[2018-07-04 01:46:28.555] runtime error: Cannot execute null.archive().
+[2018-07-04 01:46:28.555] 
+[2018-07-04 01:46:28.555] runtime error: Cannot read null.gases
+[2018-07-04 01:46:28.555] 
+[2018-07-04 01:46:28.556] runtime error: undefined variable /turf/closed/wall/mineral/plastitanium/var/air
+[2018-07-04 01:46:28.556] 
+[2018-07-04 01:46:28.558] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:28.558] 
+[2018-07-04 01:46:28.558] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:28.558] 
+[2018-07-04 01:46:28.558] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:28.558] 
+[2018-07-04 01:46:28.559] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:28.559] 
+[2018-07-04 01:46:28.559] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:28.559] 
+[2018-07-04 01:46:28.559] runtime error: undefined variable /turf/closed/wall/mineral/titanium/var/air
+[2018-07-04 01:46:28.559] 
+[2018-07-04 03:02:48.359] runtime error: The turret taking damage after deletion
+[2018-07-04 03:02:48.359] 
+[2018-07-04 03:03:02.308] runtime error: The turret taking damage after deletion
+[2018-07-04 03:03:02.308] 
+[2018-07-04 03:03:24.014] runtime error: The turret taking damage after deletion
+[2018-07-04 03:03:24.014] 
+[2018-07-04 03:06:03.907] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:06:03.907] 
+[2018-07-04 03:06:04.407] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:06:04.407] 
+[2018-07-04 03:07:19.892] runtime error: undefined proc or verb /mob/camera/blob/electrocute act().
+[2018-07-04 03:07:19.892] 
+[2018-07-04 03:07:19.892] 
+[2018-07-04 03:07:19.895] runtime error: undefined proc or verb /mob/camera/blob/electrocute act().
+[2018-07-04 03:07:19.895] 
+[2018-07-04 03:07:19.895] 
+[2018-07-04 03:09:47.282] runtime error: The grille taking damage after deletion
+[2018-07-04 03:09:47.282] 
+[2018-07-04 03:15:38.089] runtime error: The grille taking damage after deletion
+[2018-07-04 03:15:38.089] 
+[2018-07-04 03:15:40.985] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:15:40.985] 
+[2018-07-04 03:20:19.933] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:20:19.934] 
+[2018-07-04 03:20:19.934] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:20:19.934] 
+[2018-07-04 03:21:29.243] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:21:29.243] 
+[2018-07-04 03:23:34.992] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:23:34.992] 
+[2018-07-04 03:25:30.573] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:25:30.573] 
+[2018-07-04 03:25:30.574] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:25:30.574] 
+[2018-07-04 03:27:44.760] runtime error: Cannot read /area/security/prison (/area/security/prison).blob_allowed
+[2018-07-04 03:27:44.760] 
+[2018-07-04 03:27:58.091] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:27:58.091] 
+[2018-07-04 03:28:22.799] ### VarEdit by CthulhuOnIce/(Declan Judge): /mob/camera/blob name=Blob Overmind (900) => <img src="data:image/jpeg;base64,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">
+[2018-07-04 03:28:22.799] 
+[2018-07-04 03:28:45.504] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:28:45.504] 
+[2018-07-04 03:28:46.504] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:28:46.505] 
+[2018-07-04 03:28:51.304] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:28:51.304] 
+[2018-07-04 03:28:51.804] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:28:51.804] 
+[2018-07-04 03:29:09.489] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:29:09.489] 
+[2018-07-04 03:29:10.489] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:29:10.489] 
+[2018-07-04 03:29:26.141] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:29:26.141] 
+[2018-07-04 03:29:28.544] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:29:28.544] 
+[2018-07-04 03:29:31.642] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:29:31.642] 
+[2018-07-04 03:29:41.182] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:29:41.182] 
+[2018-07-04 03:29:45.977] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:29:45.977] 
+[2018-07-04 03:29:54.028] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:29:54.028] 
+[2018-07-04 03:29:56.226] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:29:56.226] 
+[2018-07-04 03:29:56.416] ### VarEdit by CthulhuOnIce/(Declan Judge): /mob/camera/blob name=<img src="data:image/jpeg;base64,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">
+[2018-07-04 03:29:56.416]  => <img src="https://images-na.ssl-images-amazon.com/images/I/A1lCusmO5eL._UL1500_.jpg">
+[2018-07-04 03:29:58.527] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:29:58.527] 
+[2018-07-04 03:30:00.875] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:30:00.875] 
+[2018-07-04 03:30:03.275] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:30:03.275] 
+[2018-07-04 03:30:21.317] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:30:21.318] 
+[2018-07-04 03:30:23.867] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:30:23.867] 
+[2018-07-04 03:30:32.121] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:30:32.121] 
+[2018-07-04 03:31:42.529] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:31:42.529] 
+[2018-07-04 03:31:44.156] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:31:44.156] 
+[2018-07-04 03:31:45.705] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:31:45.705] 
+[2018-07-04 03:31:49.005] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:31:49.005] 
+[2018-07-04 03:31:55.812] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:31:55.812] 
+[2018-07-04 03:31:58.107] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:31:58.107] 
+[2018-07-04 03:31:59.604] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:31:59.604] 
+[2018-07-04 03:32:02.257] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:32:02.257] 
+[2018-07-04 03:32:07.142] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:32:07.142] 
+[2018-07-04 03:32:12.848] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:32:12.848] 
+[2018-07-04 03:32:14.394] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:32:14.395] 
+[2018-07-04 03:32:15.895] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:32:15.895] 
+[2018-07-04 03:32:18.343] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:32:18.343] 
+[2018-07-04 03:32:20.092] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:32:20.092] 
+[2018-07-04 03:32:25.292] runtime error: The fragile blob taking damage after deletion
+[2018-07-04 03:32:25.292] 
+[2018-07-04 03:32:51.222] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:32:51.222] 
+[2018-07-04 03:34:57.473] runtime error: The blob taking damage after deletion
+[2018-07-04 03:34:57.473] 
+[2018-07-04 03:34:58.658] runtime error: The blob taking damage after deletion
+[2018-07-04 03:34:58.658] 
+[2018-07-04 03:34:59.259] runtime error: The blob taking damage after deletion
+[2018-07-04 03:34:59.259] 
+[2018-07-04 03:34:59.657] runtime error: The blob taking damage after deletion
+[2018-07-04 03:34:59.657] 
+[2018-07-04 03:35:00.507] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:00.508] 
+[2018-07-04 03:35:01.011] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:01.011] 
+[2018-07-04 03:35:01.011] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:01.011] 
+[2018-07-04 03:35:01.012] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:01.012] 
+[2018-07-04 03:35:02.017] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:02.017] 
+[2018-07-04 03:35:02.614] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:02.615] 
+[2018-07-04 03:35:02.615] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:02.615] 
+[2018-07-04 03:35:02.615] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:02.615] 
+[2018-07-04 03:35:03.160] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:03.160] 
+[2018-07-04 03:35:03.613] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:03.613] 
+[2018-07-04 03:35:04.513] runtime error: The blob node taking damage after deletion
+[2018-07-04 03:35:04.513] 
+[2018-07-04 03:35:04.860] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:04.860] 
+[2018-07-04 03:35:05.418] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:05.418] 
+[2018-07-04 03:35:06.011] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:06.011] 
+[2018-07-04 03:35:06.363] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:06.363] 
+[2018-07-04 03:35:06.961] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:06.961] 
+[2018-07-04 03:35:07.309] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:35:07.309] 
+[2018-07-04 03:35:07.310] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:35:07.310] 
+[2018-07-04 03:35:07.411] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:07.411] 
+[2018-07-04 03:35:07.412] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:07.412] 
+[2018-07-04 03:35:07.412] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:07.412] 
+[2018-07-04 03:35:08.161] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:08.161] 
+[2018-07-04 03:35:08.712] runtime error: The blob taking damage after deletion
+[2018-07-04 03:35:08.712] 
+[2018-07-04 03:35:11.531] runtime error: The weakened strong blob taking damage after deletion
+[2018-07-04 03:35:11.531] 
+[2018-07-04 03:35:11.531] runtime error: The weakened strong blob taking damage after deletion
+[2018-07-04 03:35:11.531] 
+[2018-07-04 03:35:12.477] runtime error: The weakened strong blob taking damage after deletion
+[2018-07-04 03:35:12.477] 
+[2018-07-04 03:35:21.627] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:35:21.627] 
+[2018-07-04 03:35:22.624] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:35:22.624] 
+[2018-07-04 03:37:09.191] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:37:09.191] 
+[2018-07-04 03:37:09.192] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:37:09.192] 
+[2018-07-04 03:39:03.559] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:39:03.559] 
+[2018-07-04 03:39:04.055] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-07-04 03:39:04.055] 
+[2018-07-04 03:41:11.720] Saved 124 engraved messages on map Box Station
+[2018-07-04 03:42:47.042] Shutting down Persistence subsystem...
+[2018-07-04 03:42:47.042] Shutting down Pathfinder subsystem...
+[2018-07-04 03:42:47.042] Shutting down Squeak subsystem...
+[2018-07-04 03:42:47.042] Shutting down Shuttle subsystem...
+[2018-07-04 03:42:47.042] Shutting down Lighting subsystem...
+[2018-07-04 03:42:47.042] Shutting down XKeyScore subsystem...
+[2018-07-04 03:42:47.042] Shutting down Sticky Ban subsystem...
+[2018-07-04 03:42:47.042] Shutting down Overlay subsystem...
+[2018-07-04 03:42:47.075] Shutting down Icon Smoothing subsystem...
+[2018-07-04 03:42:47.075] Shutting down Assets subsystem...
+[2018-07-04 03:42:47.075] Shutting down Minimap subsystem...
+[2018-07-04 03:42:47.075] Shutting down Atmospherics subsystem...
+[2018-07-04 03:42:47.075] Shutting down Wet floors subsystem...
+[2018-07-04 03:42:47.075] Shutting down Weather subsystem...
+[2018-07-04 03:42:47.075] Shutting down Vote subsystem...
+[2018-07-04 03:42:47.075] Shutting down Traumas subsystem...
+[2018-07-04 03:42:47.075] Shutting down Title Screen subsystem...
+[2018-07-04 03:42:47.076] Shutting down Time Tracking subsystem...
+[2018-07-04 03:42:47.076] Shutting down Throwing subsystem...
+[2018-07-04 03:42:47.076] Shutting down tgui subsystem...
+[2018-07-04 03:42:47.076] Shutting down Sun subsystem...
+[2018-07-04 03:42:47.076] Shutting down Space Drift subsystem...
+[2018-07-04 03:42:47.076] Shutting down Religion subsystem...
+[2018-07-04 03:42:47.076] Shutting down Radio subsystem...
+[2018-07-04 03:42:47.076] Shutting down Radiation subsystem...
+[2018-07-04 03:42:47.076] Shutting down Projectiles subsystem...
+[2018-07-04 03:42:47.076] Shutting down Processing subsystem...
+[2018-07-04 03:42:47.076] Shutting down Ping subsystem...
+[2018-07-04 03:42:47.076] Shutting down Parallax subsystem...
+[2018-07-04 03:42:47.076] Shutting down pAI subsystem...
+[2018-07-04 03:42:47.076] Shutting down Orbits subsystem...
+[2018-07-04 03:42:47.076] Shutting down Objects subsystem...
+[2018-07-04 03:42:47.076] Shutting down NPC Pool subsystem...
+[2018-07-04 03:42:47.076] Shutting down Night Shift subsystem...
+[2018-07-04 03:42:47.076] Shutting down Mood subsystem...
+[2018-07-04 03:42:47.076] Shutting down Mobs subsystem...
+[2018-07-04 03:42:47.076] Shutting down Medals subsystem...
+[2018-07-04 03:42:47.076] Shutting down Idling NPC Pool subsystem...
+[2018-07-04 03:42:47.076] Shutting down Flightpack Movement subsystem...
+[2018-07-04 03:42:47.076] Shutting down Fire Burning subsystem...
+[2018-07-04 03:42:47.076] Shutting down Fields subsystem...
+[2018-07-04 03:42:47.076] Shutting down Fast Processing subsystem...
+[2018-07-04 03:42:47.076] Shutting down Disease subsystem...
+[2018-07-04 03:42:47.076] Shutting down Datum Component System subsystem...
+[2018-07-04 03:42:47.076] Shutting down Communications subsystem...
+[2018-07-04 03:42:47.076] Shutting down Augury subsystem...
+[2018-07-04 03:42:47.076] Shutting down Acid subsystem...
+[2018-07-04 03:42:47.076] Shutting down Timer subsystem...
+[2018-07-04 03:42:47.076] Shutting down Circuit subsystem...
+[2018-07-04 03:42:47.076] Shutting down Machines subsystem...
+[2018-07-04 03:42:47.076] Shutting down Language subsystem...
+[2018-07-04 03:42:47.076] Shutting down Atoms subsystem...
+[2018-07-04 03:42:47.077] Shutting down Networks subsystem...
+[2018-07-04 03:42:47.077] Shutting down Mapping subsystem...
+[2018-07-04 03:42:47.077] Shutting down Ticker subsystem...
+[2018-07-04 03:42:47.199] Shutting down Quirks subsystem...
+[2018-07-04 03:42:47.199] Shutting down Jobs subsystem...
+[2018-07-04 03:42:47.199] Shutting down Events subsystem...
+[2018-07-04 03:42:47.199] Shutting down Research subsystem...
+[2018-07-04 03:42:47.199] Shutting down Input subsystem...
+[2018-07-04 03:42:47.199] Shutting down Server Tasks subsystem...
+[2018-07-04 03:42:47.200] Shutting down Blackbox subsystem...
+[2018-07-04 03:42:47.310] Shutting down Database subsystem...
+[2018-07-04 03:42:47.347] Shutting down Garbage subsystem...
+[2018-07-04 03:42:47.437] Shutdown complete
+[2018-07-04 03:42:47.437] World rebooted at 03:42:47
