@@ -17,7 +17,7 @@
 {{topic["description"]}}<br><br>
 
 {% if "username" in session and topic["id"] != 0 %}
-<a class="form-submit" style="text-align:center;width: 2000px;" href="/forum/{{topic["id"]}}/new">Create Thread</a>
+<a class="form-submit-underline" style="text-align:center;width: 2000px;" href="/forum/{{topic["id"]}}/new">Create Thread</a>
 {% endif %}
 
 {% for post in posts %}

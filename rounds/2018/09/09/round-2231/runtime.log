@@ -1,0 +1,396 @@
+[2018-09-09 20:03:57.338] Starting up round ID 2231.
+[2018-09-09 20:03:57.338] -------------------------
+[2018-09-09 20:03:58.455] Initialized Database subsystem within 0 seconds!
+[2018-09-09 20:03:58.455] Initialized Blackbox subsystem within 0 seconds!
+[2018-09-09 20:03:58.455] Initialized Server Tasks subsystem within 0 seconds!
+[2018-09-09 20:03:58.456] Initialized Input subsystem within 0 seconds!
+[2018-09-09 20:03:58.511] Initialized Research subsystem within 0.1 seconds!
+[2018-09-09 20:03:58.519] Initialized Events subsystem within 0 seconds!
+[2018-09-09 20:03:58.525] Initialized Jobs subsystem within 0 seconds!
+[2018-09-09 20:03:58.527] Initialized Quirks subsystem within 0 seconds!
+[2018-09-09 20:03:58.533] Initialized Ticker subsystem within 0 seconds!
+[2018-09-09 20:03:58.534] Loading Box Station...
+[2018-09-09 20:04:04.911] Loaded Station in 6.4s!
+[2018-09-09 20:04:09.419] Loaded Lavaland in 3.9s!
+[2018-09-09 20:04:30.712] Ruin loader finished with 0 left to spend.
+[2018-09-09 20:04:35.517] Ruin loader finished with 0 left to spend.
+[2018-09-09 20:04:37.734] Initialized Mapping subsystem within 39.2 seconds!
+[2018-09-09 20:04:37.883] Initialized Networks subsystem within 0 seconds!
+[2018-09-09 20:06:21.753] Initialized Atoms subsystem within 103.9 seconds!
+[2018-09-09 20:06:21.783] Initialized Language subsystem within 0 seconds!
+[2018-09-09 20:06:22.330] Initialized Machines subsystem within 0.6 seconds!
+[2018-09-09 20:06:22.539] Initialized Circuit subsystem within 0.1 seconds!
+[2018-09-09 20:06:22.541] Initialized Disease subsystem within 0 seconds!
+[2018-09-09 20:06:22.541] Initialized Medals subsystem within 0 seconds!
+[2018-09-09 20:06:22.542] Initialized Night Shift subsystem within 0 seconds!
+[2018-09-09 20:06:22.542] Initialized Parallax subsystem within 0 seconds!
+[2018-09-09 20:06:22.696] Initialized Traumas subsystem within 0.1 seconds!
+[2018-09-09 20:06:22.697] Initialized Weather subsystem within 0 seconds!
+[2018-09-09 20:06:37.396] ## WARNING: There are 3 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+[2018-09-09 20:06:39.576] ## WARNING: HEY! LISTEN! 2 seconds were wasted processing 3 turf(s) (connected to 21177 other turfs) with atmos differences at round start.
+[2018-09-09 20:06:40.901] Initialized Atmospherics subsystem within 18.3 seconds!
+[2018-09-09 20:06:40.921] Initialized Minimap subsystem within 0 seconds!
+[2018-09-09 20:06:43.405] Initialized Assets subsystem within 2.5 seconds!
+[2018-09-09 20:07:03.425] Initialized Icon Smoothing subsystem within 20 seconds!
+[2018-09-09 20:07:06.379] Initialized Overlay subsystem within 2.9 seconds!
+[2018-09-09 20:07:06.380] Initialized XKeyScore subsystem within 0 seconds!
+[2018-09-09 20:07:06.384] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-09-09 20:07:36.176] runtime error: list index out of bounds
+[2018-09-09 20:07:36.176] proc name: fire (/datum/controller/subsystem/lighting/fire)
+[2018-09-09 20:07:36.177]   source file: lighting.dm,36
+[2018-09-09 20:07:36.177]   usr: null
+[2018-09-09 20:07:36.177]   src: Lighting (/datum/controller/subsystem/lighting)
+[2018-09-09 20:07:36.177]   call stack:
+[2018-09-09 20:07:36.177] Lighting (/datum/controller/subsystem/lighting): fire(0, 1)
+[2018-09-09 20:07:36.177] Lighting (/datum/controller/subsystem/lighting): Initialize(724263)
+[2018-09-09 20:07:36.177] Master (/datum/controller/master): Initialize(10, 0)
+[2018-09-09 20:07:36.177] 
+[2018-09-09 20:07:36.177] Initialized Lighting subsystem within 29.8 seconds!
+[2018-09-09 20:07:46.888] Initialized Shuttle subsystem within 10.7 seconds!
+[2018-09-09 20:07:46.939] Initialized Squeak subsystem within 0.1 seconds!
+[2018-09-09 20:07:46.941] Initialized Pathfinder subsystem within 0 seconds!
+[2018-09-09 20:07:47.004] Loaded 23 engraved messages on map Box Station
+[2018-09-09 20:07:47.034] Initialized Persistence subsystem within 0.1 seconds!
+[2018-09-09 20:07:47.035] Initializations complete within 228.6 seconds!
+[2018-09-09 20:09:06.161] Game start took 6.9s
+[2018-09-09 20:30:41.433] runtime error: The grille taking damage after deletion
+[2018-09-09 20:30:41.433] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-09 20:30:41.433]   source file: unsorted.dm,1164
+[2018-09-09 20:30:41.433]   usr: null
+[2018-09-09 20:30:41.433]   src: the grille (/obj/structure/grille)
+[2018-09-09 20:30:41.433]   src.loc: null
+[2018-09-09 20:30:41.433]   call stack:
+[2018-09-09 20:30:41.433] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-09-09 20:30:41.433] the grille (/obj/structure/grille): take damage(7, "brute", "melee", 1, null, 0)
+[2018-09-09 20:30:41.433] the grille (/obj/structure/grille): take damage(7, "brute", "melee", 1, null)
+[2018-09-09 20:30:41.433] the grille (/obj/structure/grille): attack animal(the goliath (/mob/living/simple_animal/hostile/asteroid/goliath/beast/tendril))
+[2018-09-09 20:30:41.433] the goliath (/mob/living/simple_animal/hostile/asteroid/goliath/beast/tendril): DestroyObjectsInDirection(1)
+[2018-09-09 20:30:41.433] the goliath (/mob/living/simple_animal/hostile/asteroid/goliath/beast/tendril): DestroyPathToTarget()
+[2018-09-09 20:30:41.433] the goliath (/mob/living/simple_animal/hostile/asteroid/goliath/beast/tendril): handle automated action()
+[2018-09-09 20:30:41.433] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-09-09 20:30:41.433] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-09-09 20:30:41.433] Master (/datum/controller/master): RunQueue()
+[2018-09-09 20:30:41.433] Master (/datum/controller/master): Loop()
+[2018-09-09 20:30:41.433] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-09 20:30:41.433] 
+[2018-09-09 20:34:27.574] runtime error: Cannot read null.fingerprintslast
+[2018-09-09 20:34:27.574] proc name: on reaction (/datum/chemical_reaction/reagent_explosion/on_reaction)
+[2018-09-09 20:34:27.574]   source file: pyrotechnics.dm,13
+[2018-09-09 20:34:27.574]   usr: Lara Black (/mob/living/carbon/human)
+[2018-09-09 20:34:27.574]   src: Explosion (/datum/chemical_reaction/reagent_explosion/potassium_explosion)
+[2018-09-09 20:34:27.574]   usr.loc: the floor (140,123,2) (/turf/open/floor/plasteel/whiteblue/side)
+[2018-09-09 20:34:27.574]   call stack:
+[2018-09-09 20:34:27.574] Explosion (/datum/chemical_reaction/reagent_explosion/potassium_explosion): on reaction(/datum/reagents (/datum/reagents), 10)
+[2018-09-09 20:34:27.574] /datum/reagents (/datum/reagents): handle reactions()
+[2018-09-09 20:34:27.574] /datum/reagents (/datum/reagents): add reagent("potassium", 10, null, 300, 0)
+[2018-09-09 20:34:27.574] the chem dispenser (/obj/machinery/chem_dispenser): emp act(2)
+[2018-09-09 20:34:27.574] empulse(the floor (140,123,2) (/turf/open/floor/plasteel/whiteblue/side), 2, 5, 1)
+[2018-09-09 20:34:27.574] Dissonant Shriek (/obj/effect/proc_holder/changeling/dissonant_shriek): sting action(Lara Black (/mob/living/carbon/human), null)
+[2018-09-09 20:34:27.574] Dissonant Shriek (/obj/effect/proc_holder/changeling/dissonant_shriek): try to sting(Lara Black (/mob/living/carbon/human), null)
+[2018-09-09 20:34:27.574] Dissonant Shriek (/obj/effect/proc_holder/changeling/dissonant_shriek): Click("Changeling", "statwindow.stat", "icon-x=0;icon-y=0;left=1")
+[2018-09-09 20:34:27.574] Bilary (/client): Click(Dissonant Shriek (/obj/effect/proc_holder/changeling/dissonant_shriek), "Changeling", "statwindow.stat", "icon-x=0;icon-y=0;left=1")
+[2018-09-09 20:34:27.574] 
+[2018-09-09 20:35:31.501] ### ListVarEdit by GreenTea98: /obj/item/gun/ballistic/revolver/doublebarrel attack_verb: =
+[2018-09-09 20:35:41.969] ### ListVarEdit by GreenTea98: /obj/item/gun/ballistic/revolver/doublebarrel attack_verb: struck=doinke
+[2018-09-09 20:35:50.537] ### ListVarEdit by GreenTea98: /obj/item/gun/ballistic/revolver/doublebarrel attack_verb: doinke=doinked
+[2018-09-09 20:36:02.415] ### ListVarEdit by GreenTea98: /obj/item/gun/ballistic/revolver/doublebarrel attack_verb: hit=yeeted upon
+[2018-09-09 20:39:49.129] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-09-09 20:39:49.129] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-09 20:39:49.129]   source file: unsorted.dm,1164
+[2018-09-09 20:39:49.129]   usr: (src)
+[2018-09-09 20:39:49.129]   src: Jetra Norlan (/mob/living/carbon/human)
+[2018-09-09 20:39:49.129]   src.loc: the volcanic floor (41,145,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
+[2018-09-09 20:39:49.129]   call stack:
+[2018-09-09 20:39:49.129] Jetra Norlan (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-09-09 20:39:49.129] Jetra Norlan (/mob/living/carbon/human): log message("(LOCAL): mouse is dying", 1536, null, 1)
+[2018-09-09 20:39:49.129] Jetra Norlan (/mob/living/carbon/human): log message("(LOCAL): mouse is dying", 1536, null, 1)
+[2018-09-09 20:39:49.129] AzlanonPc (/client): LOOC("mouse is dying")
+[2018-09-09 20:39:49.129] 
+[2018-09-09 20:40:29.412] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-09 20:40:29.412] proc name: stack trace (/proc/stack_trace)
+[2018-09-09 20:40:29.412]   source file: unsorted.dm,1161
+[2018-09-09 20:40:29.412]   usr: Tyron Jamal (/mob/living/carbon/human)
+[2018-09-09 20:40:29.412]   src: null
+[2018-09-09 20:40:29.412]   usr.loc: the emergency closet (/obj/structure/closet/emcloset)
+[2018-09-09 20:40:29.412]   call stack:
+[2018-09-09 20:40:29.412] stack trace("addtimer called with a callbac...")
+[2018-09-09 20:40:29.412] addtimer(/datum/callback (/datum/callback), 0, 1)
+[2018-09-09 20:40:29.412] /datum/component/decal/blood (/datum/component/decal/blood): apply(null)
+[2018-09-09 20:40:29.412] /datum/component/decal/blood (/datum/component/decal/blood): Initialize(null, null, null, 2, null, 3.2, null)
+[2018-09-09 20:40:29.412] /datum/component/decal/blood (/datum/component/decal/blood): Initialize(null, null, null, 2, null, 3.2)
+[2018-09-09 20:40:29.412] /datum/component/decal/blood (/datum/component/decal/blood): New(the left arm (/obj/item/bodypart/l_arm))
+[2018-09-09 20:40:29.412] the left arm (/obj/item/bodypart/l_arm): AddComponent(the left arm (/obj/item/bodypart/l_arm))
+[2018-09-09 20:40:29.412] the left arm (/obj/item/bodypart/l_arm): LoadComponent(/datum/component/decal/blood (/datum/component/decal/blood))
+[2018-09-09 20:40:29.412] /datum/component/forensics (/datum/component/forensics): check blood()
+[2018-09-09 20:40:29.412] /datum/component/forensics (/datum/component/forensics): Initialize(null, null, /list (/list), null)
+[2018-09-09 20:40:29.412] /datum/component/forensics (/datum/component/forensics): New(the left arm (/obj/item/bodypart/l_arm), null, null, /list (/list))
+[2018-09-09 20:40:29.412] the left arm (/obj/item/bodypart/l_arm): AddComponent(the left arm (/obj/item/bodypart/l_arm), null, null, /list (/list))
+[2018-09-09 20:40:29.412] the left arm (/obj/item/bodypart/l_arm): add blood DNA(/list (/list))
+[2018-09-09 20:40:29.412] the left arm (/obj/item/bodypart/l_arm): add mob blood(Lara Black (/mob/living/carbon/human))
+[2018-09-09 20:40:29.412] the left arm (/obj/item/bodypart/l_arm): dismember("brute")
+[2018-09-09 20:40:29.412] Lara Black (/mob/living/carbon/human): ex act(2, null, null)
+[2018-09-09 20:40:29.412] the floor (155,128,2) (/turf/open/floor/plasteel): contents explosion(2, null)
+[2018-09-09 20:40:29.412] the floor (155,128,2) (/turf/open/floor/plasteel): ex act(2, null)
+[2018-09-09 20:40:29.412] the floor (155,128,2) (/turf/open/floor/plasteel): ex act(2, null)
+[2018-09-09 20:40:29.412] /datum/explosion (/datum/explosion): New(space (154,128,2) (/turf/open/space), 1, 2, 4, 0, 1, 1, 0, 0, 1)
+[2018-09-09 20:40:29.412] 
+[2018-09-09 20:40:29.854] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-09 20:40:29.854] proc name: stack trace (/proc/stack_trace)
+[2018-09-09 20:40:29.854]   source file: unsorted.dm,1161
+[2018-09-09 20:40:29.854]   usr: Tyron Jamal (/mob/living/carbon/human)
+[2018-09-09 20:40:29.854]   src: null
+[2018-09-09 20:40:29.854]   usr.loc: the emergency closet (/obj/structure/closet/emcloset)
+[2018-09-09 20:40:29.854]   call stack:
+[2018-09-09 20:40:29.854] stack trace("addtimer called with a callbac...")
+[2018-09-09 20:40:29.854] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-09 20:40:29.854] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-09 20:40:29.854] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-09 20:40:29.854] 
+[2018-09-09 20:40:30.907] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-09 20:40:30.907] proc name: stack trace (/proc/stack_trace)
+[2018-09-09 20:40:30.907]   source file: unsorted.dm,1161
+[2018-09-09 20:40:30.907]   usr: Tyron Jamal (/mob/living/carbon/human)
+[2018-09-09 20:40:30.907]   src: null
+[2018-09-09 20:40:30.907]   usr.loc: the emergency closet (/obj/structure/closet/emcloset)
+[2018-09-09 20:40:30.907]   call stack:
+[2018-09-09 20:40:30.907] stack trace("addtimer called with a callbac...")
+[2018-09-09 20:40:30.907] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-09 20:40:30.907] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-09 20:40:30.907] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-09 20:40:30.907] 
+[2018-09-09 20:41:34.214] runtime error: undefined proc or verb /client/log talk().
+[2018-09-09 20:41:34.214] 
+[2018-09-09 20:41:34.214] proc name: log directed talk (/proc/log_directed_talk)
+[2018-09-09 20:41:34.214]   source file: atoms.dm,637
+[2018-09-09 20:41:34.214]   usr: Helps-The-Station (/mob/dead/observer)
+[2018-09-09 20:41:34.214]   src: null
+[2018-09-09 20:41:34.214]   usr.loc: the plating (151,101,2) (/turf/open/floor/plating)
+[2018-09-09 20:41:34.214]   call stack:
+[2018-09-09 20:41:34.214] log directed talk(GreenTea98 (/client), Moth Salts (/mob/living/carbon/human), "Good Moff", 1024, "reply")
+[2018-09-09 20:41:34.214] GreenTea98 (/client): admin headset message(Moth Salts (/mob/living/carbon/human), "CentCom")
+[2018-09-09 20:41:34.214] GreenTea98 (/client): Headset Message(Moth Salts (/mob/living/carbon/human))
+[2018-09-09 20:41:34.214] 
+[2018-09-09 21:08:25.543] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-09 21:08:25.543] proc name: stack trace (/proc/stack_trace)
+[2018-09-09 21:08:25.543]   source file: unsorted.dm,1161
+[2018-09-09 21:08:25.543]   usr: Jetra Norlan (/mob/living/carbon/human)
+[2018-09-09 21:08:25.543]   src: null
+[2018-09-09 21:08:25.543]   usr.loc: the floor (188,121,2) (/turf/open/floor/plasteel/white)
+[2018-09-09 21:08:25.543]   call stack:
+[2018-09-09 21:08:25.543] stack trace("addtimer called with a callbac...")
+[2018-09-09 21:08:25.543] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-09 21:08:25.543] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-09 21:08:25.543] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-09 21:08:25.543] 
+[2018-09-09 21:08:25.544] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-09 21:08:25.544] proc name: stack trace (/proc/stack_trace)
+[2018-09-09 21:08:25.544]   source file: unsorted.dm,1161
+[2018-09-09 21:08:25.544]   usr: Jetra Norlan (/mob/living/carbon/human)
+[2018-09-09 21:08:25.544]   src: null
+[2018-09-09 21:08:25.544]   usr.loc: the floor (188,121,2) (/turf/open/floor/plasteel/white)
+[2018-09-09 21:08:25.544]   call stack:
+[2018-09-09 21:08:25.544] stack trace("addtimer called with a callbac...")
+[2018-09-09 21:08:25.544] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-09 21:08:25.544] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-09 21:08:25.544] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-09 21:08:25.544] 
+[2018-09-09 21:11:04.489] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-09 21:11:04.489] proc name: stack trace (/proc/stack_trace)
+[2018-09-09 21:11:04.489]   source file: unsorted.dm,1161
+[2018-09-09 21:11:04.489]   usr: the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos)
+[2018-09-09 21:11:04.489]   src: null
+[2018-09-09 21:11:04.489]   usr.loc: the floor (116,164,2) (/turf/open/floor/plasteel/red/corner)
+[2018-09-09 21:11:04.489]   call stack:
+[2018-09-09 21:11:04.489] stack trace("addtimer called with a callbac...")
+[2018-09-09 21:11:04.489] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-09 21:11:04.489] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-09 21:11:04.489] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-09 21:11:04.489] 
+[2018-09-09 21:11:05.012] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-09 21:11:05.012] proc name: stack trace (/proc/stack_trace)
+[2018-09-09 21:11:05.012]   source file: unsorted.dm,1161
+[2018-09-09 21:11:05.012]   usr: the chaos magicarp (/mob/living/simple_animal/hostile/carp/ranged/chaos)
+[2018-09-09 21:11:05.012]   src: null
+[2018-09-09 21:11:05.012]   usr.loc: the floor (116,164,2) (/turf/open/floor/plasteel/red/corner)
+[2018-09-09 21:11:05.012]   call stack:
+[2018-09-09 21:11:05.012] stack trace("addtimer called with a callbac...")
+[2018-09-09 21:11:05.012] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-09 21:11:05.012] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-09 21:11:05.012] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-09 21:11:05.012] 
+[2018-09-09 21:20:28.533] runtime error: Cannot execute null.log message().
+[2018-09-09 21:20:28.533] proc name: log combat (/proc/log_combat)
+[2018-09-09 21:20:28.533]   source file: atoms.dm,667
+[2018-09-09 21:20:28.533]   usr: 0
+[2018-09-09 21:20:28.533]   src: null
+[2018-09-09 21:20:28.533]   call stack:
+[2018-09-09 21:20:28.533] log combat(null, Unknown (/mob/living/carbon/human), "shot", the electrode (/obj/item/projectile/energy/electrode), null)
+[2018-09-09 21:20:28.533] the electrode (/obj/item/projectile/energy/electrode): on hit(Unknown (/mob/living/carbon/human), 10)
+[2018-09-09 21:20:28.533] the electrode (/obj/item/projectile/energy/electrode): on hit(Unknown (/mob/living/carbon/human), 10)
+[2018-09-09 21:20:28.533] Unknown (/mob/living/carbon/human): bullet act(the electrode (/obj/item/projectile/energy/electrode), "chest")
+[2018-09-09 21:20:28.533] Unknown (/mob/living/carbon/human): bullet act(the electrode (/obj/item/projectile/energy/electrode), "chest")
+[2018-09-09 21:20:28.533] the electrode (/obj/item/projectile/energy/electrode): Bump(Unknown (/mob/living/carbon/human))
+[2018-09-09 21:20:28.533] the plating (150,27,2) (/turf/open/floor/plating): Enter(the electrode (/obj/item/projectile/energy/electrode), the floor (150,28,2) (/turf/open/floor/plasteel/dark))
+[2018-09-09 21:20:28.533] the electrode (/obj/item/projectile/energy/electrode): Move(the plating (150,27,2) (/turf/open/floor/plating), 2)
+[2018-09-09 21:20:28.533] the electrode (/obj/item/projectile/energy/electrode): Move(the plating (150,27,2) (/turf/open/floor/plating), 2)
+[2018-09-09 21:20:28.533] the electrode (/obj/item/projectile/energy/electrode): pixel move(1, 0)
+[2018-09-09 21:20:28.533] the electrode (/obj/item/projectile/energy/electrode): process(1)
+[2018-09-09 21:20:28.533] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-09-09 21:20:28.533] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-09-09 21:20:28.533] Master (/datum/controller/master): RunQueue()
+[2018-09-09 21:20:28.533] Master (/datum/controller/master): Loop()
+[2018-09-09 21:20:28.533] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-09 21:20:28.533] 
+[2018-09-09 21:21:04.041] runtime error: Cannot execute null.log message().
+[2018-09-09 21:21:04.041] proc name: log combat (/proc/log_combat)
+[2018-09-09 21:21:04.041]   source file: atoms.dm,667
+[2018-09-09 21:21:04.041]   usr: 0
+[2018-09-09 21:21:04.041]   src: null
+[2018-09-09 21:21:04.041]   call stack:
+[2018-09-09 21:21:04.041] log combat(null, Unknown (/mob/living/carbon/human), "shot", the laser (/obj/item/projectile/beam/laser), null)
+[2018-09-09 21:21:04.041] the laser (/obj/item/projectile/beam/laser): on hit(Unknown (/mob/living/carbon/human), 30)
+[2018-09-09 21:21:04.041] the laser (/obj/item/projectile/beam/laser): on hit(Unknown (/mob/living/carbon/human), 30)
+[2018-09-09 21:21:04.041] Unknown (/mob/living/carbon/human): bullet act(the laser (/obj/item/projectile/beam/laser), "r_arm")
+[2018-09-09 21:21:04.041] Unknown (/mob/living/carbon/human): bullet act(the laser (/obj/item/projectile/beam/laser), "r_arm")
+[2018-09-09 21:21:04.041] the laser (/obj/item/projectile/beam/laser): Bump(Unknown (/mob/living/carbon/human))
+[2018-09-09 21:21:04.041] the floor (150,33,2) (/turf/open/floor/circuit): Enter(the laser (/obj/item/projectile/beam/laser), the floor (149,33,2) (/turf/open/floor/circuit))
+[2018-09-09 21:21:04.041] the laser (/obj/item/projectile/beam/laser): Move(the floor (150,33,2) (/turf/open/floor/circuit), 4)
+[2018-09-09 21:21:04.041] the laser (/obj/item/projectile/beam/laser): Move(the floor (150,33,2) (/turf/open/floor/circuit), 4)
+[2018-09-09 21:21:04.041] the laser (/obj/item/projectile/beam/laser): pixel move(1, 0)
+[2018-09-09 21:21:04.041] the laser (/obj/item/projectile/beam/laser): process(1)
+[2018-09-09 21:21:04.041] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-09-09 21:21:04.041] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-09-09 21:21:04.041] Master (/datum/controller/master): RunQueue()
+[2018-09-09 21:21:04.041] Master (/datum/controller/master): Loop()
+[2018-09-09 21:21:04.041] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-09 21:21:04.041] 
+[2018-09-09 21:21:04.047] runtime error: Cannot execute null.log message().
+[2018-09-09 21:21:04.047] proc name: log combat (/proc/log_combat)
+[2018-09-09 21:21:04.047]   source file: atoms.dm,667
+[2018-09-09 21:21:04.047]   usr: 0
+[2018-09-09 21:21:04.047]   src: null
+[2018-09-09 21:21:04.047]   call stack:
+[2018-09-09 21:21:04.047] log combat(null, Unknown (/mob/living/carbon/human), "shot", the laser (/obj/item/projectile/beam/laser), null)
+[2018-09-09 21:21:04.047] the laser (/obj/item/projectile/beam/laser): on hit(Unknown (/mob/living/carbon/human), 30)
+[2018-09-09 21:21:04.047] the laser (/obj/item/projectile/beam/laser): on hit(Unknown (/mob/living/carbon/human), 30)
+[2018-09-09 21:21:04.047] Unknown (/mob/living/carbon/human): bullet act(the laser (/obj/item/projectile/beam/laser), "chest")
+[2018-09-09 21:21:04.047] Unknown (/mob/living/carbon/human): bullet act(the laser (/obj/item/projectile/beam/laser), "chest")
+[2018-09-09 21:21:04.047] the laser (/obj/item/projectile/beam/laser): Bump(Unknown (/mob/living/carbon/human))
+[2018-09-09 21:21:04.047] the floor (150,33,2) (/turf/open/floor/circuit): Enter(the laser (/obj/item/projectile/beam/laser), the floor (151,33,2) (/turf/open/floor/circuit))
+[2018-09-09 21:21:04.047] the laser (/obj/item/projectile/beam/laser): Move(the floor (150,33,2) (/turf/open/floor/circuit), 8)
+[2018-09-09 21:21:04.047] the laser (/obj/item/projectile/beam/laser): Move(the floor (150,33,2) (/turf/open/floor/circuit), 8)
+[2018-09-09 21:21:04.047] the laser (/obj/item/projectile/beam/laser): pixel move(1, 0)
+[2018-09-09 21:21:04.047] the laser (/obj/item/projectile/beam/laser): process(1)
+[2018-09-09 21:21:04.047] Projectiles (/datum/controller/subsystem/processing/projectiles): fire(0)
+[2018-09-09 21:21:04.047] Projectiles (/datum/controller/subsystem/processing/projectiles): ignite(0)
+[2018-09-09 21:21:04.047] Master (/datum/controller/master): RunQueue()
+[2018-09-09 21:21:04.047] Master (/datum/controller/master): Loop()
+[2018-09-09 21:21:04.047] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-09 21:21:04.047] 
+[2018-09-09 21:31:34.888] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-09-09 21:31:34.889] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-09 21:31:34.889]   source file: unsorted.dm,1164
+[2018-09-09 21:31:34.889]   usr: (src)
+[2018-09-09 21:31:34.889]   src: Glass Golem (275) (/mob/living/carbon/human)
+[2018-09-09 21:31:34.889]   src.loc: the closet (/obj/structure/closet)
+[2018-09-09 21:31:34.889]   call stack:
+[2018-09-09 21:31:34.889] Glass Golem (275) (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-09-09 21:31:34.889] Glass Golem (275) (/mob/living/carbon/human): log message("(LOCAL): Jet", 1536, null, 1)
+[2018-09-09 21:31:34.889] Glass Golem (275) (/mob/living/carbon/human): log message("(LOCAL): Jet", 1536, null, 1)
+[2018-09-09 21:31:34.889] Juicy_Chicken (/client): LOOC("Jet")
+[2018-09-09 21:31:34.889] 
+[2018-09-09 21:31:39.640] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-09-09 21:31:39.640] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-09 21:31:39.640]   source file: unsorted.dm,1164
+[2018-09-09 21:31:39.640]   usr: (src)
+[2018-09-09 21:31:39.640]   src: Glass Golem (275) (/mob/living/carbon/human)
+[2018-09-09 21:31:39.640]   src.loc: the closet (/obj/structure/closet)
+[2018-09-09 21:31:39.640]   call stack:
+[2018-09-09 21:31:39.640] Glass Golem (275) (/mob/living/carbon/human): stack trace("Invalid individual logging typ...")
+[2018-09-09 21:31:39.640] Glass Golem (275) (/mob/living/carbon/human): log message("(LOCAL): how do you start off ...", 1536, null, 1)
+[2018-09-09 21:31:39.640] Glass Golem (275) (/mob/living/carbon/human): log message("(LOCAL): how do you start off ...", 1536, null, 1)
+[2018-09-09 21:31:39.640] Juicy_Chicken (/client): LOOC("how do you start off a vault d...")
+[2018-09-09 21:31:39.640] 
+[2018-09-09 21:31:52.575] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-09-09 21:31:52.575] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-09 21:31:52.575]   source file: unsorted.dm,1164
+[2018-09-09 21:31:52.575] 
+[2018-09-09 21:35:05.541] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-09-09 21:35:05.541] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-09 21:35:05.541]   source file: unsorted.dm,1164
+[2018-09-09 21:35:05.541] 
+[2018-09-09 21:35:14.033] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-09-09 21:35:14.034] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-09 21:35:14.034]   source file: unsorted.dm,1164
+[2018-09-09 21:35:14.034] 
+[2018-09-09 21:35:19.913] runtime error: Invalid individual logging type: 1536. Defaulting to 4096 (LOG_GAME).
+[2018-09-09 21:35:19.913] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-09 21:35:19.913]   source file: unsorted.dm,1164
+[2018-09-09 21:35:19.913] 
+[2018-09-09 21:35:20.309] Saved 26 engraved messages on map Box Station
+[2018-09-09 21:37:01.522] Shutting down Persistence subsystem...
+[2018-09-09 21:37:01.522] Shutting down Pathfinder subsystem...
+[2018-09-09 21:37:01.522] Shutting down Squeak subsystem...
+[2018-09-09 21:37:01.522] Shutting down Shuttle subsystem...
+[2018-09-09 21:37:01.522] Shutting down Lighting subsystem...
+[2018-09-09 21:37:01.522] Shutting down XKeyScore subsystem...
+[2018-09-09 21:37:01.522] Shutting down Sticky Ban subsystem...
+[2018-09-09 21:37:01.522] Shutting down Overlay subsystem...
+[2018-09-09 21:37:01.601] Shutting down Icon Smoothing subsystem...
+[2018-09-09 21:37:01.601] Shutting down Assets subsystem...
+[2018-09-09 21:37:01.601] Shutting down Minimap subsystem...
+[2018-09-09 21:37:01.601] Shutting down Atmospherics subsystem...
+[2018-09-09 21:37:01.601] Shutting down Wet floors subsystem...
+[2018-09-09 21:37:01.601] Shutting down Weather subsystem...
+[2018-09-09 21:37:01.601] Shutting down Vote subsystem...
+[2018-09-09 21:37:01.601] Shutting down Traumas subsystem...
+[2018-09-09 21:37:01.601] Shutting down Title Screen subsystem...
+[2018-09-09 21:37:01.603] Shutting down Time Tracking subsystem...
+[2018-09-09 21:37:01.603] Shutting down Throwing subsystem...
+[2018-09-09 21:37:01.603] Shutting down tgui subsystem...
+[2018-09-09 21:37:01.603] Shutting down Sun subsystem...
+[2018-09-09 21:37:01.603] Shutting down Space Drift subsystem...
+[2018-09-09 21:37:01.603] Shutting down Religion subsystem...
+[2018-09-09 21:37:01.603] Shutting down Radio subsystem...
+[2018-09-09 21:37:01.603] Shutting down Radiation subsystem...
+[2018-09-09 21:37:01.603] Shutting down Projectiles subsystem...
+[2018-09-09 21:37:01.603] Shutting down Processing subsystem...
+[2018-09-09 21:37:01.603] Shutting down Ping subsystem...
+[2018-09-09 21:37:01.603] Shutting down Parallax subsystem...
+[2018-09-09 21:37:01.603] Shutting down pAI subsystem...
+[2018-09-09 21:37:01.603] Shutting down Orbits subsystem...
+[2018-09-09 21:37:01.603] Shutting down Objects subsystem...
+[2018-09-09 21:37:01.603] Shutting down NPC Pool subsystem...
+[2018-09-09 21:37:01.603] Shutting down Night Shift subsystem...
+[2018-09-09 21:37:01.604] Shutting down Nanites subsystem...
+[2018-09-09 21:37:01.604] Shutting down Mood subsystem...
+[2018-09-09 21:37:01.604] Shutting down Mobs subsystem...
+[2018-09-09 21:37:01.604] Shutting down Medals subsystem...
+[2018-09-09 21:37:01.604] Shutting down Idling NPC Pool subsystem...
+[2018-09-09 21:37:01.604] Shutting down Fire Burning subsystem...
+[2018-09-09 21:37:01.604] Shutting down Fields subsystem...
+[2018-09-09 21:37:01.604] Shutting down Fast Processing subsystem...
+[2018-09-09 21:37:01.604] Shutting down Disease subsystem...
+[2018-09-09 21:37:01.604] Shutting down Datum Component System subsystem...
+[2018-09-09 21:37:01.604] Shutting down Communications subsystem...
+[2018-09-09 21:37:01.604] Shutting down Augury subsystem...
+[2018-09-09 21:37:01.604] Shutting down Acid subsystem...
+[2018-09-09 21:37:01.604] Shutting down Timer subsystem...
+[2018-09-09 21:37:01.604] Shutting down Circuit subsystem...
+[2018-09-09 21:37:01.604] Shutting down Machines subsystem...
+[2018-09-09 21:37:01.604] Shutting down Language subsystem...
+[2018-09-09 21:37:01.604] Shutting down Atoms subsystem...
+[2018-09-09 21:37:01.605] Shutting down Networks subsystem...
+[2018-09-09 21:37:01.605] Shutting down Mapping subsystem...
+[2018-09-09 21:37:01.605] Shutting down Ticker subsystem...
+[2018-09-09 21:37:01.886] Shutting down Quirks subsystem...
+[2018-09-09 21:37:01.886] Shutting down Jobs subsystem...
+[2018-09-09 21:37:01.886] Shutting down Events subsystem...
+[2018-09-09 21:37:01.886] Shutting down Research subsystem...
+[2018-09-09 21:37:01.887] Shutting down Input subsystem...
+[2018-09-09 21:37:01.887] Shutting down Server Tasks subsystem...
+[2018-09-09 21:37:01.887] Shutting down Blackbox subsystem...
+[2018-09-09 21:37:02.217] Shutting down Database subsystem...
+[2018-09-09 21:37:02.256] Shutting down Garbage subsystem...
+[2018-09-09 21:37:02.373] Shutdown complete
+[2018-09-09 21:37:02.373] World rebooted at 21:37:02

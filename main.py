@@ -271,6 +271,11 @@ def page_forum_post_pin(topic,thread,post):
     return redirect("/forum/"+str(topic)+"/"+str(thread))
 
 
+@app.route("/forum/leaderboard", methods=['GET'])
+def page_forum_leaderboard():
+    #return str([leader for leader in db.get_leaders(sort)])
+    return render_template("leaderboard.html", leaders=db.get_leaders("love"), unit="love")
+
 @app.route("/heart/<int:topic>/<int:thread>/<int:post>")
 def page_heart(topic,thread,post):
     postdt = db.get_post(post)

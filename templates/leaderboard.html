@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block title %}Forum{% endblock %}
+{% block active %}forum{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="/static/css/forums.css">
+<meta property="og:title" content="BeeStation - Forum - Leaderboard" />
+<meta property="og:description" content="BeeStation is a newbie friendly Space Station 13 server. The server was created in march 2018. We like to put a fun touch to the rounds to make a better experience." />
+{% endblock %}
+
+{% block content %}
+
+<div class="post-title"><a href="/forum">Forum</a> / <a href="/forum/leaderboard">Leaderboard</a></div><div style="float: right; padding-right: 30px;" class="post-title">{% if "username" in session %}<a href="/logout">Logout</a>{% else %}<a href="/login">Login</a> or <a href="/signup">Signup</a>{% endif %}</div><br><br>
+
+
+{% for leader in leaders %}
+<div class="topic">
+  <div class="topic-title">{{loop.index}}. {{leader["username"]}}</div><div class="topic-title" style="float:right;">{{leader["score"]}} {{unit}}</div>
+</div>
+{% endfor %}
+
+{% endblock %}

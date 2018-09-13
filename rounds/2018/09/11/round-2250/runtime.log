@@ -1,0 +1,374 @@
+[2018-09-11 10:30:59.713] Starting up round ID 2250.
+[2018-09-11 10:30:59.713] -------------------------
+[2018-09-11 10:31:01.696] Initialized Database subsystem within 0 seconds!
+[2018-09-11 10:31:01.697] Initialized Blackbox subsystem within 0 seconds!
+[2018-09-11 10:31:01.697] Initialized Server Tasks subsystem within 0 seconds!
+[2018-09-11 10:31:01.697] Initialized Input subsystem within 0 seconds!
+[2018-09-11 10:31:01.698] Initialized Vis contents overlays subsystem within 0 seconds!
+[2018-09-11 10:31:01.748] Initialized Research subsystem within 0.1 seconds!
+[2018-09-11 10:31:01.756] Initialized Events subsystem within 0 seconds!
+[2018-09-11 10:31:01.764] Initialized Jobs subsystem within 0 seconds!
+[2018-09-11 10:31:01.766] Initialized Quirks subsystem within 0 seconds!
+[2018-09-11 10:31:01.779] Initialized Ticker subsystem within 0 seconds!
+[2018-09-11 10:31:01.780] Loading Box Station...
+[2018-09-11 10:31:05.799] Loaded Station in 4s!
+[2018-09-11 10:31:08.273] Loaded Lavaland in 2.2s!
+[2018-09-11 10:31:10.394] Ruin loader finished with 0 left to spend.
+[2018-09-11 10:31:11.625] Ruin loader finished with 0 left to spend.
+[2018-09-11 10:31:13.017] Initialized Mapping subsystem within 11.3 seconds!
+[2018-09-11 10:31:13.029] Initialized Networks subsystem within 0 seconds!
+[2018-09-11 10:32:02.924] Initialized Atoms subsystem within 49.9 seconds!
+[2018-09-11 10:32:02.941] Initialized Language subsystem within 0 seconds!
+[2018-09-11 10:32:03.242] Initialized Machines subsystem within 0.3 seconds!
+[2018-09-11 10:32:03.295] Initialized Circuit subsystem within 0 seconds!
+[2018-09-11 10:32:03.297] Initialized Disease subsystem within 0 seconds!
+[2018-09-11 10:32:03.297] Initialized Medals subsystem within 0 seconds!
+[2018-09-11 10:32:03.297] Initialized Night Shift subsystem within 0 seconds!
+[2018-09-11 10:32:03.297] Initialized Parallax subsystem within 0 seconds!
+[2018-09-11 10:32:03.443] Initialized Traumas subsystem within 0.2 seconds!
+[2018-09-11 10:32:03.444] Initialized Weather subsystem within 0 seconds!
+[2018-09-11 10:32:08.533] ## WARNING: There are 1 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+[2018-09-11 10:32:08.538] ## WARNING: HEY! LISTEN! 0 seconds were wasted processing 1 turf(s) (connected to 2 other turfs) with atmos differences at round start.
+[2018-09-11 10:32:09.014] Initialized Atmospherics subsystem within 5.6 seconds!
+[2018-09-11 10:32:11.161] Initialized Assets subsystem within 2.1 seconds!
+[2018-09-11 10:32:17.566] Initialized Icon Smoothing subsystem within 6.4 seconds!
+[2018-09-11 10:32:19.057] Initialized Overlay subsystem within 1.5 seconds!
+[2018-09-11 10:32:19.058] Initialized XKeyScore subsystem within 0 seconds!
+[2018-09-11 10:32:19.062] Initialized Sticky Ban subsystem within 0 seconds!
+[2018-09-11 10:32:30.240] Initialized Lighting subsystem within 11.2 seconds!
+[2018-09-11 10:32:36.118] Initialized Shuttle subsystem within 5.9 seconds!
+[2018-09-11 10:32:36.154] Initialized Squeak subsystem within 0 seconds!
+[2018-09-11 10:32:36.156] Initialized Pathfinder subsystem within 0 seconds!
+[2018-09-11 10:32:36.214] Loaded 27 engraved messages on map Box Station
+[2018-09-11 10:32:36.246] Initialized Persistence subsystem within 0.1 seconds!
+[2018-09-11 10:32:36.248] Initializations complete within 94.6 seconds!
+[2018-09-11 10:34:03.303] Game start took 0.6s
+[2018-09-11 12:26:08.977] runtime error: The grille taking damage after deletion
+[2018-09-11 12:26:08.977] proc name: stack trace (/datum/proc/stack_trace)
+[2018-09-11 12:26:08.977]   source file: unsorted.dm,1164
+[2018-09-11 12:26:08.977]   usr: null
+[2018-09-11 12:26:08.977]   src: the grille (/obj/structure/grille)
+[2018-09-11 12:26:08.977]   src.loc: null
+[2018-09-11 12:26:08.977]   call stack:
+[2018-09-11 12:26:08.977] the grille (/obj/structure/grille): stack trace("The grille taking damage after...")
+[2018-09-11 12:26:08.977] the grille (/obj/structure/grille): take damage(6, "brute", "melee", 1, null, 0)
+[2018-09-11 12:26:08.977] the grille (/obj/structure/grille): take damage(6, "brute", "melee", 1, null)
+[2018-09-11 12:26:08.977] the grille (/obj/structure/grille): attack animal(the space carp (/mob/living/simple_animal/hostile/carp))
+[2018-09-11 12:26:08.977] the space carp (/mob/living/simple_animal/hostile/carp): DestroyObjectsInDirection(2)
+[2018-09-11 12:26:08.977] the space carp (/mob/living/simple_animal/hostile/carp): DestroyPathToTarget()
+[2018-09-11 12:26:08.977] the space carp (/mob/living/simple_animal/hostile/carp): handle automated action()
+[2018-09-11 12:26:08.977] NPC Pool (/datum/controller/subsystem/npcpool): fire(0)
+[2018-09-11 12:26:08.977] NPC Pool (/datum/controller/subsystem/npcpool): ignite(0)
+[2018-09-11 12:26:08.977] Master (/datum/controller/master): RunQueue()
+[2018-09-11 12:26:08.977] Master (/datum/controller/master): Loop()
+[2018-09-11 12:26:08.977] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 12:26:08.977] 
+[2018-09-11 13:44:33.227] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-11 13:44:33.228] proc name: stack trace (/proc/stack_trace)
+[2018-09-11 13:44:33.228]   source file: unsorted.dm,1161
+[2018-09-11 13:44:33.228]   usr: Tyson Reade (/mob/living/carbon/human)
+[2018-09-11 13:44:33.228]   src: null
+[2018-09-11 13:44:33.228]   usr.loc: the plating (137,125,2) (/turf/open/floor/plating)
+[2018-09-11 13:44:33.228]   call stack:
+[2018-09-11 13:44:33.228] stack trace("addtimer called with a callbac...")
+[2018-09-11 13:44:33.228] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-11 13:44:33.228] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-11 13:44:33.228] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-11 13:44:33.228] 
+[2018-09-11 13:44:33.727] runtime error: addtimer called with a callback assigned to a qdeleted object. In the future such timers will not be supported and may refuse to run or run with a 0 wait
+[2018-09-11 13:44:33.727] proc name: stack trace (/proc/stack_trace)
+[2018-09-11 13:44:33.727]   source file: unsorted.dm,1161
+[2018-09-11 13:44:33.727]   usr: Tyson Reade (/mob/living/carbon/human)
+[2018-09-11 13:44:33.727]   src: null
+[2018-09-11 13:44:33.727]   usr.loc: the plating (137,125,2) (/turf/open/floor/plating)
+[2018-09-11 13:44:33.727]   call stack:
+[2018-09-11 13:44:33.727] stack trace("addtimer called with a callbac...")
+[2018-09-11 13:44:33.727] addtimer(/datum/callback (/datum/callback), 20, 0)
+[2018-09-11 13:44:33.727] /datum/effect_system/spark_spr... (/datum/effect_system/spark_spread): generate effect()
+[2018-09-11 13:44:33.727] world: ImmediateInvokeAsync(/datum/effect_system/spark_spr... (/datum/effect_system/spark_spread), /datum/effect_system/proc/gene... (/datum/effect_system/proc/generate_effect))
+[2018-09-11 13:44:33.727] 
+[2018-09-11 14:42:21.921] runtime error: Undefined operation: /list (/list) / 0.0130133
+[2018-09-11 14:42:21.921] proc name: react (/datum/gas_reaction/miaster/react)
+[2018-09-11 14:42:21.921]   source file: reactions.dm,453
+[2018-09-11 14:42:21.921]   usr: null
+[2018-09-11 14:42:21.921]   src: Dry Heat Sterilization (/datum/gas_reaction/miaster)
+[2018-09-11 14:42:21.921]   call stack:
+[2018-09-11 14:42:21.921] Dry Heat Sterilization (/datum/gas_reaction/miaster): react(/datum/gas_mixture/turf (/datum/gas_mixture/turf), the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:21.921] /datum/gas_mixture/turf (/datum/gas_mixture/turf): react(the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:21.921] the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum): process cell(29703)
+[2018-09-11 14:42:21.921] Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[2018-09-11 14:42:21.921] Atmospherics (/datum/controller/subsystem/air): fire(0)
+[2018-09-11 14:42:21.921] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-11 14:42:21.921] Master (/datum/controller/master): RunQueue()
+[2018-09-11 14:42:21.921] Master (/datum/controller/master): Loop()
+[2018-09-11 14:42:21.921] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 14:42:21.921] 
+[2018-09-11 14:42:22.386] runtime error: Undefined operation: /list (/list) / 0.0140575
+[2018-09-11 14:42:22.386] proc name: react (/datum/gas_reaction/miaster/react)
+[2018-09-11 14:42:22.386]   source file: reactions.dm,453
+[2018-09-11 14:42:22.386]   usr: null
+[2018-09-11 14:42:22.386]   src: Dry Heat Sterilization (/datum/gas_reaction/miaster)
+[2018-09-11 14:42:22.386]   call stack:
+[2018-09-11 14:42:22.386] Dry Heat Sterilization (/datum/gas_reaction/miaster): react(/datum/gas_mixture/turf (/datum/gas_mixture/turf), the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:22.386] /datum/gas_mixture/turf (/datum/gas_mixture/turf): react(the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:22.386] the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum): process cell(29704)
+[2018-09-11 14:42:22.386] Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[2018-09-11 14:42:22.386] Atmospherics (/datum/controller/subsystem/air): fire(0)
+[2018-09-11 14:42:22.386] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-11 14:42:22.386] Master (/datum/controller/master): RunQueue()
+[2018-09-11 14:42:22.386] Master (/datum/controller/master): Loop()
+[2018-09-11 14:42:22.386] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 14:42:22.386] 
+[2018-09-11 14:42:22.886] runtime error: Undefined operation: /list (/list) / 0.0151623
+[2018-09-11 14:42:22.886] proc name: react (/datum/gas_reaction/miaster/react)
+[2018-09-11 14:42:22.886]   source file: reactions.dm,453
+[2018-09-11 14:42:22.886]   usr: null
+[2018-09-11 14:42:22.886]   src: Dry Heat Sterilization (/datum/gas_reaction/miaster)
+[2018-09-11 14:42:22.886]   call stack:
+[2018-09-11 14:42:22.886] Dry Heat Sterilization (/datum/gas_reaction/miaster): react(/datum/gas_mixture/turf (/datum/gas_mixture/turf), the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:22.886] /datum/gas_mixture/turf (/datum/gas_mixture/turf): react(the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:22.886] the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum): process cell(29705)
+[2018-09-11 14:42:22.886] Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[2018-09-11 14:42:22.886] Atmospherics (/datum/controller/subsystem/air): fire(0)
+[2018-09-11 14:42:22.886] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-11 14:42:22.886] Master (/datum/controller/master): RunQueue()
+[2018-09-11 14:42:22.886] Master (/datum/controller/master): Loop()
+[2018-09-11 14:42:22.886] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 14:42:22.886] 
+[2018-09-11 14:42:23.388] runtime error: Undefined operation: /list (/list) / 0.0163278
+[2018-09-11 14:42:23.388] proc name: react (/datum/gas_reaction/miaster/react)
+[2018-09-11 14:42:23.388]   source file: reactions.dm,453
+[2018-09-11 14:42:23.388]   usr: null
+[2018-09-11 14:42:23.388]   src: Dry Heat Sterilization (/datum/gas_reaction/miaster)
+[2018-09-11 14:42:23.388]   call stack:
+[2018-09-11 14:42:23.388] Dry Heat Sterilization (/datum/gas_reaction/miaster): react(/datum/gas_mixture/turf (/datum/gas_mixture/turf), the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:23.388] /datum/gas_mixture/turf (/datum/gas_mixture/turf): react(the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:23.388] the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum): process cell(29706)
+[2018-09-11 14:42:23.388] Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[2018-09-11 14:42:23.388] Atmospherics (/datum/controller/subsystem/air): fire(0)
+[2018-09-11 14:42:23.388] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-11 14:42:23.388] Master (/datum/controller/master): RunQueue()
+[2018-09-11 14:42:23.388] Master (/datum/controller/master): Loop()
+[2018-09-11 14:42:23.388] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 14:42:23.388] 
+[2018-09-11 14:42:23.886] runtime error: Undefined operation: /list (/list) / 0.0175541
+[2018-09-11 14:42:23.886] proc name: react (/datum/gas_reaction/miaster/react)
+[2018-09-11 14:42:23.886]   source file: reactions.dm,453
+[2018-09-11 14:42:23.886]   usr: null
+[2018-09-11 14:42:23.886]   src: Dry Heat Sterilization (/datum/gas_reaction/miaster)
+[2018-09-11 14:42:23.886]   call stack:
+[2018-09-11 14:42:23.886] Dry Heat Sterilization (/datum/gas_reaction/miaster): react(/datum/gas_mixture/turf (/datum/gas_mixture/turf), the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:23.886] /datum/gas_mixture/turf (/datum/gas_mixture/turf): react(the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:23.886] the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum): process cell(29707)
+[2018-09-11 14:42:23.886] Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[2018-09-11 14:42:23.886] Atmospherics (/datum/controller/subsystem/air): fire(0)
+[2018-09-11 14:42:23.886] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-11 14:42:23.886] Master (/datum/controller/master): RunQueue()
+[2018-09-11 14:42:23.886] Master (/datum/controller/master): Loop()
+[2018-09-11 14:42:23.886] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 14:42:23.886] 
+[2018-09-11 14:42:24.393] runtime error: Undefined operation: /list (/list) / 0.0188411
+[2018-09-11 14:42:24.393] proc name: react (/datum/gas_reaction/miaster/react)
+[2018-09-11 14:42:24.393]   source file: reactions.dm,453
+[2018-09-11 14:42:24.393]   usr: null
+[2018-09-11 14:42:24.393]   src: Dry Heat Sterilization (/datum/gas_reaction/miaster)
+[2018-09-11 14:42:24.393]   call stack:
+[2018-09-11 14:42:24.393] Dry Heat Sterilization (/datum/gas_reaction/miaster): react(/datum/gas_mixture/turf (/datum/gas_mixture/turf), the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:24.393] /datum/gas_mixture/turf (/datum/gas_mixture/turf): react(the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:24.393] the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum): process cell(29708)
+[2018-09-11 14:42:24.393] Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[2018-09-11 14:42:24.393] Atmospherics (/datum/controller/subsystem/air): fire(0)
+[2018-09-11 14:42:24.393] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-11 14:42:24.393] Master (/datum/controller/master): RunQueue()
+[2018-09-11 14:42:24.393] Master (/datum/controller/master): Loop()
+[2018-09-11 14:42:24.393] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 14:42:24.393] 
+[2018-09-11 14:42:24.925] runtime error: Undefined operation: /list (/list) / 0.0201886
+[2018-09-11 14:42:24.925] proc name: react (/datum/gas_reaction/miaster/react)
+[2018-09-11 14:42:24.925]   source file: reactions.dm,453
+[2018-09-11 14:42:24.925]   usr: null
+[2018-09-11 14:42:24.925]   src: Dry Heat Sterilization (/datum/gas_reaction/miaster)
+[2018-09-11 14:42:24.925]   call stack:
+[2018-09-11 14:42:24.925] Dry Heat Sterilization (/datum/gas_reaction/miaster): react(/datum/gas_mixture/turf (/datum/gas_mixture/turf), the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:24.925] /datum/gas_mixture/turf (/datum/gas_mixture/turf): react(the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:24.925] the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum): process cell(29709)
+[2018-09-11 14:42:24.925] Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[2018-09-11 14:42:24.925] Atmospherics (/datum/controller/subsystem/air): fire(0)
+[2018-09-11 14:42:24.925] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-11 14:42:24.925] Master (/datum/controller/master): RunQueue()
+[2018-09-11 14:42:24.925] Master (/datum/controller/master): Loop()
+[2018-09-11 14:42:24.925] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 14:42:24.925] 
+[2018-09-11 14:42:25.415] runtime error: Undefined operation: /list (/list) / 0.0215963
+[2018-09-11 14:42:25.415] proc name: react (/datum/gas_reaction/miaster/react)
+[2018-09-11 14:42:25.415]   source file: reactions.dm,453
+[2018-09-11 14:42:25.415]   usr: null
+[2018-09-11 14:42:25.415]   src: Dry Heat Sterilization (/datum/gas_reaction/miaster)
+[2018-09-11 14:42:25.415]   call stack:
+[2018-09-11 14:42:25.415] Dry Heat Sterilization (/datum/gas_reaction/miaster): react(/datum/gas_mixture/turf (/datum/gas_mixture/turf), the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:25.415] /datum/gas_mixture/turf (/datum/gas_mixture/turf): react(the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:25.415] the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum): process cell(29710)
+[2018-09-11 14:42:25.415] Atmospherics (/datum/controller/subsystem/air): process active turfs(1)
+[2018-09-11 14:42:25.415] Atmospherics (/datum/controller/subsystem/air): fire(1)
+[2018-09-11 14:42:25.415] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-11 14:42:25.415] Master (/datum/controller/master): RunQueue()
+[2018-09-11 14:42:25.415] Master (/datum/controller/master): Loop()
+[2018-09-11 14:42:25.415] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 14:42:25.415] 
+[2018-09-11 14:42:25.883] runtime error: Undefined operation: /list (/list) / 0.0230638
+[2018-09-11 14:42:25.883] proc name: react (/datum/gas_reaction/miaster/react)
+[2018-09-11 14:42:25.883]   source file: reactions.dm,453
+[2018-09-11 14:42:25.883]   usr: null
+[2018-09-11 14:42:25.883]   src: Dry Heat Sterilization (/datum/gas_reaction/miaster)
+[2018-09-11 14:42:25.883]   call stack:
+[2018-09-11 14:42:25.883] Dry Heat Sterilization (/datum/gas_reaction/miaster): react(/datum/gas_mixture/turf (/datum/gas_mixture/turf), the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:25.883] /datum/gas_mixture/turf (/datum/gas_mixture/turf): react(the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:25.883] the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum): process cell(29711)
+[2018-09-11 14:42:25.883] Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[2018-09-11 14:42:25.883] Atmospherics (/datum/controller/subsystem/air): fire(0)
+[2018-09-11 14:42:25.883] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-11 14:42:25.883] Master (/datum/controller/master): RunQueue()
+[2018-09-11 14:42:25.883] Master (/datum/controller/master): Loop()
+[2018-09-11 14:42:25.883] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 14:42:25.883] 
+[2018-09-11 14:42:26.486] runtime error: Undefined operation: /list (/list) / 0.0245905
+[2018-09-11 14:42:26.486] proc name: react (/datum/gas_reaction/miaster/react)
+[2018-09-11 14:42:26.486]   source file: reactions.dm,453
+[2018-09-11 14:42:26.486]   usr: null
+[2018-09-11 14:42:26.486]   src: Dry Heat Sterilization (/datum/gas_reaction/miaster)
+[2018-09-11 14:42:26.486]   call stack:
+[2018-09-11 14:42:26.486] Dry Heat Sterilization (/datum/gas_reaction/miaster): react(/datum/gas_mixture/turf (/datum/gas_mixture/turf), the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:26.486] /datum/gas_mixture/turf (/datum/gas_mixture/turf): react(the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:26.486] the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum): process cell(29712)
+[2018-09-11 14:42:26.486] Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[2018-09-11 14:42:26.486] Atmospherics (/datum/controller/subsystem/air): fire(0)
+[2018-09-11 14:42:26.486] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-11 14:42:26.486] Master (/datum/controller/master): RunQueue()
+[2018-09-11 14:42:26.486] Master (/datum/controller/master): Loop()
+[2018-09-11 14:42:26.486] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 14:42:26.486] 
+[2018-09-11 14:42:26.883] runtime error: Undefined operation: /list (/list) / 0.026176
+[2018-09-11 14:42:26.883] proc name: react (/datum/gas_reaction/miaster/react)
+[2018-09-11 14:42:26.883]   source file: reactions.dm,453
+[2018-09-11 14:42:26.883]   usr: null
+[2018-09-11 14:42:26.883]   src: Dry Heat Sterilization (/datum/gas_reaction/miaster)
+[2018-09-11 14:42:26.883]   call stack:
+[2018-09-11 14:42:26.883] Dry Heat Sterilization (/datum/gas_reaction/miaster): react(/datum/gas_mixture/turf (/datum/gas_mixture/turf), the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:26.883] /datum/gas_mixture/turf (/datum/gas_mixture/turf): react(the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:26.883] the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum): process cell(29713)
+[2018-09-11 14:42:26.883] Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[2018-09-11 14:42:26.883] Atmospherics (/datum/controller/subsystem/air): fire(0)
+[2018-09-11 14:42:26.883] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-11 14:42:26.883] Master (/datum/controller/master): RunQueue()
+[2018-09-11 14:42:26.883] Master (/datum/controller/master): Loop()
+[2018-09-11 14:42:26.883] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 14:42:26.883] 
+[2018-09-11 14:42:27.380] runtime error: Undefined operation: /list (/list) / 0.0278195
+[2018-09-11 14:42:27.380] proc name: react (/datum/gas_reaction/miaster/react)
+[2018-09-11 14:42:27.380]   source file: reactions.dm,453
+[2018-09-11 14:42:27.380]   usr: null
+[2018-09-11 14:42:27.380]   src: Dry Heat Sterilization (/datum/gas_reaction/miaster)
+[2018-09-11 14:42:27.381]   call stack:
+[2018-09-11 14:42:27.381] Dry Heat Sterilization (/datum/gas_reaction/miaster): react(/datum/gas_mixture/turf (/datum/gas_mixture/turf), the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:27.381] /datum/gas_mixture/turf (/datum/gas_mixture/turf): react(the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:27.381] the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum): process cell(29714)
+[2018-09-11 14:42:27.381] Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[2018-09-11 14:42:27.381] Atmospherics (/datum/controller/subsystem/air): fire(0)
+[2018-09-11 14:42:27.381] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-11 14:42:27.381] Master (/datum/controller/master): RunQueue()
+[2018-09-11 14:42:27.381] Master (/datum/controller/master): Loop()
+[2018-09-11 14:42:27.381] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 14:42:27.381] 
+[2018-09-11 14:42:27.887] runtime error: Undefined operation: /list (/list) / 0.0295204
+[2018-09-11 14:42:27.887] proc name: react (/datum/gas_reaction/miaster/react)
+[2018-09-11 14:42:27.887]   source file: reactions.dm,453
+[2018-09-11 14:42:27.887]   usr: null
+[2018-09-11 14:42:27.887]   src: Dry Heat Sterilization (/datum/gas_reaction/miaster)
+[2018-09-11 14:42:27.887]   call stack:
+[2018-09-11 14:42:27.887] Dry Heat Sterilization (/datum/gas_reaction/miaster): react(/datum/gas_mixture/turf (/datum/gas_mixture/turf), the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:27.887] /datum/gas_mixture/turf (/datum/gas_mixture/turf): react(the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum))
+[2018-09-11 14:42:27.887] the vacuum floor (140,98,2) (/turf/open/floor/engine/vacuum): process cell(29715)
+[2018-09-11 14:42:27.887] Atmospherics (/datum/controller/subsystem/air): process active turfs(0)
+[2018-09-11 14:42:27.887] Atmospherics (/datum/controller/subsystem/air): fire(0)
+[2018-09-11 14:42:27.887] Atmospherics (/datum/controller/subsystem/air): ignite(1)
+[2018-09-11 14:42:27.887] Master (/datum/controller/master): RunQueue()
+[2018-09-11 14:42:27.887] Master (/datum/controller/master): Loop()
+[2018-09-11 14:42:27.887] Master (/datum/controller/master): StartProcessing(0)
+[2018-09-11 14:42:27.887] 
+[2018-09-11 14:54:58.035] runtime error: Cannot execute null.user unbuckle mob().
+[2018-09-11 14:54:58.035] proc name: resist buckle (/mob/living/carbon/resist_buckle)
+[2018-09-11 14:54:58.035]   source file: carbon.dm,271
+[2018-09-11 14:54:58.035]   usr: (src)
+[2018-09-11 14:54:58.035]   src: Dennis Ida (/mob/living/carbon/human)
+[2018-09-11 14:54:58.035]   src.loc: the floor (157,136,2) (/turf/open/floor/plasteel)
+[2018-09-11 14:54:58.035]   call stack:
+[2018-09-11 14:54:58.035] Dennis Ida (/mob/living/carbon/human): resist buckle()
+[2018-09-11 14:54:58.035] Buckled (/obj/screen/alert/restrained/buckled): Click(the floor (157,135,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=16;icon-y=16;left=1;scr...")
+[2018-09-11 14:54:58.035] Goodie_boy (/client): Click(Buckled (/obj/screen/alert/restrained/buckled), the floor (157,135,2) (/turf/open/floor/plasteel), "mapwindow.map", "icon-x=16;icon-y=16;left=1;scr...")
+[2018-09-11 14:54:58.035] 
+[2018-09-11 15:05:48.206] Shutting down Persistence subsystem...
+[2018-09-11 15:05:48.207] Shutting down Pathfinder subsystem...
+[2018-09-11 15:05:48.207] Shutting down Squeak subsystem...
+[2018-09-11 15:05:48.207] Shutting down Shuttle subsystem...
+[2018-09-11 15:05:48.207] Shutting down Lighting subsystem...
+[2018-09-11 15:05:48.207] Shutting down XKeyScore subsystem...
+[2018-09-11 15:05:48.207] Shutting down Sticky Ban subsystem...
+[2018-09-11 15:05:48.207] Shutting down Overlay subsystem...
+[2018-09-11 15:05:48.260] Shutting down Icon Smoothing subsystem...
+[2018-09-11 15:05:48.260] Shutting down Assets subsystem...
+[2018-09-11 15:05:48.260] Shutting down Atmospherics subsystem...
+[2018-09-11 15:05:48.260] Shutting down Wet floors subsystem...
+[2018-09-11 15:05:48.260] Shutting down Weather subsystem...
+[2018-09-11 15:05:48.261] Shutting down Vote subsystem...
+[2018-09-11 15:05:48.261] Shutting down Traumas subsystem...
+[2018-09-11 15:05:48.261] Shutting down Title Screen subsystem...
+[2018-09-11 15:05:48.261] Shutting down Time Tracking subsystem...
+[2018-09-11 15:05:48.261] Shutting down Throwing subsystem...
+[2018-09-11 15:05:48.261] Shutting down tgui subsystem...
+[2018-09-11 15:05:48.261] Shutting down Sun subsystem...
+[2018-09-11 15:05:48.262] Shutting down Space Drift subsystem...
+[2018-09-11 15:05:48.262] Shutting down Religion subsystem...
+[2018-09-11 15:05:48.262] Shutting down Radio subsystem...
+[2018-09-11 15:05:48.262] Shutting down Radiation subsystem...
+[2018-09-11 15:05:48.262] Shutting down Projectiles subsystem...
+[2018-09-11 15:05:48.262] Shutting down Processing subsystem...
+[2018-09-11 15:05:48.262] Shutting down Ping subsystem...
+[2018-09-11 15:05:48.262] Shutting down Parallax subsystem...
+[2018-09-11 15:05:48.262] Shutting down pAI subsystem...
+[2018-09-11 15:05:48.262] Shutting down Orbits subsystem...
+[2018-09-11 15:05:48.262] Shutting down Objects subsystem...
+[2018-09-11 15:05:48.262] Shutting down NPC Pool subsystem...
+[2018-09-11 15:05:48.262] Shutting down Night Shift subsystem...
+[2018-09-11 15:05:48.262] Shutting down Nanites subsystem...
+[2018-09-11 15:05:48.262] Shutting down Mood subsystem...
+[2018-09-11 15:05:48.262] Shutting down Mobs subsystem...
+[2018-09-11 15:05:48.262] Shutting down Medals subsystem...
+[2018-09-11 15:05:48.263] Shutting down Idling NPC Pool subsystem...
+[2018-09-11 15:05:48.263] Shutting down Fire Burning subsystem...
+[2018-09-11 15:05:48.263] Shutting down Fields subsystem...
+[2018-09-11 15:05:48.263] Shutting down Fast Processing subsystem...
+[2018-09-11 15:05:48.263] Shutting down Disease subsystem...
+[2018-09-11 15:05:48.263] Shutting down Datum Component System subsystem...
+[2018-09-11 15:05:48.263] Shutting down Communications subsystem...
+[2018-09-11 15:05:48.263] Shutting down Augury subsystem...
+[2018-09-11 15:05:48.263] Shutting down Acid subsystem...
+[2018-09-11 15:05:48.263] Shutting down Timer subsystem...
+[2018-09-11 15:05:48.263] Shutting down Circuit subsystem...
+[2018-09-11 15:05:48.263] Shutting down Machines subsystem...
+[2018-09-11 15:05:48.263] Shutting down Language subsystem...
+[2018-09-11 15:05:48.263] Shutting down Atoms subsystem...
+[2018-09-11 15:05:48.263] Shutting down Networks subsystem...
+[2018-09-11 15:05:48.264] Shutting down Mapping subsystem...
+[2018-09-11 15:05:48.264] Shutting down Ticker subsystem...
+[2018-09-11 15:05:48.636] Shutting down Quirks subsystem...
+[2018-09-11 15:05:48.636] Shutting down Jobs subsystem...
+[2018-09-11 15:05:48.637] Shutting down Events subsystem...
+[2018-09-11 15:05:48.637] Shutting down Research subsystem...
+[2018-09-11 15:05:48.637] Shutting down Vis contents overlays subsystem...
+[2018-09-11 15:05:48.637] Shutting down Input subsystem...
+[2018-09-11 15:05:48.637] Shutting down Server Tasks subsystem...
+[2018-09-11 15:05:48.637] Shutting down Blackbox subsystem...
+[2018-09-11 15:05:48.757] Shutting down Database subsystem...
+[2018-09-11 15:05:48.795] Shutting down Garbage subsystem...
+[2018-09-11 15:05:48.882] Shutdown complete
+[2018-09-11 15:05:48.882] World rebooted at 15:05:48

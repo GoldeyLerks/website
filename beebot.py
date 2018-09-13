@@ -239,12 +239,13 @@ async def on_message(message):
                 chatbot.train(CONVERSATION[channel.id])
                 del CONVERSATION[channel.id]
 
-        elif random.randint(1,30) == 10 and m.content != "" and m.content != None and not message.mentions and not m.author.bot:
+        elif random.randint(1,25) == 10 and m.content != "" and m.content != None and not message.mentions and not m.author.bot:
             response = chatbot.get_response(m.content)
             if len(str(response)) > 500:
                 return
-            await c.trigger_typing()
-            await c.send(content=response)
+            if not "@everyone" in str(response) and not "@here" in str(response):
+                await c.trigger_typing()
+                await c.send(content=response)
 
             if channel.id in CONVERSATION:
                 CONVERSATION[channel.id] = CONVERSATION[channel.id] + [response]

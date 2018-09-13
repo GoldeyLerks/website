@@ -82,6 +82,10 @@ def get_post_reply_count(post):
 def add_user(username,password,email):
     users.insert_one({"ckey": None, "username":username,"password":password,"email":email,"id":users.count()+1,"score": 0,"admin": False, "avatar": None,"ts": datetime.utcnow()})
 
+def get_leaders(sort):
+    if sort == "love":
+        return users.find({}).sort("score", -1).limit(50)
+
 def get_users():
     return users.find({})
 
